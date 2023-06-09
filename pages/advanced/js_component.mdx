@@ -1,17 +1,9 @@
 # JS Component
 
-```js filename="demo.js" {3} copy
-let a = 1;
-
-console.log(a);
-```
-
-## Component
-
 import { useState } from "react";
 
 {/* Import CSS modules */}
-import styles from '../components/counters.module.css'
+import styles from '../../components/counters.module.css'
 
 export const Counter = () => {
   const [count, setCount] = useState(0);
@@ -28,6 +20,6 @@ export const Counter = () => {
 
 ## External Component
 
-import Counters from "../components/counters";
+import Counters from "../../components/counters";
 
 <Counters />
