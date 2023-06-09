@@ -1,6 +1,5 @@
 .next
 node_modules
+node_modules/
 package-lock.json
 .DS_Store
-!node_modules/nextra/
-!node_modules/nextra-theme-docs/
