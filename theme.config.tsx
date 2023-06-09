@@ -2,7 +2,7 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>Cardano Library</span>,
   project: {
     link: "https://github.com/tuckpuck/cardanolibrary.co",
   },
@@ -12,7 +12,7 @@ const config: DocsThemeConfig = {
   docsRepositoryBase:
     "https://github.com/tuckpuck/cardanolibrary.co/blob/main/",
   footer: {
-    text: "Nextra Docs Template",
+    text: "Cardano Library",
   },
 };
 
