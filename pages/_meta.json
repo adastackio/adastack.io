@@ -1,6 +1,7 @@
 {
   "index": "Introduction",
-  "cardano_explorer": "Blockchain Explorers",
+  "blockchainexplorers": "Blockchain Explorers",
+  "stakepoolexplorers": "Stake Pool Explorers",
   "demos": "Demos",
   "about": {
     "title": "About",
