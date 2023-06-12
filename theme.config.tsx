@@ -2,17 +2,16 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>Cardano Library</span>,
+  logo: <span>adastack</span>,
   project: {
-    link: "https://github.com/tuckpuck/cardanolibrary.co",
+    link: "https://github.com/tuckpuck/adastack",
   },
   chat: {
     link: "https://discord.com",
   },
-  docsRepositoryBase:
-    "https://github.com/tuckpuck/cardanolibrary.co/blob/main/",
+  docsRepositoryBase: "https://github.com/tuckpuck/adastack/blob/main/",
   footer: {
-    text: "Cardano Library",
+    text: "adastack",
   },
 };
 

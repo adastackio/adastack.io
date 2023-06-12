@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuckpuck/cardanolibrary.co.git"
+    "url": "git+https://github.com/tuckpuck/adastack.git"
   },
   "author": "Tucker Triggs <tuckertriggs@pm.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tuckpuck/cardanolibrary.co/issues/"
+    "url": "https://github.com/tuckpuck/adastack/issues/"
   },
-  "homepage": "https://github.com/tuckpuck/cardanolibrary.co#readme",
+  "homepage": "https://github.com/tuckpuck/adastack#readme",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",
