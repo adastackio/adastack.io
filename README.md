@@ -1,23 +1,24 @@
-# Nextra Docs Template 
+# Adastack
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+## Local Development
+
+1. Clone the repository
+
+2. Run `pnpm i` to install the dependencies.
+
+3. Run `pnpm dev` to start the development server and visit localhost:3000.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Documentation
+
+This project is based on the [Nextra theme](https://nextra.site).
+
+[**Read the docs →**](https://nextra.site/docs)
 
 [**Live Demo →**](https://nextra-docs-template.vercel.app)
 
 [![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
