@@ -1,15 +1,10 @@
 {
   "index": "Home",
   "ecosystem": "Ecosystem",
+  "development": "Development",
   "about": {
     "title": "About",
     "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
   },
   "markdown": {
     "title": "Markdown",
