@@ -4,6 +4,9 @@
     "title": "About",
     "type": "page"
   },
+  "---": {
+    "type": "separator"
+  },
   "explorers": "Explorers",
   "development": "Development",
   "markdown": {
