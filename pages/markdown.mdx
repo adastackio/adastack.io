@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from '../components/counters.module.css'
+import { Callout } from 'nextra/components'
 
 # Full Markdown Example
 
@@ -85,6 +86,8 @@ Start numbering with offset:
 
 Inline `code`
 
+Inlined syntax highlighting `let x = 1{:jsx}`
+
 Indented code
 
     // Some comments
@@ -108,11 +111,77 @@ var foo = function (bar) {
 console.log(foo(5));
 ```
 
-```js filename="demo.js" {3} copy
+Copy button and file name
+```js filename="demo.js" copy
 let a = 1;
 
 console.log(a);
 ```
+
+Highlight specific lines
+```js {1,4-5}
+import { useState } from 'react'
+ 
+function Counter() {
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount(count + 1)}>{count}</button>
+}
+```
+
+Highlight substring 
+```js /useState/
+import { useState } from 'react'
+ 
+function Counter() {
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount(count + 1)}>{count}</button>
+}
+```
+
+Line numbers
+```js showLineNumbers
+import { useState } from 'react'
+ 
+function Counter() {
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount(count + 1)}>{count}</button>
+}
+```
+
+ANSI highlighting
+```ansi
+[0m [0;32m✓[0m [0;2msrc/[0mindex[0;2m.test.ts (1)[0m
+  [0;2m Test Files [0m [0;1;32m1 passed[0;98m (1)[0m
+  [0;2m      Tests [0m [0;1;32m1 passed[0;98m (1)[0m
+  [0;2m   Start at [0m 23:32:41
+  [0;2m   Duration [0m 11ms
+  [42;1;39;0m PASS [0;32m Waiting for file changes...[0m
+         [0;2mpress [0;1mh[0;2m to show help, press [0;1mq[0;2m to quit
+```
+
+
+## Checklist
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+## Callouts
+<Callout emoji="👾">
+  **Space Invaders** is a 1978 shoot 'em up arcade game developed by Tomohiro
+  Nishikado.
+</Callout>
+
+<Callout type="info" emoji="ℹ️">
+  Today is Friday.
+</Callout>
+
+<Callout type="warning" emoji="⚠️">
+  This API will be deprecated soon.
+</Callout>
+
+<Callout type="error" emoji="️🚫">
+  This is a dangerous feature that can cause everything to explode.
+</Callout>
 
 ## Tables
 
@@ -129,6 +198,27 @@ Right aligned columns
 |   data | path to data files to supply the data that will be passed into templates. |
 | engine |    engine to be used for processing templates. Handlebars is the default. |
 |    ext |                                      extension to be used for dest files. |
+
+## Dynamic Tables
+<table>
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>Flag</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      { country: 'France', flag: '🇫🇷' },
+      { country: 'Ukraine', flag: '🇺🇦' }
+    ].map(item => (
+      <tr key={item.country}>
+        <td>{item.country}</td>
+        <td>{item.flag}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
 
 ## Links
 
