@@ -1,9 +1,6 @@
 {
-  "index": "Introduction",
-  "blockchainexplorers": "Blockchain Explorers",
-  "stakepoolexplorers": "Stake Pool Explorers",
-  "nftexplorers": "NFT Explorers",
-  "demos": "Demos",
+  "index": "Home",
+  "ecosystem": "Ecosystem",
   "about": {
     "title": "About",
     "type": "page"
@@ -13,5 +10,9 @@
     "type": "page",
     "href": "https://twitter.com/shuding_",
     "newWindow": true
+  },
+  "markdown": {
+    "title": "Markdown",
+    "display": "hidden"
   }
 }
