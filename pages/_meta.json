@@ -1,11 +1,11 @@
 {
   "index": "Home",
-  "explorers": "Explorers",
-  "development": "Development",
-  "about": {
+    "about": {
     "title": "About",
     "type": "page"
   },
+  "explorers": "Explorers",
+  "development": "Development",
   "markdown": {
     "title": "Markdown",
     "display": "hidden"
