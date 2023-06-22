@@ -15,7 +15,7 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps() {
 		return {
-			titleTemplate: 'Adastack.io | %s',
+			titleTemplate: '%s | Adastack.io',
 		};
 	},
 };
