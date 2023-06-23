@@ -6,9 +6,9 @@ const config: DocsThemeConfig = {
   project: {
     link: "https://github.com/tuckpuck/adastack",
   },
-  chat: {
-		link: 'https://twitter.com/adastack_io',
-	},
+  // chat: {
+	// 	link: 'https://twitter.com/adastack_io',
+	// },
   docsRepositoryBase: "https://github.com/tuckpuck/adastack/blob/main/",
   footer: {
     text: "adastack",
