@@ -1,6 +1,9 @@
 import { useState } from "react";
 import styles from '../components/counters.module.css'
 import { Callout } from 'nextra/components'
+import { Tab, Tabs } from 'nextra-theme-docs'
+import { Steps } from 'nextra-theme-docs'
+
 
 # Full Markdown Example
 
@@ -171,15 +174,15 @@ ANSI highlighting
   Nishikado.
 </Callout>
 
-<Callout type="info" emoji="ℹ️">
+<Callout type="info" emoji="ℹ︝">
   Today is Friday.
 </Callout>
 
-<Callout type="warning" emoji="⚠️">
+<Callout type="warning" emoji="⚠︝">
   This API will be deprecated soon.
 </Callout>
 
-<Callout type="error" emoji="️🚫">
+<Callout type="error" emoji="︝🚫">
   This is a dangerous feature that can cause everything to explode.
 </Callout>
 
@@ -308,7 +311,29 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 _here be dragons_
 :::
 
-### JS Component
+## Tabs
+<Tabs items={['pnpm', 'npm', 'yarn']}>
+  <Tab>**pnpm**: Fast, disk space efficient package manager.</Tab>
+  <Tab>
+    **npm** is a package manager for the JavaScript programming language.
+  </Tab>
+  <Tab>**Yarn** is a software packaging system.</Tab>
+</Tabs>
+
+## Steps
+<Steps>
+ 
+### Step 1
+ 
+Contents for step 1.
+ 
+### Step 2
+ 
+Contents for step 2.
+ 
+</Steps>
+
+## JS Component
 
 export const Counter = () => {
   const [count, setCount] = useState(0);
@@ -323,13 +348,13 @@ export const Counter = () => {
 
 <Counter />
 
-### External Component
+## External Component
 
 import Counters from "../components/counters";
 
 <Counters />
 
-### Mermaid
+## Mermaid
 
 ```mermaid
 graph TD;
