@@ -3,6 +3,7 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 
 
 const config: DocsThemeConfig = {
+  search: {placeholder: "Search Tools"},
   logo: (
     <>
       <svg width="24" height="24" viewBox="0 0 24 24">
@@ -32,7 +33,35 @@ const config: DocsThemeConfig = {
   // },
   docsRepositoryBase: "https://github.com/tuckpuck/adastack/blob/main/",
   footer: {
-    text: "adastack",
+    text: (
+      <span>
+        MIT {new Date().getFullYear()} ©{' '}
+      </span>
+    )
+  },
+  // banner: {
+  //   key: '2.0-release',
+  //   text: (
+  //     <a href="https://nextra.site" target="_blank">
+  //       🎉 Nextra 2.0 is released. Read more →
+  //     </a>
+  //   )
+  // },
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+    toggleButton: true,
+    titleComponent({ title, type }) {
+      if (title === 'Explorers') {
+        return <>🧭 {title}</>
+      }
+      if (title === 'Development') {
+        return <>💻 {title}</>
+      }
+      return <>{title}</>
+    }
+  },
+  toc: {
+    float: true
   },
   useNextSeoProps() {
 		return {
