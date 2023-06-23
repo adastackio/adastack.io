@@ -3,6 +3,19 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 
 
 const config: DocsThemeConfig = {
+  useNextSeoProps() {
+		return {
+			titleTemplate: '%s | Adastack.io',
+		};
+	},
+  // banner: {
+  //   key: '2.0-release',
+  //   text: (
+  //     <a href="https://nextra.site" target="_blank">
+  //       🎉 Nextra 2.0 is released. Read more →
+  //     </a>
+  //   )
+  // },
   search: {placeholder: "Search Tools"},
   logo: (
     <>
@@ -31,7 +44,22 @@ const config: DocsThemeConfig = {
   //     </svg>
   //   )
   // },
-  docsRepositoryBase: "https://github.com/tuckpuck/adastack/blob/main/",
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+    toggleButton: true,
+    // titleComponent({ title, type }) {
+    //   if (title === 'Explorers') {
+    //     return <>🧭 {title}</>
+    //   }
+    //   if (title === 'Development') {
+    //     return <>💻 {title}</>
+    //   }
+    //   return <>{title}</>
+    // }
+  },
+  toc: {
+    float: true
+  },
   footer: {
     text: (
       <span>
@@ -39,35 +67,7 @@ const config: DocsThemeConfig = {
       </span>
     )
   },
-  // banner: {
-  //   key: '2.0-release',
-  //   text: (
-  //     <a href="https://nextra.site" target="_blank">
-  //       🎉 Nextra 2.0 is released. Read more →
-  //     </a>
-  //   )
-  // },
-  sidebar: {
-    defaultMenuCollapseLevel: 1,
-    toggleButton: true,
-    titleComponent({ title, type }) {
-      if (title === 'Explorers') {
-        return <>🧭 {title}</>
-      }
-      if (title === 'Development') {
-        return <>💻 {title}</>
-      }
-      return <>{title}</>
-    }
-  },
-  toc: {
-    float: true
-  },
-  useNextSeoProps() {
-		return {
-			titleTemplate: '%s | Adastack.io',
-		};
-	},
+  docsRepositoryBase: "https://github.com/tuckpuck/adastack/blob/main/"
 };
 
 
