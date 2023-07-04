@@ -14,5 +14,9 @@
   "markdown": {
     "title": "Markdown",
     "display": "hidden"
+  },
+  "suggestatool": {
+    "title": "Suggest a Tool",
+    "display": "hidden"
   }
 }
