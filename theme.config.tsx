@@ -48,7 +48,7 @@ const config: DocsThemeConfig = {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
     // titleComponent({ title, type }) {
-    //   if (title === 'Explorers') {
+    //   if (title === 'Explore') {
     //     return <>🧭 {title}</>
     //   }
     //   if (title === 'Development') {
