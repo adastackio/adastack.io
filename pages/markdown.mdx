@@ -4,7 +4,7 @@ import { Tab, Tabs } from 'nextra-theme-docs'
 import { Steps } from 'nextra-theme-docs'
 import { useState } from 'react'
 
-# Full Markdown Example
+# Website Elements
 
 # h1 Heading
 
@@ -42,10 +42,6 @@ test.. test... test..... test?..... test!....
 
 **This is bold text**
 
-**This is bold text**
-
-_This is italic text_
-
 _This is italic text_
 
 ~~Strikethrough~~
@@ -70,6 +66,11 @@ Unordered
     - Nulla volutpat aliquam velit
 - Very easy!
 
++ Wow
++ Amazing
+* Cool
+* So cool
+
 Ordered
 
 1. Lorem ipsum dolor sit amet
@@ -92,10 +93,12 @@ Inlined syntax highlighting `let x = 1{:jsx}`
 
 Indented code
 
+```
     // Some comments
     line 1 of code
     line 2 of code
     line 3 of code
+```
 
 Block code "fences"
 
@@ -228,7 +231,10 @@ Right aligned columns
 
 [link with title](http://nodeca.github.io/pica/demo/ "title text!")
 
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
+Autoconverted links:
+https://github.com/nodeca/pica
+
+www.nextjs.org
 
 ## Images
 
@@ -242,6 +248,72 @@ Like links, Images also have a footnote style syntax
 With a reference later in the document defining the URL location:
 
 [id]: https://octodex.github.com/images/dojocat.jpg "The Dojocat"
+
+## Tabs
+<Tabs items={['pnpm', 'npm', 'yarn']}>
+  <Tab>**pnpm**: Fast, disk space efficient package manager.</Tab>
+  <Tab>
+    **npm** is a package manager for the JavaScript programming language.
+  </Tab>
+  <Tab>**Yarn** is a software packaging system.</Tab>
+</Tabs>
+
+## Steps
+<Steps>
+ 
+### Step 1
+ 
+Contents for step 1.
+ 
+### Step 2
+ 
+Contents for step 2.
+ 
+</Steps>
+
+## JS Component
+
+export const Counter = () => {
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <button onClick={() => setCount(count + 1)} className={styles.counter}>
+        Clicked {count} times
+      </button>
+    </div>
+  );
+};
+
+<Counter />
+
+## External Component
+
+import Counters from "../components/counters";
+
+<Counters />
+
+## Mermaid
+
+```mermaid
+graph TD;
+subgraph AA [Consumers]
+A[Mobile app];
+B[Web app];
+C[Node.js client];
+end
+subgraph BB [Services]
+E[REST API];
+F[GraphQL API];
+G[SOAP API];
+end
+Z[GraphQL API];
+A --> Z;
+B --> Z;
+C --> Z;
+Z --> E;
+Z --> F;
+Z --> G;
+```
 
 ## Plugins
 
@@ -309,69 +381,3 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 ::: warning
 _here be dragons_
 :::
-
-## Tabs
-<Tabs items={['pnpm', 'npm', 'yarn']}>
-  <Tab>**pnpm**: Fast, disk space efficient package manager.</Tab>
-  <Tab>
-    **npm** is a package manager for the JavaScript programming language.
-  </Tab>
-  <Tab>**Yarn** is a software packaging system.</Tab>
-</Tabs>
-
-## Steps
-<Steps>
- 
-### Step 1
- 
-Contents for step 1.
- 
-### Step 2
- 
-Contents for step 2.
- 
-</Steps>
-
-## JS Component
-
-export const Counter = () => {
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-      <button onClick={() => setCount(count + 1)} className={styles.counter}>
-        Clicked {count} times
-      </button>
-    </div>
-  );
-};
-
-<Counter />
-
-## External Component
-
-import Counters from "../components/counters";
-
-<Counters />
-
-## Mermaid
-
-```mermaid
-graph TD;
-subgraph AA [Consumers]
-A[Mobile app];
-B[Web app];
-C[Node.js client];
-end
-subgraph BB [Services]
-E[REST API];
-F[GraphQL API];
-G[SOAP API];
-end
-Z[GraphQL API];
-A --> Z;
-B --> Z;
-C --> Z;
-Z --> E;
-Z --> F;
-Z --> G;
-```

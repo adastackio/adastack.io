@@ -8,6 +8,15 @@ const config: DocsThemeConfig = {
 			titleTemplate: '%s | Adastack.io',
 		};
 	},
+  themeSwitch: {
+    useOptions() {
+      return {
+        light: 'Light',
+        dark: 'Dark',
+        system: 'System'
+      }
+    }
+  },
   // banner: {
   //   key: '2.0-release',
   //   text: (
@@ -32,7 +41,7 @@ const config: DocsThemeConfig = {
     </>
   ),
   project: {
-    link: "https://github.com/tuckpuck/adastack",
+    // link: "https://github.com/tuckpuck/adastack",
   },
   // chat: {
   //   link: 'https://twitter.com/adastack_io',

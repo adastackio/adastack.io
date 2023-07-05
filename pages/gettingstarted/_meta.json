@@ -1,4 +1,15 @@
 {
-    "introtocardano": "Intro to Cardano"
+    "introtocardano": {
+    "title": "Intro to Cardano",
+    "theme": {
+      "breadcrumb": true,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": true,
+      "layout": "default",
+      "typesetting": "article"
+    }
+    }
 }
   
