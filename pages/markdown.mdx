@@ -1,7 +1,10 @@
 import styles from '../components/counters.module.css'
 import { Callout } from 'nextra/components'
-import { Tab, Tabs } from 'nextra-theme-docs'
-import { Steps } from 'nextra-theme-docs'
+import { Tab, Tabs } from 'nextra/components'
+import { CardsIcon, OneIcon, WarningIcon } from '@components/icons'
+import { Card, Cards } from 'nextra/components'
+import { Steps } from 'nextra/components'
+import { FileTree } from 'nextra/components'
 import { useState } from 'react'
 
 # Website Elements
@@ -249,6 +252,15 @@ With a reference later in the document defining the URL location:
 
 [id]: https://octodex.github.com/images/dojocat.jpg "The Dojocat"
 
+# Nextra Components
+
+## Cards
+<Cards>
+  <Card icon={<WarningIcon />} title="Callout" href="/docs/guide/built-ins/callout" />
+  <Card icon={<CardsIcon />} title="Tabs" href="/docs/guide/built-ins/tabs" />
+  <Card icon={<OneIcon />} title="Steps" href="/docs/guide/built-ins/steps" />
+</Cards>
+
 ## Tabs
 <Tabs items={['pnpm', 'npm', 'yarn']}>
   <Tab>**pnpm**: Fast, disk space efficient package manager.</Tab>
@@ -270,6 +282,8 @@ Contents for step 1.
 Contents for step 2.
  
 </Steps>
+
+# Custom Components
 
 ## JS Component
 

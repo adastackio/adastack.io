@@ -25,6 +25,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@svgr/webpack": "^8.0.1",
     "@types/node": "18.11.10",
     "typescript": "^4.9.3"
   }
