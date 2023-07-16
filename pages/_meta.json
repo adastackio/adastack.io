@@ -8,8 +8,8 @@
     "type": "separator"
   },
   "introtocardano": "Intro to Cardano",
-  "explore": "Blockchain Explorers",
-  "nfts": "NFTs",
+  "blockchainexplorers": "Blockchain Explorers",
+  "cardanonfts": "Cardano NFTs",
   "development": "Development",
   "followthecardanoproject": "Follow the Cardano Project",
   "markdown": {
