@@ -5,3 +5,7 @@
 li>a:is([dir=ltr] .ltr\:nx-pl-8) {
 padding-left: 0px !important;
 }
+
+h4 {
+    margin-bottom: -16px;
+}
