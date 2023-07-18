@@ -1,3 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+li>a:is([dir=ltr] .ltr\:nx-pl-8) {
+padding-left: 0px !important;
+}
