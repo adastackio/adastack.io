@@ -1,0 +1,15 @@
+{
+    "cardanoyoutubechannels": {
+    "title": "Cardano Youtube Channels",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+    }
+}
+  
