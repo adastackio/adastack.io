@@ -1,4 +1,26 @@
 {
-    "blockexplorers": "Block Explorers",
-    "stakepoolexplorers": "Stake Pool Explorers"
+    "blockexplorers": {
+    "title": "Block Explorers",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+    },
+    "stakepoolexplorers": {
+        "title": "Stake Pool Explorers",
+        "theme": {
+          "breadcrumb": false,
+          "footer": true,
+          "sidebar": true,
+          "toc": true,
+          "pagination": false,
+          "layout": "default",
+          "typesetting": "default"
+    }
+    }
 }
