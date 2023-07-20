@@ -1,6 +1,6 @@
 {
-    "cardanoyoutubechannels": {
-    "title": "Cardano Youtube Channels",
+    "youtubechannels": {
+    "title": "Youtube Channels",
     "theme": {
       "breadcrumb": false,
       "footer": true,

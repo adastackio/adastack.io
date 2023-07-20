@@ -1,4 +1,14 @@
 {
-    "developertoolcollections": "Dev Tool Collections"
+    "developertoolcollections": {
+    "title": "Developer Tool Repos",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+    }
 }
-  

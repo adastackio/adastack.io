@@ -1,5 +1,26 @@
 {
-    "nftanalytics": "NFT Analytics",
-    "nftwalletexplorers": "NFT Wallet Explorers"
+    "nftanalytics": {
+    "title": "NFT Analytics",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+    },
+    "nftwalletexplorers": {
+        "title": "NFT Wallet Explorers",
+        "theme": {
+          "breadcrumb": false,
+          "footer": true,
+          "sidebar": true,
+          "toc": true,
+          "pagination": false,
+          "layout": "default",
+          "typesetting": "default"
+    }
+    }
 }
-  
