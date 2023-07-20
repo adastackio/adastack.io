@@ -52,8 +52,8 @@
       "typesetting": "default"
     }
   },
-  "development": {
-    "title": "Development",
+  "developertools": {
+    "title": "Developer Tools",
     "theme": {
       "breadcrumb": false,
       "footer": true,
