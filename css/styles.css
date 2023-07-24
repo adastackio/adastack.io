@@ -9,3 +9,17 @@ padding-left: 0px !important;
 h4 {
     margin-bottom: -16px !important;
 }
+
+.tag-icon {
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 1.5px;
+}
+
+.tag-icon.tag-icon-open-source {
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
