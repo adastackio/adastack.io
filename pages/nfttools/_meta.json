@@ -11,8 +11,8 @@
       "typesetting": "default"
     }
     },
-    "nftwalletexplorers": {
-        "title": "NFT Wallet Explorers",
+    "nftwalletviewers": {
+        "title": "NFT Wallet Viewers",
         "theme": {
           "breadcrumb": false,
           "footer": true,
