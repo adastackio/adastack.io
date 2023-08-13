@@ -1,6 +1,12 @@
 import React from "react";
 import { DocsThemeConfig, useTheme } from "nextra-theme-docs";
 import { AdaStackLight, AdaStackDark } from '@components/icons'
+import { Nunito } from "next/font/google";
+
+const nunito = Nunito({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 const config: DocsThemeConfig = {
   useNextSeoProps() {
@@ -55,11 +61,11 @@ const config: DocsThemeConfig = {
 
     if (resolvedTheme === 'light' || !resolvedTheme) {
       return (<><AdaStackDark alt="Logo" height="100" width="75" viewBox="0 -4 100 50" className="adastack-logo"/>
-      <span className="adastack-title" style={{ fontWeight: 800 }}>ADASTACK</span></>)
+      <span className={`${nunito.className} adastack-title`} style={{ fontWeight: 800 }}>ADASTACK</span></>)
     }
 
     if (resolvedTheme === 'dark') {
-    return (<><AdaStackLight alt="Logo" height="100" width="75" viewBox="0 -4 100 50" className="adastack-logo" /><span className="adastack-title" style={{ fontWeight: 800 }}>ADASTACK</span></>)
+    return (<><AdaStackLight alt="Logo" height="100" width="75" viewBox="0 -4 100 50" className="adastack-logo" /><span className={`${nunito.className} adastack-title`} style={{ fontWeight: 800 }}>ADASTACK</span></>)
     }
   },
   gitTimestamp: null,
