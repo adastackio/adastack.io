@@ -105,7 +105,7 @@ const config: DocsThemeConfig = {
   feedback: {
     content: "Suggest a Tool",
     useLink() {
-      return "suggestatool";
+      return "suggest_a_tool";
     },
   },
   docsRepositoryBase: "https://github.com/tuckpuck/adastack/blob/main/",
