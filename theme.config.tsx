@@ -1,7 +1,7 @@
 import React from "react";
 import { DocsThemeConfig, useTheme } from "nextra-theme-docs";
 import { AdaStackLight, AdaStackDark } from '@components/icons'
-import { Nunito } from "next/font/google";
+import { Nunito } from "@next/font/google";
 
 const nunito = Nunito({
   subsets: ["latin"],

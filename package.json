@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tuckpuck/adastack#readme",
   "dependencies": {
+    "@next/font": "^13.4.13",
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
