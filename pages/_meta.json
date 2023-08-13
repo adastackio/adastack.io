@@ -14,7 +14,7 @@
   "---": {
     "type": "separator"
   },
-  "introtocardano": {
+  "intro_to_cardano": {
     "title": "Intro to Cardano",
     "theme": {
       "breadcrumb": false,
@@ -26,7 +26,7 @@
       "typesetting": "default"
     }
   },
-  "blockchainexplorers": {
+  "blockchain_explorers": {
     "title": "Blockchain Explorers",
     "theme": {
       "breadcrumb": false,
@@ -38,7 +38,7 @@
       "typesetting": "default"
     }
   },
-  "nfttools": {
+  "nft_tools": {
     "title": "NFT Tools",
     "theme": {
       "breadcrumb": false,
@@ -50,7 +50,7 @@
       "typesetting": "default"
     }
   },
-  "developertools": {
+  "developer_tools": {
     "title": "Developer Tools",
     "theme": {
       "breadcrumb": false,
@@ -62,7 +62,7 @@
       "typesetting": "default"
     }
   },
-  "communityandsocial": {
+  "community_and_social": {
     "title": "Community & Socials",
     "theme": {
       "breadcrumb": false,
@@ -87,7 +87,7 @@
       "typesetting": "default"
     }
   },
-  "suggestatool": {
+  "suggest_a_tool": {
     "title": "Suggest a Tool",
     "display": "hidden",
     "theme": {

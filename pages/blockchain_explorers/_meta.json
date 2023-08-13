@@ -1,5 +1,5 @@
 {
-    "blockexplorers": {
+    "block_explorers": {
     "title": "Block Explorers",
     "theme": {
       "breadcrumb": false,
@@ -11,7 +11,7 @@
       "typesetting": "default"
     }
     },
-    "stakepoolexplorers": {
+    "stake_pool_explorers": {
         "title": "Stake Pool Explorers",
         "theme": {
           "breadcrumb": false,

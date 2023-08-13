@@ -1,5 +1,5 @@
 {
-    "nftanalytics": {
+    "nft_analytics": {
     "title": "NFT Analytics",
     "theme": {
       "breadcrumb": false,
@@ -11,7 +11,7 @@
       "typesetting": "default"
     }
     },
-    "nftwalletviewers": {
+    "nft_viewers": {
         "title": "NFT Wallet Viewers",
         "theme": {
           "breadcrumb": false,
