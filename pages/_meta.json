@@ -50,18 +50,6 @@
       "typesetting": "default"
     }
   },
-  "developer_tools": {
-    "title": "Developer Tools",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
   "community_and_social": {
     "title": "Community & Socials",
     "theme": {
