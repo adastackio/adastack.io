@@ -2,6 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
 li>a:is([dir=ltr] .ltr\:nx-pl-8) {
 padding-left: 0px !important;
 }
@@ -26,4 +27,9 @@ h4 {
 
 .adastack-title {
     margin-left: -30px;
+}
+
+[data-theme='dark'] [data-hide-on-theme='dark'],
+[data-theme='light'] [data-hide-on-theme='light'] {
+  display: none;
 }
