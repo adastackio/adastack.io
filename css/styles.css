@@ -15,14 +15,15 @@ h4 {
     height: 15px;
     display: inline-block;
     vertical-align: middle;
-    margin-bottom: 1.5px;
 }
 
 .tag-icon.tag-icon-open-source {
     height: 16px;
-    display: inline-block;
-    vertical-align: middle;
     margin-bottom: 3px;
+}
+
+.tag-icon.tag-icon-open-website {
+    height:20px;
 }
 
 .adastack-title {
