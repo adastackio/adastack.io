@@ -12,7 +12,7 @@
     }
     },
     "nft_viewers": {
-        "title": "NFT Wallet Viewers",
+        "title": "NFT Viewers",
         "theme": {
           "breadcrumb": false,
           "footer": true,
