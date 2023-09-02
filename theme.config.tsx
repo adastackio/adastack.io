@@ -80,10 +80,11 @@ const config: DocsThemeConfig = {
   sidebar: {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
-    // titleComponent({ title, type }) {
-    //   if (title === 'Explore') {
-    //     return <>🧭 {title}</>
-    //   }
+    titleComponent({ title, type }) {
+      if (type === 'doc') {
+        return <div className="sidebar-menu-item">{title}</div>
+      }
+    }
     //   if (title === 'Development') {
     //     return <>💻 {title}</>
     //   }

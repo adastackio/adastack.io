@@ -1,15 +1,16 @@
 import { CardsIcon, OneIcon, WarningIcon, CardanoLogo } from '@components/icons'
-// import { Card, Cards } from 'nextra/components'
 import { Card, Cards } from '../components/cards.js'
+import { handleClick } from '../components/handleclick.js'
+
 
 # Home
 
 Welcome to adastack! This is a collection of Cardano tools and resources.
 
 <Cards>
-  <Card icon={<CardanoLogo />} title="Intro to Cardano" href="intro_to_cardano" />
-  <Card icon={<CardsIcon />} title="Blockchain Explorers" href="blockchain_explorers" />
-  <Card icon={<CardsIcon />} title="Staking" href="staking" />
-  <Card icon={<OneIcon />} title="NFT Tools" href="nfts" />
-  <Card icon={<CardsIcon />} title="Community" href="community" />
+  <Card onClick={() => handleClick(event)}  icon={<CardanoLogo />} title="Intro to Cardano" href="intro_to_cardano" />
+  <Card onClick={() => handleClick(event)}  icon={<CardsIcon />} title="Blockchain Explorers" href="blockchain_explorers" />
+  <Card onClick={() => handleClick(event)}  icon={<CardsIcon />} title="Staking" href="staking" />
+  <Card onClick={() => handleClick(event)}  icon={<OneIcon />} title="NFTs" href="nfts" />
+  <Card onClick={() => handleClick(event)}  icon={<CardsIcon />} title="Community" href="community" />
 </Cards>
