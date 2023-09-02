@@ -50,8 +50,8 @@
       "typesetting": "default"
     }
   },
-  "community_and_social": {
-    "title": "Community & Socials",
+  "community": {
+    "title": "Community",
     "theme": {
       "breadcrumb": false,
       "footer": true,
