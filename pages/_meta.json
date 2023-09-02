@@ -38,8 +38,20 @@
       "typesetting": "default"
     }
   },
-  "nft_tools": {
-    "title": "NFT Tools",
+  "staking": {
+    "title": "Staking",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "nfts": {
+    "title": "NFTs",
     "theme": {
       "breadcrumb": false,
       "footer": true,

@@ -1,0 +1,26 @@
+{
+    "stake_pool_explorers": {
+        "title": "Stake Pool Explorers",
+        "theme": {
+          "breadcrumb": false,
+          "footer": true,
+          "sidebar": true,
+          "toc": true,
+          "pagination": false,
+          "layout": "default",
+          "typesetting": "default"
+    }
+    },
+    "stake_rewards_trackers": {
+      "title": "Stake Rewards Trackers",
+      "theme": {
+        "breadcrumb": false,
+        "footer": true,
+        "sidebar": true,
+        "toc": true,
+        "pagination": false,
+        "layout": "default",
+        "typesetting": "default"
+  }
+  }
+}
