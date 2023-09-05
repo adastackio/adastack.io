@@ -40,7 +40,7 @@ const config: DocsThemeConfig = {
     },
   },
   nextThemes: {
-    defaultTheme: 'system',
+    defaultTheme: 'light',
   },
   // logo: (
   //   <>

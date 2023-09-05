@@ -29,6 +29,13 @@ function handleClick(event) {
     if (mediaLarge.matches) {
       if (homeCardTextContent === sidebarElement.textContent) {
         sidebarElement.click();
+      } else if (
+        // Close menu dropdowns that don't have same text as the home button
+        // and are open already
+        homeCardTextContent !== sidebarElement.textContent &&
+        sidebarElement.parentNode.parentNode.classList.contains("open")
+      ) {
+        sidebarElement.click();
       }
     }
   });
