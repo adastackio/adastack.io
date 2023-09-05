@@ -34,3 +34,7 @@ h4 {
 [data-theme='light'] [data-hide-on-theme='light'] {
   display: none;
 }
+
+button[title="Hide sidebar"] {
+    display: none;
+}
