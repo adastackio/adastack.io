@@ -23,8 +23,8 @@
       "typesetting": "default"
     }
   },
-  "blockchain_explorers": {
-    "title": "Blockchain Explorers",
+  "explore_the_blockchain": {
+    "title": "Explore the Blockchain",
     "theme": {
       "breadcrumb": false,
       "footer": true,
