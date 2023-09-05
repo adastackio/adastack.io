@@ -65,8 +65,11 @@ const config: DocsThemeConfig = {
     }
 
     if (resolvedTheme === 'dark') {
-    return (<><AdaStackLight alt="Logo" height="100" width="75" viewBox="0 -4 100 50" className="adastack-logo" /><span className={`${nunito.className} adastack-title`} style={{ fontWeight: 800 }}>ADASTACK</span></>)
-    }
+      return (<><AdaStackLight alt="Logo" height="100" width="75" viewBox="0 -4 100 50" className="adastack-logo" /><span className={`${nunito.className} adastack-title`} style={{ fontWeight: 800 }}>ADASTACK</span></>)
+      }
+
+
+
   },
   gitTimestamp: null,
   // banner: {

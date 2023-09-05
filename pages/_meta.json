@@ -11,9 +11,6 @@
       "typesetting": "default"
     }
   },
-  "---": {
-    "type": "separator"
-  },
   "intro_to_cardano": {
     "title": "Intro to Cardano",
     "theme": {
