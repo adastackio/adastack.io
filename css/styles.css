@@ -38,3 +38,18 @@ h4 {
 button[title="Hide sidebar"] {
     display: none;
 }
+
+/* h4 a:first-child {
+    text-decoration: dashed;
+    color: hsl(var(--nextra-primary-hue)100% 45%/var(--tw-text-opacity));
+} */
+
+a {
+    text-decoration: none !important;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: #0056b3; 
+  }
