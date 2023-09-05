@@ -1,0 +1,26 @@
+{
+    "why_cardano": {
+    "title": "Why Cardano",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+    },
+    "getting_started": {
+        "title": "Getting Started",
+        "theme": {
+          "breadcrumb": false,
+          "footer": true,
+          "sidebar": true,
+          "toc": true,
+          "pagination": false,
+          "layout": "default",
+          "typesetting": "default"
+    }
+    }
+}
