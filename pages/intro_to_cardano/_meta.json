@@ -11,7 +11,19 @@
       "typesetting": "default"
     }
     },
-    "getting_started": {
+    "learn_more_about_cardano": {
+        "title": "Learn More",
+        "theme": {
+          "breadcrumb": false,
+          "footer": true,
+          "sidebar": true,
+          "toc": true,
+          "pagination": false,
+          "layout": "default",
+          "typesetting": "default"
+    }
+    },
+    "get_started_with_cardano": {
         "title": "Getting Started",
         "theme": {
           "breadcrumb": false,
