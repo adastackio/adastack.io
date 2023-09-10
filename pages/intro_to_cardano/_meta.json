@@ -23,8 +23,20 @@
           "typesetting": "default"
     }
     },
-    "get_started_with_cardano": {
-        "title": "Getting Started",
+    "security_considerations": {
+      "title": "Security",
+      "theme": {
+        "breadcrumb": false,
+        "footer": true,
+        "sidebar": true,
+        "toc": true,
+        "pagination": false,
+        "layout": "default",
+        "typesetting": "default"
+  }
+  },
+    "wallets": {
+        "title": "Wallets",
         "theme": {
           "breadcrumb": false,
           "footer": true,
@@ -34,5 +46,17 @@
           "layout": "default",
           "typesetting": "default"
     }
-    }
+    },
+    "deep_dive": {
+      "title": "Deep Dive into Cardano",
+      "theme": {
+        "breadcrumb": false,
+        "footer": true,
+        "sidebar": true,
+        "toc": true,
+        "pagination": false,
+        "layout": "default",
+        "typesetting": "default"
+  }
+  }
 }
