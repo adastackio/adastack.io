@@ -1,42 +1,26 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
-
-li>a:is([dir=ltr] .ltr\:nx-pl-8) {
-padding-left: 0px !important;
+li > a:is([dir="ltr"] .ltr\:nx-pl-8) {
+  padding-left: 0px !important;
 }
 
 h4 {
-    margin-bottom: -16px !important;
-}
-
-.tag-icon {
-    height: 15px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.tag-icon.tag-icon-open-source {
-    height: 16px;
-    margin-bottom: 3px;
-}
-
-.tag-icon.tag-icon-open-website {
-    height:20px;
+  margin-bottom: -16px !important;
 }
 
 .adastack-title {
-    margin-left: -30px;
+  margin-left: -30px;
 }
 
-[data-theme='dark'] [data-hide-on-theme='dark'],
-[data-theme='light'] [data-hide-on-theme='light'] {
+[data-theme="dark"] [data-hide-on-theme="dark"],
+[data-theme="light"] [data-hide-on-theme="light"] {
   display: none;
 }
 
 button[title="Hide sidebar"] {
-    display: none;
+  display: none;
 }
 
 /* h4 a:first-child {
@@ -45,11 +29,50 @@ button[title="Hide sidebar"] {
 } */
 
 a {
-    text-decoration: none !important;
-    color: #007bff;
-    transition: color 0.3s ease;
-  }
+  text-decoration: none !important;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
 
 a:hover {
-    color: #0056b3; 
- }
+  color: #0056b3;
+}
+
+.tag-icon-button {
+  max-height: 25px;
+  max-width: 25px;
+  margin-top: 0.5rem;
+}
+
+.tag-icon {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.tag-icon-svg {
+  position: absolute;
+}
+
+.tag-icon-open-source {
+  height: 16px;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tag-icon-open-website {
+  height: 18px;
+  top: 45%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.tag-icon-x {
+  height: 14px;
+  top: 39%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
