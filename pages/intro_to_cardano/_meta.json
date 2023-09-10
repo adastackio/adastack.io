@@ -23,6 +23,18 @@
       "typesetting": "default"
     }
   },
+  "where_to_buy": {
+    "title": "Where to Buy?",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
   "security_considerations": {
     "title": "Security",
     "theme": {
