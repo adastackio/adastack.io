@@ -23,6 +23,19 @@ button[title="Hide sidebar"] {
   display: none;
 }
 
+a.nextra-card {
+  padding-top: 10rem;
+  padding-bottom: 1.5rem;
+}
+
+.nextra-card-title:hover {
+  cursor: pointer;
+}
+
+a.nextra-card:hover {
+  cursor: pointer;
+}
+
 /* h4 a:first-child {
     text-decoration: dashed;
     color: hsl(var(--nextra-primary-hue)100% 45%/var(--tw-text-opacity));

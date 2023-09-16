@@ -16,7 +16,7 @@ var classes = {
     "nx-transition-all nx-duration-200 hover:nx-border-gray-300"
   ),
   title: cn(
-    "nx-flex nx-font-semibold nx-items-start nx-gap-2 px-4 py-6 nx-text-gray-700 hover:nx-text-gray-900"
+    "nextra-card-title nx-flex nx-font-semibold nx-items-start nx-gap-2 px-4 nx-text-gray-700 hover:nx-text-gray-900"
   ),
 };
 var arrowEl = /* @__PURE__ */ jsx("span", {
