@@ -23,18 +23,6 @@
       "typesetting": "default"
     }
   },
-  "where_to_buy": {
-    "title": "Where to Buy?",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
   "security_considerations": {
     "title": "Security",
     "theme": {
@@ -59,8 +47,8 @@
       "typesetting": "default"
     }
   },
-  "deep_dive": {
-    "title": "Deep Dive into Cardano",
+  "more_intro_resources": {
+    "title": "More Resources",
     "theme": {
       "breadcrumb": false,
       "footer": true,

@@ -23,18 +23,6 @@
       "typesetting": "default"
     }
   },
-  "on_chain": {
-    "title": "On-Chain",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
   "ecosystem": {
     "title": "Ecosystem",
     "theme": {
@@ -49,6 +37,18 @@
   },
   "staking": {
     "title": "Staking",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "on_chain": {
+    "title": "On-Chain",
     "theme": {
       "breadcrumb": false,
       "footer": true,
