@@ -1,6 +1,6 @@
 {
-    "ecosystem_explorers": {
-    "title": "Ecosystem Explorers",
+    "ecosystem_maps": {
+    "title": "Ecosystem Maps",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -10,5 +10,17 @@
       "layout": "default",
       "typesetting": "default"
     }
-    }
+    },
+    "wallets": {
+      "title": "Wallets",
+      "theme": {
+        "breadcrumb": false,
+        "footer": true,
+        "sidebar": true,
+        "toc": true,
+        "pagination": false,
+        "layout": "default",
+        "typesetting": "default"
+      }
+      }
 }

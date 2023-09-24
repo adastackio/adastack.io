@@ -23,6 +23,30 @@
       "typesetting": "default"
     }
   },
+  "community": {
+    "title": "Community",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "on_chain": {
+    "title": "On-Chain",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
   "ecosystem": {
     "title": "Ecosystem",
     "theme": {
@@ -47,32 +71,8 @@
       "typesetting": "default"
     }
   },
-  "on_chain": {
-    "title": "On-Chain",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
   "nfts": {
     "title": "NFTs",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
-  "community": {
-    "title": "Community",
     "theme": {
       "breadcrumb": false,
       "footer": true,

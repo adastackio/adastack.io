@@ -23,8 +23,8 @@
       "typesetting": "default"
     }
   },
-  "security_considerations": {
-    "title": "Security",
+  "security_tips": {
+    "title": "Security Tips",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -35,8 +35,8 @@
       "typesetting": "default"
     }
   },
-  "wallets": {
-    "title": "Wallets",
+  "getting_started": {
+    "title": "Getting Started",
     "theme": {
       "breadcrumb": false,
       "footer": true,
