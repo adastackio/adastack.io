@@ -35,8 +35,8 @@
       "typesetting": "default"
     }
   },
-  "getting_started": {
-    "title": "Getting Started",
+  "getting_on_chain": {
+    "title": "Getting On-Chain",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -47,8 +47,8 @@
       "typesetting": "default"
     }
   },
-  "more_intro_resources": {
-    "title": "More Resources",
+  "more_learning": {
+    "title": "More Learning",
     "theme": {
       "breadcrumb": false,
       "footer": true,
