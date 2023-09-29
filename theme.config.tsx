@@ -7,18 +7,16 @@ const nunito = Nunito({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
-
 const config: DocsThemeConfig = {
   useNextSeoProps() {
     return {
       titleTemplate: "%s | Adastack.io",
     };
   },
-
   search: { placeholder: "Search Tools" },
-  project: {
-    // link: "https://github.com/tuckpuck/adastack",
-  },
+  // project: {
+  // link: "https://github.com/tuckpuck/adastack",
+  // },
   // chat: {
   //   link: 'https://twitter.com/adastackio',
   //   icon: (

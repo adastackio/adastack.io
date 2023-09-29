@@ -7,9 +7,10 @@ module.exports = withNextra({
   webpack(config) {
     const allowedSvgRegex = /components\/icons\/.+\.svg$/;
 
-    const fileLoaderRule = config.module.rules.find((rule) =>
-      rule.test?.test(".svg")
-    );
+    const fileLoaderRule = config.module.rules.find((rule) => {
+      const testRegex = new RegExp(".svg");
+      return testRegex.test(rule.test);
+    });
     fileLoaderRule.exclude = allowedSvgRegex;
 
     config.module.rules.push({
