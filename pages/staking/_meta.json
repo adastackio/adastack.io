@@ -1,5 +1,17 @@
 {
-    "pool_explorers": {
+  "staking_guides": {
+    "title": "Staking Guides",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+}
+},  
+  "pool_explorers": {
         "title": "Pool Explorers",
         "theme": {
           "breadcrumb": false,
