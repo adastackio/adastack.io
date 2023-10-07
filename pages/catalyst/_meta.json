@@ -1,6 +1,6 @@
 {
-  "youtube_channels": {
-  "title": "Youtube Channels",
+  "catalyst_resources": {
+  "title": "Catalyst Resources",
   "theme": {
     "breadcrumb": false,
     "footer": true,

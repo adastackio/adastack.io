@@ -1,6 +1,6 @@
 {
-  "youtube_channels": {
-  "title": "Youtube Channels",
+  "dao_management": {
+  "title": "DAO Management",
   "theme": {
     "breadcrumb": false,
     "footer": true,

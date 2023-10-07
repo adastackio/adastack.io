@@ -1,6 +1,6 @@
 {
-  "youtube_channels": {
-  "title": "Youtube Channels",
+  "dapp_explorers": {
+  "title": "Dapp Explorers",
   "theme": {
     "breadcrumb": false,
     "footer": true,
