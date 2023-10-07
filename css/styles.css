@@ -2,6 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* Site logo */
 .adastack-title {
   margin-left: -30px;
 }
@@ -22,6 +23,7 @@ button[title="Hide sidebar"] {
   display: none;
 }
 
+/* Links */
 a {
   text-decoration: none !important;
   color: #007bff;
@@ -32,7 +34,7 @@ a:hover {
   color: #0056b3;
 }
 
-/* Home Card */
+/* Home Cards */
 .nextra-cards.home-navigation-cards {
   /* 3 columns,  becomes 4 columns if you set layout:full in meta.json */
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -75,9 +77,6 @@ a.nextra-card .nextra-card-title svg {
   background-color: #18181b;
 }
 
-/* nav:not(.nextra-toc) {
-    background-color: #fafafa;
-} */
 
 /* Post header H1 */
 h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx-text-slate-100 {
@@ -89,11 +88,7 @@ h4 {
   margin-bottom: -16px !important;
 }
 
-/* [data-theme="dark"] [data-hide-on-theme="dark"],
-[data-theme="light"] [data-hide-on-theme="light"] {
-  display: none;
-} */
-
+/* Social media link tags */
 .tag-icon-button {
   max-height: 25px;
   max-width: 25px;
@@ -132,3 +127,12 @@ h4 {
   left: 51%;
   transform: translate(-50%, -50%);
 }
+
+/* nav:not(.nextra-toc) {
+    background-color: #fafafa;
+} */
+
+/* [data-theme="dark"] [data-hide-on-theme="dark"],
+[data-theme="light"] [data-hide-on-theme="light"] {
+  display: none;
+} */
