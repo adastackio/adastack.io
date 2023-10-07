@@ -4,7 +4,7 @@ import NextLink from "next/link";
 import { jsx, jsxs } from "react/jsx-runtime";
 var classes = {
   cards: cn(
-    "nextra-cards nx-mt-4 nx-gap-4 nx-grid",
+    "nextra-cards nx-mt-4 nx-gap-4 nx-grid home-navigation-cards",
     "nx-not-prose"
     // for nextra-theme-docs
   ),
@@ -68,7 +68,7 @@ function Card({ children, title, icon, image, arrow, href, ...props }) {
     }),
   });
 }
-function Cards({ children, num = 3, className, style, ...props }) {
+function Cards({ children, num = 1, className, style, ...props }) {
   return /* @__PURE__ */ jsx("div", {
     className: cn(classes.cards, className),
     ...props,

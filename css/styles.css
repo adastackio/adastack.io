@@ -6,6 +6,10 @@ li > a:is([dir="ltr"] .ltr\:nx-pl-8) {
   padding-left: 0px !important;
 }
 
+h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx-text-slate-100 {
+  font-weight: 500;
+}
+
 h4 {
   margin-bottom: -16px !important;
 }
@@ -28,17 +32,41 @@ button[title="Hide sidebar"] {
 }
 
 a.nextra-card {
-  padding-top: 10rem;
-  padding-bottom: 1.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
-.nextra-card-title:hover {
-  cursor: pointer;
+a.nextra-card .nextra-card-title {
+  font-size: 36px;
+  padding-left: 35px;
+  font-weight: 500;
 }
 
 a.nextra-card:hover {
   cursor: pointer;
 }
+
+.nextra-card-title:hover {
+  cursor: pointer !important;
+}
+
+.nextra-card .nextra-card-title svg {
+  display: none;
+}
+
+article .nextra-cards.home-navigation-cards {
+  /* 4 columns */
+  /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  */
+  /* For 1 column, set --rows declaration num to 1 in cards.js file */
+}
+
+
+
+.nextra-scrollbar {
+  padding: 1rem 0rem 1rem 1rem !important;
+}
+
+
 
 /* h4 a:first-child {
     text-decoration: dashed;
