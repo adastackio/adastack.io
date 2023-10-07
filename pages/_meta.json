@@ -7,7 +7,7 @@
       "sidebar": true,
       "toc": false,
       "pagination": false,
-      "layout": "full",
+      "layout": "default",
       "typesetting": "default"
     }
   },

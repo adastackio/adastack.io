@@ -2,6 +2,323 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+.bg-gray-50:hover { 
+	background-color: #F4F4F5 !important;
+}
+.bg-cyan-50:hover {
+	background-color: #CFFAFE !important;
+}
+.bg-sky-50:hover {
+	background-color: #e0f2fe !important;
+}
+.bg-blue-50:hover { 
+	background-color: #DBEAFE !important;
+}
+.bg-indigo-50:hover { 
+	background-color: #E0E7FF !important;
+}
+.bg-purple-50:hover { 
+	background-color: #F3E8FF !important;
+}
+.bg-yellow-50:hover { 
+	background-color: #FEF9C3 !important;
+}
+.bg-orange-50:hover {
+	background-color: #ffedd5 !important;
+}
+.bg-amber-50:hover {
+	background-color: #fef3c7 !important;
+}
+.bg-red-50:hover { 
+	background-color: #FEE2E2 !important;
+}
+.bg-pink-50:hover { 
+	background-color: #FCE7F3 !important;
+}
+.bg-lime-50:hover {
+	background-color: #ecfccb !important;
+}
+.bg-emerald-50:hover {
+	background-color: #D1FAE5 !important;
+}
+.bg-green-50:hover { 
+	background-color: #DCFCE7 !important;
+}
+
+
+
+
+.bg-gray-50 { 
+	background-color: #FAFAFA;
+}
+.bg-gray-100 { 
+	background-color: #F4F4F5;
+}
+.bg-gray-200 { 
+	background-color: #E4E4E7;
+}
+.bg-gray-300 { 
+	background-color: #D4D4D8;
+}
+.bg-gray-400 { 
+	background-color: #A1A1AA;
+}
+.bg-gray-500 { 
+	background-color: #71717A;
+}
+.bg-gray-600 { 
+	background-color: #52525B;
+}
+.bg-gray-700 { 
+	background-color: #3F3F46;
+}
+.bg-gray-800 { 
+	background-color: #27272A;
+}
+.bg-gray-900 { 
+	background-color: #18181B;
+}
+.bg-red-50 { 
+	background-color: #FEF2F2;
+}
+.bg-red-100 { 
+	background-color: #FEE2E2;
+}
+.bg-red-200 { 
+	background-color: #FECACA;
+}
+.bg-red-300 { 
+	background-color: #FCA5A5;
+}
+.bg-red-400 { 
+	background-color: #F87171;
+}
+.bg-red-500 { 
+	background-color: #EF4444;
+}
+.bg-red-600 { 
+	background-color: #DC2626;
+}
+.bg-red-700 { 
+	background-color: #B91C1C;
+}
+.bg-red-800 { 
+	background-color: #991B1B;
+}
+.bg-red-900 { 
+	background-color: #7F1D1D;
+}
+.bg-yellow-50 { 
+	background-color: #FEFCE8;
+}
+.bg-yellow-100 { 
+	background-color: #FEF9C3;
+}
+.bg-yellow-200 { 
+	background-color: #FEF08A;
+}
+.bg-yellow-300 { 
+	background-color: #FDE047;
+}
+.bg-yellow-400 { 
+	background-color: #FACC15;
+}
+.bg-yellow-500 { 
+	background-color: #EAB308;
+}
+.bg-yellow-600 { 
+	background-color: #CA8A04;
+}
+.bg-yellow-700 { 
+	background-color: #A16207;
+}
+.bg-yellow-800 { 
+	background-color: #854D0E;
+}
+.bg-yellow-900 { 
+	background-color: #713F12;
+}
+.bg-green-50 { 
+	background-color: #F0FDF4;
+}
+.bg-green-100 { 
+	background-color: #DCFCE7;
+}
+.bg-green-200 { 
+	background-color: #BBF7D0;
+}
+.bg-green-300 { 
+	background-color: #86EFAC;
+}
+.bg-green-400 { 
+	background-color: #4ADE80;
+}
+.bg-green-500 { 
+	background-color: #22C55E;
+}
+.bg-green-600 { 
+	background-color: #16A34A;
+}
+.bg-green-700 { 
+	background-color: #15803D;
+}
+.bg-green-800 { 
+	background-color: #166534;
+}
+.bg-green-900 { 
+	background-color: #14532D;
+}
+.bg-blue-50 { 
+	background-color: #EFF6FF;
+}
+.bg-blue-100 { 
+	background-color: #DBEAFE;
+}
+.bg-blue-200 { 
+	background-color: #BFDBFE;
+}
+.bg-blue-300 { 
+	background-color: #93C5FD;
+}
+.bg-blue-400 { 
+	background-color: #60A5FA;
+}
+.bg-blue-500 { 
+	background-color: #3B82F6;
+}
+.bg-blue-600 { 
+	background-color: #2563EB;
+}
+.bg-blue-700 { 
+	background-color: #1D4ED8;
+}
+.bg-blue-800 { 
+	background-color: #1E40AF;
+}
+.bg-blue-900 { 
+	background-color: #1E3A8A;
+}
+.bg-indigo-50 { 
+	background-color: #EEF2FF;
+}
+.bg-indigo-100 { 
+	background-color: #E0E7FF;
+}
+.bg-indigo-200 { 
+	background-color: #C7D2FE;
+}
+.bg-indigo-300 { 
+	background-color: #A5B4FC;
+}
+.bg-indigo-400 { 
+	background-color: #818CF8;
+}
+.bg-indigo-500 { 
+	background-color: #6366F1;
+}
+.bg-indigo-600 { 
+	background-color: #4F46E5;
+}
+.bg-indigo-700 { 
+	background-color: #4338CA;
+}
+.bg-indigo-800 { 
+	background-color: #3730A3;
+}
+.bg-indigo-900 { 
+	background-color: #312E81;
+}
+.bg-purple-50 { 
+	background-color: #FAF5FF;
+}
+.bg-purple-100 { 
+	background-color: #F3E8FF;
+}
+.bg-purple-200 { 
+	background-color: #E9D5FF;
+}
+.bg-purple-300 { 
+	background-color: #D8B4FE;
+}
+.bg-purple-400 { 
+	background-color: #C084FC;
+}
+.bg-purple-500 { 
+	background-color: #A855F7;
+}
+.bg-purple-600 { 
+	background-color: #9333EA;
+}
+.bg-purple-700 { 
+	background-color: #7E22CE;
+}
+.bg-purple-800 { 
+	background-color: #6B21A8;
+}
+.bg-purple-900 { 
+	background-color: #581C87;
+}
+.bg-pink-50 { 
+	background-color: #FDF2F8;
+}
+.bg-pink-100 { 
+	background-color: #FCE7F3;
+}
+.bg-pink-200 { 
+	background-color: #FBCFE8;
+}
+.bg-pink-300 { 
+	background-color: #F9A8D4;
+}
+.bg-pink-400 { 
+	background-color: #F472B6;
+}
+.bg-pink-500 { 
+	background-color: #EC4899;
+}
+.bg-pink-600 { 
+	background-color: #DB2777;
+}
+.bg-pink-700 { 
+	background-color: #BE185D;
+}
+.bg-pink-800 { 
+	background-color: #9D174D;
+}
+.bg-pink-900 { 
+	background-color: #831843;
+}
+
+a.nextra-card {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+  
+a.nextra-card .nextra-card-title {
+	font-size: 26px;
+	padding-left: 38px;
+	font-weight: 400;
+  }
+  
+  a.nextra-card:hover {
+	cursor: pointer;
+  }
+  
+  .nextra-card-title:hover {
+	cursor: pointer !important;
+  }
+  
+  .nextra-card .nextra-card-title svg {
+	display: none;
+  }
+  
+  article .nextra-cards.home-navigation-cards {
+	/* 4 columns */
+	/* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  */
+	/* For 1 column, set --rows declaration num to 1 in cards.js file */
+  }
+  
+
 li > a:is([dir="ltr"] .ltr\:nx-pl-8) {
   padding-left: 0px !important;
 }
@@ -31,42 +348,9 @@ button[title="Hide sidebar"] {
   display: none;
 }
 
-a.nextra-card {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-a.nextra-card .nextra-card-title {
-  font-size: 36px;
-  padding-left: 35px;
-  font-weight: 500;
-}
-
-a.nextra-card:hover {
-  cursor: pointer;
-}
-
-.nextra-card-title:hover {
-  cursor: pointer !important;
-}
-
-.nextra-card .nextra-card-title svg {
-  display: none;
-}
-
-article .nextra-cards.home-navigation-cards {
-  /* 4 columns */
-  /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  */
-  /* For 1 column, set --rows declaration num to 1 in cards.js file */
-}
-
-
-
 .nextra-scrollbar {
   padding: 1rem 0rem 1rem 1rem !important;
 }
-
-
 
 /* h4 a:first-child {
     text-decoration: dashed;

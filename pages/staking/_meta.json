@@ -1,6 +1,6 @@
 {
-  "staking_guides": {
-    "title": "Staking Guides",
+  "start_staking": {
+    "title": "Start Staking",
     "theme": {
       "breadcrumb": false,
       "footer": true,

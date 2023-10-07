@@ -24,7 +24,16 @@ var arrowEl = /* @__PURE__ */ jsx("span", {
     "nx-transition-transform nx-duration-75 group-hover:nx-translate-x-[2px]",
   children: "\u2192",
 });
-function Card({ children, title, icon, image, arrow, href, ...props }) {
+function Card({
+  children,
+  title,
+  icon,
+  image,
+  arrow,
+  href,
+  className,
+  ...props
+}) {
   const animatedArrow = arrow ? arrowEl : null;
   if (image) {
     return /* @__PURE__ */ jsxs(NextLink, {
@@ -56,7 +65,8 @@ function Card({ children, title, icon, image, arrow, href, ...props }) {
     href,
     className: cn(
       classes.card,
-      "nx-bg-transparent nx-shadow-sm dark:nx-border-neutral-800 hover:nx-bg-slate-50 hover:nx-shadow-md dark:hover:nx-border-neutral-700 dark:hover:nx-bg-neutral-900"
+      "nx-shadow-sm dark:nx-border-neutral-800 hover:nx-bg-slate-50 hover:nx-shadow-md dark:hover:nx-border-neutral-700 dark:hover:nx-bg-neutral-900",
+      className
     ),
     ...props,
     children: /* @__PURE__ */ jsxs("span", {
