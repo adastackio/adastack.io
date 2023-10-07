@@ -65,7 +65,7 @@ function Card({
     href,
     className: cn(
       classes.card,
-      "nx-shadow-sm dark:nx-border-neutral-800 hover:nx-bg-slate-50 hover:nx-shadow-md dark:hover:nx-border-neutral-700 dark:hover:nx-bg-neutral-900",
+      "home-card nx-shadow-sm dark:nx-border-neutral-800 hover:nx-bg-slate-50 hover:nx-shadow-md dark:hover:nx-border-neutral-700",
       className
     ),
     ...props,
