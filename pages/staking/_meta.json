@@ -11,8 +11,8 @@
       "typesetting": "default"
 }
 },  
-  "pool_explorers": {
-        "title": "Pool Explorers",
+  "stake_pool_explorers": {
+        "title": "Stake Pool Explorers",
         "theme": {
           "breadcrumb": false,
           "footer": true,
