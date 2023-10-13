@@ -1,6 +1,9 @@
 # Adastack
 
-Adastack.io is a curated collection of Cardano tools and resources. The website aims to showcase many of the tools and resources within the quickly growing Cardano ecosystem. Please feel free to contribute!
+Adastack.io is a curated collection of Cardano tools and resources.  
+The website aims to showcase the projects and content within the quickly growing Cardano ecosystem.  
+  
+Please feel free to contribute!
 
 ## Local Development
 
