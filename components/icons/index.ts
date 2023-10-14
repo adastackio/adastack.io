@@ -5,5 +5,6 @@ export { default as OpenSource } from "./opensource.svg";
 export { default as XLogo } from "./x.svg";
 export { default as CardanoLogo } from "./cardano_logo.svg";
 export { default as AdaStackLight } from "./adastacklogo_light.svg";
+export { default as AdaStackMid } from "./adastacklogo_mid.svg";
 export { default as AdaStackDark } from "./adastacklogo_dark.svg";
 export { default as Arrow } from "./arrow.svg";
