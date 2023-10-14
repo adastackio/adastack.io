@@ -12,7 +12,7 @@ const nunito = Nunito({
 });
 const config: DocsThemeConfig = {
   useNextSeoProps() {
-    const {frontMatter} = useConfig();
+    const { frontMatter } = useConfig();
     return {
       titleTemplate: "Adastack | %s",
       description: frontMatter.description ? frontMatter.description : "Adastack is a curated collection of tools and resources on Cardano. Browse tools by category, explore projects and dapps, and find Cardano content.",
@@ -48,6 +48,9 @@ const config: DocsThemeConfig = {
   logo: () => {
     const { resolvedTheme } = useTheme();
     console.log(resolvedTheme);
+    const { darkMode } = useConfig();
+    console.log(darkMode)
+
     if (resolvedTheme === "light" || !resolvedTheme) {
       return (
         <>
