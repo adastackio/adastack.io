@@ -3,6 +3,8 @@ import { DocsThemeConfig, ThemeSwitch, useTheme } from "nextra-theme-docs";
 import { AdaStackLight, AdaStackDark, AdaStackMid } from "@components/icons";
 import { Nunito } from "@next/font/google";
 
+
+
 const nunito = Nunito({
   subsets: ["latin"],
   weight: ["400", "700"],
@@ -10,7 +12,8 @@ const nunito = Nunito({
 const config: DocsThemeConfig = {
   useNextSeoProps() {
     return {
-      titleTemplate: "%s | Adastack.io",
+      titleTemplate: "Adastack | %s",
+      description: "Adastack default page description",
     };
   },
   search: { placeholder: "Search Tools" },
