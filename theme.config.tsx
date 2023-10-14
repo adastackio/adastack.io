@@ -2,6 +2,7 @@ import React from "react";
 import { DocsThemeConfig, ThemeSwitch, useTheme } from "nextra-theme-docs";
 import { AdaStackLight, AdaStackDark, AdaStackMid } from "@components/icons";
 import { Nunito } from "@next/font/google";
+import { useConfig } from "nextra-theme-docs";
 
 
 
@@ -11,9 +12,10 @@ const nunito = Nunito({
 });
 const config: DocsThemeConfig = {
   useNextSeoProps() {
+    const {frontMatter} = useConfig();
     return {
       titleTemplate: "Adastack | %s",
-      description: "Adastack default page description",
+      description: frontMatter ? frontMatter.description : "Adastack default page description",
     };
   },
   search: { placeholder: "Search Tools" },
