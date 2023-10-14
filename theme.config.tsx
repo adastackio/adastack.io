@@ -47,10 +47,6 @@ const config: DocsThemeConfig = {
   },
   logo: () => {
     const { resolvedTheme } = useTheme();
-    console.log(resolvedTheme);
-    const { darkMode } = useConfig();
-    console.log(darkMode)
-
     if (resolvedTheme === "light" || !resolvedTheme) {
       return (
         <>

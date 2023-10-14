@@ -7,6 +7,15 @@
   margin-left: -30px;
 }
 
+/* Set bg on white */
+html[style*="color-scheme: light;"] div.nx-mx-auto.nx-flex.nx-max-w-\[90rem\] {
+  background-color: #fafafa;
+}
+/* Set nav on dark */
+html[style*="color-scheme: dark;"] .nextra-nav-container .nextra-nav-container-blur {
+  background-color: #050505 !important;
+}
+
 /* Sidebar menu */
 .nextra-scrollbar {
   padding: 1rem 0rem 1rem 0rem !important;
@@ -62,7 +71,7 @@ a.nextra-card .nextra-card-title svg {
 
 /* Home card light background color */
 :is(html[class~="light"]) .home-card.bg-light-color {
-  background-color: #fafafa;
+  background-color: #fff;
 }
 /* Home card light background hover color */
 :is(html[class~="light"]) .home-card.bg-light-color:hover {
