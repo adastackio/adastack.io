@@ -6,6 +6,8 @@ The website's purpose is to showcase the projects and content within the quickly
 
 Please feel free to contribute!
 
+![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=adastackio1436576985) ![License](https://img.shields.io/badge/license-MIT-blue)
+
 ## Local Development
 
 1. Clone the repository
