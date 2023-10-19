@@ -66,7 +66,6 @@ const config: DocsThemeConfig = {
         </>
       );
     }
-
     if (resolvedTheme === "dark") {
       return (
         <>
