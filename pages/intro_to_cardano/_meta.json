@@ -3,7 +3,7 @@
     "title": "Why Cardano?",
     "theme": {
       "breadcrumb": false,
-      "footer": true,
+      "footer": false,
       "sidebar": true,
       "toc": true,
       "pagination": false,

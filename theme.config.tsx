@@ -115,16 +115,16 @@ const config: DocsThemeConfig = {
   footer: {
     text: (
       <>
-        <a href="https://adastackbeta.vercel.app/suggestatool">
-          Suggest a Tool
+        <a href="https://adastack.io/make_a_suggestion">
+          Make a Suggestion
         </a>
       </>
     ),
   },
   feedback: {
-    content: "Suggest a Tool",
+    content: "Make a Suggestion",
     useLink() {
-      return "suggest_a_tool";
+      return "https://adastack.io/make_a_suggestion";
     },
   },
   docsRepositoryBase: "https://github.com/tuckpuck/adastack/blob/main/",

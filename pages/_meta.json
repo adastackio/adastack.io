@@ -3,7 +3,7 @@
     "title": "Home",
     "theme": {
       "breadcrumb": false,
-      "footer": true,
+      "footer": false,
       "sidebar": true,
       "toc": false,
       "pagination": false,
@@ -168,8 +168,8 @@
       "typesetting": "default"
     }
   },
-  "suggest_a_tool": {
-    "title": "Suggest a Tool",
+  "make_a_suggestion": {
+    "title": "Make a Suggestion",
     "display": "hidden",
     "theme": {
       "breadcrumb": false,
