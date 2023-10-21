@@ -16,6 +16,11 @@ html[style*="color-scheme: dark;"] .nextra-nav-container .nextra-nav-container-b
   background-color: #050505 !important;
 }
 
+/* Set nav on light */
+html .nextra-nav-container .nextra-nav-container-blur {
+  background-color: #FAFAF9 !important;
+}
+
 /* Sidebar menu */
 .nextra-scrollbar {
   padding: 1rem 0rem 1rem 0rem !important;
