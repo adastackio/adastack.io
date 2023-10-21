@@ -47,7 +47,19 @@
       "typesetting": "default"
     }
   },
-  "more_learning": {
+  "cardano_vocab": {
+    "title": "Cardano Vocab",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "more_resources": {
     "title": "Further Resources",
     "theme": {
       "breadcrumb": false,
