@@ -23,18 +23,6 @@
       "typesetting": "default"
     }
   },
-  "on_chain": {
-    "title": "On-Chain",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
   "staking": {
     "title": "Staking",
     "theme": {
@@ -47,8 +35,32 @@
       "typesetting": "default"
     }
   },
+  "on_chain": {
+    "title": "On-Chain",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
   "ecosystem": {
     "title": "Ecosystem",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "community": {
+    "title": "Community",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -83,20 +95,8 @@
       "typesetting": "default"
     }
   },
-  "community": {
-    "title": "Community",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
-  "development": {
-    "title": "Development",
+  "catalyst": {
+    "title": "Catalyst",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -109,18 +109,6 @@
   },
   "governance": {
     "title": "Governance",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
-  "catalyst": {
-    "title": "Catalyst",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -145,6 +133,18 @@
   },
   "sidechains_and_l2s": {
     "title": "Sidechains and L2s",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "development": {
+    "title": "Development",
     "theme": {
       "breadcrumb": false,
       "footer": true,
