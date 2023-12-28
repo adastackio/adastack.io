@@ -7,6 +7,10 @@
   margin-left: -30px;
 }
 
+svg.adastack-logo {
+  padding: 13px;
+}
+
 /* Set bg on white */
 html[style*="color-scheme: light;"] div.nx-mx-auto.nx-flex.nx-max-w-\[90rem\] {
   background-color: #fafafa;

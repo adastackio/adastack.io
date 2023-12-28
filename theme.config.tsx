@@ -46,9 +46,7 @@ const config: DocsThemeConfig = {
     defaultTheme: "light",
   },
   logo: () => {
-    const { resolvedTheme } = useTheme();
-    if (resolvedTheme === "light" || !resolvedTheme) {
-      return (
+    return (
         <>
           <AdaStackMid
             alt="Logo"
@@ -65,26 +63,46 @@ const config: DocsThemeConfig = {
           </span>
         </>
       );
-    }
-    if (resolvedTheme === "dark") {
-      return (
-        <>
-          <AdaStackLight
-            alt="Logo"
-            height="100"
-            width="75"
-            viewBox="0 -4 100 50"
-            className="adastack-logo"
-          />
-          <span
-            className={`${nunito.className} adastack-title`}
-            style={{ fontWeight: 800 }}
-          >
-            ADASTACK
-          </span>
-        </>
-      );
-    }
+
+    // const { resolvedTheme } = useTheme();
+    // if (resolvedTheme === "light" || !resolvedTheme) {
+    //   return (
+    //     <>
+    //       <AdaStackMid
+    //         alt="Logo"
+    //         height="100"
+    //         width="75"
+    //         viewBox="0 -4 100 50"
+    //         className="adastack-logo"
+    //       />
+    //       <span
+    //         className={`${nunito.className} adastack-title`}
+    //         style={{ fontWeight: 800 }}
+    //       >
+    //         ADASTACK
+    //       </span>
+    //     </>
+    //   );
+    // }
+    // if (resolvedTheme === "dark") {
+    //   return (
+    //     <>
+    //       <AdaStackLight
+    //         alt="Logo"
+    //         height="100"
+    //         width="75"
+    //         viewBox="0 -4 100 50"
+    //         className="adastack-logo"
+    //       />
+    //       <span
+    //         className={`${nunito.className} adastack-title`}
+    //         style={{ fontWeight: 800 }}
+    //       >
+    //         ADASTACK
+    //       </span>
+    //     </>
+    //   );
+    // }
   },
   gitTimestamp: null,
   // banner: {
