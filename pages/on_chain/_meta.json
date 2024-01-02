@@ -1,4 +1,16 @@
 {
+  "what_is_the_blockchain": {
+    "title": "What is the Blockchain?",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+    },
     "block_explorers": {
     "title": "Blockchain Explorers",
     "theme": {
