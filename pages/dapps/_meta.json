@@ -1,4 +1,16 @@
 {
+  "what_is_a_dapp": {
+    "title": "What is a Dapp?",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+    },
   "dapp_explorers": {
   "title": "Dapp Explorers",
   "theme": {
