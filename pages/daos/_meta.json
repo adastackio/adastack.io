@@ -1,6 +1,6 @@
 {
-  "dao_management": {
-  "title": "DAO Management",
+  "what_is_a_dao": {
+  "title": "What is a DAO?",
   "theme": {
     "breadcrumb": false,
     "footer": true,
@@ -10,5 +10,17 @@
     "layout": "default",
     "typesetting": "default"
   }
-  }
+  },
+  "dao_management": {
+    "title": "DAO Management",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+    }
 }
