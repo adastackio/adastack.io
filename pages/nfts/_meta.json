@@ -1,4 +1,16 @@
 {
+  "what_are_nfts": {
+    "title": "What are NFTs?",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+    },
     "nft_analytics": {
     "title": "NFT Analytics",
     "theme": {
