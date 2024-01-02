@@ -23,8 +23,8 @@
       "typesetting": "default"
     }
     },
-    "nft_viewers": {
-        "title": "NFT Viewers",
+    "nft_galleries": {
+        "title": "NFT Galleries",
         "theme": {
           "breadcrumb": false,
           "footer": true,
