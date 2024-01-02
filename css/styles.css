@@ -95,7 +95,7 @@ a.nextra-card .nextra-card-title svg {
 /* Home card dark background hover color */
 :is(html[class~="dark"]) .home-card.bg-dark-color:hover {
   /* background-color: #0f0a22; */
-  box-shadow: 0 0 0 1px #fffc;
+  box-shadow: 0 0 0 1px #0080FF;
 }
 
 /* Post header H1 */
