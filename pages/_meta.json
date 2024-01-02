@@ -131,8 +131,8 @@
       "typesetting": "default"
     }
   },
-  "sidechains_and_l2s": {
-    "title": "Sidechains and L2s",
+  "partner_chains": {
+    "title": "Partner Chains",
     "theme": {
       "breadcrumb": false,
       "footer": true,
