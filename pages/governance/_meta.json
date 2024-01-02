@@ -1,4 +1,16 @@
 {
+  "what_is_governance": {
+  "title": "What is Governance?",
+  "theme": {
+    "breadcrumb": false,
+    "footer": true,
+    "sidebar": true,
+    "toc": true,
+    "pagination": false,
+    "layout": "default",
+    "typesetting": "default"
+  }
+  },
   "governance_resources": {
   "title": "Governance Resources",
   "theme": {
