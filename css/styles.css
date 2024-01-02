@@ -89,12 +89,12 @@ a.nextra-card .nextra-card-title svg {
 /* Home card dark background color */
 :is(html[class~="dark"]) .home-card.bg-dark-color {
   background-color: #050505;
-  border: 1px solid #333;
+  /* border: 1px solid #333; */
   box-shadow: 14 0 0 1px #fff;
 }
 /* Home card dark background hover color */
 :is(html[class~="dark"]) .home-card.bg-dark-color:hover {
-  background-color: #0f0a22;
+  /* background-color: #0f0a22; */
   box-shadow: 0 0 0 1px #fffc;
 }
 
