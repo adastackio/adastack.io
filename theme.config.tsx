@@ -13,7 +13,7 @@ const config: DocsThemeConfig = {
   useNextSeoProps() {
     const { frontMatter } = useConfig();
     return {
-      titleTemplate: "Adastack | %s",
+      titleTemplate: "%s | Adastack",
       description: frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
     };
   },
