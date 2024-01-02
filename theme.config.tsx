@@ -15,7 +15,7 @@ const config: DocsThemeConfig = {
     const { frontMatter } = useConfig();
     return {
       titleTemplate: "Adastack | %s",
-      description: frontMatter.description ? frontMatter.description : "Adastack is an open-source collection of tools and resources on Cardano. Browse by category, explore projects and dapps, and find Cardano content.",
+      description: frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source collection of tools and resources on Cardano. Browse by category, explore projects and dapps, and find Cardano content.",
     };
   },
   search: { placeholder: "Search Tools" },
