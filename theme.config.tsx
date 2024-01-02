@@ -4,18 +4,17 @@ import { AdaStackLight, AdaStackDark, AdaStackMid } from "@components/icons";
 import { Nunito } from "@next/font/google";
 import { useConfig } from "nextra-theme-docs";
 
-
-
 const nunito = Nunito({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
+
 const config: DocsThemeConfig = {
   useNextSeoProps() {
     const { frontMatter } = useConfig();
     return {
       titleTemplate: "Adastack | %s",
-      description: frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source collection of tools and resources on Cardano. Browse by category, explore projects and dapps, and find Cardano content.",
+      description: frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
     };
   },
   search: { placeholder: "Search Tools" },
