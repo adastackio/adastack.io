@@ -11,8 +11,8 @@
       "typesetting": "default"
     }
     },
-    "nft_analytics": {
-    "title": "NFT Analytics",
+    "nft_analytics_tools": {
+    "title": "NFT Analytics Tools",
     "theme": {
       "breadcrumb": false,
       "footer": true,

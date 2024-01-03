@@ -11,8 +11,8 @@
     "typesetting": "default"
   }
   },
-  "dao_management": {
-    "title": "DAO Management",
+  "dao_management_tools": {
+    "title": "DAO Management Tools",
     "theme": {
       "breadcrumb": false,
       "footer": true,
