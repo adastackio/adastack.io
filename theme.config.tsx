@@ -12,18 +12,8 @@ const nunito = Nunito({
 const config: DocsThemeConfig = {
   useNextSeoProps() {
     const { frontMatter } = useConfig();
-    const pageTitle = "%s";
-    console.log(pageTitle);
+    console.log(frontMatter)
 
-    const wordToRemove = "cardano ";
-    const lowerCaseWordToRemove = wordToRemove.toLowerCase();
-    const lowerCasePageTitle = pageTitle.toLowerCase();
-    let titleWithoutCardano;
-    if (lowerCasePageTitle.startsWith(lowerCaseWordToRemove)) {
-      let titleWithoutCardano = lowerCasePageTitle.replace(lowerCaseWordToRemove, "");
-    }
-    console.log("Modified string:", titleWithoutCardano);
-    
     return {
       titleTemplate: "%s | Adastack",
       description: frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
