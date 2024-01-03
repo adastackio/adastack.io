@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@next/font':
-    specifier: ^13.4.13
-    version: 13.4.13
   next:
     specifier: ^13.0.6
     version: 13.0.6(@babel/core@7.23.7)(react-dom@18.2.0)(react@18.2.0)
@@ -1524,10 +1521,6 @@ packages:
 
   /@next/env@13.0.6:
     resolution: {integrity: sha512-yceT6DCHKqPRS1cAm8DHvDvK74DLIkDQdm5iV+GnIts8h0QbdHvkUIkdOvQoOODgpr6018skbmSQp12z5OWIQQ==}
-    dev: false
-
-  /@next/font@13.4.13:
-    resolution: {integrity: sha512-jzjUvjO967E2XWku5aImWRVApGwsTJZPp3lY5yFNWZHMkoNNKU9fsTEAhWVcKxCOYmHmSX1n2E09VkzuFdF48Q==}
     dev: false
 
   /@next/swc-android-arm-eabi@13.0.6:
