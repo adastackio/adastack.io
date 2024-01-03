@@ -35,7 +35,7 @@
           "typesetting": "default"
     }
     },
-    "rewards_trackers": {
+    "reward_trackers": {
       "title": "Rewards Trackers",
       "theme": {
         "breadcrumb": false,
