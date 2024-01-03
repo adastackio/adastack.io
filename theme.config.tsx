@@ -12,10 +12,9 @@ const nunito = Nunito({
 const config: DocsThemeConfig = {
   useNextSeoProps() {
     const { frontMatter } = useConfig();
-    console.log(frontMatter)
 
     return {
-      titleTemplate: "%s | Adastack",
+      titleTemplate: frontMatter.seo_title ? `${frontMatter.seo_title} | adastack.io` : "%s | adastack.io",
       description: frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
     };
   },
