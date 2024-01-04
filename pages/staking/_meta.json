@@ -33,18 +33,6 @@
           "pagination": false,
           "layout": "default",
           "typesetting": "default"
-    }
-    },
-    "reward_trackers": {
-      "title": "Rewards Trackers",
-      "theme": {
-        "breadcrumb": false,
-        "footer": true,
-        "sidebar": true,
-        "toc": true,
-        "pagination": false,
-        "layout": "default",
-        "typesetting": "default"
   }
   }
 }
