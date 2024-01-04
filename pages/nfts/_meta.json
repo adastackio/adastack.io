@@ -10,29 +10,6 @@
       "layout": "default",
       "typesetting": "default"
     }
-    },
-    "nft_analytics_tools": {
-    "title": "NFT Analytics Tools",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-    },
-    "nft_galleries": {
-        "title": "NFT Galleries",
-        "theme": {
-          "breadcrumb": false,
-          "footer": true,
-          "sidebar": true,
-          "toc": true,
-          "pagination": false,
-          "layout": "default",
-          "typesetting": "default"
-    }
     }
 }
+

@@ -1,6 +1,6 @@
 {
   "what_is_catalyst": {
-    "title": "What is Catalyst?",
+    "title": "What is Project Catalyst?",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -10,17 +10,5 @@
       "layout": "default",
       "typesetting": "default"
     }
-    },
-  "catalyst_resources": {
-  "title": "Catalyst Resources",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-  }
-  }
+    }
 }

@@ -10,17 +10,5 @@
     "layout": "default",
     "typesetting": "default"
   }
-  },
-  "dao_management_tools": {
-    "title": "DAO Management Tools",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-    }
+  }
 }
