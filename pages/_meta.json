@@ -95,6 +95,18 @@
       "typesetting": "default"
     }
   },
+  "gaming": {
+    "title": "Gaming",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
   "catalyst": {
     "title": "Catalyst",
     "theme": {
@@ -107,20 +119,8 @@
       "typesetting": "default"
     }
   },
-  "governance": {
-    "title": "Governance",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
-  "daos": {
-    "title": "DAOs",
+  "governance_and_daos": {
+    "title": "Governance & DAOs",
     "theme": {
       "breadcrumb": false,
       "footer": true,

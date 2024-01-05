@@ -1,0 +1,29 @@
+{
+  "what_is_governance": {
+  "title": "What is Governance?",
+  "theme": {
+    "breadcrumb": false,
+    "footer": true,
+    "sidebar": true,
+    "toc": true,
+    "pagination": false,
+    "layout": "default",
+    "typesetting": "default"
+  }
+  },
+  "---": {
+    "type": "separator"
+  },
+  "what_is_a_dao": {
+    "title": "What is a DAO?",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  }
+}

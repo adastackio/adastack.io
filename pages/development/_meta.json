@@ -1,6 +1,6 @@
 {
-  "learn_cardano_development": {
-  "title": "Learn Cardano Development",
+  "intro_to_cardano_development": {
+  "title": "Intro To Cardano Development",
   "theme": {
     "breadcrumb": false,
     "footer": true,
