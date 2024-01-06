@@ -1,14 +1,16 @@
-{
-    "ecosystem_maps": {
-    "title": "Ecosystem Maps",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-    }
-}
+// {
+//     "ecosystem_maps": {
+//     "title": "Ecosystem Maps",
+//     "theme": {
+//       "breadcrumb": false,
+//       "footer": true,
+//       "sidebar": true,
+//       "toc": true,
+//       "pagination": false,
+//       "layout": "default",
+//       "typesetting": "default"
+//     }
+//     }
+// }
+
+{}
