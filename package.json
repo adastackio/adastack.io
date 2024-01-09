@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/adastackio/adastack.io#readme",
   "dependencies": {
+    "flexsearch": "^0.7.41",
     "next": "^14.0.4",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
