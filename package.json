@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "adastack.io",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "adastack.io | open source Cardano explorer",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuckpuck/adastack.git"
+    "url": "git+https://github.com/adastackio/adastack.io.git"
   },
   "author": "Tucker Triggs <tuckertriggs@pm.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tuckpuck/adastack/issues/"
+    "url": "https://github.com/adastackio/adastack.io/issues"
   },
-  "homepage": "https://github.com/tuckpuck/adastack#readme",
+  "homepage": "https://github.com/adastackio/adastack.io#readme",
   "dependencies": {
     "next": "latest",
     "nextra": "latest",
