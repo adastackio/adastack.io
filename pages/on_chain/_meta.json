@@ -1,16 +1,4 @@
 {
-  "what_is_on_chain": {
-    "title": "What is On-Chain?",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-    },
     "block_explorers": {
     "title": "Blockchain Explorers",
     "theme": {
