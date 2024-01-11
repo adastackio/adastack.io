@@ -1,14 +1,1 @@
-{
-    "block_explorers": {
-    "title": "Blockchain Explorers",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-    }
-}
+{}
