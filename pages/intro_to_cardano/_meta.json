@@ -23,8 +23,8 @@
       "typesetting": "default"
     }
   },
-  "security_tips": {
-    "title": "Security Tips",
+  "security_guides": {
+    "title": "Security Guides",
     "theme": {
       "breadcrumb": false,
       "footer": true,
