@@ -1,4 +1,16 @@
 {
+  "what_is_blockchain": {
+    "title": "What is Blockchain?",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
   "why_cardano": {
     "title": "Why Cardano?",
     "theme": {
