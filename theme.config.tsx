@@ -145,7 +145,7 @@ const config: DocsThemeConfig = {
       return "https://adastack.io/make_a_suggestion";
     },
   },
-  docsRepositoryBase: "https://github.com/tuckpuck/adastack/blob/main/",
+  docsRepositoryBase: "https://github.com/tuckpuck/adastack/blob/nextra3/",
 };
 
 export default config;
