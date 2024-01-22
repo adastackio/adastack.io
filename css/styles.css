@@ -105,6 +105,11 @@ h4 {
   margin-bottom: -16px !important;
 }
 
+/* Make h4 items align to the left under 'on this page' */
+/* li>a:is([dir=ltr] .ltr\:nx-pl-8) {
+  padding-left: 0rem;
+} */
+
 /* Social media link tags */
 .tag-icon-button {
   max-height: 25px;
@@ -145,10 +150,7 @@ h4 {
   transform: translate(-50%, -50%);
 }
 
-/* Make h4 items align to the left under 'on this page' */
-li>a:is([dir=ltr] .ltr\:nx-pl-8) {
-  padding-left: 0rem;
-}
+
 
 /* nav:not(.nextra-toc) {
     background-color: #fafafa;
