@@ -35,18 +35,6 @@
       "typesetting": "default"
     }
   },
-  "security_guides": {
-    "title": "Security Guides",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
   "getting_on_chain": {
     "title": "Getting On-Chain",
     "theme": {
