@@ -11,7 +11,7 @@
       "typesetting": "default"
     }
   },
-  "intro_to_cardano": {
+  "01_intro_to_cardano": {
     "title": "Intro to Cardano",
     "theme": {
       "breadcrumb": false,
@@ -23,7 +23,7 @@
       "typesetting": "default"
     }
   },
-  "staking": {
+  "02_staking": {
     "title": "Staking",
     "theme": {
       "breadcrumb": false,
@@ -35,7 +35,7 @@
       "typesetting": "default"
     }
   },
-  "on_chain": {
+  "03_on_chain": {
     "title": "On-Chain",
     "theme": {
       "breadcrumb": false,
@@ -47,7 +47,7 @@
       "typesetting": "default"
     }
   },
-  "ecosystem": {
+  "04_ecosystem": {
     "title": "Ecosystem",
     "theme": {
       "breadcrumb": false,
@@ -59,7 +59,7 @@
       "typesetting": "default"
     }
   },
-  "community": {
+  "05_community": {
     "title": "Community",
     "theme": {
       "breadcrumb": false,
@@ -71,7 +71,7 @@
       "typesetting": "default"
     }
   },
-  "nfts": {
+  "06_nfts": {
     "title": "NFTs",
     "theme": {
       "breadcrumb": false,
@@ -83,7 +83,7 @@
       "typesetting": "default"
     }
   },
-  "dapps": {
+  "07_dapps": {
     "title": "Dapps",
     "theme": {
       "breadcrumb": false,
@@ -95,7 +95,7 @@
       "typesetting": "default"
     }
   },
-  "gaming": {
+  "08_gaming": {
     "title": "Gaming",
     "theme": {
       "breadcrumb": false,
@@ -107,7 +107,7 @@
       "typesetting": "default"
     }
   },
-  "catalyst": {
+  "09_catalyst": {
     "title": "Catalyst",
     "theme": {
       "breadcrumb": false,
@@ -119,7 +119,7 @@
       "typesetting": "default"
     }
   },
-  "governance_and_daos": {
+  "10_governance_and_daos": {
     "title": "Governance & DAOs",
     "theme": {
       "breadcrumb": false,
@@ -131,7 +131,7 @@
       "typesetting": "default"
     }
   },
-  "development": {
+  "11_development": {
     "title": "Development",
     "theme": {
       "breadcrumb": false,
@@ -143,7 +143,7 @@
       "typesetting": "default"
     }
   },
-  "partner_chains": {
+  "12_partner_chains": {
     "title": "Partner Chains",
     "theme": {
       "breadcrumb": false,
