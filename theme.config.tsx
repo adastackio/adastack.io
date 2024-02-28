@@ -10,7 +10,6 @@ const nunito = Nunito({
   weight: ["400", "700"],
 });
 
-
 const config: DocsThemeConfig = {
   head: () => {
     const { asPath, defaultLocale, locale } = useRouter()
@@ -19,14 +18,16 @@ const config: DocsThemeConfig = {
       'https://my-app.com' +
       (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
     console.log(url);
+    let title = frontMatter.seo_title ? frontMatter.seo_title : "%s | adastack.io";
+    let description = frontMatter.seo_description ? `${frontMatter.seo_description}` : "Adastack is an open-source directory of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools."
  
     return (
       <>
         <meta property="og:url" content={url} />
-        <meta property="og:title" content={frontMatter.seo_title ? `${frontMatter.seo_title}` : "%s | adastack.io"} />
+        <meta property="og:title" content={title} />
         <meta
           property="og:description"
-          content={frontMatter.seo_description ? `${frontMatter.seo_description}` : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools."}
+          content={description}
         />
       </>
     )
