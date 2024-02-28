@@ -30,7 +30,7 @@ const config: DocsThemeConfig = {
         />
       </>
     )
-  }
+  },
 
   // ,useNextSeoProps() {
   //   const { frontMatter } = useConfig();
