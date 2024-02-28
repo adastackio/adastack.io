@@ -139,12 +139,12 @@ const config: DocsThemeConfig = {
       </>
     ),
   },
-  feedback: {
-    content: "Make a Suggestion",
-    useLink() {
-      return "https://adastack.io/make_a_suggestion";
-    },
-  },
+  // feedback: {
+  //   content: "Make a Suggestion",
+  //   useLink() {
+  //     return "https://adastack.io/make_a_suggestion";
+  //   },
+  // },
   docsRepositoryBase: "https://github.com/tuckpuck/adastack/blob/nextra3/",
 };
 
