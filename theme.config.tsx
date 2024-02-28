@@ -131,11 +131,7 @@ const config: DocsThemeConfig = {
     float: true,
   },
   footer: {
-    text: (
-      <span>
-        MIT {new Date().getFullYear()}
-      </span>
-    )
+    text: null
   },
   feedback: {
     content: null,
