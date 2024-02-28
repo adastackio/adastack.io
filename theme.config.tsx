@@ -17,12 +17,9 @@ const config: DocsThemeConfig = {
     const url =
       'https://adastack.io' +
       (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
-    console.log(locale)
-    console.log(url);
     
     let title = frontMatter.seo_title ? frontMatter.seo_title : "%s | adastack.io";
     let description = frontMatter.seo_description ? `${frontMatter.seo_description}` : "Adastack is an open-source directory of links and tools on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools."
- 
     return (
       <>
         <meta property="og:url" content={url} />
@@ -34,15 +31,14 @@ const config: DocsThemeConfig = {
       </>
     )
   },
+  useNextSeoProps() {
+    const { frontMatter } = useConfig();
 
-  // ,useNextSeoProps() {
-  //   const { frontMatter } = useConfig();
-
-  //   return {
-  //     titleTemplate: frontMatter.seo_title ? `${frontMatter.seo_title}` : "%s | adastack.io",
-  //     description: frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
-  //   };
-  // },
+    return {
+      titleTemplate: frontMatter.seo_title ? `${frontMatter.seo_title}` : "%s | adastack.io",
+      description: frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
+    };
+  },
   search: { placeholder: "Search Tools" },
   // project: {
   // link: "https://github.com/tuckpuck/adastack",
