@@ -140,7 +140,7 @@ const config: DocsThemeConfig = {
     ),
   },
   feedback: {
-    content: "",
+    content: null,
     // useLink() {
     //   return "https://adastack.io/make_a_suggestion";
     // },
