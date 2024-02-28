@@ -3,21 +3,43 @@ import { DocsThemeConfig, ThemeSwitch, useTheme } from "nextra-theme-docs";
 import { AdaStackLight, AdaStackDark, AdaStackMid } from "@components/icons";
 import { Nunito } from "next/font/google";
 import { useConfig } from "nextra-theme-docs";
+import { useRouter } from 'next/router'
 
 const nunito = Nunito({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
 
-const config: DocsThemeConfig = {
-  useNextSeoProps() {
-    const { frontMatter } = useConfig();
 
-    return {
-      titleTemplate: frontMatter.seo_title ? `${frontMatter.seo_title}` : "%s | adastack.io",
-      description: frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
-    };
-  },
+const config: DocsThemeConfig = {
+  head: () => {
+    const { asPath, defaultLocale, locale } = useRouter()
+    const { frontMatter } = useConfig()
+    const url =
+      'https://my-app.com' +
+      (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
+    console.log(url);
+ 
+    return (
+      <>
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={frontMatter.seo_title ? `${frontMatter.seo_title}` : "%s | adastack.io"} />
+        <meta
+          property="og:description"
+          content={frontMatter.seo_description ? `${frontMatter.seo_description}` : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools."}
+        />
+      </>
+    )
+  }
+
+  // ,useNextSeoProps() {
+  //   const { frontMatter } = useConfig();
+
+  //   return {
+  //     titleTemplate: frontMatter.seo_title ? `${frontMatter.seo_title}` : "%s | adastack.io",
+  //     description: frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
+  //   };
+  // },
   search: { placeholder: "Search Tools" },
   // project: {
   // link: "https://github.com/tuckpuck/adastack",
