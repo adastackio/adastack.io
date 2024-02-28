@@ -133,7 +133,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: (
       <span>
-        MIT {new Date().getFullYear()} ©{' '}
+        MIT {new Date().getFullYear()}
       </span>
     )
   },
