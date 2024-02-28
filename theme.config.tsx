@@ -15,11 +15,13 @@ const config: DocsThemeConfig = {
     const { asPath, defaultLocale, locale } = useRouter()
     const { frontMatter } = useConfig()
     const url =
-      'https://my-app.com' +
+      'https://adastack.io' +
       (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
+    console.log(locale)
     console.log(url);
+    
     let title = frontMatter.seo_title ? frontMatter.seo_title : "%s | adastack.io";
-    let description = frontMatter.seo_description ? `${frontMatter.seo_description}` : "Adastack is an open-source directory of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools."
+    let description = frontMatter.seo_description ? `${frontMatter.seo_description}` : "Adastack is an open-source directory of links and tools on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools."
  
     return (
       <>
