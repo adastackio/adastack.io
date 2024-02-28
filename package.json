@@ -1,17 +1,17 @@
 {
   "name": "adastack.io",
   "version": "0.0.1",
-  "description": "adastack.io | open source Cardano explorer",
+  "description": "adastack.io | open-source Cardano ecosystem explorer",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "pnpm dev",
+    "build": "pnpm build",
+    "start": "pnpm start"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adastackio/adastack.io.git"
   },
-  "author": "Tucker Triggs <tuckertriggs@pm.me>",
+  "author": "Tucker Triggs <contact@adastack.io>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adastackio/adastack.io/issues"
@@ -27,6 +27,7 @@
   "devDependencies": {
     "@svgr/webpack": "^8.0.1",
     "@types/node": "18.11.10",
+    "@types/react": "18.2.60",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.26",
     "tailwindcss": "^3.3.3",
