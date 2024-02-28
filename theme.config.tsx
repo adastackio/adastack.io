@@ -132,12 +132,10 @@ const config: DocsThemeConfig = {
   },
   footer: {
     text: (
-      <>
-        <a href="https://adastack.io/make_a_suggestion">
-          Make a Suggestion
-        </a>
-      </>
-    ),
+      <span>
+        MIT {new Date().getFullYear()} ©{' '}
+      </span>
+    )
   },
   feedback: {
     content: null,
