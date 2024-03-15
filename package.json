@@ -3,9 +3,9 @@
   "version": "1.0",
   "description": "adastack.io | open-source Cardano ecosystem explorer",
   "scripts": {
-    "dev": "pnpm dev",
-    "build": "pnpm build",
-    "start": "pnpm start"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
