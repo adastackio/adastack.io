@@ -1,6 +1,6 @@
 {
   "name": "adastack.io",
-  "version": "0.0.1",
+  "version": "1.0",
   "description": "adastack.io | open-source Cardano ecosystem explorer",
   "scripts": {
     "dev": "pnpm dev",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/adastackio/adastack.io.git"
   },
-  "author": "Tucker Triggs <contact@adastack.io>",
+  "author": "adastack.io <contact@adastack.io>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adastackio/adastack.io/issues"
