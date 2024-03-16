@@ -1,9 +1,9 @@
 import styles from '../components/counters.module.css'
 import { Callout } from 'nextra/components'
 import { Bleed } from 'nextra-theme-docs'
+import { Card, Cards } from 'nextra/components'
 import { Tab, Tabs } from 'nextra/components'
 import { CardsIcon, OneIcon, WarningIcon } from '@components/icons'
-import { Card, Cards } from 'nextra/components'
 import { Steps } from 'nextra/components'
 import { FileTree } from 'nextra/components'
 import { useState } from 'react'
@@ -11,8 +11,10 @@ import { useState } from 'react'
 # Website Elements
 
 # h1 Heading
+H1 elements should not be used except once per page as the page title. They do not show on the sidebar. 
 
 ## h2 Heading
+H2 elements have a horizontal rule under them by default.
 
 ### h3 Heading
 
@@ -22,27 +24,15 @@ import { useState } from 'react'
 
 ###### h6 Heading
 
-## Horizontal Rules
+## Native Elements
+These elements are available on every page and do not need an import
 
+### Horizontal Rule 
 ---
 
----
+Horizontal rule is created using three dashes "---". 
 
----
-
-## Typographic replacements
-
-Enable typographer option to see result.
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,, -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-## Emphasis
+### Emphasis
 
 **This is bold text**
 
@@ -50,7 +40,7 @@ _This is italic text_
 
 ~~Strikethrough~~
 
-## Blockquotes
+### Blockquotes
 
 > Blockquotes can also be nested...
 >
@@ -58,50 +48,122 @@ _This is italic text_
 > >
 > > > ...or with spaces between arrows.
 
-## Lists
+### Lists
 
-Unordered
+**Unordered lists**
 
 - Create a list by starting a line with `+`, `-`, or `*`
+- This one is created with -
++ This one is created with +
+* This one is created with *  
+
+**Unordered sublists**
 - Sub-lists are made by indenting 2 spaces:
   - Marker character change forces new list start:
     - Ac tristique libero volutpat at
     * Facilisis in pretium nisl aliquet
     - Nulla volutpat aliquam velit
-- Very easy!
 
-+ Wow
-+ Amazing
-* Cool
-* So cool
-
-Ordered
+**Ordered lists**
 
 1. Lorem ipsum dolor sit amet
 2. Consectetur adipiscing elit
 3. Integer molestie lorem at massa
-
 4. You can use sequential numbers...
 5. ...or keep all the numbers as `1.`
 
-Start numbering with offset:
+**Ordered list with offset**
 
 57. foo
 1. bar
 
-## Code
+### Checklist
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+### Tables
+
+| Option | Description                                                               |
+| ------ | ------------------------------------------------------------------------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default.    |
+| ext    | extension to be used for dest files.                                      |
+
+Right aligned columns
+
+| Option |                                                               Description |
+| -----: | ------------------------------------------------------------------------: |
+|   data | path to data files to supply the data that will be passed into templates. |
+| engine |    engine to be used for processing templates. Handlebars is the default. |
+|    ext |                                      extension to be used for dest files. |
+
+### Dynamic Tables
+<table>
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>Flag</th>
+    </tr>
+  </thead>
+  <tbody>
+    {[
+      { country: 'France', flag: '🇫🇷' },
+      { country: 'Ukraine', flag: '🇺🇦' }
+    ].map(item => (
+      <tr key={item.country}>
+        <td>{item.country}</td>
+        <td>{item.flag}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+### Links
+
+[link text](http://dev.nodeca.com)
+
+[link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
+Autoconverted links:
+https://github.com/nodeca/pica
+
+www.nextjs.org
+
+### Images
+
+Using the \!\[\]\(\) syntax for images will automatically optimize and size images using the standards of [Next.js Image](https://nextjs.org/docs/pages/building-your-application/optimizing/images).
+
+![Minion](https://octodex.github.com/images/minion.png)
+
+Image with an alt tag: 
+![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
+
+### Details dropdown
+<details>
+  <summary>Details</summary>
+  <p>Something small enough to escape casual notice.</p>
+</details>
+
+### Autolinks
+Any links within markdown will be automatically linked:
+
+Visit https://nextjs.org.
+
+### Code
 
 Inline `code`
 
-Inlined syntax highlighting `let x = 1{:jsx}`
+Inline syntax highlighting `let x = 1{:jsx}`
 
 Indented code
 
 ```
+no indent
+  one indent
+    two indents
+
     // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
 ```
 
 Block code "fences"
@@ -169,92 +231,50 @@ ANSI highlighting
 ```
 
 
-## Checklist
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+### Mermaid
+```mermaid
+graph TD;
+subgraph AA [Consumers]
+A[Mobile app];
+B[Web app];
+C[Node.js client];
+end
+subgraph BB [Services]
+E[REST API];
+F[GraphQL API];
+G[SOAP API];
+end
+Z[GraphQL API];
+A --> Z;
+B --> Z;
+C --> Z;
+Z --> E;
+Z --> F;
+Z --> G;
+```
 
-## Callouts
+## Nextra Components
+These are Nextra components. They need to be imported onto a page they will be used on. 
+
+### Callouts
 <Callout emoji="👾">
   **Space Invaders** is a 1978 shoot 'em up arcade game developed by Tomohiro
   Nishikado.
 </Callout>
 
-<Callout type="info" emoji="ℹ︝">
+<Callout type="info">
   Today is Friday.
 </Callout>
 
-<Callout type="warning" emoji="⚠︝">
+<Callout type="warning">
   This API will be deprecated soon.
 </Callout>
 
-<Callout type="error" emoji="︝🚫">
+<Callout type="error">
   This is a dangerous feature that can cause everything to explode.
 </Callout>
 
-## Tables
-
-| Option | Description                                                               |
-| ------ | ------------------------------------------------------------------------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default.    |
-| ext    | extension to be used for dest files.                                      |
-
-Right aligned columns
-
-| Option |                                                               Description |
-| -----: | ------------------------------------------------------------------------: |
-|   data | path to data files to supply the data that will be passed into templates. |
-| engine |    engine to be used for processing templates. Handlebars is the default. |
-|    ext |                                      extension to be used for dest files. |
-
-## Dynamic Tables
-<table>
-  <thead>
-    <tr>
-      <th>Country</th>
-      <th>Flag</th>
-    </tr>
-  </thead>
-  <tbody>
-    {[
-      { country: 'France', flag: '🇫🇷' },
-      { country: 'Ukraine', flag: '🇺🇦' }
-    ].map(item => (
-      <tr key={item.country}>
-        <td>{item.country}</td>
-        <td>{item.flag}</td>
-      </tr>
-    ))}
-  </tbody>
-</table>
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted links:
-https://github.com/nodeca/pica
-
-www.nextjs.org
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg "The Dojocat"
-
-# Nextra Components
-## Bleed
+### Bleed
 When wrapping your content with `<Bleed>`, it will be slightly wider than the container and will overflow on both sides.
 
 <Bleed>
@@ -286,14 +306,14 @@ You can even make it full-bleed using `<Bleed full>`:
   ![Landscape](https://source.unsplash.com/eaxwP9J_V6s/1600x398)
 </Bleed>
 
-## Cards
+### Cards
 <Cards>
   <Card icon={<WarningIcon />} title="Callout" href="/docs/guide/built-ins/callout" />
   <Card icon={<CardsIcon />} title="Tabs" href="/docs/guide/built-ins/tabs" />
   <Card icon={<OneIcon />} title="Steps" href="/docs/guide/built-ins/steps" />
 </Cards>
 
-## Tabs
+### Tabs
 <Tabs items={['pnpm', 'npm', 'yarn']}>
   <Tab>**pnpm**: Fast, disk space efficient package manager.</Tab>
   <Tab>
@@ -302,20 +322,7 @@ You can even make it full-bleed using `<Bleed full>`:
   <Tab>**Yarn** is a software packaging system.</Tab>
 </Tabs>
 
-## Steps
-<Steps>
- 
-### Step 1
- 
-Contents for step 1.
- 
-### Step 2
- 
-Contents for step 2.
- 
-</Steps>
-
-# FileTree
+### FileTree
 <FileTree>
   <FileTree.Folder name="pages" defaultOpen>
     <FileTree.File name="_meta.json" />
@@ -329,9 +336,25 @@ Contents for step 2.
   </FileTree.Folder>
 </FileTree>
 
-# Custom Components
+### Steps
+<Steps>
+ 
+### Step 1
+ 
+Contents for step 1.
+ 
+### Step 2
+ 
+Contents for step 2.
+ 
+</Steps>
 
-## JS Component
+
+## Custom Components
+These examples show how to use custom JS components. This is possible using [MDX](https://mdxjs.com/community/about/).
+
+### JS Component
+This component is defined directly on the page
 
 export const Counter = () => {
   const [count, setCount] = useState(0);
@@ -346,36 +369,16 @@ export const Counter = () => {
 
 <Counter />
 
-## External Component
+### External Component
+This component is imported
 
 import Counters from "../components/counters";
 
 <Counters />
 
-## Mermaid
-
-```mermaid
-graph TD;
-subgraph AA [Consumers]
-A[Mobile app];
-B[Web app];
-C[Node.js client];
-end
-subgraph BB [Services]
-E[REST API];
-F[GraphQL API];
-G[SOAP API];
-end
-Z[GraphQL API];
-A --> Z;
-B --> Z;
-C --> Z;
-Z --> E;
-Z --> F;
-Z --> G;
-```
 
 ## Plugins
+These will have to be enabled to work properly.
 
 The killer feature of `markdown-it` is very effective support of
 [syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
@@ -441,3 +444,15 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 ::: warning
 _here be dragons_
 :::
+
+### [Typographic replacements](https://github.com/edemaine/markdown-it-replacements)
+
+Enable typographer option to see result.
+
+(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
+test.. test... test..... test?..... test!....
+
+!!!!!! ???? ,, -- ---
+
+"Smartypants, double quotes" and 'single quotes'

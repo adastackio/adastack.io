@@ -11,7 +11,7 @@
       "typesetting": "default"
     }
   },
-  "intro_to_cardano": {
+  "01_intro_to_cardano": {
     "title": "Intro to Cardano",
     "theme": {
       "breadcrumb": false,
@@ -23,19 +23,7 @@
       "typesetting": "default"
     }
   },
-  "on_chain": {
-    "title": "On-Chain",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
-  "staking": {
+  "02_staking": {
     "title": "Staking",
     "theme": {
       "breadcrumb": false,
@@ -47,7 +35,19 @@
       "typesetting": "default"
     }
   },
-  "ecosystem": {
+  "03_on_chain": {
+    "title": "On-Chain",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "04_ecosystem": {
     "title": "Ecosystem",
     "theme": {
       "breadcrumb": false,
@@ -59,31 +59,7 @@
       "typesetting": "default"
     }
   },
-  "nfts": {
-    "title": "NFTs",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
-  "dapps": {
-    "title": "Dapps",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
-  "community": {
+  "05_community": {
     "title": "Community",
     "theme": {
       "breadcrumb": false,
@@ -95,8 +71,8 @@
       "typesetting": "default"
     }
   },
-  "development": {
-    "title": "Development",
+  "06_nfts": {
+    "title": "NFTs",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -107,8 +83,8 @@
       "typesetting": "default"
     }
   },
-  "governance": {
-    "title": "Governance",
+  "07_dapps": {
+    "title": "Dapps",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -119,7 +95,19 @@
       "typesetting": "default"
     }
   },
-  "catalyst": {
+  "08_gaming": {
+    "title": "Gaming",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "09_catalyst": {
     "title": "Catalyst",
     "theme": {
       "breadcrumb": false,
@@ -131,8 +119,8 @@
       "typesetting": "default"
     }
   },
-  "daos": {
-    "title": "DAOs",
+  "10_governance_and_daos": {
+    "title": "Governance & DAOs",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -143,8 +131,20 @@
       "typesetting": "default"
     }
   },
-  "sidechains_and_l2s": {
-    "title": "Sidechains and L2s",
+  "11_development": {
+    "title": "Development",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "12_partner_chains": {
+    "title": "Partner Chains",
     "theme": {
       "breadcrumb": false,
       "footer": true,

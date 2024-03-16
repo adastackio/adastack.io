@@ -1,0 +1,14 @@
+{
+  "intro_to_cardano_development": {
+  "title": "Intro to Cardano Development",
+  "theme": {
+    "breadcrumb": false,
+    "footer": true,
+    "sidebar": true,
+    "toc": true,
+    "pagination": false,
+    "layout": "default",
+    "typesetting": "default"
+  }
+  }
+}

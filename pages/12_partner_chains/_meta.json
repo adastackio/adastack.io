@@ -1,0 +1,14 @@
+{
+  "what_are_partner_chains": {
+  "title": "What are Partner Chains?",
+  "theme": {
+    "breadcrumb": false,
+    "footer": true,
+    "sidebar": true,
+    "toc": true,
+    "pagination": false,
+    "layout": "default",
+    "typesetting": "default"
+  }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "what_is_web3_gaming": {
+  "title": "What is Web3 Gaming?",
+  "theme": {
+    "breadcrumb": false,
+    "footer": true,
+    "sidebar": true,
+    "toc": true,
+    "pagination": false,
+    "layout": "default",
+    "typesetting": "default"
+  }
+  }
+}

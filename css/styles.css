@@ -7,6 +7,10 @@
   margin-left: -30px;
 }
 
+svg.adastack-logo {
+  padding: 13px;
+}
+
 /* Set bg on white */
 html[style*="color-scheme: light;"] div.nx-mx-auto.nx-flex.nx-max-w-\[90rem\] {
   background-color: #fafafa;
@@ -27,14 +31,22 @@ html .nextra-nav-container .nextra-nav-container-blur {
 }
 
 .sidebar-menu-item {
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 10px;
-  padding-right: 0px;
+  padding: 4px 0 4px 10px;
 }
 
 button[title="Hide sidebar"] {
   display: none;
+}
+
+/* Right Sidebar */
+html[style*="color-scheme: light;"] .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
+  background-color: #fafafa;
+  box-shadow: none;
+  bottom: -15px;
+}
+
+html[style*="color-scheme: light;"] p.nx-mb-4.nx-font-semibold.nx-tracking-tight + ul {
+  background-color: #fafafa;
 }
 
 /* Links */
@@ -58,6 +70,7 @@ a:hover {
 a.nextra-card {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+  border-radius: 0.20rem;
 }
 
 a.nextra-card:hover {
@@ -85,13 +98,13 @@ a.nextra-card .nextra-card-title svg {
 /* Home card dark background color */
 :is(html[class~="dark"]) .home-card.bg-dark-color {
   background-color: #050505;
-  border: 1px solid #333;
+  /* border: 1px solid #333; */
   box-shadow: 14 0 0 1px #fff;
 }
 /* Home card dark background hover color */
 :is(html[class~="dark"]) .home-card.bg-dark-color:hover {
-  background-color: #0f0a22;
-  box-shadow: 0 0 0 1px #fffc;
+  /* background-color: #0f0a22; */
+  box-shadow: 0 0 0 1px #0080FF;
 }
 
 /* Post header H1 */
@@ -103,6 +116,11 @@ h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx
 h4 {
   margin-bottom: -16px !important;
 }
+
+/* Make h4 items align to the left under 'on this page' */
+/* li>a:is([dir=ltr] .ltr\:nx-pl-8) {
+  padding-left: 0rem;
+} */
 
 /* Social media link tags */
 .tag-icon-button {
@@ -144,9 +162,8 @@ h4 {
   transform: translate(-50%, -50%);
 }
 
-/* Make h4 items align to the left under 'on this page' */
-li>a:is([dir=ltr] .ltr\:nx-pl-8) {
-  padding-left: 0rem;
+footer {
+  display: none;
 }
 
 /* nav:not(.nextra-toc) {
