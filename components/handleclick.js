@@ -9,6 +9,7 @@ function handleClick(event) {
 
   if (mediaSmall.matches) {
     console.log("Page is small. Click hamburger menu");
+    preventDefault();
     // open hamburger menu
     hamburgerMenu.click();
   }
