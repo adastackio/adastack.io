@@ -1,6 +1,6 @@
 function handleClick(event) {
   const sidebarElements = document.querySelectorAll(".sidebar-menu-item");
-  const hamburgerMenu = document.querySelector(".nextra-hamburger");
+  const hamburgerMenu = document.querySelector(".nextra-hamburger svg");
   const cardTextContent = event.target.textContent;
   const mediaSmall = window.matchMedia("(max-width: 767px)");
   const mediaLarge = window.matchMedia("(min-width: 767px)");
@@ -9,7 +9,6 @@ function handleClick(event) {
 
   if (mediaSmall.matches) {
     console.log("Page is small. Click hamburger menu");
-    event.preventDefault();
     // open hamburger menu
     hamburgerMenu.click();
   }
