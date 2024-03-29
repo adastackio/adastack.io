@@ -9,6 +9,7 @@ function handleClick(event) {
 
   sidebarElements.forEach((sidebarElement) => {
     if (mediaSmall.matches) {
+      console.log("Click hamburger menu");
       // open hamburger menu
       hamburgerMenu.click();
 
@@ -28,7 +29,7 @@ function handleClick(event) {
         sidebarElement.parentNode.parentNode.classList.contains("open")
       ) {
         console.log(
-          "Close dropdowns that dont have same text as the home button and are open already"
+          "Close dropdowns if they have different text than home button and are open"
         );
         sidebarElement.click();
       }
