@@ -57,7 +57,7 @@ function handleCardClick(event) {
     });
   };
 
-  openHamburger();
+  setTimeout("openHamburger()", 10);
   InitiateSidebarActions();
 }
 
