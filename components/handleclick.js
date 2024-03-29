@@ -9,7 +9,7 @@ function handleClick(event) {
 
   sidebarElements.forEach((sidebarElement) => {
     if (mediaSmall.matches) {
-      console.log("Click hamburger menu");
+      console.log("Page is small. Click hamburger menu");
       // open hamburger menu
       hamburgerMenu.click();
 
@@ -19,7 +19,7 @@ function handleClick(event) {
         !sidebarElement.parentNode.parentNode.classList.contains("open")
       ) {
         console.log(
-          "Initiate dropdown if dropdown nav item has the same text as the home button and is not open already"
+          "Page is small. Text matches and it is not open already, open sidebar"
         );
         sidebarElement.click();
       } else if (
@@ -29,7 +29,7 @@ function handleClick(event) {
         sidebarElement.parentNode.parentNode.classList.contains("open")
       ) {
         console.log(
-          "Close dropdowns if they have different text than home button and are open"
+          "Page is small. Text matches and is open already, close sidebar"
         );
         sidebarElement.click();
       }
@@ -37,7 +37,7 @@ function handleClick(event) {
 
     if (mediaLarge.matches) {
       if (cardTextContent === sidebarElement.textContent) {
-        console.log("condition3");
+        console.log("page is large and text matches, open sidebar");
         sidebarElement.click();
       } else if (
         // Close menu dropdowns that don't have same text as the home button
@@ -45,7 +45,7 @@ function handleClick(event) {
         cardTextContent !== sidebarElement.textContent &&
         sidebarElement.parentNode.parentNode.classList.contains("open")
       ) {
-        console.log("condition4");
+        console.log("page is large and text matches, close matching sidebar");
         sidebarElement.click();
       }
     }
