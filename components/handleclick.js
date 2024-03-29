@@ -3,7 +3,7 @@ function handleClick(event) {
   const sidebarElements = document.querySelectorAll(".sidebar-menu-item");
   const hamburgerMenu = document.querySelector(".nextra-hamburger");
   const mediaSmall = window.matchMedia("(max-width: 767px)");
-  const mediaLarge = window.matchMedia("(min-width: 768px)");
+  const mediaLarge = window.matchMedia("(min-width: 767px)");
   // Check if the media query is true
 
   sidebarElements.forEach((sidebarElement) => {
@@ -12,8 +12,7 @@ function handleClick(event) {
       if (
         // Click the menu dropdown if it has the same text as the home button
         // and if it is not open already
-        homeCardTextContent === sidebarElement.textContent &&
-        !sidebarElement.parentNode.parentNode.classList.contains("open")
+        homeCardTextContent === sidebarElement.textContent
       ) {
         sidebarElement.click();
       } else if (
