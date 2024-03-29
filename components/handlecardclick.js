@@ -45,7 +45,9 @@ function handleCardClick(event) {
       if (mediaLarge.matches) {
         if (cardTextContent === sidebarElement.textContent) {
           // Open sidebar item with the same text as Card
-          console.log("page is large and text matches, open sidebar");
+          console.log(
+            `Page is large. Text matches, open sidebar ${cardTextContent}`
+          );
           sidebarElement.click();
         } else if (
           // Close sidebar items where text doesn't match Card and they are open
@@ -53,7 +55,11 @@ function handleCardClick(event) {
           sidebarElement.parentNode.parentNode.classList.contains("open")
         ) {
           console.log(
-            "page is large and text matches, close matching sidebars"
+            `Page is large. Text matches and is open already, close sidebar  ${
+              cardTextContent !== sidebarElement.textContent
+                ? sidebarElement.textContent
+                : ""
+            }`
           );
           sidebarElement.click();
         }
