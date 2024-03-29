@@ -1,12 +1,11 @@
-function handleClick(event) {
+function handleCardClick(event) {
+  const hamburgerMenu = document.querySelector(".nextra-hamburger");
   const sidebarElements = document.querySelectorAll(".sidebar-menu-item");
-  const hamburgerMenu = document.querySelector(".nextra-hamburger svg");
   const cardTextContent = event.target.textContent;
   const mediaSmall = window.matchMedia("(max-width: 767px)");
   const mediaLarge = window.matchMedia("(min-width: 767px)");
 
   // Function to open the hamburger menu and open a sub-menu in the navigation when clicking a home button
-
   if (mediaSmall.matches) {
     console.log("Page is small. Click hamburger menu");
     // open hamburger menu
@@ -53,4 +52,4 @@ function handleClick(event) {
   });
 }
 
-export { handleClick };
+export { handleCardClick };
