@@ -23,7 +23,7 @@ function handleCardClick(event) {
           !sidebarElement.parentNode.parentNode.classList.contains("open")
         ) {
           console.log(
-            "Page is small. Text matches and it is not open already, open sidebar"
+            `Page is small. Text matches and it is not open already, open sidebar ${cardTextContent}`
           );
           sidebarElement.click();
         } else if (
@@ -32,7 +32,11 @@ function handleCardClick(event) {
           sidebarElement.parentNode.parentNode.classList.contains("open")
         ) {
           console.log(
-            "Page is small. Text matches and is open already, close sidebar"
+            `Page is small. Text matches and is open already, close sidebar ${
+              cardTextContent !== sidebarElement.textContent
+                ? sidebarElement.textContent
+                : ""
+            }`
           );
           sidebarElement.click();
         }
@@ -57,7 +61,7 @@ function handleCardClick(event) {
     });
   };
 
-  setTimeout(openHamburger(), 10);
+  setTimeout(openHamburger(), 2000);
   InitiateSidebarActions();
 }
 
