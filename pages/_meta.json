@@ -131,8 +131,8 @@
       "typesetting": "default"
     }
   },
-  "development": {
-    "title": "Development",
+  "partner_chains": {
+    "title": "Partner Chains",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -143,8 +143,8 @@
       "typesetting": "default"
     }
   },
-  "partner_chains": {
-    "title": "Partner Chains",
+  "development": {
+    "title": "Development",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -188,7 +188,7 @@
       "breadcrumb": false,
       "footer": true,
       "sidebar": true,
-      "toc": false,
+      "toc": true,
       "pagination": false,
       "layout": "default",
       "typesetting": "default"
