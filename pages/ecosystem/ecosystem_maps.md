@@ -7,16 +7,12 @@ seo_description:
 
 Ecosystem maps are websites where you can find and read about the various Dapps and projects building on Cardano.
 
-[CardanoCube](https://www.cardanocube.io/cardano-ecosystem-interactive-map)
+[CardanoCube](https://www.cardanocube.io/cardano-ecosystem-interactive-map): Huge collection of Cardano projects. 
 
-[Built on Cardano](https://builtoncardano.com/)
+[Built on Cardano](https://builtoncardano.com/): Large and nicely organized collection of Cardano projects. 
 
-[CardanoSpot Project Library](https://cardanospot.io/project-library/all)
+[CardanoSpot Project Library](https://cardanospot.io/project-library/all): Read profiles of Cardano projects. 
 
-[Cardano.org Project Showcase](https://developers.cardano.org/showcase/)
+[Cardano.org Showcase](https://developers.cardano.org/showcase/): [Open-source] collection of projects building on Cardano. 
 
-[Essential Cardano Guide to the Ecosystem PDF](https://services.iohk.io/hubfs/EssentialCardano/PDF/Essential%20Cardano%20Guide%20to%20the%20Ecosystem.pdf?hsLang=en)
-
-[Dapps on Cardano](https://dappsoncardano.com/): See which Dapps are most used on Cardano.
-
-[DCOne Ecosystem Map](https://dconecrypto.finance/ecosystem-map.html)
+[Dapps on Cardano](https://dappsoncardano.com/): See which Dapps are used the most on Cardano.
