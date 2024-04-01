@@ -17,7 +17,7 @@ Blockchain Explorers allow users to see happening on the blockchain. You can sea
 
 [CF Explorer](https://beta.explorer.cardano.org/en/): The Cardano Foundation created a clean-looking explorer suitable for enterprises. Unique features include [staking lifecycle](https://beta.explorer.cardano.org/en/staking-lifecycle/) and the ability to download activity reports.
 
-[Pool.pm](https://pool.pm/): Pool.pm is a visual blockchain explorer that displays transactions and staking delegations in an easily understandable way.
+[Pool.pm](https://pool.pm/): Pool.pm is a visual blockchain explorer. Use it to search for pools, wallets, handles, assets or policies.
 
 [IOG Cardano Explorer](https://explorer.cardano.org/): Cardano Explorer is an [open-source](https://github.com/input-output-hk/cardano-explorer-app) explorer built by [IOG](https://iohk.io/). It doesn't have as many features some but it is still a straightforward app to search epochs, blocks, addresses, and transactions.
 
