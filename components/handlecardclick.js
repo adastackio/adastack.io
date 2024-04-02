@@ -68,7 +68,7 @@ function handleCardClick(event) {
     });
   };
 
-  setTimeout(openHamburger(), 2000);
+  setTimeout(openHamburger(), 20000);
   InitiateSidebarActions();
 }
 
