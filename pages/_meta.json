@@ -119,8 +119,8 @@
       "typesetting": "default"
     }
   },
-  "governance_and_daos": {
-    "title": "Governance & DAOs",
+  "governance": {
+    "title": "Governance",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -131,8 +131,8 @@
       "typesetting": "default"
     }
   },
-  "partner_chains": {
-    "title": "Partner Chains",
+  "daos": {
+    "title": "DAOs",
     "theme": {
       "breadcrumb": false,
       "footer": true,

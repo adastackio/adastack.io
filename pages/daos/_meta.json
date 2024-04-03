@@ -1,0 +1,14 @@
+{
+  "what_is_a_dao": {
+    "title": "What is a DAO?",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  }
+}
