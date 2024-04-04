@@ -12,6 +12,9 @@ function handleCardClick(event) {
       console.log("Page is small. Menu is closed. Click hamburger menu");
       // open hamburger menu
       hamburgerMenu.click();
+      setTimeout(() => {
+        hamburgerMenu.click();
+      }, 10);
     }
   };
 
