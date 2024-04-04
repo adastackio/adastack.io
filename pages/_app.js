@@ -6,7 +6,10 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      <Script src="/components/openDropdownNavOnMobile.js" />
+      <Script
+        src="/components/openDropdownNavOnMobile.js"
+        strategy="lazyOnload"
+      ></Script>
     </>
   );
 }
