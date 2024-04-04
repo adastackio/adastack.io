@@ -6,6 +6,8 @@ const mediaLarge = window.matchMedia("(min-width: 767px)");
 console.log("hit open dropdown script");
 
 if (mediaSmall.matches && !hamburgerInner.classList.contains("open")) {
+  hamburgerMenu.removeEventListener("click", null);
+
   console.log("on mobile. open automatically.");
   hamburgerMenu.click();
 }
