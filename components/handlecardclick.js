@@ -4,50 +4,6 @@ function handleCardClick(event) {
   const mediaSmall = window.matchMedia("(max-width: 767px)");
   const mediaLarge = window.matchMedia("(min-width: 767px)");
 
-  const hamburgerMenu = document.querySelector(".nextra-hamburger");
-  const hamburgerInner = document.querySelector(".nextra-hamburger > svg");
-
-  // Open the hamburger on mobile when clicking a Card
-  const openHamburger = () => {
-    if (mediaSmall.matches && !hamburgerInner.classList.contains("open")) {
-      console.log(
-        `hamburgerInner.classList.contains("open"):`,
-        hamburgerInner.classList.contains("open")
-      );
-      console.log(
-        `!hamburgerInner.classList.contains("open"):`,
-        !hamburgerInner.classList.contains("open")
-      );
-      console.log("Page is small. Menu is closed. Click hamburger menu");
-      // open hamburger menu
-      hamburgerMenu.click();
-      if (!hamburgerInner.classList.contains("open")) {
-        setTimeout(() => {
-          console.log("Menu not open. Click again");
-          hamburgerMenu.click();
-        }, 100);
-      }
-      if (!hamburgerInner.classList.contains("open")) {
-        setTimeout(() => {
-          console.log("Menu not open. Click again");
-          hamburgerMenu.click();
-        }, 100);
-      }
-      if (!hamburgerInner.classList.contains("open")) {
-        setTimeout(() => {
-          console.log("Menu not open. Click again");
-          hamburgerMenu.click();
-        }, 100);
-      }
-      if (!hamburgerInner.classList.contains("open")) {
-        setTimeout(() => {
-          console.log("Menu not open. Click again");
-          hamburgerMenu.click();
-        }, 100);
-      }
-    }
-  };
-
   const InitiateSidebarActions = () => {
     sidebarElements.forEach((sidebarElement) => {
       if (mediaSmall.matches) {
@@ -102,7 +58,6 @@ function handleCardClick(event) {
   };
 
   InitiateSidebarActions();
-  openHamburger();
 }
 
 export { handleCardClick };
