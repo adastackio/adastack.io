@@ -11,11 +11,16 @@ function handleCardClick(event) {
     console.log("hit open dropdown script");
 
     if (mediaSmall.matches && !hamburgerInner.classList.contains("open")) {
-      hamburgerMenu.removeEventListener("click", null);
-
-      console.log("on mobile. open automatically.");
+      console.log("On mobile. Menu not open. Open menu");
       hamburgerMenu.click();
     }
+
+    setTimeout(() => {
+      if (mediaSmall.matches && !hamburgerInner.classList.contains("open")) {
+        console.log("On mobile. Menu not open. Double click menu");
+        hamburgerMenu.click();
+      }
+    }, 100);
   };
 
   const InitiateSidebarActions = () => {
