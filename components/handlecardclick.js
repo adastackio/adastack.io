@@ -3,6 +3,20 @@ function handleCardClick(event) {
   const cardTextContent = event.target.textContent;
   const mediaSmall = window.matchMedia("(max-width: 767px)");
   const mediaLarge = window.matchMedia("(min-width: 767px)");
+  const hamburgerMenu = document.querySelector(".nextra-hamburger");
+  const hamburgerInner = document.querySelector(".nextra-hamburger > svg");
+
+  // Open the hamburger on mobile when clicking a Card
+  const openHamburger = () => {
+    console.log("hit open dropdown script");
+
+    if (mediaSmall.matches && !hamburgerInner.classList.contains("open")) {
+      hamburgerMenu.removeEventListener("click", null);
+
+      console.log("on mobile. open automatically.");
+      hamburgerMenu.click();
+    }
+  };
 
   const InitiateSidebarActions = () => {
     sidebarElements.forEach((sidebarElement) => {
@@ -58,6 +72,7 @@ function handleCardClick(event) {
   };
 
   InitiateSidebarActions();
+  openHamburger();
 }
 
 export { handleCardClick };
