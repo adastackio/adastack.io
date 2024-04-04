@@ -5,11 +5,8 @@ import "../css/styles.css";
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Component {...pageProps} />;
-      <Script
-        src="../components/openDropdownNavOnMobile.js"
-        strategy="beforeInteractive"
-      />
+      <Component {...pageProps} />
+      <Script src="../components/openDropdownNavOnMobile.js" />
     </>
   );
 }
