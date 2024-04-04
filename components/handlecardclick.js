@@ -17,7 +17,7 @@ function handleCardClick(event) {
 
   const InitiateSidebarActions = () => {};
 
-  setTimeout(openHamburger(), 20000);
+  openHamburger();
   InitiateSidebarActions();
 }
 
