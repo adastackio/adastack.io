@@ -9,6 +9,14 @@ function handleCardClick(event) {
   // Open the hamburger on mobile when clicking a Card
   const openHamburger = () => {
     if (mediaSmall.matches && !hamburgerInner.classList.contains("open")) {
+      console.log(
+        `hamburgerInner.classList.contains("open"):`,
+        hamburgerInner.classList.contains("open")
+      );
+      console.log(
+        `!hamburgerInner.classList.contains("open"):`,
+        !hamburgerInner.classList.contains("open")
+      );
       console.log("Page is small. Menu is closed. Click hamburger menu");
       // open hamburger menu
       hamburgerMenu.click();
