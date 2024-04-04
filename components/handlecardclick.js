@@ -13,10 +13,29 @@ function handleCardClick(event) {
       // open hamburger menu
       hamburgerMenu.click();
       if (!hamburgerInner.classList.contains("open")) {
-        console.log("Menu not open. Click again");
-        hamburgerMenu.click();
+        setTimeout(() => {
+          console.log("Menu not open. Click again");
+          hamburgerMenu.click();
+        }, 100);
       }
-    }
+      if (!hamburgerInner.classList.contains("open")) {
+        setTimeout(() => {
+          console.log("Menu not open. Click again");
+          hamburgerMenu.click();
+        }, 100);
+      }
+      if (!hamburgerInner.classList.contains("open")) {
+        setTimeout(() => {
+          console.log("Menu not open. Click again");
+          hamburgerMenu.click();
+        }, 100);
+      }
+      if (!hamburgerInner.classList.contains("open")) {
+        setTimeout(() => {
+          console.log("Menu not open. Click again");
+          hamburgerMenu.click();
+        }, 100);
+      }
   };
 
   const InitiateSidebarActions = () => {
