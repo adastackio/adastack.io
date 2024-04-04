@@ -65,6 +65,7 @@ function handleCardClick(event) {
           sidebarElement.click();
         }
       }
+    }
 
       if (mediaLarge.matches) {
         if (cardTextContent === sidebarElement.textContent) {
@@ -93,6 +94,6 @@ function handleCardClick(event) {
 
   InitiateSidebarActions();
   openHamburger();
-}
+};
 
 export { handleCardClick };
