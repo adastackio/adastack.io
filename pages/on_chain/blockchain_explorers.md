@@ -5,7 +5,7 @@ seo_description:
 
 # Blockchain Explorers
 
-Blockchain Explorers allow users to see happening on the blockchain. You can search to see specific transactions, blocks, addresses, and stake pools.
+Blockchain Explorers allow you to see everything happening on the blockchain. You can search to see specific transactions, blocks, addresses, stake pools, and more.
 
 [Cexplorer](https://cexplorer.io/): Cexplorer is an explorer with simple-to-use features for navigating the blockchain's history.
 
