@@ -15,6 +15,10 @@ Newsletters to get the latest Cardano updates by email.
 
 [Interviewing Cardano](https://medium.com/@patryk_karter): Interviews with Cardano DeFi projects, NFT projects, and stake pool operators (SPOs).
 
+[Intersect Newsletter](https://www.intersectmbo.org/news): Follow Intersect, the members-based organization in charge of Cardano's continuity and future development.
+
+[Catalyst Newsletter](https://projectcatalyst.io/news): Follow Project Catalyst, Cardano's democratic innovation fund. The newsletter sign up form is at the bottom of their News page.
+
 [Cardano Spotlight from Emurgo](https://cardanospot.io/explore): Weekly rundown that discusses Cardano topics of the week. Created by Emurgo's news website Cardano Spot.
 
 [Frontier Letter](https://frontierletter.substack.com/): Future blog that sometimes covers Cardano topics.
