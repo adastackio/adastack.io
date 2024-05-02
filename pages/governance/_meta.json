@@ -1,14 +1,50 @@
 {
   "what_is_governance": {
-  "title": "What is Governance?",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-  }
+    "title": "What is Governance?",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "governance_resources": {
+    "title": "Governance Resources",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "voting_and_dreps": {
+    "title": "Voting and DReps",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "cips": {
+    "title": "CIPs",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
   }
 }
