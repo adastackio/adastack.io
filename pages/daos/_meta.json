@@ -10,5 +10,41 @@
       "layout": "default",
       "typesetting": "default"
     }
+  },
+  "dao_explorers": {
+    "title": "DAO Explorers",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "dao_management_software": {
+    "title": "DAO Management Software",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "multisig": {
+    "title": "Multisig",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
   }
 }
