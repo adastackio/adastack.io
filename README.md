@@ -1,8 +1,8 @@
 # Adastack
 
-Adastack is an open-source Cardano explorer with 100+ pages of resources, tools, and guides. 
+Adastack is an open-source Cardano explorer with 100+ pages of resources and tools.
 
-The website's purpose is to showcase projects in the quickly-growing Cardano ecosystem.  
+The website's purpose is to showcase projects in the quickly-growing Cardano ecosystem.
 
 Please feel free to contribute!
 
