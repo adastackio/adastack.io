@@ -10,5 +10,41 @@
       "layout": "default",
       "typesetting": "default"
     }
+  },
+  "dapp_explorers": {
+    "title": "Dapp Explorers",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
     }
+  },
+  "project_analysis_tools": {
+    "title": "Project Analysis Tools",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "project_funding": {
+    "title": "Project Funding",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  }
 }
