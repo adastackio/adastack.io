@@ -155,32 +155,6 @@
       "typesetting": "default"
     }
   },
-  "markdown": {
-    "title": "Markdown",
-    "display": "hidden",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
-  "partner_chains": {
-    "type": "page",
-    "title": "Partner Chains",
-    "theme": {
-      "breadcrumb": false,
-      "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
   "about": {
     "type": "page",
     "title": "About",
