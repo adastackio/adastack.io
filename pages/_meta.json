@@ -168,9 +168,9 @@
       "typesetting": "default"
     }
   },
-  "make_a_suggestion": {
-    "title": "Make a Suggestion",
-    "display": "hidden",
+  "partner_chains": {
+    "type": "page",
+    "title": "Partner Chains",
     "theme": {
       "breadcrumb": false,
       "footer": true,
