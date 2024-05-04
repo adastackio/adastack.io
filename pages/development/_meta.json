@@ -95,8 +95,8 @@
       "typesetting": "default"
     }
   },
-  "developer_forum": {
-    "title": "Developer Forum",
+  "developer_forums": {
+    "title": "Developer Forums",
     "theme": {
       "breadcrumb": false,
       "footer": true,
