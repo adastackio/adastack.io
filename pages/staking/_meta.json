@@ -9,10 +9,10 @@
       "pagination": false,
       "layout": "default",
       "typesetting": "default"
-  }
-  },  
-  "start_staking": {
-    "title": "Start Staking",
+    }
+  },
+  "how_to_start_staking": {
+    "title": "How to Start Staking",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -21,126 +21,126 @@
       "pagination": false,
       "layout": "default",
       "typesetting": "default"
-}
-},
-"stake_pool_explorers": {
-  "title": "Stake Pool Explorers",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-}
-},
-"stake_reward_trackers": {
-  "title": "Stake Reward Trackers",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-}
-},
-"stake_reward_calculators": {
-  "title": "Stake Reward Calculators",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-}
-},
-"stake_reward_calendar": {
-  "title": "Stake Reward Calendar",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-}
-},
-"open_ispos": {
-  "title": "Open ISPOs",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-}
-},
-"stake_pool_alliances": {
-  "title": "Stake Pool Alliances",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-}
-},
-"setting_up_a_stake_pool": {
-  "title": "Setting up a Stake Pool",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-}
-},
-"stake_pool_monitoring_tools": {
-  "title": "Stake Pool Monitoring Tools",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-}
-},
-"spo_chat_groups": {
-  "title": "SPO Chat Groups",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-}
-},
-"other_staking_tools": {
-  "title": "Other Staking Tools",
-  "theme": {
-    "breadcrumb": false,
-    "footer": true,
-    "sidebar": true,
-    "toc": true,
-    "pagination": false,
-    "layout": "default",
-    "typesetting": "default"
-}
-}
+    }
+  },
+  "stake_pool_explorers": {
+    "title": "Stake Pool Explorers",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "stake_reward_trackers": {
+    "title": "Stake Reward Trackers",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "stake_reward_calculators": {
+    "title": "Stake Reward Calculators",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "stake_reward_calendar": {
+    "title": "Stake Reward Calendar",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "open_ispos": {
+    "title": "Open ISPOs",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "stake_pool_alliances": {
+    "title": "Stake Pool Alliances",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "setting_up_a_stake_pool": {
+    "title": "Setting up a Stake Pool",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "stake_pool_monitoring_tools": {
+    "title": "Stake Pool Monitoring Tools",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "spo_chat_groups": {
+    "title": "SPO Chat Groups",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "other_staking_tools": {
+    "title": "Other Staking Tools",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  }
 }
