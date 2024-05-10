@@ -16,11 +16,19 @@ The website's purpose is to showcase the quickly-growing Cardano ecosystem.
 
 ## Documentation
 
-This project is based on the [Nextra theme](https://nextra.site).
+The site's tech stack includes Tailwind, React, Next, and Nextra.
+
+[**Read the Tailwind docs →**](https://v2.tailwindcss.com/docs)
+
+[**Read the React docs →**](https://react.dev/)
 
 [**Read the Next docs →**](https://nextjs.org/docs)
 
 [**Read the Nextra docs →**](https://nextra.site/docs)
+
+The site's content is composed in markdown.
+
+[**Markdown docs→**](https://www.markdownguide.org/basic-syntax/)
 
 ## Contributions
 
