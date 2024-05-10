@@ -32,7 +32,7 @@ The site's content is composed in markdown.
 
 ## Contributions
 
-Contributions are very welcome. Feel free to make a PR if you're interested in adding new tools or content, removing broken links, or suggesting other improvements to the project. If you have general feedback or want to report a bug please create an issue. 
+Contributions are very welcome. Feel free to make a PR if you want to add new links, removing broken links, improve content, or make other suggestions. If you have general feedback on the website or want to report a bug please [create an issue](https://github.com/adastackio/adastack.io/issues). 
 
 ## License
 
