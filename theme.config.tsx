@@ -181,8 +181,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: null,
   },
-  docsRepositoryBase:
-    "https://github.com/adastackio/adastack.io/tree/main/pages/",
+  docsRepositoryBase: "https://github.com/adastackio/adastack.io/tree/main/",
 };
 
 export default config;
