@@ -3,7 +3,7 @@ import { DocsThemeConfig, ThemeSwitch, useTheme } from "nextra-theme-docs";
 import { AdaStackLight, AdaStackDark, AdaStackMid } from "@components/icons";
 import { Nunito } from "next/font/google";
 import { useConfig } from "nextra-theme-docs";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -12,45 +12,64 @@ const nunito = Nunito({
 
 const config: DocsThemeConfig = {
   head: () => {
-    const { asPath, defaultLocale, locale } = useRouter()
-    const { frontMatter } = useConfig()
+    const { asPath, defaultLocale, locale } = useRouter();
+    const { frontMatter } = useConfig();
     const url =
-      'https://adastack.io' +
-      (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
-    
-    let title = frontMatter.seo_title ? frontMatter.seo_title : "%s | adastack.io";
-    let description = frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source directory of links and tools on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools."
+      "https://adastack.io" +
+      (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
+
+    let title = frontMatter.seo_title
+      ? frontMatter.seo_title
+      : "%s | adastack.io";
+    let description = frontMatter.seo_description
+      ? frontMatter.seo_description
+      : "Adastack is an open-source directory of links and tools on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.";
     return (
       <>
         <meta property="og:url" content={url} />
         <meta property="og:title" content={title} />
-        <meta
-          property="og:description"
-          content={description}
+        <meta property="og:description" content={description} />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
         />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
-        <link rel="manifest" href="/site.webmanifest"/>
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"/>
-        <meta name="msapplication-TileColor" content="#da532c"/>
-        <meta name="theme-color" content="#ffffff"/>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
       </>
-    )
+    );
   },
   useNextSeoProps() {
     const { frontMatter } = useConfig();
 
     return {
-      titleTemplate: frontMatter.seo_title? `${frontMatter.seo_title} | Adastack.io` : "%s | Adastack.io",
-      description: frontMatter.seo_description ? frontMatter.seo_description : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
+      titleTemplate: frontMatter.seo_title
+        ? `${frontMatter.seo_title} | Adastack.io`
+        : "%s | Adastack.io",
+      description: frontMatter.seo_description
+        ? frontMatter.seo_description
+        : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
     };
   },
 
   search: { placeholder: "Search Tools" },
-  // project: {
-  // link: "https://github.com/tuckpuck/adastack",
-  // },
+  project: {
+    link: "https://github.com/adastackio/adastack.io",
+  },
   // chat: {
   //   link: 'https://twitter.com/adastackio',
   //   icon: (
@@ -76,22 +95,22 @@ const config: DocsThemeConfig = {
   },
   logo: () => {
     return (
-        <>
-          <AdaStackMid
-            alt="Logo"
-            height="100"
-            width="75"
-            viewBox="0 -4 100 50"
-            className="adastack-logo"
-          />
-          <span
-            className={`${nunito.className} adastack-title`}
-            style={{ fontWeight: 800 }}
-          >
-            ADASTACK
-          </span>
-        </>
-      );
+      <>
+        <AdaStackMid
+          alt="Logo"
+          height="100"
+          width="75"
+          viewBox="0 -4 100 50"
+          className="adastack-logo"
+        />
+        <span
+          className={`${nunito.className} adastack-title`}
+          style={{ fontWeight: 800 }}
+        >
+          ADASTACK
+        </span>
+      </>
+    );
 
     // const { resolvedTheme } = useTheme();
     // if (resolvedTheme === "light" || !resolvedTheme) {
@@ -160,12 +179,9 @@ const config: DocsThemeConfig = {
     float: true,
   },
   footer: {
-    text: null
+    text: null,
   },
-  feedback: {
-    content: null,
-  },
-  docsRepositoryBase: "https://github.com/tuckpuck/adastack/blob/nextra3/",
+  docsRepositoryBase: "https://github.com/adastackio/adastack.io",
 };
 
 export default config;
