@@ -6,6 +6,7 @@
 .adastack-title {
   margin-left: -30px;
 }
+
 svg.adastack-logo {
   padding: 13px;
 }
@@ -14,14 +15,17 @@ svg.adastack-logo {
 html[style*="color-scheme: light;"] div.nx-mx-auto.nx-flex.nx-max-w-\[90rem\] {
   background-color: #fafafa;
 }
+
 /* Set nav on dark */
-html[style*="color-scheme: dark;"] .nextra-nav-container .nextra-nav-container-blur {
+html[style*="color-scheme: dark;"]
+  .nextra-nav-container
+  .nextra-nav-container-blur {
   background-color: #050505 !important;
 }
 
 /* Set nav on light */
 html .nextra-nav-container .nextra-nav-container-blur {
-  background-color: #FAFAF9 !important;
+  background-color: #fafaf9 !important;
 }
 
 /* Sidebar menu */
@@ -38,13 +42,16 @@ button[title="Hide sidebar"] {
 }
 
 /* Right Sidebar */
-html[style*="color-scheme: light;"] .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
+html[style*="color-scheme: light;"]
+  .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
   background-color: #fafafa;
   box-shadow: none;
   bottom: -15px;
 }
 
-html[style*="color-scheme: light;"] p.nx-mb-4.nx-font-semibold.nx-tracking-tight + ul {
+html[style*="color-scheme: light;"]
+  p.nx-mb-4.nx-font-semibold.nx-tracking-tight
+  + ul {
   background-color: #fafafa;
 }
 
@@ -69,7 +76,7 @@ a:hover {
 a.nextra-card {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
-  border-radius: 0.20rem;
+  border-radius: 0.2rem;
 }
 
 a.nextra-card:hover {
@@ -103,7 +110,7 @@ a.nextra-card .nextra-card-title svg {
 /* Home card dark background hover color */
 :is(html[class~="dark"]) .home-card.bg-dark-color:hover {
   /* background-color: #0f0a22; */
-  box-shadow: 0 0 0 1px #0080FF;
+  box-shadow: 0 0 0 1px #0080ff;
 }
 
 /* Post header H1 */
@@ -161,11 +168,6 @@ h4 {
   transform: translate(-50%, -50%);
 }
 
-/* Hide "Edit this Page" Button */
-a.nx-text-xs.nx-font-medium.nx-text-gray-500.hover\:nx-text-gray-900.dark\:nx-text-gray-400.dark\:hover\:nx-text-gray-100.contrast-more\:nx-text-gray-800.contrast-more\:dark\:nx-text-gray-50 {
-  display: none;
-}
-
 footer {
   display: none;
 }
@@ -179,34 +181,41 @@ footer {
   display: none;
 } */
 
-
-
 /* Media Queries */
 /* XS Size */
-@media (max-width: 544px) {}
+@media (max-width: 544px) {
+}
 /* S Size */
-@media (min-width: 545px) and (max-width: 767px) {}
+@media (min-width: 545px) and (max-width: 767px) {
+}
 /* Medium */
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+}
 /* Large */
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
 /* Full Size - Extra Large Desktop and Up */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
 /* Everything under medium - XS and S Size - Mobile */
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+}
 /* Everything Under Large Size */
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+}
 /* Everything Under Extra Large Size */
-@media (max-width: 1199px) {}
+@media (max-width: 1199px) {
+}
 /* Everything Over Small Size */
-@media (min-width: 545px) {}
+@media (min-width: 545px) {
+}
 /* Everything Over Medium Tablet Size */
 @media (min-width: 768px) {
-/* Hide footer over 768px */
-.nx-mx-auto.nx-flex.nx-max-w-\[90rem\].nx-justify-center.nx-py-12.nx-text-gray-600.dark\:nx-text-gray-400.md\:nx-justify-start.nx-pl-\[max\(env\(safe-area-inset-left\)\,1\.5rem\)\].nx-pr-\[max\(env\(safe-area-inset-right\)\,1\.5rem\)\] {
-  display:none; 
-}
+  /* Hide footer over 768px */
+  .nx-mx-auto.nx-flex.nx-max-w-\[90rem\].nx-justify-center.nx-py-12.nx-text-gray-600.dark\:nx-text-gray-400.md\:nx-justify-start.nx-pl-\[max\(env\(safe-area-inset-left\)\,1\.5rem\)\].nx-pr-\[max\(env\(safe-area-inset-right\)\,1\.5rem\)\] {
+    display: none;
+  }
 }
 /* Everything Over Large Size */
-@media (min-width: 992px) {}
-
+@media (min-width: 992px) {
+}
