@@ -71,8 +71,8 @@
       "typesetting": "default"
     }
   },
-  "nfts": {
-    "title": "NFTs",
+  "dapps": {
+    "title": "Dapps",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -83,8 +83,8 @@
       "typesetting": "default"
     }
   },
-  "dapps": {
-    "title": "Dapps",
+  "nfts": {
+    "title": "NFTs",
     "theme": {
       "breadcrumb": false,
       "footer": true,
@@ -155,9 +155,34 @@
       "typesetting": "default"
     }
   },
+  "scaling_and_l2s": {
+    "title": "Scaling and L2s",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
+  "sidechains": {
+    "title": "Side Chains",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": true,
+      "toc": true,
+      "pagination": false,
+      "layout": "default",
+      "typesetting": "default"
+    }
+  },
   "about": {
-    "type": "page",
     "title": "About",
+    "type": "page",
+    "display": "hidden",
     "theme": {
       "breadcrumb": false,
       "footer": true,
