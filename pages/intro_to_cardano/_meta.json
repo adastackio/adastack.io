@@ -35,8 +35,8 @@
       "typesetting": "default"
     }
   },
-  "start_using_cardano": {
-    "title": "Start Using Cardano",
+  "getting_started": {
+    "title": "Getting Started",
     "theme": {
       "breadcrumb": false,
       "footer": true,
