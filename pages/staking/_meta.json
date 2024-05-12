@@ -59,8 +59,8 @@
       "typesetting": "default"
     }
   },
-  "stake_reward_calendar": {
-    "title": "Stake Reward Calendar",
+  "reward_calendars": {
+    "title": "Reward Calendars",
     "theme": {
       "breadcrumb": false,
       "footer": true,
