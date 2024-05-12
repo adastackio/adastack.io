@@ -1,354 +1,176 @@
 import React, { useEffect } from "react";
 import * as THREE from "three";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 function Animation() {
   useEffect(() => {
-    function init() {
-      if (!document.getElementById("welcomeCanvas")) {
-        return;
-      }
-      var _options = {
-        canvas: document.getElementById("welcomeCanvas"),
-        antialias: true,
-      };
-      var _params = {
-        pointLightY: 0,
-        cameraShakeY: 0,
-        fogColor: 0xfafafa,
-        fogMin: 0.015,
-        fogMax: 400,
-      };
-      var AMOUNTX = 100;
-      var AMOUNTY = 100;
-      var SEPARATION = 10;
-      var renderer,
-        scene,
-        camera,
-        pointLight,
-        particleSystem,
-        count = 0;
-      renderer = new THREE.WebGLRenderer(_options);
-      renderer.setPixelRatio(window.devicePixelRatio);
-      renderer.setSize(830, window.innerHeight);
-      renderer.setClearColor(_params.fogColor);
-      //
-      scene = new THREE.Scene();
-      scene.fog = new THREE.Fog(
-        _params.fogColor,
-        _params.fogMin,
-        _params.fogMax
-      );
-      //
-      camera = new THREE.PerspectiveCamera(
-        45,
-        window.innerWidth / window.innerHeight,
-        0.1,
-        4700
-      );
-      camera.position.y = -500;
-      camera.position.z = -800;
-      //
-      pointLight = new THREE.PointLight("rgb(255,250,250)", 0.9);
-      pointLight.position.x = 100;
-      pointLight.position.z = -350;
-      scene.add(pointLight);
-      //
-      particleSystem = buildParticleSystem();
-      particleSystem.position.y = -20;
-      particleSystem.rotation.y = 65;
-      particleSystem.position.set(
-        camera.position.x,
-        camera.position.y - 10,
-        camera.position.z
-      );
-      scene.add(particleSystem);
-      //		//		//		//		//		//		//		//		//		//		//		//		//		//
-      // THIS IS ABOUT MOVING THE CAMERA :D //
-      //		//		//		//		//		//		//		//		//		//		//		//		//		//
-      //set up state so we know if we are moving forward
-      var moveForward = false;
-      //define velocity as a vector3
-      var velocity = new THREE.Vector3();
-      var prevTime = performance.now();
-      //moveforward is true when 'up' or 'w' is pressed
-      var onKeyDown = function (event) {
-        switch (event.keyCode) {
-          case 38: // up
-          case 87: // w
-            moveForward = true;
-            console.log("onKeyDown! moveForward is now: " + moveForward);
-            break;
-        }
-      };
-      //moveforward is false when 'up' or 'w' is not pressed
-      var onKeyUp = function (event) {
-        switch (event.keyCode) {
-          case 38: // up
-          case 87: // w
-            moveForward = false;
-            console.log("onKeyUp! moveForward is now: " + moveForward);
-            break;
-        }
-      };
-      //make sure our document knows what functions to call when a key is pressed.
-      document.addEventListener("keydown", onKeyDown, false);
-      document.addEventListener("keyup", onKeyUp, false);
-      //time to render the movement every frame.
-      function render() {
-        renderer.render(scene, camera);
-        //moving the camera
-        //lets make sure we can move camera smoothly based on user's performance.
-        var time = performance.now();
-        var delta = (time - prevTime) / 1000;
-        //reset z velocity to be 0 always. But override it if user presses up or w. See next line...
-        velocity.z -= velocity.z * 10.0 * delta;
-        //if the user pressed 'up' or 'w', set velocity.z to a value > 0.
-        if (moveForward) velocity.z -= 400.0 * delta;
-        //pass velocity as an argument to translateZ and call it on camera.
-        camera.translateZ(velocity.z * delta);
-        prevTime = time;
-        //ignore this
-        activateParticleWave();
-      }
-      //		//		//		//		//		//		//		//		//		//		//		//		//		//
-      // Look above for stuff regarding moving the camera.
-      //		//		//		//		//		//		//		//		//		//		//		//		//		//
-      function draw() {
-        count += 0.1;
-        requestAnimationFrame(draw);
-        render();
-      }
-      function onWindowResize() {
-        windowHalfX = window.innerWidth / 2;
-        windowHalfY = window.innerHeight / 2;
-        camera.aspect = window.innerWidth / window.innerHeight;
-        camera.updateProjectionMatrix();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-      }
-      window.addEventListener("resize", onWindowResize, false);
-      function activateParticleWave() {
-        particleSystem.geometry.attributes.position.needsUpdate = true;
-        var positions = particleSystem.geometry.attributes.position.array;
-        for (var i = 0; i < positions.length; i += 3) {
-          positions[i + 1] = Math.sin((i / 3 + count) * 0.5) * 3;
-        }
-      }
-      function buildParticleSystem() {
-        var positions = [];
-        for (var ix = 0; ix < AMOUNTX; ix++) {
-          for (var iy = 0; iy < AMOUNTY; iy++) {
-            var x = ix * SEPARATION - (AMOUNTX * SEPARATION) / 2;
-            var y = 0;
-            var z = iy * SEPARATION - (AMOUNTY * SEPARATION) / 2;
-            positions.push(x, y, z);
-          }
-        }
-        var particleGeom = new THREE.BufferGeometry();
-        particleGeom.setAttribute(
-          "position",
-          new THREE.Float32BufferAttribute(positions, 3)
+    const rootFontSize = 16;
+    // Convert 16 rem to pixels (assuming 1 rem = 16px by default or based on root font size)
+    const remInPixels = 16 * rootFontSize;
+    // Subtract 16rem in pixels from the full width of the window
+    let w = window.innerWidth - remInPixels;
+    let h = window.innerHeight;
+
+    const scene = new THREE.Scene();
+
+    const camera = new THREE.PerspectiveCamera(60, w / h, 0.001, 1000);
+    camera.position.set(0, 3, 24);
+    camera.lookAt(scene.position);
+
+    const renderer = new THREE.WebGLRenderer({
+      antialias: true,
+      // alpha: true,
+    });
+    renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.setSize(w, h);
+    renderer.setClearColor(0x160016, 1);
+    document.getElementById("animation").appendChild(renderer.domElement);
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    // controls.enableDamping = true;
+    // controls.enablePan = false;
+
+    // const geometry = new THREE.SphereGeometry(1, 64, 64);
+    const count1 = 50000;
+    const count2 = 100000;
+
+    const geometry = new THREE.BufferGeometry();
+    const positions = [];
+    const sizes = [];
+    const shifts = [];
+    for (let i = 0; i < count1 + count2; i++) {
+      let theta = Math.random() * Math.PI * 2;
+      // let phi = Math.random() * Math.PI;
+      let phi = Math.acos(Math.random() * 2 - 1);
+      let angle = (Math.random() * 0.9 + 0.1) * Math.PI * 0.1;
+      let strength = Math.random() * 0.9 + 0.1; // 0.1-1.0
+      shifts.push(theta, phi, angle, strength);
+
+      let size = Math.random() * 1.5 + 0.5; // 0.5-2.0
+      sizes.push(size);
+
+      if (i < count1) {
+        // 中心球体粒子
+        // let r = 10;
+        let r = Math.random() * 0.5 + 9.5;
+        // let x = r * Math.sin(phi) * Math.cos(theta);
+        // let y = r * Math.sin(phi) * Math.sin(theta);
+        // let z = r * Math.cos(phi);
+        let { x, y, z } = new THREE.Vector3()
+          .randomDirection()
+          .multiplyScalar(r);
+        positions.push(x, y, z);
+      } else {
+        // 外围圆盘粒子
+        let r = 10;
+        let R = 40;
+        let rand = Math.pow(Math.random(), 1.5);
+        let radius = Math.sqrt(R * R * rand + (1 - rand) * r * r); // 通过 rand=0-1 数值去线性插值 R^2 和 r^2 大概是按圆圈面积采样粒子分布更均匀
+        let { x, y, z } = new THREE.Vector3().setFromCylindricalCoords(
+          radius, // 半径
+          Math.random() * 2 * Math.PI, // 角度
+          (Math.random() - 0.5) * 2 // 高度y -1-1
         );
-        var particleMaterial = new THREE.PointsMaterial({
-          color: 0x000000,
-          size: 1.4,
-        });
-        var system = new THREE.Points(particleGeom, particleMaterial);
-        return system;
+        positions.push(x, y, z);
       }
-      draw(); //do all the things
     }
-    init();
+
+    geometry.setAttribute(
+      "position",
+      new THREE.Float32BufferAttribute(positions, 3)
+    );
+    geometry.setAttribute("aSize", new THREE.Float32BufferAttribute(sizes, 1));
+    geometry.setAttribute(
+      "aShift",
+      new THREE.Float32BufferAttribute(shifts, 4)
+    );
+
+    const vertexShader = /* GLSL */ `
+  attribute float aSize;
+  attribute vec4 aShift;
+
+  uniform float uTime;
+
+  varying vec3 vColor;
+
+  const float PI = 3.141592653589793238;
+
+  void main() {
+      // float d = abs(position.y) / 10.0;
+      float d = length(abs(position) / vec3(40., 10., 40.)); // 中间黄色、外面紫色
+      d = clamp(d, 0., 1.);
+      
+      // rgb(227, 155, 0)
+      // rgb(100, 50, 255)
+      vec3 color1 = vec3(227., 155., 0.);
+      vec3 color2 = vec3(100., 50., 255.);
+
+      vColor = mix(color1, color2, d) / 255.;
+
+      vec3 transformed = position;
+
+      float theta = mod(aShift.x + aShift.z * uTime, PI * 2.);
+      float phi = mod(aShift.y + aShift.z * uTime, PI * 2.);
+      transformed += vec3(sin(phi) * cos(theta), cos(phi), sin(phi) * sin(theta)) * aShift.w;
+      
+      vec4 mvPosition = modelViewMatrix * vec4(transformed, 1.0);
+      gl_PointSize = aSize * 50.0 / -mvPosition.z;
+      gl_Position = projectionMatrix * mvPosition;
+  }
+`;
+
+    const fragmentShader = /* GLSL */ `
+  varying vec3 vColor;
+
+  void main() {
+    float d = length(gl_PointCoord.xy - 0.5);
+    if (d > 0.5) discard;
+    // gl_FragColor = vec4(vColor, step(0.5, 1.0 - d));
+    gl_FragColor = vec4(vColor, smoothstep(0.5, 0.1, d));
+  }
+`;
+
+    const material = new THREE.ShaderMaterial({
+      vertexShader,
+      fragmentShader,
+      uniforms: {
+        uTime: { value: 0 },
+      },
+      transparent: true,
+      blending: THREE.AdditiveBlending,
+      depthTest: false,
+    });
+
+    // const mesh = new THREE.Mesh(geometry, material);
+    const mesh = new THREE.Points(geometry, material);
+    mesh.rotation.order = "ZYX";
+    mesh.rotation.z = 0.2;
+    scene.add(mesh);
+
+    // let time = 0;
+    let clock = new THREE.Clock();
+    function render() {
+      // time += 0.05;
+      let time = clock.getElapsedTime();
+      mesh.rotation.y = time * 0.01;
+      material.uniforms.uTime.value = time;
+      renderer.render(scene, camera);
+      controls.update();
+
+      requestAnimationFrame(render);
+    }
+
+    render();
+
+    function resize() {
+      w = window.innerWidth;
+      h = window.innerHeight;
+      renderer.setSize(w, h);
+      camera.aspect = w / h;
+      camera.updateProjectionMatrix();
+    }
+
+    window.addEventListener("resize", resize);
   }, []);
-  return <canvas id="welcomeCanvas" />;
+  return <div id="animation" />;
 }
 export { Animation };
-
-// import React, { useEffect } from "react";
-// import * as THREE from "three";
-
-// function Animation() {
-//   useEffect(() => {
-//     function init() {
-//       if (!document.getElementById("welcomeCanvas")) {
-//         return;
-//       }
-//       var _options = {
-//         canvas: document.getElementById("welcomeCanvas"),
-//         antialias: true,
-//       };
-//       var _params = {
-//         pointLightY: 0,
-//         cameraShakeY: 0,
-//         fogColor: 0xffd700,
-//         fogMin: 0.015,
-//         fogMax: 400,
-//       };
-//       var AMOUNTX = 100;
-//       var AMOUNTY = 100;
-//       var SEPARATION = 10;
-//       var renderer,
-//         scene,
-//         camera,
-//         pointLight,
-//         particleSystem,
-//         count = 0;
-
-//       renderer = new THREE.WebGLRenderer(_options);
-//       renderer.setPixelRatio(window.devicePixelRatio);
-//       renderer.setSize(window.innerWidth, window.innerHeight);
-//       renderer.setClearColor(_params.fogColor);
-
-//       //
-
-//       scene = new THREE.Scene();
-//       scene.fog = new THREE.Fog(
-//         _params.fogColor,
-//         _params.fogMin,
-//         _params.fogMax
-//       );
-
-//       //
-
-//       camera = new THREE.PerspectiveCamera(
-//         45,
-//         window.innerWidth / window.innerHeight,
-//         0.1,
-//         4700
-//       );
-//       camera.position.y = -500;
-//       camera.position.z = -800;
-
-//       //
-
-//       pointLight = new THREE.PointLight("rgb(255,250,250)", 0.9);
-//       pointLight.position.x = 100;
-//       pointLight.position.z = -350;
-//       scene.add(pointLight);
-
-//       //
-
-//       particleSystem = buildParticleSystem();
-//       particleSystem.position.y = -20;
-//       particleSystem.rotation.y = 65;
-//       particleSystem.position.set(
-//         camera.position.x,
-//         camera.position.y - 10,
-//         camera.position.z
-//       );
-//       scene.add(particleSystem);
-//       //		//		//		//		//		//		//		//		//		//		//		//		//		//
-//       // THIS IS ABOUT MOVING THE CAMERA :D //
-//       //		//		//		//		//		//		//		//		//		//		//		//		//		//
-
-//       //set up state so we know if we are moving forward
-//       var moveForward = false;
-
-//       //define velocity as a vector3
-//       var velocity = new THREE.Vector3();
-//       var prevTime = performance.now();
-
-//       //moveforward is true when 'up' or 'w' is pressed
-//       var onKeyDown = function (event) {
-//         switch (event.keyCode) {
-//           case 38: // up
-//           case 87: // w
-//             moveForward = true;
-//             console.log("onKeyDown! moveForward is now: " + moveForward);
-//             break;
-//         }
-//       };
-
-//       //moveforward is false when 'up' or 'w' is not pressed
-//       var onKeyUp = function (event) {
-//         switch (event.keyCode) {
-//           case 38: // up
-//           case 87: // w
-//             moveForward = false;
-//             console.log("onKeyUp! moveForward is now: " + moveForward);
-//             break;
-//         }
-//       };
-
-//       //make sure our document knows what functions to call when a key is pressed.
-//       document.addEventListener("keydown", onKeyDown, false);
-//       document.addEventListener("keyup", onKeyUp, false);
-
-//       //time to render the movement every frame.
-//       function render() {
-//         renderer.render(scene, camera);
-//         //moving the camera
-
-//         //lets make sure we can move camera smoothly based on user's performance.
-//         var time = performance.now();
-//         var delta = (time - prevTime) / 1000;
-
-//         //reset z velocity to be 0 always. But override it if user presses up or w. See next line...
-//         velocity.z -= velocity.z * 10.0 * delta;
-//         //if the user pressed 'up' or 'w', set velocity.z to a value > 0.
-//         if (moveForward) velocity.z -= 400.0 * delta;
-
-//         //pass velocity as an argument to translateZ and call it on camera.
-//         camera.translateZ(velocity.z * delta);
-
-//         prevTime = time;
-
-//         //ignore this
-//         activateParticleWave();
-//       }
-
-//       //		//		//		//		//		//		//		//		//		//		//		//		//		//
-//       // Look above for stuff regarding moving the camera.
-//       //		//		//		//		//		//		//		//		//		//		//		//		//		//
-
-//       function draw() {
-//         count += 0.1;
-//         requestAnimationFrame(draw);
-//         render();
-//       }
-
-//       function onWindowResize() {
-//         windowHalfX = window.innerWidth / 2;
-//         windowHalfY = window.innerHeight / 2;
-//         camera.aspect = window.innerWidth / window.innerHeight;
-//         camera.updateProjectionMatrix();
-//         renderer.setSize(window.innerWidth, window.innerHeight);
-//       }
-//       window.addEventListener("resize", onWindowResize, false);
-
-//       function activateParticleWave() {
-//         particleSystem.geometry.verticesNeedUpdate = true;
-//         var i = 0;
-//         for (var iy = 0; iy < particleSystem.geometry.vertices.length; iy++) {
-//           particleSystem.geometry.vertices[iy].y =
-//             Math.sin((iy + count) * 0.5) * 3;
-//         }
-//       }
-
-//       function buildParticleSystem() {
-//         var particleGeom = new THREE.Geometry();
-//         for (var ix = 0; ix < AMOUNTX; ix++) {
-//           for (var iy = 0; iy < AMOUNTY; iy++) {
-//             var vertex = new THREE.Vector3();
-//             vertex.x = ix * SEPARATION - (AMOUNTX * SEPARATION) / 2;
-//             vertex.y = 0;
-//             vertex.z = iy * SEPARATION - (AMOUNTY * SEPARATION) / 2;
-//             particleGeom.vertices.push(vertex);
-//           }
-//         }
-//         var particleMaterial = new THREE.PointsMaterial({
-//           color: 0x000000,
-//           size: 1.4,
-//         });
-
-//         var system = new THREE.Points(particleGeom, particleMaterial);
-//         return system;
-//       }
-
-//       draw(); //do all the things
-//     }
-
-//     init();
-//   }, []);
-//   return <canvas id="welcomeCanvas" />;
-// }
-
-// export { Animation };
