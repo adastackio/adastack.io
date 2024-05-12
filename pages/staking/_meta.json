@@ -47,8 +47,8 @@
       "typesetting": "default"
     }
   },
-  "stake_reward_calculators": {
-    "title": "Stake Reward Calculators",
+  "reward_calculators": {
+    "title": "Reward Calculators",
     "theme": {
       "breadcrumb": false,
       "footer": true,
