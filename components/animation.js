@@ -171,6 +171,6 @@ function Animation() {
 
     window.addEventListener("resize", resize);
   }, []);
-  return <div id="animation" />;
+  return <div id="animation" className="animation" />;
 }
 export { Animation };

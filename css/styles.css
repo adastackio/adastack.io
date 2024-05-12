@@ -51,6 +51,13 @@ button[title="Hide sidebar"] {
   display: none;
 }
 
+.animation {
+  display: none; /* Show animation by default */
+}
+.home-navigation-cards {
+  display: block; /* Hide cards by default */
+}
+
 /* Right Sidebar */
 html[style*="color-scheme: light;"]
   .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
@@ -232,6 +239,14 @@ footer {
   /* Hide footer over 768px */
   .nx-mx-auto.nx-flex.nx-max-w-\[90rem\].nx-justify-center.nx-py-12.nx-text-gray-600.dark\:nx-text-gray-400.md\:nx-justify-start.nx-pl-\[max\(env\(safe-area-inset-left\)\,1\.5rem\)\].nx-pr-\[max\(env\(safe-area-inset-right\)\,1\.5rem\)\] {
     display: none;
+  }
+
+  .animation {
+    display: block; /* Hide animation on smaller screens */
+  }
+
+  .cards {
+    display: none; /* Show cards on smaller screens */
   }
 }
 /* Everything Over Large Size */
