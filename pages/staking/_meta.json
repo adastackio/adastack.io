@@ -35,8 +35,8 @@
       "typesetting": "default"
     }
   },
-  "stake_reward_trackers": {
-    "title": "Stake Reward Trackers",
+  "reward_trackers": {
+    "title": "Reward Trackers",
     "theme": {
       "breadcrumb": false,
       "footer": true,
