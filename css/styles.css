@@ -38,6 +38,25 @@ html[style*="color-scheme: light;"]
   fill: #9ca3af;
 }
 
+.experience {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.credits {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: #ffffff;
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+}
+
+.credits a {
+  color: inherit;
+}
+
 /* Sidebar menu */
 .nextra-scrollbar {
   padding: 1rem 0rem 1rem 0rem !important;
