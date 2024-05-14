@@ -2,6 +2,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+body {
+  overflow: hidden;
+}
+
 /* Site logo */
 .adastack-title {
   margin-left: -30px;
@@ -62,6 +66,7 @@ html[style*="color-scheme: light;"]
   height: 77vh;
   margin-top: -24px;
   background-color: #00c0ff05;
+  width: calc(100vw - 16rem);
 }
 .animation-title-container {
   position: absolute;
