@@ -70,10 +70,10 @@ button[title="Hide sidebar"] {
   display: none;
 }
 
-.animation {
+#animation {
   display: none; /* Show animation by default */
 }
-.home-navigation-cards {
+.nextra-cards {
   display: block; /* Hide cards by default */
 }
 
@@ -260,12 +260,12 @@ footer {
     display: none;
   }
 
-  .animation {
-    display: block; /* Hide animation on smaller screens */
+  #animation {
+    display: block !important; /* Hide animation on smaller screens */
   }
 
-  .cards {
-    display: none; /* Show cards on smaller screens */
+  .nextra-cards {
+    display: none !important; /* Show cards on smaller screens */
   }
 }
 /* Everything Over Large Size */
