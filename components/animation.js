@@ -3,10 +3,10 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 function Animation() {
   useEffect(() => {
-    const nbx = 7;
-    const nby = 7;
-    const nbz = 7;
-    const cubeSize = 0.4; // cubes centers are spaced by 1
+    const nbx = 4;
+    const nby = 4;
+    const nbz = 4;
+    const cubeSize = 0.2; // cubes centers are spaced by 1
 
     let canv, ctx; // canvas and context : global variables (I know :( )
     let maxx, maxy; // canvas sizes (in pixels)
@@ -485,6 +485,12 @@ resx, resy : number of pixels of the screen
     window.requestAnimationFrame(animate);
     click = true; // to run startOver
   }, []);
-  return <div id="animation" className="experience animation"></div>;
+  return (
+    <div id="animation" className="experience animation">
+      <div className="animation-title-container">
+        <h2 className="animation-title">Cardano</h2>
+      </div>
+    </div>
+  );
 }
 export { Animation };

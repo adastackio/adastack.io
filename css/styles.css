@@ -57,6 +57,27 @@ html[style*="color-scheme: light;"]
   color: inherit;
 }
 
+#animation {
+  position: relative;
+  height: 77vh;
+  margin-top: -24px;
+  background-color: #00c0ff05;
+}
+.animation-title-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.animation-title {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
 /* Sidebar menu */
 .nextra-scrollbar {
   padding: 1rem 0rem 1rem 0rem !important;
@@ -71,10 +92,10 @@ button[title="Hide sidebar"] {
 }
 
 #animation {
-  display: none; /* Show animation by default */
+  display: none; /* Hide animation by default */
 }
 .nextra-cards {
-  display: block; /* Hide cards by default */
+  display: block; /* Show cards by default */
 }
 
 /* Right Sidebar */
@@ -261,11 +282,11 @@ footer {
   }
 
   #animation {
-    display: block !important; /* Hide animation on smaller screens */
+    display: block !important; /* Show animation on smaller screens */
   }
 
   .nextra-cards {
-    display: none !important; /* Show cards on smaller screens */
+    display: none !important; /* Hide cards on smaller screens */
   }
 }
 /* Everything Over Large Size */
