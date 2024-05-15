@@ -2,10 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body {
-  overflow: hidden;
-}
-
 /* Site logo */
 .adastack-title {
   margin-left: -30px;
@@ -45,10 +41,15 @@ html[style*="color-scheme: light;"]
 /* Home page animation */
 #animation {
   position: relative;
-  height: calc(100vh - 4rem);
-  width: calc(100vw - 16rem);
+  height: 100%;
+  width: calc(100vw - 16rem - 24px);
   margin-top: -24px;
   z-index: 0;
+}
+
+article.nextra-content:has(#animation) {
+  /* Styles to apply to the article element */
+  overflow: hidden;
 }
 
 html[style*="color-scheme: light;"] #animation {
