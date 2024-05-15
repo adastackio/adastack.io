@@ -30,7 +30,7 @@
     }
   },
   "cips": {
-    "title": "CIPs",
+    "title": "Improvement Proposals (CIPs)",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

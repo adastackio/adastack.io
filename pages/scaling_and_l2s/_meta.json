@@ -1,6 +1,6 @@
 {
-  "scaling": {
-    "title": "Scaling",
+  "scaling_initiatives": {
+    "title": "Scaling Initiatives",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

@@ -9,8 +9,8 @@
       "pagination": false
     }
   },
-  "courses_and_learning_platforms": {
-    "title": "Courses and Learning Platforms",
+  "learning_platforms": {
+    "title": "Learning Platforms",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -19,8 +19,8 @@
       "pagination": false
     }
   },
-  "coding_environments": {
-    "title": "Coding Environments",
+  "code_environments": {
+    "title": "Code Environments",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "cardano_cli": {
-    "title": "Cardano CLI",
+    "title": "Cardano-CLI",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

@@ -1,6 +1,6 @@
 {
   "what_are_sidechains": {
-    "title": "What are Sidechains?",
+    "title": "What are Side Chains?",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -41,6 +41,16 @@
   },
   "milkomeda": {
     "title": "Milkomeda",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "other_sidechains": {
+    "title": "Other Side Chains",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

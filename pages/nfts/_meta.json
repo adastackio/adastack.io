@@ -29,8 +29,8 @@
       "pagination": false
     }
   },
-  "nft_gallery": {
-    "title": "NFT Gallery",
+  "nft_galleries": {
+    "title": "NFT Galleries",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

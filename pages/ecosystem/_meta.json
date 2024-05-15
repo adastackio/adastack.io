@@ -69,36 +69,6 @@
       "pagination": false
     }
   },
-  "scaling": {
-    "title": "Scaling",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "layer_2s": {
-    "title": "Layer 2s",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "partner_chains": {
-    "title": "Partner Chains",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "self_sovereign_identity": {
     "title": "Self-Sovereign Identity",
     "theme": {
