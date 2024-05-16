@@ -131,16 +131,6 @@
       "pagination": false
     }
   },
-  "scaling_and_l2s": {
-    "title": "Scaling and L2s",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "sidechains": {
     "title": "Side Chains",
     "theme": {
