@@ -41,15 +41,15 @@ html[style*="color-scheme: light;"]
 /* Home page animation */
 #animation {
   position: relative;
-  height: 100%;
+  height: calc(100vh - var(--nextra-navbar-height));
   width: calc(100vw - 16rem - 24px);
-  margin-top: -24px;
   z-index: 0;
 }
 
 article.nextra-content:has(#animation) {
   /* Styles to apply to the article element */
   overflow: hidden;
+  height: calc(100vh - var(--nextra-navbar-height));
 }
 
 html[style*="color-scheme: light;"] #animation {
