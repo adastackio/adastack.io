@@ -4,24 +4,40 @@ Adastack is an open-source Cardano explorer with 100+ pages of resources and too
 
 The website's purpose is to showcase the quickly-growing Cardano ecosystem.
 
-Please feel free to contribute!
-
-[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=adastackio1436576985)](https://adastackio1436576985.vercel.app/) ![License](https://img.shields.io/badge/license-MIT-blue)
+[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=adastackio1436576985)](https://adastackio-git-main-adastack-projects.vercel.app/) ![License](https://img.shields.io/badge/license-MIT-blue)
 
 ## Local Development
 
-1. Clone the repository
+1. Clone the repository onto your local machine `git clone https://github.com/adastackio/adastack.io.git`
 
-2. Run `pnpm i` to install the dependencies.
+2. Navigate to the top level of the directory and install the site's dependencies `pnpm i`
 
-3. Run `pnpm dev` to start the development server and visit localhost:3000.
+3. Start the development server `pnpm dev` and visit localhost:3000.
 
 ## Documentation
 
-This project is based on the [Nextra theme](https://nextra.site).
+The site's tech stack includes Tailwind, React, Next, and Nextra.
+
+[**Read the Tailwind docs →**](https://v2.tailwindcss.com/docs)
+
+[**Read the React docs →**](https://react.dev/)
 
 [**Read the Next docs →**](https://nextjs.org/docs)
 
 [**Read the Nextra docs →**](https://nextra.site/docs)
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+The site's content is composed in markdown.
+
+[**Markdown docs→**](https://www.markdownguide.org/basic-syntax/)
+
+## Contributions
+
+Contributions are very welcome. Feel free to make a PR if you want to add new links, removing broken links, improve content, or make other suggestions. If you have general feedback on the website or want to report a bug please [create an issue](https://github.com/adastackio/adastack.io/issues). 
+
+## License
+
+Adastack is MIT licensed. For more details, see the [LICENSE](LICENSE) file.
+
+
+
+
