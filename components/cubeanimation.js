@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { handleHeaderButtonClick } from "../scripts/handleHeaderButtonClick.js";
+
 function CubeAnimation() {
   useEffect(() => {
     const nbx = 4;
@@ -490,7 +492,11 @@ resx, resy : number of pixels of the screen
       <div className="animation-title-container">
         <h2 className="animation-title">Cardano Library</h2>
         <p className="animation-subtitle">100+ pages of resources</p>
-        <button className="h-10 mx-2 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline hover:bg-indigo-900 hover:text-indigo-100">
+        <button
+          className="h-10 mx-2 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline hover:bg-indigo-900 hover:text-indigo-100"
+          title="Intro to Cardano"
+          onClick={() => handleHeaderButtonClick(event)}
+        >
           Intro Guide
         </button>
         <button className="h-10 mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline hover:bg-indigo-900 hover:text-indigo-100">
