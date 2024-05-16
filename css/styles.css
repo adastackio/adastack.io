@@ -89,7 +89,7 @@ html[style*="color-scheme: dark;"] #animation {
 }
 
 .animation-title {
-  font-size: 28px;
+  font-size: 32px;
   margin-top: -20px;
   text-align: center;
   font-family: "__Nunito_7d500b", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -98,7 +98,9 @@ html[style*="color-scheme: dark;"] #animation {
 }
 
 .animation-subtitle {
+  font-size: 1.2rem;
   margin-top: 6px;
+  margin-bottom: 8px;
   text-align: center;
   color: #fafaf9;
 }
