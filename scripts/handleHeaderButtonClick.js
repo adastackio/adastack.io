@@ -1,6 +1,7 @@
 function handleHeaderButtonClick(event) {
   const buttonTitleTag = event.target.title;
   const sidebarElements = document.querySelectorAll(".sidebar-menu-item");
+  const sidebar = document.querySelector(".nextra-sidebar-container");
 
   const mediaSmall = window.matchMedia("(max-width: 767px)");
   const mediaLarge = window.matchMedia("(min-width: 767px)");
@@ -34,6 +35,17 @@ function handleHeaderButtonClick(event) {
           sidebarElement.parentNode.parentNode.classList.contains("open")
         ) {
           sidebarElement.click();
+        }
+        if (
+          buttonTitleTag === "Explore All" &&
+          sidebar.style.width != "19rem"
+        ) {
+          sidebar.style.width = "19rem";
+        } else if (
+          buttonTitleTag === "Explore All" &&
+          sidebar.style.width == "19rem"
+        ) {
+          sidebar.style.width = "16rem";
         }
       }
     });
