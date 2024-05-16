@@ -63,6 +63,8 @@ const config: DocsThemeConfig = {
       description: frontMatter.seo_description
         ? frontMatter.seo_description
         : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
+      // Set pages to index only if there is an seo-description on the page. Remove this once all pages have content and seo-descriptions.
+      noindex: frontMatter.seo_description ? false : true,
     };
   },
 
