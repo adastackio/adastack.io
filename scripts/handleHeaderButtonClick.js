@@ -5,6 +5,7 @@ function handleHeaderButtonClick(event) {
   const sidebarButtons = document.querySelectorAll(
     ".nextra-sidebar-container li button.nx-items-center"
   );
+  const html = document.documentElement;
 
   const mediaSmall = window.matchMedia("(max-width: 767px)");
   const mediaLarge = window.matchMedia("(min-width: 767px)");
@@ -39,30 +40,34 @@ function handleHeaderButtonClick(event) {
         ) {
           sidebarElement.click();
         }
-        if (
-          buttonTitleTag === "Explore All" &&
-          sidebar.style.width != "19rem"
-        ) {
-          sidebar.style.width = "19rem";
+        if (buttonTitleTag === "Explore All") {
           sidebarButtons.forEach((sidebarElement, index) => {
-            console.log(sidebarElement);
             setTimeout(() => {
               // Add your CSS changes here for each sidebar element
               // For example, changing text color
-              sidebarElement.style.backgroundColor = "rgba(243,244,246,1)";
-              sidebarElement.style.color = "rgba(17, 24, 39, 1)";
-              // Reset the CSS after 1 second
+              if (html.classList.contains("light")) {
+                sidebarElement.classList.add("light-sidebar-item-highlighted");
+              }
+              if (html.classList.contains("dark")) {
+                sidebarElement.classList.add("dark-sidebar-item-highlighted");
+              }
+
+              // Reset the CSS
               setTimeout(() => {
-                sidebarElement.style.backgroundColor = "transparent";
-                sidebarElement.style.color = "rgba(107,114,128,1)"; // Reset to default
-              }, 100);
-            }, index * 100); // Delay each sidebar item by 1 second
+                if (html.classList.contains("light")) {
+                  sidebarElement.classList.remove(
+                    "light-sidebar-item-highlighted"
+                  );
+                }
+
+                if (html.classList.contains("dark")) {
+                  sidebarElement.classList.remove(
+                    "dark-sidebar-item-highlighted"
+                  );
+                }
+              }, 120);
+            }, index * 120); // Delay each sidebar item
           });
-        } else if (
-          buttonTitleTag === "Explore All" &&
-          sidebar.style.width == "19rem"
-        ) {
-          sidebar.style.width = "16rem";
         }
       }
     });

@@ -38,7 +38,7 @@ html[style*="color-scheme: light;"]
   fill: #9ca3af;
 }
 
-/* Home page animation */
+/* Home animation */
 #animation {
   position: relative;
   height: calc(100vh - var(--nextra-navbar-height));
@@ -98,9 +98,9 @@ html[style*="color-scheme: dark;"] #animation {
 }
 
 .animation-subtitle {
-  font-size: 1.2rem;
-  margin-top: 6px;
-  margin-bottom: 8px;
+  font-size: 1.1rem;
+  margin-top: 4px;
+  margin-bottom: 7px;
   text-align: center;
   color: #fafaf9;
 }
@@ -116,6 +116,16 @@ html[style*="color-scheme: dark;"] #animation {
 
 button[title="Hide sidebar"] {
   display: none;
+}
+
+.light-sidebar-item-highlighted {
+  background-color: rgba(243, 244, 246, 1);
+  color: rgba(17, 24, 39, 1);
+}
+
+.dark-sidebar-item-highlighted {
+  background-color: hsla(204, 100%, 94%, 0.05);
+  color: rgba(249, 250, 251, 1);
 }
 
 #animation {
