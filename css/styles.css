@@ -2,6 +2,17 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* Links */
+a {
+  text-decoration: none !important;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
 /* Site logo */
 .adastack-title {
   margin-left: -30px;
@@ -11,23 +22,24 @@ svg.adastack-logo {
   padding: 13px;
 }
 
-/* Set bg on light */
+/* Background on light */
 html[style*="color-scheme: light;"] div.nx-mx-auto.nx-flex.nx-max-w-\[90rem\] {
   background-color: #fafafa;
 }
 
-/* Set nav on dark */
+/* Background on dark */
 html[style*="color-scheme: dark;"]
   .nextra-nav-container
   .nextra-nav-container-blur {
   background-color: #050505 !important;
 }
 
-/* Set nav on light */
+/* Nav background on light */
 html .nextra-nav-container .nextra-nav-container-blur {
   background-color: #fafaf9 !important;
 }
 
+/* Nav GitHub Link  */
 .navbar-github-link {
   margin-left: -4px;
 }
@@ -105,6 +117,54 @@ html[style*="color-scheme: dark;"] #animation {
   color: #fafaf9;
 }
 
+/* Home navigation Cards */
+.nextra-cards.home-navigation-cards {
+  /* 3 columns,  becomes 4 columns if you set layout:full in meta.json */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* For 1 column, comment all of these out and set --rows declaration num to 1 in cards.js file */
+  display: block;
+}
+
+a.nextra-card {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-radius: 0.2rem;
+}
+
+a.nextra-card:hover {
+  cursor: pointer;
+}
+
+a.nextra-card .nextra-card-title {
+  font-size: 20px;
+  padding-left: 30px;
+  font-weight: 400;
+}
+
+a.nextra-card .nextra-card-title svg {
+  display: none;
+}
+
+/* Home card light bg color */
+:is(html[class~="light"]) .home-card.bg-light-color {
+  background-color: #fff;
+}
+/* Home card light bg hover color */
+:is(html[class~="light"]) .home-card.bg-light-color:hover {
+  background-color: #f4f4f5;
+}
+/* Home card dark bg color */
+:is(html[class~="dark"]) .home-card.bg-dark-color {
+  background-color: #050505;
+  /* border: 1px solid #333; */
+  box-shadow: 14 0 0 1px #fff;
+}
+/* Home card dark bg hover color */
+:is(html[class~="dark"]) .home-card.bg-dark-color:hover {
+  /* background-color: #0f0a22; */
+  box-shadow: 0 0 0 1px #0080ff;
+}
+
 /* Sidebar menu */
 .nextra-scrollbar {
   padding: 1rem 0rem 1rem 0rem !important;
@@ -128,10 +188,6 @@ button[title="Hide sidebar"] {
   color: rgba(249, 250, 251, 1);
 }
 
-.nextra-cards {
-  display: block; /* Show cards by default */
-}
-
 /* Right Sidebar */
 html[style*="color-scheme: light;"]
   .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
@@ -146,80 +202,16 @@ html[style*="color-scheme: light;"]
   background-color: #fafafa;
 }
 
-/* Links */
-a {
-  text-decoration: none !important;
-  color: #007bff;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #0056b3;
-}
-
-/* Home Cards */
-.nextra-cards.home-navigation-cards {
-  /* 3 columns,  becomes 4 columns if you set layout:full in meta.json */
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  /* For 1 column, comment all of these out and set --rows declaration num to 1 in cards.js file */
-}
-
-a.nextra-card {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  border-radius: 0.2rem;
-}
-
-a.nextra-card:hover {
-  cursor: pointer;
-}
-
-a.nextra-card .nextra-card-title {
-  font-size: 20px;
-  padding-left: 30px;
-  font-weight: 400;
-}
-
-a.nextra-card .nextra-card-title svg {
-  display: none;
-}
-
-/* Home card light background color */
-:is(html[class~="light"]) .home-card.bg-light-color {
-  background-color: #fff;
-}
-/* Home card light background hover color */
-:is(html[class~="light"]) .home-card.bg-light-color:hover {
-  background-color: #f4f4f5;
-}
-/* Home card dark background color */
-:is(html[class~="dark"]) .home-card.bg-dark-color {
-  background-color: #050505;
-  /* border: 1px solid #333; */
-  box-shadow: 14 0 0 1px #fff;
-}
-/* Home card dark background hover color */
-:is(html[class~="dark"]) .home-card.bg-dark-color:hover {
-  /* background-color: #0f0a22; */
-  box-shadow: 0 0 0 1px #0080ff;
-}
-
 /* Post header H1 */
 h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx-text-slate-100 {
   font-weight: 500;
 }
 
-/* Resource item H4 */
-h4 {
-  margin-bottom: -16px !important;
+footer {
+  display: none;
 }
 
-/* Make h4 items align to the left under 'on this page' */
-/* li>a:is([dir=ltr] .ltr\:nx-pl-8) {
-  padding-left: 0rem;
-} */
-
-/* Social media link tags */
+/* Social media link icons */
 .tag-icon-button {
   max-height: 25px;
   max-width: 25px;
@@ -258,24 +250,6 @@ h4 {
   left: 51%;
   transform: translate(-50%, -50%);
 }
-
-/* Hide "Edit this Page" Button */
-/* a.nx-text-xs.nx-font-medium.nx-text-gray-500.hover\:nx-text-gray-900.dark\:nx-text-gray-400.dark\:hover\:nx-text-gray-100.contrast-more\:nx-text-gray-800.contrast-more\:dark\:nx-text-gray-50 {
-  display: none;
-} */
-
-footer {
-  display: none;
-}
-
-/* nav:not(.nextra-toc) {
-    background-color: #fafafa;
-} */
-
-/* [data-theme="dark"] [data-hide-on-theme="dark"],
-[data-theme="light"] [data-hide-on-theme="light"] {
-  display: none;
-} */
 
 /* Media Queries */
 /* XS Size */
@@ -322,17 +296,12 @@ footer {
 }
 /* Everything Over Medium Tablet Size */
 @media (min-width: 768px) {
-  /* Hide footer over 768px */
-  .nx-mx-auto.nx-flex.nx-max-w-\[90rem\].nx-justify-center.nx-py-12.nx-text-gray-600.dark\:nx-text-gray-400.md\:nx-justify-start.nx-pl-\[max\(env\(safe-area-inset-left\)\,1\.5rem\)\].nx-pr-\[max\(env\(safe-area-inset-right\)\,1\.5rem\)\] {
-    display: none;
-  }
-
   #animation {
-    display: block !important; /* Show animation on smaller screens */
+    display: block !important; /* Show animation on larger screens */
   }
 
   .nextra-cards {
-    display: none !important; /* Hide cards on smaller screens */
+    display: none !important; /* Hide cards on larger screens */
   }
 }
 /* Everything Over Large Size */
