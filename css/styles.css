@@ -284,6 +284,12 @@ footer {
   .animation-button {
     display: none;
   }
+  article.nextra-content:has(#animation) {
+    overflow: visible;
+  }
+  a.nextra-card {
+    margin: 10px 10px;
+  }
 }
 /* Everything Under Large Size */
 @media (max-width: 991px) {
