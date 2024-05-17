@@ -128,9 +128,6 @@ button[title="Hide sidebar"] {
   color: rgba(249, 250, 251, 1);
 }
 
-#animation {
-  display: none; /* Hide animation by default */
-}
 .nextra-cards {
   display: block; /* Show cards by default */
 }
@@ -299,6 +296,18 @@ footer {
 /* Everything under medium - XS and S Size - Mobile */
 @media (max-width: 767px) {
   .navbar-github-link {
+    display: none;
+  }
+  #animation {
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+  }
+  article.nextra-content:has(#animation) {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .animation-button {
     display: none;
   }
 }

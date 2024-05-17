@@ -493,14 +493,14 @@ resx, resy : number of pixels of the screen
         <h2 className="animation-title">Cardano Library</h2>
         <p className="animation-subtitle">100+ pages of resources</p>
         <button
-          className="h-10 mx-2 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline hover:bg-indigo-900 hover:text-indigo-100"
+          className="animation-button h-10 mx-2 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline hover:bg-indigo-900 hover:text-indigo-100"
           title="Intro to Cardano"
           onClick={() => handleHeaderButtonClick(event)}
         >
           Intro Guide
         </button>
         <button
-          className="h-10 mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline hover:bg-indigo-900 hover:text-indigo-100"
+          className="animation-button h-10 mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline hover:bg-indigo-900 hover:text-indigo-100"
           title="Explore All"
           onClick={() => handleHeaderButtonClick(event)}
         >
