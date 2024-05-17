@@ -15,12 +15,8 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
-    # Specify which updates to allow
-    allow:
-      - dependency-name: "nextra"
-        update-types: ["version-update:semver-minor", "version-update:semver-patch"] # Accept only minor and patch updates for the nextra package. 
-    # Ignore major version updates for all packages
+      interval: "weekly" 
+    # Ignore major version updates for nextra
     ignore:
-      - dependency-name: "*"
+      - dependency-name: "nextra"
         update-types: ["version-update:semver-major"]
