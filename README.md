@@ -32,12 +32,22 @@ The site's content is composed in markdown.
 
 ## Contributions
 
-Contributions are very welcome. Feel free to make a PR if you want to add new links, removing broken links, improve content, or make other suggestions. If you have general feedback on the website or want to report a bug please [create an issue](https://github.com/adastackio/adastack.io/issues). 
+We welcome contributions in this repo. Feel free to create a PR to add resources, improve written content, remove broken links, fix bugs, improve code, etc.
+
+Project owners can add new projects, and can optionally add a short description highlighting some main features.
+
+If you are non-technical, the easiest way to contribute to a page is using the "Edit this Page" button on the right side of nearly all pages on the adastack.io website (not available on mobile).
+
+## Questions and Feedback
+
+If you have a general question, feature suggestion, or want to report a bug please [create an issue](https://github.com/adastackio/adastack.io/issues).
+
+## Adastack Links
+
+[Twitter](https://twitter.com/adastackio)
+[GitHub](https://github.com/adastackio)
+[Privacy-Friendly Website Analytics](https://plausible.io/adastack.io)
 
 ## License
 
-Adastack is MIT licensed. For more details, see the [LICENSE](LICENSE) file.
-
-
-
-
+The website's code is open-source, released under the [MIT license](LICENSE) for the benefit of the Cardano community. We welcome collaboration on the project's GitHub repo.
