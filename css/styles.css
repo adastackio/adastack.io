@@ -270,11 +270,12 @@ footer {
 /* Everything under medium - XS and S Size - Mobile */
 @media (max-width: 767px) {
   .navbar-github-link {
-    display: none;
+    /* display: none; */
   }
   #animation {
     width: 100vw;
     height: 80vh;
+    max-height: 800px;
     overflow: hidden;
   }
   article.nextra-content:has(#animation) {
@@ -289,6 +290,9 @@ footer {
   }
   a.nextra-card {
     margin: 10px 10px;
+  }
+  .animation-title-container {
+    width: 100%;
   }
 }
 /* Everything Under Large Size */
