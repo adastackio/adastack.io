@@ -98,12 +98,12 @@ const config: DocsThemeConfig = {
       return {
         light: "Light",
         dark: "Dark",
-        system: "System",
+        system: "Auto",
       };
     },
   },
   nextThemes: {
-    defaultTheme: "light",
+    defaultTheme: "system",
   },
   logo: () => {
     return (
@@ -181,25 +181,18 @@ const config: DocsThemeConfig = {
         return <div className="sidebar-menu-item">{title}</div>;
       }
     },
-    //   if (title === 'Development') {
-    //     return <>💻 {title}</>
-    //   }
-    //   return <>{title}</>
-    // }
   },
   toc: {
     float: true,
   },
-  footer: {
-    text: null,
-  },
   feedback: {
     content: "",
     useLink() {
-      return "https://adastack.io/how_to_contribute";
+      return "https://github.com/adastackio/adastack.io/issues";
     },
   },
   docsRepositoryBase: "https://github.com/adastackio/adastack.io/blob/main/",
+  footer: {
+    text: null,
+  },
 };
-
-export default config;
