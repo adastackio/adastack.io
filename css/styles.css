@@ -149,21 +149,21 @@ a.nextra-card .nextra-card-title svg {
 
 /* Home card light bg color */
 :is(html[class~="light"]) .home-card.bg-light-color {
-  background-color: #fff;
+  background: linear-gradient(180deg, #fff, #fbfbfb 75.62%);
 }
 /* Home card light bg hover color */
 :is(html[class~="light"]) .home-card.bg-light-color:hover {
-  background-color: #f4f4f5;
+  background: linear-gradient(180deg, #fff, #f6f6f6 75.62%);
 }
 /* Home card dark bg color */
 :is(html[class~="dark"]) .home-card.bg-dark-color {
   background: linear-gradient(180deg, #1e1e1e, #121212);
-  /* border: 1px solid #333; */
+
   box-shadow: 14 0 0 1px #fff;
 }
 /* Home card dark bg hover color */
 :is(html[class~="dark"]) .home-card.bg-dark-color:hover {
-  /* background-color: #0f0a22; */
+  background: linear-gradient(180deg, #1e1e1e, #151515);
   box-shadow: 0 0 0 1px #0080ff;
 }
 
