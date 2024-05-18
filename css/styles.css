@@ -165,7 +165,7 @@ a.nextra-card .nextra-card-title svg {
   box-shadow: 0 0 0 1px #0080ff;
 }
 
-/* Sidebar menu */
+/* Left Sidebar */
 .nextra-scrollbar {
   padding: 1rem 0rem 1rem 0rem !important;
 }
@@ -188,6 +188,16 @@ button[title="Hide sidebar"] {
   color: rgba(249, 250, 251, 1);
 }
 
+/* Page Content */
+/* Post header H1 */
+h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx-text-slate-100 {
+  font-weight: 500;
+}
+
+.nextra-breadcrumb {
+  font-size: 0.675rem;
+}
+
 /* Right Sidebar */
 html[style*="color-scheme: light;"]
   .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
@@ -200,11 +210,6 @@ html[style*="color-scheme: light;"]
   p.nx-mb-4.nx-font-semibold.nx-tracking-tight
   + ul {
   background-color: #fafafa;
-}
-
-/* Post header H1 */
-h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx-text-slate-100 {
-  font-weight: 500;
 }
 
 footer {
