@@ -10,6 +10,9 @@ const nunito = Nunito({
   weight: ["400", "700"],
 });
 
+const standard_seo_description =
+  "Adastack is an open-source guide to what's available on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, dev, and games";
+
 const config: DocsThemeConfig = {
   head: () => {
     const { asPath, defaultLocale, locale } = useRouter();
@@ -23,7 +26,7 @@ const config: DocsThemeConfig = {
       : "%s | adastack.io";
     let description = frontMatter.seo_description
       ? frontMatter.seo_description
-      : "Adastack is an open-source directory of links and tools on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.";
+      : standard_seo_description;
     return (
       <>
         <meta property="og:url" content={url} />
@@ -55,23 +58,18 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps() {
     const { frontMatter } = useConfig();
-
     return {
       titleTemplate: frontMatter.seo_title
         ? `${frontMatter.seo_title} | Adastack.io`
         : "%s | Adastack.io",
       description: frontMatter.seo_description
         ? frontMatter.seo_description
-        : "Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools.",
-      // Set pages to index only if there is an seo-description on the page. Remove this once all pages have content and seo-descriptions.
+        : standard_seo_description,
+      // Set pages to index only if there is an seo-description on the page. Remove the below line once all pages have content and seo-descriptions.
       noindex: frontMatter.seo_description ? false : true,
     };
   },
-
   search: { placeholder: "Search Tools" },
-  // project: {
-  //   link: "https://github.com/adastackio/adastack.io",
-  // },
   chat: {
     link: "https://github.com/adastackio/adastack.io",
     icon: (
@@ -123,56 +121,8 @@ const config: DocsThemeConfig = {
         </span>
       </>
     );
-
-    // const { resolvedTheme } = useTheme();
-    // if (resolvedTheme === "light" || !resolvedTheme) {
-    //   return (
-    //     <>
-    //       <AdaStackMid
-    //         alt="Logo"
-    //         height="100"
-    //         width="75"
-    //         viewBox="0 -4 100 50"
-    //         className="adastack-logo"
-    //       />
-    //       <span
-    //         className={`${nunito.className} adastack-title`}
-    //         style={{ fontWeight: 800 }}
-    //       >
-    //         ADASTACK
-    //       </span>
-    //     </>
-    //   );
-    // }
-    // if (resolvedTheme === "dark") {
-    //   return (
-    //     <>
-    //       <AdaStackLight
-    //         alt="Logo"
-    //         height="100"
-    //         width="75"
-    //         viewBox="0 -4 100 50"
-    //         className="adastack-logo"
-    //       />
-    //       <span
-    //         className={`${nunito.className} adastack-title`}
-    //         style={{ fontWeight: 800 }}
-    //       >
-    //         ADASTACK
-    //       </span>
-    //     </>
-    //   );
-    // }
   },
   gitTimestamp: null,
-  // banner: {
-  //   key: '2.0-release',
-  //   text: (
-  //     <a href="https://nextra.site" target="_blank">
-  //       🎉 Nextra 2.0 is released. Read more →
-  //     </a>
-  //   )
-  // },
   sidebar: {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
@@ -196,3 +146,5 @@ const config: DocsThemeConfig = {
     text: null,
   },
 };
+
+export default config;
