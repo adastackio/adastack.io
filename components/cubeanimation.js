@@ -507,6 +507,13 @@ resx, resy : number of pixels of the screen
           >
             Explore All
           </button>
+          <button
+            className="animation-button-mobile h-10 mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline hover:bg-indigo-900 hover:text-indigo-100"
+            title="Explore All"
+            onClick={() => handleHeaderButtonClick(event)}
+          >
+            Explore All
+          </button>
         </div>
       </div>
     </div>

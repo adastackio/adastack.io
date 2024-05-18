@@ -6,9 +6,24 @@ function handleHeaderButtonClick(event) {
     ".nextra-sidebar-container li button.nx-items-center"
   );
   const html = document.documentElement;
+  const hamburgerMenu = document.querySelector(".nextra-hamburger");
+  const hamburgerInner = document.querySelector(".nextra-hamburger > svg");
 
   const mediaSmall = window.matchMedia("(max-width: 767px)");
   const mediaLarge = window.matchMedia("(min-width: 767px)");
+
+  // Open the hamburger menu when clicking a Card on mobile
+  const openHamburger = () => {
+    if (mediaSmall.matches && !hamburgerInner.classList.contains("open")) {
+      hamburgerMenu.click();
+    }
+    // The below fn fixes a bug that when a user on mobile taps the hamburger menu, it sometimes quickly open and closes on the first tap. This "double clicks" it if it doesn't open properly with the first click.
+    setTimeout(() => {
+      if (mediaSmall.matches && !hamburgerInner.classList.contains("open")) {
+        hamburgerMenu.click();
+      }
+    }, 100);
+  };
 
   // Open relevant sidebar (dropdown on mobile) category menus when clicking Button.
   const openAndCloseSidebarMenus = () => {
@@ -74,6 +89,7 @@ function handleHeaderButtonClick(event) {
   };
 
   openAndCloseSidebarMenus();
+  openHamburger();
 }
 
 export { handleHeaderButtonClick };

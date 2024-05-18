@@ -122,6 +122,10 @@ html[style*="color-scheme: dark;"] #animation {
   text-align: center;
 }
 
+.animation-button-mobile {
+  display: none;
+}
+
 /* Home navigation Cards */
 .nextra-cards.home-navigation-cards {
   /* 3 columns,  becomes 4 columns if you set layout:full in meta.json */
@@ -287,7 +291,6 @@ footer {
   #animation {
     width: 100vw;
     height: calc(100vh-4rem);
-    /* max-height: 800px; */
     overflow: hidden;
   }
   article.nextra-content:has(#animation) {
@@ -296,6 +299,9 @@ footer {
   }
   .animation-button {
     display: none;
+  }
+  .animation-button-mobile {
+    display: inline-block;
   }
   article.nextra-content:has(#animation) {
     overflow: visible;
