@@ -21,9 +21,7 @@ const config: DocsThemeConfig = {
       "https://adastack.io" +
       (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
 
-    let title = frontMatter.seo_title
-      ? frontMatter.seo_title
-      : "%s | adastack.io";
+    let title = `${frontMatter.seo_title} | adastack.io`;
     let description = frontMatter.seo_description
       ? frontMatter.seo_description
       : standard_seo_description;
@@ -59,9 +57,7 @@ const config: DocsThemeConfig = {
   useNextSeoProps() {
     const { frontMatter } = useConfig();
     return {
-      titleTemplate: frontMatter.seo_title
-        ? `${frontMatter.seo_title} | Adastack.io`
-        : "%s | Adastack.io",
+      titleTemplate: `${frontMatter.seo_title} | adastack.io`,
       description: frontMatter.seo_description
         ? frontMatter.seo_description
         : standard_seo_description,
