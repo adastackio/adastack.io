@@ -98,6 +98,7 @@ html[style*="color-scheme: dark;"] #animation {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+  width: 100%;
 }
 
 .animation-title {
@@ -115,6 +116,10 @@ html[style*="color-scheme: dark;"] #animation {
   margin-bottom: 7px;
   text-align: center;
   color: #fafaf9;
+}
+
+.animation-button-container {
+  text-align: center;
 }
 
 /* Home navigation Cards */
@@ -281,8 +286,8 @@ footer {
   }
   #animation {
     width: 100vw;
-    height: 80vh;
-    max-height: 800px;
+    height: calc(100vh-4rem);
+    /* max-height: 800px; */
     overflow: hidden;
   }
   article.nextra-content:has(#animation) {
