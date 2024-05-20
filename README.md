@@ -7,6 +7,15 @@ The website's purpose is to showcase the quickly-growing Cardano ecosystem.
 [![Vercel Deploy](https://deploy-badge.vercel.app/vercel/adastackio-git-main-adastack-projects?name=status)](https://github.com/adastackio/adastack.io/deployments)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/adastackio/adastack.io/blob/main/LICENSE)
 
+## Contributions
+
+Contributions are welcome. 
+
+Here's where to go:
+- [**Project Code**](https://github.com/adastackio/adastack.io): Make contributions to the website's code and content. 
+- [**Project Issues**](https://github.com/adastackio/adastack.io/issues): Suggest features or report bugs (provide details please). 
+- [**Discussion**](https://github.com/adastackio/adastack.io/discussions): Ask a question, share information, or vote.
+
 ## Local Development
 
 1. Clone the repository onto your local machine `git clone https://github.com/adastackio/adastack.io.git`
@@ -30,10 +39,6 @@ The site's tech stack includes Tailwind, React, Next, and Nextra.
 The site's content is composed in markdown.
 
 [**Markdown docs→**](https://www.markdownguide.org/basic-syntax/)
-
-## Contributions
-
-Contributions are very welcome. Feel free to make a PR if you want to add new links, removing broken links, improve content, or make other suggestions. If you have general feedback on the website or want to report a bug please [create an issue](https://github.com/adastackio/adastack.io/issues). 
 
 ## License
 
