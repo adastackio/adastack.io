@@ -122,6 +122,12 @@ html[style*="color-scheme: dark;"] #animation {
   text-align: center;
 }
 
+:is(html[class~="light"]) .animation-button:hover {
+}
+
+:is(html[class~="dark"]) .animation-button:hover {
+}
+
 .animation-button-mobile {
   display: none;
 }
