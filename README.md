@@ -4,7 +4,7 @@ Adastack is an open-source Cardano explorer with 100+ pages of resources and too
 
 The website's purpose is to showcase the quickly-growing Cardano ecosystem.
 
-![Vercel Deploy](https://deploy-badge.vercel.app/vercel/adastackio-git-main-adastack-projects?name=status)
+[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/adastackio-git-main-adastack-projects?name=status)](https://github.com/adastackio/adastack.io/deployments)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/adastackio/adastack.io/blob/main/LICENSE)
 
 ## Local Development
