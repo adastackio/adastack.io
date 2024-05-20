@@ -2,7 +2,14 @@
 
 Adastack is an open-source Cardano explorer with 100+ pages of resources and tools.
 
-The website's purpose is to showcase the quickly-growing Cardano ecosystem.
+The website showcases a full range of projects and tools within the Cardano ecosystem.
+
+**Project Links**
+
+- [Adastack.io](https://adastack.io)
+- [Twitter](https://twitter.com/adastackio)
+- [GitHub](https://github.com/adastackio)
+- [Privacy-Friendly Public Analytics](https://plausible.io/adastack.io)
 
 [![Vercel Deploy](https://deploy-badge.vercel.app/vercel/adastackio-git-main-adastack-projects?name=status)](https://github.com/adastackio/adastack.io/deployments)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/adastackio/adastack.io/blob/main/LICENSE)
@@ -13,9 +20,9 @@ Contributions are welcome.
 
 Here's where to go:
 
-- [**Project Code**](https://github.com/adastackio/adastack.io): Make contributions to the website's code and content.
-- [**Project Issues**](https://github.com/adastackio/adastack.io/issues): Suggest features or report bugs (provide details please).
-- [**Discussion**](https://github.com/adastackio/adastack.io/discussions): Ask a question, share information, or vote.
+- [**Contribute content or code**](https://github.com/adastackio/adastack.io): Contribute to the open-source Github code here. Feel free to add resources, write descriptions, improve written guides, remove broken links, fix bugs, modify code, or make any other improvements. If you are non-technical, the easiest way to suggest changes is using the "Edit this Page" button on the right side of nearly all pages, not available on mobile.
+- [**Suggest Features or Report Bugs**](https://github.com/adastackio/adastack.io/issues): Submit an issue to suggest features or report bugs. Please provide as many details as possible.
+- [**Ask a Question**](https://github.com/adastackio/adastack.io/discussions): Use the discussion area to ask a question and get answers from the developers and community.
 
 ## Local Development
 
