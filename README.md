@@ -4,7 +4,18 @@ Adastack is an open-source Cardano explorer with 100+ pages of resources and too
 
 The website's purpose is to showcase the quickly-growing Cardano ecosystem.
 
-[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=adastackio1436576985)](https://adastackio-git-main-adastack-projects.vercel.app/) ![License](https://img.shields.io/badge/license-MIT-blue)
+[![Vercel Deploy](https://deploy-badge.vercel.app/vercel/adastackio-git-main-adastack-projects?name=status)](https://github.com/adastackio/adastack.io/deployments)
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/adastackio/adastack.io/blob/main/LICENSE)
+
+## Contributions
+
+Contributions are welcome.
+
+Here's where to go:
+
+- [**Project Code**](https://github.com/adastackio/adastack.io): Make contributions to the website's code and content.
+- [**Project Issues**](https://github.com/adastackio/adastack.io/issues): Suggest features or report bugs (provide details please).
+- [**Discussion**](https://github.com/adastackio/adastack.io/discussions): Ask a question, share information, or vote.
 
 ## Local Development
 
@@ -29,24 +40,6 @@ The site's tech stack includes Tailwind, React, Next, and Nextra.
 The site's content is composed in markdown.
 
 [**Markdown docs→**](https://www.markdownguide.org/basic-syntax/)
-
-## Contributions
-
-We welcome contributions in this repo. Feel free to create a PR to add resources, improve written content, remove broken links, fix bugs, improve code, etc.
-
-Project owners can add new projects, and can optionally add a short description highlighting some main features.
-
-If you are non-technical, the easiest way to contribute to a page is using the "Edit this Page" button on the right side of nearly all pages on the adastack.io website (not available on mobile).
-
-## Questions and Feedback
-
-If you have a general question, feature suggestion, or want to report a bug please [create an issue](https://github.com/adastackio/adastack.io/issues).
-
-## Adastack Links
-
-[Twitter](https://twitter.com/adastackio)
-[GitHub](https://github.com/adastackio)
-[Privacy-Friendly Website Analytics](https://plausible.io/adastack.io)
 
 ## License
 
