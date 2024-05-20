@@ -141,6 +141,16 @@
       "pagination": false
     }
   },
+  "layer_2s": {
+    "title": "Layer 2s",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "about": {
     "title": "About",
     "type": "page",
