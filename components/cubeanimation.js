@@ -419,7 +419,7 @@ resx, resy : number of pixels of the screen
             let x = kx - (nbx - 1) / 2;
             let red = 0.2 + (0.8 * kx) / (nbx - 1);
             arCubes.push(
-              new Cube(x, y, z, `rgb(${200 * red},${200 * green},${200 * blue}`)
+              new Cube(x, y, z, `rgb(${160 * red},${160 * green},${160 * blue}`)
             );
           } // kx
         } // ky
