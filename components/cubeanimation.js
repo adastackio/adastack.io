@@ -60,7 +60,7 @@ function CubeAnimation() {
     function Noise1DOneShot(period, min = 0, max = 1, random) {
       /* returns a 1D single-shot noise generator.
    the (optional) random function must return a value between 0 and 1
-  the returned function has no parameter, and will return a new number every tiime it is called.
+  the returned function has no parameter, and will return a new number every time it is called.
   If the random function provides reproductible values (and is not used elsewhere), this
   one will return reproductible values too.
   period should be > 1. The bigger period is, the smoother output noise is
@@ -419,7 +419,7 @@ resx, resy : number of pixels of the screen
             let x = kx - (nbx - 1) / 2;
             let red = 0.2 + (0.8 * kx) / (nbx - 1);
             arCubes.push(
-              new Cube(x, y, z, `rgb(${255 * red},${255 * green},${255 * blue}`)
+              new Cube(x, y, z, `rgb(${200 * red},${200 * green},${200 * blue}`)
             );
           } // kx
         } // ky
