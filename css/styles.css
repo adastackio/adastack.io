@@ -122,10 +122,18 @@ html[style*="color-scheme: dark;"] #animation {
   text-align: center;
 }
 
+.animation-button {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 :is(html[class~="light"]) .animation-button:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
 }
 
 :is(html[class~="dark"]) .animation-button:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
 }
 
 .animation-button-mobile {
