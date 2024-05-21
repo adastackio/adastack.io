@@ -382,10 +382,8 @@ footer {
     width: 100%;
   }
   .animation-content-container {
-    background: none !important;
-    backdrop-filter: none !important;
-    border: none !important;
-    box-shadow: none !important;
+    width: 80vw;
+    padding: 10vh;
   }
 }
 /* Everything Under Large Size */
