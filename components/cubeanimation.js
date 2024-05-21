@@ -3,19 +3,18 @@ import { handleHeaderButtonClick } from "../scripts/handleHeaderButtonClick.js";
 
 function CubeAnimation() {
   useEffect(() => {
-    const nbx = 4;
-    const nby = 3;
-    const nbz = 4;
-    const cubeSize = 0.2; // cubes centers are spaced by 1
+    // Animation modified from original at https://codepen.io/Dillo/pen/yLJLjPX
+    const nby = 4; // number of vertical rows
+    const nbx = 3; // number of horizontal x rows
+    const nbz = 3; // number of horizontal z rows
+    const cubeSize = 0.08; // cubes centers are spaced by 1
 
     let canv, ctx; // canvas and context
     let maxx, maxy; // canvas sizes (in pixels)
     let xc, yc; // canvas center;
-
     let arCubes; // array of cubes
 
     // shortcuts for Math.…
-
     const mrandom = Math.random;
     const mfloor = Math.floor;
     const mround = Math.round;
@@ -23,30 +22,19 @@ function CubeAnimation() {
     const mabs = Math.abs;
     const mmin = Math.min;
     const mmax = Math.max;
-
     const mPI = Math.PI;
     const mPIS2 = Math.PI / 2;
+
     const m2PI = Math.PI * 2;
     const msin = Math.sin;
     const mcos = Math.cos;
     const matan2 = Math.atan2;
     const mtan = Math.tan;
-
     const mhypot = Math.hypot;
     const msqrt = Math.sqrt;
-
     const rac3 = msqrt(3);
     const rac3s2 = rac3 / 2;
     const mPIS3 = Math.PI / 3;
-
-    let projxx;
-    let projxy;
-
-    let projyx;
-    let projyy;
-
-    let projzx;
-    let projzy;
 
     // for animation
     let click;
@@ -319,7 +307,7 @@ resx, resy : number of pixels of the screen
 
     function createPerspective3(pcam, pLookAt, a, th, resx, resy) {
       /* pcam : array of 3 coordinates, position of the camera
-  pLookAt : point the camera is looking at
+   pLookAt : point the camera is looking at
 a distance from the observer to the projection screen
 th (angle of the width of the screen seen by the observer
 resx, resy : number of pixels of the screen
@@ -390,40 +378,105 @@ resx, resy : number of pixels of the screen
     // returns false if nothing can be done, true if drawing done
 
     function startOver() {
-      display = false;
-      // canvas dimensions
-
+      display = false; // canvas dimensions
       maxx = window.innerWidth;
       maxy = window.innerHeight;
-
       canv.style.left = (window.innerWidth - maxx) / 2 + "px";
       canv.style.top = (window.innerHeight - maxy) / 2 + "px";
-
       ctx.canvas.width = maxx;
       ctx.canvas.height = maxy;
       ctx.lineCap = "round"; // placed here because reset when canvas resized
-
       if (maxx < 100) return false;
       xc = maxx / 2;
       yc = maxy / 2;
 
       // create cubes
       arCubes = [];
-      for (let kz = 0; kz < nbz; ++kz) {
-        let z = kz - (nbz - 1) / 2;
-        let blue = 0.2 + (0.8 * kz) / (nbz - 1);
-        for (let ky = 0; ky < nby; ++ky) {
-          let y = ky - (nby - 1) / 2;
-          let green = 0.2 + (0.8 * ky) / (nby - 1);
-          for (let kx = 0; kx < nbx; ++kx) {
-            let x = kx - (nbx - 1) / 2;
-            let red = 0.2 + (0.8 * kx) / (nbx - 1);
-            arCubes.push(
-              new Cube(x, y, z, `rgb(${255 * red},${255 * green},${255 * blue}`)
-            );
-          } // kx
-        } // ky
-      } // kz
+
+      for (let ky = 0; ky < nby; ++ky) {
+        let y = ky - (nby - 1) / 2;
+        let green = 0.2 + (0.8 * (nby - ky - 1)) / (nby - 1);
+        for (let kx = 0; kx < nbx; ++kx) {
+          let x = kx - (nbx - 1) / 2;
+          let red = 0.2 + (0.8 * (nbx - kx - 1)) / (nbx - 1);
+          for (let kz = 0; kz < nbz; ++kz) {
+            let z = kz - (nbz - 1) / 2;
+            let blue = 0.2 + (0.8 * (nbz - kz - 1)) / (nbz - 1);
+
+            let color = `rgb(${255 * red},${255 * green},${255 * blue})`;
+
+            // Add the cube to the array
+            let offset = 0.08; // Standard offset for all dimensions
+            // Starting cube
+            arCubes.push(new Cube(x, y, z, color));
+            // Offset x
+            if (Math.random() < 1 / 2) {
+              arCubes.push(new Cube(x + offset, y, z, color)); // Primary offset
+              if (Math.random() < 1 / 6) {
+                arCubes.push(new Cube(x + 2 * offset, y, z, color)); // Additional offset
+              }
+            }
+            // Offset z
+            if (Math.random() < 1 / 2) {
+              arCubes.push(new Cube(x, y, z + offset, color)); // Primary offset
+              if (Math.random() < 1 / 6) {
+                arCubes.push(new Cube(x, y, z + 2 * offset, color)); // Additional offset
+              }
+            }
+            // Offset y
+            if (Math.random() < 1 / 2) {
+              arCubes.push(new Cube(x, y + offset, z, color)); // Primary offset
+              if (Math.random() < 1 / 6) {
+                arCubes.push(new Cube(x, y + 2 * offset, z, color)); // Additional offset
+              }
+            }
+            // Offset xz
+            if (Math.random() < 1 / 3) {
+              arCubes.push(new Cube(x + offset, y, z + offset, color)); // Primary offset
+              if (Math.random() < 1 / 6) {
+                arCubes.push(
+                  new Cube(x + 2 * offset, y, z + 2 * offset, color)
+                ); // Additional offset
+              }
+            }
+
+            // Offset yx
+            if (Math.random() < 1 / 3) {
+              arCubes.push(new Cube(x + offset, y + offset, z, color)); // Primary offset
+              if (Math.random() < 1 / 6) {
+                arCubes.push(
+                  new Cube(x + 2 * offset, y + 2 * offset, z, color)
+                ); // Additional offset
+              }
+            }
+            // Offset yz
+            if (Math.random() < 1 / 3) {
+              arCubes.push(new Cube(x, y + offset, z + offset, color)); // Primary offset
+              if (Math.random() < 1 / 6) {
+                arCubes.push(
+                  new Cube(x, y + 2 * offset, z + 2 * offset, color)
+                ); // Additional offset
+              }
+            }
+            // Offset xyz
+            if (Math.random() < 1 / 3) {
+              arCubes.push(new Cube(x + offset, y + offset, z + offset, color)); // Primary offset
+              if (Math.random() < 1 / 6) {
+                arCubes.push(
+                  new Cube(
+                    x + 2 * offset,
+                    y + 2 * offset,
+                    z + 2 * offset,
+                    color
+                  )
+                ); // Additional offset
+              }
+            }
+          }
+        }
+      }
+      console.log(arCubes);
+
       return true; // ok
     } // startOver
 
