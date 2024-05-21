@@ -22,8 +22,7 @@
     "nextra": "^2.13.4",
     "nextra-theme-docs": "^2.13.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "three": "^0.164.1"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",

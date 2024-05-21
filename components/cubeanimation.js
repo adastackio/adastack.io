@@ -1,12 +1,10 @@
 import React, { useEffect } from "react";
-import * as THREE from "three";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { handleHeaderButtonClick } from "../scripts/handleHeaderButtonClick.js";
 
 function CubeAnimation() {
   useEffect(() => {
     const nbx = 4;
-    const nby = 4;
+    const nby = 3;
     const nbz = 4;
     const cubeSize = 0.2; // cubes centers are spaced by 1
 
