@@ -402,8 +402,11 @@ resx, resy : number of pixels of the screen
           for (let kz = 0; kz < nbz; ++kz) {
             let z = kz - (nbz - 1) / 2;
             let blue = 0.2 + (0.8 * (nbz - kz - 1)) / (nbz - 1);
+            let alpha = 1;
 
-            let color = `rgb(${255 * red},${255 * green},${255 * blue})`;
+            let color = `rgba(${255 * red},${255 * green},${
+              255 * blue
+            }, ${alpha})`;
 
             // Add the cube to the array
             let offset = 0.08; // Standard offset for all dimensions
@@ -461,7 +464,7 @@ resx, resy : number of pixels of the screen
             // Offset xyz
             if (Math.random() < 1 / 3) {
               arCubes.push(new Cube(x + offset, y + offset, z + offset, color)); // Primary offset
-              if (Math.random() < 1 / 6) {
+              if (Math.random() < 1 / 8) {
                 arCubes.push(
                   new Cube(
                     x + 2 * offset,

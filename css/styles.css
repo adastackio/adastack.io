@@ -381,6 +381,12 @@ footer {
   .animation-title-container {
     width: 100%;
   }
+  .animation-content-container {
+    background: none !important;
+    backdrop-filter: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
 }
 /* Everything Under Large Size */
 @media (max-width: 991px) {
