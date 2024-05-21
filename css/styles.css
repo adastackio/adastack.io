@@ -99,7 +99,7 @@ html[style*="color-scheme: dark;"] #animation {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 90px;
-  z-index: 1;
+  z-index: 2;
 }
 
 html[style*="color-scheme: light;"] .animation-content-container {
@@ -107,10 +107,10 @@ html[style*="color-scheme: light;"] .animation-content-container {
     255,
     255,
     255,
-    0.037
+    0.0385
   ); /* Semi-transparent white background */
   backdrop-filter: blur(6px); /* Apply blur to the background */
-  border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
+  border: 1px solid rgba(255, 255, 255, 0.12); /* Add a subtle border */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
@@ -119,7 +119,7 @@ html[style*="color-scheme: dark;"] .animation-content-container {
     255,
     255,
     255,
-    0.029
+    0.0325
   ); /* Semi-transparent white background */
   backdrop-filter: blur(5px); /* Apply blur to the background */
   border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
@@ -138,7 +138,7 @@ html[style*="color-scheme: dark;"] .animation-content-container {
   font-family: "__Nunito_7d500b", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   color: #fafaf9;
-  z-index: 1;
+  z-index: 3;
 }
 
 .animation-subtitle {
@@ -147,6 +147,7 @@ html[style*="color-scheme: dark;"] .animation-content-container {
   margin-bottom: 7px;
   text-align: center;
   color: #fafaf9;
+  z-index: 3;
 }
 
 .animation-button-container {
@@ -175,6 +176,16 @@ html[style*="color-scheme: dark;"] .animation-content-container {
 :is(html[class~="dark"]) .animation-button:hover {
   background-color: rgba(0, 0, 0, 0.2);
   color: white;
+}
+
+.animation-overlay {
+  position: absolute; /* Cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.02); /* Dark overlay with transparency */
+  z-index: 1; /* Ensure it sits above other content */
 }
 
 /* Home navigation Cards */

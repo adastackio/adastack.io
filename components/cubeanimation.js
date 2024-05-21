@@ -487,6 +487,7 @@ resx, resy : number of pixels of the screen
   }, []);
   return (
     <div id="animation" className="experience animation">
+      <div className="animation-overlay"></div>
       <div className="animation-content-container">
         <div className="animation-title-container">
           <h2 className="animation-title">Cardano Library</h2>
