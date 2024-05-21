@@ -419,7 +419,7 @@ resx, resy : number of pixels of the screen
             let x = kx - (nbx - 1) / 2;
             let red = 0.2 + (0.8 * kx) / (nbx - 1);
             arCubes.push(
-              new Cube(x, y, z, `rgb(${160 * red},${160 * green},${160 * blue}`)
+              new Cube(x, y, z, `rgb(${255 * red},${255 * green},${255 * blue}`)
             );
           } // kx
         } // ky
@@ -498,7 +498,7 @@ resx, resy : number of pixels of the screen
             title="Intro to Cardano"
             onClick={() => handleHeaderButtonClick(event)}
           >
-            Intro Guide
+            Intro Pages
           </button>
           <button
             className="animation-button h-10 mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"

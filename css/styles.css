@@ -98,9 +98,33 @@ html[style*="color-scheme: dark;"] #animation {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 85px;
+  padding: 90px;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.06);
+}
+
+html[style*="color-scheme: light;"] .animation-content-container {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.037
+  ); /* Semi-transparent white background */
+  backdrop-filter: blur(6px); /* Apply blur to the background */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+html[style*="color-scheme: dark;"] .animation-content-container {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.029
+  ); /* Semi-transparent white background */
+  backdrop-filter: blur(5px); /* Apply blur to the background */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .animation-title-container {
