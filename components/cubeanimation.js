@@ -8,7 +8,7 @@ function CubeAnimation() {
     const nbz = 4;
     const cubeSize = 0.2; // cubes centers are spaced by 1
 
-    let canv, ctx; // canvas and context : global variables (I know :( )
+    let canv, ctx; // canvas and context
     let maxx, maxy; // canvas sizes (in pixels)
     let xc, yc; // canvas center;
 
@@ -487,9 +487,11 @@ resx, resy : number of pixels of the screen
   }, []);
   return (
     <div id="animation" className="experience animation">
-      <div className="animation-title-container">
-        <h2 className="animation-title">Cardano Library</h2>
-        <p className="animation-subtitle">100+ pages of resources</p>
+      <div className="animation-content-container">
+        <div className="animation-title-container">
+          <h2 className="animation-title">Cardano Library</h2>
+          <p className="animation-subtitle">100+ pages of resources</p>
+        </div>
         <div className="animation-button-container">
           <button
             className="animation-button h-10 mx-2 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
