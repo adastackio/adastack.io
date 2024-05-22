@@ -6,10 +6,10 @@ The website showcases a full range of projects and tools within the Cardano ecos
 
 **Project Links**
 
-- [Adastack.io](https://adastack.io)
+- [Website](https://adastack.io)
 - [Twitter](https://twitter.com/adastackio)
 - [GitHub](https://github.com/adastackio)
-- [Privacy-Friendly Public Analytics](https://plausible.io/adastack.io)
+- [Plausible Analytics](https://plausible.io/adastack.io)
 
 [![Vercel Deploy](https://deploy-badge.vercel.app/vercel/adastackio-git-main-adastack-projects?name=status)](https://github.com/adastackio/adastack.io/deployments)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/adastackio/adastack.io/blob/main/LICENSE)
@@ -20,7 +20,7 @@ Contributions are welcome.
 
 Here's where to go:
 
-- [**Contribute content or code**](https://github.com/adastackio/adastack.io): Contribute to the open-source Github code here. Feel free to add resources, write descriptions, improve written guides, remove broken links, fix bugs, modify code, or make any other improvements. If you are non-technical, the easiest way to suggest changes is using the "Edit this Page" button on the right side of nearly all pages, not available on mobile.
+- [**Contribute content or code**](https://github.com/adastackio/adastack.io): Contribute to the open-source Github code here. Feel free to add resources, write descriptions, improve written guides, remove broken links, fix bugs, modify code, or make any other improvements. If you are non-technical, the easiest way to suggest changes is using the "Edit this Page" button on the right side of nearly all pages, though not available on mobile.
 - [**Suggest Features or Report Bugs**](https://github.com/adastackio/adastack.io/issues): Submit an issue to suggest features or report bugs. Please provide as many details as possible.
 - [**Ask a Question**](https://github.com/adastackio/adastack.io/discussions): Use the discussion area to ask a question and get answers from the developers and community.
 
@@ -50,4 +50,4 @@ The site's content is composed in markdown.
 
 ## License
 
-The website's code is open-source, released under the [MIT license](LICENSE) for the benefit of the Cardano community. We welcome collaboration on the project's GitHub repo.
+The website's code is open-source, released under the [MIT license](LICENSE) for the benefit of the Cardano community.
