@@ -500,7 +500,7 @@ resx, resy : number of pixels of the screen
             Explore All
           </button>
           <button
-            className="animation-button-mobile h-10 mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
+            className="animation-button-mobile mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
             title="Explore All"
             onClick={() => handleHeaderButtonClick(event)}
           >

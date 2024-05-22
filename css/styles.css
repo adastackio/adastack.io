@@ -410,9 +410,6 @@ footer {
   .animation-button {
     display: none;
   }
-  .animation-button-mobile {
-    display: inline-block;
-  }
   article.nextra-content:has(#animation) {
     overflow: visible;
   }
@@ -430,6 +427,7 @@ footer {
     height: 100%;
     width: 102vw;
     background: transparent;
+    border: 1px solid #eee;
     backdrop-filter: blur(1px); /* Apply blur to the background */
     border: 1px solid rgba(255, 255, 255, 0.12); /* Add a subtle border */
     border-radius: 10px; /* Rounded corners */
@@ -440,6 +438,7 @@ footer {
     height: 100%;
     width: 102vw;
     background: transparent;
+    border: 1px solid #eee;
     /* background-color: rgba(255, 255, 255, 0.08); */
     backdrop-filter: blur(1px); /* Apply blur to the background */
     border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
@@ -459,7 +458,12 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 55px;
+    margin-top: 65px;
+  }
+  .animation-button-mobile {
+    display: block;
+    padding: 10px 15px;
+    font-size: 1.5rem;
   }
   html[style*="color-scheme: light;"] .animation-title,
   html[style*="color-scheme: dark;"] .animation-title {
@@ -472,14 +476,11 @@ footer {
     font-size: 1.1rem;
     color: white;
   }
-  .animation-button-mobile {
-    font-size: 1.5rem;
-  }
   button:has(.sidebar-menu-item) {
-    padding: 17px 0 17px 10px;
+    padding: 20px 0 20px 10px;
   }
   a:has(.sidebar-menu-item) {
-    padding: 12px 0 12px 10px;
+    padding: 15px 0 15px 10px;
   }
 }
 /* Everything Under Large Size */
