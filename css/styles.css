@@ -458,11 +458,11 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 65px;
+    margin-top: 68px;
   }
   .animation-button-mobile {
     display: block;
-    padding: 10px 15px;
+    padding: 12px 20px;
     font-size: 1.5rem;
   }
   html[style*="color-scheme: light;"] .animation-title,
