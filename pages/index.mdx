@@ -1,24 +1,119 @@
 ---
 seo_title: Explore Cardano
-seo_description: Adastack is an open-source index of tools and resources on Cardano. Explore the ecosystem, staking, Dapps, NFTs, Catalyst, governance, and dev tools. 
+# Leave seo_description blank on the index page so it uses the standard one defined in theme.config.tsx
+seo_description:
 ---
 
-import { CardsIcon, OneIcon, WarningIcon, CardanoLogo } from '@components/icons'
-import { Card, Cards } from '../components/cards.js'
-import { handleCardClick } from '../scripts/handleCardClick.js'
+import {
+  CardsIcon,
+  OneIcon,
+  WarningIcon,
+  CardanoLogo,
+} from "@components/icons";
 
-<br/>
+import { CubeAnimation } from "../components/cubeanimation.js";
+import { Card, Cards } from "../components/cards.js";
+import { handleCardClick } from "../scripts/handleCardClick.js";
+
+<CubeAnimation />
+
 <Cards>
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="Intro to Cardano" className="bg-light-color bg-dark-color" href="#"  />
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="Staking" className="bg-light-color bg-dark-color" href="#" />
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="On-Chain" className="bg-light-color bg-dark-color" href="#" />
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="Ecosystem" className="bg-light-color bg-dark-color" href="#" />
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="Community" className="bg-light-color bg-dark-color" href="#" />
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="NFTs" className="bg-light-color bg-dark-color" href="#" />
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="Dapps" className="bg-light-color bg-dark-color" href="#" />
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="Gaming" className="bg-light-color bg-dark-color" href="#" />
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="Catalyst" className="bg-light-color bg-dark-color" href="#" />
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="Governance" className="bg-light-color bg-dark-color" href="#" />
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="DAOs" className="bg-light-color bg-dark-color" href="#" />
-  <Card onClick={()=>handleCardClick(event)}  icon={<CardsIcon />} title="Development" className="bg-light-color bg-dark-color" href="#" />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="Intro to Cardano"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="Staking"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="On-Chain"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="Ecosystem"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="Community"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="Dapps"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="NFTs"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="Gaming"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="Catalyst"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="Governance"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="DAOs"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="Development"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="Side Chains"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
+  <Card
+    onClick={() => handleCardClick(event)}
+    icon={<CardsIcon />}
+    title="Layer 2s"
+    className="bg-light-color bg-dark-color"
+    href="#"
+  />
 </Cards>
