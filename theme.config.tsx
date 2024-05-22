@@ -65,7 +65,7 @@ const config: DocsThemeConfig = {
       noindex: frontMatter.seo_description ? false : true,
     };
   },
-  search: { placeholder: "Search Tools" },
+  search: { placeholder: "Search Cardano" },
   chat: {
     link: "https://github.com/adastackio/adastack.io",
     icon: (
