@@ -113,7 +113,6 @@ html[style*="color-scheme: light;"] .animation-content-container {
     #eee,
     #ffffff
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   backdrop-filter: blur(6px); /* Apply blur to the background */
   border: 1px solid rgba(255, 255, 255, 0.12); /* Add a subtle border */
   border-radius: 10px; /* Rounded corners */
@@ -421,12 +420,31 @@ footer {
     margin: 10px 10px;
   }
   .animation-content-container {
-    height: 100%;
-    overflow: hidden;
+    overflow: scroll;
     border-radius: 0px !important;
-    width: 102vw;
     padding: 0px;
     position: relative;
+  }
+
+  html[style*="color-scheme: light;"] .animation-content-container {
+    height: 100%;
+    width: 102vw;
+    background: transparent;
+    backdrop-filter: blur(1px); /* Apply blur to the background */
+    border: 1px solid rgba(255, 255, 255, 0.12); /* Add a subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+
+  html[style*="color-scheme: dark;"] .animation-content-container {
+    height: 100%;
+    width: 102vw;
+    background: transparent;
+    /* background-color: rgba(255, 255, 255, 0.08); */
+    backdrop-filter: blur(1px); /* Apply blur to the background */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
   }
   .animation-title-container {
     width: 100%;
@@ -441,7 +459,18 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 60px;
+    margin-top: 55px;
+  }
+  html[style*="color-scheme: light;"] .animation-title,
+  html[style*="color-scheme: dark;"] .animation-title {
+    font-size: 30px;
+    color: white;
+  }
+
+  html[style*="color-scheme: light;"] .animation-subtitle,
+  html[style*="color-scheme: dark;"] .animation-subtitle {
+    font-size: 1.1rem;
+    color: white;
   }
   .animation-button-mobile {
     font-size: 1.5rem;
