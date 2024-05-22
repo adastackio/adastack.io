@@ -56,32 +56,8 @@ function handleHeaderButtonClick(event) {
           sidebarElement.click();
         }
         if (buttonTitleTag === "Explore All") {
-          sidebarButtons.forEach((sidebarElement, index) => {
-            setTimeout(() => {
-              // Add your CSS changes here for each sidebar element
-              // For example, changing text color
-              if (html.classList.contains("light")) {
-                sidebarElement.classList.add("light-sidebar-item-highlighted");
-              }
-              if (html.classList.contains("dark")) {
-                sidebarElement.classList.add("dark-sidebar-item-highlighted");
-              }
-
-              // Reset the CSS
-              setTimeout(() => {
-                if (html.classList.contains("light")) {
-                  sidebarElement.classList.remove(
-                    "light-sidebar-item-highlighted"
-                  );
-                }
-
-                if (html.classList.contains("dark")) {
-                  sidebarElement.classList.remove(
-                    "dark-sidebar-item-highlighted"
-                  );
-                }
-              }, 120);
-            }, index * 120); // Delay each sidebar item
+          sidebarButtons.forEach((sidebarElement) => {
+            sidebarElement.click();
           });
         }
       }
