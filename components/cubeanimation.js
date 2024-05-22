@@ -4,9 +4,9 @@ import { handleHeaderButtonClick } from "../scripts/handleHeaderButtonClick.js";
 function CubeAnimation() {
   useEffect(() => {
     // Animation modified from original at https://codepen.io/Dillo/pen/yLJLjPX
-    const nby = 4; // number of vertical rows
-    const nbx = 3; // number of horizontal x rows
-    const nbz = 3; // number of horizontal z rows
+    const nby = 2; // number of vertical rows
+    const nbx = 6; // number of horizontal x rows
+    const nbz = 6; // number of horizontal z rows
     const cubeSize = 0.08; // cubes centers are spaced by 1
 
     let canv, ctx; // canvas and context
@@ -396,14 +396,15 @@ resx, resy : number of pixels of the screen
       for (let ky = 0; ky < nby; ++ky) {
         let y = ky - (nby - 1) / 2;
         let green = 0.2 + (0.8 * (nby - ky - 1)) / (nby - 1);
-        for (let kx = 0; kx < nbx; ++kx) {
-          let x = kx - (nbx - 1) / 2;
-          let red = 0.2 + (0.8 * (nbx - kx - 1)) / (nbx - 1);
-          for (let kz = 0; kz < nbz; ++kz) {
-            let z = kz - (nbz - 1) / 2;
-            let blue = 0.2 + (0.8 * (nbz - kz - 1)) / (nbz - 1);
-            let alpha = 1;
+        for (let kz = 0; kz < nbz; ++kz) {
+          let z = kz - (nbz - 1) / 2;
+          let blue = 0.2 + (0.8 * (nbz - kz - 1)) / (nbz - 1);
 
+          for (let kx = 0; kx < nbx; ++kx) {
+            let x = kx - (nbx - 1) / 2;
+            let red = 0.2 + (0.8 * (nbx - kx - 1)) / (nbx - 1);
+
+            let alpha = 1;
             let color = `rgba(${255 * red},${255 * green},${
               255 * blue
             }, ${alpha})`;
@@ -412,73 +413,79 @@ resx, resy : number of pixels of the screen
             let offset = 0.08; // Standard offset for all dimensions
             // Starting cube
             arCubes.push(new Cube(x, y, z, color));
-            // Offset x
-            if (Math.random() < 1 / 2) {
-              arCubes.push(new Cube(x + offset, y, z, color)); // Primary offset
-              if (Math.random() < 1 / 6) {
-                arCubes.push(new Cube(x + 2 * offset, y, z, color)); // Additional offset
-              }
-            }
-            // Offset z
-            if (Math.random() < 1 / 2) {
-              arCubes.push(new Cube(x, y, z + offset, color)); // Primary offset
-              if (Math.random() < 1 / 6) {
-                arCubes.push(new Cube(x, y, z + 2 * offset, color)); // Additional offset
-              }
-            }
-            // Offset y
-            if (Math.random() < 1 / 2) {
-              arCubes.push(new Cube(x, y + offset, z, color)); // Primary offset
-              if (Math.random() < 1 / 6) {
-                arCubes.push(new Cube(x, y + 2 * offset, z, color)); // Additional offset
-              }
-            }
-            // Offset xz
-            if (Math.random() < 1 / 3) {
-              arCubes.push(new Cube(x + offset, y, z + offset, color)); // Primary offset
-              if (Math.random() < 1 / 6) {
-                arCubes.push(
-                  new Cube(x + 2 * offset, y, z + 2 * offset, color)
-                ); // Additional offset
-              }
-            }
 
-            // Offset yx
-            if (Math.random() < 1 / 3) {
-              arCubes.push(new Cube(x + offset, y + offset, z, color)); // Primary offset
-              if (Math.random() < 1 / 6) {
-                arCubes.push(
-                  new Cube(x + 2 * offset, y + 2 * offset, z, color)
-                ); // Additional offset
+            // Add tetris effect if not on mobile
+            const mediaQuery = window.matchMedia("(min-width: 768px)");
+
+            if (mediaQuery.matches) {
+              // Offset x
+              if (Math.random() < 1 / 3) {
+                arCubes.push(new Cube(x + offset, y, z, color)); // Primary offset
+                if (Math.random() < 1 / 10) {
+                  arCubes.push(new Cube(x + 2 * offset, y, z, color)); // Additional offset
+                }
               }
-            }
-            // Offset yz
-            if (Math.random() < 1 / 3) {
-              arCubes.push(new Cube(x, y + offset, z + offset, color)); // Primary offset
-              if (Math.random() < 1 / 6) {
-                arCubes.push(
-                  new Cube(x, y + 2 * offset, z + 2 * offset, color)
-                ); // Additional offset
+              // Offset z
+              if (Math.random() < 1 / 3) {
+                arCubes.push(new Cube(x, y, z + offset, color)); // Primary offset
+                if (Math.random() < 1 / 10) {
+                  arCubes.push(new Cube(x, y, z + 2 * offset, color)); // Additional offset
+                }
               }
-            }
-            // Offset xyz
-            if (Math.random() < 1 / 3) {
-              arCubes.push(new Cube(x + offset, y + offset, z + offset, color)); // Primary offset
-              if (Math.random() < 1 / 8) {
+              // Offset y
+              if (Math.random() < 1 / 3) {
+                arCubes.push(new Cube(x, y + offset, z, color)); // Primary offset
+                if (Math.random() < 1 / 10) {
+                  arCubes.push(new Cube(x, y + 2 * offset, z, color)); // Additional offset
+                }
+              }
+              // Offset xz
+              if (Math.random() < 1 / 5) {
+                arCubes.push(new Cube(x + offset, y, z + offset, color)); // Primary offset
+                if (Math.random() < 1 / 10) {
+                  arCubes.push(
+                    new Cube(x + 2 * offset, y, z + 2 * offset, color)
+                  ); // Additional offset
+                }
+              }
+              // Offset yx
+              if (Math.random() < 1 / 5) {
+                arCubes.push(new Cube(x + offset, y + offset, z, color)); // Primary offset
+                if (Math.random() < 1 / 10) {
+                  arCubes.push(
+                    new Cube(x + 2 * offset, y + 2 * offset, z, color)
+                  ); // Additional offset
+                }
+              }
+              // Offset yz
+              if (Math.random() < 1 / 5) {
+                arCubes.push(new Cube(x, y + offset, z + offset, color)); // Primary offset
+                if (Math.random() < 1 / 10) {
+                  arCubes.push(
+                    new Cube(x, y + 2 * offset, z + 2 * offset, color)
+                  ); // Additional offset
+                }
+              }
+              // Offset xyz
+              if (Math.random() < 1 / 5) {
                 arCubes.push(
-                  new Cube(
-                    x + 2 * offset,
-                    y + 2 * offset,
-                    z + 2 * offset,
-                    color
-                  )
-                ); // Additional offset
+                  new Cube(x + offset, y + offset, z + offset, color)
+                ); // Primary offset
+                if (Math.random() < 1 / 10) {
+                  arCubes.push(
+                    new Cube(
+                      x + 2 * offset,
+                      y + 2 * offset,
+                      z + 2 * offset,
+                      color
+                    )
+                  ); // Additional offset
+                }
               }
             }
           }
         }
       }
-      console.log(arCubes);
 
       return true; // ok
     } // startOver
