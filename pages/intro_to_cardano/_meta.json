@@ -29,8 +29,8 @@
       "pagination": false
     }
   },
-  "getting_started": {
-    "title": "Getting Started",
+  "start_using_cardano": {
+    "title": "Start Using Cardano",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
