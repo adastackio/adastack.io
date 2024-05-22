@@ -93,35 +93,36 @@ html[style*="color-scheme: dark;"] #animation {
 }
 
 .animation-content-container {
-  border-radius: 3px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 90px;
+  padding: 50px 50px 40px;
   z-index: 2;
 }
 
 html[style*="color-scheme: light;"] .animation-content-container {
-  background: rgba(
-    255,
-    255,
-    255,
-    0.0385
-  ); /* Semi-transparent white background */
+  background: rgb(250 250 250); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #eee,
+    #ffffff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #eee,
+    #ffffff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   backdrop-filter: blur(6px); /* Apply blur to the background */
   border: 1px solid rgba(255, 255, 255, 0.12); /* Add a subtle border */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
+
 html[style*="color-scheme: dark;"] .animation-content-container {
-  background: rgba(
-    255,
-    255,
-    255,
-    0.0325
-  ); /* Semi-transparent white background */
-  backdrop-filter: blur(5px); /* Apply blur to the background */
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px); /* Apply blur to the background */
   border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
@@ -132,22 +133,30 @@ html[style*="color-scheme: dark;"] .animation-content-container {
 }
 
 .animation-title {
-  font-size: 32px;
+  font-size: 28px;
   margin-top: -20px;
   text-align: center;
   font-family: "__Nunito_7d500b", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  color: #fafaf9;
   z-index: 3;
 }
 
 .animation-subtitle {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-top: 4px;
-  margin-bottom: 7px;
+  margin-bottom: 14px;
   text-align: center;
-  color: #fafaf9;
   z-index: 3;
+}
+
+html[style*="color-scheme: light;"] .animation-title,
+html[style*="color-scheme: light;"] .animation-subtitle {
+  color: #272727;
+}
+
+html[style*="color-scheme: dark;"] .animation-title,
+html[style*="color-scheme: dark;"] .animation-subtitle {
+  color: #fafaf9;
 }
 
 .animation-button-container {
@@ -157,34 +166,68 @@ html[style*="color-scheme: dark;"] .animation-content-container {
 }
 
 .animation-button {
-  background-color: rgba(0, 0, 0, 0.1);
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  color: black;
+}
+
+:is(html[class~="light"]) .animation-button:first-of-type {
+  border: 1px solid #ccc;
+  background-color: #fafaf9;
+}
+
+:is(html[class~="light"]) .animation-button:nth-of-type(2) {
+  border: 1px solid #ccc;
+  background-color: #fafaf9;
+}
+
+:is(html[class~="dark"]) .animation-button:first-of-type {
+  border: 1px solid #555;
+
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fafaf9;
+}
+
+:is(html[class~="dark"]) .animation-button:nth-of-type(2) {
+  border: 1px solid #555;
+  background-color: rgba(0, 0, 0, 0.2);
+
+  color: #fafaf9;
+}
+
+:is(html[class~="light"]) .animation-button:hover {
+  background-color: rgba(100, 100, 100, 0.2);
+  color: black;
+}
+
+:is(html[class~="dark"]) .animation-button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
 }
 
 .animation-button-mobile {
   display: none;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-:is(html[class~="light"]) .animation-button:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
 }
 
-:is(html[class~="dark"]) .animation-button:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: white;
-}
-
-.animation-overlay {
+:is(html[class~="light"]) .animation-overlay {
   position: absolute; /* Cover the entire viewport */
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.1); /* Dark overlay with transparency */
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay with transparency */
+  z-index: 1; /* Ensure it sits above other content */
+}
+
+:is(html[class~="dark"]) .animation-overlay {
+  position: absolute; /* Cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35); /* Dark overlay with transparency */
   z-index: 1; /* Ensure it sits above other content */
 }
 
@@ -372,18 +415,30 @@ footer {
     margin: 10px 10px;
   }
   .animation-content-container {
-    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0px !important;
+    width: 102vw;
     padding: 0px;
-  }
-  .animation-button-container {
-    display: block;
+    position: relative;
   }
   .animation-title-container {
     width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  .animation-content-container {
-    width: 100vw;
-    padding: 10vh;
+  .animation-button-container {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 60px;
+  }
+  .animation-button-mobile {
+    font-size: 1.5rem;
   }
 }
 /* Everything Under Large Size */
