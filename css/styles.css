@@ -173,12 +173,12 @@ html[style*="color-scheme: dark;"] .animation-subtitle {
 
 :is(html[class~="light"]) .animation-button:first-of-type {
   border: 1px solid #ccc;
-  background-color: #fafaf9;
+  background-color: white;
 }
 
 :is(html[class~="light"]) .animation-button:nth-of-type(2) {
   border: 1px solid #ccc;
-  background-color: #fafaf9;
+  background-color: white;
 }
 
 :is(html[class~="dark"]) .animation-button:first-of-type {
@@ -217,7 +217,7 @@ html[style*="color-scheme: dark;"] .animation-subtitle {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay with transparency */
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay with transparency */
   z-index: 1; /* Ensure it sits above other content */
 }
 
@@ -286,8 +286,14 @@ a.nextra-card .nextra-card-title svg {
   padding: 1rem 0rem 1rem 0rem !important;
 }
 
-.sidebar-menu-item {
-  padding: 4px 0 4px 10px;
+:is(html[class~="light"]) button:has(.sidebar-menu-item) {
+  border-bottom: #e5e5e52e solid;
+  margin-top: -4px;
+  padding: 10px 0 10px 10px;
+}
+
+button .sidebar-menu-item {
+  /* padding: 5px 0 4px 10px; */
 }
 
 button[title="Hide sidebar"] {
