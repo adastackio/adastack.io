@@ -2,49 +2,41 @@
   "what_is_a_dao": {
     "title": "What is a DAO?",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "dao_explorers": {
     "title": "DAO Explorers",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "dao_management_software": {
     "title": "DAO Management Software",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "multisig": {
     "title": "Multisig",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   }
 }

@@ -12,7 +12,7 @@ function handleCardClick(event) {
     if (mediaSmall.matches && !hamburgerInner.classList.contains("open")) {
       hamburgerMenu.click();
     }
-    // The below fn fixes a bug, specifically when a user on mobile taps the hamburger menu, it sometimes quickly open and closes on the first tap. This "double clicks" it if it doesn't open properly with the first click.
+    // The below fn fixes a bug that when a user on mobile taps the hamburger menu, it sometimes quickly open and closes on the first tap. This "double clicks" it if it doesn't open properly with the first click.
     setTimeout(() => {
       if (mediaSmall.matches && !hamburgerInner.classList.contains("open")) {
         hamburgerMenu.click();
