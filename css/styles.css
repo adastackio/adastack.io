@@ -292,6 +292,10 @@ button:has(.sidebar-menu-item) {
   padding: 11px 0 11px 10px;
 }
 
+a:has(.sidebar-menu-item) {
+  padding: 10px 0 10px 10px;
+}
+
 button[title="Hide sidebar"] {
   display: none;
 }
