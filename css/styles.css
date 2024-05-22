@@ -286,9 +286,16 @@ a.nextra-card .nextra-card-title svg {
 }
 
 button:has(.sidebar-menu-item) {
-  border-bottom: #e5e5e52e solid;
   margin-bottom: -4px;
   padding: 11px 0 11px 10px;
+}
+
+:is(html[class~="light"]) button:has(.sidebar-menu-item) {
+  border-bottom: #e5e5e52e solid;
+}
+
+:is(html[class~="dark"]) button:has(.sidebar-menu-item) {
+  border-bottom: #2929292e solid;
 }
 
 a:has(.sidebar-menu-item) {
