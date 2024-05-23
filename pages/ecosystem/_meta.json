@@ -79,8 +79,8 @@
       "pagination": false
     }
   },
-  "self_sovereign_identity": {
-    "title": "Self-Sovereign Identity",
+  "project_funding": {
+    "title": "Project Funding",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
