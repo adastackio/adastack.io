@@ -9,6 +9,16 @@
       "pagination": false
     }
   },
+  "blockchain_explorers": {
+    "title": "Blockchain Explorers",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "wallets": {
     "title": "Wallets",
     "theme": {
