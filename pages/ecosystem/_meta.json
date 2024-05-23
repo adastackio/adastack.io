@@ -59,6 +59,16 @@
       "pagination": false
     }
   },
+  "portfolio_trackers": {
+    "title": "Portfolio Trackers",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "stablecoins": {
     "title": "Stablecoins",
     "theme": {
@@ -79,8 +89,8 @@
       "pagination": false
     }
   },
-  "scaling_initiatives": {
-    "title": "Scaling Initiatives",
+  "project_funding": {
+    "title": "Project Funding",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -89,8 +99,8 @@
       "pagination": false
     }
   },
-  "project_funding": {
-    "title": "Project Funding",
+  "scaling_initiatives": {
+    "title": "Scaling Initiatives",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
