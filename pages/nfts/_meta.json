@@ -59,16 +59,6 @@
       "pagination": false
     }
   },
-  "media_nfts": {
-    "title": "Media NFTs",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "drop_calendars": {
     "title": "Drop Calendars",
     "theme": {
