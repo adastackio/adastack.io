@@ -39,8 +39,8 @@
       "pagination": false
     }
   },
-  "price_charts": {
-    "title": "Price Charts",
+  "portfolio_trackers": {
+    "title": "Portfolio Trackers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -49,8 +49,8 @@
       "pagination": false
     }
   },
-  "portfolio_trackers": {
-    "title": "Portfolio Trackers",
+  "native_tokens": {
+    "title": "Native Tokens",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
