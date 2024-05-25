@@ -89,16 +89,6 @@
       "pagination": false
     }
   },
-  "organizations": {
-    "title": "Organizations",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "social_bots": {
     "title": "Social Bots",
     "theme": {
