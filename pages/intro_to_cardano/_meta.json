@@ -19,8 +19,8 @@
       "pagination": false
     }
   },
-  "intro_resources": {
-    "title": "Intro Resources",
+  "more_resources": {
+    "title": "More Resources",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -29,8 +29,8 @@
       "pagination": false
     }
   },
-  "getting_started": {
-    "title": "Getting Started",
+  "start_using_cardano": {
+    "title": "Start Using Cardano",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -41,16 +41,6 @@
   },
   "cardano_vocab": {
     "title": "Cardano Vocab",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "more_resources": {
-    "title": "More Resources",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
