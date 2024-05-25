@@ -19,16 +19,6 @@
       "pagination": false
     }
   },
-  "youtube_channels": {
-    "title": "Youtube Channels",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "x": {
     "title": "X",
     "theme": {
@@ -61,6 +51,16 @@
   },
   "discord": {
     "title": "Discord",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "youtube": {
+    "title": "YouTube",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
