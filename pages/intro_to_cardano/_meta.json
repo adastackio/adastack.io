@@ -19,8 +19,8 @@
       "pagination": false
     }
   },
-  "learn_more": {
-    "title": "Learn More",
+  "more_resources": {
+    "title": "More Resources",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
