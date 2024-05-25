@@ -9,6 +9,16 @@
       "pagination": false
     }
   },
+  "blockchain_explorers": {
+    "title": "Blockchain Explorers",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "wallets": {
     "title": "Wallets",
     "theme": {
@@ -29,8 +39,8 @@
       "pagination": false
     }
   },
-  "news": {
-    "title": "News",
+  "portfolio_trackers": {
+    "title": "Portfolio Trackers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -39,8 +49,8 @@
       "pagination": false
     }
   },
-  "price_charts": {
-    "title": "Price Charts",
+  "native_tokens": {
+    "title": "Native Tokens",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -69,8 +79,8 @@
       "pagination": false
     }
   },
-  "scaling_initiatives": {
-    "title": "Scaling Initiatives",
+  "project_funding": {
+    "title": "Project Funding",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -79,8 +89,8 @@
       "pagination": false
     }
   },
-  "self_sovereign_identity": {
-    "title": "Self-Sovereign Identity",
+  "scaling_initiatives": {
+    "title": "Scaling Initiatives",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

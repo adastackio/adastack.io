@@ -1,14 +1,4 @@
 {
-  "blockchain_explorers": {
-    "title": "Blockchain Explorers",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "on_chain_dashboards": {
     "title": "On-Chain Dashboards",
     "theme": {
@@ -99,8 +89,8 @@
       "pagination": false
     }
   },
-  "other_cardano_metrics": {
-    "title": "Other Cardano Metrics",
+  "other_metrics": {
+    "title": "Other Metrics",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

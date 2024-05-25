@@ -31,16 +31,6 @@
       "pagination": false
     }
   },
-  "on_chain": {
-    "title": "On-Chain",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "ecosystem": {
     "title": "Ecosystem",
     "theme": {
@@ -123,6 +113,16 @@
   },
   "development": {
     "title": "Development",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "on_chain_metrics": {
+    "title": "On-Chain Metrics",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

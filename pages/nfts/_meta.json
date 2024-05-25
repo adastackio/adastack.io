@@ -20,47 +20,7 @@
     }
   },
   "nft_market_metrics": {
-    "title": "NFT Market Metrics",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "nft_galleries": {
-    "title": "NFT Galleries",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "portfolio_checkers": {
-    "title": "Portfolio Checkers",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "handles_and_domains": {
-    "title": "Handles and Domains",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "media_nfts": {
-    "title": "Media NFTs",
+    "title": "Market Metrics",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -71,6 +31,26 @@
   },
   "minting_services": {
     "title": "Minting Services",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "domains_and_handles": {
+    "title": "Domains and Handles",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "nft_galleries": {
+    "title": "Galleries",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

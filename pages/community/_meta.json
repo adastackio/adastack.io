@@ -99,16 +99,6 @@
       "pagination": false
     }
   },
-  "social_metrics": {
-    "title": "Social Metrics",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "social_bots": {
     "title": "Social Bots",
     "theme": {

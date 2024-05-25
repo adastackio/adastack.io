@@ -29,16 +29,6 @@
       "pagination": false
     }
   },
-  "reward_trackers": {
-    "title": "Reward Trackers",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "reward_calculators": {
     "title": "Reward Calculators",
     "theme": {
@@ -49,8 +39,8 @@
       "pagination": false
     }
   },
-  "reward_calendars": {
-    "title": "Reward Calendars",
+  "reward_trackers": {
+    "title": "Reward Trackers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -59,8 +49,8 @@
       "pagination": false
     }
   },
-  "ispos": {
-    "title": "ISPOs",
+  "open_ispos": {
+    "title": "Open ISPOs",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -79,8 +69,8 @@
       "pagination": false
     }
   },
-  "how_to_set_up_a_stake_pool": {
-    "title": "How to set up a Stake Pool",
+  "set_up_a_stake_pool": {
+    "title": "Set up a Stake Pool",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -89,8 +79,8 @@
       "pagination": false
     }
   },
-  "stake_pool_monitoring_tools": {
-    "title": "Stake Pool Monitoring Tools",
+  "pool_monitoring_tools": {
+    "title": "Pool Monitoring Tools",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
