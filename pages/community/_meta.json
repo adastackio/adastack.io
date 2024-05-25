@@ -9,26 +9,6 @@
       "pagination": false
     }
   },
-  "youtube_channels": {
-    "title": "Youtube Channels",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "x_twitter": {
-    "title": "X / Twitter",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "news_and_blogs": {
     "title": "News and Blogs",
     "theme": {
@@ -39,8 +19,8 @@
       "pagination": false
     }
   },
-  "podcasts": {
-    "title": "Podcasts",
+  "youtube_channels": {
+    "title": "Youtube Channels",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -49,8 +29,8 @@
       "pagination": false
     }
   },
-  "podcasts": {
-    "title": "Podcasts",
+  "x": {
+    "title": "X",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -71,6 +51,26 @@
   },
   "telegram": {
     "title": "Telegram",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "discord": {
+    "title": "Discord",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "podcasts": {
+    "title": "Podcasts",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
