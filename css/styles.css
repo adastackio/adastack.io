@@ -398,41 +398,47 @@ footer {
     border-radius: 0px !important;
     padding: 0px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .animation-overlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
   }
 
   html[style*="color-scheme: light;"] .animation-content-container {
     height: 100%;
     width: 102vw;
     background: transparent;
-    border: 1px solid #eee;
-    border: 1px solid rgba(255, 255, 255, 0.12); /* Add a subtle border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    backdrop-filter: blur(0px);
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0;
   }
 
   html[style*="color-scheme: dark;"] .animation-content-container {
     height: 100%;
     width: 102vw;
     background: transparent;
-    border: 1px solid #eee;
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    backdrop-filter: blur(0px);
+    border-radius: 0px;
+    box-shadow: 0;
   }
+  ul.animation-description-text {
+    color: white;
+  }
+
   .animation-title-container {
     width: 100%;
-    position: absolute;
     top: 44%;
     left: 50%;
-    transform: translate(-50%, -50%);
   }
   .animation-button-container {
     display: block;
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 70px;
+    margin: 0 auto;
   }
   .animation-button-mobile {
     display: block;

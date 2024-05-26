@@ -11,14 +11,18 @@ function Hero() {
           <h2 className="animation-title">Cardano Library</h2>
           <p className="animation-subtitle">100+ Pages of Guides and Tools</p>
         </div>
-        <ul class="animation-description-text">
+        <ul className="animation-description-text">
           <li>
             We are an{" "}
             <a href="https://github.com/adastackio/adastack.io">open source</a>{" "}
             ecosystem explorer.
           </li>
           <li>The website is still in development.</li>
-          <li>Please vote for us in Catalyst Fund 12! 🙏</li>
+          <li>
+            Please vote for us in{" "}
+            <a href="https://projectcatalyst.io/funds/12">Catalyst Fund 12</a>!
+            🙏
+          </li>
         </ul>
 
         <div className="animation-button-container">
