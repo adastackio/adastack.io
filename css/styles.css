@@ -440,23 +440,26 @@ footer {
     display: block;
     margin: 0 auto;
   }
-  .animation-button-mobile {
-    display: block;
-    padding: 12px 20px;
-    font-size: 1.5rem;
-    margin-top: 50px;
-  }
+
   html[style*="color-scheme: light;"] .animation-title,
   html[style*="color-scheme: dark;"] .animation-title {
     font-size: 30px;
     color: white;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
+    margin-top: 0px;
   }
 
   html[style*="color-scheme: light;"] .animation-subtitle,
   html[style*="color-scheme: dark;"] .animation-subtitle {
     font-size: 1.1rem;
     color: white;
+    margin-bottom: 48px;
+  }
+  .animation-button-mobile {
+    display: block;
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    margin-top: 60px;
   }
   button:has(.sidebar-menu-item) {
     padding: 20px 0 20px 10px;
