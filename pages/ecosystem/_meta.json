@@ -2,169 +2,141 @@
   "ecosystem_maps": {
     "title": "Ecosystem Maps",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "blockchain_explorers": {
+    "title": "Blockchain Explorers",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
     }
   },
   "wallets": {
     "title": "Wallets",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "wallet_tools": {
     "title": "Wallet Tools",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
-  "news": {
-    "title": "News",
+  "native_tokens": {
+    "title": "Native Tokens",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
-  "price_charts": {
-    "title": "Price Charts",
-    "theme": {
-      "breadcrumb": false,
       "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "pagination": false
     }
   },
   "stablecoins": {
     "title": "Stablecoins",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "bridges": {
     "title": "Bridges",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
-  "scaling": {
-    "title": "Scaling",
+  "project_funding": {
+    "title": "Project Funding",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
-  "layer_2s": {
-    "title": "Layer 2s",
+  "organizations": {
+    "title": "Organizations",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
-  "partner_chains": {
-    "title": "Partner Chains",
+  "scaling_initiatives": {
+    "title": "Scaling Initiatives",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
-  "self_sovereign_identity": {
-    "title": "Self-Sovereign Identity",
-    "theme": {
-      "breadcrumb": false,
       "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "pagination": false
     }
   },
   "security_tools": {
     "title": "Security Tools",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "portfolio_trackers": {
+    "title": "Portfolio Trackers",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
     }
   },
   "tax_tools": {
     "title": "Tax Tools",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "merchandise": {
     "title": "Merchandise",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   }
 }

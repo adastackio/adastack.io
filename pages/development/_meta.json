@@ -2,217 +2,181 @@
   "intro_to_cardano_development": {
     "title": "Intro to Cardano Development",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
-  "courses_and_learning_platforms": {
-    "title": "Courses and Learning Platforms",
+  "learning_platforms": {
+    "title": "Learning Platforms",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
-  "coding_environments": {
-    "title": "Coding Environments",
+  "code_environments": {
+    "title": "Code Environments",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "documentation": {
     "title": "Documentation",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "cardano_node": {
     "title": "Cardano Node",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "cardano_cli": {
-    "title": "Cardano CLI",
+    "title": "Cardano-CLI",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "testnets": {
     "title": "Testnets",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "developer_tool_explorers": {
     "title": "Dev Tool Explorers",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "developer_forums": {
     "title": "Developer Forums",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "smart_contract_languages": {
     "title": "Smart Contract Languages",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "apis": {
     "title": "APIs",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "apis": {
     "title": "APIs",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "code_libraries": {
     "title": "Code Libraries",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "oracles": {
     "title": "Oracles",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "utility_tools": {
     "title": "Utility Tools",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "developer_jobs": {
     "title": "Developer Jobs",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "dev_shops": {
     "title": "Dev Shops",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "smart_contract_auditors": {
     "title": "Smart Contract Auditors",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   }
 }

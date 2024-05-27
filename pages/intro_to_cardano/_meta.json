@@ -2,73 +2,51 @@
   "what_is_blockchain": {
     "title": "What is Blockchain?",
     "theme": {
-      "breadcrumb": false,
-      "footer": false,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "why_cardano": {
     "title": "Why Cardano?",
     "theme": {
-      "breadcrumb": false,
-      "footer": false,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
-  "intro_resources": {
-    "title": "Intro Resources",
+  "learn_more": {
+    "title": "Learn More",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "start_using_cardano": {
     "title": "Start Using Cardano",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "footer": true,
+      "pagination": false
     }
   },
   "cardano_vocab": {
     "title": "Cardano Vocab",
     "theme": {
-      "breadcrumb": false,
-      "footer": true,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
-    }
-  },
-  "more_resources": {
-    "title": "More Resources",
-    "theme": {
-      "breadcrumb": false,
       "footer": true,
-      "sidebar": true,
-      "toc": true,
-      "pagination": false,
-      "layout": "default",
-      "typesetting": "default"
+      "pagination": false
     }
   }
 }
