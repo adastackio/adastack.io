@@ -31,8 +31,8 @@
       "pagination": false
     }
   },
-  "on_chain": {
-    "title": "On-Chain",
+  "community": {
+    "title": "Community",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -43,16 +43,6 @@
   },
   "ecosystem": {
     "title": "Ecosystem",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "community": {
-    "title": "Community",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -123,6 +113,16 @@
   },
   "development": {
     "title": "Development",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "on_chain_metrics": {
+    "title": "On-Chain Metrics",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
