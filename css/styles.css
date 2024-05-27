@@ -446,14 +446,14 @@ footer {
     font-size: 32px;
     color: white;
     margin-bottom: 20px;
-    margin-top: -68px;
+    margin-top: -50px;
   }
 
   html[style*="color-scheme: light;"] .animation-subtitle,
   html[style*="color-scheme: dark;"] .animation-subtitle {
     font-size: 1.1rem;
     color: white;
-    margin-bottom: 68px;
+    margin-bottom: 60px;
   }
   .animation-button-mobile {
     display: block;
