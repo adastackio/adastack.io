@@ -9,8 +9,8 @@
       "pagination": false
     }
   },
-  "how_to_start_staking": {
-    "title": "How to Start Staking",
+  "start_staking": {
+    "title": "Start Staking",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -100,7 +100,7 @@
     }
   },
   "other_staking_tools": {
-    "title": "Other Staking Tools",
+    "title": "Other Tools",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
