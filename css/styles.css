@@ -444,11 +444,13 @@ footer {
     display: block;
     padding: 12px 20px;
     font-size: 1.5rem;
+    margin-top: 50px;
   }
   html[style*="color-scheme: light;"] .animation-title,
   html[style*="color-scheme: dark;"] .animation-title {
     font-size: 30px;
     color: white;
+    margin-bottom: 28px;
   }
 
   html[style*="color-scheme: light;"] .animation-subtitle,
