@@ -443,17 +443,17 @@ footer {
 
   html[style*="color-scheme: light;"] .animation-title,
   html[style*="color-scheme: dark;"] .animation-title {
-    font-size: 30px;
+    font-size: 32px;
     color: white;
     margin-bottom: 20px;
-    margin-top: 0px;
+    margin-top: -68px;
   }
 
   html[style*="color-scheme: light;"] .animation-subtitle,
   html[style*="color-scheme: dark;"] .animation-subtitle {
     font-size: 1.1rem;
     color: white;
-    margin-bottom: 48px;
+    margin-bottom: 68px;
   }
   .animation-button-mobile {
     display: block;
