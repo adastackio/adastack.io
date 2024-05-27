@@ -53,7 +53,7 @@ html[style*="color-scheme: light;"]
 /* Home animation */
 #animation {
   position: relative;
-  height: calc(100vh - var(--nextra-navbar-height));
+  height: calc(100vh - 4rem);
   width: calc(100vw - 16rem - 24px);
   z-index: 0;
 }

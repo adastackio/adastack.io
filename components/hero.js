@@ -1,10 +1,21 @@
-import React, { useEffect } from "react";
+import React from "react";
+import Image from "next/image";
+import BGImg from "./../assets/dark/1.jpg";
 import { handleHeaderButtonClick } from "../scripts/handleHeaderButtonClick";
 
 function Hero() {
-  useEffect(() => {}, []);
   return (
     <div id="animation" className="experience animation">
+      <Image
+        src={BGImg}
+        fill
+        objectFit="cover"
+        placeholder="blur"
+        priority
+        sizes="100vw"
+        quality={80}
+        alt="adastack home background"
+      />
       <div className="animation-overlay"></div>
       <div className="animation-content-container">
         <div className="animation-title-container">
@@ -24,7 +35,6 @@ function Hero() {
             🙏
           </li>
         </ul>
-
         <div className="animation-button-container">
           <button
             className="animation-button mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
