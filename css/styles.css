@@ -467,6 +467,9 @@ footer {
   a:has(.sidebar-menu-item) {
     padding: 15px 0 15px 10px;
   }
+  .hero-bg {
+    object-fit: initial !important;
+  }
 }
 /* Everything Under Large Size */
 @media (max-width: 991px) {

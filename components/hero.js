@@ -15,6 +15,7 @@ function Hero() {
         sizes="100vw"
         quality={80}
         alt="adastack home background"
+        className="hero-bg"
       />
       <div className="animation-overlay"></div>
       <div className="animation-content-container">
