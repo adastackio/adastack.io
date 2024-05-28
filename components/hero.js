@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import BGImg from "./../assets/dark/1.jpg";
+import BGImgMobile from "./../assets/light/1.jpg";
 import { handleHeaderButtonClick } from "../scripts/handleHeaderButtonClick";
 
 function Hero() {
@@ -12,9 +13,8 @@ function Hero() {
         objectFit="cover"
         placeholder="blur"
         priority
-        sizes="100vw"
         quality={80}
-        alt="adastack home background"
+        alt="adastack background texture"
         className="hero-bg"
       />
       <div className="animation-overlay"></div>

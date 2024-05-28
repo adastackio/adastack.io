@@ -65,12 +65,12 @@ article.nextra-content:has(#animation) {
 }
 
 html[style*="color-scheme: light;"] #animation {
-  background-image: url("./../assets/dark/1.jpg");
+  background-color: #1c1c1c;
   background-size: cover;
 }
 
 html[style*="color-scheme: dark;"] #animation {
-  background-image: url("./../assets/dark/1.jpg");
+  background-color: #1c1c1c;
   background-size: cover;
 }
 
@@ -393,6 +393,11 @@ footer {
   a.nextra-card {
     margin: 10px 10px;
   }
+
+  .animation-overlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+
   .animation-content-container {
     overflow: scroll;
     border-radius: 0px !important;
@@ -403,10 +408,7 @@ footer {
     align-items: center;
     height: 100%;
     flex-direction: column;
-  }
-
-  .animation-overlay {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    border: none;
   }
 
   html[style*="color-scheme: light;"] .animation-content-container {
@@ -424,9 +426,11 @@ footer {
     width: 102vw;
     background: transparent;
     backdrop-filter: blur(0px);
+    border: none;
     border-radius: 0px;
     box-shadow: 0;
   }
+
   ul.animation-description-text {
     color: white;
   }
@@ -468,7 +472,8 @@ footer {
     padding: 15px 0 15px 10px;
   }
   .hero-bg {
-    object-fit: initial !important;
+    object-position: 34%;
+    transform: rotate(180deg);
   }
 }
 /* Everything Under Large Size */
@@ -485,7 +490,6 @@ footer {
   #animation {
     display: block !important; /* Show animation on larger screens */
   }
-
   .nextra-cards {
     display: none !important; /* Hide cards on larger screens */
   }
