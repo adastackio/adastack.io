@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import BGImg from "./../assets/dark/1.jpg";
-import BGImgMobile from "./../assets/light/1.jpg";
 import { handleHeaderButtonClick } from "../scripts/handleHeaderButtonClick";
 
 function Hero() {

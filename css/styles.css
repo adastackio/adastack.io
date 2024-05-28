@@ -375,27 +375,28 @@ footer {
   .navbar-github-link {
     /* display: none; */
   }
+
   #animation {
     width: 100vw;
     height: calc(100vh - 4rem);
     overflow: hidden;
   }
+
   article.nextra-content:has(#animation) {
     padding-right: 0px;
     padding-left: 0px;
   }
+
   .animation-button {
     display: none;
   }
+
   article.nextra-content:has(#animation) {
     overflow: visible;
   }
+
   a.nextra-card {
     margin: 10px 10px;
-  }
-
-  .animation-overlay {
-    background-color: rgba(0, 0, 0, 0.5) !important;
   }
 
   .animation-content-container {
@@ -471,9 +472,19 @@ footer {
   a:has(.sidebar-menu-item) {
     padding: 15px 0 15px 10px;
   }
+  .animation-overlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    position: fixed !important;
+  }
+
   .hero-bg {
     object-position: 34%;
     transform: rotate(180deg);
+    position: fixed !important;
+  }
+  .nextra-cards.home-navigation-cards {
+    z-index: 10;
+    position: relative;
   }
 }
 /* Everything Under Large Size */
