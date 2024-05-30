@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import BGImg from "./../assets/dark/1.jpg";
-import { handleHeaderButtonClick } from "../scripts/handleHeaderButtonClick";
+import { handleHeroButtonClick } from "../scripts/handleHeroButtonClick";
+import { handleHeroButtonClickMobile } from "../scripts/handleHeroButtonClickMobile";
 
 function Hero() {
   return (
@@ -39,14 +40,14 @@ function Hero() {
           <button
             className="animation-button mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
             title="Explore All"
-            onClick={() => handleHeaderButtonClick(event)}
+            onClick={() => handleHeroButtonClick(event)}
           >
             Explore All
           </button>
           <button
             className="animation-button-mobile mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
             title="Explore All"
-            onClick={() => handleHeaderButtonClick(event)}
+            onClick={() => handleHeroButtonClickMobile(event)}
           >
             Explore All
           </button>
