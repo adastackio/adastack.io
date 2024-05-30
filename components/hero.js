@@ -10,7 +10,7 @@ function Hero() {
       <Image
         src={BGImg}
         fill
-        objectFit="cover"
+        style={{ objectFit: "cover" }}
         placeholder="blur"
         priority
         quality={80}
