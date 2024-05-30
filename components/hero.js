@@ -26,14 +26,25 @@ function Hero() {
         <ul className="animation-description-text">
           <li>
             We are an{" "}
-            <a href="https://github.com/adastackio/adastack.io">open source</a>{" "}
+            <a href="https://github.com/adastackio/adastack.io" target="_blank">
+              open source
+            </a>{" "}
             ecosystem explorer.
           </li>
           <li>The website is still in development.</li>
           <li>
-            Please vote for us in{" "}
-            <a href="https://projectcatalyst.io/funds/12">Catalyst Fund 12</a>!
-            🙏
+            Please{" "}
+            <a
+              href="https://cardano.ideascale.com/c/idea/119612"
+              target="_blank"
+            >
+              vote for us
+            </a>{" "}
+            in{" "}
+            <a href="https://projectcatalyst.io/funds/12" target="_blank">
+              Catalyst Fund 12
+            </a>
+            ! 🙏
           </li>
         </ul>
         <div className="animation-button-container">
