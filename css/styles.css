@@ -9,6 +9,10 @@ a {
   transition: color 0.3s ease;
 }
 
+li a {
+  color: #007bff;
+}
+
 a:hover {
   color: #0056b3;
 }
