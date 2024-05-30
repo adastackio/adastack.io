@@ -62,7 +62,7 @@ const config: DocsThemeConfig = {
         ? frontMatter.seo_description
         : standard_seo_description,
       // Set pages to index only if there is an seo-description on the page. Remove the below line once all pages have content and seo-descriptions.
-      noindex: true,
+      noindex: frontMatter.seo_description ? false : true,
     };
   },
   search: { placeholder: "Search Cardano" },
