@@ -178,5 +178,15 @@
       "footer": true,
       "pagination": false
     }
+  },
+  "reward_distribution_dapps": {
+    "title": "Reward Distribution",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
   }
 }
