@@ -108,5 +108,15 @@
       "footer": true,
       "pagination": false
     }
+  },
+  "signing_and_verification_dapps": {
+    "title": "Signing and Verification",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
   }
 }
