@@ -49,6 +49,16 @@
       "pagination": false
     }
   },
+  "dexs": {
+    "title": "DEXs",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "identity_dapps": {
     "title": "Identity Dapps",
     "theme": {
