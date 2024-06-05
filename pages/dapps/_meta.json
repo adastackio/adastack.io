@@ -19,8 +19,8 @@
       "pagination": false
     }
   },
-  "project_analysis_tools": {
-    "title": "Project Analysis Tools",
+  "dapp_analysis_tools": {
+    "title": "Dapp Analysis Tools",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
