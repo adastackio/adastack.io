@@ -39,6 +39,16 @@
       "pagination": false
     }
   },
+  "defi_dapps": {
+    "title": "DeFi Dapps",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "identity_dapps": {
     "title": "Identity Dapps",
     "theme": {
