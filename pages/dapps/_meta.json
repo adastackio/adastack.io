@@ -89,6 +89,16 @@
       "pagination": false
     }
   },
+  "messaging_and_chat_dapps": {
+    "title": "Messaging and Chat",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "identity_dapps": {
     "title": "Identity",
     "theme": {
