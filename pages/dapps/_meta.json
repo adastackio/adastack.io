@@ -59,6 +59,26 @@
       "pagination": false
     }
   },
+  "data_storage_and_computing": {
+    "title": "Data Storage and Computing",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "payments_and_ecommerce": {
+    "title": "Payments and E-Commerce",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "identity_dapps": {
     "title": "Identity",
     "theme": {
