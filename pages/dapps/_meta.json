@@ -158,5 +158,15 @@
       "footer": true,
       "pagination": false
     }
+  },
+  "positive_impact_dapps": {
+    "title": "Positive Impact",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
   }
 }
