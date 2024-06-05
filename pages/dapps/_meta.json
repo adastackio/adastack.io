@@ -29,8 +29,8 @@
       "pagination": false
     }
   },
-  "ai_dapps": {
-    "title": "AI",
+  "dexs": {
+    "title": "DEXs",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -49,8 +49,8 @@
       "pagination": false
     }
   },
-  "dexs": {
-    "title": "DEXs",
+  "payments_and_ecommerce_dapps": {
+    "title": "Payments and E-Commerce",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -69,8 +69,8 @@
       "pagination": false
     }
   },
-  "payments_and_ecommerce_dapps": {
-    "title": "Payments and E-Commerce",
+  "ai_dapps": {
+    "title": "AI",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
