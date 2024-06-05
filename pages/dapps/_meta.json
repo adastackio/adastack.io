@@ -30,7 +30,7 @@
     }
   },
   "ai_dapps": {
-    "title": "AI Dapps",
+    "title": "AI",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "defi_dapps": {
-    "title": "DeFi Dapps",
+    "title": "DeFi",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -60,7 +60,7 @@
     }
   },
   "identity_dapps": {
-    "title": "Identity Dapps",
+    "title": "Identity",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
