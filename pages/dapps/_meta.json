@@ -59,7 +59,7 @@
       "pagination": false
     }
   },
-  "data_storage_and_computing": {
+  "data_storage_and_computing_dapps": {
     "title": "Data Storage and Computing",
     "theme": {
       "breadcrumb": true,
@@ -69,7 +69,7 @@
       "pagination": false
     }
   },
-  "payments_and_ecommerce": {
+  "payments_and_ecommerce_dapps": {
     "title": "Payments and E-Commerce",
     "theme": {
       "breadcrumb": true,
