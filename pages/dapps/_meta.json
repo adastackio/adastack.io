@@ -138,5 +138,15 @@
       "footer": true,
       "pagination": false
     }
+  },
+  "supply_chain_dapps": {
+    "title": "Supply Chain",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
   }
 }
