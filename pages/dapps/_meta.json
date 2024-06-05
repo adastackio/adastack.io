@@ -168,5 +168,15 @@
       "footer": true,
       "pagination": false
     }
+  },
+  "privacy_dapps": {
+    "title": "Privacy",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
   }
 }
