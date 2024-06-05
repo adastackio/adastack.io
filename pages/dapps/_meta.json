@@ -148,5 +148,15 @@
       "footer": true,
       "pagination": false
     }
+  },
+  "real_world_asset_dapps": {
+    "title": "Real World Assets",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
   }
 }
