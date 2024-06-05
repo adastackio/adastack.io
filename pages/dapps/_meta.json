@@ -79,6 +79,16 @@
       "pagination": false
     }
   },
+  "social_media_dapps": {
+    "title": "Social Media",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "identity_dapps": {
     "title": "Identity",
     "theme": {
