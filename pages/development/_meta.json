@@ -19,8 +19,8 @@
       "pagination": false
     }
   },
-  "code_environments": {
-    "title": "Code Environments",
+  "coding_environments": {
+    "title": "Coding Environments",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
