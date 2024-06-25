@@ -19,8 +19,8 @@
       "pagination": false
     }
   },
-  "code_environments": {
-    "title": "Code Environments",
+  "coding_environments": {
+    "title": "Coding Environments",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -151,16 +151,6 @@
   },
   "developer_jobs": {
     "title": "Developer Jobs",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "dev_shops": {
-    "title": "Dev Shops",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

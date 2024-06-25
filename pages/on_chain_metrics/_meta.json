@@ -20,7 +20,7 @@
     }
   },
   "decentralization_metrics": {
-    "title": "Decentralization Metrics",
+    "title": "Decentralization",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
