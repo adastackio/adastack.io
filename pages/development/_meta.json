@@ -159,16 +159,6 @@
       "pagination": false
     }
   },
-  "dev_shops": {
-    "title": "Dev Shops",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "smart_contract_auditors": {
     "title": "Smart Contract Auditors",
     "theme": {
