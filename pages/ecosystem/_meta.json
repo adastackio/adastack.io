@@ -39,16 +39,6 @@
       "pagination": false
     }
   },
-  "portfolio_trackers": {
-    "title": "Portfolio Trackers",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "native_tokens": {
     "title": "Native Tokens",
     "theme": {
@@ -89,6 +79,16 @@
       "pagination": false
     }
   },
+  "organizations": {
+    "title": "Organizations",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "scaling_initiatives": {
     "title": "Scaling Initiatives",
     "theme": {
@@ -101,6 +101,16 @@
   },
   "security_tools": {
     "title": "Security Tools",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "portfolio_trackers": {
+    "title": "Portfolio Trackers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

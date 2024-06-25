@@ -31,8 +31,8 @@
       "pagination": false
     }
   },
-  "ecosystem": {
-    "title": "Ecosystem",
+  "community": {
+    "title": "Community",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -41,8 +41,8 @@
       "pagination": false
     }
   },
-  "community": {
-    "title": "Community",
+  "ecosystem": {
+    "title": "Ecosystem",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

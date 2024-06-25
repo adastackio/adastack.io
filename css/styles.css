@@ -9,6 +9,10 @@ a {
   transition: color 0.3s ease;
 }
 
+li a {
+  color: #007bff;
+}
+
 a:hover {
   color: #0056b3;
 }
@@ -53,7 +57,7 @@ html[style*="color-scheme: light;"]
 /* Home animation */
 #animation {
   position: relative;
-  height: calc(100vh - var(--nextra-navbar-height));
+  height: calc(100vh - 4rem);
   width: calc(100vw - 16rem - 24px);
   z-index: 0;
 }
@@ -65,31 +69,33 @@ article.nextra-content:has(#animation) {
 }
 
 html[style*="color-scheme: light;"] #animation {
-  background: #ff5f6d; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffc371,
-    #ff5f6d
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffc371,
-    #ff5f6d
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #1c1c1c;
+  background-size: cover;
 }
 
 html[style*="color-scheme: dark;"] #animation {
-  background: #360033; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #0b8793,
-    #360033
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #0b8793,
-    #360033
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #1c1c1c;
+  background-size: cover;
+}
+
+:is(html[class~="light"]) .animation-overlay {
+  position: absolute; /* Cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Dark overlay with transparency */
+  z-index: 1; /* Ensure it sits above other content */
+}
+
+:is(html[class~="dark"]) .animation-overlay {
+  position: absolute; /* Cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25); /* Dark overlay with transparency */
+  z-index: 1; /* Ensure it sits above other content */
 }
 
 .animation-content-container {
@@ -97,22 +103,14 @@ html[style*="color-scheme: dark;"] #animation {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 50px 50px 40px;
+  padding: 65px 55px 50px;
   z-index: 2;
 }
 
 html[style*="color-scheme: light;"] .animation-content-container {
-  background: rgb(250 250 250); /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #eee,
-    #ffffff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #eee,
-    #ffffff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(250 250 250);
+  background: -webkit-linear-gradient(to bottom, #ddd, #ffffff);
+  background: linear-gradient(to bottom, #ddd, #ffffff);
   backdrop-filter: blur(6px); /* Apply blur to the background */
   border: 1px solid rgba(255, 255, 255, 0.12); /* Add a subtle border */
   border-radius: 10px; /* Rounded corners */
@@ -120,8 +118,8 @@ html[style*="color-scheme: light;"] .animation-content-container {
 }
 
 html[style*="color-scheme: dark;"] .animation-content-container {
-  background-color: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(10px); /* Apply blur to the background */
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(12px); /* Apply blur to the background */
   border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
@@ -158,49 +156,45 @@ html[style*="color-scheme: dark;"] .animation-subtitle {
   color: #fafaf9;
 }
 
+ul.animation-description-text {
+  list-style: circle;
+  font-size: 14px;
+  padding: 11px 0px 17px 0px;
+  margin-left: 15px;
+}
+
+ul.animation-description-text a {
+  text-decoration: underline !important;
+}
+
 .animation-button-container {
   text-align: center;
-  display: flex;
-  flex-wrap: nowrap;
 }
 
 .animation-button {
   white-space: nowrap;
   overflow: hidden;
   color: black;
+  padding: 10px 23px;
 }
 
 :is(html[class~="light"]) .animation-button:first-of-type {
   border: 1px solid #ccc;
-  background-color: white;
-}
-
-:is(html[class~="light"]) .animation-button:nth-of-type(2) {
-  border: 1px solid #ccc;
-  background-color: white;
 }
 
 :is(html[class~="dark"]) .animation-button:first-of-type {
   border: 1px solid #555;
-
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fafaf9;
-}
-
-:is(html[class~="dark"]) .animation-button:nth-of-type(2) {
-  border: 1px solid #555;
-  background-color: rgba(0, 0, 0, 0.2);
-
+  background-color: rgba(0, 0, 0, 0.16);
   color: #fafaf9;
 }
 
 :is(html[class~="light"]) .animation-button:hover {
-  background-color: rgba(100, 100, 100, 0.2);
+  background-color: rgba(100, 100, 100, 0.1);
   color: black;
 }
 
 :is(html[class~="dark"]) .animation-button:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.32);
   color: white;
 }
 
@@ -208,26 +202,6 @@ html[style*="color-scheme: dark;"] .animation-subtitle {
   display: none;
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
-}
-
-:is(html[class~="light"]) .animation-overlay {
-  position: absolute; /* Cover the entire viewport */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.42); /* Dark overlay with transparency */
-  z-index: 1; /* Ensure it sits above other content */
-}
-
-:is(html[class~="dark"]) .animation-overlay {
-  position: absolute; /* Cover the entire viewport */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.55); /* Dark overlay with transparency */
-  z-index: 1; /* Ensure it sits above other content */
 }
 
 /* Home navigation Cards */
@@ -405,88 +379,116 @@ footer {
   .navbar-github-link {
     /* display: none; */
   }
+
   #animation {
     width: 100vw;
     height: calc(100vh - 4rem);
     overflow: hidden;
   }
+
   article.nextra-content:has(#animation) {
     padding-right: 0px;
     padding-left: 0px;
   }
+
   .animation-button {
     display: none;
   }
+
   article.nextra-content:has(#animation) {
     overflow: visible;
   }
+
   a.nextra-card {
     margin: 10px 10px;
   }
+
   .animation-content-container {
     overflow: scroll;
     border-radius: 0px !important;
     padding: 0px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    border: none;
   }
 
   html[style*="color-scheme: light;"] .animation-content-container {
     height: 100%;
     width: 102vw;
     background: transparent;
-    border: 1px solid #eee;
-    backdrop-filter: blur(0px); /* Apply blur to the background */
-    border: 1px solid rgba(255, 255, 255, 0.12); /* Add a subtle border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    backdrop-filter: blur(0px);
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0;
   }
 
   html[style*="color-scheme: dark;"] .animation-content-container {
     height: 100%;
     width: 102vw;
     background: transparent;
-    border: 1px solid #eee;
-    backdrop-filter: blur(0px); /* Apply blur to the background */
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    backdrop-filter: blur(0px);
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0;
   }
+
+  ul.animation-description-text {
+    color: white;
+  }
+
   .animation-title-container {
     width: 100%;
-    position: absolute;
     top: 44%;
     left: 50%;
-    transform: translate(-50%, -50%);
   }
   .animation-button-container {
     display: block;
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 70px;
+    margin: 0 auto;
   }
-  .animation-button-mobile {
-    display: block;
-    padding: 12px 20px;
-    font-size: 1.5rem;
-  }
+
   html[style*="color-scheme: light;"] .animation-title,
   html[style*="color-scheme: dark;"] .animation-title {
-    font-size: 30px;
+    font-size: 32px;
     color: white;
+    margin-bottom: 20px;
+    margin-top: -50px;
   }
 
   html[style*="color-scheme: light;"] .animation-subtitle,
   html[style*="color-scheme: dark;"] .animation-subtitle {
     font-size: 1.1rem;
     color: white;
+    margin-bottom: 60px;
+  }
+  .animation-button-mobile {
+    display: block;
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    margin-top: 60px;
   }
   button:has(.sidebar-menu-item) {
     padding: 20px 0 20px 10px;
   }
   a:has(.sidebar-menu-item) {
     padding: 15px 0 15px 10px;
+  }
+  .animation-overlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    position: fixed !important;
+  }
+
+  .hero-bg {
+    object-position: 34%;
+    transform: rotate(180deg);
+    position: fixed !important;
+  }
+  .nextra-cards.home-navigation-cards {
+    z-index: 10;
+    position: relative;
   }
 }
 /* Everything Under Large Size */
@@ -503,7 +505,6 @@ footer {
   #animation {
     display: block !important; /* Show animation on larger screens */
   }
-
   .nextra-cards {
     display: none !important; /* Hide cards on larger screens */
   }
