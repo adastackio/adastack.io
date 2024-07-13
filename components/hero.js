@@ -32,20 +32,6 @@ function Hero() {
             ecosystem explorer.
           </li>
           <li>The website is still in development.</li>
-          <li>
-            Please{" "}
-            <a
-              href="https://cardano.ideascale.com/c/idea/119612"
-              target="_blank"
-            >
-              vote for us
-            </a>{" "}
-            in{" "}
-            <a href="https://projectcatalyst.io/funds/12" target="_blank">
-              Catalyst Fund 12
-            </a>
-            ! 🙏
-          </li>
         </ul>
         <div className="animation-button-container">
           <button
