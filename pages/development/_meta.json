@@ -59,18 +59,8 @@
       "pagination": false
     }
   },
-  "testnets": {
-    "title": "Testnets",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "developer_tool_explorers": {
-    "title": "Dev Tool Explorers",
+  "smart_contract_languages": {
+    "title": "Smart Contract Languages",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -89,8 +79,8 @@
       "pagination": false
     }
   },
-  "smart_contract_languages": {
-    "title": "Smart Contract Languages",
+  "testnets": {
+    "title": "Testnets",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -131,6 +121,16 @@
   },
   "utility_tools": {
     "title": "Utility Tools",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "developer_tool_explorers": {
+    "title": "Tool Explorers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
