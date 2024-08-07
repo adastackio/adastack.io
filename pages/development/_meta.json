@@ -109,16 +109,6 @@
       "pagination": false
     }
   },
-  "apis": {
-    "title": "APIs",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "code_libraries": {
     "title": "Code Libraries",
     "theme": {
