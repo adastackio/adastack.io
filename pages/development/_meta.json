@@ -79,8 +79,8 @@
       "pagination": false
     }
   },
-  "developer_forums": {
-    "title": "Developer Forums",
+  "developer_channels": {
+    "title": "Developer Channels",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
