@@ -39,8 +39,8 @@
       "pagination": false
     }
   },
-  "native_tokens": {
-    "title": "Native Tokens",
+  "tokens": {
+    "title": "Tokens",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
