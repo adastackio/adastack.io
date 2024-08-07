@@ -1,6 +1,8 @@
+<img width="1328" alt="adastack banner" src="https://github.com/user-attachments/assets/f30c161f-6362-40ea-8ff7-02ed1f54f610">
+
 # Adastack
 
-Adastack is an open-source Cardano explorer with 100+ pages of resources and tools.
+Adastack is an open-source Cardano explorer with 125+ pages of resources and tools.
 
 The website showcases a full range of projects and tools within the Cardano ecosystem.
 
