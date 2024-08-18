@@ -39,8 +39,8 @@
       "pagination": false
     }
   },
-  "native_tokens": {
-    "title": "Native Tokens",
+  "tokens": {
+    "title": "Tokens",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -91,16 +91,6 @@
   },
   "dev_shops": {
     "title": "Dev Shops",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "scaling_initiatives": {
-    "title": "Scaling Initiatives",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

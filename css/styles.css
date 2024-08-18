@@ -358,6 +358,10 @@ footer {
   transform: translate(-50%, -50%);
 }
 
+img.shields_io_button {
+  display: inline;
+}
+
 /* Media Queries */
 /* XS Size */
 @media (max-width: 544px) {
@@ -376,10 +380,6 @@ footer {
 }
 /* Everything under medium - XS and S Size - Mobile */
 @media (max-width: 767px) {
-  .navbar-github-link {
-    /* display: none; */
-  }
-
   #animation {
     width: 100vw;
     height: calc(100vh - 4rem);

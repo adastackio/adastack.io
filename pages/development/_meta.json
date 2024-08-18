@@ -59,36 +59,6 @@
       "pagination": false
     }
   },
-  "testnets": {
-    "title": "Testnets",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "developer_tool_explorers": {
-    "title": "Dev Tool Explorers",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "developer_forums": {
-    "title": "Developer Forums",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "smart_contract_languages": {
     "title": "Smart Contract Languages",
     "theme": {
@@ -99,8 +69,18 @@
       "pagination": false
     }
   },
-  "apis": {
-    "title": "APIs",
+  "developer_channels": {
+    "title": "Developer Channels",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "testnets": {
+    "title": "Testnets",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -141,6 +121,16 @@
   },
   "utility_tools": {
     "title": "Utility Tools",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "developer_tool_explorers": {
+    "title": "Tool Explorers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
