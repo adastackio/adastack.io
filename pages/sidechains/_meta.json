@@ -1,6 +1,6 @@
 {
   "what_are_sidechains": {
-    "title": "What are Side Chains?",
+    "title": "What are Sidechains?",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "other_sidechains": {
-    "title": "Other Side Chains",
+    "title": "Other Sidechains",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

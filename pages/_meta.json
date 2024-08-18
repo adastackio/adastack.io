@@ -132,7 +132,7 @@
     }
   },
   "sidechains": {
-    "title": "Side Chains",
+    "title": "Sidechains",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
