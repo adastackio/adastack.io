@@ -153,10 +153,9 @@
   },
   "about": {
     "title": "About",
-    "type": "page",
     "display": "hidden",
     "theme": {
-      "breadcrumb": true,
+      "breadcrumb": false,
       "sidebar": true,
       "toc": true,
       "footer": true,
@@ -167,7 +166,7 @@
     "title": "Live Pages",
     "display": "hidden",
     "theme": {
-      "breadcrumb": true,
+      "breadcrumb": false,
       "sidebar": true,
       "toc": true,
       "footer": true,
