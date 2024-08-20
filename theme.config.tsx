@@ -11,7 +11,7 @@ const nunito = Nunito({
 });
 
 const standard_seo_description =
-  "Adastack is a place to explore everything on Cardano. Find Dapps, NFTs, games, community, staking, development, governance, metrics, and much more.";
+  "Adastack is an explorer to check out everything on Cardano. Find Dapps, games, community, NFTs,  staking, development, governance, and much more.";
 
 const config: DocsThemeConfig = {
   head: () => {
