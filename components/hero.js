@@ -36,7 +36,7 @@ function Hero() {
           <li>The website is still in development.</li>
           <li>
             <a href="https://adastack.io/live_pages">
-              These pages are all currently live
+              All of these pages are currently live
             </a>
             .
           </li>
