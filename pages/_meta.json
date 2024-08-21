@@ -132,7 +132,7 @@
     }
   },
   "sidechains": {
-    "title": "Side Chains",
+    "title": "Sidechains",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -153,10 +153,20 @@
   },
   "about": {
     "title": "About",
-    "type": "page",
     "display": "hidden",
     "theme": {
-      "breadcrumb": true,
+      "breadcrumb": false,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "live_pages": {
+    "title": "Live Pages",
+    "display": "hidden",
+    "theme": {
+      "breadcrumb": false,
       "sidebar": true,
       "toc": true,
       "footer": true,
