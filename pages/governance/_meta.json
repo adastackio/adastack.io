@@ -9,8 +9,8 @@
       "pagination": false
     }
   },
-  "governance_resources": {
-    "title": "Governance Resources",
+  "voting_and_dreps": {
+    "title": "Voting and DReps",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -19,8 +19,28 @@
       "pagination": false
     }
   },
-  "voting_and_dreps": {
-    "title": "Voting and DReps",
+  "constitutional_committee": {
+    "title": "Constitutional Committee",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "intersect": {
+    "title": "Intersect",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "governance_resources": {
+    "title": "Governance Resources",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
