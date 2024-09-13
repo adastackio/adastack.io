@@ -20,7 +20,7 @@
     }
   },
   "stake_pool_explorers": {
-    "title": "Stake Pool Explorers",
+    "title": "Stake Pool Explorers 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "reward_calculators": {
-    "title": "Reward Calculators",
+    "title": "Reward Calculators 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "reward_trackers": {
-    "title": "Reward Trackers",
+    "title": "Reward Trackers 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "open_ispos": {
-    "title": "Open ISPOs",
+    "title": "Open ISPOs 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -60,7 +60,7 @@
     }
   },
   "stake_pool_alliances": {
-    "title": "Stake Pool Alliances",
+    "title": "Stake Pool Alliances 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -70,7 +70,7 @@
     }
   },
   "set_up_a_stake_pool": {
-    "title": "Set up a Stake Pool",
+    "title": "Set up a Stake Pool 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -80,7 +80,7 @@
     }
   },
   "pool_monitoring_tools": {
-    "title": "Pool Monitoring Tools",
+    "title": "Pool Monitoring Tools 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -90,7 +90,7 @@
     }
   },
   "spo_chat_groups": {
-    "title": "SPO Chat Groups",
+    "title": "SPO Chat Groups 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -100,7 +100,7 @@
     }
   },
   "other_staking_tools": {
-    "title": "Other Tools",
+    "title": "Other Tools 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

@@ -10,7 +10,7 @@
     }
   },
   "learning_platforms": {
-    "title": "Learning Platforms",
+    "title": "Learning Platforms 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -20,7 +20,7 @@
     }
   },
   "coding_environments": {
-    "title": "Coding Environments",
+    "title": "Coding Environments 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "documentation": {
-    "title": "Documentation",
+    "title": "Documentation 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "developer_channels": {
-    "title": "Developer Channels",
+    "title": "Developer Channels 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "cardano_node": {
-    "title": "Cardano Node",
+    "title": "Cardano Node 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -60,7 +60,7 @@
     }
   },
   "cardano_cli": {
-    "title": "Cardano-CLI",
+    "title": "Cardano-CLI 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -70,7 +70,7 @@
     }
   },
   "testnets": {
-    "title": "Testnets",
+    "title": "Testnets 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -80,7 +80,7 @@
     }
   },
   "smart_contract_languages": {
-    "title": "Smart Contract Languages",
+    "title": "Smart Contract Languages 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -90,7 +90,7 @@
     }
   },
   "code_libraries": {
-    "title": "Code Libraries",
+    "title": "Code Libraries 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -100,7 +100,7 @@
     }
   },
   "apis": {
-    "title": "APIs",
+    "title": "APIs 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -111,7 +111,7 @@
   },
 
   "oracles": {
-    "title": "Oracles",
+    "title": "Oracles 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -121,7 +121,7 @@
     }
   },
   "utility_tools": {
-    "title": "Utility Tools",
+    "title": "Utility Tools 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -131,7 +131,7 @@
     }
   },
   "developer_tool_explorers": {
-    "title": "Tool Explorers",
+    "title": "Tool Explorers 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -141,7 +141,7 @@
     }
   },
   "developer_jobs": {
-    "title": "Developer Jobs",
+    "title": "Developer Jobs 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -151,7 +151,7 @@
     }
   },
   "smart_contract_auditors": {
-    "title": "Smart Contract Auditors",
+    "title": "Smart Contract Auditors 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

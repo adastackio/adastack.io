@@ -30,7 +30,7 @@
     }
   },
   "tokenomics_and_distribution": {
-    "title": "Tokenomics and Distribution",
+    "title": "Tokenomics and Distribution 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "monetary_policy": {
-    "title": "Monetary Policy",
+    "title": "Monetary Policy 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "circulating_supply": {
-    "title": "Circulating Supply",
+    "title": "Circulating Supply 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -60,7 +60,7 @@
     }
   },
   "treasury": {
-    "title": "Treasury",
+    "title": "Treasury 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -70,7 +70,7 @@
     }
   },
   "total_value_locked": {
-    "title": "Total Value Locked",
+    "title": "Total Value Locked 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -80,7 +80,7 @@
     }
   },
   "staking_metrics": {
-    "title": "Staking Metrics",
+    "title": "Staking Metrics 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -90,7 +90,7 @@
     }
   },
   "other_metrics": {
-    "title": "Other Metrics",
+    "title": "Other Metrics 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
