@@ -10,7 +10,7 @@
     }
   },
   "voting_and_dreps": {
-    "title": "Voting and DReps",
+    "title": "Voting and DReps 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -20,7 +20,7 @@
     }
   },
   "constitutional_committee": {
-    "title": "Constitutional Committee",
+    "title": "Constitutional Committee 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "intersect": {
-    "title": "Intersect",
+    "title": "Intersect 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "governance_resources": {
-    "title": "Governance Resources",
+    "title": "Governance Resources 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "cips": {
-    "title": "Improvement Proposals (CIPs)",
+    "title": "Improvement Proposals (CIPs) 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

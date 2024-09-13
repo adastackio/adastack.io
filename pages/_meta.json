@@ -11,6 +11,17 @@
       "typesetting": "default"
     }
   },
+  "all_pages": {
+    "title": "All Pages",
+    "display": "hidden",
+    "theme": {
+      "breadcrumb": false,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "intro_to_cardano": {
     "title": "Intro to Cardano",
     "theme": {
@@ -153,17 +164,6 @@
   },
   "about": {
     "title": "About",
-    "display": "hidden",
-    "theme": {
-      "breadcrumb": false,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "live_pages": {
-    "title": "Live Pages",
     "display": "hidden",
     "theme": {
       "breadcrumb": false,

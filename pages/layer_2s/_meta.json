@@ -10,7 +10,7 @@
     }
   },
   "hydra": {
-    "title": "Hydra",
+    "title": "Hydra 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -20,7 +20,7 @@
     }
   },
   "hydra_forks": {
-    "title": "Hydra Forks",
+    "title": "Hydra Forks 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "other_layer_2s": {
-    "title": "Other Layer 2s",
+    "title": "Other Layer 2s 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

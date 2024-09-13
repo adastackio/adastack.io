@@ -10,7 +10,7 @@
     }
   },
   "midnight": {
-    "title": "Midnight",
+    "title": "Midnight 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -20,7 +20,7 @@
     }
   },
   "world_mobile": {
-    "title": "World Mobile",
+    "title": "World Mobile 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "singularitynet": {
-    "title": "SingularityNet",
+    "title": "SingularityNet 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "milkomeda": {
-    "title": "Milkomeda",
+    "title": "Milkomeda 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "other_sidechains": {
-    "title": "Other Sidechains",
+    "title": "Other Sidechains 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

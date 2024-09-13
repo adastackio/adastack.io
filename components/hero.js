@@ -34,29 +34,23 @@ function Hero() {
             ecosystem explorer.
           </li>
           <li>The website is still in development.</li>
-          <li>
-            <a href="https://adastack.io/live_pages">
-              All of these pages are currently live
-            </a>
-            .
-          </li>
           <li>Please vote for us in Catalyst Fund 13! 🙏</li>
         </ul>
         <div className="animation-button-container">
-          <button
-            className="animation-button mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
-            title="Explore All"
-            onClick={() => handleHeroButtonClick(event)}
-          >
-            Explore All
-          </button>
-          <button
-            className="animation-button-mobile mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
-            title="Explore All"
-            onClick={() => handleHeroButtonClickMobile(event)}
-          >
-            Explore All
-          </button>
+          <a href="/all_pages">
+            <button
+              className="animation-button mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
+              title="Explore All"
+            >
+              Explore Live Pages
+            </button>
+            <button
+              className="animation-button-mobile mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
+              title="Explore All"
+            >
+              Explore All
+            </button>
+          </a>
         </div>
       </div>
     </div>
