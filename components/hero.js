@@ -34,9 +34,6 @@ function Hero() {
             ecosystem explorer.
           </li>
           <li>The website is still in development.</li>
-          <li>
-            <a href="https://adastack.io/all_pages">All live pages here</a>.
-          </li>
           <li>Please vote for us in Catalyst Fund 13! 🙏</li>
         </ul>
         <div className="animation-button-container">
@@ -45,7 +42,7 @@ function Hero() {
               className="animation-button mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
               title="Explore All"
             >
-              Explore All
+              Explore Live Pages
             </button>
             <button
               className="animation-button-mobile mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
