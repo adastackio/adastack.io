@@ -35,10 +35,7 @@ function Hero() {
           </li>
           <li>The website is still in development.</li>
           <li>
-            <a href="https://adastack.io/live_pages">
-              All of these pages are currently live
-            </a>
-            .
+            <a href="https://adastack.io/all_pages">All live pages here</a>.
           </li>
           <li>Please vote for us in Catalyst Fund 13! 🙏</li>
         </ul>
