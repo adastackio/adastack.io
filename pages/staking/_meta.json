@@ -39,6 +39,16 @@
       "pagination": false
     }
   },
+  "reward_calendars": {
+    "title": "Reward Calendars 🚧",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "reward_trackers": {
     "title": "Reward Trackers 🚧",
     "theme": {
