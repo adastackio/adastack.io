@@ -20,7 +20,7 @@
     }
   },
   "stake_pool_explorers": {
-    "title": "Stake Pool Explorers 🚧",
+    "title": "Stake Pool Explorers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "reward_calendars": {
-    "title": "Reward Calendars 🚧",
+    "title": "Reward Calendars",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
