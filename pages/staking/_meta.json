@@ -30,7 +30,7 @@
     }
   },
   "reward_calculators": {
-    "title": "Reward Calculators 🚧",
+    "title": "Reward Calculators",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
