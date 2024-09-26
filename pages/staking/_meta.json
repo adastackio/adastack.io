@@ -70,7 +70,7 @@
     }
   },
   "stake_pool_alliances": {
-    "title": "Stake Pool Alliances 🚧",
+    "title": "Stake Pool Alliances",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
