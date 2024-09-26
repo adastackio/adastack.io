@@ -59,8 +59,8 @@
       "pagination": false
     }
   },
-  "open_ispos": {
-    "title": "Open ISPOs 🚧",
+  "ispos": {
+    "title": "ISPOs",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
