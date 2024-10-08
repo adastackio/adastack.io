@@ -90,7 +90,7 @@
     }
   },
   "code_libraries": {
-    "title": "Code Libraries 🚧",
+    "title": "Code Libraries",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
