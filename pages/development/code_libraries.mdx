@@ -1,42 +1,1847 @@
 ---
 seo_title: Code Libraries
-seo_description:
+seo_description: Find Cardano libraries and frameworks for off-chain transaction creation, web development, CLI, node, serialization, indexing, testing, registries, and more.
 ---
 
-# Code Libraries
+# Cardano Code Libraries
 
-### This Page is Under Construction
+Libraries to connect to the Cardano blockchain and build applications.
 
-- Adastack is still in development, so this page's content is not available quite yet.
+## Off-Chain Libraries
 
-### Follow us for Updates
+Off-chain libraries provide abstractions for developers to build transactions and submit them on the Cardano blockchain. These libraries enable connecting to a node, querying the blockchain, asset transfer, and interaction with smart contracts.
 
-- [Adastack Twitter](https://twitter.com/adastackio)
-- [Adastack GitHub](https://github.com/adastackio/adastack.io)
-- [Dev's Twitter](https://twitter.com/tuckertriggs)
+#### Lucid
 
-### Adastack.io Features
+Lucid is a library to build Cardano transactions and write off-chain code in JavaScript and Typescript. It is designed for simplicity, allowing developers to describe actions at a high level.
 
-- **Comprehensive** — Once all inital content is added there will be 1500+ Cardano tools and links on 100+ resource pages. See a sample resource page: [Blockchain Explorers](https://www.adastack.io/ecosystem/blockchain_explorers).
+- [Lucid on GitHub](https://github.com/spacebudz/lucid#readme)
+- [Lucid Documentation](https://lucid.spacebudz.io/)
+- [More Lucid resources](https://lucid.spacebudz.io/docs/resources/)
+- [Spacebudz Discord](https://discord.gg/nwySKPxSec): Lucid Channel
 
-- **Carefully Organized** — The website will start with 14 main categories that collectively encompass nearly all of the Cardano ecosystem. The site's architecture is designed flexibly so the site can grow and adapt as new areas of Cardano emerge.
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
 
-- **Open-Source** — Adastack.io is fully [open-source](https://github.com/adastackio/adastack.io) under the [MIT license](https://github.com/adastackio/adastack.io/blob/main/LICENSE), allowing anyone can view, copy, or suggest modifications to the code. We actively engage in the Cardano community and will incorporate feedback and suggestions. Contributions help the website stay up-to-date and accurate.
+<a href="https://github.com/spacebudz/lucid">
+  <img
+    src="https://img.shields.io/github/stars/spacebudz/lucid?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
 
-- **Fast** — The website is designed for speed, utilizing a popular and modern technology stack of React, Next.js, Tailwind, Markdown, and Git/Github. It also uses the [Nextra theme](https://nextra.site/), which is favored for large documentation websites including Cardano's [Aiken](https://aiken-lang.org/fundamentals/getting-started) and [Demeter.run](https://docs.demeter.run/). The theme is suitable for Adastack because it has optimized search, simple navigation, excellent readability, and allows for easy contributions.
+#### Cardano-js-sdk
 
-- **SEO-Optimized** — The site's content is optimized for search engines to help increase its ranking on search. Custom meta-titles and meta-descriptions are added for each page to boost search engine visibility. The site also uses a service called [indexed.pro](https://indexed.pro/) to automatically submit the site to Google after any change to ensure that the freshest content is always used. Ultimately Adastack should help improve search results in general for Cardano queries on search engines and LLMs.
+Cardano-js-sdk is a JavaScript toolkit to build applications that interact with the Cardano blockchain. It provides a set of tools and functions for wallets, keys, transactions, and more.
 
-- **Quickly Searchable** — Adastack uses [FlexSearch](https://github.com/nextapps-de/flexsearch), a search tool that pre-indexes all content for real-time search results in the website's search bar.
+- [Cardano-js-sdk GitHub](https://github.com/input-output-hk/cardano-js-sdk)
+- [Cardano-js-sdk Documentation](https://input-output-hk.github.io/cardano-js-sdk/)
+- [Cardano-js-sdk Getting Started](https://github.com/input-output-hk/cardano-js-sdk/blob/master/GETTING_STARTED.md)
+- [IOG Technical Community Discord](https://discord.gg/inputoutput)
 
-- **Open metrics** — Plausible, a privacy-focused analytics service, is used to collect anonymous visitor metrics over time. This helps to gauge site performance and engagement over time. These metrics are publicly accessible on the site's [Plausible Dashboard](https://plausible.io/adastack.io).
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
 
-- **Onboarding Guides** — The website features over 10 guides designed to educate newcomers about foundational Cardano topics and help them get started using the chain. These guides cover essential topics such as [What is Blockchain?](https://www.adastack.io/intro_to_cardano/what_is_blockchain), [Start Using Cardano](https://www.adastack.io/intro_to_cardano/start_using_cardano), [How to Start Staking](https://www.adastack.io/staking/start_staking), and more.
+<a href="https://github.com/input-output-hk/cardano-js-sdk">
+  <img
+    src="https://img.shields.io/github/stars/input-output-hk/cardano-js-sdk?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
 
-- **Contributions are Encouraged** — Each page on the site has an "edit this page" button that directs users to the GitHub web interface to submit a contribution. This straightforward process welcomes all users, regardless of technical expertise, to enhance the site by adding resources or improving content.
+#### PyCardano
 
-- **Responsive** — The site is responsive and adapts to different screen sizes, ensuring its usability on desktops, tablets, phones, and other devices.
+PyCardano is a lightweight, standalone Cardano client library written in Python. It enables developers to create and sign transactions on the Cardano blockchain without relying on third-party serialization tools.
 
-- **Niche Categorization** — Resources are organized into precise and refined categories so people searching can find a page that exactly corresponds to their search. For example, rather than a general category such as "Cardano Social Media," adastack has subcategory pages such as "YouTube", "Twitter", "Podcasts", "Newsletters", "Forums and Reddit", and "Telegram".
+- [PyCardano GitHub](https://github.com/Python-Cardano/pycardano)
+- [PyCardano Documentation](https://pycardano.readthedocs.io/en/latest/)
+- [Awesome PyCardano](https://github.com/B3nac/awesome-pycardano)
+- [PyCardano Discord](https://discord.gg/MazZyMPjC6)
+- [TxPipe Discord](https://discord.gg/sJ2D3g33Qp): Pycardano channel
 
-- **Long-term Vision** — I view this project as an experiment where I can contribute to Cardano, observe the growth of the ecosystem, and learn some new development skills. Even after the conclusion of Catalyst I plan to continue being involved with the project and expanding it as time allows. In any case, the site can be continued, forked, or repurposed by anyone since it is open-source.
+<br />
+<img
+  src="https://img.shields.io/badge/Python-ffffff?style=flat&logo=python&logoColor=3776AB"
+  class="shields_io_button"
+  alt="Python Programming Language Badge"
+/>
+
+<a href="https://github.com/Python-Cardano/pycardano">
+  <img
+    src="https://img.shields.io/github/stars/Python-Cardano/pycardano?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-CLI JS
+
+Cardano-CLI JS is a TypeScript library that wraps the Cardano-CLI, providing developers a way to interact with the Cardano blockchain using JavaScript.
+
+- [Cardano-cli JS GitHub](https://github.com/miguelaeh/cardanocli-js)
+- [Cardano.org Cardano-cli](https://developers.cardano.org/docs/get-started/cardanocli-js/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/miguelaeh/cardanocli-js">
+  <img
+    src="https://img.shields.io/github/stars/miguelaeh/cardanocli-js?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Plu-ts
+
+Plu-ts is a TypeScript library designed for building Cardano dApps. It can be used for on-chain contracts, and for off-chain functionalities.
+
+- [Plu-ts GitHub](https://github.com/HarmonicLabs/plu-ts)
+- [Plu-ts Documentation](https://pluts.harmoniclabs.tech/)
+- [Plu-ts Off-chain Reference](https://pluts.harmoniclabs.tech/category/offchain)
+- [Harmonic Labs Discord](https://discord.gg/P6fbZSA85f)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/HarmonicLabs/plu-ts">
+  <img
+    src="https://img.shields.io/github/stars/HarmonicLabs/plu-ts?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-client-lib
+
+Cardano Client Lib is a Java library that makes it easy to interact with the Cardano blockchain with features for transaction creation, signing, address management, and API integrations.
+
+- [Cardano-client-lib GitHub](https://github.com/bloxbean/cardano-client-lib)
+- [Cardano-client-lib Documentation](https://cardano-client.dev/)
+- [Roasted Bean Alliance Discord](https://discord.com/invite/JtQ54MSw6p)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Java-ffffff?style=flat&logo=openjdk&logoColor=ED8B00"
+  class="shields_io_button"
+  alt="Java Programming Language Badge"
+/>
+
+<a href="https://github.com/bloxbean/cardano-client-lib">
+  <img
+    src="https://img.shields.io/github/stars/bloxbean/cardano-client-lib?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### CardanoSharp Wallet
+
+CardanoSharp Wallet is a .NET library for creating keys and addresses, managing wallets, and building and signing transactions.
+
+- [CardanoSharp wallet GitHub](https://github.com/CardanoSharp/cardanosharp-wallet)
+- [CardanoSharp wallet Documentation](https://cardanosharp.com/)
+- [CardanoSharp Discord](https://discord.com/invite/WRAySDD2Kk)
+
+<br />
+<img
+  src="https://img.shields.io/badge/C%23-ffffff?style=flat&logo=csharp&logoColor=239120"
+  class="shields_io_button"
+  alt="C# Programming Language Badge"
+/>
+
+<a href="https://github.com/CardanoSharp/cardanosharp-wallet">
+  <img
+    src="https://img.shields.io/github/stars/CardanoSharp/cardanosharp-wallet?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-transaction-lib
+
+Cardano-transaction-lib (CTL) is a Purescript library for building smart contract transactions. It allows developers to run Plutus off-chain code in the browser environment.
+
+- [Cardano-transaction-lib GitHub](https://github.com/Plutonomicon/cardano-transaction-lib)
+- [Cardano-transaction-lib Documentation](https://plutonomicon.github.io/cardano-transaction-lib/)
+- [Plutonomicon Discord](https://discord.gg/JhbexnV9Pc)
+
+<br />
+<img
+  src="https://img.shields.io/badge/PureScript-ffffff?style=flat&logo=purescript&logoColor=14161A"
+  class="shields_io_button"
+  alt="PureScript Programming Language Badge"
+/>
+
+<a href="https://github.com/Plutonomicon/cardano-transaction-lib">
+  <img
+    src="https://img.shields.io/github/stars/Plutonomicon/cardano-transaction-lib?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### gOuroboros
+
+gOuroboros is a Go library to build applications interacting with the Cardano blockchain. It provides tools to communicate with Cardano nodes, manage transactions, and perform various off-chain operations.
+
+- [gOuroboros GitHub](https://github.com/blinklabs-io/gouroboros)
+- [Blink Labs Discord](https://discord.gg/jx9dxarjyv)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Go-ffffff?style=flat&logo=go&logoColor=00ADD8"
+  class="shields_io_button"
+  alt="Go Programming Language Badge"
+/>
+
+<a href="https://github.com/blinklabs-io/gouroboros">
+  <img
+    src="https://img.shields.io/github/stars/blinklabs-io/gouroboros?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Atlas
+
+Atlas is a Haskell library designed to be an application backend for Plutus smart contracts on the Cardano blockchain. It offers a user-friendly API for creating transactions and interacting with smart contracts.
+
+- [Atlas GitHub](https://github.com/geniusyield/atlas)
+- [Atlas Website and Documentation](https://atlas-app.io/)
+- [GeniusYield Discord](https://discord.gg/TNHf4fs626)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/geniusyield/atlas">
+  <img
+    src="https://img.shields.io/github/stars/geniusyield/atlas?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### TyphonJS
+
+TyphonJS is a TypeScript library designed for working with the Cardano blockchain. It allows developers to generate and manage Cardano addresses, build complex transactions, and automatically select UTXOs.
+
+- [TyphonJS GitHub](https://github.com/StricaHQ/typhonjs)
+- [TyphonJS Documentation](https://docs.strica.io/lib/typhonjs/index.html)
+- [Strica Discord](https://discord.com/invite/WQFPHNXcz8)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/StricaHQ/typhonjs">
+  <img
+    src="https://img.shields.io/github/stars/StricaHQ/typhonjs?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Blaze
+
+Blaze allows you to create Cardano transactions and off-chain code in TypeScript. The library has few external dependencies and can be used in browser environment.
+
+- [Blaze GitHub](https://github.com/butaneprotocol/blaze-cardano)
+- [Blaze Documentation](https://blaze.butane.dev/)
+- [TxPipe Discord](https://discord.gg/sJ2D3g33Qp): Blaze channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/butaneprotocol/blaze-cardano">
+  <img
+    src="https://img.shields.io/github/stars/butaneprotocol/blaze-cardano?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Kuber
+
+Kuber is an Haskell library with a user-friendly JSON API to compose transactions, interact with wallets, and balance inputs and outputs.
+
+- [Kuber GitHub](https://github.com/dQuadrant/kuber)
+- [Kuber Explained by Dquadrant](https://dquadrant.com/blog/kuber-a-new-open-source-library-for-cardano/)
+- [Kuber Discord](https://discord.gg/xDSmAX6MXC)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/dQuadrant/kuber">
+  <img
+    src="https://img.shields.io/github/stars/dQuadrant/kuber?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano Web3.js
+
+CardanoWeb3js is a TypeScript library to integrate with the Cardano blockchain. It supports both Node.js and browser environments, transaction creation, smart contract deployment, and data exploration.
+
+- [Cardano Web3.js GitHub](https://github.com/xray-network/cardano-web3-js)
+- [Cardano Web3.js Documentation](https://cardano-web3-js.org/)
+- [Cardano Web3.js Playground](https://cardano-web3-js.org/playground/)
+- [Xray Discord](https://discord.gg/zdbYrmxevp)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/xray-network/cardano-web3-js">
+  <img
+    src="https://img.shields.io/github/stars/xray-network/cardano-web3-js?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Lucid Evolution
+
+Lucid Evolution is a TypeScript library derived from the popular Lucid library. Lucid Evolution is actively maintained with a focus on type safety, scalability, and effective side-effect management.
+
+- [Lucid Evolution GitHub](https://github.com/Anastasia-Labs/lucid-evolution)
+- [Lucid Evolution Documentation](https://anastasia-labs.github.io/lucid-evolution)
+- [Lucid Evolution Catalyst Proposal](https://www.lidonation.com/index.php/en/proposals/anastasia-labs-lucid-evolution-redefining-off-chain-transactions-in-cardano-f11)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/Anastasia-Labs/lucid-evolution">
+  <img
+    src="https://img.shields.io/github/stars/Anastasia-Labs/lucid-evolution?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-transactions
+
+Haskell library utilities for constructing and signing Cardano transactions. The library also includes a small command-line interface for transaction creation in the terminal.
+
+- [Cardano-transactions GitHub](https://github.com/IntersectMBO/cardano-transactions)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+<a href="https://github.com/IntersectMBO/cardano-transactions">
+  <img
+    src="https://img.shields.io/github/stars/IntersectMBO/cardano-transactions?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Apollo
+
+Apollo provides Golang building blocks for Cardano including serialization and transaction building.
+
+- [Apollo GitHub](https://github.com/Salvionied/apollo)
+- [Apollo Discord](https://discord.com/invite/MH4CmJcg49)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Go-ffffff?style=flat&logo=go&logoColor=00ADD8"
+  class="shields_io_button"
+  alt="Go Programming Language Badge"
+/>
+<a href="https://github.com/Salvionied/apollo">
+  <img
+    src="https://img.shields.io/github/stars/Salvionied/apollo?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Elm Cardano
+
+The elm-cardano library is a tool that allows developers to write off-chain code using the Elm programming language. It provides a set of functions and types, enabling Elm developers to build applications on Cardano.
+
+- [Elm Cardano GitHub](https://github.com/mpizenberg/elm-cardano)
+- [TxPipe Discord](https://discord.gg/sJ2D3g33Qp): Elm channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Elm-ffffff?style=flat&logo=elm&logoColor=60B5CC"
+  class="shields_io_button"
+  alt="Elm Programming Language Badge"
+/>
+<a href="https://github.com/mpizenberg/elm-cardano">
+  <img
+    src="https://img.shields.io/github/stars/mpizenberg/elm-cardano?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Whisky
+
+A Rust library for easy Cardano transaction building and unit testing. It provides a user-friendly wrapper around the cardano-serialization-lib, offering easy transaction building and unit testing, with APIs similar to MeshJS.
+
+- [Whisky GitHub](https://github.com/sidan-lab/whisky)
+- [Whisky Documentation](https://sidan-lab.github.io/whisky/)
+- [Whisky Course on Andiamo](https://www.andamio.io/course/whisky)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+<a href="https://github.com/sidan-lab/whisky">
+  <img
+    src="https://img.shields.io/github/stars/sidan-lab/whisky?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### SC-Tools
+
+SC-Tools is a collection of Haskell libraries for building Cardano applications by providing functions and types for building transactions, selecting coins, and managing wallets.
+
+- [SC-Tools GitHub](https://github.com/j-mueller/sc-tools)
+- [SC-Tools Documentation](https://j-mueller.github.io/sc-tools/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+<a href="https://github.com/j-mueller/sc-tools">
+  <img
+    src="https://img.shields.io/github/stars/j-mueller/sc-tools?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### CAB
+
+CAB (Cardano Application Backend) is a TypeScript library with a suite of tools including wallet and account management, custom blockchain data sources, cryptographic utilities, and CIP-30 dApp connector helpers.
+
+- [CAB GitHub](https://github.com/WingRiders/cab)
+- [Wingriders Discord](https://discord.com/invite/t7CdyhK8JA)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+<a href="https://github.com/WingRiders/cab">
+  <img
+    src="https://img.shields.io/github/stars/WingRiders/cab?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-C
+
+Cardano-C is a C library designed for building transactions and interacting with the Cardano blockchain. It is compliant with MISRA standards.
+
+- [Cardano-C GitHub](https://github.com/Biglup/cardano-c)
+- [Cardano-C Documentation](https://cardano-c.readthedocs.io/en/latest/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/C-ffffff?style=flat&logo=c&logoColor=00599C"
+  class="shields_io_button"
+  alt="C Programming Language Badge"
+/>
+<a href="https://github.com/Biglup/cardano-c">
+  <img
+    src="https://img.shields.io/github/stars/Biglup/cardano-c?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### LibCardano
+
+This C++ library provide an interfaces to integrate Cardano capabilities into a new or existing project. The library features such as transaction handling, address generation, and stake pool key management.
+
+- [libcardano GitLab](https://gitlab.com/viper-staking/libcardano)
+- [libcardano Documentation](https://viperscience.gitlab.io/libcardano/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/C++-ffffff?style=flat&logo=cplusplus&logoColor=00599C"
+  class="shields_io_button"
+  alt="C++ Programming Language Badge"
+/>
+<a href="https://gitlab.com/viper-staking/libcardano">
+  <img
+    src="https://img.shields.io/gitlab/stars/viper-staking/libcardano?style=social&label=GitLab"
+    class="shields_io_button"
+    alt="GitLab link"
+  />
+</a>
+<br />
+<br />
+
+## Website Development Libraries
+
+Website libraries help connect websites with the Cardano blockchain. These libraries often support website components, wallet integration, API connections, and other web development tools for Cardano-based applications.
+
+#### Mesh
+
+Mesh is a website framework that allows you to integrate new or existing websites with the Cardano blockchain. It offers many web components to create a fully-featured dApp.
+
+- [Mesh Github](https://github.com/MartifyLabs/mesh)
+- [Mesh Website](https://meshjs.dev/)
+- [Mesh Discord](https://discord.gg/R9xFAD9MKG)
+- [TxPipe Discord](https://discord.gg/sJ2D3g33Qp): Mesh channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+<a href="https://github.com/MartifyLabs/mesh">
+  <img
+    src="https://img.shields.io/github/stars/MartifyLabs/mesh?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano Connect with Wallet
+
+JavaScript and TypeScript functions to simplify the dApp development. Provides hooks and React components as well as a framework-independent core library.
+
+- [Cardano-connect-with-wallet GitHub](https://github.com/cardano-foundation/cardano-connect-with-wallet)
+- [Cardano-connect-with-wallet Documentation](https://cardano-foundation.github.io/cardano-connect-with-wallet/react-storybook/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/cardano-foundation/cardano-connect-with-wallet">
+  <img
+    src="https://img.shields.io/github/stars/cardano-foundation/cardano-connect-with-wallet?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### CardanoPress
+
+CardanoPress connects a WordPress website to the Cardano blockchain. Features include token gating, ISPO dashboard, and project governance.
+
+- [CardanoPress GitHub](https://github.com/CardanoPress/cardanopress)
+- [CardanoPress Website](https://cardanopress.io/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/PHP-ffffff?style=flat&logo=php&logoColor=777BB4"
+  class="shields_io_button"
+  alt="PHP Programming Language Badge"
+/>
+
+<a href="https://github.com/CardanoPress/cardanopress">
+  <img
+    src="https://img.shields.io/github/stars/CardanoPress/cardanopress?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Use Cardano
+
+Use-cardano is a react context, hook, and set of components that makes interacting with the Cardano blockchain easy. It allows you to build web3 applications, connect wallets, perform tasks such as signing transactions, and interact with smart contracts.
+
+- [Use Cardano GitHub](https://github.com/use-cardano/use-cardano)
+- [Use Cardano Documentation](https://use-cardano.alangaming.com/)
+- [Starter Kit Demo](https://cardano-starter-kit.alangaming.com/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/use-cardano/use-cardano">
+  <img
+    src="https://img.shields.io/github/stars/use-cardano/use-cardano?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### CardanoSharp Blazor
+
+CardanoSharp Blazor is a component library for C# devs to develop dApps on Cardano.
+
+- [CardanoSharp Blazor GitHub](https://github.com/CardanoSharp/cardanosharp-blazor)
+
+<br />
+<img
+  src="https://img.shields.io/badge/C%23-ffffff?style=flat&logo=csharp&logoColor=239120"
+  class="shields_io_button"
+  alt="C# Programming Language Badge"
+/>
+
+<a href="https://github.com/CardanoSharp/cardanosharp-blazor">
+  <img
+    src="https://img.shields.io/github/stars/CardanoSharp/cardanosharp-blazor?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-Connect
+
+Web component for connecting to Cardano wallets. The component provides a button that drops into a list of browser-based Cardano wallets.
+
+- [Cardano-connect GitHub](https://github.com/osc707/cardano-connect)
+- [Cardano-connect Documentation](https://github.com/osc707/cardano-connect/blob/main/custom-elements.md)
+
+<br />
+<img
+  src="https://img.shields.io/badge/HTML-ffffff?style=flat&logo=html5&logoColor=E34F26"
+  class="shields_io_button"
+  alt="HTML5 Badge"
+/>
+
+<a href="https://github.com/osc707/cardano-connect">
+  <img
+    src="https://img.shields.io/github/stars/osc707/cardano-connect?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-Peer-Connect
+
+Cardano-peer-connect aims to provide simple interfaces to implement CIP-0045 for dApps and wallets.
+
+- [Cardano-peer-connect GitHub](https://github.com/fabianbormann/cardano-peer-connect)
+- [Cardano-peer-connect Demo Implementation](https://github.com/fabianbormann/cip-0045-demo-implementation)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/fabianbormann/cardano-peer-connect">
+  <img
+    src="https://img.shields.io/github/stars/fabianbormann/cardano-peer-connect?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-dApp-JS
+
+Cardano-dApp-JS is a library that with wallet connection and wallet styling.
+
+- [Cardano-dApp-JS GitHub](https://github.com/thaddeusdiamond/cardano-dapp-js)
+- [Wild Tangz Discord](https://discord.com/invite/wildtangz)
+
+<br />
+<img
+  src="https://img.shields.io/badge/JavaScript-ffffff?style=flat&logo=javascript&logoColor=F7DF1E"
+  class="shields_io_button"
+  alt="JavaScript Programming Language Badge"
+/>
+
+<a href="https://github.com/thaddeusdiamond/cardano-dapp-js">
+  <img
+    src="https://img.shields.io/github/stars/thaddeusdiamond/cardano-dapp-js?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-dApp-Wallet-Connector
+
+The Cardano wallet dApp connector library provides components, hooks, and utility functions to simplify utilizing the Cardano wallet object as defined in CIP 30.
+
+- [Cardano-dapp-wallet-connector GitHub](https://github.com/projectNEWM/cardano-dapp-wallet-connector)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/projectNEWM/cardano-dapp-wallet-connector">
+  <img
+    src="https://img.shields.io/github/stars/projectNEWM/cardano-dapp-wallet-connector?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-Connect
+
+Cardano-connect is a WordPress plugin providing Cardano Web3 wallet connections and wallet detection features via short codes and Gutenberg blocks, supporting all CIP-30 compliant wallets.
+
+- [Cardano-connect GitHub](https://github.com/devhalls/cardano-connect)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/devhalls/cardano-connect">
+  <img
+    src="https://img.shields.io/github/stars/devhalls/cardano-connect?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+## Command Line (CLI) Tools and Libraries
+
+Command Line Interface (CLI) tools provide developers with a powerful means to interact with the Cardano blockchain directly from the terminal. CLI programs can monitor the blockchain, perform utility actions, manage Cardano Node installs, and more.
+
+#### Cardano-addresses
+
+Library that provides essential tools for managing Cardano addresses and mnemonics. Features include creating recovery phrases (mnemonics), wallet restoration, and creating addresses from keys.
+
+- [Cardano-addresses GitHub](https://github.com/IntersectMBO/cardano-addresses)
+- [Cardano-addresses Documentation](https://intersectmbo.github.io/cardano-addresses/haddock/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/IntersectMBO/cardano-addresses">
+  <img
+    src="https://img.shields.io/github/stars/IntersectMBO/cardano-addresses?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano HW CLI
+
+Command-line interface tool that extends the official Cardano-CLI, providing the ability to manage keys, sign transactions, and interface with hardware wallets.
+
+- [Cardano-hw-cli GitHub](https://github.com/vacuumlabs/cardano-hw-cli)
+
+<br />
+<img
+  src="https://img.shields.io/badge/TypeScript-ffffff?style=flat&logo=typescript&logoColor=007ACC"
+  class="shields_io_button"
+  alt="TypeScript Programming Language Badge"
+/>
+
+<a href="https://github.com/vacuumlabs/cardano-hw-cli">
+  <img
+    src="https://img.shields.io/github/stars/vacuumlabs/cardano-hw-cli?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cncli
+
+CNCLI (Cardano Node CLI) is a community-developed command-line tool that extends the official cardano-cli, providing utilities for stake pool operators and developers.
+
+- [Cncli GitHub](https://github.com/cardano-community/cncli)
+- [Cncli Documentation](https://github.com/cardano-community/cncli/blob/develop/USAGE.md)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+
+<a href="https://github.com/cardano-community/cncli">
+  <img
+    src="https://img.shields.io/github/stars/cardano-community/cncli?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Bech32
+
+A small CLI program to convert to and from bech32 strings. This can be useful when working with addresses.
+
+- [Bech32 GitHub](https://github.com/IntersectMBO/bech32)
+- [Bech32 Documentation](https://github.com/IntersectMBO/bech32)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/IntersectMBO/bech32">
+  <img
+    src="https://img.shields.io/github/stars/IntersectMBO/bech32?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-CLI
+
+Cardano-CLI is a core command-line tool for interacting with a Cardano node. It offers many tools such as key management, creating ADA transactions, blockchain queries, and smart contract interactions.
+
+- [Cardano-CLI GitHub](https://github.com/IntersectMBO/cardano-cli)
+- [Cardano-CLI Documentation](https://github.com/IntersectMBO/cardano-cli/blob/main/cardano-cli/test/cardano-cli-golden/files/golden/help.cli)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/IntersectMBO/cardano-cli">
+  <img
+    src="https://img.shields.io/github/stars/IntersectMBO/cardano-cli?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-signer
+
+The Cardano Signer library is a versatile tool for signing and verifying using Cardano keys. It supports various standards like CIP-8, CIP-30, CIP-36. It can be used to sign data with a secret key, and verify data with a public key.
+
+- [Cardano-Signer GitHub](https://github.com/gitmachtl/cardano-signer)
+
+<br />
+<img
+  src="https://img.shields.io/badge/JavaScript-ffffff?style=flat&logo=javascript&logoColor=F7DF1E"
+  class="shields_io_button"
+  alt="JavaScript Programming Language Badge"
+/>
+
+<a href="https://github.com/gitmachtl/cardano-signer">
+  <img
+    src="https://img.shields.io/github/stars/gitmachtl/cardano-signer?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Nview
+
+Nview is a monitoring tool that gives a view of a running node from the command line.
+
+- [Nview GitHub](https://github.com/blinklabs-io/nview)
+- [Blink Labs Discord](https://discord.gg/jx9dxarjyv): Nview channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Go-ffffff?style=flat&logo=go&logoColor=00ADD8"
+  class="shields_io_button"
+  alt="Go Programming Language Badge"
+/>
+
+<a href="https://github.com/blinklabs-io/nview">
+  <img
+    src="https://img.shields.io/github/stars/blinklabs-io/nview?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Txtop
+
+Txtop is a tool to inspect the mempool of a Cardano node, which can be useful to see the latest transaction activity.
+
+- [Txtop GitHub](https://github.com/blinklabs-io/txtop)
+- [Blink Labs Discord](https://discord.com/invite/5fPRZnX4qW)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Go-ffffff?style=flat&logo=go&logoColor=00ADD8"
+  class="shields_io_button"
+  alt="Go Programming Language Badge"
+/>
+
+<a href="https://github.com/blinklabs-io/txtop">
+  <img
+    src="https://img.shields.io/github/stars/blinklabs-io/txtop?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano-Up
+
+Cardano-up is a line utility for managing Cardano services. It allows you to install, uninstall, and manage different Cardano services and configurations.
+
+- [Cardano-up GitHub](https://github.com/blinklabs-io/cardano-up)
+- [Blink Labs Discord](https://discord.com/invite/5fPRZnX4qW): Cardano-up channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Go-ffffff?style=flat&logo=go&logoColor=00ADD8"
+  class="shields_io_button"
+  alt="Go Programming Language Badge"
+/>
+
+<a href="https://github.com/blinklabs-io/cardano-up">
+  <img
+    src="https://img.shields.io/github/stars/blinklabs-io/cardano-up?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Hyper Jump
+
+Command-line version manager for Cardano. Install, uninstall, and update Cardano services like Cardano-Node and Cardano-CLI.
+
+- [Hyper Jump GitHub](https://github.com/falcucci/hyper-jump)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+
+<a href="https://github.com/falcucci/hyper-jump">
+  <img
+    src="https://img.shields.io/github/stars/falcucci/hyper-jump?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Gastronomy
+
+Gastronomy is a UPLC debugger that allows you to step forward and backward through steps of smart contract execution using the CLI.
+
+- [Gastronomy GitHub](https://github.com/SundaeSwap-finance/gastronomy)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+
+<a href="https://github.com/SundaeSwap-finance/gastronomy">
+  <img
+    src="https://img.shields.io/github/stars/SundaeSwap-finance/gastronomy?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano Skepsis Toolbox
+
+Cardano-skepsis-toolbox is a python-based utility designed for interacting with the Cardano blockchain via the cardano-cli.
+
+- [Cardano-skepsis-toolbox GitHub](https://github.com/chrispalaskas/cardano-skepsis-toolbox)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Python-ffffff?style=flat&logo=python&logoColor=3776AB"
+  class="shields_io_button"
+  alt="Python Programming Language Badge"
+/>
+
+<a href="https://github.com/chrispalaskas/cardano-skepsis-toolbox">
+  <img
+    src="https://img.shields.io/github/stars/chrispalaskas/cardano-skepsis-toolbox?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+## Node Libraries
+
+Node Libraries are essential libraries that deal with networking, consensus, and settlement. These libraries form the backbone of the Cardano blockchain network, enabling communication and operation between various components.
+
+#### Cardano Node
+
+The Cardano node is the core component to participate in the Cardano blockchain. It serves as the means for stake pool operators to produce blocks, and for all network participants to interact with the Cardano network.
+
+- [Cardano Node GitHub](https://github.com/IntersectMBO/cardano-node)
+- [Intersect Discord](https://discord.gg/7bQtEy3pyG): Node-working-group channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/IntersectMBO/cardano-node">
+  <img
+    src="https://img.shields.io/github/stars/IntersectMBO/cardano-node?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Ogmios
+
+A lightweight bridge between the Cardano node and client applications, enabling efficient communication. It allows developers to use JSON and RPC for operations like querying ledger state, submitting transactions, and monitoring the mempool.
+
+- [Ogmios GitHub](https://github.com/CardanoSolutions/ogmios)
+- [Ogmios Documentation](https://ogmios.dev/)
+- [IOG Technical Community Discord](https://discord.gg/inputoutput): Ogmios channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/CardanoSolutions/ogmios">
+  <img
+    src="https://img.shields.io/github/stars/CardanoSolutions/ogmios?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Dolos
+
+Dolos is a specialized Cardano data node, designed to maintain an up-to-date copy of the ledger and respond to queries from trusted clients (but does not produce blocks or handle relays). Since it is optimized for providing data, It is smaller than the Cardano node. Dolos can be an efficient backend for dApps and a useful data source for indexers.
+
+- [Dolos GitHub](https://github.com/txpipe/dolos)
+- [Dolos Documentation](https://dolos.txpipe.io/)
+- [TxPipe Discord](https://discord.gg/sJ2D3g33Qp): Dolos channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+
+<a href="https://github.com/txpipe/dolos">
+  <img
+    src="https://img.shields.io/github/stars/txpipe/dolos?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano Node Tests
+
+Cardano Node Tests is a library provides system and end-to-end (E2E) tests for cardano-node, allowing developers to run comprehensive tests on node implementations.
+
+- [Cardano-node-tests GitHub](https://github.com/IntersectMBO/cardano-node-tests)
+- [Cardano-node-tests Documentation](https://tests.cardano.intersectmbo.org/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Python-ffffff?style=flat&logo=python&logoColor=3776AB"
+  class="shields_io_button"
+  alt="Python Programming Language Badge"
+/>
+
+<a href="https://github.com/IntersectMBO/cardano-node-tests">
+  <img
+    src="https://img.shields.io/github/stars/IntersectMBO/cardano-node-tests?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Amaru
+
+Amaru is a Cardano node client written in Rust. It aims to bring more node diversity to Cardano. It is currently in development.
+
+- [Amaru GitHub](https://github.com/pragma-org/amaru)
+- [Amaru Roadmap](https://pragma.builders/projects/amaru/)
+- [Pragma Discord](https://discord.gg/M65GBpkGjK): Amaru channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+
+<a href="https://github.com/pragma-org/amaru">
+  <img
+    src="https://img.shields.io/github/stars/pragma-org/amaru?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Yaci
+
+Yaci allows connection and interaction with Cardano nodes directly. The library provides capabilities to listen to incoming blocks in real-time, fetch previous blocks, and monitor the local mempool.
+
+- [Yaci GitHub](https://github.com/bloxbean/yaci)
+- [Roasted Bean Alliance Discord](https://discord.com/invite/JtQ54MSw6p)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Java-ffffff?style=flat&logo=openjdk&logoColor=ED8B00"
+  class="shields_io_button"
+  alt="Java Programming Language Badge"
+/>
+
+<a href="https://github.com/bloxbean/yaci">
+  <img
+    src="https://img.shields.io/github/stars/bloxbean/yaci?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+## Indexing Libraries
+
+Indexing libraries help to process the blockchain into a form where it the data can be easily queried. They can filter for specific addresses, assets, or transactions. They enable developers to access blockchain data in a way they can use.
+
+#### Cardano-DB-Sync
+
+Cardano-DB-Sync is a tool that continuously syncs the Cardano blockchain with a PostgreSQL database. It allows users to efficiently query and analyze blockchain data in real-time.
+
+- [Cardano-DB-Sync GitHub](https://github.com/input-output-hk/cardano-db-sync)
+- [Cardano-DB-Sync Documentation Files](https://github.com/IntersectMBO/cardano-db-sync/tree/master/doc)
+- [Tx-Pipe Discord](https://discord.gg/9vJnnW6vDP): DB-Sync channel
+- [Intersect Discord](https://discord.gg/7bQtEy3pyG): DB-Sync Working Group Channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/input-output-hk/cardano-db-sync">
+  <img
+    src="https://img.shields.io/github/stars/input-output-hk/cardano-db-sync?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Oura
+
+Oura is CLI tool that monitors the Cardano blockchain in real-time. It allows filtering, saving, and reacting to on-chain events. Oura does not provide chain-indexing directly, but it supports sinks where filtered data can be stored (e.g. Elastic Search or Kafka).
+
+- [Oura GitHub](https://github.com/txpipe/oura)
+- [Oura Documentation](https://txpipe.github.io/oura/)
+- [TxPipe Discord](https://discord.gg/9vJnnW6vDP): Oura channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+
+<a href="https://github.com/txpipe/oura/">
+  <img
+    src="https://img.shields.io/github/stars/txpipe/oura?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Kupo
+
+Kupo is a lightweight chain-indexing tool for the Cardano blockchain. It quickly syncs data by matching addresses in transaction outputs and creates a lookup table for easy access to output references, values, and scripts.
+
+- [Kupo GitHub](https://github.com/CardanoSolutions/kupo)
+- [TxPipe Discord](https://discord.gg/9vJnnW6vDP): Kupo channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/CardanoSolutions/kupo">
+  <img
+    src="https://img.shields.io/github/stars/CardanoSolutions/kupo?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Carp
+
+Carp is an indexer, built in Rust, that syncs blockchain data into a PostgreSQL database. It’s designed for speed and flexibility, making it ideal for production applications like wallets. It has an indexer for storing data and a web server with a REST API for database queries.
+
+- [Carp GitHub](https://github.com/dcSpark/carp/)
+- [Carp Documentation](https://dcspark.github.io/carp/docs/intro/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+
+<a href="https://github.com/dcSpark/carp/">
+  <img
+    src="https://img.shields.io/github/stars/dcSpark/carp?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### LedgerSync
+
+LedgerSync is a Java application for indexing Cardano blockchain data. It reads from the Cardano blockchain and writes it to a PostgreSQL database. There is also a streaming app that publishes events to messaging middleware like Kafka or RabbitMQ.
+
+- [LedgerSync GitHub](https://github.com/cardano-foundation/cf-ledger-sync)
+- [LedgerSync Documentation](https://cardano-foundation.github.io/cf-ledger-sync)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Java-ffffff?style=flat&logo=openjdk&logoColor=ED8B00"
+  class="shields_io_button"
+  alt="Java Programming Language Badge"
+/>
+
+<a href="https://github.com/cardano-foundation/cf-ledger-sync">
+  <img
+    src="https://img.shields.io/github/stars/cardano-foundation/cf-ledger-sync?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Adder
+
+Adder is a tool that monitors the Cardano blockchain and emits events as blocks and transactions occur. It provides developers with the ability to create custom indexers, allowing them to filter and track specific blockchain data efficiently.
+
+- [Adder GitHub](https://github.com/blinklabs-io/adder)
+- [Adder Starter Kit](https://github.com/blinklabs-io/adder-library-starter-kit)
+- [Blink Labs Discord](https://discord.gg/msgxSvq4Ez): Adder channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Go-ffffff?style=flat&logo=go&logoColor=00ADD8"
+  class="shields_io_button"
+  alt="Go Programming Language Badge"
+/>
+
+<a href="https://github.com/blinklabs-io/adder">
+  <img
+    src="https://img.shields.io/github/stars/blinklabs-io/adder?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Yaci-store
+
+Yaci Store is a Java library for developers to make custom indexer solutions. Yaci Store can be used as a standalone Java library or integrated into Spring Boot applications.
+
+- [Yaci-store GitHub](https://github.com/bloxbean/yaci-store)
+- [Yaci-store Documentation](https://store.yaci.xyz/)
+- [Roasted Bean Alliance Discord](https://discord.com/invite/JtQ54MSw6p)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Java-ffffff?style=flat&logo=openjdk&logoColor=ED8B00"
+  class="shields_io_button"
+  alt="Java Programming Language Badge"
+/>
+
+<a href="https://github.com/bloxbean/yaci-store">
+  <img
+    src="https://img.shields.io/github/stars/bloxbean/yaci-store?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Scrolls
+
+Scrolls is a Rust-based library designed for building and managing read-optimized collections of Cardano blockchain data. It efficiently crawls the blockchain, aggregates data, and keeps data updated by monitoring the chain tip.
+
+- [Scrolls GitHub](https://github.com/txpipe/scrolls)
+- [TxPipe Discord](https://discord.gg/GgZbKGFeUx)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+
+<a href="https://github.com/txpipe/scrolls">
+  <img
+    src="https://img.shields.io/github/stars/txpipe/scrolls?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Marconi
+
+Marconi is a lightweight, customizable framework for indexing and querying Cardano blockchain data. It offers flexible data storage options such as SQLite, file-based, and in-memory.
+
+- [Marconi GitHub](https://github.com/input-output-hk/marconi)
+- [IOG Technical Community Discord](https://discord.gg/inputoutput)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/input-output-hk/marconi">
+  <img
+    src="https://img.shields.io/github/stars/input-output-hk/marconi?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Mafoc
+
+Mafoc is a Haskell framework for developing custom blockchain indexers, using an SQLite database that can be queried for data.
+
+- [Mafoc GitHub](https://github.com/eyeinsky/mafoc/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/eyeinsky/mafoc/">
+  <img
+    src="https://img.shields.io/github/stars/eyeinsky/mafoc?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Argus
+
+Argus is a .NET library that simplifies indexing that provides a framework. It processes block data into structured, queryable formats in a PostgreSQL database. It is designed for robust enterprise integration.
+
+- [Argus GitHub](https://github.com/SAIB-Inc/Argus)
+
+<br />
+<img
+  src="https://img.shields.io/badge/C%23-ffffff?style=flat&logo=csharp&logoColor=239120"
+  class="shields_io_button"
+  alt="C# Programming Language Badge"
+/>
+
+<a href="https://github.com/SAIB-Inc/Argus">
+  <img
+    src="https://img.shields.io/github/stars/SAIB-Inc/Argus?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+## Serialization Libraries
+
+Serialization means converting data between formats so they can be easily transmitted and stored. Serialization and deserialization of CBOR is required when reading from or writing data to the Cardano blockchain.
+
+#### Cardano Serialization Library (CSL)
+
+Cardano Serialization Library, written in Rust, serializes and deserializes data structures using Cardano's official specifications. It supports multiple programming languages, including Node.js, JavaScript, WebAssembly, and Rust.
+
+- [Cardano Serialization Lib GitHub](https://github.com/Emurgo/cardano-serialization-lib)
+- [Cardano Serialization Lib Documentation](https://developers.cardano.org/docs/get-started/cardano-serialization-lib/overview/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+
+<a href="https://github.com/Emurgo/cardano-serialization-lib">
+  <img
+    src="https://img.shields.io/github/stars/Emurgo/cardano-serialization-lib?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano Multiplatform Lib (CML)
+
+This multi-platform Rust library provides serialization and deserialization of core data structures, along with utility functions for dApps and wallets.
+
+- [Cardano-multiplatform Lib GitHub](https://github.com/dcSpark/cardano-multiplatform-lib)
+- [DcSpark Discord](https://discord.gg/UX62bjCxVg)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+
+<a href="https://github.com/dcSpark/cardano-multiplatform-lib">
+  <img
+    src="https://img.shields.io/github/stars/dcSpark/cardano-multiplatform-lib?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Go Cardano Serialization
+
+Golang library for serialization and deserialization of Cardano data structures.
+
+- [Go Cardano Serialization GitHub](https://github.com/fivebinaries/go-cardano-serialization)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Go-ffffff?style=flat&logo=go&logoColor=00ADD8"
+  class="shields_io_button"
+  alt="Go Programming Language Badge"
+/>
+
+<a href="https://github.com/fivebinaries/go-cardano-serialization">
+  <img
+    src="https://img.shields.io/github/stars/fivebinaries/go-cardano-serialization?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+## Testing Libraries
+
+Testing libraries are essential tools to ensure top quality throughout the development process. These libraries may involve testing smart contracts, transactions, running simulations, or checking performance.
+
+#### Naumanchia
+
+Naumachia is a framework for creating and testing smart contracts that offers a set of tools and abstractions.
+
+- [Naumachia GitHub](https://github.com/free-honey/naumachia)
+- [TxPipe Discord](https://discord.gg/sJ2D3g33Qp): Naumanchia channel
+
+<br />
+<img
+  src="https://img.shields.io/badge/Rust-ffffff?style=flat&logo=rust&logoColor=000000"
+  class="shields_io_button"
+  alt="Rust Programming Language Badge"
+/>
+
+<a href="https://github.com/free-honey/naumachia">
+  <img
+    src="https://img.shields.io/github/stars/free-honey/naumachia?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Quickcheck Dynamic
+
+QuickCheck-dynamic is a Haskell library designed for testing stateful systems, including smart contracts, using property-based testing techniques. It allows a developer to define a model of their system's behavior, generate test cases, and verify that the implementation meets the specified properties.
+
+- [Quickcheck Dynamic GitHub](https://github.com/input-output-hk/quickcheck-dynamic)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Haskell-ffffff?style=flat&logo=haskell&logoColor=5D4F85"
+  class="shields_io_button"
+  alt="Haskell Programming Language Badge"
+/>
+
+<a href="https://github.com/input-output-hk/quickcheck-dynamic">
+  <img
+    src="https://img.shields.io/github/stars/input-output-hk/quickcheck-dynamic?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Plutus Bench
+
+Test and benchmark Plutus Smart Contracts.
+
+- [Plutus Bench GitHub](https://github.com/OpShin/plutus-bench)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Python-ffffff?style=flat&logo=python&logoColor=3776AB"
+  class="shields_io_button"
+  alt="Python Programming Language Badge"
+/>
+
+<a href="https://github.com/OpShin/plutus-bench">
+  <img
+    src="https://img.shields.io/github/stars/OpShin/plutus-bench?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Vodka
+
+Vodka is a Cardano development toolkit designed to use with Aiken. It includes unit test utilities to build transactions for testing purposes.
+
+- [Vodka GitHub](https://github.com/sidan-lab/vodka)
+- [Vodka Documentation](https://sidan-lab.github.io/vodka/)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Gleam-ffffff?style=flat&logo=gleam&logoColor=ffaff3"
+  class="shields_io_button"
+  alt="Gleam Programming Language Badge"
+/>
+
+<a href="https://github.com/sidan-lab/vodka">
+  <img
+    src="https://img.shields.io/github/stars/sidan-lab/vodka?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+## Registries
+
+Registries are organized systems to record and maintain information. There are Cardano registries for tokens, smart contracts, scam tracking, and more.
+
+#### Cardano Token Registry
+
+The Cardano token registry is where token creators submit verified information about their tokens, including names, descriptions, and logos.
+
+- [Cardano Token Registry GitHub](https://github.com/cardano-foundation/cardano-token-registry)
+- [Cardano Token Registry Guide and FAQ](https://github.com/cardano-foundation/cardano-token-registry/wiki)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Nix-ffffff?style=flat&logo=nixos&logoColor=5277C3"
+  class="shields_io_button"
+  alt="Nix Package Manager Badge"
+/> 
+
+<a href="https://github.com/cardano-foundation/cardano-token-registry">
+  <img
+    src="https://img.shields.io/github/stars/cardano-foundation/cardano-token-registry?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Offchain Data Registry
+
+The Offchain Data Registry maps dApps to their script addresses. They also maintain useful info about smart contract audits related to those scripts.
+
+- [Offchain Data Registry GitHub](https://github.com/Cardano-Fans/crfa-offchain-data-registry)
+
+<br />
+<img
+  src="https://img.shields.io/badge/JSON-ffffff?style=flat&logo=json&logoColor=000000"
+  class="shields_io_button"
+  alt="JSON Data Badge"
+/> 
+
+<a href="https://github.com/Cardano-Fans/crfa-offchain-data-registry">
+  <img
+    src="https://img.shields.io/github/stars/Cardano-Fans/crfa-offchain-data-registry?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano Contracts Registry
+
+A registry maintaining information about dApps on the Cardano blockchain, used by the Cardanoscan Explorer.
+
+- [Cardano Contracts Registry GitHub](https://github.com/StricaHQ/cardano-contracts-registry)
+
+<br />
+<img
+  src="https://img.shields.io/badge/JavaScript-ffffff?style=flat&logo=javascript&logoColor=F7DF1E"
+  class="shields_io_button"
+  alt="JavaScript Programming Language Badge"
+/>
+
+<a href="https://github.com/StricaHQ/cardano-contracts-registry">
+  <img
+    src="https://img.shields.io/github/stars/StricaHQ/cardano-contracts-registry?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano Shield Registry
+
+Cardano shield is a registry of known scammers, collected to provide protection from phishing using machine learning and community insights. It can be used to create automatic warnings in wallets before making transactions to scammers.
+
+- [Cardano Shield GitHub](https://github.com/adabox-aio/cardano-shield/)
+- [Cardano Shield Website](https://www.cardanoshield.com/)
+- [Cardano Shield Blacklist](https://github.com/adabox-aio/cardano-shield/blob/main/config/blacklist.json)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Python-ffffff?style=flat&logo=python&logoColor=3776AB"
+  class="shields_io_button"
+  alt="Python Programming Language Badge"
+/>
+
+<a href="https://github.com/adabox-aio/cardano-shield/">
+  <img
+    src="https://img.shields.io/github/stars/adabox-aio/cardano-shield?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Eternl Guard Registry
+
+Eternl Guard is a repository designed to gather domain names and asset of known bad actors. This helps users protect their funds by identifying scams.
+
+- [Eternl Guard GitHub](https://github.com/Tastenkunst/eternl-guard)
+- [Eternl Guard Blacklist](https://github.com/Tastenkunst/eternl-guard/tree/main/src/entries)
+
+<br />
+<img
+  src="https://img.shields.io/badge/JSON-ffffff?style=flat&logo=json&logoColor=000000"
+  class="shields_io_button"
+  alt="JSON Data Badge"
+/> 
+
+<a href="https://github.com/Tastenkunst/eternl-guard">
+  <img
+    src="https://img.shields.io/github/stars/Tastenkunst/eternl-guard?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />
+
+#### Cardano Scam Token Registry
+
+Cardano Scam Token Registry is a list of scam tokens. To find the scam tokens, the team uses a process that's triggered when someone sends a token to $sendscams. Each token is reviewed, and the scams are added to the registry.
+
+- [Cardano Scam Token Registry GitHub](https://github.com/BrockCruess/Cardano-Scam-Token-Registry)
+- [Cardano Scam Token Registry Blacklist](https://github.com/BrockCruess/Cardano-Scam-Token-Registry/blob/main/scam-token-list)
+
+<br />
+<img
+  src="https://img.shields.io/badge/Python-ffffff?style=flat&logo=python&logoColor=3776AB"
+  class="shields_io_button"
+  alt="Python Programming Language Badge"
+/>
+
+<a href="https://github.com/BrockCruess/Cardano-Scam-Token-Registry">
+  <img
+    src="https://img.shields.io/github/stars/BrockCruess/Cardano-Scam-Token-Registry?style=social&label=GitHub"
+    class="shields_io_button"
+    alt="GitHub link"
+  />
+</a>
+<br />
+<br />

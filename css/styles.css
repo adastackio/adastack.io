@@ -13,6 +13,10 @@ li a {
   color: #007bff;
 }
 
+html[style*="color-scheme: dark;"] a {
+  color: #b5a4ff;
+}
+
 a:hover {
   color: #0056b3;
 }
@@ -20,6 +24,10 @@ a:hover {
 /* Site logo */
 .adastack-title {
   margin-left: -30px;
+}
+
+html[style*="color-scheme: dark;"] .adastack-title {
+  color: #f3f4f6;
 }
 
 svg.adastack-logo {

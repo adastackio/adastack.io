@@ -10,7 +10,7 @@
     }
   },
   "learning_platforms": {
-    "title": "Learning Platforms 🚧",
+    "title": "Learning Platforms",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -39,8 +39,8 @@
       "pagination": false
     }
   },
-  "developer_channels": {
-    "title": "Developer Channels 🚧",
+  "developer_chat": {
+    "title": "Developer Chat",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -90,7 +90,7 @@
     }
   },
   "code_libraries": {
-    "title": "Code Libraries 🚧",
+    "title": "Code Libraries",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
