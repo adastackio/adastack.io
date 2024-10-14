@@ -10,7 +10,7 @@
     }
   },
   "dapp_explorers": {
-    "title": "Dapp Explorers 🚧",
+    "title": "Dapp Explorers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
