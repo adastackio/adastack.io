@@ -370,6 +370,12 @@ img.shields_io_button {
   display: inline;
 }
 
+.shields_io_inline-badge {
+  display: inline-block;
+  margin-bottom: -5px;
+}
+
+
 /* Media Queries */
 /* XS Size */
 @media (max-width: 544px) {
