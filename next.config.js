@@ -11,6 +11,11 @@ module.exports = withNextra({
         destination: "/all_pages", // new URL
         permanent: true, // permanent 308
       },
+      {
+        source: "/ecosystem/dev_shops", // old URL
+        destination: "/development/dev_teams", // new URL
+        permanent: true, // permanent 308
+      },
     ];
   },
 

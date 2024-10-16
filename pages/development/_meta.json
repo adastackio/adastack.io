@@ -39,6 +39,16 @@
       "pagination": false
     }
   },
+  "dev_teams": {
+    "title": "Dev Teams",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "developer_chat": {
     "title": "Developer Chat",
     "theme": {
@@ -150,8 +160,8 @@
       "pagination": false
     }
   },
-  "smart_contract_auditors": {
-    "title": "Smart Contract Auditors 🚧",
+  "smart_contract_audits": {
+    "title": "Smart Contract Audits 🚧",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
