@@ -375,6 +375,10 @@ img.shields_io_button {
   margin-bottom: -5px;
 }
 
+.favicon-custom-css {
+  border-color: #4b5563;
+  margin-top: 5px;
+}
 
 /* Media Queries */
 /* XS Size */
