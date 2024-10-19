@@ -5,11 +5,29 @@ const StarBadge = ({ githubURL }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const fetchAllRepos = useCallback(async (url) => {
-    const response = await fetch(url);
+  const fetchAllRepos = useCallback(async (url, name) => {
+    let response = await fetch(url, {
+      headers: {
+        Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
+        Accept: "application/vnd.github.v3+json",
+      },
+    });
+
+    if (response.status === 404) {
+      // If user not found, try organization endpoint
+      url = `https://api.github.com/orgs/${name}/repos?per_page=100`;
+      response = await fetch(url, {
+        headers: {
+          Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
+          Accept: "application/vnd.github.v3+json",
+        },
+      });
+    }
+
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
+
     const repos = await response.json();
     const nextLink = response.headers
       .get("Link")
@@ -19,12 +37,12 @@ const StarBadge = ({ githubURL }) => {
 
   const fetchStars = useCallback(async () => {
     try {
-      const user = githubURL.split("/").pop().replace(/\/$/, "");
-      let url = `https://api.github.com/users/${user}/repos?per_page=100`;
+      const name = githubURL.split("/")[3]; // Extract user or org name from the URL
+      let url = `https://api.github.com/users/${name}/repos?per_page=100`;
       let totalStars = 0;
 
       while (url) {
-        const { repos, nextLink } = await fetchAllRepos(url);
+        const { repos, nextLink } = await fetchAllRepos(url, name);
         totalStars += repos.reduce(
           (sum, repo) => sum + repo.stargazers_count,
           0
@@ -55,19 +73,18 @@ const StarBadge = ({ githubURL }) => {
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
-          stroke-width="1.5"
+          strokeWidth="1.5"
           stroke="currentColor"
           aria-hidden="true"
           data-slot="icon"
           className="mr-1 inline-block h-4 w-4 align-text-bottom text-gray-600"
         >
           <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
           ></path>
         </svg>
-
         <span className="stars">{stars}</span>
       </span>
     </a>

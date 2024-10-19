@@ -4,6 +4,10 @@ const withNextra = require("nextra")({
 });
 
 module.exports = withNextra({
+  env: {
+    GITHUB_ACCESS_TOKEN: process.env.GITHUB_ACCESS_TOKEN,
+  },
+
   async redirects() {
     return [
       {
