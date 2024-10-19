@@ -37,7 +37,8 @@ const StarBadge = ({ githubURL }) => {
 
   const fetchStars = useCallback(async () => {
     try {
-      const name = githubURL.split("/")[3]; // Extract user or org name from the URL
+      const orgName = githubURL.split("/")[3]; // Extract user or org name from the URL
+      const name = orgName.replace(/\/$/, ""); // Remove any trailing slash
       let url = `https://api.github.com/users/${name}/repos?per_page=100`;
       let totalStars = 0;
 
