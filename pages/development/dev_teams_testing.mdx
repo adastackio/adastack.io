@@ -87,26 +87,26 @@ export default function DevTeams({ teamMembers }) {
 Developer teams specialize in creating decentralized applications, writing smart contracts, and driving innovation on Cardano. Many of the teams listed offer Cardano development services to clients. These are ranked by the sum of stars across their open-source repos\*.
 
       <div className="mt-8">
-        <table className="min-w-full divide-y divide-gray-200">
-          <thead className="bg-gray-50">
-            <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Team</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Stars</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
+        <table className="nx-block nx-overflow-x-scroll nextra-scrollbar nx-mt-6 nx-p-0 first:nx-mt-0">
+          <thead>
+            <tr className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20">
+              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Team</th>
+              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Stars</th>
+              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Type</th>
             </tr>
           </thead>
-          <tbody className="bg-white divide-y divide-gray-200">
+          <tbody>
             {teamMembers.map((member, index) => (
-              <tr key={index}>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  <a href={member.website} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+              <tr className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20" key={index}>
+                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
+                  <a href={member.website} target="_blank" rel="noopener noreferrer" className="nx-text-primary-600 nx-underline nx-decoration-from-font [text-underline-position:from-font]">
                     {member.name}
                   </a>
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
+                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
                   <TeamItem repoURL={member.repoURL} stars={member.stars} error={member.error} />
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">{member.type}</td>
+                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">{member.type}</td>
               </tr>
             ))}
           </tbody>
