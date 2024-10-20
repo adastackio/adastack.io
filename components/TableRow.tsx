@@ -20,18 +20,27 @@ const StarIcon = React.memo(() => (
   </svg>
 ));
 
-interface TeamItemProps {
+interface TableRowProps {
   repoURL: string;
   stars: number | null;
-  error?: string | null;
+  error: string | null;
 }
 
-const TeamItem: React.FC<TeamItemProps> = React.memo(
+const TableRow: React.FC<TableRowProps> = React.memo(
   ({ repoURL, stars, error }) => {
-    // Determine badge content based on stars/error
+    if (!repoURL) {
+      return "";
+    }
+
     const getBadgeContent = () => {
-      if (error) return error;
-      return stars !== null ? stars.toLocaleString() : "N/A";
+      if (error) {
+        console.log(error);
+      }
+      if (stars !== null) {
+        return stars.toLocaleString();
+      } else {
+        return "...";
+      }
     };
 
     // Render the star badge
@@ -46,4 +55,4 @@ const TeamItem: React.FC<TeamItemProps> = React.memo(
   }
 );
 
-export default TeamItem;
+export default TableRow;

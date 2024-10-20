@@ -3,115 +3,216 @@ seo_title: Dev Teams
 seo_description: Need a dev team to help build your Cardano project? These teams build dApps, write smart contracts, manage projects, and drive innovation on Cardano.
 ---
 
-import StarBadge from "../../components/StarBadge";
+import TableRow from "../../components/TableRow";
 
-# Dev Teams
+export const getStaticProps = async () => {
+  const fetchAllGitHubRepos = async (url, name) => {
+    let response = await fetch(url, {
+      headers: {
+        Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
+        Accept: "application/vnd.github.v3+json",
+      },
+    });
+    if (response.status === 404) {
+      url = `https://api.github.com/orgs/${name}/repos?per_page=100`;
+      response = await fetch(url, {
+        headers: {
+          Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
+          Accept: "application/vnd.github.v3+json",
+        },
+      });
+    }
+    if (!response.ok) {
+      const errorMessage = `HTTP error! Status: ${response.status}, Text: ${response.statusText}`;
+      console.error(errorMessage);
+      throw new Error(errorMessage);
+    }
+    const repos = await response.json();
+    const nextLink = response.headers
+      .get("Link")
+      ?.match(/<([^>]+)>;\s*rel="next"/)?.[1];
+    return { repos, nextLink };
+  };
 
-Developer teams specialize in creating decentralized applications, writing smart contracts, and driving innovation on Cardano. Many of the teams listed offer Cardano development services to clients. These are ranked by the sum of stars across their open-source repos\*.
+const fetchGitHubStars = async (name) => {
+let url = `https://api.github.com/users/${name}/repos?per_page=100`;
+let totalStars = 0;
 
-| Team                                                        | Stars                                                           | Type         |
-| ----------------------------------------------------------- | --------------------------------------------------------------- | ------------ |
-| [Input Output Global](https://iohk.io/)                     | <StarBadge repoURL="https://github.com/input-output-hk"/>       | Dev Shop     |
-| [Tweag](https://www.tweag.io/)                              | <StarBadge repoURL="https://github.com/tweag"/>                 | Dev Shop     |
-| [Galois](https://galois.com/)                               | <StarBadge repoURL="https://github.com/GaloisInc"/>             | Dev Shop     |
-| [Intersect MBO](https://www.intersectmbo.org/)              | <StarBadge repoURL="https://github.com/intersectmbo"/>          | Organization |
-| [Protofire](https://protofire.io/)                          | <StarBadge repoURL="https://github.com/protofire"/>             | Dev Shop     |
-| [Cardano Foundation](https://cardanofoundation.org/)        | <StarBadge repoURL="https://github.com/cardano-foundation"/>    | Organization |
-| [Metalamp](https://metalamp.io/)                            | <StarBadge repoURL="https://github.com/fullstack-development"/> | Dev Shop     |
-| [Obsidian Systems](https://obsidian.systems/)               | <StarBadge repoURL="https://github.com/obsidiansystems"/>       | Dev Shop     |
-| [Well Typed](https://www.well-typed.com/)                   | <StarBadge repoURL="https://github.com/well-typed"/>            | Dev Shop     |
-| [Emurgo](https://emurgo.io/)                                | <StarBadge repoURL="https://github.com/Emurgo"/>                | Organization |
-| [Tastenkunst GmbH](http://www.tastenkunst.com/)             | <StarBadge repoURL="https://github.com/Tastenkunst"/>           | Dev Shop     |
-| [Vacuumlabs](https://vacuumlabs.com/)                       | <StarBadge repoURL="https://github.com/vacuumlabs"/>            | Dev Shop     |
-| [TxPipe](https://txpipe.io/)                                | <StarBadge repoURL="https://github.com/txpipe"/>                | Dev Shop     |
-| [DC Spark](https://www.dcspark.io/)                         | <StarBadge repoURL="https://github.com/dcSpark"/>               | Dev Shop     |
-| [Mlabs](https://mlabs.city/)                                | <StarBadge repoURL="https://github.com/mlabs-haskell"/>         | Dev Shop     |
-| [Cardano Community](https://cardano-community.github.io)    | <StarBadge repoURL="https://github.com/cardano-community"/>     | Organization |
-| [Blockfrost.io](https://blockfrost.io/)                     | <StarBadge repoURL="https://github.com/blockfrost"/>            | dApp         |
-| [Blink Labs](https://blinklabs.io/)                         | <StarBadge repoURL="https://github.com/blinklabs-io"/>          | Dev Shop     |
-| [Spectrum Finance](https://spectrum.fi/)                    | <StarBadge repoURL="https://github.com/spectrum-finance"/>      | dApp         |
-| [Mesh](https://meshjs.dev/)                                 | <StarBadge repoURL="https://github.com/MeshJS"/>                | Tools        |
-| [Sundae Labs](https://sundae.fi/)                           | <StarBadge repoURL="https://github.com/SundaeSwap-finance"/>    | dApp         |
-| [Harmonic Labs](https://www.harmoniclabs.tech/)             | <StarBadge repoURL="https://github.com/HarmonicLabs"/>          | Dev Shop     |
-| [Minswap](https://app.minswap.org/)                         | <StarBadge repoURL="https://github.com/minswap"/>               | dApp         |
-| [Liqwid Finance](https://liqwid.finance/)                   | <StarBadge repoURL="https://github.com/liqwid-labs"/>           | dApp         |
-| [Genius Yield](https://app.geniusyield.co/)                 | <StarBadge repoURL="https://github.com/geniusyield"/>           | dApp         |
-| [Strica](https://strica.io/)                                | <StarBadge repoURL="https://github.com/StricaHQ"/>              | Dev Shop     |
-| [Dynamic Strategies](https://dynamicstrategies.io/)         | <StarBadge repoURL="https://github.com/dynamicstrategies"/>     | Dev Shop     |
-| [Anastasia Labs](https://anastasialabs.com/)                | <StarBadge repoURL="https://github.com/Anastasia-Labs"/>        | Dev Shop     |
-| [Ray Network](https://raynetwork.io/)                       | <StarBadge repoURL="https://github.com/xray-network"/>          | dApp         |
-| [Indigo Protocol](https://indigoprotocol.io/)               | <StarBadge repoURL="https://github.com/IndigoProtocol"/>        | dApp         |
-| [Butane](https://butane.dev/)                               | <StarBadge repoURL="https://github.com/butaneprotocol"/>        | dApp         |
-| [Zw3rk Tech](https://zw3rk.com/)                            | <StarBadge repoURL="https://github.com/zw3rk"/>                 | Dev Shop     |
-| [Dquadrant](https://dquadrant.com/)                         | <StarBadge repoURL="https://github.com/dQuadrant"/>             | Dev Shop     |
-| [Mutual Knowledge](https://mukn.com/)                       | <StarBadge repoURL="https://github.com/MuKnSys"/>               | Dev Shop     |
-| [Meld](https://www.meld.com/)                               | <StarBadge repoURL="https://github.com/MELD-labs"/>             | dApp         |
-| [Five Binaries](https://fivebinaries.com/)                  | <StarBadge repoURL="https://github.com/fivebinaries"/>          | Dev Shop     |
-| [Pragma](https://pragma.io/)                                | <StarBadge repoURL="https://github.com/pragma-org"/>            | Organization |
-| [MuesliSwap](https://muesliswap.com/)                       | <StarBadge repoURL="https://github.com/MuesliSwapTeam"/>        | dApp         |
-| [Sidan](https://sidan.io/)                                  | <StarBadge repoURL="https://github.com/sidan-lab"/>             | Dev Shop     |
-| [UpToDate Developers](https://uptodatedevelopers.com/)      | <StarBadge repoURL="https://github.com/UPTODATE-DEV"/>          | Tools        |
-| [Cexplorer.io](https://cexplorer.io/)                       | <StarBadge repoURL="https://github.com/cexplorer"/>             | Tools        |
-| [Logical Mechanism](https://logicalmechanism.io/)           | <StarBadge repoURL="https://github.com/logical-mechanism"/>     | Dev Shop     |
-| [Teddyswap](https://app.teddyswap.org/)                     | <StarBadge repoURL="https://github.com/teddy-swap"/>            | dApp         |
-| [ZK Fold](https://zkfold.io/)                               | <StarBadge repoURL="https://github.com/zkFold"/>                | dApp         |
-| [Wingriders](https://www.wingriders.com/)                   | <StarBadge repoURL="https://github.com/WingRiders"/>            | dApp         |
-| [Studio Webux](https://webuxlab.com/)                       | <StarBadge repoURL="https://github.com/studiowebux"/>           | Dev Shop     |
-| [Lenfi](https://lenfi.io/)                                  | <StarBadge repoURL="https://github.com/lenfiLabs"/>             | dApp         |
-| [DripDropz](https://dripdropz.io)                           | <StarBadge repoURL="https://github.com/DripDropz"/>             | dApp         |
-| [Mynth.ai](https://mynth.ai)                                | <StarBadge repoURL="https://github.com/MynthAI"/>               | dApp         |
-| [ADA Anvil](https://ada-anvil.io/)                          | <StarBadge repoURL="https://github.com/Cardano-Forge"/>         | Dev Shop     |
-| [Biglup Labs](https://biglup.io/)                           | <StarBadge repoURL="https://github.com/Biglup"/>                | Dev Shop     |
-| [Optim Finance](https://www.optim.finance/)                 | <StarBadge repoURL="https://github.com/OptimFinance"/>          | dApp         |
-| [Danogo](https://danogo.io/)                                | <StarBadge repoURL="https://github.com/Danogo2023"/>            | dApp         |
-| [DCOneCrypto](https://dconecrypto.finance/)                 | <StarBadge repoURL="https://github.com/DCOneCrypto"/>           | Tools        |
-| [Ikigai Tech](https://ikigaitech.org/)                      | <StarBadge repoURL="https://github.com/ikigai-github"/>         | Dev Shop     |
-| [Plank](https://www.joinplank.com/)                         | <StarBadge repoURL="https://github.com/joinplank"/>             | Dev Shop     |
-| [VyFi](https://app.vyfi.io/dex)                             | <StarBadge repoURL="https://github.com/vyfi"/>                  | dApp         |
-| [Saib](https://saib.dev/)                                   | <StarBadge repoURL="https://github.com/SAIB-Inc"/>              | Dev Shop     |
-| [Evolute Software](https://evolute.software/)               | <StarBadge repoURL="https://github.com/evolute-software"/>      | Dev Shop     |
-| [Cerra.io](https://cerra.io/)                               | <StarBadge repoURL="https://github.com/cerraio"/>               | dApp         |
-| [DexHunter](https://www.dexhunter.io/)                      | <StarBadge repoURL="https://github.com/DexHunterIO"/>           | dApp         |
-| [Adastack](https://www.adastack.io)                         | <StarBadge repoURL="https://github.com/adastackio/"/>           | Tools        |
-| [NFT Guild](https://www.nft-guild.io/)                      | <StarBadge repoURL="https://github.com/NFT-Guild"/>             | Organization |
-| [Bodega Market](https://bodegamarket.xyz/)                  | <StarBadge repoURL="https://github.com/bodega-market"/>         | dApp         |
-| [Metera](https://www.meteraprotocol.io/)                    | <StarBadge repoURL="https://github.com/MeteraLabs"/>            | dApp         |
-| [Paribus](https://paribus.io/)                              | <StarBadge repoURL="https://github.com/paribus"/>               | dApp         |
-| [Splash protocol](https://www.splash.trade/)                | <StarBadge repoURL="https://github.com/splashprotocol"/>        | dApp         |
-| [Blueshift](https://blueshift.fi)                           | <StarBadge repoURL="https://github.com/blueshift-fi"/>          | dApp         |
-| [Mayz](https://mayz.io/)                                    | <StarBadge repoURL="https://github.com/MAYZGitHub/"/>           | dApp         |
-| [Strike Finance](https://strikefinance.org/)                | <StarBadge repoURL="https://github.com/strike-finance"/>        | dApp         |
-| [Nucast Labs](https://www.nucastlabs.xyz/)                  | <StarBadge repoURL="https://github.com/Nucastio"/>              | Dev Shop     |
-| [Saturn Labs](https://saturnlabs.org/)                      | <StarBadge repoURL="https://github.com/SaturnLabs"/>            | Dev Shop     |
-| [Bloxico](https://bloxico.com/)                             | <StarBadge repoURL="https://github.com/Bloxico"/>               | Dev Shop     |
-| [Thespian](https://thespian.eu/)                            | <StarBadge repoURL="https://github.com/Thespian-Agency"/>       | Dev Shop     |
-| [Adaxon](https://adaxon.io/)                                | <StarBadge repoURL="https://github.com/adaxonio"/>              | Dev Shop     |
-| [Xerberus](https://xerberus.io/)                            | <StarBadge repoURL="https://github.com/XerberusTeam"/>          | dApp         |
-| [Delta Defi](https://www.deltadefi.io/)                     | <StarBadge repoURL="https://github.com/deltadefi-protocol"/>    | dApp         |
-| [Ada Markets](https://ada.markets/)                         | <StarBadge repoURL="https://github.com/ADA-Markets"/>           | dApp         |
-| [Big Blymp](http://www.bigblymp.com/)                       | <StarBadge repoURL="https://github.com/BigBlymp"/>              | Dev Shop     |
-| [Foreon Network](https://foreon.network/)                   | <StarBadge repoURL="https://github.com/Foreon-Network"/>        | dApp         |
-| [Nova Finance](https://www.novafinance.io/)                 | <StarBadge repoURL="https://github.com/Nova-Finance"/>          | dApp         |
-| [Stargazer Finance](https://www.stargazer.finance/)         | <StarBadge repoURL="https://github.com/StargazerLabs"/>         | dApp         |
-| [Trivolve Tech](https://trivolvetech.com/)                  |                                                                 | Dev Shop     |
-| [Gen Lambda](https://www.genlambda.com/)                    |                                                                 | Dev Shop     |
-| [We Deliver](https://we-deliver.io/)                        |                                                                 | Dev Shop     |
-| [Platonic Systems](https://platonic.systems/)               |                                                                 | Dev Shop     |
-| [Devteam](https://www.devteam.inc/)                         |                                                                 | Dev Shop     |
-| [Kompact](https://kompact.io/)                              |                                                                 | Dev Shop     |
-| [Pendulumdev](https://pendulumdev.co.uk/)                   |                                                                 | Dev Shop     |
-| [Inversion](https://inversion.dev/)                         |                                                                 | Dev Shop     |
-| [Filabs](https://www.filabs.dev/)                           |                                                                 | Dev Shop     |
-| [Antier Solutions](https://www.antiersolutions.com/)        |                                                                 | Dev Shop     |
-| [Crystal Software](http://www.crystal.infinityfreeapp.com/) |                                                                 | Dev Shop     |
-| [45b](https://45b.io/)                                      |                                                                 | Dev Shop     |
-| [Maestro](https://www.gomaestro.org/)                       | <StarBadge repoURL="https://github.com/maestro-org"/>           | Tools        |
-| [Coti](https://coti.io/)                                    | <StarBadge repoURL="https://github.com/coti-io"/>               | Stablecoin   |
-| [NMKR](https://nmkr.io/)                                    | <StarBadge repoURL="https://github.com/nftmakerio"/>            | Tools        |
-| [Supra Payments](https://suprapayments.io/)                 | <StarBadge repoURL="https://github.com/suprapayments"/>         | Tools        |
-| [Veralidity](https://veralidity.com/)                       | <StarBadge repoURL="https://github.com/veralidity"/>            | Tools        |
-| [Self Driven Foundation](https://selfdriven.foundation/)    | <StarBadge repoURL="https://github.com/selfdriven-foundation"/> | Organization |
-| [Iagon](https://iagon.com/)                                 | <StarBadge repoURL="https://github.com/iagonorg"/>              | dApp         |
-| [Profila](https://profila.com/)                             | <StarBadge repoURL="https://github.com/Profila"/>               | dApp         |
+    while (url) {
+      const { repos, nextLink } = await fetchAllGitHubRepos(url, name);
+      totalStars += repos.reduce(
+        (sum, repo) => sum + repo.stargazers_count,
+        0
+      );
+      url = nextLink;
+    }
+    return totalStars;
 
-\*Star count is the sum of stars from an organization's top 200 most-starred repositories, not necessarily all of its repos. [More info](https://shields.io/badges/git-hub-orgs-stars).
+};
+
+const teamData = [
+{ name: 'Input Output Global', repoURL: 'https://github.com/input-output-hk', type: 'Dev Shop', website: 'https://iohk.io/' },
+{ name: 'Tweag', repoURL: 'https://github.com/tweag', type: 'Dev Shop', website: 'https://www.tweag.io/' },
+{ name: 'Galois', repoURL: 'https://github.com/GaloisInc', type: 'Dev Shop', website: 'https://galois.com/' },
+{ name: 'Intersect MBO', repoURL: 'https://github.com/intersectmbo', type: 'Organization', website: 'https://www.intersectmbo.org/' },
+{ name: 'Protofire', repoURL: 'https://github.com/protofire', type: 'Dev Shop', website: 'https://protofire.io/' },
+{ name: 'Cardano Foundation', repoURL: 'https://github.com/cardano-foundation', type: 'Organization', website: 'https://cardanofoundation.org/' },
+{ name: 'Metalamp', repoURL: 'https://github.com/fullstack-development', type: 'Dev Shop', website: 'https://metalamp.io/' },
+{ name: 'Obsidian Systems', repoURL: 'https://github.com/obsidiansystems', type: 'Dev Shop', website: 'https://obsidian.systems/' },
+{ name: 'Well Typed', repoURL: 'https://github.com/well-typed', type: 'Dev Shop', website: 'https://www.well-typed.com/' },
+{ name: 'Emurgo', repoURL: 'https://github.com/Emurgo', type: 'Organization', website: 'https://emurgo.io/' },
+{ name: 'Tastenkunst GmbH', repoURL: 'https://github.com/Tastenkunst', type: 'Dev Shop', website: 'http://www.tastenkunst.com/' },
+{ name: 'Vacuumlabs', repoURL: 'https://github.com/vacuumlabs', type: 'Dev Shop', website: 'https://vacuumlabs.com/' },
+{ name: 'TxPipe', repoURL: 'https://github.com/txpipe', type: 'Dev Shop', website: 'https://txpipe.io/' },
+{ name: 'DC Spark', repoURL: 'https://github.com/dcSpark', type: 'Dev Shop', website: 'https://www.dcspark.io/' },
+{ name: 'Mlabs', repoURL: 'https://github.com/mlabs-haskell', type: 'Dev Shop', website: 'https://mlabs.city/' },
+{ name: 'Cardano Community', repoURL: 'https://github.com/cardano-community', type: 'Organization', website: 'https://cardano-community.github.io' },
+{ name: 'Blockfrost.io', repoURL: 'https://github.com/blockfrost', type: 'dApp', website: 'https://blockfrost.io/' },
+{ name: 'Coti', repoURL: 'https://github.com/coti-io', type: 'Stablecoin', website: 'https://coti.io/' },
+{ name: 'Blink Labs', repoURL: 'https://github.com/blinklabs-io', type: 'Dev Shop', website: 'https://blinklabs.io/' },
+{ name: 'Spectrum Finance', repoURL: 'https://github.com/spectrum-finance', type: 'dApp', website: 'https://spectrum.fi/' },
+{ name: 'Mesh', repoURL: 'https://github.com/MeshJS', type: 'Tools', website: 'https://meshjs.dev/' },
+{ name: 'Sundae Labs', repoURL: 'https://github.com/SundaeSwap-finance', type: 'dApp', website: 'https://sundae.fi/' },
+{ name: 'Harmonic Labs', repoURL: 'https://github.com/HarmonicLabs', type: 'Dev Shop', website: 'https://www.harmoniclabs.tech/' },
+{ name: 'Minswap', repoURL: 'https://github.com/minswap', type: 'dApp', website: 'https://app.minswap.org/' },
+{ name: 'Liqwid Finance', repoURL: 'https://github.com/liqwid-labs', type: 'dApp', website: 'https://liqwid.finance/' },
+{ name: 'Genius Yield', repoURL: 'https://github.com/geniusyield', type: 'dApp', website: 'https://app.geniusyield.co/' },
+{ name: 'Strica', repoURL: 'https://github.com/StricaHQ', type: 'Dev Shop', website: 'https://strica.io/' },
+{ name: 'Dynamic Strategies', repoURL: 'https://github.com/dynamicstrategies', type: 'Dev Shop', website: 'https://dynamicstrategies.io/' },
+{ name: 'Anastasia Labs', repoURL: 'https://github.com/Anastasia-Labs', type: 'Dev Shop', website: 'https://anastasialabs.com/' },
+{ name: 'Ray Network', repoURL: 'https://github.com/xray-network', type: 'dApp', website: 'https://raynetwork.io/' },
+{ name: 'Indigo Protocol', repoURL: 'https://github.com/IndigoProtocol', type: 'dApp', website: 'https://indigoprotocol.io/' },
+{ name: 'Butane', repoURL: 'https://github.com/butaneprotocol', type: 'dApp', website: 'https://butane.dev/' },
+{ name: 'Zw3rk Tech', repoURL: 'https://github.com/zw3rk', type: 'Dev Shop', website: 'https://zw3rk.com/' },
+{ name: 'Dquadrant', repoURL: 'https://github.com/dQuadrant', type: 'Dev Shop', website: 'https://dquadrant.com/' },
+{ name: 'Mutual Knowledge', repoURL: 'https://github.com/MuKnSys', type: 'Dev Shop', website: 'https://mukn.com/' },
+{ name: 'Meld', repoURL: 'https://github.com/MELD-labs', type: 'dApp', website: 'https://www.meld.com/' },
+{ name: 'Five Binaries', repoURL: 'https://github.com/fivebinaries', type: 'Dev Shop', website: 'https://fivebinaries.com/' },
+{ name: 'Pragma', repoURL: 'https://github.com/pragma-org', type: 'Organization', website: 'https://pragma.io/' },
+{ name: 'MuesliSwap', repoURL: 'https://github.com/MuesliSwapTeam', type: 'dApp', website: 'https://muesliswap.com/' },
+{ name: 'Sidan', repoURL: 'https://github.com/sidan-lab', type: 'Dev Shop', website: 'https://sidan.io/' },
+{ name: 'UpToDate Developers', repoURL: 'https://github.com/UPTODATE-DEV', type: 'Tools', website: 'https://uptodatedevelopers.com/' },
+{ name: 'Cexplorer.io', repoURL: 'https://github.com/cexplorer', type: 'Tools', website: 'https://cexplorer.io/' },
+{ name: 'Logical Mechanism', repoURL: 'https://github.com/logical-mechanism', type: 'Dev Shop', website: 'https://logicalmechanism.io/' },
+{ name: 'Teddyswap', repoURL: 'https://github.com/teddy-swap', type: 'dApp', website: 'https://app.teddyswap.org/' },
+{ name: 'Maestro', repoURL: 'https://github.com/maestro-org', type: 'Tools', website: 'https://www.gomaestro.org/' },
+{ name: 'NMKR', repoURL: 'https://github.com/nftmakerio', type: 'Tools', website: 'https://nmkr.io/' },
+{ name: 'Iagon', repoURL: 'https://github.com/iagonorg', type: 'dApp', website: 'https://iagon.com/' },
+{ name: 'ZK Fold', repoURL: 'https://github.com/zkFold', type: 'dApp', website: 'https://zkfold.io/' },
+{ name: 'Wingriders', repoURL: 'https://github.com/WingRiders', type: 'dApp', website: 'https://www.wingriders.com/' },
+{ name: 'Studio Webux', repoURL: 'https://github.com/studiowebux', type: 'Dev Shop', website: 'https://webuxlab.com/' },
+{ name: 'Lenfi', repoURL: 'https://github.com/lenfiLabs', type: 'dApp', website: 'https://lenfi.io/' },
+{ name: 'DripDropz', repoURL: 'https://github.com/DripDropz', type: 'dApp', website: 'https://dripdropz.io' },
+{ name: 'Mynth.ai', repoURL: 'https://github.com/MynthAI', type: 'dApp', website: 'https://mynth.ai' },
+{ name: 'ADA Anvil', repoURL: 'https://github.com/Cardano-Forge', type: 'Dev Shop', website: 'https://ada-anvil.io/' },
+{ name: 'Biglup Labs', repoURL: 'https://github.com/Biglup', type: 'Dev Shop', website: 'https://biglup.io/' },
+{ name: 'Optim Finance', repoURL: 'https://github.com/OptimFinance', type: 'dApp', website: 'https://www.optim.finance/' },
+{ name: 'Danogo', repoURL: 'https://github.com/Danogo2023', type: 'dApp', website: 'https://danogo.io/' },
+{ name: 'DCOneCrypto', repoURL: 'https://github.com/DCOneCrypto', type: 'Tools', website: 'https://dconecrypto.finance/' },
+{ name: 'Ikigai Tech', repoURL: 'https://github.com/ikigai-github', type: 'Dev Shop', website: 'https://ikigaitech.org/' },
+{ name: 'Plank', repoURL: 'https://github.com/joinplank', type: 'Dev Shop', website: 'https://www.joinplank.com/' },
+{ name: 'VyFi', repoURL: 'https://github.com/vyfi', type: 'dApp', website: 'https://app.vyfi.io/dex' },
+{ name: 'Saib', repoURL: 'https://github.com/SAIB-Inc', type: 'Dev Shop', website: 'https://saib.dev/' },
+{ name: 'Evolute Software', repoURL: 'https://github.com/evolute-software', type: 'Dev Shop', website: 'https://evolute.software/' },
+{ name: 'Cerra.io', repoURL: 'https://github.com/cerraio', type: 'dApp', website: 'https://cerra.io/' },
+{ name: 'DexHunter', repoURL: 'https://github.com/DexHunterIO', type: 'dApp', website: 'https://www.dexhunter.io/' },
+{ name: 'Adastack', repoURL: 'https://github.com/adastackio/', type: 'Tools', website: 'https://www.adastack.io' },
+{ name: 'NFT Guild', repoURL: 'https://github.com/NFT-Guild', type: 'Organization', website: 'https://www.nft-guild.io/' },
+{ name: 'Bodega Market', repoURL: 'https://github.com/bodega-market', type: 'dApp', website: 'https://bodegamarket.xyz/' },
+{ name: 'Profila', repoURL: 'https://github.com/Profila', type: 'dApp', website: 'https://profila.com/' },
+{ name: 'Metera', repoURL: 'https://github.com/MeteraLabs', type: 'dApp', website: 'https://www.meteraprotocol.io/' },
+{ name: 'Paribus', repoURL: 'https://github.com/paribus', type: 'dApp', website: 'https://paribus.io/' },
+{ name: 'Splash protocol', repoURL: 'https://github.com/splashprotocol', type: 'dApp', website: 'https://www.splash.trade/' },
+{ name: 'Veralidity', repoURL: 'https://github.com/veralidity', type: 'Tools', website: 'https://veralidity.com/' },
+{ name: 'Self Driven Foundation', repoURL: 'https://github.com/selfdriven-foundation', type: 'Organization', website: 'https://selfdriven.foundation/' },
+{ name: 'Blueshift', repoURL: 'https://github.com/blueshift-fi', type: 'dApp', website: 'https://blueshift.fi' },
+{ name: 'Mayz', repoURL: 'https://github.com/MAYZGitHub/', type: 'dApp', website: 'https://mayz.io/' },
+{ name: 'Strike Finance', repoURL: 'https://github.com/strike-finance', type: 'dApp', website: 'https://strikefinance.org/' },
+{ name: 'Nucast Labs', repoURL: 'https://github.com/Nucastio', type: 'Dev Shop', website: 'https://www.nucastlabs.xyz/' },
+{ name: 'Saturn Labs', repoURL: 'https://github.com/SaturnLabs', type: 'Dev Shop', website: 'https://saturnlabs.org/' },
+{ name: 'Bloxico', repoURL: 'https://github.com/Bloxico', type: 'Dev Shop', website: 'https://bloxico.com/' },
+{ name: 'Thespian', repoURL: 'https://github.com/Thespian-Agency', type: 'Dev Shop', website: 'https://thespian.eu/' },
+{ name: 'Adaxon', repoURL: 'https://github.com/adaxonio', type: 'Dev Shop', website: 'https://adaxon.io/' },
+{ name: 'Xerberus', repoURL: 'https://github.com/XerberusTeam', type: 'dApp', website: 'https://xerberus.io/' },
+{ name: 'Delta Defi', repoURL: 'https://github.com/deltadefi-protocol', type: 'dApp', website: 'https://www.deltadefi.io/' },
+{ name: 'Ada Markets', repoURL: 'https://github.com/ADA-Markets', type: 'dApp', website: 'https://ada.markets/' },
+{ name: 'Big Blymp', repoURL: 'https://github.com/BigBlymp', type: 'Dev Shop', website: 'http://www.bigblymp.com/' },
+{ name: 'Foreon Network', repoURL: 'https://github.com/Foreon-Network', type: 'dApp', website: 'https://foreon.network/' },
+{ name: 'Nova Finance', repoURL: 'https://github.com/Nova-Finance', type: 'dApp', website: 'https://www.novafinance.io/' },
+{ name: 'Stargazer Finance', repoURL: 'https://github.com/StargazerLabs', type: 'dApp', website: 'https://www.stargazer.finance/' },
+{ name: 'Supra Payments', repoURL: 'https://github.com/suprapayments', type: 'Tools', website: 'https://suprapayments.io/' },
+{ name: 'Trivolve Tech', repoURL: '', type: 'Dev Shop', website: 'https://trivolvetech.com/' },
+{ name: 'Gen Lambda', repoURL: '', type: 'Dev Shop', website: 'https://www.genlambda.com/' },
+{ name: 'We Deliver', repoURL: '', type: 'Dev Shop', website: 'https://we-deliver.io/' },
+{ name: 'Platonic Systems', repoURL: '', type: 'Dev Shop', website: 'https://platonic.systems/' },
+{ name: 'Devteam', repoURL: '', type: 'Dev Shop', website: 'https://www.devteam.inc/' },
+{ name: 'Kompact', repoURL: '', type: 'Dev Shop', website: 'https://kompact.io/' },
+{ name: 'Pendulumdev', repoURL: '', type: 'Dev Shop', website: 'https://pendulumdev.co.uk/' },
+{ name: 'Inversion', repoURL: '', type: 'Dev Shop', website: 'https://inversion.dev/' },
+{ name: 'Filabs', repoURL: '', type: 'Dev Shop', website: 'https://www.filabs.dev/' },
+{ name: 'Antier Solutions', repoURL: '', type: 'Dev Shop', website: 'https://www.antiersolutions.com/' },
+{ name: 'Crystal Software', repoURL: '', type: 'Dev Shop', website: 'http://www.crystal.infinityfreeapp.com/' },
+{ name: '45b', repoURL: '', type: 'Dev Shop', website: 'https://45b.io/' },
+];
+
+const teamWithStars = await Promise.all(
+teamData.map(async (member) => {
+try {
+const urlParts = new URL(member.repoURL).pathname.split("/").filter(Boolean);
+const owner = urlParts[0];
+const stars = await fetchGitHubStars(owner);
+return { ...member, stars, error: null };
+} catch (error) {
+console.error(`Error fetching stars for ${member.name}:`, error);
+return { ...member, stars: null, error: null };
+}
+})
+);
+
+return {
+props: {
+teamMembers: teamWithStars,
+},
+revalidate: 3600, // Revalidate every hour
+};
+};
+
+export default function DevTeams({ teamMembers }) {
+return (
+<>
+<h1>Dev Teams</h1>
+
+      <p>
+        Developer teams specialize in creating decentralized applications, writing smart contracts, and driving innovation on Cardano. Many of the teams listed offer Cardano development services to clients. These are ranked by the sum of stars across their open-source repos*.
+      </p>
+
+      <div className="mt-8">
+        <table className="nx-block nx-overflow-x-scroll nextra-scrollbar nx-mt-6 nx-p-0 first:nx-mt-0">
+          <thead>
+            <tr className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20">
+              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Team</th>
+              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Stars</th>
+              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            {teamMembers.map((member, index) => (
+              <tr className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20" key={index}>
+                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
+                  <a href={member.website} target="_blank" rel="noopener noreferrer" className="nx-text-primary-600 nx-underline nx-decoration-from-font [text-underline-position:from-font]">
+                    {member.name}
+                  </a>
+                </td>
+                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
+                  <TableRow repoURL={member.repoURL} stars={member.stars} />
+                </td>
+                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">{member.type}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
+
+);
+}
