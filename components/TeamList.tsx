@@ -27,7 +27,6 @@ const TeamList = () => {
     setSortOrder(sortOrder === "asc" ? "desc" : "asc");
   };
 
-
   return (
     <div>
       <button onClick={sortTeams}>Sort by Stars</button>
@@ -46,7 +45,7 @@ const TeamList = () => {
                 <a href={team.url}>{team.name}</a>
               </td>
               <td>
-                <TeamItem repoURL={team.repoURL} />
+                <TeamItem url={team.url} />
               </td>
               <td>{team.type}</td>
             </tr>
