@@ -1,0 +1,119 @@
+---
+seo_title: Dev Teams
+seo_description: Need a dev team to help build your Cardano project? These teams build dApps, write smart contracts, manage projects, and drive innovation on Cardano.
+---
+
+import TeamList from '../../components/TeamList';
+import TeamItem from '../../components/TeamItem';
+
+export const getStaticProps = async () => {
+  const fetchAllGitHubRepos = async (url, name) => {
+    let response = await fetch(url, {
+      headers: {
+        Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
+        Accept: "application/vnd.github.v3+json",
+      },
+    });
+    if (response.status === 404) {
+      url = `https://api.github.com/orgs/${name}/repos?per_page=100`;
+      response = await fetch(url, {
+        headers: {
+          Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
+          Accept: "application/vnd.github.v3+json",
+        },
+      });
+    }
+    if (!response.ok) {
+      const errorMessage = `HTTP error! Status: ${response.status}, Text: ${response.statusText}`;
+      console.error(errorMessage);
+      throw new Error(errorMessage);
+    }
+    const repos = await response.json();
+    const nextLink = response.headers
+      .get("Link")
+      ?.match(/<([^>]+)>;\s*rel="next"/)?.[1];
+    return { repos, nextLink };
+  };
+
+const fetchGitHubStars = async (name) => {
+let url = `https://api.github.com/users/${name}/repos?per_page=100`;
+let totalStars = 0;
+
+    while (url) {
+      const { repos, nextLink } = await fetchAllGitHubRepos(url, name);
+      totalStars += repos.reduce(
+        (sum, repo) => sum + repo.stargazers_count,
+        0
+      );
+      url = nextLink;
+    }
+    return totalStars;
+
+};
+
+const teamData = [
+{ name: 'Input Output Global', repoURL: 'https://github.com/input-output-hk', type: 'Dev Shop', website: 'https://iohk.io/' },
+{ name: 'Tweag', repoURL: 'https://github.com/tweag', type: 'Dev Shop', website: 'https://www.tweag.io/' },
+{ name: 'Galois', repoURL: 'https://github.com/GaloisInc', type: 'Dev Shop', website: 'https://galois.com/' },
+{ name: 'Intersect MBO', repoURL: 'https://github.com/intersectmbo', type: 'Organization', website: 'https://www.intersectmbo.org/' },
+];
+
+const teamWithStars = await Promise.all(
+teamData.map(async (member) => {
+try {
+const urlParts = new URL(member.repoURL).pathname.split("/").filter(Boolean);
+const owner = urlParts[0];
+const stars = await fetchGitHubStars(owner);
+return { ...member, stars, error: null };
+} catch (error) {
+console.error("Error fetching stars:", error);
+return { ...member, stars: null, error: "Unable to fetch data" };
+}
+})
+);
+
+return {
+props: {
+teamMembers: teamWithStars,
+},
+revalidate: 3600, // Revalidate every hour
+};
+};
+
+export default function DevTeams({ teamMembers }) {
+  return (
+    <>
+        <h1>Dev Teams</h1>
+
+Developer teams specialize in creating decentralized applications, writing smart contracts, and driving innovation on Cardano. Many of the teams listed offer Cardano development services to clients. These are ranked by the sum of stars across their open-source repos\*.
+
+      <div className="mt-8">
+        <table className="min-w-full divide-y divide-gray-200">
+          <thead className="bg-gray-50">
+            <tr>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Team</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Stars</th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
+            </tr>
+          </thead>
+          <tbody className="bg-white divide-y divide-gray-200">
+            {teamMembers.map((member, index) => (
+              <tr key={index}>
+                <td className="px-6 py-4 whitespace-nowrap">
+                  <a href={member.website} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+                    {member.name}
+                  </a>
+                </td>
+                <td className="px-6 py-4 whitespace-nowrap">
+                  <TeamItem repoURL={member.repoURL} stars={member.stars} error={member.error} />
+                </td>
+                <td className="px-6 py-4 whitespace-nowrap">{member.type}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
+
+);
+}
