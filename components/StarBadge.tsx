@@ -1,17 +1,19 @@
 import React, { useEffect, useState, useCallback } from "react";
 
-const isValidGitHubURL = (url) => {
+const isValidRepoURL = (url) => {
   try {
     const parsedURL = new URL(url);
-    return (
-      parsedURL.hostname === "github.com" &&
-      parsedURL.pathname.split("/").filter(Boolean).length >= 1
-    );
+    const isGitHub = parsedURL.hostname === "github.com";
+    const pathParts = parsedURL.pathname.split("/").filter(Boolean);
+
+    return isGitHub && pathParts.length >= 1;
   } catch (error) {
+    console.error("Error parsing URL:", error);
     return false;
   }
 };
 
+// Memoized StarIcon component
 const StarIcon = React.memo(() => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -31,12 +33,13 @@ const StarIcon = React.memo(() => (
   </svg>
 ));
 
-const StarBadge = ({ githubURL }) => {
+const StarBadge = ({ repoURL }) => {
   const [stars, setStars] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const fetchAllRepos = useCallback(async (url, name) => {
+  // Function to fetch all GitHub repos for a user or organization
+  const fetchAllGitHubRepos = useCallback(async (url, name) => {
     let response = await fetch(url, {
       headers: {
         Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
@@ -65,49 +68,63 @@ const StarBadge = ({ githubURL }) => {
     return { repos, nextLink };
   }, []);
 
-  const fetchStars = useCallback(async () => {
-    if (!isValidGitHubURL(githubURL)) {
-      console.error("Error: Invalid GitHub URL");
-      setError("Error: Invalid URL");
-      setLoading(false);
-      return;
-    }
-
-    try {
-      const urlParts = new URL(githubURL).pathname.split("/").filter(Boolean);
-      const name = urlParts[0]; // Extract user or org name from the URL
+  // Function to fetch total star count for a GitHub user or organization
+  const fetchGitHubStars = useCallback(
+    async (name) => {
       let url = `https://api.github.com/users/${name}/repos?per_page=100`;
       let totalStars = 0;
 
       while (url) {
-        const { repos, nextLink } = await fetchAllRepos(url, name);
+        const { repos, nextLink } = await fetchAllGitHubRepos(url, name);
         totalStars += repos.reduce(
           (sum, repo) => sum + repo.stargazers_count,
           0
         );
         url = nextLink;
       }
-      setStars(totalStars);
+      return totalStars;
+    },
+    [fetchAllGitHubRepos]
+  );
+
+  // Main function to fetch stars
+  const fetchStars = useCallback(async () => {
+    if (!isValidRepoURL(repoURL)) {
+      console.error("Error: Invalid repository URL");
+      setError("Error: Invalid URL");
+      setLoading(false);
+      return;
+    }
+
+    try {
+      const urlParts = new URL(repoURL).pathname.split("/").filter(Boolean);
+      const owner = urlParts[0];
+      const starCount = await fetchGitHubStars(owner);
+
+      setStars(starCount);
       setLoading(false);
     } catch (error) {
       console.error("Error fetching stars:", error);
       setError("Unable to fetch data");
       setLoading(false);
     }
-  }, [githubURL, fetchAllRepos]);
+  }, [repoURL, fetchGitHubStars]);
 
+  // Effect to trigger star fetching
   useEffect(() => {
     fetchStars();
   }, [fetchStars]);
 
+  // Determine badge content based on loading/error state
   const getBadgeContent = () => {
     if (loading) return "Loading...";
-    if (error) return "Problem loading data";
-    return stars;
+    if (error) return error;
+    return stars !== null ? stars.toLocaleString() : "N/A";
   };
 
+  // Render the star badge
   return (
-    <a href={githubURL} target="_blank" rel="noopener noreferrer">
+    <a href={repoURL} target="_blank" rel="noopener noreferrer">
       <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-sm font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">
         <StarIcon />
         <span className="stars">{getBadgeContent()}</span>
