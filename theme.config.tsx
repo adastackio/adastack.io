@@ -61,7 +61,7 @@ const config: DocsThemeConfig = {
       description: frontMatter.seo_description
         ? frontMatter.seo_description
         : standard_seo_description,
-      // Set pages to index only if there is an seo-description on the page. Remove the below line once all pages have content and seo-descriptions.
+      // Note: This sets pages to index only if there is an seo-description on the page. Remove the below line once all pages have content and seo-descriptions.
       noindex: frontMatter.seo_description ? false : true,
     };
   },
@@ -126,7 +126,7 @@ const config: DocsThemeConfig = {
       const title = props.title;
       const isInDevelopment = title.endsWith(" ");
       return (
-        // Note: Remove this conditional class logic once content has been added to all pages
+        // Note: Remove this conditional class logic and related CSS once content has been added to all pages
         <div className={isInDevelopment ? "page-in-development" : ""}>
           {title}
         </div>
