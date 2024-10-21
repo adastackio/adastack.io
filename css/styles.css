@@ -410,17 +410,36 @@ img.shields_io_button {
   text-decoration: none;
   opacity: 0.8;
 }
-
 .page-in-development {
   opacity: 0.5;
-  cursor: not-allowed;
-  pointer-events: none;
   color: #888;
   text-decoration: none;
+  position: relative;
 }
 
-.page-in-development:hover {
-  background-color: transparent !important;
+a[class*="nx-cursor-pointer"]:has(.page-in-development) {
+  cursor: default !important;
+}
+
+a[class*="nx-cursor-pointer"] .page-in-development::after {
+  content: "Coming Soon";
+  position: absolute;
+  right: -130px;
+  top: 50%;
+  transform: translate(-40px, -50%);
+  background-color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out, right 0.2s ease-in-out;
+  z-index: 10;
+}
+
+a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
+  opacity: 1;
+  right: -140px;
 }
 
 /* Media Queries */

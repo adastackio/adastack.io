@@ -122,9 +122,11 @@ const config: DocsThemeConfig = {
   sidebar: {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
-    titleComponent({ title }) {
+    titleComponent(props) {
+      const title = props.title;
       const isInDevelopment = title.endsWith(" ");
       return (
+        // Note: Remove this conditional class logic once content has been added to all pages
         <div className={isInDevelopment ? "page-in-development" : ""}>
           {title}
         </div>
