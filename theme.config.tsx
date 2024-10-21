@@ -123,7 +123,7 @@ const config: DocsThemeConfig = {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
     titleComponent({ title }) {
-      const isInDevelopment = title.includes("🚧");
+      const isInDevelopment = title.endsWith(" ");
       return (
         <div className={isInDevelopment ? "page-in-development" : ""}>
           {title}
