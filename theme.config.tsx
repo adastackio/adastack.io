@@ -122,10 +122,13 @@ const config: DocsThemeConfig = {
   sidebar: {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
-    titleComponent({ title, type }) {
-      if (type === "doc") {
-        return <div className="sidebar-menu-item">{title}</div>;
-      }
+    titleComponent({ title }) {
+      const isInDevelopment = title.includes("🚧");
+      return (
+        <div className={isInDevelopment ? "page-in-development" : ""}>
+          {title}
+        </div>
+      );
     },
   },
   toc: {

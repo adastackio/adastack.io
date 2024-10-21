@@ -411,6 +411,18 @@ img.shields_io_button {
   opacity: 0.8;
 }
 
+.page-in-development {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #888;
+  text-decoration: none;
+}
+
+.page-in-development:hover {
+  background-color: transparent !important;
+}
+
 /* Media Queries */
 /* XS Size */
 @media (max-width: 544px) {
