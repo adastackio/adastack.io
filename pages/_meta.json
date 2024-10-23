@@ -63,7 +63,7 @@
     }
   },
   "dapps": {
-    "title": "Dapps",
+    "title": "dApps",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
