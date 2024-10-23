@@ -39,6 +39,16 @@
       "pagination": false
     }
   },
+  "reward_calendars": {
+    "title": "Reward Calendars",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "reward_trackers": {
     "title": "Reward Trackers",
     "theme": {
@@ -49,8 +59,8 @@
       "pagination": false
     }
   },
-  "open_ispos": {
-    "title": "Open ISPOs",
+  "ispos": {
+    "title": "ISPOs",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -70,7 +80,7 @@
     }
   },
   "set_up_a_stake_pool": {
-    "title": "Set up a Stake Pool",
+    "title": "Set up a Stake Pool ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -80,7 +90,7 @@
     }
   },
   "pool_monitoring_tools": {
-    "title": "Pool Monitoring Tools",
+    "title": "Pool Monitoring Tools  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -90,7 +100,7 @@
     }
   },
   "spo_chat_groups": {
-    "title": "SPO Chat Groups",
+    "title": "SPO Chat Groups  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -100,7 +110,7 @@
     }
   },
   "other_staking_tools": {
-    "title": "Other Tools",
+    "title": "Other Tools  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

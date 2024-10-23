@@ -1,6 +1,6 @@
 {
   "what_is_a_dapp": {
-    "title": "What is a Dapp?",
+    "title": "What is a dApp?",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -10,7 +10,7 @@
     }
   },
   "dapp_explorers": {
-    "title": "Dapp Explorers",
+    "title": "dApp Explorers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -20,7 +20,7 @@
     }
   },
   "dapp_analysis_tools": {
-    "title": "Dapp Analysis Tools",
+    "title": "dApp Analysis Tools",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "dexs": {
-    "title": "DEXs",
+    "title": "DEXs  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "defi_dapps": {
-    "title": "DeFi",
+    "title": "DeFi  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "payments_and_ecommerce_dapps": {
-    "title": "Payments and E-Commerce",
+    "title": "Payments and E-Commerce  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -60,7 +60,7 @@
     }
   },
   "data_storage_and_computing_dapps": {
-    "title": "Data Storage and Computing",
+    "title": "Data Storage and Computing  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -70,7 +70,7 @@
     }
   },
   "ai_dapps": {
-    "title": "AI",
+    "title": "AI  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -80,7 +80,7 @@
     }
   },
   "social_media_dapps": {
-    "title": "Social Media",
+    "title": "Social Media  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -90,7 +90,7 @@
     }
   },
   "messaging_and_chat_dapps": {
-    "title": "Messaging and Chat",
+    "title": "Messaging and Chat  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -100,7 +100,7 @@
     }
   },
   "identity_dapps": {
-    "title": "Identity",
+    "title": "Identity  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -110,7 +110,7 @@
     }
   },
   "signing_and_verification_dapps": {
-    "title": "Signing and Verification",
+    "title": "Signing and Verification  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -120,7 +120,7 @@
     }
   },
   "education_dapps": {
-    "title": "Education",
+    "title": "Education  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -130,7 +130,7 @@
     }
   },
   "events_and_ticketing_dapps": {
-    "title": "Events and Ticketing",
+    "title": "Events and Ticketing  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -140,7 +140,7 @@
     }
   },
   "supply_chain_dapps": {
-    "title": "Supply Chain",
+    "title": "Supply Chain  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -150,7 +150,7 @@
     }
   },
   "real_world_asset_dapps": {
-    "title": "Real World Assets",
+    "title": "Real World Assets  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -160,7 +160,7 @@
     }
   },
   "positive_impact_dapps": {
-    "title": "Positive Impact",
+    "title": "Positive Impact  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -170,7 +170,7 @@
     }
   },
   "privacy_dapps": {
-    "title": "Privacy",
+    "title": "Privacy  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -180,7 +180,7 @@
     }
   },
   "reward_distribution_dapps": {
-    "title": "Reward Distribution",
+    "title": "Reward Distribution  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -190,7 +190,7 @@
     }
   },
   "other_dapps": {
-    "title": "Other Dapps",
+    "title": "Other dApps  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

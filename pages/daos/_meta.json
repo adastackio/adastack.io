@@ -10,7 +10,7 @@
     }
   },
   "dao_explorers": {
-    "title": "DAO Explorers",
+    "title": "DAO Explorers  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -20,7 +20,7 @@
     }
   },
   "dao_management_software": {
-    "title": "DAO Management Software",
+    "title": "DAO Management Software  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "multisig": {
-    "title": "Multisig",
+    "title": "Multisig  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

@@ -10,7 +10,7 @@
     }
   },
   "vote_in_catalyst": {
-    "title": "Vote in Catalyst",
+    "title": "Vote in Catalyst  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -20,7 +20,7 @@
     }
   },
   "apply_for_funding": {
-    "title": "Apply for Funding",
+    "title": "Apply for Funding  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "funded_proposals": {
-    "title": "Funded Proposals",
+    "title": "Funded Proposals  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "catalyst_metrics": {
-    "title": "Catalyst Metrics",
+    "title": "Catalyst Metrics  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "other_catalyst_resources": {
-    "title": "Other Catalyst Resources",
+    "title": "Other Catalyst Resources  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

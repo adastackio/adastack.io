@@ -9,6 +9,27 @@
       "pagination": false
     }
   },
+  "open_source_builders": {
+    "title": "Open Source Builders",
+    "display": "hidden",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "dev_teams": {
+    "title": "Software Development Firms",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "learning_platforms": {
     "title": "Learning Platforms",
     "theme": {
@@ -19,8 +40,8 @@
       "pagination": false
     }
   },
-  "code_environments": {
-    "title": "Code Environments",
+  "coding_environments": {
+    "title": "Coding Environments  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +51,17 @@
     }
   },
   "documentation": {
-    "title": "Documentation",
+    "title": "Documentation  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "developer_chat": {
+    "title": "Developer Chat",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +71,7 @@
     }
   },
   "cardano_node": {
-    "title": "Cardano Node",
+    "title": "Cardano Node  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +81,7 @@
     }
   },
   "cardano_cli": {
-    "title": "Cardano-CLI",
+    "title": "Cardano-CLI  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -60,27 +91,7 @@
     }
   },
   "testnets": {
-    "title": "Testnets",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "developer_tool_explorers": {
-    "title": "Dev Tool Explorers",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "developer_forums": {
-    "title": "Developer Forums",
+    "title": "Testnets  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -90,27 +101,7 @@
     }
   },
   "smart_contract_languages": {
-    "title": "Smart Contract Languages",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "apis": {
-    "title": "APIs",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "apis": {
-    "title": "APIs",
+    "title": "Smart Contract Languages  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -129,8 +120,19 @@
       "pagination": false
     }
   },
+  "apis": {
+    "title": "APIs  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+
   "oracles": {
-    "title": "Oracles",
+    "title": "Oracles  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -140,7 +142,17 @@
     }
   },
   "utility_tools": {
-    "title": "Utility Tools",
+    "title": "Utility Tools  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "developer_tool_explorers": {
+    "title": "Tool Explorers  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -150,7 +162,7 @@
     }
   },
   "developer_jobs": {
-    "title": "Developer Jobs",
+    "title": "Developer Jobs  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -159,18 +171,8 @@
       "pagination": false
     }
   },
-  "dev_shops": {
-    "title": "Dev Shops",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "smart_contract_auditors": {
-    "title": "Smart Contract Auditors",
+  "smart_contract_audits": {
+    "title": "Smart Contract Audits  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

@@ -21,7 +21,9 @@ function Hero() {
       <div className="animation-content-container">
         <div className="animation-title-container">
           <h2 className="animation-title">Cardano Library</h2>
-          <p className="animation-subtitle">100+ Pages of Guides and Tools</p>
+          <p className="animation-subtitle">
+            130+ pages of tools and resources
+          </p>
         </div>
         <ul className="animation-description-text">
           <li>
@@ -32,36 +34,23 @@ function Hero() {
             ecosystem explorer.
           </li>
           <li>The website is still in development.</li>
-          <li>
-            Please{" "}
-            <a
-              href="https://cardano.ideascale.com/c/idea/119612"
-              target="_blank"
-            >
-              vote for us
-            </a>{" "}
-            in{" "}
-            <a href="https://projectcatalyst.io/funds/12" target="_blank">
-              Catalyst Fund 12
-            </a>
-            ! 🙏
-          </li>
+          <li>Please vote for us in Catalyst Fund 13! 🙏</li>
         </ul>
         <div className="animation-button-container">
-          <button
-            className="animation-button mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
-            title="Explore All"
-            onClick={() => handleHeroButtonClick(event)}
-          >
-            Explore All
-          </button>
-          <button
-            className="animation-button-mobile mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
-            title="Explore All"
-            onClick={() => handleHeroButtonClickMobile(event)}
-          >
-            Explore All
-          </button>
+          <a href="/all_pages">
+            <button
+              className="animation-button mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
+              title="Explore All"
+            >
+              Explore Live Pages
+            </button>
+            <button
+              className="animation-button-mobile mx-1 px-5 mt-4 text-white transition-colors duration-150 border border-white rounded-lg focus:shadow-outline"
+              title="Explore All"
+            >
+              Explore All
+            </button>
+          </a>
         </div>
       </div>
     </div>

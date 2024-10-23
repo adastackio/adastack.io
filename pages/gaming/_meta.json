@@ -10,7 +10,7 @@
     }
   },
   "game_explorers": {
-    "title": "Game Explorers",
+    "title": "Game Explorers  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -20,7 +20,7 @@
     }
   },
   "metaverses": {
-    "title": "Metaverses",
+    "title": "Metaverses  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "games": {
-    "title": "Games",
+    "title": "Games  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "gambling": {
-    "title": "Gambling",
+    "title": "Gambling  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "game_studios": {
-    "title": "Game Studios",
+    "title": "Game Studios  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
