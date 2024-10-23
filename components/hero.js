@@ -22,7 +22,7 @@ function Hero() {
         <div className="animation-title-container">
           <h2 className="animation-title">Cardano Library</h2>
           <p className="animation-subtitle">
-            125+ pages of tools and resources
+            130+ pages of tools and resources
           </p>
         </div>
         <ul className="animation-description-text">

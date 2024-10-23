@@ -1,6 +1,7 @@
 {
   "index": {
     "title": "Home",
+    "display": "hidden",
     "theme": {
       "breadcrumb": false,
       "sidebar": true,
@@ -13,7 +14,6 @@
   },
   "all_pages": {
     "title": "All Pages",
-    "display": "hidden",
     "theme": {
       "breadcrumb": false,
       "sidebar": true,
@@ -63,7 +63,7 @@
     }
   },
   "dapps": {
-    "title": "Dapps",
+    "title": "dApps",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
