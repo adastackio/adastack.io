@@ -11,6 +11,7 @@
   },
   "open_source_builders": {
     "title": "Open Source Builders",
+    "display": "hidden",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
