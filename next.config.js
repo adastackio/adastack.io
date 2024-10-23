@@ -4,11 +4,20 @@ const withNextra = require("nextra")({
 });
 
 module.exports = withNextra({
+  env: {
+    GITHUB_ACCESS_TOKEN: process.env.GITHUB_ACCESS_TOKEN,
+  },
+
   async redirects() {
     return [
       {
         source: "/live_pages", // old URL
         destination: "/all_pages", // new URL
+        permanent: true, // permanent 308
+      },
+      {
+        source: "/ecosystem/dev_shops", // old URL
+        destination: "/development/dev_teams", // new URL
         permanent: true, // permanent 308
       },
     ];
