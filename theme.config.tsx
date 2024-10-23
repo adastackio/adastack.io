@@ -127,13 +127,13 @@ const config: DocsThemeConfig = {
       const isInDevelopment = title.endsWith(" ");
       return (
         // Note: Remove this conditional class logic and related CSS once content has been added to all pages
-        <div
+        (<div
           className={`sidebar-menu-item ${
             isInDevelopment ? "page-in-development" : ""
           }`}
         >
           {title}
-        </div>
+        </div>)
       );
     },
   },
