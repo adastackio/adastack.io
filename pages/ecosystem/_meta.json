@@ -20,7 +20,7 @@
     }
   },
   "wallets": {
-    "title": "Wallets 🚧",
+    "title": "Wallets  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "wallet_tools": {
-    "title": "Wallet Tools 🚧",
+    "title": "Wallet Tools  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "tokens": {
-    "title": "Tokens 🚧",
+    "title": "Tokens  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "stablecoins": {
-    "title": "Stablecoins 🚧",
+    "title": "Stablecoins  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -60,7 +60,7 @@
     }
   },
   "bridges": {
-    "title": "Bridges 🚧",
+    "title": "Bridges  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -70,7 +70,7 @@
     }
   },
   "project_funding": {
-    "title": "Project Funding 🚧",
+    "title": "Project Funding  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -80,17 +80,7 @@
     }
   },
   "organizations": {
-    "title": "Organizations 🚧",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "dev_shops": {
-    "title": "Dev Shops",
+    "title": "Organizations  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -100,7 +90,7 @@
     }
   },
   "security_tools": {
-    "title": "Security Tools 🚧",
+    "title": "Security Tools  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -110,7 +100,7 @@
     }
   },
   "portfolio_trackers": {
-    "title": "Portfolio Trackers 🚧",
+    "title": "Portfolio Trackers  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -120,7 +110,7 @@
     }
   },
   "tax_tools": {
-    "title": "Tax Tools 🚧",
+    "title": "Tax Tools  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -130,7 +120,7 @@
     }
   },
   "merchandise": {
-    "title": "Merchandise 🚧",
+    "title": "Merchandise  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

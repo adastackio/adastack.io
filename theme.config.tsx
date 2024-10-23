@@ -11,7 +11,7 @@ const nunito = Nunito({
 });
 
 const standard_seo_description =
-  "Adastack is an explorer to check out everything on Cardano. Find Dapps, games, community, NFTs, staking, development, governance, and much more.";
+  "Adastack is an explorer to check out everything on Cardano. Find dApps, games, community, NFTs, staking, development, governance, and much more.";
 
 const config: DocsThemeConfig = {
   head: () => {
@@ -61,7 +61,7 @@ const config: DocsThemeConfig = {
       description: frontMatter.seo_description
         ? frontMatter.seo_description
         : standard_seo_description,
-      // Set pages to index only if there is an seo-description on the page. Remove the below line once all pages have content and seo-descriptions.
+      // Note: This sets pages to index only if there is an seo-description on the page. Remove the below line once all pages have content and seo-descriptions.
       noindex: frontMatter.seo_description ? false : true,
     };
   },
@@ -122,10 +122,19 @@ const config: DocsThemeConfig = {
   sidebar: {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
-    titleComponent({ title, type }) {
-      if (type === "doc") {
-        return <div className="sidebar-menu-item">{title}</div>;
-      }
+    titleComponent(props) {
+      const title = props.title;
+      const isInDevelopment = title.endsWith(" ");
+      return (
+        // Note: Remove this conditional class logic and related CSS once content has been added to all pages
+        <div
+          className={`sidebar-menu-item ${
+            isInDevelopment ? "page-in-development" : ""
+          }`}
+        >
+          {title}
+        </div>
+      );
     },
   },
   toc: {

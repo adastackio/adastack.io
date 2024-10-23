@@ -30,7 +30,7 @@
     }
   },
   "reddit_and_forums": {
-    "title": "Reddit and Forums 🚧",
+    "title": "Reddit and Forums  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "x": {
-    "title": "X 🚧",
+    "title": "X  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "discord": {
-    "title": "Discord 🚧",
+    "title": "Discord  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -60,7 +60,7 @@
     }
   },
   "telegram": {
-    "title": "Telegram 🚧",
+    "title": "Telegram  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -70,7 +70,7 @@
     }
   },
   "podcasts": {
-    "title": "Podcasts 🚧",
+    "title": "Podcasts  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -80,7 +80,7 @@
     }
   },
   "events": {
-    "title": "Events 🚧",
+    "title": "Events  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -90,7 +90,7 @@
     }
   },
   "social_bots": {
-    "title": "Social Bots 🚧",
+    "title": "Social Bots  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

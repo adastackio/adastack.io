@@ -10,7 +10,7 @@
     }
   },
   "nft_marketplaces": {
-    "title": "NFT Marketplaces 🚧",
+    "title": "NFT Marketplaces  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -20,7 +20,7 @@
     }
   },
   "nft_market_metrics": {
-    "title": "NFT Market Metrics 🚧",
+    "title": "NFT Market Metrics  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "minting_services": {
-    "title": "Minting Services 🚧",
+    "title": "Minting Services  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "domains_and_handles": {
-    "title": "Domains and Handles 🚧",
+    "title": "Domains and Handles  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "nft_galleries": {
-    "title": "NFT Galleries 🚧",
+    "title": "NFT Galleries  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -60,7 +60,7 @@
     }
   },
   "drop_calendars": {
-    "title": "Drop Calendars 🚧",
+    "title": "Drop Calendars  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -70,7 +70,7 @@
     }
   },
   "nft_lending_and_borrowing": {
-    "title": "NFT Lending and Borrowing 🚧",
+    "title": "NFT Lending and Borrowing  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -80,7 +80,7 @@
     }
   },
   "other_nft_tools": {
-    "title": "Other NFT Tools 🚧",
+    "title": "Other NFT Tools  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
