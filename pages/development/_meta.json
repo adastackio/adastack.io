@@ -9,8 +9,8 @@
       "pagination": false
     }
   },
-  "dev_teams": {
-    "title": "Open Source Dev Teams",
+  "open_source_builders": {
+    "title": "Open Source Builders",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -19,7 +19,7 @@
       "pagination": false
     }
   },
-  "../about.mdx": {
+  "dev_teams": {
     "title": "Software Development Firms",
     "theme": {
       "breadcrumb": true,
