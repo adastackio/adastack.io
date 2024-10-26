@@ -1,12 +1,7 @@
-export { default as WarningIcon } from "./warning.svg";
-export { default as CardsIcon } from "./cards.svg";
-export { default as OneIcon } from "./one.svg";
-export { default as OpenSourceIcon } from "./opensource.svg";
-export { default as XLogo } from "./x.svg";
-export { default as CardanoLogo } from "./cardano_logo.svg";
-export { default as AdaStackLight } from "./adastacklogo_light.svg";
-export { default as AdaStackMid } from "./adastacklogo_mid.svg";
 export { default as AdaStackDark } from "./adastacklogo_dark.svg";
-export { default as Arrow } from "./arrow.svg";
+export { default as AdaStackMid } from "./adastacklogo_mid.svg";
+export { default as AdaStackLight } from "./adastacklogo_light.svg";
+export { default as XLogo } from "./x.svg";
 export { default as GithubIcon } from "./github.svg";
+export { default as OpenSourceIcon } from "./opensource.svg";
 export { default as StarIcon } from "./star.svg";
