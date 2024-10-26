@@ -46,14 +46,18 @@ html[style*="color-scheme: dark;"]
   background-color: #050505 !important;
 }
 
+/* Navigation */
+html .nextra-nav-container a.nx-p-2.nx-text-current {
+  padding: 2px !important;
+}
+
+.nextra-search {
+  margin-right: 12px;
+}
+
 /* Nav background on light */
 html .nextra-nav-container .nextra-nav-container-blur {
   background-color: #fafaf9 !important;
-}
-
-/* Nav GitHub Link  */
-.navbar-github-link {
-  margin-left: -4px;
 }
 
 /* Home animation */
