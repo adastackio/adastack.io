@@ -56,12 +56,6 @@ html .nextra-nav-container .nextra-nav-container-blur {
   margin-left: -4px;
 }
 
-html[style*="color-scheme: light;"]
-  .navbar-github-link
-  .navbar-github-link-path {
-  fill: #9ca3af;
-}
-
 /* Home animation */
 #animation {
   position: relative;
@@ -410,6 +404,7 @@ img.shields_io_button {
   text-decoration: none;
   opacity: 0.8;
 }
+
 .page-in-development {
   opacity: 0.5;
   color: #888;
@@ -440,6 +435,13 @@ a[class*="nx-cursor-pointer"] .page-in-development::after {
 a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   opacity: 1;
   right: -140px;
+}
+
+/* Badges */
+
+.svg-icon {
+  height: 100px;
+  width: 100px;
 }
 
 /* Media Queries */
