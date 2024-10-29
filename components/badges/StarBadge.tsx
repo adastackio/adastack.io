@@ -15,7 +15,7 @@ const StarBadge: React.FC<StarBadgeProps> = React.memo(
 
     const getBadgeContent = () => {
       if (error || stars === null) {
-        console.log(error);
+        error && console.log(error);
         return "...";
       } else {
         return stars.toLocaleString();
