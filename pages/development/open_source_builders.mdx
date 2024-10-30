@@ -142,11 +142,12 @@ const teamData = [
 { name: 'Adaxon', website: 'https://adaxon.io/', teamURL: 'https://github.com/adaxonio', type: 'Dev Shop' },
 ];
 
-const finalTeamData = await openSourceBuildersAPI(teamData);
+const allReposArray = await openSourceBuildersAPI(teamData);
+const sortedReposArray = allReposArray.sort((a, b) => b.stars - a.stars);
 
 return {
 props: {
-teamMembers: finalTeamData,
+teamMembers: sortedReposArray,
 },
 revalidate: 3600, // Revalidate every hour
 };
