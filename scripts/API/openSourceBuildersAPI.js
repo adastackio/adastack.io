@@ -1,4 +1,4 @@
-const fetchGitHubStars = async (name) => {
+const githubAPICall = async (name) => {
   let url = `https://api.github.com/users/${name}/repos?per_page=100`;
   let totalStars = 0;
   let allRepos = [];
@@ -62,6 +62,7 @@ const fetchGitHubStars = async (name) => {
     timeSinceLastCommit = `${days} days, ${hours} hours, and ${minutes} minutes`;
   }
 
+
   return {
     totalStars,
     repos: allRepos,
@@ -82,7 +83,7 @@ const openSourceBuildersAPI = async (teamData) => {
           .split("/")
           .filter(Boolean);
         const repoOwner = urlParts[0];
-        const { totalStars, repos, mostRecentRepo } = await fetchGitHubStars(
+        const { totalStars, repos, mostRecentRepo } = await githubAPICall(
           repoOwner
         );
         return {
