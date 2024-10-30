@@ -5,13 +5,12 @@ seo_description: Exploring Cardano's Open Source ecosystem? Explore the develope
 
 import openSourceBuildersAPI from "../../scripts/API/openSourceBuildersAPI"
 import StarBadge from "../../components/badges/StarBadge";
-import RepoBadge from "../../components/badges/RepoBadge";
 import LatestCommitBadge from "../../components/badges/LatestCommitBadge";
 
 export const getStaticProps = async () => {
 const teamData = [
-{ name: 'Input Output Global', website: 'https://iohk.io/', teamURL: 'https://github.com/input-output-hk', notableURL: 'https://github.com/input-output-hk/ouroboros-leios', type: 'Dev Shop' },
-{ name: 'Tweag', website: 'https://www.tweag.io/', teamURL: 'https://github.com/tweag', type: 'Dev Shop', notableURL: 'https://github.com/tweag/tweag-audit-reports' },
+{ name: 'Input Output Global', website: 'https://iohk.io/', teamURL: 'https://github.com/input-output-hk', type: 'Dev Shop' },
+{ name: 'Tweag', website: 'https://www.tweag.io/', teamURL: 'https://github.com/tweag', type: 'Dev Shop' },
 { name: 'Galois', website: 'https://galois.com/', teamURL: 'https://github.com/GaloisInc', type: 'Dev Shop' },
 { name: 'Intersect MBO', website: 'https://www.intersectmbo.org/', teamURL: 'https://github.com/intersectmbo', type: 'Organization' },
 { name: 'Protofire', website: 'https://protofire.io/', teamURL: 'https://github.com/protofire', type: 'Dev Shop' },
@@ -20,12 +19,13 @@ const teamData = [
 { name: 'Obsidian Systems', website: 'https://obsidian.systems/', teamURL: 'https://github.com/obsidiansystems', type: 'Dev Shop' },
 { name: 'Well Typed', website: 'https://www.well-typed.com/', teamURL: 'https://github.com/well-typed', type: 'Dev Shop' },
 { name: 'Emurgo', website: 'https://emurgo.io/', teamURL: 'https://github.com/Emurgo', type: 'Organization' },
-{ name: 'SingularityNET', website: 'https://singularitynet.io/', teamURL: 'https://github.com/singnet', type: '' },
+{ name: 'SingularityNET', website: 'https://singularitynet.io/', teamURL: 'https://github.com/singnet', type: 'dApp' },
 { name: 'Tastenkunst GmbH', website: 'http://www.tastenkunst.com/', teamURL: 'https://github.com/Tastenkunst', type: 'Dev Shop' },
 { name: 'Vacuumlabs', website: 'https://vacuumlabs.com/', teamURL: 'https://github.com/vacuumlabs', type: 'Dev Shop' },
 { name: 'TxPipe', website: 'https://txpipe.io/', teamURL: 'https://github.com/txpipe', type: 'Dev Shop' },
 { name: 'DC Spark', website: 'https://www.dcspark.io/', teamURL: 'https://github.com/dcSpark', type: 'Dev Shop' },
 { name: 'Mlabs', website: 'https://mlabs.city/', teamURL: 'https://github.com/mlabs-haskell', type: 'Dev Shop' },
+{ name: 'Space Budz', website: 'https://spacebudz.io/', teamURL: 'https://github.com/spacebudz', type: 'dApp'},
 { name: 'Cardano Community', website: 'https://cardano-community.github.io', teamURL: 'https://github.com/cardano-community', type: 'Organization' },
 { name: 'Blockfrost.io', website: 'https://blockfrost.io/', teamURL: 'https://github.com/blockfrost', type: 'dApp' },
 { name: 'ATADA', website: 'http://stakepool.at/', teamURL: 'https://github.com/gitmachtl', type: 'Tools'},
@@ -33,7 +33,6 @@ const teamData = [
 { name: 'Blink Labs', website: 'https://blinklabs.io/', teamURL: 'https://github.com/blinklabs-io', type: 'Dev Shop' },
 { name: 'Spectrum Finance', website: 'https://spectrum.fi/', teamURL: 'https://github.com/spectrum-finance', type: 'dApp' },
 { name: 'Mesh', website: 'https://meshjs.dev/', teamURL: 'https://github.com/MeshJS', type: 'Tools' },
-{ name: 'True AGI', website: 'https://trueagi.io/', teamURL: 'https://github.com/trueagi-io', type: ''},
 { name: 'Sundae Labs', website: 'https://sundae.fi/', teamURL: 'https://github.com/SundaeSwap-finance', type: 'dApp' },
 { name: 'Harmonic Labs', website: 'https://www.harmoniclabs.tech/', teamURL: 'https://github.com/HarmonicLabs', type: 'Dev Shop' },
 { name: 'Minswap', website: 'https://app.minswap.org/', teamURL: 'https://github.com/minswap', type: 'dApp' },
@@ -48,14 +47,16 @@ const teamData = [
 { name: 'Coincashew', website: 'https://www.coincashew.com', teamURL: 'https://github.com/coincashew', type: 'Tools'},
 { name: 'Zw3rk Tech', website: 'https://zw3rk.com/', teamURL: 'https://github.com/zw3rk', type: 'Dev Shop' },
 { name: 'Dquadrant', website: 'https://dquadrant.com/', teamURL: 'https://github.com/dQuadrant', type: 'Dev Shop' },
+{ name: 'JPG Store', website: 'https://www.jpg.store/', teamURL: 'https://github.com/jpg-store', type: 'dApp'},
 { name: 'Mutual Knowledge', website: 'https://mukn.com/', teamURL: 'https://github.com/MuKnSys', type: 'Dev Shop' },
 { name: 'Meld', website: 'https://www.meld.com/', teamURL: 'https://github.com/MELD-labs', type: 'dApp' },
-{ name: 'Gnus.ai', website: 'https://www.gnus.ai/', teamURL: 'https://github.com/geniusventures', type: '' },
 { name: 'Five Binaries', website: 'https://fivebinaries.com/', teamURL: 'https://github.com/fivebinaries', type: 'Dev Shop' },
 { name: 'Studio Webux', website: 'https://webuxlab.com/', teamURL: 'https://github.com/studiowebux', type: 'Dev Shop' },
 { name: 'Pragma', website: 'https://pragma.io/', teamURL: 'https://github.com/pragma-org', type: 'Organization' },
 { name: 'MuesliSwap', website: 'https://muesliswap.com/', teamURL: 'https://github.com/MuesliSwapTeam', type: 'dApp' },
+{ name: 'Single Pool Alliance', website: 'https://singlepoolalliance.net/', teamURL: 'https://github.com/SinglePoolAlliance', type: 'Organization'},
 { name: 'Sidan', website: 'https://sidan.io/', teamURL: 'https://github.com/sidan-lab', type: 'Dev Shop' },
+{ name: 'Artano', website: 'https://artano.io', teamURL: 'https://github.com/artano-io', type: 'dApp'},
 { name: 'UpToDate Developers', website: 'https://uptodatedevelopers.com/', teamURL: 'https://github.com/UPTODATE-DEV', type: 'Tools' },
 { name: 'Cexplorer.io', website: 'https://cexplorer.io/', teamURL: 'https://github.com/cexplorer', type: 'Tools' },
 { name: 'Logical Mechanism', website: 'https://logicalmechanism.io/', teamURL: 'https://github.com/logical-mechanism', type: 'Dev Shop' },
@@ -96,7 +97,6 @@ const teamData = [
 { name: 'Saturn Labs', website: 'https://saturnlabs.org/', teamURL: 'https://github.com/SaturnLabs', type: 'Dev Shop' },
 { name: 'Bloxico', website: 'https://bloxico.com/', teamURL: 'https://github.com/Bloxico', type: 'Dev Shop' },
 { name: 'Thespian', website: 'https://thespian.eu/', teamURL: 'https://github.com/Thespian-Agency', type: 'Dev Shop' },
-{ name: 'Adaxon', website: 'https://adaxon.io/', teamURL: 'https://github.com/adaxonio', type: 'Dev Shop' },
 { name: 'Xerberus', website: 'https://xerberus.io/', teamURL: 'https://github.com/XerberusTeam', type: 'dApp' },
 { name: 'Delta Defi', website: 'https://www.deltadefi.io/', teamURL: 'https://github.com/deltadefi-protocol', type: 'dApp' },
 { name: 'Ada Markets', website: 'https://ada.markets/', teamURL: 'https://github.com/ADA-Markets', type: 'dApp' },
@@ -105,14 +105,9 @@ const teamData = [
 { name: 'Nova Finance', website: 'https://www.novafinance.io/', teamURL: 'https://github.com/Nova-Finance', type: 'dApp' },
 { name: 'Stargazer Finance', website: 'https://www.stargazer.finance/', teamURL: 'https://github.com/StargazerLabs', type: 'dApp' },
 { name: 'Supra Payments', website: 'https://suprapayments.io/', teamURL: 'https://github.com/suprapayments', type: 'Tools' },
-{ name: 'SingularityDAO', website: 'https://www.singularitydao.ai/', teamURL: 'https://github.com/Singularity-DAO', type: '' },
 { name: 'Yaya Labs', website: 'https://www.yayalabs.io/', teamURL: 'https://github.com/yaya-labs', type: 'Dev Shop', },
 { name: 'Rejuve AI', website: ' https://www.rejuve.ai/', teamURL: 'https://github.com/Rejuve', type: 'dApp'},
 { name: 'Zarqa AI', website: 'https://www.zarqa.ai/', teamURL: 'https://github.com/zarqa-ai', type: 'Tools'},
-{ name: 'Hypercycle AI', website: 'https://www.hypercycle.ai/', teamURL: 'https://github.com/hypercycle-community', type: ''},
-{ name: 'Cogito Finance', website: 'https://www.cogitoprotocol.com/', teamURL: 'https://github.com/cogito-finance', type: ''},
-{ name: 'Artano', website: 'https://artano.io', teamURL: 'https://github.com/artano-io', type: 'dApp'},
-{ name: 'JPG Store', website: 'https://www.jpg.store/', teamURL: 'https://github.com/jpg-store', type: 'dApp'},
 { name: 'Kreate Art', website: 'https://kreate.community/', teamURL: 'https://github.com/kreate-art', type: 'dApp'},
 { name: 'Jam on Bread', website: 'https://jamonbread.io/', teamURL: 'https://github.com/JamOnBread', type: 'dApp'},
 { name: 'SaturnSwap', website: 'https://saturnswap.io/', teamURL: 'https://github.com/Orion-Crypto', type: 'dApp'},
@@ -123,7 +118,6 @@ const teamData = [
 { name: 'Empowa', website: 'https://empowa.io/', teamURL: 'https://github.com/empowa-io', type: 'dApp'},
 { name: 'Awen Online', website: 'https://awen.online/', teamURL: 'https://github.com/Awen-online', type: 'Dev Shop'},
 { name: 'Begin Wallet', website: 'https://b58.finance/', teamURL: 'https://b58.finance/', type: 'dApp'},
-{ name: 'Space Budz', website: 'https://spacebudz.io/', teamURL: 'https://github.com/spacebudz', type: 'dApp'},
 { name: 'DEADPXLZ', website: 'https://pxlz.org/', teamURL: 'https://github.com/DEADPXLZ', type: 'dApp'},
 { name: 'Mutant NFTs', website: 'https://labs.mutant-nft.com/', teamURL: 'https://github.com/MutantNFTs', type: 'dApp'},
 { name: 'Cardano Scaling', website: 'https://cardano-scaling.org/', teamURL: 'https://github.com/cardano-scaling', type: 'Organization'},
@@ -141,7 +135,6 @@ const teamData = [
 { name: 'Littlefish Foundation', website: 'https://littlefish.foundation/', teamURL: 'https://github.com/littlefish-foundation', type: 'Organization'},
 { name: 'Mission Driven Pools', website: 'https://missiondrivenpools.org/', teamURL: 'https://github.com/CardanoMDP', type: 'Organization'},
 { name: 'xSPO Alliance', website: 'https://www.xspo-alliance.org/', teamURL: 'https://github.com/xSPO-Alliance', type: 'Organization'},
-{ name: 'Single Pool Alliance', website: 'https://singlepoolalliance.net/', teamURL: 'https://github.com/SinglePoolAlliance', type: 'Organization'},
 { name: 'SPO Japan Guild', website: 'https://spojapanguild.net/', teamURL: 'https://github.com/btbf', type: 'Organization'},
 { name: 'Aldea DAO', website: 'https://aldea-dao.org/', teamURL: 'https://github.com/ALDEA-DAO', type: 'Organization'},
 { name: 'Cardano Lightning', website: 'https://cardano-lightning.org/', teamURL: 'https://github.com/cardano-lightning', type: 'dApp'},
@@ -178,7 +171,6 @@ return (
               <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Team</th>
               <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Sum of Stars</th>
               <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Category</th>
-              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Notable Cardano Repo</th>
               <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Most Recent Commit</th>
             </tr>
           </thead>
@@ -194,9 +186,6 @@ return (
                   <StarBadge teamURL={member.teamURL} stars={member.stars} />
                 </td>
                 <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">{member.type}</td>
-                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
-                  <RepoBadge repoURL={member.notableURL} /></td>
-
           <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
             {member.mostRecentRepo ? (
               <>
