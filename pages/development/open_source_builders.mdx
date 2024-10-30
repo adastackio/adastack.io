@@ -139,6 +139,7 @@ const teamData = [
 { name: 'Aldea DAO', website: 'https://aldea-dao.org/', teamURL: 'https://github.com/ALDEA-DAO', type: 'Organization'},
 { name: 'Cardano Lightning', website: 'https://cardano-lightning.org/', teamURL: 'https://github.com/cardano-lightning', type: 'dApp'},
 { name: 'Watchtower Tools', website: 'https://watchtower.tools/', teamURL: 'https://github.com/bkvpool', type: 'Tools'},
+{ name: 'Adaxon', website: 'https://adaxon.io/', teamURL: 'https://github.com/adaxonio', type: 'Dev Shop' },
 ];
 
 const finalTeamData = await openSourceBuildersAPI(teamData);
@@ -170,8 +171,8 @@ return (
             <tr className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20">
               <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Team</th>
               <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Sum of Stars</th>
-              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Category</th>
               <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Most Recent Commit</th>
+              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Category</th>
             </tr>
           </thead>
           <tbody>
@@ -185,7 +186,6 @@ return (
                 <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
                   <StarBadge teamURL={member.teamURL} stars={member.stars} />
                 </td>
-                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">{member.type}</td>
           <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
             {member.mostRecentRepo ? (
               <>
@@ -194,6 +194,7 @@ return (
               </>
             ) : null}
           </td>
+          <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">{member.type}</td>
               </tr>
             ))}
           </tbody>
