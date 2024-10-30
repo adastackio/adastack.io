@@ -2,6 +2,8 @@ const fetchGitHubStars = async (name) => {
   let url = `https://api.github.com/users/${name}/repos?per_page=100`;
   let totalStars = 0;
   let allRepos = [];
+  let mostRecentRepo = null;
+  let mostRecentDate = null;
 
   while (url) {
     let response = await fetch(url, {
@@ -32,11 +34,44 @@ const fetchGitHubStars = async (name) => {
     allRepos = allRepos.concat(repos);
     totalStars += repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
 
+    // Find the most recently committed repository
+    repos.forEach((repo) => {
+      const pushedAt = new Date(repo.pushed_at);
+      if (!mostRecentDate || pushedAt > mostRecentDate) {
+        mostRecentDate = pushedAt;
+        mostRecentRepo = repo;
+      }
+    });
+
     const linkHeader = response.headers.get("Link");
     url = linkHeader?.match(/<([^>]+)>;\s*rel="next"/)?.[1] || null;
   }
 
-  return { totalStars, repos: allRepos };
+  // Calculate time difference for the most recent commit
+  let timeSinceLastCommit = null;
+  if (mostRecentRepo) {
+    const now = new Date();
+    const timeDifference = now - mostRecentDate;
+    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor(
+      (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    const minutes = Math.floor(
+      (timeDifference % (1000 * 60 * 60)) / (1000 * 60)
+    );
+    timeSinceLastCommit = `${days} days, ${hours} hours, and ${minutes} minutes`;
+  }
+
+  return {
+    totalStars,
+    repos: allRepos,
+    mostRecentRepo: mostRecentRepo
+      ? {
+          url: mostRecentRepo.html_url,
+          timeSinceLastCommit,
+        }
+      : null,
+  };
 };
 
 const openSourceBuildersAPI = async (teamData) => {
@@ -47,14 +82,23 @@ const openSourceBuildersAPI = async (teamData) => {
           .split("/")
           .filter(Boolean);
         const repoOwner = urlParts[0];
-        const { totalStars, repos } = await fetchGitHubStars(repoOwner);
-        return { ...member, stars: totalStars, repos, error: null };
+        const { totalStars, repos, mostRecentRepo } = await fetchGitHubStars(
+          repoOwner
+        );
+        return {
+          ...member,
+          stars: totalStars,
+          repos,
+          mostRecentRepo,
+          error: null,
+        };
       } catch (error) {
-        console.error(`Error fetching data for ${member.name}:`, error);
+        console.error(error);
         return {
           ...member,
           stars: null,
           repos: null,
+          mostRecentRepo: null,
           error: `${error}`,
         };
       }
