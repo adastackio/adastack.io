@@ -1,3 +1,13 @@
+import TimeAgo from "javascript-time-ago";
+// Import the locale you need
+import en from "javascript-time-ago/locale/en";
+
+// Add the locale to TimeAgo
+TimeAgo.addDefaultLocale(en);
+
+// Create a TimeAgo formatter instance
+const timeAgo = new TimeAgo("en-US");
+
 const githubAPICall = async (name) => {
   let url = `https://api.github.com/users/${name}/repos?per_page=100`;
   let totalStars = 0;
@@ -47,21 +57,11 @@ const githubAPICall = async (name) => {
     url = linkHeader?.match(/<([^>]+)>;\s*rel="next"/)?.[1] || null;
   }
 
-  // Calculate time difference for the most recent commit
+  // Format time difference using javascript-time-ago
   let timeSinceLastCommit = null;
   if (mostRecentRepo) {
-    const now = new Date();
-    const timeDifference = now - mostRecentDate;
-    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor(
-      (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-    );
-    const minutes = Math.floor(
-      (timeDifference % (1000 * 60 * 60)) / (1000 * 60)
-    );
-    timeSinceLastCommit = `${days} days, ${hours} hours, and ${minutes} minutes`;
+    timeSinceLastCommit = timeAgo.format(mostRecentDate);
   }
-
 
   return {
     totalStars,
