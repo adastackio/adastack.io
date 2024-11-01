@@ -1,77 +1,94 @@
 import TimeAgo from "javascript-time-ago";
-// Import the locale you need
 import en from "javascript-time-ago/locale/en";
+import { Octokit } from "@octokit/rest";
 
 // Add the locale to TimeAgo
 TimeAgo.addDefaultLocale(en);
-
-// Create a TimeAgo formatter instance
 const timeAgo = new TimeAgo("en-US");
 
-const githubAPICall = async (name) => {
-  let url = `https://api.github.com/users/${name}/repos?per_page=100`;
-  let totalStars = 0;
-  let allRepos = [];
-  let mostRecentRepo = null;
-  let mostRecentDate = null;
-
-  while (url) {
-    let response = await fetch(url, {
-      headers: {
-        Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
-        Accept: "application/vnd.github.v3+json",
-      },
-    });
-
-    if (response.status === 404 && url.includes("/users/")) {
-      // If user not found, try as an organization
-      url = `https://api.github.com/orgs/${name}/repos?per_page=100`;
-      response = await fetch(url, {
-        headers: {
-          Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
-          Accept: "application/vnd.github.v3+json",
-        },
-      });
-    }
-
-    if (!response.ok) {
-      const errorMessage = `HTTP error! Status: ${response.status}, Text: ${response.statusText}`;
-      console.error(errorMessage);
-      throw new Error(errorMessage);
-    }
-
-    const repos = await response.json();
-    allRepos = allRepos.concat(repos);
-    totalStars += repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
-
-    // Find the most recently committed repository
-    repos.forEach((repo) => {
-      const pushedAt = new Date(repo.pushed_at);
-      if (!mostRecentDate || pushedAt > mostRecentDate) {
-        mostRecentDate = pushedAt;
-        mostRecentRepo = repo;
+// Initialize Octokit with auth token
+const octokit = new Octokit({
+  auth: process.env.GITHUB_ACCESS_TOKEN,
+  userAgent: 'adastack.io v1.0',
+  retry: { enabled: true },
+  throttle: {
+    onRateLimit: (retryAfter, options) => {
+      console.warn(`Request quota exhausted for request ${options.method} ${options.url}`);
+      if (options.request.retryCount <= 2) {
+        console.log(`Retrying after ${retryAfter} seconds!`);
+        return true;
       }
-    });
+    },
+    onSecondaryRateLimit: (retryAfter, options) => {
+      console.warn(`Secondary rate limit hit for request ${options.method} ${options.url}`);
+      if (options.request.retryCount <= 2) {
+        return true;
+      }
+    },
+  },
+});
 
-    const linkHeader = response.headers.get("Link");
-    url = linkHeader?.match(/<([^>]+)>;\s*rel="next"/)?.[1] || null;
-  }
+const fetchAllRepos = async (owner, type = 'users') => {
+  try {
+    const repos = [];
+    let page = 1;
+    
+    while (true) {
+      const response = await octokit.rest.repos.listForUser({
+        username: owner,
+        per_page: 100,
+        page,
+        sort: 'pushed',
+        direction: 'desc',
+      }).catch(async (error) => {
+        if (error.status === 404 && type === 'users') {
+          // Try as organization if user not found
+          return octokit.rest.repos.listForOrg({
+            org: owner,
+            per_page: 100,
+            page,
+            sort: 'pushed',
+            direction: 'desc',
+          });
+        }
+        throw error;
+      });
 
-  // Format time difference using javascript-time-ago
-  let timeSinceLastCommit = null;
-  if (mostRecentRepo) {
-    timeSinceLastCommit = timeAgo.format(mostRecentDate);
+      const currentRepos = response.data;
+      if (currentRepos.length === 0) break;
+      
+      repos.push(...currentRepos);
+      if (currentRepos.length < 100) break;
+      page++;
+    }
+
+    return repos;
+  } catch (error) {
+    console.error(`Error fetching repos for ${owner}:`, error);
+    throw error;
   }
+};
+
+const calculateRepoStats = (repos) => {
+  if (!repos || repos.length === 0) return null;
+
+  const totalStars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+  const mostRecentRepo = repos[0]; // Already sorted by pushed_at desc
+  const mostRecentDate = new Date(mostRecentRepo.pushed_at);
+  const timeSinceLastCommit = timeAgo.format(mostRecentDate);
 
   return {
     totalStars,
-    repos: allRepos,
-    mostRecentRepo: mostRecentRepo
-      ? {
-          url: mostRecentRepo.html_url,
-          timeSinceLastCommit,
-        }
-      : null,
+    repos,
+    mostRecentRepo: {
+      url: mostRecentRepo.html_url,
+      timeSinceLastCommit,
+      name: mostRecentRepo.name,
+      description: mostRecentRepo.description,
+      stars: mostRecentRepo.stargazers_count,
+      language: mostRecentRepo.language,
+      pushedAt: mostRecentRepo.pushed_at,
+    },
   };
 };
 
@@ -79,28 +96,37 @@ const openSourceBuildersAPI = async (teamData) => {
   return Promise.all(
     teamData.map(async (member) => {
       try {
+        if (!member.teamURL) {
+          throw new Error('Team URL is missing');
+        }
+
         const urlParts = new URL(member.teamURL).pathname
-          .split("/")
+          .split('/')
           .filter(Boolean);
+        
         const repoOwner = urlParts[0];
-        const { totalStars, repos, mostRecentRepo } = await githubAPICall(
-          repoOwner
-        );
+        if (!repoOwner) {
+          throw new Error('Invalid GitHub URL');
+        }
+
+        const repos = await fetchAllRepos(repoOwner);
+        const stats = calculateRepoStats(repos);
+
         return {
           ...member,
-          stars: totalStars,
-          repos,
-          mostRecentRepo,
+          stars: stats.totalStars,
+          repos: stats.repos,
+          mostRecentRepo: stats.mostRecentRepo,
           error: null,
         };
       } catch (error) {
-        console.error(error);
+        console.error(`Error processing ${member.teamURL}:`, error);
         return {
           ...member,
           stars: null,
           repos: null,
           mostRecentRepo: null,
-          error: `${error}`,
+          error: error.message || 'An unknown error occurred',
         };
       }
     })
