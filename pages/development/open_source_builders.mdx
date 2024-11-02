@@ -3,11 +3,11 @@ seo_title: Open Source Builders
 seo_description: Exploring Cardano's Open Source ecosystem? Explore the developer teams building tools, frameworks, and dApps that drive innovation on Cardano.
 ---
 
-import openSourceBuildersAPI from "../../scripts/API/openSourceBuildersAPI"
 import DataTable from "../../components/tables/DataTable"
+import openSourceBuildersAPI from "../../scripts/API/openSourceBuildersAPI"
 
 export const getStaticProps = async () => {
-const teamData = [
+const pageData = [
 { name: 'Input Output Global', website: 'https://iohk.io/', teamURL: 'https://github.com/input-output-hk', type: 'Dev Company' },
 { name: 'Tweag', website: 'https://www.tweag.io/', teamURL: 'https://github.com/tweag', type: 'Dev Company' },
 { name: 'Galois', website: 'https://galois.com/', teamURL: 'https://github.com/GaloisInc', type: 'Dev Company' },
@@ -150,18 +150,18 @@ const teamData = [
 { name: 'CCSPA', website: 'https://ccspa.ca/', teamURL: 'https://github.com/CCSPA', type: 'Organization' },
 ];
 
-const allReposArray = await openSourceBuildersAPI(teamData);
-const sortedReposArray = allReposArray.sort((a, b) => b.stars - a.stars);
+const allReposUnsorted = await openSourceBuildersAPI(pageData);
+const allReposSorted = allReposUnsorted.sort((a, b) => b.stars - a.stars);
 
 return {
 props: {
-teamMembers: sortedReposArray,
+sortedPageData: allReposSorted,
 },
 revalidate: 3600, // Revalidate every hour
 };
 };
 
-export default function DevTeams({ teamMembers }) {
+export default function DevTeams({ sortedPageData }) {
 return (
 <>
 <h1>Open Source Builders</h1>
@@ -174,7 +174,7 @@ return (
       These are ranked based on the total number of stars received across their open-source repositories. Click on the star to view their GitHub profile.
       </p>
 
-      <DataTable teamMembers={teamMembers} />
+      <DataTable cardanoProjects={sortedPageData} />
     </>
 
 );
