@@ -447,11 +447,10 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   width: 100px;
 }
 
-
-
 .last-commit-badge-content {
   max-width: 230px;
 }
+
 
 /* Media Queries */
 /* XS Size */

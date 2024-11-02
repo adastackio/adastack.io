@@ -1,4 +1,5 @@
 import StarBadge from "../badges/StarBadge";
+import GithubBadge from "../badges/GithubBadge";
 import LatestCommitBadge from "../badges/LatestCommitBadge";
 import Favicon from "../badges/Favicon";
 
@@ -51,7 +52,7 @@ export default function DataTable({
                 Builder Team
               </th>
               <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">
-                Sum of Stars
+                GitHub Stats
               </th>
               <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">
                 Recent Commit
@@ -82,9 +83,8 @@ export default function DataTable({
                   </a>
                 </td>
                 <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
-                  <StarBadge
+                  <GithubBadge
                     teamGithubURL={project.teamGithubURL}
-                    stars={project.stars}
                     error={project.error}
                   />
                   <StarBadge

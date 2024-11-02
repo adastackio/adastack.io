@@ -24,8 +24,11 @@ const StarBadge: React.FC<StarBadgeProps> = React.memo(
 
     return (
       <a href={teamGithubURL} target="_blank" rel="noopener noreferrer">
-        <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-sm text-yellow-800 ring-1 ring-inset ring-yellow-600/20">
-          <StarIcon />
+        <span
+          className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 w-24 text-sm text-yellow-800 ring-1 ring-inset ring-yellow-600/20
+                         dark:bg-yellow-900/30 dark:text-yellow-300 dark:ring-yellow-400/30 transition-colors duration-200"
+        >
+          <StarIcon className="text-yellow-600 dark:text-yellow-400" />
           &nbsp;
           <span className="stars">{getBadgeContent()}</span>
         </span>
