@@ -3,49 +3,29 @@ seo_title: Ant Design
 seo_description:
 ---
 
-# Ant Design
+# Open Source Builders
 
-import React from "react";
-import { Space, Table, Tag } from "antd";
+Explore the organizations supporting the Cardano ecosystem with open-source tools, frameworks, and dApps.
+
+<br />
+
+import BuildersTable from "../../components/tables/BuildersTable.tsx";
 
 export const data = [
   {
     key: "1",
-    name: "Mike",
-    age: 32,
-    address: "10 Downing Street",
+    name: "Input Output Global",
+    website: "https://iohk.io/",
+    teamGithubURL: "https://github.com/input-output-hk",
+    type: "Dev Company",
   },
   {
     key: "2",
-    name: "John",
-    age: 42,
-    address: "10 Downing Street",
+    name: "Tweag",
+    website: "https://www.tweag.io/",
+    teamGithubURL: "https://github.com/tweag",
+    type: "Dev Company",
   },
 ];
 
-export const columns = [
-  {
-    title: "Index",
-    dataIndex: "key",
-    key: "key",
-  },
-  {
-    title: "Name",
-    dataIndex: "name",
-    key: "name",
-  },
-  {
-    title: "Age",
-    dataIndex: "age",
-    key: "age",
-  },
-  {
-    title: "Address",
-    dataIndex: "address",
-    key: "address",
-  },
-];
-
-## Companies Table
-
-<Table columns={columns} dataSource={data} />
+<BuildersTable data={data} />
