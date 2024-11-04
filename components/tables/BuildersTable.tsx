@@ -1,6 +1,5 @@
-// components/BuildersTable.jsx
 import React from "react";
-import { Table } from "antd";
+import { Table, Tag } from "antd";
 
 const BuildersTable = ({ data }) => {
   const columns = [
@@ -8,31 +7,59 @@ const BuildersTable = ({ data }) => {
       title: "Builder Team",
       dataIndex: "name",
       key: "name",
-      render: (name, record) => <a href={record.website}>{name}</a>
+      render: (name, record) => <a href={record.website}>{name}</a>,
     },
     {
       title: "Team on GitHub",
       dataIndex: "teamGithubURL",
-      key: "teamGithubURL"
+      key: "teamGithubURL",
     },
     {
       title: "Sum of Stars",
       dataIndex: "stars",
-      key: "stars"
+      key: "stars",
+      sorter: (a, b) => a.stars - b.stars,
     },
     {
       title: "Recent Commit",
       dataIndex: "recentCommit",
-      key: "recentCommit"
+      key: "recentCommit",
     },
     {
       title: "Category",
-      dataIndex: "type",
-      key: "type"
-    }
+      key: "tag",
+      dataIndex: "tag",
+      render: (_, { tags }) => {
+        if (!Array.isArray(tags)) {
+          return null;
+        }
+        return (
+          <>
+            {tags
+              .filter((tag) => tag)
+              .map((tag) => {
+                let color = "green";
+                console.log(tag);
+                if (tag.toLowerCase() === "organization") {
+                  color = "red";
+                }
+                return (
+                  <Tag color={color} key={tag}>
+                    {tag.toUpperCase()}
+                  </Tag>
+                );
+              })}
+          </>
+        );
+      },
+    },
   ];
 
-  return <Table columns={columns} dataSource={data} />;
+  const onChange = (pagination, filters, sorter, extra) => {
+    console.log("params", pagination, filters, sorter, extra);
+  };
+
+  return <Table columns={columns} dataSource={data} onChange={onChange} />;
 };
 
 export default BuildersTable;

@@ -148,14 +148,23 @@ const pageData = [
 { name: 'CardanoScan', website: 'https://cardanoscan.io/', teamGithubURL: 'https://github.com/cardanoscan', type: 'Tools' },
 { name: 'Cardano Catalyst Circle', website: 'https://catalyst-circle.github.io/', teamGithubURL: 'https://github.com/catalyst-circle', type: 'Organization' },
 { name: 'CCSPA', website: 'https://ccspa.ca/', teamGithubURL: 'https://github.com/CCSPA', type: 'Organization' },
+{ name: 'Fluid Tokens', website: 'https://fluidtokens.com/', teamGithubURL: 'https://github.com/fluidtokens', type: 'dApp' },
+{ name: 'Balance Analytics', website: 'https://www.balanceanalytics.io/', teamGithubURL: 'https://github.com/Balance-Analytics', type: 'Tools' },
+{ name: 'Project Catalyst', website: 'https://projectcatalyst.io/', teamGithubURL: 'https://github.com/Project-Catalyst', type: 'Organization' },
 ];
 
 const allReposUnsorted = await openSourceBuildersAPI(pageData);
 const allReposSorted = allReposUnsorted.sort((a, b) => b.stars - a.stars);
 
+// Add unique keys to each sorted repository
+const sortedPageData = allReposSorted.map((repo, index) => ({
+...repo,
+key: repo.teamGithubURL || `repo-${index}` // Use teamGithubURL or fallback to index
+}));
+
 return {
 props: {
-sortedPageData: allReposSorted,
+sortedPageData,
 },
 revalidate: 3600, // Revalidate every hour
 };
@@ -166,10 +175,10 @@ export default function ({ sortedPageData }) {
   const pageIntroContent = "Explore the organizations building Cardano's future through open-source tools, frameworks, and dApps. Rankings based on cumulative GitHub stars.";
 
 return (
-    <DataTable 
-      pageTitle={pageTitle}
-      pageIntroContent={pageIntroContent} 
-      cardanoProjects={sortedPageData} 
-    />
-);
-}
+
+<DataTable
+  pageTitle={pageTitle}
+  pageIntroContent={pageIntroContent}
+  cardanoProjects={sortedPageData}
+/>
+); }
