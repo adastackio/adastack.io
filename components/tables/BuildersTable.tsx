@@ -31,6 +31,14 @@ const BuildersTable = ({ data }) => {
       dataIndex: "tag",
       filters: [
         {
+          text: "dApp",
+          value: "dApp",
+        },
+        {
+          text: "Organization",
+          value: "Organization",
+        },
+        {
           text: "Dev Company",
           value: "Dev Company",
         },
@@ -38,10 +46,7 @@ const BuildersTable = ({ data }) => {
           text: "Code Audits",
           value: "Code Audits",
         },
-        {
-          text: "Organization",
-          value: "Organization",
-        },
+        ,
         {
           text: "Tools",
           value: "Tools",
@@ -64,6 +69,9 @@ const BuildersTable = ({ data }) => {
               .filter((tag) => tag)
               .map((tag) => {
                 let color = "blue";
+                if (tag.toLowerCase() === "dapp") {
+                  color = "geekblue";
+                }
                 if (tag.toLowerCase() === "organization") {
                   color = "green";
                 }
