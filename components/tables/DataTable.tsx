@@ -7,7 +7,7 @@ interface CardanoProject {
   name: string;
   website: string;
   teamGithubURL: string;
-  type: string;
+  tags: string[]; // Changed from type: string
   stars: number;
   repos: any[];
   mostRecentRepo: {
@@ -109,7 +109,7 @@ export default function DataTable({
                   {project.repos ? project.repos.length : "N/A"}
                 </td>
                 <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 whitespace-nowrap text-sm">
-                  {project.type}
+                  {project.tags.join(", ")}
                 </td>
               </tr>
             ))}
