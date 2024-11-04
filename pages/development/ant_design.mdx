@@ -10,6 +10,7 @@ Explore the organizations supporting the Cardano ecosystem with open-source tool
 <br />
 
 import BuildersTable from "../../components/tables/BuildersTable.tsx";
+import GithubAndStars from "../../components/badges/GithubAndStars.tsx";
 
 export const data = [
   {
@@ -17,15 +18,35 @@ export const data = [
     name: "Input Output Global",
     website: "https://iohk.io/",
     teamGithubURL: "https://github.com/input-output-hk",
-    type: "Dev Company",
+    tags: ["Dev Company"],
+    stars: 15000,
   },
   {
     key: "2",
     name: "Tweag",
     website: "https://www.tweag.io/",
     teamGithubURL: "https://github.com/tweag",
-    type: "Dev Company",
+    tags: ["Dev Company"],
+    stars: 13000,
+  },
+  {
+    key: "3",
+    name: "Galois",
+    website: "https://galois.com/",
+    teamGithubURL: "https://github.com/GaloisInc",
+    tags: ["Dev Company"],
+    stars: 8500,
+  },
+  {
+    key: "4",
+    name: "Intersect MBO",
+    website: "https://www.intersectmbo.org/",
+    teamGithubURL: "https://github.com/intersectmbo",
+    tags: ["Organization"],
+    stars: 4500,
   },
 ];
 
 <BuildersTable data={data} />
+
+<GithubAndStars teamGithubURL="https://github.com/input-output-hk	" />
