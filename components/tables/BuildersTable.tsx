@@ -29,6 +29,31 @@ const BuildersTable = ({ data }) => {
       title: "Category",
       key: "tag",
       dataIndex: "tag",
+      filters: [
+        {
+          text: "Dev Company",
+          value: "Dev Company",
+        },
+        {
+          text: "Code Audits",
+          value: "Code Audits",
+        },
+        {
+          text: "Organization",
+          value: "Organization",
+        },
+        {
+          text: "Tools",
+          value: "Tools",
+        },
+      ],
+      filterMode: "tree",
+      filterSearch: true,
+      onFilter: (value, record) =>
+        Array.isArray(record.tags) &&
+        record.tags.some((tag) =>
+          tag.toLowerCase().includes(value.toLowerCase())
+        ),
       render: (_, { tags }) => {
         if (!Array.isArray(tags)) {
           return null;
@@ -38,13 +63,18 @@ const BuildersTable = ({ data }) => {
             {tags
               .filter((tag) => tag)
               .map((tag) => {
-                let color = "green";
-                console.log(tag);
+                let color = "blue";
                 if (tag.toLowerCase() === "organization") {
-                  color = "red";
+                  color = "green";
+                }
+                if (tag.toLowerCase() === "tools") {
+                  color = "gold";
+                }
+                if (tag.toLowerCase() === "code audits") {
+                  color = "purple";
                 }
                 return (
-                  <Tag color={color} key={tag}>
+                  <Tag bordered={false} color={color} key={tag}>
                     {tag.toUpperCase()}
                   </Tag>
                 );
