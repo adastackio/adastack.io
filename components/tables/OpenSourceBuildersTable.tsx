@@ -1,7 +1,7 @@
 import React from "react";
 import { Table, Tag } from "antd";
 
-const BuildersTable = ({ data }) => {
+const OpenSourceBuildersTable = ({ data }) => {
   const columns = [
     {
       title: "Builder Team",
@@ -18,17 +18,24 @@ const BuildersTable = ({ data }) => {
       title: "Sum of Stars",
       dataIndex: "stars",
       key: "stars",
-      sorter: (a, b) => a.stars - b.stars,
-    },
-    {
-      title: "Recent Commit",
-      dataIndex: "recentCommit",
-      key: "recentCommit",
+      sorter: {
+        compare: (a, b) => a.stars - b.stars,
+        multiple: 2,
+      },
     },
     {
       title: "Category",
       key: "tag",
       dataIndex: "tag",
+      sorter: {
+        compare: (a, b) => {
+          // Sort by first tag
+          const tagA = a.tags[0] || "";
+          const tagB = b.tags[0] || "";
+          return tagA.localeCompare(tagB);
+        },
+        multiple: 1,
+      },
       filters: [
         {
           text: "dApp",
@@ -100,4 +107,4 @@ const BuildersTable = ({ data }) => {
   return <Table columns={columns} dataSource={data} onChange={onChange} />;
 };
 
-export default BuildersTable;
+export default OpenSourceBuildersTable;
