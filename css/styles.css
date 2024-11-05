@@ -503,6 +503,15 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   opacity: 40%;
 }
 
+.ant-table-cell .ant-typography {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+.ant-typography-copy svg {
+  margin-bottom: -6px;
+}
+
 /* Media Queries */
 /* XS Size */
 @media (max-width: 544px) {

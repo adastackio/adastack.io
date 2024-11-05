@@ -2,6 +2,8 @@ import React from "react";
 import { Table, Tag, Typography } from "antd";
 const { Paragraph, Text } = Typography;
 import { CopyIcon, CopySuccessIcon } from "@components/icons";
+import StarBadge from "@components/badges/StarBadge";
+import GithubBadge from "@components/badges/GithubBadge";
 
 const OpenSourceBuildersTable = ({ data }) => {
   const columns = [
@@ -9,25 +11,27 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Team",
       dataIndex: "name",
       key: "name",
+      width: 170,
       render: (name, record) => <a href={record.website}>{name}</a>,
     },
     {
       title: "Team on GitHub",
       dataIndex: "teamGithubURL",
       key: "teamGithubURL",
-      render: (teamGithubURL) => (
-        <a href={teamGithubURL}>
+      width: 170,
+      render: (teamGithubURL, record) => (
+        <>
+          <GithubBadge teamGithubURL={teamGithubURL} error={record.error} />
           <Paragraph
             copyable={{
+              text: teamGithubURL,
               icon: [
                 <CopyIcon key="copy-icon" />,
                 <CopySuccessIcon key="copy-icon" />,
               ],
             }}
-          >
-            {teamGithubURL}
-          </Paragraph>
-        </a>
+          ></Paragraph>
+        </>
       ),
     },
     {
@@ -38,6 +42,13 @@ const OpenSourceBuildersTable = ({ data }) => {
         compare: (a, b) => a.starCount - b.starCount,
         multiple: 2,
       },
+      render: (starCount, record) => (
+        <StarBadge
+          teamGithubURL={record.teamGithubURL}
+          starCount={starCount}
+          error={record.error}
+        />
+      ),
     },
     {
       title: "Latest Commit",
