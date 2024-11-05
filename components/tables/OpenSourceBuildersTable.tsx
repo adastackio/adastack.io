@@ -1,6 +1,7 @@
 import React from "react";
 import { Table, Tag, Typography } from "antd";
 const { Paragraph, Text } = Typography;
+import { CopyIcon, CopySuccessIcon } from "@components/icons";
 
 const OpenSourceBuildersTable = ({ data }) => {
   const columns = [
@@ -16,7 +17,16 @@ const OpenSourceBuildersTable = ({ data }) => {
       key: "teamGithubURL",
       render: (teamGithubURL) => (
         <a href={teamGithubURL}>
-          <Paragraph copyable>{teamGithubURL}</Paragraph>
+          <Paragraph
+            copyable={{
+              icon: [
+                <CopyIcon key="copy-icon" />,
+                <CopySuccessIcon key="copy-icon" />,
+              ],
+            }}
+          >
+            {teamGithubURL}
+          </Paragraph>
         </a>
       ),
     },
