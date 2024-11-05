@@ -498,6 +498,11 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   height: 28px;
 }
 
+/* Ant Design Modifications */
+.ant-typography-copy {
+  opacity: 40%;
+}
+
 /* Media Queries */
 /* XS Size */
 @media (max-width: 544px) {
