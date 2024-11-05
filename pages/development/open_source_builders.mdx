@@ -8,8 +8,8 @@ import openSourceBuildersAPI from "../../scripts/API/openSourceBuildersAPI"
 
 export const getStaticProps = async () => {
 const pageData = [
-{ name: 'Input Output Global', website: 'https://iohk.io/', teamGithubURL: 'https://github.com/input-output-hk', tags: ['Dev Company', 'Code Audits'] },
-{ name: 'Tweag', website: 'https://www.tweag.io/', teamGithubURL: 'https://github.com/tweag', tags: ['Dev Company'] },
+{ name: 'Input Output Global', website: 'https://iohk.io/', teamGithubURL: 'https://github.com/input-output-hk', tags: ['Dev Company'] },
+{ name: 'Tweag', website: 'https://www.tweag.io/', teamGithubURL: 'https://github.com/tweag', tags: ['Dev Company', 'Code Audits'] },
 { name: 'Galois', website: 'https://galois.com/', teamGithubURL: 'https://github.com/GaloisInc', tags: ['Dev Company'] },
 { name: 'Intersect MBO', website: 'https://www.intersectmbo.org/', teamGithubURL: 'https://github.com/intersectmbo', tags: ['Organization'] },
 { name: 'Protofire', website: 'https://protofire.io/', teamGithubURL: 'https://github.com/protofire', tags: ['Dev Company'] },
@@ -115,14 +115,29 @@ const pageData = [
 { name: 'CSwap DEX', website: 'https://cswap.fi/', teamGithubURL: 'https://github.com/cswapsystems', tags: ['dApp'] },
 { name: 'Token Riot', website: 'https://tokenriot.io/', teamGithubURL: 'https://github.com/TokenRiot', tags: ['dApp'] },
 { name: 'Empowa', website: 'https://empowa.io/', teamGithubURL: 'https://github.com/empowa-io', tags: ['dApp'] },
-{ name: 'Aiken', website: 'https://aiken-lang.org/', teamGithubURL: 'https://github.com/aiken-lang', tags: ['Tools'] },
-{ name: 'Berry Pool', website: 'https://berrypool.io/', teamGithubURL: 'https://github.com/berry-pool', tags: ['Tools'] },
-{ name: 'CardanoScan', website: 'https://cardanoscan.io/', teamGithubURL: 'https://github.com/cardanoscan', tags: ['Tools'] },
-{ name: 'Cardano Catalyst Circle', website: 'https://catalyst-circle.github.io/', teamGithubURL: 'https://github.com/catalyst-circle', tags: ['Organization'] },
-{ name: 'CCSPA', website: 'https://ccspa.ca/', teamGithubURL: 'https://github.com/CCSPA', tags: ['Organization'] },
-{ name: 'Fluid Tokens', website: 'https://fluidtokens.com/', teamGithubURL: 'https://github.com/fluidtokens', tags: ['dApp'] },
-{ name: 'Balance Analytics', website: 'https://www.balanceanalytics.io/', teamGithubURL: 'https://github.com/Balance-Analytics', tags: ['Tools'] },
-{ name: 'Project Catalyst', website: 'https://projectcatalyst.io/', teamGithubURL: 'https://github.com/Project-Catalyst', tags: ['Organization'] },
+{ name: 'Awen Online', website: 'https://awen.online/', teamGithubURL: 'https://github.com/Awen-online', tags: ['Dev Company'] },
+{ name: 'Begin Wallet', website: 'https://b58.finance/', teamGithubURL: 'https://b58.finance/', tags: ['dApp'] },
+{ name: 'DEADPXLZ', website: 'https://pxlz.org/', teamGithubURL: 'https://github.com/DEADPXLZ', tags: ['dApp'] },
+{ name: 'Mutant NFTs', website: 'https://labs.mutant-nft.com/', teamGithubURL: 'https://github.com/MutantNFTs', tags: ['dApp'] },
+{ name: 'Cardano Scaling', website: 'https://cardano-scaling.org/', teamGithubURL: 'https://github.com/cardano-scaling', tags: ['Organization'] },
+{ name: 'M2Tec', website: 'https://www.m2tec.nl', teamGithubURL: 'https://github.com/M2tec', tags: ['Dev Company'] },
+{ name: 'Cornucopias', website: 'https://www.cornucopias.io/', teamGithubURL: 'https://github.com/Cornucopias', tags: ['dApp'] },
+{ name: 'FutureFest', website: 'https://www.futurefest.io/', teamGithubURL: 'https://github.com/FutureFest', tags: ['dApp'] },
+{ name: 'Enter the Mandala', website: 'https://enterthemandala.app/', teamGithubURL: 'https://github.com/mandalaverse', tags: ['dApp'] },
+{ name: 'Alethea.io', website: 'https://alethea.io/', teamGithubURL: 'https://github.com/alethea-io', tags: ['Tools'] },
+{ name: 'Encoins', website: 'https://encoins.io/', teamGithubURL: 'https://github.com/encryptedcoins/', tags: ['dApp'] },
+{ name: 'Free Honey', website: 'https://github.com/free-honey', teamGithubURL: 'https://github.com/free-honey', tags: ['Organization'] },
+{ name: 'Adabox.io', website: 'https://adabox.io', teamGithubURL: 'https://github.com/adabox-aio', tags: ['Tools'] },
+{ name: 'Adastat.net', website: 'https://adastat.net/', teamGithubURL: 'https://github.com/CardanoExplorer', tags: ['Tools'] },
+{ name: 'Pooltool.io', website: 'https://pooltool.io/', teamGithubURL: 'https://github.com/PoolTool-io', tags: ['Tools'] },
+{ name: 'Adatainment', website: 'https://www.adatainment.com', teamGithubURL: 'https://github.com/adatainment', tags: ['Tools'] },
+{ name: 'Littlefish Foundation', website: 'https://littlefish.foundation/', teamGithubURL: 'https://github.com/littlefish-foundation', tags: ['Organization'] },
+{ name: 'Mission Driven Pools', website: 'https://missiondrivenpools.org/', teamGithubURL: 'https://github.com/CardanoMDP', tags: ['Organization'] },
+{ name: 'xSPO Alliance', website: 'https://www.xspo-alliance.org/', teamGithubURL: 'https://github.com/xSPO-Alliance', tags: ['Organization'] },
+{ name: 'SPO Japan Guild', website: 'https://spojapanguild.net/', teamGithubURL: 'https://github.com/btbf', tags: ['Organization'] },
+{ name: 'Aldea DAO', website: 'https://aldea-dao.org/', teamGithubURL: 'https://github.com/ALDEA-DAO', tags: ['Organization'] },
+{ name: 'Cardano Lightning', website: 'https://cardano-lightning.org/', teamGithubURL: 'https://github.com/cardano-lightning', tags: ['dApp'] },
+{ name: 'Watchtower Tools', website: 'https://watchtower.tools/', teamGithubURL: 'https://github.com/bkvpool', tags: ['Tools'] },
 { name: 'Adaxon', website: 'https://adaxon.io/', teamGithubURL: 'https://github.com/adaxonio', tags: ['Dev Company'] },
 { name: 'Tapdano', website: 'https://tapdano.com/', teamGithubURL: 'https://github.com/tapdano', tags: ['Tools'] },
 { name: 'Cardano Spot Check', website: 'https://blockchainlens.gitbook.io/', teamGithubURL: 'https://github.com/bclens', tags: ['Tools'] },
@@ -135,24 +150,13 @@ const pageData = [
 { name: 'CCSPA', website: 'https://ccspa.ca/', teamGithubURL: 'https://github.com/CCSPA', tags: ['Organization'] },
 { name: 'Fluid Tokens', website: 'https://fluidtokens.com/', teamGithubURL: 'https://github.com/fluidtokens', tags: ['dApp'] },
 { name: 'Balance Analytics', website: 'https://www.balanceanalytics.io/', teamGithubURL: 'https://github.com/Balance-Analytics', tags: ['Tools'] },
-{ name: 'Project Catalyst', website: 'https://projectcatalyst.io/', teamGithubURL: 'https://github.com/Project-Catalyst', tags: ['Organization'] },
-{ name: 'Adaxon', website: 'https://adaxon.io/', teamGithubURL: 'https://github.com/adaxonio', tags: ['Dev Company'] },
-{ name: 'Tapdano', website: 'https://tapdano.com/', teamGithubURL: 'https://github.com/tapdano', tags: ['Tools'] },
-{ name: 'Cardano Spot Check', website: 'https://blockchainlens.gitbook.io/', teamGithubURL: 'https://github.com/bclens', tags: ['Tools'] },
-{ name: 'Pool.pm', website: 'https://pool.pm/', teamGithubURL: 'https://github.com/SmaugPool/', tags: ['Tools'] },
-{ name: 'Gimbalabs', website: 'https://gimbalabs.com/', teamGithubURL: 'https://github.com/gimbalabs', tags: ['Organization'] },
-{ name: 'Aiken', website: 'https://aiken-lang.org/', teamGithubURL: 'https://github.com/aiken-lang', tags: ['Tools'] },
-{ name: 'Berry Pool', website: 'https://berrypool.io/', teamGithubURL: 'https://github.com/berry-pool', tags: ['Tools'] },
-{ name: 'CardanoScan', website: 'https://cardanoscan.io/', teamGithubURL: 'https://github.com/cardanoscan', tags: ['Tools'] },
-{ name: 'Cardano Catalyst Circle', website: 'https://catalyst-circle.github.io/', teamGithubURL: 'https://github.com/catalyst-circle', tags: ['Organization'] },
-{ name: 'CCSPA', website: 'https://ccspa.ca/', teamGithubURL: 'https://github.com/CCSPA', tags: ['Organization'] },
-{ name: 'Fluid Tokens', website: 'https://fluidtokens.com/', teamGithubURL: 'https://github.com/fluidtokens', tags: ['dApp'] },
-{ name: 'Balance Analytics', website: 'https://www.balanceanalytics.io/', teamGithubURL: 'https://github.com/Balance-Analytics', tags: ['Tools'] },
-{ name: 'Project Catalyst', website: 'https://projectcatalyst.io/', teamGithubURL: 'https://github.com/Project-Catalyst', tags: ['Organization'] },
+{ name: 'Project Catalyst', website: 'https://projectcatalyst.io/', teamGithubURL: 'https://github.com/Project-Catalyst', tags: ['Organization' ] }, 
 ];
 
 const allReposUnsorted = await openSourceBuildersAPI(pageData);
 const allReposSorted = allReposUnsorted.sort((a, b) => b.stars - a.stars);
+
+console.log(allReposSorted);
 
 // Add unique keys to each sorted repository
 const sortedPageData = allReposSorted.map((repo, index) => ({

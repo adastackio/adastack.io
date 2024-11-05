@@ -1,10 +1,11 @@
 import React from "react";
-import { Table, Tag } from "antd";
+import { Table, Tag, Typography } from "antd";
+const { Paragraph, Text } = Typography;
 
 const OpenSourceBuildersTable = ({ data }) => {
   const columns = [
     {
-      title: "Builder Team",
+      title: "Team",
       dataIndex: "name",
       key: "name",
       render: (name, record) => <a href={record.website}>{name}</a>,
@@ -13,6 +14,11 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Team on GitHub",
       dataIndex: "teamGithubURL",
       key: "teamGithubURL",
+      render: (name, record) => (
+        <a href={record.teamGithubURL}>
+          <Paragraph copyable>{record.teamGithubURL}</Paragraph>
+        </a>
+      ),
     },
     {
       title: "Sum of Stars",
