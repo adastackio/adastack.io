@@ -78,16 +78,17 @@ const fetchAllRepos = async (owner, type = "users") => {
 const calculateRepoStats = (repos) => {
   if (!repos || repos.length === 0) return null;
 
-  const totalStars = repos.reduce(
-    (sum, repo) => sum + repo.stargazers_count,
-    0
-  );
+  const starCount = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+
+  const repoCount = repos.length;
+
   const mostRecentRepo = repos[0]; // Already sorted by pushed_at desc
   const mostRecentDate = new Date(mostRecentRepo.pushed_at);
   const timeSinceLastCommit = timeAgo.format(mostRecentDate);
 
   return {
-    totalStars,
+    starCount,
+    repoCount,
     repos,
     mostRecentRepo: {
       url: mostRecentRepo.html_url,
@@ -103,13 +104,13 @@ const calculateRepoStats = (repos) => {
 
 const openSourceBuildersAPI = async (teamData) => {
   return Promise.all(
-    teamData.map(async (member, index) => {
+    teamData.map(async (team, index) => {
       try {
-        if (!member.teamGithubURL) {
+        if (!team.teamGithubURL) {
           throw new Error("Team URL is missing");
         }
 
-        const urlParts = new URL(member.teamGithubURL).pathname
+        const urlParts = new URL(team.teamGithubURL).pathname
           .split("/")
           .filter(Boolean);
 
@@ -122,20 +123,22 @@ const openSourceBuildersAPI = async (teamData) => {
         const stats = calculateRepoStats(repos);
 
         return {
-          ...member,
-          key: `key-${index}-${member.website}`,
-          stars: stats.totalStars,
+          ...team,
+          key: `key-${index}-${team.website}`,
+          starCount: stats.starCount,
+          repoCount: stats.repoCount,
           repos: stats.repos,
           mostRecentRepo: stats.mostRecentRepo,
           error: null,
         };
       } catch (error) {
-        console.error(`Error processing ${member.teamGithubURL}:`, error);
+        console.error(`Error processing ${team.teamGithubURL}:`, error);
         return {
-          ...member,
-          key: `key-${index}-${member.website}`,
-          stars: null,
+          ...team,
+          key: `key-${index}-${team.website}`,
+          starCount: null,
           repos: null,
+          repoCount: null,
           mostRecentRepo: null,
           error: error.message || "An unknown error occurred",
         };

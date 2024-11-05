@@ -8,7 +8,7 @@ interface CardanoProject {
   website: string;
   teamGithubURL: string;
   tags: string[]; // Changed from type: string
-  stars: number;
+  starCount: number;
   repos: any[];
   mostRecentRepo: {
     url: string;
@@ -89,7 +89,7 @@ export default function DataTable({
                   />
                   <StarBadge
                     teamGithubURL={project.teamGithubURL}
-                    stars={project.stars}
+                    starCount={project.starCount}
                     error={project.error}
                   />
                 </td>

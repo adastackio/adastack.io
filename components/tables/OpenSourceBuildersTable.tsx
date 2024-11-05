@@ -22,10 +22,10 @@ const OpenSourceBuildersTable = ({ data }) => {
     },
     {
       title: "Sum of Stars",
-      dataIndex: "stars",
-      key: "stars",
+      dataIndex: "starCount",
+      key: "starCount",
       sorter: {
-        compare: (a, b) => a.stars - b.stars,
+        compare: (a, b) => a.starCount - b.starCount,
         multiple: 2,
       },
     },
@@ -78,7 +78,6 @@ const OpenSourceBuildersTable = ({ data }) => {
           text: "Code Audits",
           value: "Code Audits",
         },
-        ,
         {
           text: "Tools",
           value: "Tools",

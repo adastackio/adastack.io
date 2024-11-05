@@ -3,22 +3,22 @@ import { StarIcon } from "@components/icons";
 
 interface StarBadgeProps {
   teamGithubURL: string;
-  stars: number | null;
+  starCount: number | null;
   error: string | null;
 }
 
 const StarBadge: React.FC<StarBadgeProps> = React.memo(
-  ({ teamGithubURL, stars, error }) => {
+  ({ teamGithubURL, starCount, error }) => {
     if (!teamGithubURL) {
       return "";
     }
 
     const getBadgeContent = () => {
-      if (error || stars === null) {
+      if (error || starCount === null || starCount === undefined) {
         error && console.log(error);
         return "...";
       } else {
-        return stars.toLocaleString();
+        return starCount.toLocaleString();
       }
     };
 
