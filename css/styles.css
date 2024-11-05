@@ -451,52 +451,6 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   max-width: 230px;
 }
 
-.github-btn {
-  display: inline-block;
-  height: 28px;
-  color: #697b8c;
-  font: 700 11px / 14px Helvetica Neue, Helvetica, Arial, sans-serif;
-  overflow: hidden;
-  /* color: rgb(157, 147, 133); */
-}
-
-.gh-btn {
-  background-image: linear-gradient(rgb(36, 37, 37), rgb(42, 43, 44));
-  background-color: initial;
-  border-color: rgb(63, 65, 66);
-  display: flex;
-  align-items: center;
-  height: 28px;
-  width: 218px;
-  padding: 0 12px;
-  font-size: 13px;
-  /* background: #f3f3f3; */
-  background: linear-gradient(180deg, #fff, #f3f3f3);
-  border: 1px solid #ebedf0;
-  border-radius: 4px;
-}
-
-.gh-count {
-  background-image: initial;
-  background-color: rgb(36, 37, 37);
-  border-color: rgb(63, 65, 66);
-  color: rgb(199, 192, 181);
-  text-decoration-color: initial;
-  position: relative;
-  margin-left: 4px;
-  padding: 2px 8px;
-  font-size: 13px;
-  line-height: 22px;
-  background: #fff;
-  border: 1px solid #ebedf0;
-  border-radius: 4px;
-  color: #333;
-  text-decoration: none;
-  white-space: nowrap;
-  cursor: pointer;
-  display: inline-block;
-  height: 28px;
-}
 
 /* Ant Design Modifications */
 .ant-typography-copy {
