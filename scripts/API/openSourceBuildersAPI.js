@@ -103,7 +103,7 @@ const calculateRepoStats = (repos) => {
 
 const openSourceBuildersAPI = async (teamData) => {
   return Promise.all(
-    teamData.map(async (member) => {
+    teamData.map(async (member, index) => {
       try {
         if (!member.teamGithubURL) {
           throw new Error("Team URL is missing");
@@ -123,6 +123,7 @@ const openSourceBuildersAPI = async (teamData) => {
 
         return {
           ...member,
+          key: `key-${index}-${member.website}`,
           stars: stats.totalStars,
           repos: stats.repos,
           mostRecentRepo: stats.mostRecentRepo,
@@ -132,6 +133,7 @@ const openSourceBuildersAPI = async (teamData) => {
         console.error(`Error processing ${member.teamGithubURL}:`, error);
         return {
           ...member,
+          key: `key-${index}-${member.website}`,
           stars: null,
           repos: null,
           mostRecentRepo: null,
