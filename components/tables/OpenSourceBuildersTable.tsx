@@ -14,9 +14,9 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Team on GitHub",
       dataIndex: "teamGithubURL",
       key: "teamGithubURL",
-      render: (name, record) => (
-        <a href={record.teamGithubURL}>
-          <Paragraph copyable>{record.teamGithubURL}</Paragraph>
+      render: (teamGithubURL) => (
+        <a href={teamGithubURL}>
+          <Paragraph copyable>{teamGithubURL}</Paragraph>
         </a>
       ),
     },
@@ -28,6 +28,25 @@ const OpenSourceBuildersTable = ({ data }) => {
         compare: (a, b) => a.stars - b.stars,
         multiple: 2,
       },
+    },
+    {
+      title: "Latest Commit",
+      dataIndex: "pushedAt",
+      key: "pushedAt",
+      sorter: {
+        compare: (a, b) =>
+          new Date(a.pushedAt).getTime() - new Date(b.pushedAt).getTime(),
+        multiple: 3,
+      },
+      render: (date) =>
+        new Date(date).toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "short",
+          day: "numeric",
+          hour: "2-digit",
+          minute: "2-digit",
+        }),
+      defaultSortOrder: "descend", // Added to sort by newest first by default
     },
     {
       title: "Category",
@@ -44,12 +63,12 @@ const OpenSourceBuildersTable = ({ data }) => {
       },
       filters: [
         {
-          text: "dApp",
-          value: "dApp",
-        },
-        {
           text: "Organization",
           value: "Organization",
+        },
+        {
+          text: "dApp",
+          value: "dApp",
         },
         {
           text: "Dev Company",
