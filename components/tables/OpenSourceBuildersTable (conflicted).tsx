@@ -12,27 +12,12 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Team",
       dataIndex: "name",
       key: "name",
-      width: 230,
+      width: 200,
       render: (name, record) => (
-        <div className="flex items-center justify-between w-full">
-          <a className="nx-text-primary-600 text-base" href={record.website}>
-            <span className="flex items-center">
-              <Favicon url={record.website} />
-              &nbsp;{name}
-            </span>
-          </a>
-          <Paragraph
-            className="ml-auto"
-            copyable={{
-              text: record.website,
-              icon: [
-                <CopyIcon key="copy-icon" />,
-                <CopySuccessIcon key="copy-icon" />,
-              ],
-              tooltips: ["Copy Website", "Copied"],
-            }}
-          ></Paragraph>
-        </div>
+        <a className="nx-text-primary-600" href={record.website}>
+          <Favicon url={record.website} />
+          {name}
+        </a>
       ),
     },
     {
@@ -50,7 +35,6 @@ const OpenSourceBuildersTable = ({ data }) => {
                 <CopyIcon key="copy-icon" />,
                 <CopySuccessIcon key="copy-icon" />,
               ],
-              tooltips: ["Copy GitHub", "Copied"],
             }}
           ></Paragraph>
         </>
