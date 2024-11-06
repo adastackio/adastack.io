@@ -15,7 +15,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       render: (name, record) => <a href={record.website}>{name}</a>,
     },
     {
-      title: "Team on GitHub",
+      title: "Team GitHub",
       dataIndex: "teamGithubURL",
       key: "teamGithubURL",
       width: 170,

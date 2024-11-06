@@ -19,8 +19,8 @@ const GithubBadge: React.FC<GithubBadgeProps> = React.memo(
     return (
       <a href={teamGithubURL} target="_blank" rel="noopener noreferrer">
         <span
-          className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-sm custom-badge text-gray-600 ring-1 ring-inset dark:ring-0 ring-gray-500/10 w-24 dark:fill-blue-300 dark:fill-opacity-75
-         dark:bg-blue-900/30 dark:text-blue-300 text-blue-700 dark:text-blue-300"
+          className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-sm custom-badge text-gray-600 ring-1 ring-inset  ring-gray-500/10 w-24 
+         text-blue-700"
         >
           <GithubIcon />
           &nbsp; GitHub

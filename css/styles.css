@@ -451,12 +451,7 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   max-width: 230px;
 }
 
-
 /* Ant Design Modifications */
-.ant-typography-copy {
-  opacity: 40%;
-}
-
 .ant-table-cell .ant-typography {
   display: inline-block;
   margin-bottom: 0px;
@@ -464,6 +459,7 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
 
 .ant-typography-copy svg {
   margin-bottom: -6px;
+  opacity: 25%;
 }
 
 /* Media Queries */
