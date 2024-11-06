@@ -87,7 +87,7 @@ const OpenSourceBuildersTable = ({ data }) => {
         multiple: 3,
       },
       render: (pushedAt, record) => (
-        <LatestCommitBadge repoURL={record.teamGithubURL} />
+        <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
       ),
       defaultSortOrder: "descend",
     },
