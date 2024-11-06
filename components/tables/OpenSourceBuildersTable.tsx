@@ -12,7 +12,8 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Team",
       dataIndex: "name",
       key: "name",
-      width: 230,
+      width: 250,
+      sorter: (a, b) => a.name.localeCompare(b.name),
       render: (name, record) => (
         <div className="flex items-center justify-between w-full">
           <a className="nx-text-primary-600 text-base" href={record.website}>
