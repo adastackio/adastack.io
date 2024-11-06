@@ -9,7 +9,7 @@ import openSourceBuildersAPI from "../../scripts/API/openSourceBuildersAPI"
 export const getStaticProps = async () => {
 const pageData = [
 { name: 'Input Output', website: 'https://iohk.io/', teamGithubURL: 'https://github.com/input-output-hk', tags: ['Dev Company'] },
-{ name: 'Tweag', website: 'https://www.tweag.io/', teamGithubURL: 'https://github.com/tweag', tags: ['Dev Company', 'Code Audits'] },
+{ name: 'Tweag', website: 'https://www.tweag.io/', teamGithubURL: 'https://github.com/tweag', tags: ['Dev Company', 'Audits'] },
 { name: 'Galois', website: 'https://galois.com/', teamGithubURL: 'https://github.com/GaloisInc', tags: ['Dev Company'] },
 { name: 'Intersect MBO', website: 'https://www.intersectmbo.org/', teamGithubURL: 'https://github.com/intersectmbo', tags: ['Organization'] },
 { name: 'Protofire', website: 'https://protofire.io/', teamGithubURL: 'https://github.com/protofire', tags: ['Dev Company'] },
@@ -155,14 +155,6 @@ const pageData = [
 
 const allReposUnsorted = await openSourceBuildersAPI(pageData);
 const allReposSorted = allReposUnsorted.sort((a, b) => b.stars - a.stars);
-
-console.log(allReposSorted);
-
-// Add unique keys to each sorted repository
-const sortedPageData = allReposSorted.map((repo, index) => ({
-...repo,
-key: repo.teamGithubURL || `repo-${index}` // Use teamGithubURL or fallback to index
-}));
 
 return {
 props: {

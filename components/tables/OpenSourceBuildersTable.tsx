@@ -5,6 +5,7 @@ import { CopyIcon, CopySuccessIcon } from "@components/icons";
 import StarBadge from "@components/badges/StarBadge";
 import GithubBadge from "@components/badges/GithubBadge";
 import Favicon from "@components/badges/Favicon";
+import LatestCommitBadge from "@components/badges/LatestCommitBadge";
 
 const OpenSourceBuildersTable = ({ data }) => {
   const columns = [
@@ -61,6 +62,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Sum of Stars",
       dataIndex: "starCount",
       key: "starCount",
+      width: 110,
       sorter: {
         compare: (a, b) => a.starCount - b.starCount,
         multiple: 2,
@@ -77,29 +79,25 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Latest Commit",
       dataIndex: "pushedAt",
       key: "pushedAt",
+      width: 200,
       ellipsis: true,
       sorter: {
         compare: (a, b) =>
           new Date(a.pushedAt).getTime() - new Date(b.pushedAt).getTime(),
         multiple: 3,
       },
-      render: (date) =>
-        new Date(date).toLocaleDateString("en-US", {
-          year: "numeric",
-          month: "short",
-          day: "numeric",
-          hour: "2-digit",
-          minute: "2-digit",
-        }),
-      defaultSortOrder: "descend", // Added to sort by newest first by default
+      render: (pushedAt, record) => (
+        <LatestCommitBadge repoURL={record.teamGithubURL} />
+      ),
+      defaultSortOrder: "descend",
     },
     {
       title: "Category",
       key: "tag",
+      width: 190,
       dataIndex: "tag",
       sorter: {
         compare: (a, b) => {
-          // Sort by first tag
           const tagA = a.tags[0] || "";
           const tagB = b.tags[0] || "";
           return tagA.localeCompare(tagB);
@@ -120,8 +118,8 @@ const OpenSourceBuildersTable = ({ data }) => {
           value: "Dev Company",
         },
         {
-          text: "Code Audits",
-          value: "Code Audits",
+          text: "Audits",
+          value: "Audits",
         },
         {
           text: "Tools",
@@ -154,7 +152,7 @@ const OpenSourceBuildersTable = ({ data }) => {
                 if (tag.toLowerCase() === "tools") {
                   color = "gold";
                 }
-                if (tag.toLowerCase() === "code audits") {
+                if (tag.toLowerCase() === "audits") {
                   color = "purple";
                 }
                 return (

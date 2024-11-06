@@ -463,6 +463,14 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   color: #007bff;
 }
 
+.ant-spin-nested-loading {
+  width: fit-content;
+}
+
+span.ant-tag {
+  font-size: 10px;
+}
+
 /* Media Queries */
 /* XS Size */
 @media (max-width: 544px) {
