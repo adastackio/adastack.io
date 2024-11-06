@@ -12,11 +12,11 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Team",
       dataIndex: "name",
       key: "name",
-      width: 250,
+      width: 230,
       sorter: (a, b) => a.name.localeCompare(b.name),
       render: (name, record) => (
         <div className="flex items-center justify-between w-full">
-          <a className="nx-text-primary-600 text-base" href={record.website}>
+          <a className="text-base" href={record.website}>
             <span className="flex items-center">
               <Favicon url={record.website} />
               &nbsp;{name}
@@ -30,7 +30,7 @@ const OpenSourceBuildersTable = ({ data }) => {
                 <CopyIcon key="copy-icon" />,
                 <CopySuccessIcon key="copy-icon" />,
               ],
-              tooltips: ["Copy Website", "Copied"],
+              tooltips: ["Copy Website URL", "Copied"],
             }}
           ></Paragraph>
         </div>
@@ -51,7 +51,7 @@ const OpenSourceBuildersTable = ({ data }) => {
                 <CopyIcon key="copy-icon" />,
                 <CopySuccessIcon key="copy-icon" />,
               ],
-              tooltips: ["Copy GitHub", "Copied"],
+              tooltips: ["Copy GitHub URL", "Copied"],
             }}
           ></Paragraph>
         </>
@@ -77,6 +77,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Latest Commit",
       dataIndex: "pushedAt",
       key: "pushedAt",
+      ellipsis: true,
       sorter: {
         compare: (a, b) =>
           new Date(a.pushedAt).getTime() - new Date(b.pushedAt).getTime(),
