@@ -94,15 +94,17 @@ const OpenSourceBuildersTable = ({ data }) => {
     {
       title: "Category",
       key: "tag",
-      width: 190,
+      width: 195,
       dataIndex: "tag",
       sorter: {
         compare: (a, b) => {
-          const tagA = a.tags[0] || "";
-          const tagB = b.tags[0] || "";
+          const tagsA = Array.isArray(a.tags) ? a.tags : [];
+          const tagsB = Array.isArray(b.tags) ? b.tags : [];
+          const tagA = tagsA[0] || "";
+          const tagB = tagsB[0] || "";
           return tagA.localeCompare(tagB);
         },
-        multiple: 1,
+        multiple: 1, 
       },
       filters: [
         {
