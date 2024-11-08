@@ -82,14 +82,21 @@ const OpenSourceBuildersTable = ({ data }) => {
       width: 200,
       ellipsis: true,
       sorter: {
-        compare: (a, b) =>
-          new Date(a.pushedAt).getTime() - new Date(b.pushedAt).getTime(),
-        multiple: 3,
+        multiple: 4,
+        compare: (a, b) => {
+          // Convert undefined/null dates to a specific value (like 0 or distant past)
+          const dateA = a.pushedAt ? new Date(a.pushedAt).getTime() : 0;
+          const dateB = b.pushedAt ? new Date(b.pushedAt).getTime() : 0;
+          return dateB - dateA;
+        },
       },
-      render: (pushedAt, record) => (
-        <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
-      ),
       defaultSortOrder: "descend",
+      render: (pushedAt, record) => (
+        <>
+          <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
+          {record.mostRecentRepo?.timeSinceLastCommit || "N/A"}
+        </>
+      ),
     },
     {
       title: "Category",
@@ -104,7 +111,7 @@ const OpenSourceBuildersTable = ({ data }) => {
           const tagB = tagsB[0] || "";
           return tagA.localeCompare(tagB);
         },
-        multiple: 1, 
+        multiple: 1,
       },
       filters: [
         {
