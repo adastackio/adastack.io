@@ -16,7 +16,7 @@ const octokit = new Octokit({
       console.warn(
         `Request quota exhausted for request ${options.method} ${options.url}`
       );
-      if (options.request.retryCount <= 2) {
+      if (options.request.retryCount <= 5) {
         console.log(`Retrying after ${retryAfter} seconds!`);
         return true;
       }
@@ -25,7 +25,7 @@ const octokit = new Octokit({
       console.warn(
         `Secondary rate limit hit for request ${options.method} ${options.url}`
       );
-      if (options.request.retryCount <= 2) {
+      if (options.request.retryCount <= 5) {
         return true;
       }
     },

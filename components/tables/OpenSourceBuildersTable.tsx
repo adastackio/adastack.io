@@ -63,6 +63,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       dataIndex: "starCount",
       key: "starCount",
       width: 110,
+      defaultSortOrder: "descend",
       sorter: {
         compare: (a, b) => a.starCount - b.starCount,
         multiple: 2,
@@ -185,7 +186,20 @@ const OpenSourceBuildersTable = ({ data }) => {
     console.log("params", pagination, filters, sorter, extra);
   };
 
-  return <Table columns={columns} dataSource={data} onChange={onChange} />;
+  return (
+    <Table
+      columns={columns}
+      dataSource={data}
+      onChange={onChange}
+      pagination={{
+        defaultPageSize: 100,
+        pageSize: 100,
+        pageSizeOptions: [10, 20, 50, 100, 200],
+        showSizeChanger: true,
+        showTotal: (total, range) => `${range[0]}-${range[1]} of ${total}`,
+      }}
+    />
+  );
 };
 
 export default OpenSourceBuildersTable;
