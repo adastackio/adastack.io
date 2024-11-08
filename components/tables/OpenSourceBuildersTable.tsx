@@ -77,24 +77,29 @@ const OpenSourceBuildersTable = ({ data }) => {
     },
     {
       title: "Latest Commit",
-      dataIndex: "pushedAt",
+      dataIndex: ["mostRecentRepo", "pushedAt"],
       key: "pushedAt",
       width: 200,
       ellipsis: true,
       sorter: {
-        multiple: 4,
+        multiple: 3,
         compare: (a, b) => {
-          // Convert undefined/null dates to a specific value (like 0 or distant past)
-          const dateA = a.pushedAt ? new Date(a.pushedAt).getTime() : 0;
-          const dateB = b.pushedAt ? new Date(b.pushedAt).getTime() : 0;
+          const dateA = a.mostRecentRepo?.pushedAt
+            ? new Date(a.mostRecentRepo.pushedAt).getTime()
+            : 0;
+          const dateB = b.mostRecentRepo?.pushedAt
+            ? new Date(b.mostRecentRepo.pushedAt).getTime()
+            : 0;
           return dateB - dateA;
         },
       },
-      defaultSortOrder: "descend",
       render: (pushedAt, record) => (
         <>
           <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
-          {record.mostRecentRepo?.timeSinceLastCommit || "N/A"}
+          &nbsp;
+          <span className="text-gray-400">
+            {record.mostRecentRepo?.timeSinceLastCommit || "..."}
+          </span>
         </>
       ),
     },
