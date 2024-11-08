@@ -412,6 +412,10 @@ img.shields_io_button {
   position: relative;
 }
 
+.nextra-toc.nx-hidden {
+  display: none !important;
+}
+
 a[class*="nx-cursor-pointer"]:has(.page-in-development) {
   cursor: default !important;
 }
@@ -469,6 +473,11 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
 
 span.ant-tag {
   font-size: 10px;
+}
+
+.ant-spin-nested-loading {
+  width: -moz-fit-content !important;
+  width: initial !important;
 }
 
 /* Media Queries */
