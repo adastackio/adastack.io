@@ -416,6 +416,14 @@ img.shields_io_button {
   display: none !important;
 }
 
+:is(html[class~="dark"]) li.ant-pagination-total-text {
+  color: #a3a3a3;
+}
+
+:is(html[class~="light"]) li.ant-pagination-total-text {
+  color: black;
+}
+
 a[class*="nx-cursor-pointer"]:has(.page-in-development) {
   cursor: default !important;
 }
@@ -445,10 +453,6 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
 .svg-icon {
   height: 100px;
   width: 100px;
-}
-
-.last-commit-badge-content {
-  max-width: 230px;
 }
 
 /* Ant Design Modifications */
