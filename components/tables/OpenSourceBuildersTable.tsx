@@ -192,7 +192,7 @@ const OpenSourceBuildersTable = ({ data }) => {
                   color = "gold";
                 }
                 if (tag.toLowerCase() === "audits") {
-                  color = "orange";
+                  color = "cyan";
                 }
                 return (
                   <>
