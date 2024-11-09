@@ -459,7 +459,7 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
 .ant-table-cell .ant-typography {
   display: inline-block;
   margin-bottom: 0px;
-  margin-right: -11px;
+  margin-right: 2px;
 }
 
 .ant-typography-copy svg {
@@ -482,6 +482,10 @@ span.ant-tag {
 .ant-spin-nested-loading {
   width: -moz-fit-content !important;
   width: initial !important;
+}
+
+td.ant-table-cell {
+  padding: 4px 6px !important;
 }
 
 /* Media Queries */

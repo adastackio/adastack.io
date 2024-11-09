@@ -1,5 +1,5 @@
 import React from "react";
-import { Table, Tag, Typography } from "antd";
+import { Table, Tag, Typography, Badge, Divider } from "antd";
 const { Paragraph, Text } = Typography;
 import { CopyIcon, CopySuccessIcon } from "@components/icons";
 import StarBadge from "@components/badges/StarBadge";
@@ -104,10 +104,10 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Latest Commit",
       dataIndex: ["mostRecentRepo", "pushedAt"],
       key: "pushedAt",
-      width: 200,
+      width: 240,
       ellipsis: true,
       sorter: {
-        multiple: 3,
+        multiple: 2,
         compare: (a, b) => {
           const dateA = a.mostRecentRepo?.pushedAt
             ? new Date(a.mostRecentRepo.pushedAt).getTime()
@@ -131,7 +131,7 @@ const OpenSourceBuildersTable = ({ data }) => {
     {
       title: "Category",
       key: "tag",
-      width: 195,
+      width: 185,
       dataIndex: "tag",
       sorter: {
         compare: (a, b) => {
@@ -141,7 +141,7 @@ const OpenSourceBuildersTable = ({ data }) => {
           const tagB = tagsB[0] || "";
           return tagA.localeCompare(tagB);
         },
-        multiple: 1,
+        multiple: 3,
       },
       filters: [
         {
@@ -192,12 +192,14 @@ const OpenSourceBuildersTable = ({ data }) => {
                   color = "gold";
                 }
                 if (tag.toLowerCase() === "audits") {
-                  color = "purple";
+                  color = "orange";
                 }
                 return (
-                  <Tag bordered={false} color={color} key={tag}>
-                    {tag.toUpperCase()}
-                  </Tag>
+                  <>
+                    <Tag bordered={false} color={color} key={tag}>
+                      {tag.toUpperCase()}
+                    </Tag>
+                  </>
                 );
               })}
           </>
@@ -217,9 +219,9 @@ const OpenSourceBuildersTable = ({ data }) => {
       dataSource={data}
       onChange={onChange}
       pagination={{
-        defaultPageSize: 100,
-        pageSize: 100,
-        pageSizeOptions: [10, 20, 50, 100, 200],
+        defaultPageSize: 200,
+        pageSize: 200,
+        pageSizeOptions: [10, 20, 50, 100, 200, 500],
         showSizeChanger: true,
         showTotal: (total, range) => `${range[0]}-${range[1]} of ${total}`,
       }}
