@@ -1,34 +1,11 @@
 import React from "react";
-import { Table, Tag, Typography, Badge, Divider } from "antd";
-const { Paragraph, Text } = Typography;
+import { Table, Tag, Typography } from "antd";
+const { Paragraph } = Typography;
 import { CopyIcon, CopySuccessIcon } from "@components/icons";
 import StarBadge from "@components/badges/StarBadge";
 import GithubBadge from "@components/badges/GithubBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
-import { createStyles } from "antd-style";
-
-const useStyle = createStyles(({ css, token }) => {
-  const { antCls } = token;
-  return {
-    customTable: css`
-      .${antCls}-table {
-        .${antCls}-table-container {
-          .${antCls}-table-body, .${antCls}-table-content {
-            scrollbar-width: thin;
-            scrollbar-color: #eaeaea transparent;
-            scrollbar-gutter: stable;
-          }
-        }
-      }
-
-      .${antCls}-spin-nested-loading {
-        width: -moz-fit-content !important;
-        width: initial !important;
-      }
-    `,
-  };
-});
 
 const OpenSourceBuildersTable = ({ data }) => {
   const columns = [
@@ -36,7 +13,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Team",
       dataIndex: "name",
       key: "name",
-      fixed: "left",
+      fixed: 'left',
       width: 230,
       sorter: (a, b) => a.name.localeCompare(b.name),
       render: (name, record) => (
@@ -211,24 +188,24 @@ const OpenSourceBuildersTable = ({ data }) => {
   const onChange = (pagination, filters, sorter, extra) => {
     console.log("params", pagination, filters, sorter, extra);
   };
-  const { styles } = useStyle();
   return (
-    <Table
-      className={styles.customTable}
-      columns={columns}
-      dataSource={data}
-      onChange={onChange}
-      pagination={{
-        defaultPageSize: 200,
-        pageSize: 200,
-        pageSizeOptions: [10, 20, 50, 100, 200, 500],
-        showSizeChanger: true,
-        showTotal: (total, range) => `${range[0]}-${range[1]} of ${total}`,
-      }}
-      scroll={{
-        x: "500",
-      }}
-    />
+    <>
+      <Table
+        columns={columns}
+        dataSource={data}
+        onChange={onChange}
+        pagination={{
+          defaultPageSize: 200,
+          pageSize: 200,
+          pageSizeOptions: [10, 20, 50, 100, 200, 500],
+          showSizeChanger: true,
+          showTotal: (total, range) => `${range[0]}-${range[1]} of ${total}`,
+        }}
+        scroll={{
+          x: 500,
+        }}
+      />
+    </>
   );
 };
 

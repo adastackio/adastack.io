@@ -1,13 +1,13 @@
 import "../css/styles.css";
+import { StyleProvider } from "@ant-design/cssinjs";
 import { ConfigProvider } from "antd";
 
-// This default export is required in a new `pages/_app.js` file.
 export default function MyApp({ Component, pageProps }) {
   return (
-    <>
-      <ConfigProvider direction="rtl">
+    <StyleProvider hashPriority="high">
+      <ConfigProvider>
         <Component {...pageProps} />
       </ConfigProvider>
-    </>
+    </StyleProvider>
   );
 }
