@@ -3,11 +3,9 @@ import en from "javascript-time-ago/locale/en";
 import { Octokit } from "@octokit/rest";
 import { graphql } from "@octokit/graphql";
 
-// Add the locale to TimeAgo
 TimeAgo.addDefaultLocale(en);
 const timeAgo = new TimeAgo("en-US");
 
-// Initialize Octokit with retry and throttling plugins
 const octokit = new Octokit({
   auth: process.env.GITHUB_ACCESS_TOKEN,
   userAgent: "adastack.io v1.0",
@@ -37,6 +35,7 @@ const fetchAllRepos = async (owner, type = "users") => {
   try {
     const repos = [];
     let page = 1;
+    let totalStars = 0; 
 
     while (true) {
       const response = await octokit.rest.repos
@@ -65,13 +64,14 @@ const fetchAllRepos = async (owner, type = "users") => {
       if (currentRepos.length === 0) break;
 
       repos.push(...currentRepos);
+      totalStars += currentRepos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+
       if (currentRepos.length < 100) break;
       page++;
     }
 
-    return { repos: allRepos, totalStars };
+    return { repos, totalStars };
   } catch (error) {
-    // Use Octokit's error handling
     if (error.status === 404) {
       throw new Error(`Repository owner ${owner} not found`);
     }
@@ -82,9 +82,6 @@ const fetchAllRepos = async (owner, type = "users") => {
     throw error;
   }
 };
-
-const calculateRepoStats = (repos) => {
-  if (!repos || repos.length === 0) return null;
 
   const starCount = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
 
