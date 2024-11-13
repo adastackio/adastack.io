@@ -11,7 +11,7 @@ const octokit = new Octokit({
   userAgent: "adastack.io v1.0",
   retry: { enabled: true },
   request: {
-    timeout: 30000  // 30 seconds
+    timeout: 30000, // 30 seconds
   },
   throttle: {
     onRateLimit: (retryAfter, options) => {
@@ -66,7 +66,18 @@ const fetchAllRepos = async (owner, type = "users") => {
       const currentRepos = response.data;
       if (currentRepos.length === 0) break;
 
-      repos.push(...currentRepos);
+      // Only keep essential fields from each repo
+      const trimmedRepos = currentRepos.map((repo) => ({
+        id: repo.id,
+        name: repo.name,
+        html_url: repo.html_url,
+        description: repo.description,
+        stargazers_count: repo.stargazers_count,
+        language: repo.language,
+        pushed_at: repo.pushed_at,
+      }));
+
+      repos.push(...trimmedRepos);
       totalStars += currentRepos.reduce(
         (sum, repo) => sum + repo.stargazers_count,
         0
