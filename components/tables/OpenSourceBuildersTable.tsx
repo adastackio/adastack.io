@@ -6,25 +6,6 @@ import StarBadge from "@components/badges/StarBadge";
 import GithubBadge from "@components/badges/GithubBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
-import { ConfigProvider } from 'antd';
-import { StyleProvider } from '@ant-design/cssinjs';
-
-const useCustomStyle = () => {
-  const { token } = theme.useToken();
-  
-  return {
-    customTable: {
-      '.ant-table .ant-table-container .ant-table-body, .ant-table .ant-table-container .ant-table-content': {
-        scrollbarWidth: 'thin',
-        scrollbarColor: '#eaeaea transparent',
-        scrollbarGutter: 'stable',
-      },
-      '.ant-spin-nested-loading': {
-        width: 'fit-content !important',
-      }
-    }
-  };
-};
 
 const OpenSourceBuildersTable = ({ data }) => {
   const columns = [
@@ -207,33 +188,24 @@ const OpenSourceBuildersTable = ({ data }) => {
   const onChange = (pagination, filters, sorter, extra) => {
     console.log("params", pagination, filters, sorter, extra);
   };
-  const styles = useCustomStyle();
   return (
-    <ConfigProvider
-      theme={{
-        components: {
-          Table: {
-            ...styles.customTable
-          }
-        }
-      }}
-    >
+    <>
       <Table
-      columns={columns}
-      dataSource={data}
-      onChange={onChange}
-      pagination={{
-        defaultPageSize: 200,
-        pageSize: 200,
-        pageSizeOptions: [10, 20, 50, 100, 200, 500],
-        showSizeChanger: true,
-        showTotal: (total, range) => `${range[0]}-${range[1]} of ${total}`,
-      }}
-      scroll={{
-        x: "500",
-      }}
+        columns={columns}
+        dataSource={data}
+        onChange={onChange}
+        pagination={{
+          defaultPageSize: 200,
+          pageSize: 200,
+          pageSizeOptions: [10, 20, 50, 100, 200, 500],
+          showSizeChanger: true,
+          showTotal: (total, range) => `${range[0]}-${range[1]} of ${total}`,
+        }}
+        scroll={{
+          x: 500,
+        }}
       />
-    </ConfigProvider>
+    </>
   );
 };
 
