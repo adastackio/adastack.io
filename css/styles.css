@@ -491,6 +491,9 @@ td.ant-table-cell {
 /* Media Queries */
 /* XS Size */
 @media (max-width: 544px) {
+    .my-new-style {
+        color: red;
+    }
 }
 /* S Size */
 @media (min-width: 545px) and (max-width: 767px) {
