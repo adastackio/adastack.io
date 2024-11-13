@@ -10,6 +10,9 @@ const octokit = new Octokit({
   auth: process.env.GITHUB_ACCESS_TOKEN,
   userAgent: "adastack.io v1.0",
   retry: { enabled: true },
+  request: {
+    timeout: 30000  // 30 seconds
+  },
   throttle: {
     onRateLimit: (retryAfter, options) => {
       console.warn(
@@ -35,7 +38,7 @@ const fetchAllRepos = async (owner, type = "users") => {
   try {
     const repos = [];
     let page = 1;
-    let totalStars = 0; 
+    let totalStars = 0;
 
     while (true) {
       const response = await octokit.rest.repos
@@ -64,7 +67,10 @@ const fetchAllRepos = async (owner, type = "users") => {
       if (currentRepos.length === 0) break;
 
       repos.push(...currentRepos);
-      totalStars += currentRepos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+      totalStars += currentRepos.reduce(
+        (sum, repo) => sum + repo.stargazers_count,
+        0
+      );
 
       if (currentRepos.length < 100) break;
       page++;
@@ -75,18 +81,23 @@ const fetchAllRepos = async (owner, type = "users") => {
     if (error.status === 404) {
       throw new Error(`Repository owner ${owner} not found`);
     }
-    if (error.status === 403 && error.message.includes('rate limit')) {
-      const resetDate = new Date(error.response.headers['x-ratelimit-reset'] * 1000);
-      throw new Error(`Rate limit exceeded. Resets at ${resetDate.toISOString()}`);
+    if (error.status === 403 && error.message.includes("rate limit")) {
+      const resetDate = new Date(
+        error.response.headers["x-ratelimit-reset"] * 1000
+      );
+      throw new Error(
+        `Rate limit exceeded. Resets at ${resetDate.toISOString()}`
+      );
     }
     throw error;
   }
 };
 
+const calculateRepoStats = (repos) => {
+  if (!repos || repos.length === 0) return null;
+
   const starCount = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
-
   const repoCount = repos.length;
-
   const mostRecentRepo = repos[0]; // Already sorted by pushed_at desc
   const mostRecentDate = new Date(mostRecentRepo.pushed_at);
   const timeSinceLastCommit = timeAgo.format(mostRecentDate, "mini-now");
@@ -96,8 +107,13 @@ const fetchAllRepos = async (owner, type = "users") => {
     repoCount,
     repos,
     mostRecentRepo: {
-      url: mostRecentRepo.url,
+      url: mostRecentRepo.html_url,
       timeSinceLastCommit,
+      name: mostRecentRepo.name,
+      description: mostRecentRepo.description,
+      stars: mostRecentRepo.stargazers_count,
+      language: mostRecentRepo.language,
+      pushedAt: mostRecentRepo.pushed_at,
     },
   };
 };
