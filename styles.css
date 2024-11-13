@@ -1,0 +1,115 @@
+body {
+    font-family: "Comic Sans MS", cursive;
+    background: #000080;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #008080;
+    padding: 20px;
+    border: 5px outset #c0c0c0;
+}
+
+header {
+    text-align: center;
+    background: #000000;
+    padding: 10px;
+    border: 2px solid #ffff00;
+}
+
+marquee {
+    background: #ff0000;
+    color: #ffffff;
+    padding: 5px;
+}
+
+h1 {
+    color: #00ff00;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.blink {
+    animation: blink 1s step-end infinite;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    background: #000000;
+}
+
+nav a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffff00;
+}
+
+.services {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.services th, .services td {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.services th {
+    background: #000000;
+    color: #00ff00;
+}
+
+.counter {
+    text-align: center;
+    background: #000000;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.contact {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background: #000000;
+    border: 2px solid #ffff00;
+}
+
+button {
+    background: #ff0000;
+    color: #ffffff;
+    border: 3px outset #c0c0c0;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", cursive;
+}
+
+button:hover {
+    background: #ff6666;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.construction {
+    width: 100px;
+    height: auto;
+}
