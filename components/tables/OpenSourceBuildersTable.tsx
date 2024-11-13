@@ -1,34 +1,30 @@
 import React from "react";
-import { Table, Tag, Typography, Badge, Divider } from "antd";
+import { Table, Tag, Typography, Badge, Divider, theme } from "antd";
 const { Paragraph, Text } = Typography;
 import { CopyIcon, CopySuccessIcon } from "@components/icons";
 import StarBadge from "@components/badges/StarBadge";
 import GithubBadge from "@components/badges/GithubBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
-import { createStyles } from "antd-style";
+import { ConfigProvider } from 'antd';
+import { StyleProvider } from '@ant-design/cssinjs';
 
-const useStyle = createStyles(({ css, token }) => {
-  const { antCls } = token;
+const useCustomStyle = () => {
+  const { token } = theme.useToken();
+  
   return {
-    customTable: css`
-      .${antCls}-table {
-        .${antCls}-table-container {
-          .${antCls}-table-body, .${antCls}-table-content {
-            scrollbar-width: thin;
-            scrollbar-color: #eaeaea transparent;
-            scrollbar-gutter: stable;
-          }
-        }
+    customTable: {
+      '.ant-table .ant-table-container .ant-table-body, .ant-table .ant-table-container .ant-table-content': {
+        scrollbarWidth: 'thin',
+        scrollbarColor: '#eaeaea transparent',
+        scrollbarGutter: 'stable',
+      },
+      '.ant-spin-nested-loading': {
+        width: 'fit-content !important',
       }
-
-      .${antCls}-spin-nested-loading {
-        width: -moz-fit-content !important;
-        width: initial !important;
-      }
-    `,
+    }
   };
-});
+};
 
 const OpenSourceBuildersTable = ({ data }) => {
   const columns = [
@@ -211,10 +207,18 @@ const OpenSourceBuildersTable = ({ data }) => {
   const onChange = (pagination, filters, sorter, extra) => {
     console.log("params", pagination, filters, sorter, extra);
   };
-  const { styles } = useStyle();
+  const styles = useCustomStyle();
   return (
-    <Table
-      className={styles.customTable}
+    <ConfigProvider
+      theme={{
+        components: {
+          Table: {
+            ...styles.customTable
+          }
+        }
+      }}
+    >
+      <Table
       columns={columns}
       dataSource={data}
       onChange={onChange}
@@ -228,7 +232,8 @@ const OpenSourceBuildersTable = ({ data }) => {
       scroll={{
         x: "500",
       }}
-    />
+      />
+    </ConfigProvider>
   );
 };
 
