@@ -1,5 +1,6 @@
 import React from "react";
 import { Table, Tag, Typography, Badge, Divider, theme } from "antd";
+import type { ColumnsType } from "antd/es/table";
 const { Paragraph, Text } = Typography;
 import { CopyIcon, CopySuccessIcon } from "@components/icons";
 import StarBadge from "@components/badges/StarBadge";
@@ -13,7 +14,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Team",
       dataIndex: "name",
       key: "name",
-      fixed: "left",
+      fixed: 'left' as const,
       width: 230,
       sorter: (a, b) => a.name.localeCompare(b.name),
       render: (name, record) => (
