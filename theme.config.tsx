@@ -5,7 +5,7 @@ import {
   AdaStackDark,
   AdaStackMid,
   XIcon,
-  GithubIcon,
+  GithubNavIcon,
 } from "@components/icons";
 import { Nunito } from "next/font/google";
 import { useConfig } from "nextra-theme-docs";
@@ -84,7 +84,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/adastackio",
     icon: (
       <>
-        <GithubIcon />
+        <GithubNavIcon />
       </>
     ),
   },

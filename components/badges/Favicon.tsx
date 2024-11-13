@@ -4,13 +4,13 @@ type FaviconProps = {
 
 const Favicon = ({ url }: FaviconProps) => {
   return (
-    <div className="inline-flex size-6 items-center justify-center shrink-0 rounded-md bg-background p-1 favicon-custom-css">
+    <span className="inline-flex size-6 items-center justify-center shrink-0 rounded-md bg-background p-1 favicon-custom-css">
       <img
         loading="lazy"
         className="aspect-square h-3"
         src={`https://www.google.com/s2/favicons?sz=128&domain_url=${url}`}
       />
-    </div>
+    </span>
   );
 };
 

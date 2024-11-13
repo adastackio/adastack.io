@@ -10,135 +10,63 @@ const timeAgo = new TimeAgo("en-US");
 // Initialize Octokit with retry and throttling plugins
 const octokit = new Octokit({
   auth: process.env.GITHUB_ACCESS_TOKEN,
-  userAgent: 'adastack.io v1.0',
+  userAgent: "adastack.io v1.0",
+  retry: { enabled: true },
   throttle: {
-    onRateLimit: (retryAfter, options, octokit, retryCount) => {
-      console.warn(`Request quota exhausted for request ${options.method} ${options.url}`);
-      if (retryCount < 5) {
+    onRateLimit: (retryAfter, options) => {
+      console.warn(
+        `Request quota exhausted for request ${options.method} ${options.url}`
+      );
+      if (options.request.retryCount <= 5) {
         console.log(`Retrying after ${retryAfter} seconds!`);
         return true;
       }
     },
-    onSecondaryLimit: (retryAfter, options, octokit, retryCount) => {
-      console.warn(`Secondary rate limit hit for request ${options.method} ${options.url}`);
-      if (retryCount < 5) {
+    onSecondaryRateLimit: (retryAfter, options) => {
+      console.warn(
+        `Secondary rate limit hit for request ${options.method} ${options.url}`
+      );
+      if (options.request.retryCount <= 5) {
         return true;
       }
     },
   },
-  retry: {
-    doNotRetry: ["429"],
-  },
 });
 
-// Initialize GraphQL with Octokit's request implementation
-const graphqlWithAuth = graphql.defaults({
-  request: octokit.request,
-});
-
-// GraphQL query for both users and organizations
-const query = `
-  query($login: String!, $afterCursor: String) {
-    repositoryOwner(login: $login) {
-      ... on User {
-        repositories(first: 100, after: $afterCursor, orderBy: {field: PUSHED_AT, direction: DESC}) {
-          totalCount
-          pageInfo {
-            hasNextPage
-            endCursor
-          }
-          nodes {
-            name
-            url
-            stargazerCount
-            pushedAt
-          }
-        }
-      }
-      ... on Organization {
-        repositories(first: 100, after: $afterCursor, orderBy: {field: PUSHED_AT, direction: DESC}) {
-          totalCount
-          pageInfo {
-            hasNextPage
-            endCursor
-          }
-          nodes {
-            name
-            url
-            stargazerCount
-            pushedAt
-          }
-        }
-      }
-    }
-    rateLimit {
-      remaining
-      resetAt
-    }
-  }
-`;
-
-const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
-const fetchAllRepos = async (owner) => {
+const fetchAllRepos = async (owner, type = "users") => {
   try {
-    // First try to get user info using REST API to determine if it's a user or org
-    // This leverages Octokit's built-in retry and throttling
-    let ownerType;
-    try {
-      await octokit.users.getByUsername({ username: owner });
-      ownerType = 'user';
-    } catch (error) {
-      if (error.status === 404) {
-        await octokit.orgs.get({ org: owner });
-        ownerType = 'org';
-      } else {
-        throw error;
-      }
-    }
+    const repos = [];
+    let page = 1;
 
-    let hasNextPage = true;
-    let afterCursor = null;
-    let allRepos = [];
-    let totalStars = 0;
+    while (true) {
+      const response = await octokit.rest.repos
+        .listForUser({
+          username: owner,
+          per_page: 100,
+          page,
+          sort: "pushed",
+          direction: "desc",
+        })
+        .catch(async (error) => {
+          if (error.status === 404 && type === "users") {
+            // Try as organization if user not found
+            return octokit.rest.repos.listForOrg({
+              org: owner,
+              per_page: 100,
+              page,
+              sort: "pushed",
+              direction: "desc",
+            });
+          }
+          throw error;
+        });
 
-    while (hasNextPage) {
-      // Use GraphQL for efficient data fetching
-      const response = await graphqlWithAuth(query, {
-        login: owner,
-        afterCursor,
-      });
+      const currentRepos = response.data;
+      if (currentRepos.length === 0) break;
 
-      const repos = response.repositoryOwner?.repositories;
-      if (!repos) break;
-
-      const currentRepos = repos.nodes;
-      
-      // Only store what we need
-      const processedRepos = currentRepos.map(repo => ({
-        url: repo.url,
-        stargazerCount: repo.stargazerCount,
-        pushedAt: repo.pushedAt
-      }));
-      
-      allRepos.push(...processedRepos);
-      totalStars += currentRepos.reduce((sum, repo) => sum + repo.stargazerCount, 0);
-
-      // Check rate limits before continuing
-      const remainingRequests = response.rateLimit.remaining;
-      if (remainingRequests < 100 && repos.pageInfo.hasNextPage) {
-        const resetAt = new Date(response.rateLimit.resetAt);
-        const waitTime = resetAt - new Date();
-        if (waitTime > 0) {
-          console.warn(`Low rate limit. Waiting ${waitTime}ms before continuing`);
-          await sleep(waitTime);
-        }
-      }
-
-      hasNextPage = repos.pageInfo.hasNextPage;
-      afterCursor = repos.pageInfo.endCursor;
-
-      if (!hasNextPage) break;
+      repos.push(...currentRepos);
+      if (currentRepos.length < 100) break;
+      page++;
     }
 
     return { repos: allRepos, totalStars };
@@ -158,11 +86,18 @@ const fetchAllRepos = async (owner) => {
 const calculateRepoStats = (repos) => {
   if (!repos || repos.length === 0) return null;
 
+  const starCount = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+
+  const repoCount = repos.length;
+
   const mostRecentRepo = repos[0]; // Already sorted by pushed_at desc
-  const mostRecentDate = new Date(mostRecentRepo.pushedAt);
-  const timeSinceLastCommit = timeAgo.format(mostRecentDate);
+  const mostRecentDate = new Date(mostRecentRepo.pushed_at);
+  const timeSinceLastCommit = timeAgo.format(mostRecentDate, "mini-now");
 
   return {
+    starCount,
+    repoCount,
+    repos,
     mostRecentRepo: {
       url: mostRecentRepo.url,
       timeSinceLastCommit,
@@ -172,37 +107,43 @@ const calculateRepoStats = (repos) => {
 
 const openSourceBuildersAPI = async (teamData) => {
   return Promise.all(
-    teamData.map(async (member) => {
+    teamData.map(async (team, index) => {
       try {
-        if (!member.teamURL) {
-          throw new Error('Team URL is missing');
+        if (!team.teamGithubURL) {
+          throw new Error("Team URL is missing");
         }
 
-        const urlParts = new URL(member.teamURL).pathname
-          .split('/')
+        const urlParts = new URL(team.teamGithubURL).pathname
+          .split("/")
           .filter(Boolean);
-        
+
         const repoOwner = urlParts[0];
         if (!repoOwner) {
-          throw new Error('Invalid GitHub URL');
+          throw new Error("Invalid GitHub URL");
         }
 
         const { repos, totalStars } = await fetchAllRepos(repoOwner);
         const stats = calculateRepoStats(repos);
 
         return {
-          ...member,
-          stars: totalStars,
+          ...team,
+          key: `key-${index}-${team.website}`,
+          starCount: stats.starCount,
+          repoCount: stats.repoCount,
+          repos: stats.repos,
           mostRecentRepo: stats.mostRecentRepo,
           error: null,
         };
       } catch (error) {
-        console.error(`Error processing ${member.teamURL}:`, error);
+        console.error(`Error processing ${team.teamGithubURL}:`, error);
         return {
-          ...member,
-          stars: null,
+          ...team,
+          key: `key-${index}-${team.website}`,
+          starCount: null,
+          repos: null,
+          repoCount: null,
           mostRecentRepo: null,
-          error: error.message || 'An unknown error occurred',
+          error: error.message || "An unknown error occurred",
         };
       }
     })

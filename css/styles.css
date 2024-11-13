@@ -282,10 +282,6 @@ a:has(.sidebar-menu-item) {
   padding: 10px 0 10px 10px;
 }
 
-button[title="Hide sidebar"] {
-  display: none;
-}
-
 .light-sidebar-item-highlighted {
   background-color: rgba(243, 244, 246, 1);
   color: rgba(17, 24, 39, 1);
@@ -375,7 +371,7 @@ img.shields_io_button {
 
 .favicon-custom-css {
   border-color: #4b5563;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 .github-badge {
@@ -416,6 +412,18 @@ img.shields_io_button {
   position: relative;
 }
 
+.nextra-toc.nx-hidden {
+  display: none !important;
+}
+
+:is(html[class~="dark"]) li.ant-pagination-total-text {
+  color: #a3a3a3;
+}
+
+:is(html[class~="light"]) li.ant-pagination-total-text {
+  color: black;
+}
+
 a[class*="nx-cursor-pointer"]:has(.page-in-development) {
   cursor: default !important;
 }
@@ -447,10 +455,37 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   width: 100px;
 }
 
+/* Ant Design Modifications */
+.ant-table-cell .ant-typography {
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-right: 2px;
+}
 
+.ant-typography-copy svg {
+  margin-bottom: -6px;
+  opacity: 25%;
+}
 
-.last-commit-badge-content {
-  max-width: 230px;
+.ant-table-cell div a {
+  color: #007bff;
+}
+
+.ant-spin-nested-loading {
+  width: fit-content;
+}
+
+span.ant-tag {
+  font-size: 10px;
+}
+
+.ant-spin-nested-loading {
+  width: -moz-fit-content !important;
+  width: initial !important;
+}
+
+td.ant-table-cell {
+  padding: 4px 6px !important;
 }
 
 /* Media Queries */
@@ -580,6 +615,10 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   .nextra-cards.home-navigation-cards {
     z-index: 10;
     position: relative;
+  }
+
+  .ant-table-cell .ant-typography {
+    display: none;
   }
 }
 /* Everything Under Large Size */

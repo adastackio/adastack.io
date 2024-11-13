@@ -5,7 +5,7 @@
   xmlns="http://www.w3.org/2000/svg"
   stroke="currentColor"
   aria-hidden="true"
-  className="block h-4 w-4 align-text-bottom svg-icon navbar-link"
+  className="block"
   viewBox="0 0 1668.56 1221.19">
 <g transform="translate(52.390088,18)">
 	<path fill="#71717a" d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99
