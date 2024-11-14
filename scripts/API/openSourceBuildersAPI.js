@@ -109,7 +109,7 @@ const calculateRepoStats = (repos) => {
 
   const starCount = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
   const repoCount = repos.length;
-  const mostRecentRepo = repos[0]; // Already sorted by pushed_at desc
+  const mostRecentRepo = repos[0]; 
   const mostRecentDate = new Date(mostRecentRepo.pushed_at);
   const timeSinceLastCommit = timeAgo.format(mostRecentDate, "mini-now");
 
