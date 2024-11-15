@@ -2,7 +2,7 @@ import React from "react";
 import { Table, Tag, Typography, Tooltip } from "antd";
 import { CopyIcon, CopySuccessIcon } from "@components/icons";
 import StarBadge from "@components/badges/StarBadge";
-import GithubBadge from "@components/badges/GithubBadge";
+import TeamGithubBadge from "@components/badges/TeamGithubBadge";
 import CodingLanguageBadge from "@components/badges/CodingLanguageBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
@@ -48,7 +48,11 @@ const OpenSourceBuildersTable = ({ data }) => {
       render: (teamGithubURL, record) => {
         return (
           <>
-            <GithubBadge teamGithubURL={teamGithubURL} error={record.error} />
+            <TeamGithubBadge
+              teamGithubURL={teamGithubURL}
+              text="GitHub"
+              error={record.error}
+            />
             <Paragraph
               copyable={{
                 text: teamGithubURL,
