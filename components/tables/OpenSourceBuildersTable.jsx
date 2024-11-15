@@ -110,7 +110,7 @@ const OpenSourceBuildersTable = ({ data }) => {
             title={
               <div>
                 {record.mostRecentRepo?.description ||
-                  "No Description Provided"}
+                  "No project description provided."}
                 {(record.mostRecentRepo?.language ||
                   record.mostRecentRepo?.url) && (
                   <div
@@ -157,14 +157,14 @@ const OpenSourceBuildersTable = ({ data }) => {
     {
       title: "Category",
       key: "tag",
-      width: 185,
+      width: 195,
       dataIndex: "tag",
       sorter: {
         compare: (a, b) => {
           const priorityOrder = [
-            "Audits",
             "Organization",
             "dApp",
+            "Audits",
             "Dev Company",
             "Tools",
           ];
