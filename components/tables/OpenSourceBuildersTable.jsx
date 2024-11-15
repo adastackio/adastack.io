@@ -4,6 +4,7 @@ import { CopyIcon, CopySuccessIcon } from "@components/icons";
 import StarBadge from "@components/badges/StarBadge";
 import TeamGithubBadge from "@components/badges/TeamGithubBadge";
 import CodeLanguageShieldIoBadge from "@components/badges/CodeLanguageShieldIoBadge";
+import RepoShieldIoBadge from "@components/badges/RepoShieldIoBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
 
@@ -110,11 +111,33 @@ const OpenSourceBuildersTable = ({ data }) => {
               <div>
                 {record.mostRecentRepo?.description ||
                   "No Description Provided"}
-                {record.mostRecentRepo?.language && (
-                  <div style={{ marginTop: "8px" }}>
-                    <CodeLanguageShieldIoBadge
-                      language={record.mostRecentRepo.language}
-                    />
+                {(record.mostRecentRepo?.language ||
+                  record.mostRecentRepo?.url) && (
+                  <div
+                    style={{
+                      marginTop: "8px",
+                      display: "flex",
+                      gap: "8px",
+                      alignItems: "center",
+                    }}
+                  >
+                    {record.mostRecentRepo?.language && (
+                      <a
+                        href={record.mostRecentRepo?.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <CodeLanguageShieldIoBadge
+                          language={record.mostRecentRepo.language}
+                        />
+                      </a>
+                    )}
+                    {record.mostRecentRepo?.url && (
+                      <RepoShieldIoBadge
+                        githubUrl={record.mostRecentRepo.url}
+                        text="Project on Github"
+                      />
+                    )}
                   </div>
                 )}
               </div>

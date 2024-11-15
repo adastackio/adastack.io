@@ -1,4 +1,3 @@
-// components/badges/LanguageBadge.jsx
 import React from "react";
 
 const CodeLanguageShieldIoBadge = ({ language }) => {
@@ -69,7 +68,7 @@ const CodeLanguageShieldIoBadge = ({ language }) => {
   return (
     <img
       src={`https://img.shields.io/badge/${language}-ffffff?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
-      className="shields_io_button"
+      className="shields_io_language"
       alt={`${language} badge`}
     />
   );
