@@ -3,6 +3,7 @@ import { Table, Tag, Typography, Tooltip } from "antd";
 import { CopyIcon, CopySuccessIcon } from "@components/icons";
 import StarBadge from "@components/badges/StarBadge";
 import GithubBadge from "@components/badges/GithubBadge";
+import CodingLanguageBadge from "@components/badges/CodingLanguageBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
 
@@ -45,7 +46,8 @@ const OpenSourceBuildersTable = ({ data }) => {
       key: "teamGithubURL",
       width: 170,
       render: (teamGithubURL, record) => {
-          return <>
+        return (
+          <>
             <GithubBadge teamGithubURL={teamGithubURL} error={record.error} />
             <Paragraph
               copyable={{
@@ -57,7 +59,8 @@ const OpenSourceBuildersTable = ({ data }) => {
                 tooltips: ["Copy GitHub URL", "Copied"],
               }}
             ></Paragraph>
-          </>;
+          </>
+        );
       },
     },
     {
@@ -100,7 +103,17 @@ const OpenSourceBuildersTable = ({ data }) => {
         <>
           <Tooltip
             title={
-              record.mostRecentRepo?.description || "No Description Provided"
+              <div>
+                {record.mostRecentRepo?.description ||
+                  "No Description Provided"}
+                {record.mostRecentRepo?.language && (
+                  <div style={{ marginTop: "8px" }}>
+                    <CodingLanguageBadge
+                      language={record.mostRecentRepo.language}
+                    />
+                  </div>
+                )}
+              </div>
             }
           >
             <span className="latest-commit-badge-container">
