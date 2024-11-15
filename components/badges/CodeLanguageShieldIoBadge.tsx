@@ -1,7 +1,7 @@
 // components/badges/LanguageBadge.jsx
 import React from "react";
 
-const CodingLanguageBadge = ({ language }) => {
+const CodeLanguageShieldIoBadge = ({ language }) => {
   if (!language) return null;
 
   // Convert language name to lowercase and handle special cases
@@ -75,4 +75,4 @@ const CodingLanguageBadge = ({ language }) => {
   );
 };
 
-export default CodingLanguageBadge;
+export default CodeLanguageShieldIoBadge;

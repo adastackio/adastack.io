@@ -3,7 +3,7 @@ import { Table, Tag, Typography, Tooltip } from "antd";
 import { CopyIcon, CopySuccessIcon } from "@components/icons";
 import StarBadge from "@components/badges/StarBadge";
 import TeamGithubBadge from "@components/badges/TeamGithubBadge";
-import CodingLanguageBadge from "@components/badges/CodingLanguageBadge";
+import CodeLanguageShieldIoBadge from "@components/badges/CodeLanguageShieldIoBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
 
@@ -112,7 +112,7 @@ const OpenSourceBuildersTable = ({ data }) => {
                   "No Description Provided"}
                 {record.mostRecentRepo?.language && (
                   <div style={{ marginTop: "8px" }}>
-                    <CodingLanguageBadge
+                    <CodeLanguageShieldIoBadge
                       language={record.mostRecentRepo.language}
                     />
                   </div>
