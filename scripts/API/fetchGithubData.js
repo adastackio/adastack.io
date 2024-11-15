@@ -34,8 +34,6 @@ const fetchGithubData = async (url) => {
     }
 
     const data = await response.json();
-    console.log(data);
-    alert(data);
 
     if (data.errors) {
       throw new Error(data.errors[0].message);

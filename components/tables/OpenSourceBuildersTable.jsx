@@ -1,11 +1,12 @@
 import React from "react";
-import { Table, Tag, Typography } from "antd";
-const { Paragraph } = Typography;
+import { Table, Tag, Typography, Tooltip } from "antd";
 import { CopyIcon, CopySuccessIcon } from "@components/icons";
 import StarBadge from "@components/badges/StarBadge";
 import GithubBadge from "@components/badges/GithubBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
+
+const { Paragraph } = Typography;
 
 const OpenSourceBuildersTable = ({ data }) => {
   const columns = [
@@ -13,7 +14,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Team",
       dataIndex: "name",
       key: "name",
-      fixed: 'left',
+      fixed: "left",
       width: 230,
       sorter: (a, b) => a.name.localeCompare(b.name),
       render: (name, record) => (
@@ -43,21 +44,21 @@ const OpenSourceBuildersTable = ({ data }) => {
       dataIndex: "teamGithubURL",
       key: "teamGithubURL",
       width: 170,
-      render: (teamGithubURL, record) => (
-        <>
-          <GithubBadge teamGithubURL={teamGithubURL} error={record.error} />
-          <Paragraph
-            copyable={{
-              text: teamGithubURL,
-              icon: [
-                <CopyIcon key="copy-icon" />,
-                <CopySuccessIcon key="copy-icon" />,
-              ],
-              tooltips: ["Copy GitHub URL", "Copied"],
-            }}
-          ></Paragraph>
-        </>
-      ),
+      render: (teamGithubURL, record) => {
+          return <>
+            <GithubBadge teamGithubURL={teamGithubURL} error={record.error} />
+            <Paragraph
+              copyable={{
+                text: teamGithubURL,
+                icon: [
+                  <CopyIcon key="copy-icon" />,
+                  <CopySuccessIcon key="copy-icon" />,
+                ],
+                tooltips: ["Copy GitHub URL", "Copied"],
+              }}
+            ></Paragraph>
+          </>;
+      },
     },
     {
       title: "Sum of Stars",
@@ -97,7 +98,15 @@ const OpenSourceBuildersTable = ({ data }) => {
       },
       render: (pushedAt, record) => (
         <>
-          <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
+          <Tooltip
+            title={
+              record.mostRecentRepo?.description || "No Description Provided"
+            }
+          >
+            <span className="latest-commit-badge-container">
+              <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
+            </span>
+          </Tooltip>
           &nbsp;
           <span className="text-gray-400">
             {record.mostRecentRepo?.timeSinceLastCommit || "..."}
