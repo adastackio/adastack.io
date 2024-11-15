@@ -68,7 +68,7 @@ const CodeLanguageShieldIoBadge = ({ language }) => {
   return (
     <img
       src={`https://img.shields.io/badge/${language}-ffffff?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
-      className="shields_io_language"
+      className="shields_io_language_badge"
       alt={`${language} badge`}
     />
   );

@@ -42,6 +42,24 @@ const OpenSourceBuildersTable = ({ data }) => {
       ),
     },
     {
+      title: "Sum of Stars",
+      dataIndex: "starCount",
+      key: "starCount",
+      width: 100,
+      defaultSortOrder: "descend",
+      sorter: {
+        compare: (a, b) => a.starCount - b.starCount,
+        multiple: 2,
+      },
+      render: (starCount, record) => (
+        <StarBadge
+          teamGithubURL={record.teamGithubURL}
+          starCount={starCount}
+          error={record.error}
+        />
+      ),
+    },
+    {
       title: "Team GitHub",
       dataIndex: "teamGithubURL",
       key: "teamGithubURL",
@@ -69,31 +87,12 @@ const OpenSourceBuildersTable = ({ data }) => {
       },
     },
     {
-      title: "Sum of Stars",
-      dataIndex: "starCount",
-      key: "starCount",
-      width: 110,
-      defaultSortOrder: "descend",
-      sorter: {
-        compare: (a, b) => a.starCount - b.starCount,
-        multiple: 2,
-      },
-      render: (starCount, record) => (
-        <StarBadge
-          teamGithubURL={record.teamGithubURL}
-          starCount={starCount}
-          error={record.error}
-        />
-      ),
-    },
-    {
       title: "Latest Commit",
       dataIndex: ["mostRecentRepo", "pushedAt"],
       key: "pushedAt",
       width: 240,
       ellipsis: true,
       sorter: {
-        multiple: 2,
         compare: (a, b) => {
           const dateA = a.mostRecentRepo?.pushedAt
             ? new Date(a.mostRecentRepo.pushedAt).getTime()
@@ -103,6 +102,7 @@ const OpenSourceBuildersTable = ({ data }) => {
             : 0;
           return dateB - dateA;
         },
+        multiple: 3,
       },
       render: (pushedAt, record) => (
         <>
@@ -161,13 +161,40 @@ const OpenSourceBuildersTable = ({ data }) => {
       dataIndex: "tag",
       sorter: {
         compare: (a, b) => {
-          const tagsA = Array.isArray(a.tags) ? a.tags : [];
-          const tagsB = Array.isArray(b.tags) ? b.tags : [];
-          const tagA = tagsA[0] || "";
-          const tagB = tagsB[0] || "";
-          return tagA.localeCompare(tagB);
+          const priorityOrder = [
+            "Audits",
+            "Organization",
+            "dApp",
+            "Dev Company",
+            "Tools",
+          ];
+
+          const getPriorityScore = (tags) => {
+            if (!Array.isArray(tags) || tags.length === 0) return Infinity;
+            return Math.min(
+              ...tags.map((tag) => {
+                const index = priorityOrder.indexOf(tag);
+                return index === -1 ? Infinity : index;
+              })
+            );
+          };
+
+          const scoreA = getPriorityScore(a.tags);
+          const scoreB = getPriorityScore(b.tags);
+
+          if (scoreA !== scoreB) {
+            return scoreA - scoreB;
+          }
+
+          // If priority scores are the same, sort by number of tags (more tags first)
+          if (a.tags.length !== b.tags.length) {
+            return b.tags.length - a.tags.length;
+          }
+
+          // If number of tags is the same, sort alphabetically
+          return a.tags.join(",").localeCompare(b.tags.join(","));
         },
-        multiple: 3,
+        multiple: 2,
       },
       filters: [
         {

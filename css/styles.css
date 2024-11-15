@@ -369,6 +369,11 @@ img.shields_io_button {
   margin-bottom: -5px;
 }
 
+.shields_io_language_badge,
+.shields_io_repo_badge {
+  padding-bottom: 5px;
+}
+
 .favicon-custom-css {
   border-color: #4b5563;
   margin-top: 2px;
@@ -458,8 +463,8 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
 /* Ant Design Modifications */
 .ant-table-cell .ant-typography {
   display: inline-block;
-  margin-bottom: 0px;
-  margin-right: 2px;
+  margin-bottom: 0px !important;
+  margin-right: 2px !important;
 }
 
 .ant-typography-copy svg {
@@ -490,7 +495,8 @@ td.ant-table-cell {
 
 /* Media Queries */
 /* XS Size */
-@media (max-width: 544px) {}
+@media (max-width: 544px) {
+}
 /* S Size */
 @media (min-width: 545px) and (max-width: 767px) {
 }
