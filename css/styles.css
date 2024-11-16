@@ -460,6 +460,10 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   width: 100px;
 }
 
+.last-commit-badge-container {
+  display: inline;
+}
+
 /* Ant Design Modifications */
 .ant-table-cell .ant-typography {
   display: inline-block;

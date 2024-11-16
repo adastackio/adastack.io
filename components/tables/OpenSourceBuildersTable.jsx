@@ -107,6 +107,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       render: (pushedAt, record) => (
         <>
           <Tooltip
+            mouseEnterDelay={0.6}
             title={
               <div>
                 {record.mostRecentRepo?.description ||

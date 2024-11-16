@@ -1,4 +1,6 @@
 import React from "react";
+import { Button } from "antd";
+import { SingleCommitIcon } from "@components/icons";
 
 const LatestCommitBadge = ({ repoURL }) => {
   if (!repoURL) return null;
@@ -7,9 +9,14 @@ const LatestCommitBadge = ({ repoURL }) => {
 
   return (
     <a href={repoURL} target="_blank" rel="noopener noreferrer">
-      <span className="last-commit-badge-content inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-sm text-blue-700 ring-1 ring-inset ring-blue-700/10 nx-whitespace-nowrap custom-badge text-blue-700 ">
-        {repoName}
-      </span>
+      <div className="last-commit-badge-container">
+        <Button
+          icon={<SingleCommitIcon />}
+          className="last-commit-badge-content"
+        >
+          {repoName}
+        </Button>
+      </div>
     </a>
   );
 };
