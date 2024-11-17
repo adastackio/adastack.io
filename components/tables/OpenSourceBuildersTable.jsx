@@ -69,8 +69,9 @@ const OpenSourceBuildersTable = ({ data }) => {
       width: 240,
       ellipsis: true,
       sorter: {
-        compare: (a, b) => {},
-        multiple: 3,
+        compare: (a, b) =>
+          (b.mostStarredRepo?.stars || 0) - (a.mostStarredRepo?.stars || 0),
+        multiple: 2,
       },
       render: (pushedAt, record) => (
         <>
@@ -83,11 +84,10 @@ const OpenSourceBuildersTable = ({ data }) => {
         </>
       ),
     },
-    ,
     {
       title: "Latest Commit",
-      dataIndex: ["mostRecentRepo", "pushedAt"],
-      key: "pushedAt",
+      dataIndex: ["mostRecentRepo", "url"],
+      key: "url",
       width: 240,
       ellipsis: true,
       sorter: {
@@ -102,7 +102,7 @@ const OpenSourceBuildersTable = ({ data }) => {
         },
         multiple: 3,
       },
-      render: (pushedAt, record) => (
+      render: (url, record) => (
         <>
           <Tooltip
             mouseEnterDelay={0.6}
