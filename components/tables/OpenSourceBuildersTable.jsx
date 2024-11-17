@@ -1,6 +1,5 @@
 import React from "react";
 import { Table, Tag, Typography, Tooltip } from "antd";
-import { CopyIcon, CopySuccessIcon } from "@components/icons";
 import StarBadge from "@components/badges/StarBadge";
 import TeamGithubBadge from "@components/badges/TeamGithubBadge";
 import CodeLanguageShieldIoBadge from "@components/badges/CodeLanguageShieldIoBadge";

@@ -1,5 +1,5 @@
 import React from "react";
-import { GithubIcon } from "@components/icons";
+import { GithubIcon } from "../../assets/icons";
 
 interface TeamGithubBadgeProps {
   teamGithubURL: string;

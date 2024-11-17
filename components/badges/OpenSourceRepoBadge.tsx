@@ -1,5 +1,5 @@
 import React from "react";
-import { OpenSourceIcon } from "@components/icons";
+import { OpenSourceIcon } from "../../assets/icons";
 
 const OpenSourceRepoBadge = ({ repoURL }) => {
   if (!repoURL) return null;

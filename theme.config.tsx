@@ -6,7 +6,7 @@ import {
   AdaStackMid,
   XIcon,
   GithubNavIcon,
-} from "@components/icons";
+} from "./assets/icons";
 import { Nunito } from "next/font/google";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";

@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "antd";
-import { SingleCommitIcon } from "@components/icons";
+import { SingleCommitIcon } from "../../assets/icons";
 
 const LatestCommitBadge = ({ repoURL }) => {
   if (!repoURL) return null;

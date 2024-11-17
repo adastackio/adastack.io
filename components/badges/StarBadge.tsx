@@ -1,5 +1,5 @@
 import React from "react";
-import { StarIcon } from "@components/icons";
+import { StarIcon } from "../../assets/icons";
 
 interface StarBadgeProps {
   teamGithubURL: string;
