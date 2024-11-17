@@ -6,6 +6,7 @@ import CodeLanguageShieldIoBadge from "@components/badges/CodeLanguageShieldIoBa
 import RepoShieldIoBadge from "@components/badges/RepoShieldIoBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
+import { CopyIcon, CopySuccessIcon } from "../../assets/icons";
 
 const { Paragraph } = Typography;
 
