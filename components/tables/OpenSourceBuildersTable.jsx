@@ -1,9 +1,9 @@
 import React from "react";
-import { Table, Tag, Typography, Tooltip } from "antd";
+import { Table, Tag, Typography, Tooltip, Button } from "antd";
 import StarBadge from "@components/badges/StarBadge";
 import TeamGithubBadge from "@components/badges/TeamGithubBadge";
-import CodeLanguageShieldIoBadge from "@components/badges/CodeLanguageShieldIoBadge";
-import RepoShieldIoBadge from "@components/badges/RepoShieldIoBadge";
+import CodeLanguageShieldIoBadge from "@components/badges/shield_io_badges/CodeLanguageShieldIoBadge";
+import RepoShieldIoBadge from "@components/badges/shield_io_badges/RepoShieldIoBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
 import { CopyIcon, CopySuccessIcon } from "../../assets/icons";
@@ -11,6 +11,7 @@ import { CopyIcon, CopySuccessIcon } from "../../assets/icons";
 const { Paragraph } = Typography;
 
 const OpenSourceBuildersTable = ({ data }) => {
+  console.log("OpenSourceBuildersTable data:", data);
   const columns = [
     {
       title: "Team",
@@ -137,21 +138,42 @@ const OpenSourceBuildersTable = ({ data }) => {
       render: (teamGithubURL, record) => {
         return (
           <>
-            <TeamGithubBadge
-              teamGithubURL={teamGithubURL}
-              text="Team"
-              error={record.error}
-            />
-            <Paragraph
-              copyable={{
-                text: teamGithubURL,
-                icon: [
-                  <CopyIcon key="copy-icon" />,
-                  <CopySuccessIcon key="copy-icon" />,
-                ],
-                tooltips: ["Copy GitHub URL", "Copied"],
-              }}
-            ></Paragraph>
+            {" "}
+            <Tooltip
+              mouseEnterDelay={0.6}
+              title={
+                <div>
+                  Repo Count: {record.repoCount}
+                  <Button>See all Repos</Button>
+                  <br />
+                  Most Starred Repo: {record.mostRecentRepo.name}
+                  <Button>See latest repo</Button>
+                  <br />
+                  Latest Commit: {record.mostRecentRepo.name}
+                  <Button>See latest repo</Button>
+                  <br />
+                  Website: {record.website}
+                  <Button>Visit the Website</Button>
+                  <br />
+                </div>
+              }
+            >
+              <TeamGithubBadge
+                teamGithubURL={teamGithubURL}
+                text="Team"
+                error={record.error}
+              />
+              <Paragraph
+                copyable={{
+                  text: teamGithubURL,
+                  icon: [
+                    <CopyIcon key="copy-icon" />,
+                    <CopySuccessIcon key="copy-icon" />,
+                  ],
+                  tooltips: ["Copy GitHub URL", "Copied"],
+                }}
+              ></Paragraph>
+            </Tooltip>
           </>
         );
       },
