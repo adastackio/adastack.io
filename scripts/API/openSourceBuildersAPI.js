@@ -108,9 +108,16 @@ const calculateRepoStats = (repos) => {
 
   const starCount = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
   const repoCount = repos.length;
+
+  // Find most recent repo (already sorted by pushed_at)
   const mostRecentRepo = repos[0];
   const mostRecentDate = new Date(mostRecentRepo.pushed_at);
   const timeSinceLastCommit = timeAgo.format(mostRecentDate, "mini-now");
+
+  // Find most starred repo
+  const mostStarredRepo = [...repos].sort(
+    (a, b) => b.stargazers_count - a.stargazers_count
+  )[0];
 
   return {
     starCount,
@@ -124,6 +131,14 @@ const calculateRepoStats = (repos) => {
       stars: mostRecentRepo.stargazers_count,
       language: mostRecentRepo.language,
       pushedAt: mostRecentRepo.pushed_at,
+    },
+    mostStarredRepo: {
+      url: mostStarredRepo.html_url,
+      name: mostStarredRepo.name,
+      description: mostStarredRepo.description,
+      stars: mostStarredRepo.stargazers_count,
+      language: mostStarredRepo.language,
+      pushedAt: mostStarredRepo.pushed_at,
     },
   };
 };
@@ -159,6 +174,7 @@ const openSourceBuildersAPI = async (teamData) => {
           repoCount: stats.repoCount,
           repos: stats.repos,
           mostRecentRepo: stats.mostRecentRepo,
+          mostStarredRepo: stats.mostStarredRepo,
           reposOnGithub,
           error: null,
         };
@@ -171,6 +187,7 @@ const openSourceBuildersAPI = async (teamData) => {
           repos: null,
           repoCount: null,
           mostRecentRepo: null,
+          mostStarredRepo: null,
           reposOnGithub: null,
           error: error.message || "An unknown error occurred",
         };
