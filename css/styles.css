@@ -471,6 +471,11 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   margin-right: 2px !important;
 }
 
+.last-commit-badge-container .last-commit-badge-content {
+  padding-left: 3px !important;
+  padding-right: 10px;
+}
+
 .ant-typography-copy svg {
   margin-bottom: -6px;
   opacity: 25%;
