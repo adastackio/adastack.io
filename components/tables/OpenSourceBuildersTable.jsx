@@ -6,6 +6,7 @@ import CodeLanguageShieldIoBadge from "@components/badges/shield_io_badges/CodeL
 import RepoShieldIoBadge from "@components/badges/shield_io_badges/RepoShieldIoBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
+import MostStarredCommitBadge from "@components/badges/MostStarredCommitBadge";
 import { CopyIcon, CopySuccessIcon } from "../../assets/icons";
 
 const { Paragraph } = Typography;
@@ -61,6 +62,28 @@ const OpenSourceBuildersTable = ({ data }) => {
         />
       ),
     },
+    {
+      title: "Most Starred Repo",
+      dataIndex: ["mostStarredRepo", "pushedAt"],
+      key: "pushedAt",
+      width: 240,
+      ellipsis: true,
+      sorter: {
+        compare: (a, b) => {},
+        multiple: 3,
+      },
+      render: (pushedAt, record) => (
+        <>
+          <div>
+            <MostStarredCommitBadge
+              repoURL={record.mostStarredRepo?.url || ""}
+              repoStarCount={record.mostStarredRepo?.stars || ""}
+            />
+          </div>
+        </>
+      ),
+    },
+    ,
     {
       title: "Latest Commit",
       dataIndex: ["mostRecentRepo", "pushedAt"],
@@ -119,9 +142,9 @@ const OpenSourceBuildersTable = ({ data }) => {
               </div>
             }
           >
-            <span className="latest-commit-badge-container">
+            <div>
               <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
-            </span>
+            </div>
           </Tooltip>
           &nbsp;
           <span className="text-gray-400">
