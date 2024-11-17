@@ -1,7 +1,6 @@
 import TimeAgo from "javascript-time-ago";
 import en from "javascript-time-ago/locale/en";
 import { Octokit } from "@octokit/rest";
-import { graphql } from "@octokit/graphql";
 
 TimeAgo.addDefaultLocale(en);
 const timeAgo = new TimeAgo("en-US");
@@ -109,7 +108,7 @@ const calculateRepoStats = (repos) => {
 
   const starCount = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
   const repoCount = repos.length;
-  const mostRecentRepo = repos[0]; 
+  const mostRecentRepo = repos[0];
   const mostRecentDate = new Date(mostRecentRepo.pushed_at);
   const timeSinceLastCommit = timeAgo.format(mostRecentDate, "mini-now");
 
@@ -149,6 +148,10 @@ const openSourceBuildersAPI = async (teamData) => {
         const { repos, totalStars } = await fetchAllRepos(repoOwner);
         const stats = calculateRepoStats(repos);
 
+        const reposOnGithub = urlParts[0].startsWith("@")
+          ? `https://github.com/orgs/${repoOwner.substring(1)}/repositories`
+          : `https://github.com/${repoOwner}?tab=repositories`;
+
         return {
           ...team,
           key: `key-${index}-${team.website}`,
@@ -156,6 +159,7 @@ const openSourceBuildersAPI = async (teamData) => {
           repoCount: stats.repoCount,
           repos: stats.repos,
           mostRecentRepo: stats.mostRecentRepo,
+          reposOnGithub,
           error: null,
         };
       } catch (error) {
@@ -167,6 +171,7 @@ const openSourceBuildersAPI = async (teamData) => {
           repos: null,
           repoCount: null,
           mostRecentRepo: null,
+          reposOnGithub: null,
           error: error.message || "An unknown error occurred",
         };
       }

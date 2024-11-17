@@ -1,5 +1,5 @@
 import React from "react";
-import { Table, Tag, Typography, Tooltip, Button } from "antd";
+import { Table, Tag, Typography, Tooltip, Button, Card, Space } from "antd";
 import StarBadge from "@components/badges/StarBadge";
 import TeamGithubBadge from "@components/badges/TeamGithubBadge";
 import CodeLanguageShieldIoBadge from "@components/badges/shield_io_badges/CodeLanguageShieldIoBadge";
@@ -142,20 +142,20 @@ const OpenSourceBuildersTable = ({ data }) => {
             <Tooltip
               mouseEnterDelay={0.6}
               title={
-                <div>
-                  Repo Count: {record.repoCount}
-                  <Button>See all Repos</Button>
-                  <br />
-                  Most Starred Repo: {record.mostRecentRepo.name}
-                  <Button>See latest repo</Button>
-                  <br />
-                  Latest Commit: {record.mostRecentRepo.name}
-                  <Button>See latest repo</Button>
-                  <br />
-                  Website: {record.website}
-                  <Button>Visit the Website</Button>
-                  <br />
-                </div>
+                <Space direction="vertical" size={16}>
+                  <Card
+                    size="small"
+                    title={<a href={record.website}>{record.name}</a>}
+                    extra={<a href={teamGithubURL}>Github</a>}
+                    style={{ width: "auto" }}
+                  >
+                    <a href={record.reposOnGithub}>
+                      <Button block>
+                        See {record.repoCount} Repos on Github
+                      </Button>
+                    </a>
+                  </Card>
+                </Space>
               }
             >
               <TeamGithubBadge
