@@ -60,33 +60,6 @@ const OpenSourceBuildersTable = ({ data }) => {
       ),
     },
     {
-      title: "Team GitHub",
-      dataIndex: "teamGithubURL",
-      key: "teamGithubURL",
-      width: 170,
-      render: (teamGithubURL, record) => {
-        return (
-          <>
-            <TeamGithubBadge
-              teamGithubURL={teamGithubURL}
-              text="GitHub"
-              error={record.error}
-            />
-            <Paragraph
-              copyable={{
-                text: teamGithubURL,
-                icon: [
-                  <CopyIcon key="copy-icon" />,
-                  <CopySuccessIcon key="copy-icon" />,
-                ],
-                tooltips: ["Copy GitHub URL", "Copied"],
-              }}
-            ></Paragraph>
-          </>
-        );
-      },
-    },
-    {
       title: "Latest Commit",
       dataIndex: ["mostRecentRepo", "pushedAt"],
       key: "pushedAt",
@@ -156,9 +129,36 @@ const OpenSourceBuildersTable = ({ data }) => {
       ),
     },
     {
+      title: "Team GitHub",
+      dataIndex: "teamGithubURL",
+      key: "teamGithubURL",
+      width: 170,
+      render: (teamGithubURL, record) => {
+        return (
+          <>
+            <TeamGithubBadge
+              teamGithubURL={teamGithubURL}
+              text="GitHub"
+              error={record.error}
+            />
+            <Paragraph
+              copyable={{
+                text: teamGithubURL,
+                icon: [
+                  <CopyIcon key="copy-icon" />,
+                  <CopySuccessIcon key="copy-icon" />,
+                ],
+                tooltips: ["Copy GitHub URL", "Copied"],
+              }}
+            ></Paragraph>
+          </>
+        );
+      },
+    },
+    {
       title: "Category",
       key: "tag",
-      width: 195,
+      width: 185,
       dataIndex: "tag",
       sorter: {
         compare: (a, b) => {
