@@ -480,6 +480,30 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   margin-right: -8px;
 }
 
+html[style*="color-scheme: dark;"] .team_table_name {
+  color: #c8c8c8;
+}
+
+html[style*="color-scheme: dark;"] .team_table_name:hover {
+  color: #b5a4ff;
+}
+
+html[style*="color-scheme: light;"] .team_table_name {
+  color: #4b5563;
+}
+
+html[style*="color-scheme: light;"] .team_table_name:hover {
+  color: black;
+}
+
+.team_table_name_container:hover {
+  text-decoration: underline;
+}
+
+.ant-table-cell div a {
+  width: 100%;
+}
+
 html[style*="color-scheme: dark;"] .ant-typography-copy svg {
   margin-bottom: -6px;
   opacity: 25%;

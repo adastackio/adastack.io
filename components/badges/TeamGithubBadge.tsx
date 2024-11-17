@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "antd";
 import { GithubIcon } from "../../assets/icons";
 
 interface TeamGithubBadgeProps {
@@ -20,13 +21,14 @@ const TeamGithubBadge: React.FC<TeamGithubBadgeProps> = React.memo(
 
     return (
       <a href={teamGithubURL} target="_blank" rel="noopener noreferrer">
-        <span
-          className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-sm custom-badge text-gray-600 ring-1 ring-inset ring-gray-500/10 w-24 
-         text-blue-700"
-        >
-          <GithubIcon />
-          &nbsp; {text}
-        </span>
+        <div className="badge-container team-github-badge-container inline-flex items-center">
+          <Button
+            icon={<GithubIcon />}
+            className="badge-button team-github-badge-content"
+          >
+            {text}
+          </Button>
+        </div>
       </a>
     );
   }

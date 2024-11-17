@@ -20,25 +20,26 @@ const OpenSourceBuildersTable = ({ data }) => {
       width: 230,
       sorter: (a, b) => a.name.localeCompare(b.name),
       render: (name, record) => (
-        <div className="flex items-center justify-between w-full">
-          <a className="text-base" href={record.website}>
+        <a className="text-base team_table_name" href={record.website}>
+          <div className="flex items-center justify-between w-full">
             <span className="flex items-center">
               <Favicon url={record.website} />
-              &nbsp;{name}
+              &nbsp;<span className="team_table_name_container">{name}</span>
             </span>
-          </a>
-          <Paragraph
-            className="ml-auto"
-            copyable={{
-              text: record.website,
-              icon: [
-                <CopyIcon key="copy-icon" />,
-                <CopySuccessIcon key="copy-icon" />,
-              ],
-              tooltips: ["Copy Website URL", "Copied"],
-            }}
-          ></Paragraph>
-        </div>
+
+            <Paragraph
+              className="ml-auto"
+              copyable={{
+                text: record.website,
+                icon: [
+                  <CopyIcon key="copy-icon" />,
+                  <CopySuccessIcon key="copy-icon" />,
+                ],
+                tooltips: ["Copy Website URL", "Copied"],
+              }}
+            ></Paragraph>
+          </div>
+        </a>
       ),
     },
     {
@@ -138,7 +139,7 @@ const OpenSourceBuildersTable = ({ data }) => {
           <>
             <TeamGithubBadge
               teamGithubURL={teamGithubURL}
-              text="GitHub"
+              text="Team"
               error={record.error}
             />
             <Paragraph

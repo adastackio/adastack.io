@@ -9,10 +9,10 @@ const LatestCommitBadge = ({ repoURL }) => {
 
   return (
     <a href={repoURL} target="_blank" rel="noopener noreferrer">
-      <div className="last-commit-badge-container">
+      <div className="badge-container last-commit-badge-container">
         <Button
           icon={<SingleCommitIcon />}
-          className="last-commit-badge-content"
+          className="badge-button last-commit-badge-content"
         >
           {repoName}
         </Button>
