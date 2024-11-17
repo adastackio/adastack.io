@@ -476,6 +476,16 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   padding-right: 10px;
 }
 
+.last-commit-badge-container .last-commit-badge-content .ant-btn-icon {
+  margin-right: -8px;
+}
+
+html[style*="color-scheme: dark;"] .ant-typography-copy svg {
+  margin-bottom: -6px;
+  opacity: 25%;
+  fill: white;
+}
+
 .ant-typography-copy svg {
   margin-bottom: -6px;
   opacity: 25%;
