@@ -1,0 +1,707 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Links */
+a {
+  text-decoration: none !important;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+li a {
+  color: #007bff;
+}
+
+html[style*="color-scheme: dark;"] a {
+  color: #b5a4ff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Site logo */
+.adastack-title {
+  margin-left: -30px;
+}
+
+html[style*="color-scheme: dark;"] .adastack-title {
+  color: #f3f4f6;
+}
+
+svg.adastack-logo {
+  padding: 13px;
+}
+
+/* Background on light */
+html[style*="color-scheme: light;"] div.nx-mx-auto.nx-flex.nx-max-w-\[90rem\] {
+  background-color: #fafafa;
+}
+
+/* Background on dark */
+html[style*="color-scheme: dark;"]
+  .nextra-nav-container
+  .nextra-nav-container-blur {
+  background-color: #050505 !important;
+}
+
+/* Navigation */
+html .nextra-nav-container a.nx-p-2.nx-text-current {
+  padding: 2px !important;
+}
+
+.nextra-search {
+  margin-right: 12px;
+}
+
+/* Nav background on light */
+html .nextra-nav-container .nextra-nav-container-blur {
+  background-color: #fafaf9 !important;
+}
+
+/* Home animation */
+#animation {
+  position: relative;
+  height: calc(100vh - 4rem);
+  width: calc(100vw - 16rem - 24px);
+  z-index: 0;
+}
+
+article.nextra-content:has(#animation) {
+  /* Styles to apply to the article element */
+  overflow: hidden;
+  height: calc(100vh - var(--nextra-navbar-height));
+}
+
+html[style*="color-scheme: light;"] #animation {
+  background-color: #1c1c1c;
+  background-size: cover;
+}
+
+html[style*="color-scheme: dark;"] #animation {
+  background-color: #1c1c1c;
+  background-size: cover;
+}
+
+:is(html[class~="light"]) .animation-overlay {
+  position: absolute; /* Cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Dark overlay with transparency */
+  z-index: 1; /* Ensure it sits above other content */
+}
+
+:is(html[class~="dark"]) .animation-overlay {
+  position: absolute; /* Cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25); /* Dark overlay with transparency */
+  z-index: 1; /* Ensure it sits above other content */
+}
+
+.animation-content-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 65px 55px 50px;
+  z-index: 2;
+}
+
+html[style*="color-scheme: light;"] .animation-content-container {
+  background: rgb(250 250 250);
+  background: -webkit-linear-gradient(to bottom, #ddd, #ffffff);
+  background: linear-gradient(to bottom, #ddd, #ffffff);
+  backdrop-filter: blur(6px); /* Apply blur to the background */
+  border: 1px solid rgba(255, 255, 255, 0.12); /* Add a subtle border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+html[style*="color-scheme: dark;"] .animation-content-container {
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(12px); /* Apply blur to the background */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.animation-title-container {
+  width: 100%;
+}
+
+.animation-title {
+  font-size: 28px;
+  margin-top: -20px;
+  text-align: center;
+  font-family: "__Nunito_7d500b", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  z-index: 3;
+}
+
+.animation-subtitle {
+  font-size: 1rem;
+  margin-top: 4px;
+  margin-bottom: 14px;
+  text-align: center;
+  z-index: 3;
+}
+
+html[style*="color-scheme: light;"] .animation-title,
+html[style*="color-scheme: light;"] .animation-subtitle {
+  color: #272727;
+}
+
+html[style*="color-scheme: dark;"] .animation-title,
+html[style*="color-scheme: dark;"] .animation-subtitle {
+  color: #fafaf9;
+}
+
+ul.animation-description-text {
+  list-style: circle;
+  font-size: 14px;
+  padding: 11px 0px 17px 0px;
+  margin-left: 15px;
+}
+
+ul.animation-description-text a {
+  text-decoration: underline !important;
+}
+
+.animation-button-container {
+  text-align: center;
+}
+
+.animation-button {
+  white-space: nowrap;
+  overflow: hidden;
+  color: black;
+  padding: 10px 23px;
+}
+
+:is(html[class~="light"]) .animation-button:first-of-type {
+  border: 1px solid #ccc;
+}
+
+:is(html[class~="dark"]) .animation-button:first-of-type {
+  border: 1px solid #555;
+  background-color: rgba(0, 0, 0, 0.16);
+  color: #fafaf9;
+}
+
+:is(html[class~="light"]) .animation-button:hover {
+  background-color: rgba(100, 100, 100, 0.1);
+  color: black;
+}
+
+:is(html[class~="dark"]) .animation-button:hover {
+  background-color: rgba(0, 0, 0, 0.32);
+  color: white;
+}
+
+.animation-button-mobile {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+/* Home navigation Cards */
+.nextra-cards.home-navigation-cards {
+  /* 3 columns,  becomes 4 columns if you set layout:full in meta.json */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* For 1 column, comment all of these out and set --rows declaration num to 1 in cards.js file */
+  display: block;
+}
+
+a.nextra-card {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-radius: 0.2rem;
+}
+
+a.nextra-card:hover {
+  cursor: pointer;
+}
+
+a.nextra-card .nextra-card-title {
+  font-size: 20px;
+  padding-left: 30px;
+  font-weight: 400;
+  font-family: "__Nunito_7d500b", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a.nextra-card .nextra-card-title svg {
+  display: none;
+}
+
+/* Home card light bg color */
+:is(html[class~="light"]) .home-card.bg-light-color {
+  background: linear-gradient(180deg, #fff, #fbfbfb 75.62%);
+}
+/* Home card light bg hover color */
+:is(html[class~="light"]) .home-card.bg-light-color:hover {
+  background: linear-gradient(180deg, #fff, #f6f6f6 75.62%);
+}
+/* Home card dark bg color */
+:is(html[class~="dark"]) .home-card.bg-dark-color {
+  background: linear-gradient(180deg, #1e1e1e, #121212);
+
+  box-shadow: 14 0 0 1px #fff;
+}
+/* Home card dark bg hover color */
+:is(html[class~="dark"]) .home-card.bg-dark-color:hover {
+  background: linear-gradient(180deg, #1e1e1e, #151515);
+  box-shadow: 0 0 0 1px #0080ff;
+}
+
+/* Left Sidebar */
+.nextra-scrollbar {
+  padding: 1rem 0rem 1rem 0rem !important;
+}
+
+button:has(.sidebar-menu-item) {
+  margin-bottom: -4px;
+  padding: 11px 0 11px 10px;
+}
+
+:is(html[class~="light"]) button:has(.sidebar-menu-item) {
+  border-bottom: #e5e5e52e solid;
+}
+
+:is(html[class~="dark"]) button:has(.sidebar-menu-item) {
+  border-bottom: #2929292e solid;
+}
+
+a:has(.sidebar-menu-item) {
+  padding: 10px 0 10px 10px;
+}
+
+.light-sidebar-item-highlighted {
+  background-color: rgba(243, 244, 246, 1);
+  color: rgba(17, 24, 39, 1);
+}
+
+.dark-sidebar-item-highlighted {
+  background-color: hsla(204, 100%, 94%, 0.05);
+  color: rgba(249, 250, 251, 1);
+}
+
+/* Page Content */
+/* Post header H1 */
+h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx-text-slate-100 {
+  font-weight: 500;
+}
+
+.nextra-breadcrumb {
+  font-size: 0.675rem;
+}
+
+/* Right Sidebar */
+html[style*="color-scheme: light;"]
+  .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
+  background-color: #fafafa;
+  box-shadow: none;
+  bottom: -15px;
+}
+
+html[style*="color-scheme: light;"]
+  p.nx-mb-4.nx-font-semibold.nx-tracking-tight
+  + ul {
+  background-color: #fafafa;
+}
+
+footer {
+  display: none;
+}
+
+/* Social media link icons */
+.tag-icon-button {
+  max-height: 25px;
+  max-width: 25px;
+  margin-top: 0.5rem;
+}
+
+.tag-icon {
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.tag-icon-svg {
+  position: absolute;
+}
+
+.tag-icon-open-source {
+  height: 16px;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tag-icon-open-website {
+  height: 18px;
+  top: 45%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+}
+
+.tag-icon-x {
+  height: 14px;
+  top: 39%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+
+img.shields_io_button {
+  display: inline;
+}
+
+.shields_io_inline-badge {
+  display: inline-block;
+  margin-bottom: -5px;
+}
+
+.shields_io_language_badge,
+.shields_io_repo_badge {
+  padding-bottom: 5px;
+}
+
+.favicon-custom-css {
+  border-color: #4b5563;
+  margin-top: 2px;
+}
+
+.github-badge {
+  display: inline-flex;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica",
+    "Arial", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 14px;
+  border-radius: 3px;
+  background-color: #eee;
+  color: #333;
+  text-decoration: none;
+}
+
+.github-badge .label {
+  padding: 2px 5px;
+  background-color: #555;
+  color: #fff;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.github-badge .stars {
+  padding: 2px 5px;
+}
+
+.github-badge:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.page-in-development {
+  opacity: 0.5;
+  color: #888;
+  text-decoration: none;
+  position: relative;
+}
+
+.nextra-toc.nx-hidden {
+  display: none !important;
+}
+
+:is(html[class~="dark"]) li.ant-pagination-total-text {
+  color: #a3a3a3;
+}
+
+:is(html[class~="light"]) li.ant-pagination-total-text {
+  color: black;
+}
+
+a[class*="nx-cursor-pointer"]:has(.page-in-development) {
+  cursor: default !important;
+}
+
+a[class*="nx-cursor-pointer"] .page-in-development::after {
+  content: "Coming Soon";
+  position: absolute;
+  right: -130px;
+  top: 50%;
+  transform: translate(-40px, -50%);
+  background-color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out, right 0.2s ease-in-out;
+  z-index: 10;
+}
+
+a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
+  opacity: 1;
+  right: -140px;
+}
+
+/* Badges */
+.svg-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.last-commit-badge-container {
+  display: inline;
+}
+
+/* Ant Design Modifications */
+.ant-table-cell .ant-typography {
+  display: inline-block;
+  margin-bottom: 0px !important;
+  margin-right: 2px !important;
+}
+
+.last-commit-badge-container .last-commit-badge-content {
+  padding-left: 3px !important;
+  padding-right: 10px;
+}
+
+.last-commit-badge-container .last-commit-badge-content .ant-btn-icon {
+  margin-right: -8px;
+}
+
+.stars-across-all-repos-badge-container .stars-across-all-repos-badge-content {
+  padding-left: 10px !important;
+  padding-right: 11px;
+}
+
+.stars-across-all-repos-badge-container
+  .stars-across-all-repos-badge-content
+  .ant-btn-icon {
+  margin-right: -4px;
+}
+
+html[style*="color-scheme: dark;"] .team_table_name {
+  color: #c8c8c8;
+}
+
+html[style*="color-scheme: dark;"] .team_table_name:hover {
+  color: #b5a4ff;
+}
+
+html[style*="color-scheme: light;"] .team_table_name {
+  color: #4b5563;
+}
+
+html[style*="color-scheme: light;"] .team_table_name:hover {
+  color: black;
+}
+
+.team_table_name_container:hover {
+  text-decoration: underline;
+}
+
+.ant-table-cell div a {
+  width: 100%;
+}
+
+html[style*="color-scheme: dark;"] .ant-typography-copy svg {
+  margin-bottom: -6px;
+  opacity: 25%;
+  fill: white;
+}
+
+.ant-typography-copy svg {
+  margin-bottom: -6px;
+  opacity: 25%;
+}
+
+.ant-table-cell div a {
+  color: #007bff;
+}
+
+.ant-spin-nested-loading {
+  width: fit-content;
+}
+
+span.ant-tag {
+  font-size: 10px;
+}
+
+.ant-spin-nested-loading {
+  width: -moz-fit-content !important;
+  width: initial !important;
+}
+
+td.ant-table-cell {
+  padding: 4px 6px !important;
+}
+
+html[style*="color-scheme: light;"] .tooltip-title {
+  color: #c8c8c8;
+}
+
+/* Media Queries */
+/* XS Size */
+@media (max-width: 544px) {
+}
+/* S Size */
+@media (min-width: 545px) and (max-width: 767px) {
+}
+/* Medium */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/* Large */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* Full Size - Extra Large Desktop and Up */
+@media (min-width: 1200px) {
+}
+/* Everything under medium - XS and S Size - Mobile */
+@media (max-width: 767px) {
+  #animation {
+    width: 100vw;
+    height: calc(100vh - 4rem);
+    overflow: hidden;
+  }
+
+  article.nextra-content:has(#animation) {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .animation-button {
+    display: none;
+  }
+
+  article.nextra-content:has(#animation) {
+    overflow: visible;
+  }
+
+  a.nextra-card {
+    margin: 10px 10px;
+  }
+
+  .animation-content-container {
+    overflow: scroll;
+    border-radius: 0px !important;
+    padding: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    border: none;
+  }
+
+  html[style*="color-scheme: light;"] .animation-content-container {
+    height: 100%;
+    width: 102vw;
+    background: transparent;
+    backdrop-filter: blur(0px);
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0;
+  }
+
+  html[style*="color-scheme: dark;"] .animation-content-container {
+    height: 100%;
+    width: 102vw;
+    background: transparent;
+    backdrop-filter: blur(0px);
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0;
+  }
+
+  ul.animation-description-text {
+    color: white;
+  }
+
+  .animation-title-container {
+    width: 100%;
+    top: 44%;
+    left: 50%;
+  }
+  .animation-button-container {
+    display: block;
+    margin: 0 auto;
+  }
+
+  html[style*="color-scheme: light;"] .animation-title,
+  html[style*="color-scheme: dark;"] .animation-title {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: -50px;
+  }
+
+  html[style*="color-scheme: light;"] .animation-subtitle,
+  html[style*="color-scheme: dark;"] .animation-subtitle {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 60px;
+  }
+  .animation-button-mobile {
+    display: block;
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    margin-top: 60px;
+  }
+  button:has(.sidebar-menu-item) {
+    padding: 20px 0 20px 10px;
+  }
+  a:has(.sidebar-menu-item) {
+    padding: 15px 0 15px 10px;
+  }
+  .animation-overlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    position: fixed !important;
+  }
+
+  .hero-bg {
+    object-position: 34%;
+    transform: rotate(180deg);
+    position: fixed !important;
+  }
+  .nextra-cards.home-navigation-cards {
+    z-index: 10;
+    position: relative;
+  }
+
+  .ant-table-cell .ant-typography {
+    display: none;
+  }
+}
+/* Everything Under Large Size */
+@media (max-width: 991px) {
+}
+/* Everything Under Extra Large Size */
+@media (max-width: 1199px) {
+}
+/* Everything Over Small Size */
+@media (min-width: 545px) {
+}
+/* Everything Over Medium Tablet Size */
+@media (min-width: 768px) {
+  #animation {
+    display: block !important; /* Show animation on larger screens */
+  }
+  .nextra-cards {
+    display: none !important; /* Hide cards on larger screens */
+  }
+}
+/* Everything Over Large Size */
+@media (min-width: 992px) {
+}

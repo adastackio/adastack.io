@@ -1,0 +1,254 @@
+---
+seo_title: Open Source Builders
+seo_description: Exploring Cardano's Open Source ecosystem? Explore the developer teams building tools, frameworks, and dApps that drive innovation on Cardano.
+---
+
+# Open Source Builders
+
+Explore the organizations supporting the Cardano ecosystem with open-source tools, frameworks, and dApps.
+
+<br />
+
+import openSourceBuildersAPI from "../../scripts/API/openSourceBuildersAPI"
+import OpenSourceBuildersTable from "../../components/tables/OpenSourceBuildersTable"
+
+export default function OpenSourceBuilders({ sortedOSBuilderData }) {
+  return <OpenSourceBuildersTable data={sortedOSBuilderData} />
+}
+
+export const getStaticProps = async () => {
+  const openSourceBuildersData = [
+    {
+      name: "Input Output",
+      website: "https://iohk.io/",
+      teamGithubURL: "https://github.com/input-output-hk",
+      tags: ["Dev Company"],
+    },
+    {
+      name: "Tweag",
+      website: "https://www.tweag.io/",
+      teamGithubURL: "https://github.com/tweag",
+      tags: ["Dev Company", "Audits"],
+    },
+    {
+      name: "Galois",
+      website: "https://galois.com/",
+      teamGithubURL: "https://github.com/GaloisInc",
+      tags: ["Dev Company"],
+    },
+    {
+      name: "Intersect MBO",
+      website: "https://www.intersectmbo.org/",
+      teamGithubURL: "https://github.com/intersectmbo",
+      tags: ["Organization"],
+    },
+    {
+      name: "Protofire",
+      website: "https://protofire.io/",
+      teamGithubURL: "https://github.com/protofire",
+      tags: ["Dev Company"],
+    },
+    {
+      name: "Cardano Foundation",
+      website: "https://cardanofoundation.org/",
+      teamGithubURL: "https://github.com/cardano-foundation",
+      tags: ["Organization"],
+    },
+    {
+      name: "Metalamp",
+      website: "https://metalamp.io/",
+      teamGithubURL: "https://github.com/fullstack-development",
+      tags: ["Dev Company"],
+    },
+    {
+      name: "Obsidian Systems",
+      website: "https://obsidian.systems/",
+      teamGithubURL: "https://github.com/obsidiansystems",
+      tags: ["Dev Company", "Audits"],
+    },
+    {
+      name: "Well Typed",
+      website: "https://www.well-typed.com/",
+      teamGithubURL: "https://github.com/well-typed",
+      tags: ["Dev Company"],
+    },
+    {
+      name: "Emurgo",
+      website: "https://emurgo.io/",
+      teamGithubURL: "https://github.com/Emurgo",
+      tags: ["Organization"],
+    },
+    {
+      name: "SingularityNET",
+      website: "https://singularitynet.io/",
+      teamGithubURL: "https://github.com/singnet",
+      tags: ["dApp"],
+    },
+    {
+      name: "Eternl Wallet",
+      website: "https://eternl.io/",
+      teamGithubURL: "https://github.com/Tastenkunst",
+      tags: ["dApp"],
+    },
+    {
+      name: "Vacuumlabs",
+      website: "https://vacuumlabs.com/",
+      teamGithubURL: "https://github.com/vacuumlabs",
+      tags: ["Dev Company", "Audits"],
+    },
+    {
+      name: "TxPipe",
+      website: "https://txpipe.io/",
+      teamGithubURL: "https://github.com/txpipe",
+      tags: ["Dev Company", "Audits"],
+    },
+    {
+      name: "DC Spark",
+      website: "https://www.dcspark.io/",
+      teamGithubURL: "https://github.com/dcSpark",
+      tags: ["Dev Company"],
+    },
+    {
+      name: "Mlabs",
+      website: "https://mlabs.city/",
+      teamGithubURL: "https://github.com/mlabs-haskell",
+      tags: ["Dev Company", "Audits"],
+    },
+    {
+      name: "Space Budz",
+      website: "https://spacebudz.io/",
+      teamGithubURL: "https://github.com/spacebudz",
+      tags: ["dApp"],
+    },
+    {
+      name: "Cardano Community",
+      website: "https://cardano-community.github.io",
+      teamGithubURL: "https://github.com/cardano-community",
+      tags: ["Organization"],
+    },
+    {
+      name: "Blockfrost.io",
+      website: "https://blockfrost.io/",
+      teamGithubURL: "https://github.com/blockfrost",
+      tags: ["dApp"],
+    },
+    {
+      name: "ATADA",
+      website: "http://stakepool.at/",
+      teamGithubURL: "https://github.com/gitmachtl",
+      tags: ["Tools"],
+    },
+    {
+      name: "Coti",
+      website: "https://coti.io/",
+      teamGithubURL: "https://github.com/coti-io",
+      tags: ["dApp"],
+    },
+    {
+      name: "Blink Labs",
+      website: "https://blinklabs.io/",
+      teamGithubURL: "https://github.com/blinklabs-io",
+      tags: ["Dev Company"],
+    },
+    {
+      name: "Spectrum Finance",
+      website: "https://spectrum.fi/",
+      teamGithubURL: "https://github.com/spectrum-finance",
+      tags: ["dApp"],
+    },
+    {
+      name: "Mesh",
+      website: "https://meshjs.dev/",
+      teamGithubURL: "https://github.com/MeshJS",
+      tags: ["Tools"],
+    },
+    {
+      name: "Sundae Labs",
+      website: "https://sundae.fi/",
+      teamGithubURL: "https://github.com/SundaeSwap-finance",
+      tags: ["dApp", "Audits"],
+    },
+    {
+      name: "Harmonic Labs",
+      website: "https://www.harmoniclabs.tech/",
+      teamGithubURL: "https://github.com/HarmonicLabs",
+      tags: ["Dev Company"],
+    },
+    {
+      name: "Minswap",
+      website: "https://app.minswap.org/",
+      teamGithubURL: "https://github.com/minswap",
+      tags: ["dApp"],
+    },
+    {
+      name: "Liqwid Finance",
+      website: "https://liqwid.finance/",
+      teamGithubURL: "https://github.com/liqwid-labs",
+      tags: ["dApp"],
+    },
+    {
+      name: "Genius Yield",
+      website: "https://www.geniusyield.co/",
+      teamGithubURL: "https://github.com/geniusyield",
+      tags: ["dApp"],
+    },
+    {
+      name: "Strica",
+      website: "https://strica.io/",
+      teamGithubURL: "https://github.com/StricaHQ",
+      tags: ["Dev Company"],
+    },
+    {
+      name: "Dynamic Strategies",
+      website: "https://dynamicstrategies.io/",
+      teamGithubURL: "https://github.com/dynamicstrategies",
+      tags: ["Dev Company"],
+    },
+    {
+      name: "Anastasia Labs",
+      website: "https://anastasialabs.com/",
+      teamGithubURL: "https://github.com/Anastasia-Labs",
+      tags: ["Dev Company", "Audits"],
+    },
+    {
+      name: "Ray Network",
+      website: "https://raynetwork.io/",
+      teamGithubURL: "https://github.com/xray-network",
+      tags: ["dApp"],
+    },
+    {
+      name: "Indigo Protocol",
+      website: "https://indigoprotocol.io/",
+      teamGithubURL: "https://github.com/IndigoProtocol",
+      tags: ["dApp"],
+    },
+    {
+      name: "Butane",
+      website: "https://butane.dev/",
+      teamGithubURL: "https://github.com/butaneprotocol",
+      tags: ["dApp"],
+    },
+    {
+      name: "Coincashew",
+      website: "https://www.coincashew.com",
+      teamGithubURL: "https://github.com/coincashew",
+      tags: ["Tools"],
+    },
+    {
+      name: "Zw3rk Tech",
+      website: "https://zw3rk.com/",
+      teamGithubURL: "https://github.com/zw3rk",
+      tags: ["Dev Company"],
+    },
+  ];
+
+const allReposUnsorted = await openSourceBuildersAPI(openSourceBuildersData);
+const sortedOSBuilderData = allReposUnsorted.sort((a, b) => b.stars - a.stars);
+
+return {
+props: {
+sortedOSBuilderData,
+},
+revalidate: 3600
+};
+};

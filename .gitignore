@@ -1,0 +1,12 @@
+.next
+node_modules
+node_modules/
+package-lock.json
+.DS_Store
+pnpm-lock.yaml
+*/demo_components
+.env
+.vercel
+.env*.local
+.aider*
+data/
