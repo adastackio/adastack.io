@@ -93,8 +93,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Most Starred Repo",
       dataIndex: ["mostStarredRepo", "pushedAt"],
       key: "pushedAt",
-      width: 240,
-      ellipsis: true,
+      width: 280,
       sorter: {
         compare: (a, b) =>
           (b.mostStarredRepo?.stars || 0) - (a.mostStarredRepo?.stars || 0),
@@ -115,8 +114,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Latest Commit",
       dataIndex: ["mostRecentRepo", "url"],
       key: "url",
-      width: 240,
-      ellipsis: true,
+      width: 280,
       sorter: {
         compare: (a, b) => {
           const dateA = a.mostRecentRepo?.pushedAt
@@ -174,11 +172,10 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Team GitHub",
       dataIndex: "teamGithubURL",
       key: "teamGithubURL",
-      width: 170,
+      width: 140,
       render: (teamGithubURL, record) => {
         return (
-          <>
-            {" "}
+          <div className="flex items-center">
             <Tooltip
               mouseEnterDelay={0.6}
               title={
@@ -198,11 +195,16 @@ const OpenSourceBuildersTable = ({ data }) => {
                 </Space>
               }
             >
-              <TeamGithubBadge
-                teamGithubURL={teamGithubURL}
-                text="Team"
-                error={record.error}
-              />
+              <span>
+                <TeamGithubBadge
+                  teamGithubURL={teamGithubURL}
+                  text="Team"
+                  error={record.error}
+                />
+              </span>
+            </Tooltip>
+
+            <div onClick={(e) => e.stopPropagation()}>
               <Paragraph
                 copyable={{
                   text: teamGithubURL,
@@ -212,16 +214,16 @@ const OpenSourceBuildersTable = ({ data }) => {
                   ],
                   tooltips: ["Copy GitHub URL", "Copied"],
                 }}
-              ></Paragraph>
-            </Tooltip>
-          </>
+              />
+            </div>
+          </div>
         );
       },
     },
     {
       title: "Category",
       key: "tag",
-      width: 185,
+      width: 165,
       dataIndex: "tag",
       sorter: {
         compare: (a, b) => {
