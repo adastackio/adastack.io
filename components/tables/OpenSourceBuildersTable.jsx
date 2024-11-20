@@ -3,13 +3,12 @@ import { Table, Tag, Typography, Tooltip, Button, Card, Space } from "antd";
 import { StarIcon } from "../../assets/icons";
 import TeamGithubBadge from "@components/badges/TeamGithubBadge";
 import CodeLanguageShieldIoBadge from "@components/badges/shield_io_badges/CodeLanguageShieldIoBadge";
-import RepoShieldIoBadge from "@components/badges/shield_io_badges/RepoShieldIoBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
 import MostStarredCommitBadge from "@components/badges/MostStarredCommitBadge";
 import { CopyIcon, CopySuccessIcon } from "../../assets/icons";
 
-const { Paragraph, Title } = Typography;
+const { Paragraph, Title, Text } = Typography;
 
 const capitalizeAndRemoveHypens = (name) => {
   return name
@@ -27,13 +26,20 @@ const RepoTooltip = ({ repo, children }) => {
           <Title level={4} className="tooltip-title">
             {repo?.name ? capitalizeAndRemoveHypens(repo.name) : ""}
           </Title>
-          {repo?.description || "No project description provided."}
+          <Text style={{ fontSize: "14px" }}>
+            {repo?.description || "No project description"}
+          </Text>
           <br />
           <CodeLanguageShieldIoBadge language={repo?.language || ""} />
           <br />
-          Last Commit: {repo?.timeSinceLastCommit || ""} ago
+          <Text style={{ fontSize: "12px" }}>
+            Last Commit: {repo?.timeSinceLastCommit || ""} ago
+          </Text>
           <br />
-          Github Stars: {repo?.stars || ""}
+          <Text style={{ fontSize: "12px" }}>
+            Github Stars:
+            {repo?.stars || ""}
+          </Text>
           <a href={repo?.url || ""} target="_blank">
             <div style={{ marginTop: "6px" }}>
               <Button block>See on Github</Button>

@@ -34,13 +34,7 @@ const MostStarredCommitBadge = ({ repoURL, repoStarCount }) => {
               margin: "0 2px",
             }}
           />
-          <StarIcon
-            style={{
-              marginRight: "-4px",
-              marginLeft: "-2px",
-            }}
-          />
-          <span>{repoStarCount}</span>
+          <Text style={{ fontSize: 12 }}>{repoStarCount}</Text>
         </Button>
       </div>
     </a>
