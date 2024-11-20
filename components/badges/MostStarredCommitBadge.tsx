@@ -1,6 +1,8 @@
 import React from "react";
-import { Button } from "antd";
+import { Button, Typography } from "antd";
 import { StarIcon } from "../../assets/icons";
+
+const { Text } = Typography;
 
 const MostStarredCommitBadge = ({ repoURL, repoStarCount }) => {
   if (!repoURL || repoURL.length === 0) {
@@ -21,7 +23,9 @@ const MostStarredCommitBadge = ({ repoURL, repoStarCount }) => {
             padding: "0px 11px 0px 12px",
           }}
         >
-          <span>{repoName}</span>
+          <Text ellipsis style={{ maxWidth: 200, margin: 0 }}>
+            {repoName}
+          </Text>
           <div
             style={{
               height: "60%",

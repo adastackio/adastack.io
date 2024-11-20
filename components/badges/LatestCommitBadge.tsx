@@ -1,6 +1,8 @@
 import React from "react";
-import { Button } from "antd";
+import { Button, Typography } from "antd";
 import { SingleCommitIcon } from "../../assets/icons";
+
+const { Text } = Typography;
 
 const LatestCommitBadge = ({ repoURL }) => {
   if (!repoURL) return null;
@@ -14,7 +16,9 @@ const LatestCommitBadge = ({ repoURL }) => {
           icon={<SingleCommitIcon />}
           className="badge-button last-commit-badge-content"
         >
-          {repoName}
+          <Text ellipsis style={{ maxWidth: 260 }}>
+            {repoName}
+          </Text>
         </Button>
       </div>
     </a>
