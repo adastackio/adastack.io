@@ -118,6 +118,11 @@ const calculateRepoStats = (repos) => {
   const mostStarredRepo = [...repos].sort(
     (a, b) => b.stargazers_count - a.stargazers_count
   )[0];
+  const mostStarredDate = new Date(mostStarredRepo.pushed_at);
+  const starredTimeSinceLastCommit = timeAgo.format(
+    mostStarredDate,
+    "mini-now"
+  );
 
   return {
     starCount,
@@ -134,6 +139,7 @@ const calculateRepoStats = (repos) => {
     },
     mostStarredRepo: {
       url: mostStarredRepo.html_url,
+      timeSinceLastCommit: starredTimeSinceLastCommit,
       name: mostStarredRepo.name,
       description: mostStarredRepo.description,
       stars: mostStarredRepo.stargazers_count,

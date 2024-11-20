@@ -18,6 +18,35 @@ const capitalizeAndRemoveHypens = (name) => {
     .join(" ");
 };
 
+const RepoTooltip = ({ repo, children }) => {
+  return (
+    <Tooltip
+      mouseEnterDelay={0.6}
+      title={
+        <div>
+          <Title level={4} className="tooltip-title">
+            {repo?.name ? capitalizeAndRemoveHypens(repo.name) : ""}
+          </Title>
+          {repo?.description || "No project description provided."}
+          <br />
+          <CodeLanguageShieldIoBadge language={repo?.language || ""} />
+          <br />
+          Last Commit: {repo?.timeSinceLastCommit || ""} ago
+          <br />
+          Github Stars: {repo?.stars || ""}
+          <a href={repo?.url || ""} target="_blank">
+            <div style={{ marginTop: "6px" }}>
+              <Button block>See on Github</Button>
+            </div>
+          </a>
+        </div>
+      }
+    >
+      {children}
+    </Tooltip>
+  );
+};
+
 const OpenSourceBuildersTable = ({ data }) => {
   console.log(data);
   const columns = [
@@ -100,14 +129,14 @@ const OpenSourceBuildersTable = ({ data }) => {
         multiple: 2,
       },
       render: (pushedAt, record) => (
-        <>
+        <RepoTooltip repo={record.mostStarredRepo}>
           <div>
             <MostStarredCommitBadge
               repoURL={record.mostStarredRepo?.url || ""}
               repoStarCount={record.mostStarredRepo?.stars || ""}
             />
           </div>
-        </>
+        </RepoTooltip>
       ),
     },
     {
@@ -128,44 +157,11 @@ const OpenSourceBuildersTable = ({ data }) => {
         multiple: 3,
       },
       render: (url, record) => (
-        <>
-          <Tooltip
-            mouseEnterDelay={0.6}
-            title={
-              <div>
-                <Title level={4} className="tooltip-title">
-                  {record.mostRecentRepo?.name
-                    ? capitalizeAndRemoveHypens(record.mostRecentRepo.name)
-                    : ""}
-                </Title>
-                {record.mostRecentRepo?.description ||
-                  "No project description provided."}
-                <br />
-                <br />
-                <CodeLanguageShieldIoBadge
-                  language={record.mostRecentRepo.language}
-                />
-                <br />
-                Latest commit: {record.mostRecentRepo.timeSinceLastCommit} ago
-                <br />
-                Stars on Github: {record.mostRecentRepo.stars}
-                <a href={record.mostRecentRepo.url} target="_blank">
-                  <div style={{ marginTop: "6px" }}>
-                    <Button block>See on Github</Button>
-                  </div>
-                </a>
-              </div>
-            }
-          >
-            <span>
-              <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
-            </span>
-          </Tooltip>
-          &nbsp;
-          <span className="text-gray-400">
-            {record.mostRecentRepo?.timeSinceLastCommit || "..."}
+        <RepoTooltip repo={record.mostRecentRepo}>
+          <span>
+            <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
           </span>
-        </>
+        </RepoTooltip>
       ),
     },
     {

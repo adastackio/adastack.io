@@ -372,6 +372,7 @@ img.shields_io_button {
 .shields_io_language_badge,
 .shields_io_repo_badge {
   padding-bottom: 5px;
+  margin-top: 5px;
 }
 
 .favicon-custom-css {
