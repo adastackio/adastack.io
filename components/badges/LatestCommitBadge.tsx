@@ -16,7 +16,7 @@ const LatestCommitBadge = ({ repoURL }) => {
           icon={<SingleCommitIcon />}
           className="badge-button last-commit-badge-content"
         >
-          <Text ellipsis style={{ maxWidth: 260 }}>
+          <Text ellipsis style={{ maxWidth: 190 }}>
             {repoName}
           </Text>
         </Button>

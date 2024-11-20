@@ -102,7 +102,9 @@ const OpenSourceBuildersTable = ({ data }) => {
             record.error && console.log(record.error);
             return "...";
           } else {
-            return starCount.toLocaleString();
+            return (
+              <Text style={{ fontSize: 14 }}>{starCount.toLocaleString()}</Text>
+            );
           }
         };
 
@@ -163,11 +165,17 @@ const OpenSourceBuildersTable = ({ data }) => {
         multiple: 3,
       },
       render: (url, record) => (
-        <RepoTooltip repo={record.mostRecentRepo}>
-          <span>
-            <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
+        <>
+          <RepoTooltip repo={record.mostRecentRepo}>
+            <span>
+              <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
+            </span>
+          </RepoTooltip>
+          &nbsp;
+          <span className="text-gray-400">
+            {record.mostRecentRepo?.timeSinceLastCommit || "..."}
           </span>
-        </RepoTooltip>
+        </>
       ),
     },
     {
