@@ -53,6 +53,25 @@ const RepoTooltip = ({ repo, children }) => {
   );
 };
 
+const TeamGithubTooltip = ({ record, children }) => {
+  return (
+    <Tooltip
+      mouseEnterDelay={0.6}
+      title={
+        <Space direction="vertical" size={16}>
+          <Card size="small" style={{ width: "auto" }}>
+            <a href={record.reposOnGithub}>
+              <Button block>See {record.repoCount} Repos on Github</Button>
+            </a>
+          </Card>
+        </Space>
+      }
+    >
+      {children}
+    </Tooltip>
+  );
+};
+
 const OpenSourceBuildersTable = ({ data }) => {
   console.log(data);
   const columns = [
@@ -109,20 +128,22 @@ const OpenSourceBuildersTable = ({ data }) => {
         };
 
         return (
-          <a
-            href={record.reposOnGithub}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="badge-container stars-across-all-repos-badge-container">
-              <Button
-                icon={<StarIcon />}
-                className="badge-button stars-across-all-repos-badge-content"
-              >
-                {getBadgeContent()}
-              </Button>
-            </div>
-          </a>
+          <TeamGithubTooltip record={record}>
+            <a
+              href={record.reposOnGithub}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="badge-container stars-across-all-repos-badge-container">
+                <Button
+                  icon={<StarIcon />}
+                  className="badge-button stars-across-all-repos-badge-content"
+                >
+                  {getBadgeContent()}
+                </Button>
+              </div>
+            </a>
+          </TeamGithubTooltip>
         );
       },
     },
@@ -186,25 +207,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       render: (teamGithubURL, record) => {
         return (
           <div className="flex items-center">
-            <Tooltip
-              mouseEnterDelay={0.6}
-              title={
-                <Space direction="vertical" size={16}>
-                  <Card
-                    size="small"
-                    title={<a href={record.website}>{record.name}</a>}
-                    extra={<a href={teamGithubURL}>Github</a>}
-                    style={{ width: "auto" }}
-                  >
-                    <a href={record.reposOnGithub}>
-                      <Button block>
-                        See {record.repoCount} Repos on Github
-                      </Button>
-                    </a>
-                  </Card>
-                </Space>
-              }
-            >
+            <TeamGithubTooltip record={record}>
               <span>
                 <TeamGithubBadge
                   teamGithubURL={teamGithubURL}
@@ -212,8 +215,7 @@ const OpenSourceBuildersTable = ({ data }) => {
                   error={record.error}
                 />
               </span>
-            </Tooltip>
-
+            </TeamGithubTooltip>
             <div onClick={(e) => e.stopPropagation()}>
               <Paragraph
                 copyable={{
