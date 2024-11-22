@@ -37,8 +37,7 @@ const RepoTooltip = ({ repo, children }) => {
           </Text>
           <br />
           <Text style={{ fontSize: "12px" }}>
-            Github Stars:
-            {repo?.stars || ""}
+            Github Stars:&nbsp;{repo?.stars || ""}
           </Text>
           <a href={repo?.url || ""} target="_blank">
             <div style={{ marginTop: "6px" }}>
@@ -73,7 +72,6 @@ const TeamGithubTooltip = ({ record, children }) => {
 };
 
 const OpenSourceBuildersTable = ({ data }) => {
-  console.log(data);
   const columns = [
     {
       title: "Team",
