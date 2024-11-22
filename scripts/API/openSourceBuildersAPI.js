@@ -1,35 +1,51 @@
 import TimeAgo from "javascript-time-ago";
 import en from "javascript-time-ago/locale/en";
 import { Octokit } from "@octokit/rest";
+import { retry } from "@octokit/plugin-retry";
+import { throttling } from "@octokit/plugin-throttling";
+
+const MyOctokit = Octokit.plugin(retry, throttling);
 
 TimeAgo.addDefaultLocale(en);
 const timeAgo = new TimeAgo("en-US");
 
-const octokit = new Octokit({
+const octokit = new MyOctokit({
   auth: process.env.GITHUB_ACCESS_TOKEN,
   userAgent: "adastack.io v1.0",
-  retry: { enabled: true },
+  retry: {
+    enabled: true,
+    retries: 5,
+    doNotRetry: ["429"],
+  },
   request: {
-    timeout: 30000, // 30 seconds
+    timeout: 60000, // 60 seconds
   },
   throttle: {
-    onRateLimit: (retryAfter, options) => {
-      console.warn(
+    onRateLimit: (retryAfter, options, octokit, retryCount) => {
+      octokit.log.warn(
         `Request quota exhausted for request ${options.method} ${options.url}`
       );
-      if (options.request.retryCount <= 5) {
-        console.log(`Retrying after ${retryAfter} seconds!`);
+      if (retryCount < 3) {
+        octokit.log.info(`Retrying after ${retryAfter} seconds!`);
         return true;
       }
     },
-    onSecondaryRateLimit: (retryAfter, options) => {
-      console.warn(
+    onSecondaryRateLimit: (retryAfter, options, octokit, retryCount) => {
+      octokit.log.warn(
         `Secondary rate limit hit for request ${options.method} ${options.url}`
       );
-      if (options.request.retryCount <= 5) {
+      if (retryCount < 2) {
+        octokit.log.info(`Retrying after ${retryAfter} seconds!`);
         return true;
       }
     },
+    onAbuseLimit: (retryAfter, options, octokit) => {
+      octokit.log.warn(
+        `Abuse detection triggered for request ${options.method} ${options.url}`
+      );
+      return false;
+    },
+    fallbackSecondaryRateRetryAfter: 60,
   },
 });
 

@@ -72,6 +72,7 @@ const TeamGithubTooltip = ({ record, children }) => {
 };
 
 const OpenSourceBuildersTable = ({ data }) => {
+  console.log(data);
   const columns = [
     {
       title: "Team",
