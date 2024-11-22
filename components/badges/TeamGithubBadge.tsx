@@ -9,14 +9,9 @@ interface TeamGithubBadgeProps {
 }
 
 const TeamGithubBadge: React.FC<TeamGithubBadgeProps> = React.memo(
-  ({ teamGithubURL, error, text = "GitHub" }) => {
-    // Default value set to "GitHub"
-    if (!teamGithubURL) {
-      return "";
-    }
-
-    if (error) {
-      console.log(error);
+  ({ teamGithubURL, error, text = "Team" }) => {
+    if (!teamGithubURL || error) {
+      return null;
     }
 
     return (
