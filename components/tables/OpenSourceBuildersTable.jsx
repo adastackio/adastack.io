@@ -21,31 +21,39 @@ const RepoInfoTooltip = ({ repo, children }) => {
   return (
     <Tooltip
       mouseEnterDelay={0.6}
+      overlayInnerStyle={{ padding: 0 }}
+      overlayClassName="rounded-lg shadow-none"
       title={
         <div>
-          <Title level={4} className="tooltip-title font-normal">
-            {repo?.name ? capitalizeAndRemoveHypens(repo.name) : ""}
-          </Title>
-          <Text style={{ fontSize: "14px" }}>
-            {repo?.description || "No project description"}
-          </Text>
-          <br />
-          <CodeLanguageShieldIoBadge language={repo?.language || ""} />
-          <br />
-          <Text style={{ fontSize: "12px" }}>
-            <span className="font-semibold">Stars:</span>&nbsp;
-            {repo?.stars ?? 0}
-          </Text>
-          <br />
-          <Text style={{ fontSize: "12px" }}>
-            <span className="font-semibold">Last Commit:</span>&nbsp;
-            {repo?.timeSinceLastCommit || ""} ago
-          </Text>
-          <a href={repo?.url || ""} target="_blank">
-            <div style={{ marginTop: "6px" }}>
-              <Button block>See on Github</Button>
-            </div>
-          </a>
+          <Card
+            size="small"
+            bordered={false}
+            style={{ width: "auto", padding: "0px" }}
+          >
+            <Title level={4} className="tooltip-title font-normal">
+              {repo?.name ? capitalizeAndRemoveHypens(repo.name) : ""}
+            </Title>
+            <Text style={{ fontSize: "14px" }}>
+              {repo?.description || "No project description"}
+            </Text>
+            <br />
+            <CodeLanguageShieldIoBadge language={repo?.language || ""} />
+            <br />
+            <Text style={{ fontSize: "12px" }}>
+              <span className="font-semibold">Stars:</span>&nbsp;
+              {repo?.stars ?? 0}
+            </Text>
+            <br />
+            <Text style={{ fontSize: "12px" }}>
+              <span className="font-semibold">Last Commit:</span>&nbsp;
+              {repo?.timeSinceLastCommit || ""} ago
+            </Text>
+            <a href={repo?.url || ""} target="_blank">
+              <div style={{ marginTop: "6px" }}>
+                <Button block>See on Github</Button>
+              </div>
+            </a>
+          </Card>
         </div>
       }
     >
@@ -58,14 +66,18 @@ const TeamGithubTooltip = ({ record, children }) => {
   return (
     <Tooltip
       mouseEnterDelay={0.6}
+      overlayInnerStyle={{ padding: 0 }}
+      overlayClassName="rounded-xl shadow-none"
       title={
-        <Space direction="vertical" size={16}>
-          <Card size="small" style={{ width: "auto" }}>
-            <a href={record.reposOnGithub}>
-              <Button block>See {record.repoCount} Repos on Github</Button>
-            </a>
-          </Card>
-        </Space>
+        <Card
+          bordered={false}
+          style={{ width: "auto", padding: "0px" }}
+          size="small"
+        >
+          <a href={record.reposOnGithub}>
+            <Button block>See {record.repoCount} Repos on Github</Button>
+          </a>
+        </Card>
       }
     >
       {children}

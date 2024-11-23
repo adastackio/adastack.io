@@ -597,10 +597,6 @@ td.ant-table-cell {
     color: #1e1e1e;
   }
 
-  h4.ant-typography.tooltip-title {
-    font-weight: 400;
-  }
-
   .animation-content-container {
     overflow: scroll;
     border-radius: 0px !important;
