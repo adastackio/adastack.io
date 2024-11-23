@@ -33,23 +33,50 @@ const RepoInfoTooltip = ({ repo, children }) => {
             <Title level={4} className="tooltip-title font-normal">
               {repo?.name ? capitalizeAndRemoveHypens(repo.name) : ""}
             </Title>
-            <Text style={{ fontSize: "14px" }}>
+            <Text
+              style={{
+                fontSize: "14px",
+                paddingBottom: "8px",
+                display: "inline-block",
+              }}
+            >
               {repo?.description || "No project description"}
             </Text>
             <br />
-            <CodeLanguageShieldIoBadge language={repo?.language || ""} />
-            <br />
-            <Text style={{ fontSize: "12px" }}>
+            {repo?.language && (
+              <div className="block pt-0 pb-0">
+                <Text
+                  style={{
+                    fontSize: "12px",
+                  }}
+                >
+                  <span className="font-semibold">Stack:</span>&nbsp;
+                </Text>
+                <CodeLanguageShieldIoBadge language={repo.language} />
+              </div>
+            )}
+
+            <Text
+              style={{
+                fontSize: "12px",
+                display: "block",
+              }}
+            >
               <span className="font-semibold">Stars:</span>&nbsp;
               {repo?.stars ?? 0}
             </Text>
-            <br />
-            <Text style={{ fontSize: "12px" }}>
+            <Text
+              style={{
+                fontSize: "12px",
+                display: "block",
+                marginTop: "5px",
+              }}
+            >
               <span className="font-semibold">Last Commit:</span>&nbsp;
               {repo?.timeSinceLastCommit || ""} ago
             </Text>
             <a href={repo?.url || ""} target="_blank">
-              <div style={{ marginTop: "6px" }}>
+              <div style={{ marginTop: "8px" }}>
                 <Button block>See on Github</Button>
               </div>
             </a>
