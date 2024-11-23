@@ -17,13 +17,13 @@ const capitalizeAndRemoveHypens = (name) => {
     .join(" ");
 };
 
-const RepoTooltip = ({ repo, children }) => {
+const RepoInfoTooltip = ({ repo, children }) => {
   return (
     <Tooltip
       mouseEnterDelay={0.6}
       title={
         <div>
-          <Title level={4} className="tooltip-title">
+          <Title level={4} className="tooltip-title font-normal">
             {repo?.name ? capitalizeAndRemoveHypens(repo.name) : ""}
           </Title>
           <Text style={{ fontSize: "14px" }}>
@@ -33,11 +33,13 @@ const RepoTooltip = ({ repo, children }) => {
           <CodeLanguageShieldIoBadge language={repo?.language || ""} />
           <br />
           <Text style={{ fontSize: "12px" }}>
-            Last Commit: {repo?.timeSinceLastCommit || ""} ago
+            <span className="font-semibold">Stars:</span>&nbsp;
+            {repo?.stars ?? 0}
           </Text>
           <br />
           <Text style={{ fontSize: "12px" }}>
-            Github Stars:&nbsp;{repo?.stars ?? 0}
+            <span className="font-semibold">Last Commit:</span>&nbsp;
+            {repo?.timeSinceLastCommit || ""} ago
           </Text>
           <a href={repo?.url || ""} target="_blank">
             <div style={{ marginTop: "6px" }}>
@@ -156,14 +158,14 @@ const OpenSourceBuildersTable = ({ data }) => {
         multiple: 2,
       },
       render: (pushedAt, record) => (
-        <RepoTooltip repo={record.mostStarredRepo}>
+        <RepoInfoTooltip repo={record.mostStarredRepo}>
           <div>
             <MostStarredCommitBadge
               repoURL={record.mostStarredRepo?.url || ""}
               repoStarCount={record.mostStarredRepo?.stars ?? 0}
             />
           </div>
-        </RepoTooltip>
+        </RepoInfoTooltip>
       ),
     },
     {
@@ -185,11 +187,11 @@ const OpenSourceBuildersTable = ({ data }) => {
       },
       render: (url, record) => (
         <>
-          <RepoTooltip repo={record.mostRecentRepo}>
+          <RepoInfoTooltip repo={record.mostRecentRepo}>
             <span>
               <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
             </span>
-          </RepoTooltip>
+          </RepoInfoTooltip>
           &nbsp;
           <span className="text-gray-400">
             {record.mostRecentRepo?.timeSinceLastCommit || "..."}

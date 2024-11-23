@@ -548,10 +548,6 @@ td.ant-table-cell {
   padding: 4px 6px !important;
 }
 
-html[style*="color-scheme: light;"] .tooltip-title {
-  color: #1e1e1e;
-}
-
 /* Media Queries */
 /* XS Size */
 @media (max-width: 544px) {
@@ -595,6 +591,14 @@ html[style*="color-scheme: light;"] .tooltip-title {
 
   html[style*="color-scheme: light;"] .ant-tooltip-inner {
     color: #1e1e1e;
+  }
+
+  html[style*="color-scheme: light;"] .tooltip-title {
+    color: #1e1e1e;
+  }
+
+  h4.ant-typography.tooltip-title {
+    font-weight: 400;
   }
 
   .animation-content-container {
