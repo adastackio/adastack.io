@@ -37,7 +37,7 @@ const RepoTooltip = ({ repo, children }) => {
           </Text>
           <br />
           <Text style={{ fontSize: "12px" }}>
-            Github Stars:&nbsp;{repo?.stars || ""}
+            Github Stars:&nbsp;{repo?.stars ?? 0}
           </Text>
           <a href={repo?.url || ""} target="_blank">
             <div style={{ marginTop: "6px" }}>
@@ -119,11 +119,10 @@ const OpenSourceBuildersTable = ({ data }) => {
           if (record.error || starCount === null || starCount === undefined) {
             record.error && console.log(record.error);
             return "...";
-          } else {
-            return (
-              <Text style={{ fontSize: 14 }}>{starCount.toLocaleString()}</Text>
-            );
           }
+          return (
+            <Text style={{ fontSize: 14 }}>{starCount.toLocaleString()}</Text>
+          );
         };
 
         return (
@@ -161,7 +160,7 @@ const OpenSourceBuildersTable = ({ data }) => {
           <div>
             <MostStarredCommitBadge
               repoURL={record.mostStarredRepo?.url || ""}
-              repoStarCount={record.mostStarredRepo?.stars || ""}
+              repoStarCount={record.mostStarredRepo?.stars ?? 0}
             />
           </div>
         </RepoTooltip>
@@ -171,7 +170,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       title: "Latest Commit",
       dataIndex: ["mostRecentRepo", "url"],
       key: "url",
-      width: 280,
+      width: 276,
       sorter: {
         compare: (a, b) => {
           const dateA = a.mostRecentRepo?.pushedAt
