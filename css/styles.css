@@ -549,7 +549,7 @@ td.ant-table-cell {
 }
 
 html[style*="color-scheme: light;"] .tooltip-title {
-  color: #c8c8c8;
+  color: #1e1e1e;
 }
 
 /* Media Queries */
@@ -591,6 +591,10 @@ html[style*="color-scheme: light;"] .tooltip-title {
 
   a.nextra-card {
     margin: 10px 10px;
+  }
+
+  html[style*="color-scheme: light;"] .ant-tooltip-inner {
+    color: #1e1e1e;
   }
 
   .animation-content-container {

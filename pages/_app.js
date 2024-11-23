@@ -36,6 +36,9 @@ const ThemeWrapper = ({ children }) => {
           cssVar: true,
           token: {
             colorPrimary: "#3964f6",
+            colorBgContainer: isDark ? "#141414" : "#ffffff",
+            colorBgSpotlight: isDark ? "#141414" : "#ffffff",
+            colorTextLightSolid: isDark ? "#ffffff" : "#000000",
           },
         }}
       >
