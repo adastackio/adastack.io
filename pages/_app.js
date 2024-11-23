@@ -10,14 +10,14 @@ const ThemeWrapper = ({ children }) => {
   useEffect(() => {
     setMounted(true);
 
-    const callback = (entries) => {
+    const handleThemeChange = () => {
       const isDarkMode = document.documentElement.classList.contains("dark");
       setIsDark(isDarkMode);
     };
 
-    callback();
+    handleThemeChange();
 
-    const observer = new MutationObserver(callback);
+    const observer = new MutationObserver(handleThemeChange);
     observer.observe(document.documentElement, {
       attributes: true,
       attributeFilter: ["class"],
@@ -26,7 +26,6 @@ const ThemeWrapper = ({ children }) => {
     return () => observer.disconnect();
   }, []);
 
-  // Return null instead of children during SSR
   if (!mounted) return null;
 
   return (
@@ -35,6 +34,9 @@ const ThemeWrapper = ({ children }) => {
         theme={{
           algorithm: isDark ? theme.darkAlgorithm : theme.defaultAlgorithm,
           cssVar: true,
+          token: {
+            colorPrimary: "#3964f6",
+          },
         }}
       >
         {children}
@@ -43,7 +45,6 @@ const ThemeWrapper = ({ children }) => {
   );
 };
 
-// Create a loading wrapper component
 const LoadingWrapper = ({ children }) => {
   const [isClient, setIsClient] = useState(false);
 
