@@ -1,6 +1,5 @@
 import React from "react";
-import { Button, Typography } from "antd";
-import { StarIcon } from "../../assets/icons";
+import { Button, Typography, Tooltip } from "antd";
 
 const { Text } = Typography;
 
@@ -12,8 +11,13 @@ const MostStarredCommitBadge = ({ repoURL, repoStarCount }) => {
   const repoName = repoURL.split("/").slice(-1);
 
   return (
-    <a href={repoURL} target="_blank" rel="noopener noreferrer">
-      <div className="badge-container most-starred-badge-container">
+    <span>
+      <a
+        className="inline-block w-fit"
+        href={repoURL}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <Button
           style={{
             position: "relative",
@@ -36,8 +40,8 @@ const MostStarredCommitBadge = ({ repoURL, repoStarCount }) => {
           />
           <Text style={{ fontSize: 12 }}>{repoStarCount}</Text>
         </Button>
-      </div>
-    </a>
+      </a>
+    </span>
   );
 };
 

@@ -461,11 +461,15 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   width: 100px;
 }
 
-.last-commit-badge-container {
-  display: inline;
+.stars-across-all-repos-badge-content {
+  width: 90px;
 }
 
 /* Ant Design Modifications */
+html body .ant-table-cell div a {
+  width: auto !important;
+}
+
 .ant-table-cell .ant-typography {
   display: inline-block;
   margin-bottom: 0px !important;

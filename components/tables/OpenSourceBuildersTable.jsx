@@ -173,14 +173,12 @@ const OpenSourceBuildersTable = ({ data }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="badge-container stars-across-all-repos-badge-container">
-                <Button
-                  icon={<StarIcon />}
-                  className="badge-button stars-across-all-repos-badge-content"
-                >
-                  {getBadgeContent()}
-                </Button>
-              </div>
+              <Button
+                icon={<StarIcon />}
+                className="badge-button stars-across-all-repos-badge-content"
+              >
+                {getBadgeContent()}
+              </Button>
             </a>
           </TeamGithubTooltip>
         );
@@ -197,14 +195,16 @@ const OpenSourceBuildersTable = ({ data }) => {
         multiple: 2,
       },
       render: (pushedAt, record) => (
-        <RepoInfoTooltip repo={record.mostStarredRepo}>
-          <div>
-            <MostStarredCommitBadge
-              repoURL={record.mostStarredRepo?.url || ""}
-              repoStarCount={record.mostStarredRepo?.stars ?? 0}
-            />
-          </div>
-        </RepoInfoTooltip>
+        <div>
+          <RepoInfoTooltip repo={record.mostStarredRepo}>
+            <span>
+              <MostStarredCommitBadge
+                repoURL={record.mostStarredRepo?.url || ""}
+                repoStarCount={record.mostStarredRepo?.stars ?? 0}
+              />
+            </span>
+          </RepoInfoTooltip>
+        </div>
       ),
     },
     {
