@@ -501,7 +501,7 @@ html[style*="color-scheme: dark;"] .team_table_name {
 }
 
 html[style*="color-scheme: dark;"] .team_table_name:hover {
-  color: #b5a4ff;
+  color: #fff;
 }
 
 html[style*="color-scheme: light;"] .team_table_name {
@@ -513,7 +513,7 @@ html[style*="color-scheme: light;"] .team_table_name:hover {
 }
 
 .team_table_name_container:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .ant-table-cell div a {
