@@ -1,15 +1,21 @@
 import React from "react";
 import { DocsThemeConfig, ThemeSwitch, useTheme } from "nextra-theme-docs";
+
 import { XIcon, GithubNavIcon } from "./assets/icons";
-import { AdaStackMid } from "./assets/logos";
-import { Nunito } from "next/font/google";
+import {
+  AdaStackDark,
+  AdaStackMid,
+  AdaStackLight,
+  BlueAdastackIcon,
+  LightBlueAdastackIcon,
+  WhiteAdastackIcon,
+  BlueDarkAdastackLogoFull,
+  BlueLightAdastackLogoFull,
+  LightBlueAdastackLogoFull,
+  WhiteAdastackLogoFull,
+} from "./assets/logos";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
-
-const nunito = Nunito({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
 
 const standard_seo_description =
   "Adastack is an explorer to check out everything on Cardano. Find dApps, games, community, NFTs, staking, development, governance, and much more.";
@@ -96,20 +102,15 @@ const config: DocsThemeConfig = {
     defaultTheme: "system",
   },
   logo: () => {
+    const { resolvedTheme } = useTheme();
     return (
       <>
-        <AdaStackMid
-          alt="Logo"
-          height="100"
-          width="75"
-          viewBox="0 -4 100 50"
-          className="adastack-logo"
-        />
-        <span
-          className={`${nunito.className} adastack-title`}
-          style={{ fontWeight: 800 }}
-        >
-          ADASTACK
+        <span className="adastack-logo-container">
+          {resolvedTheme === "dark" ? (
+            <LightBlueAdastackLogoFull className="adastack-logo" />
+          ) : (
+            <BlueDarkAdastackLogoFull className="adastack-logo" />
+          )}
         </span>
       </>
     );
