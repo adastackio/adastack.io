@@ -3,7 +3,7 @@ import { Button, Typography, Tooltip } from "antd";
 
 const { Text } = Typography;
 
-const MostStarredCommitBadge = ({ repoURL, repoStarCount }) => {
+const MostStarredRepoBadge = ({ repoURL, repoStarCount }) => {
   if (!repoURL || repoURL.length === 0) {
     return "...";
   }
@@ -27,10 +27,7 @@ const MostStarredCommitBadge = ({ repoURL, repoStarCount }) => {
             padding: "0px 11px 0px 12px",
           }}
         >
-          <Text
-            ellipsis
-            style={{ maxWidth: 200, margin: 0 }}
-          >
+          <Text ellipsis style={{ maxWidth: 200, margin: 0 }}>
             {repoName}
           </Text>
           <div
@@ -48,4 +45,4 @@ const MostStarredCommitBadge = ({ repoURL, repoStarCount }) => {
   );
 };
 
-export default MostStarredCommitBadge;
+export default MostStarredRepoBadge;

@@ -5,7 +5,7 @@ import TeamGithubBadge from "@components/badges/TeamGithubBadge";
 import CodeLanguageShieldIoBadge from "@components/badges/shield_io_badges/CodeLanguageShieldIoBadge";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
-import MostStarredCommitBadge from "@components/badges/MostStarredCommitBadge";
+import MostStarredRepoBadge from "@components/badges/MostStarredRepoBadge";
 import { CopyIcon, CopySuccessIcon } from "../../assets/icons";
 
 const { Paragraph, Title, Text } = Typography;
@@ -195,7 +195,7 @@ const OpenSourceBuildersTable = ({ data }) => {
         <div>
           <RepoInfoTooltip repo={record.mostStarredRepo}>
             <span>
-              <MostStarredCommitBadge
+              <MostStarredRepoBadge
                 repoURL={record.mostStarredRepo?.url || ""}
                 repoStarCount={record.mostStarredRepo?.stars ?? 0}
               />
