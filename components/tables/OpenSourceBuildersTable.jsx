@@ -6,6 +6,7 @@ import CodeLanguageShieldIoBadge from "@components/badges/shield_io_badges/CodeL
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
 import MostStarredRepoBadge from "@components/badges/MostStarredRepoBadge";
+import CategoryTag from "@components/badges/CategoryTag";
 import { CopyIcon, CopySuccessIcon } from "../../assets/icons";
 
 const { Paragraph, Title, Text } = Typography;
@@ -146,7 +147,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       ),
     },
     {
-      title: "Sum of Stars",
+      title: "Total Stars",
       dataIndex: "starCount",
       key: "starCount",
       width: 100,
@@ -271,7 +272,7 @@ const OpenSourceBuildersTable = ({ data }) => {
     {
       title: "Category",
       key: "tag",
-      width: 165,
+      width: 185,
       dataIndex: "tag",
       sorter: {
         compare: (a, b) => {
@@ -316,7 +317,7 @@ const OpenSourceBuildersTable = ({ data }) => {
           value: "Organization",
         },
         {
-          text: "dApp",
+          text: "Dapp",
           value: "dApp",
         },
         {
@@ -348,24 +349,22 @@ const OpenSourceBuildersTable = ({ data }) => {
             {tags
               .filter((tag) => tag)
               .map((tag) => {
-                let color = "blue";
+                let color;
                 if (tag.toLowerCase() === "dapp") {
-                  color = "geekblue";
+                  color = "indigo";
                 }
                 if (tag.toLowerCase() === "organization") {
                   color = "green";
                 }
                 if (tag.toLowerCase() === "tools") {
-                  color = "gold";
+                  color = "yellow";
                 }
                 if (tag.toLowerCase() === "audits") {
-                  color = "cyan";
+                  color = "gray";
                 }
                 return (
                   <>
-                    <Tag bordered={false} color={color} key={tag}>
-                      {tag.toUpperCase()}
-                    </Tag>
+                    <CategoryTag color={color} category={tag.toUpperCase()} />
                   </>
                 );
               })}
