@@ -1,12 +1,7 @@
 import React from "react";
 import { DocsThemeConfig, ThemeSwitch, useTheme } from "nextra-theme-docs";
-import {
-  AdaStackLight,
-  AdaStackDark,
-  AdaStackMid,
-  XIcon,
-  GithubNavIcon,
-} from "./assets/icons";
+import { XIcon, GithubNavIcon } from "./assets/icons";
+import { AdaStackMid } from "./assets/logos";
 import { Nunito } from "next/font/google";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
