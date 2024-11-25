@@ -10,18 +10,20 @@ const LatestCommitBadge = ({ repoURL }) => {
   const repoName = repoURL.split("/").slice(-1);
 
   return (
-    <a href={repoURL} target="_blank" rel="noopener noreferrer">
-      <div className="inline">
-        <Button
-          icon={<SingleCommitIcon />}
-          className="badge-button last-commit-badge-content"
-        >
-          <Text ellipsis style={{ maxWidth: 190 }}>
-            {repoName}
-          </Text>
-        </Button>
-      </div>
-    </a>
+    <span className="last-commit-badge-container">
+      <a href={repoURL} target="_blank" rel="noopener noreferrer">
+        <div className="inline">
+          <Button
+            icon={<SingleCommitIcon />}
+            className="badge-button  last-commit-badge-content"
+          >
+            <Text ellipsis style={{ maxWidth: 190 }}>
+              {repoName}
+            </Text>
+          </Button>
+        </div>
+      </a>
+    </span>
   );
 };
 

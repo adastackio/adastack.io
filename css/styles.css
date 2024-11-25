@@ -461,10 +461,6 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   width: 100px;
 }
 
-.stars-across-all-repos-badge-content {
-  width: 90px;
-}
-
 /* Ant Design Modifications */
 html body .ant-table-cell div a {
   width: auto !important;
@@ -483,17 +479,6 @@ html body .ant-table-cell div a {
 
 .last-commit-badge-container .last-commit-badge-content .ant-btn-icon {
   margin-right: -8px;
-}
-
-.stars-across-all-repos-badge-container .stars-across-all-repos-badge-content {
-  padding-left: 10px !important;
-  padding-right: 11px;
-}
-
-.stars-across-all-repos-badge-container
-  .stars-across-all-repos-badge-content
-  .ant-btn-icon {
-  margin-right: -4px;
 }
 
 html[style*="color-scheme: dark;"] .team_table_name {

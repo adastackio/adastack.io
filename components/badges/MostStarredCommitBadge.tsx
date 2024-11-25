@@ -11,7 +11,7 @@ const MostStarredCommitBadge = ({ repoURL, repoStarCount }) => {
   const repoName = repoURL.split("/").slice(-1);
 
   return (
-    <span>
+    <span className="badge-container most-starred-badge-container">
       <a
         className="inline-block w-fit"
         href={repoURL}
@@ -27,7 +27,10 @@ const MostStarredCommitBadge = ({ repoURL, repoStarCount }) => {
             padding: "0px 11px 0px 12px",
           }}
         >
-          <Text ellipsis style={{ maxWidth: 200, margin: 0 }}>
+          <Text
+            ellipsis
+            style={{ maxWidth: 200, margin: 0 }}
+          >
             {repoName}
           </Text>
           <div

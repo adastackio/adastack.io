@@ -120,7 +120,7 @@ const OpenSourceBuildersTable = ({ data }) => {
       dataIndex: "name",
       key: "name",
       fixed: "left",
-      width: 230,
+      width: 260,
       sorter: (a, b) => a.name.localeCompare(b.name),
       render: (name, record) => (
         <a className="text-base team_table_name" href={record.website}>
@@ -152,35 +152,32 @@ const OpenSourceBuildersTable = ({ data }) => {
       width: 100,
       defaultSortOrder: "descend",
       sorter: {
-        compare: (a, b) => a.starCount - b.starCount,
+        compare: (a, b) => (a.starCount ?? 0) - (b.starCount ?? 0),
         multiple: 2,
       },
       render: (starCount, record) => {
-        const getBadgeContent = () => {
-          if (record.error || starCount === null || starCount === undefined) {
-            record.error && console.log(record.error);
-            return "...";
-          }
-          return (
-            <Text style={{ fontSize: 14 }}>{starCount.toLocaleString()}</Text>
-          );
-        };
+        const displayValue =
+          !starCount && starCount !== 0 ? "..." : starCount.toLocaleString();
 
         return (
-          <TeamGithubTooltip record={record}>
-            <a
-              href={record.reposOnGithub}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button
-                icon={<StarIcon />}
-                className="badge-button stars-across-all-repos-badge-content"
-              >
-                {getBadgeContent()}
-              </Button>
-            </a>
-          </TeamGithubTooltip>
+          <Button
+            as="a"
+            href={record.reposOnGithub}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`${displayValue} GitHub stars`}
+            className="badge-button stars-across-all-repos-badge-content"
+            icon={<StarIcon aria-hidden="true" />}
+            style={{
+              display: "flex",
+              justifyContent: "flex-start",
+              alignItems: "center",
+              padding: "0px 8px 0px 10px",
+              gap: "6px",
+            }}
+          >
+            <Text style={{ fontSize: 14 }}>{displayValue}</Text>
+          </Button>
         );
       },
     },
