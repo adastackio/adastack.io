@@ -27,6 +27,17 @@ a:hover {
   padding: 15px;
 }
 
+.adastack-logo {
+  color: #your-color;
+}
+
+.blue_dark_full_svg__st0 {
+  fill: #60a5fa !important;
+}
+.blue_dark_full_svg__st1 {
+  fill: #3b82f6 !important;
+}
+
 html[style*="color-scheme: dark;"] .adastack-logo-container {
   color: #f3f4f6;
 }
