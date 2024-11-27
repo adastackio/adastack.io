@@ -39,13 +39,19 @@ html .nextra-nav-container a.nx-p-2.nx-text-current {
   padding: 2px !important;
 }
 
-.nextra-search {
-  margin-right: 12px;
-}
-
 /* Nav background on light */
 html .nextra-nav-container .nextra-nav-container-blur {
   background-color: #fafaf9 !important;
+}
+
+/* Search Bar */
+.nextra-search {
+  margin-right: 12px;
+}
+kbd.nx-absolute.nx-my-1\.5.nx-select-none.ltr\:nx-right-1\.5.rtl\:nx-left-1\.5.nx-h-5.nx-rounded.nx-bg-white.nx-px-1\.5.nx-font-mono.nx-text-\[10px\].nx-font-medium.nx-text-gray-500.nx-border.dark\:nx-border-gray-100\/20.dark\:nx-bg-dark\/50.contrast-more\:nx-border-current.contrast-more\:nx-text-current.contrast-more\:dark\:nx-border-current.nx-items-center.nx-gap-1.nx-transition-opacity.nx-pointer-events-none.nx-hidden.sm\:nx-flex {
+  background-color: #4363ee;
+  color: #fff;
+  border: 2px solid #5c78e8;
 }
 
 /* Home animation */
