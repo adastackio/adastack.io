@@ -107,7 +107,7 @@ const config: DocsThemeConfig = {
       <>
         <span className="adastack-logo-container">
           {resolvedTheme === "dark" ? (
-            <LightBlueAdastackLogoFull className="adastack-logo" />
+            <BlueLightAdastackLogoFull className="adastack-logo" />
           ) : (
             <BlueDarkAdastackLogoFull className="adastack-logo" />
           )}
