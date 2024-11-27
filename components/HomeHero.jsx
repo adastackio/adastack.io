@@ -15,8 +15,6 @@ const HomeHero = () => {
         className="object-cover z-0"
         quality={100}
       />
-      {/* Overlay for better text readability */}
-      <div className="absolute inset-0 bg-black/50 z-[1]" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-4">
@@ -27,30 +25,32 @@ const HomeHero = () => {
 
         {/* Features list */}
         <div className="flex flex-col items-center gap-2 mb-8 text-gray-300">
-          <div className="flex items-center gap-2">
-            <div className="w-1.5 h-1.5 rounded-full bg-gray-300" />
-            <span>We are an open source ecosystem explorer.</span>
+          <div className="flex items-center gap-2 w-[335px]">
+            <span>
+              We are an open source ecosystem explorer. This website is still in
+              development. Please vote for us in Catalyst Fund 13!
+            </span>
           </div>
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
             <div className="w-1.5 h-1.5 rounded-full bg-gray-300" />
             <span>The website is still in development.</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-1.5 h-1.5 rounded-full bg-gray-300" />
             <span>Please vote for us in Catalyst Fund 13!</span>
-          </div>
+          </div> */}
         </div>
 
         {/* CTA Button */}
         <Link
-          href="/explore"
-          className="inline-flex px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"
+          href="/all_pages"
+          className="homehero-button inline-flex px-4 py-2 bg-[#4363ee] text-white rounded border-2 border-[#5c78e8] hover:bg-[#0c1123] transition-colors"
         >
-          Explore Live Pages &gt;
+          <span>Explore All Pages</span>
         </Link>
       </div>
     </div>
-  );   
+  );
 };
 
 export default HomeHero;

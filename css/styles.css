@@ -96,7 +96,7 @@ html[style*="color-scheme: dark;"] aside.nextra-sidebar-container {
 
 /* Styles for the surroundings of the sidebar */
 .nextra-scrollbar {
-  padding-top: 0.6rem !important;
+  padding-top: 0.3rem !important;
   padding-right: 0rem !important;
   padding-bottom: 1rem !important;
   padding-left: 0rem !important;
@@ -204,6 +204,37 @@ html[style*="color-scheme: dark;"]
   height: calc(100vh - var(--nextra-navbar-height));
 }
 
+.homehero-button span {
+  color: white;
+}
+
+.homehero-button,
+.homehero-button:before,
+.homehero-button:hover {
+  overflow: hidden !important;
+  position: relative;
+}
+
+.homehero-button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 850ms;
+}
+
+.homehero-button:hover:before {
+  left: 100%;
+}
+
 #animation {
   position: relative;
   height: calc(100vh - 4rem);
@@ -221,6 +252,7 @@ article.nextra-content:has(.homehero) {
 body:has(article.nextra-content .homehero) {
   overflow: hidden;
 }
+
 html[style*="color-scheme: light;"] #animation {
   background-color: #1c1c1c;
   background-size: cover;
