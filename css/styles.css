@@ -137,6 +137,33 @@ a:has(.sidebar-menu-item) {
   color: rgba(249, 250, 251, 1);
 }
 
+/* Line that shows up to the left of dropdown items */
+:is(html[class~="dark"])
+  ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3:before {
+  background-color: #121620;
+  width: 2px;
+}
+
+:is(html[class~="light"])
+  ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3:before {
+  background-color: #f3f3f3;
+  width: 2px;
+}
+
+/* Dropdown item styling */
+ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3 {
+  padding-left: 0px;
+  margin-left: 1.5rem;
+}
+
+.nx-transition-opacity.nx-duration-500.nx-ease-in-out.motion-reduce\:nx-transition-none.nx-opacity-100.ltr\:nx-pr-0.rtl\:nx-pl-0.nx-pt-1 {
+  padding-top: 0px;
+}
+
+ul.nx-flex.nx-flex-col.nx-gap-1 > li:first-child {
+  padding-top: 0.25rem;
+}
+
 /* Sidebar footer */
 .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
   box-shadow: none;
