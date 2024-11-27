@@ -21,27 +21,49 @@ a:hover {
   color: #0056b3;
 }
 
+/* Top Navbar */
 /* Site logo */
 .adastack-logo-container {
   margin-left: 18px;
   padding: 15px;
 }
 
-/* Background on dark */
+/* Navbar on dark theme */
 html[style*="color-scheme: dark;"]
   .nextra-nav-container
   .nextra-nav-container-blur {
-  background-color: #050505 !important;
+  background-color: #080a15 !important;
+  box-shadow: none;
+  border-bottom: 1px solid #1d2235;
 }
 
-/* Navigation */
+/* Navbar on light theme */
+html[style*="color-scheme: light;"]
+  .nextra-nav-container
+  .nextra-nav-container-blur {
+  background-color: #fff !important;
+  box-shadow: none;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+/* Social links */
 html .nextra-nav-container a.nx-p-2.nx-text-current {
   padding: 2px !important;
+  margin-left: -6px;
 }
 
-/* Nav background on light */
-html .nextra-nav-container .nextra-nav-container-blur {
-  background-color: #fafaf9 !important;
+/* Social links on light theme */
+html[style*="color-scheme: light;"]
+  .nextra-nav-container
+  a.nx-p-2.nx-text-current {
+  fill: #a3a3a3;
+}
+
+/* Social links on dark theme */
+html[style*="color-scheme: dark;"]
+  .nextra-nav-container
+  a.nx-p-2.nx-text-current {
+  fill: #64748b;
 }
 
 /* Search Bar */
