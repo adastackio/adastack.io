@@ -24,8 +24,7 @@ a:hover {
 /* Top Navbar */
 /* Site logo */
 .adastack-logo-container {
-  margin-left: 18px;
-  padding: 15px;
+  padding: 20px 23px;
 }
 
 /* Navbar on dark theme */
@@ -70,10 +69,73 @@ html[style*="color-scheme: dark;"]
 .nextra-search {
   margin-right: 12px;
 }
+
+/* Search Bar Keyboard Icon */
 kbd.nx-absolute.nx-my-1\.5.nx-select-none.ltr\:nx-right-1\.5.rtl\:nx-left-1\.5.nx-h-5.nx-rounded.nx-bg-white.nx-px-1\.5.nx-font-mono.nx-text-\[10px\].nx-font-medium.nx-text-gray-500.nx-border.dark\:nx-border-gray-100\/20.dark\:nx-bg-dark\/50.contrast-more\:nx-border-current.contrast-more\:nx-text-current.contrast-more\:dark\:nx-border-current.nx-items-center.nx-gap-1.nx-transition-opacity.nx-pointer-events-none.nx-hidden.sm\:nx-flex {
   background-color: #4363ee;
   color: #fff;
   border: 2px solid #5c78e8;
+}
+
+/* Left Sidebar */
+html[style*="color-scheme: light;"] aside.nextra-sidebar-container {
+  background-color: #f7f7f7;
+  mask-image: none;
+}
+
+html[style*="color-scheme: dark;"] aside.nextra-sidebar-container {
+  background-color: #0e121e;
+  mask-image: none;
+}
+
+/* Styles for the surroundings of the sidebar */
+.nextra-scrollbar {
+  padding-top: 0.6rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 1rem !important;
+  padding-left: 0rem !important;
+}
+
+/* Each sidebar item */
+button:has(.sidebar-menu-item),
+a:has(.sidebar-menu-item) {
+  margin-bottom: -4px;
+  padding-top: 11px;
+  padding-right: 0;
+  padding-bottom: 11px;
+  padding-left: 1.3rem;
+}
+
+:is(html[class~="light"]) button:has(.sidebar-menu-item),
+:is(html[class~="light"]) a:has(.sidebar-menu-item) {
+  border-bottom: #e5e5e52e solid;
+}
+
+:is(html[class~="dark"]) button:has(.sidebar-menu-item) {
+  border-bottom: #2929292e solid;
+}
+
+.light-sidebar-item-highlighted {
+  background-color: rgba(243, 244, 246, 1);
+  color: rgba(17, 24, 39, 1);
+}
+
+.dark-sidebar-item-highlighted {
+  background-color: hsla(204, 100%, 94%, 0.05);
+  color: rgba(249, 250, 251, 1);
+}
+
+/* Sidebar footer */
+html[style*="color-scheme: light;"]
+  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
+  background-color: #f7f7f7;
+  box-shadow: none;
+}
+
+html[style*="color-scheme: dark;"]
+  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
+  background-color: #0e121e !important;
+  box-shadow: none !important;
 }
 
 /* Home animation */
@@ -82,6 +144,14 @@ kbd.nx-absolute.nx-my-1\.5.nx-select-none.ltr\:nx-right-1\.5.rtl\:nx-left-1\.5.n
   height: calc(100vh - 4rem);
   width: calc(100vw - 16rem - 24px);
   z-index: 0;
+}
+
+html[style*="color-scheme: light;"] article.nextra-content {
+  background-color: #f7f7f7;
+}
+
+html[style*="color-scheme: dark;"] article.nextra-content {
+  background-color: #0e121e;
 }
 
 article.nextra-content:has(#animation) {
@@ -274,38 +344,6 @@ a.nextra-card .nextra-card-title svg {
 :is(html[class~="dark"]) .home-card.bg-dark-color:hover {
   background: linear-gradient(180deg, #1e1e1e, #151515);
   box-shadow: 0 0 0 1px #0080ff;
-}
-
-/* Left Sidebar */
-.nextra-scrollbar {
-  padding: 1rem 0rem 1rem 0rem !important;
-}
-
-button:has(.sidebar-menu-item) {
-  margin-bottom: -4px;
-  padding: 11px 0 11px 10px;
-}
-
-:is(html[class~="light"]) button:has(.sidebar-menu-item) {
-  border-bottom: #e5e5e52e solid;
-}
-
-:is(html[class~="dark"]) button:has(.sidebar-menu-item) {
-  border-bottom: #2929292e solid;
-}
-
-a:has(.sidebar-menu-item) {
-  padding: 10px 0 10px 10px;
-}
-
-.light-sidebar-item-highlighted {
-  background-color: rgba(243, 244, 246, 1);
-  color: rgba(17, 24, 39, 1);
-}
-
-.dark-sidebar-item-highlighted {
-  background-color: hsla(204, 100%, 94%, 0.05);
-  color: rgba(249, 250, 251, 1);
 }
 
 /* Page Content */
@@ -577,6 +615,10 @@ td.ant-table-cell {
     overflow: hidden;
   }
 
+  .adastack-logo-container {
+    padding: 20px 4px;
+  }
+
   article.nextra-content:has(#animation) {
     padding-right: 0px;
     padding-left: 0px;
@@ -669,11 +711,10 @@ td.ant-table-cell {
     font-size: 1.5rem;
     margin-top: 60px;
   }
+
+  a:has(.sidebar-menu-item),
   button:has(.sidebar-menu-item) {
-    padding: 20px 0 20px 10px;
-  }
-  a:has(.sidebar-menu-item) {
-    padding: 15px 0 15px 10px;
+    padding: 18px 22px 18px 22px;
   }
   .animation-overlay {
     background-color: rgba(0, 0, 0, 0.5) !important;
