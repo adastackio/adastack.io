@@ -78,6 +78,12 @@ kbd.nx-absolute.nx-my-1\.5.nx-select-none.ltr\:nx-right-1\.5.rtl\:nx-left-1\.5.n
 }
 
 /* Left Sidebar */
+html[style*="color-scheme: dark;"] aside.nextra-sidebar-container {
+  border-right: 1px solid #1d2235;
+}
+html[style*="color-scheme: light;"] aside.nextra-sidebar-container {
+  border-right: 1px solid #f3f3f3;
+}
 html[style*="color-scheme: light;"] aside.nextra-sidebar-container {
   background-color: #f7f7f7;
   mask-image: none;
@@ -108,7 +114,7 @@ a:has(.sidebar-menu-item) {
 
 /* Sidebar item down arrow */
 .sidebar-menu-item + svg {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 :is(html[class~="light"]) button:has(.sidebar-menu-item),
@@ -116,7 +122,8 @@ a:has(.sidebar-menu-item) {
   border-bottom: #e5e5e52e solid;
 }
 
-:is(html[class~="dark"]) button:has(.sidebar-menu-item) {
+:is(html[class~="dark"]) button:has(.sidebar-menu-item),
+:is(html[class~="dark"]) a:has(.sidebar-menu-item) {
   border-bottom: #2929292e solid;
 }
 
@@ -131,19 +138,45 @@ a:has(.sidebar-menu-item) {
 }
 
 /* Sidebar footer */
+.nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
+  box-shadow: none;
+  height: 30px;
+  margin-top: 30px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top: none;
+}
+
+/* Footer on light desktop */
 html[style*="color-scheme: light;"]
   .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
+  background-color: #f7f7f7;
+}
+/* Footer on dark desktop */
+html[style*="color-scheme: dark;"]
+  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
+  background-color: #0e121e !important;
+}
+
+/* Footer on light hide sidebar */
+html[style*="color-scheme: light;"]
+  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-py-4.nx-flex-wrap.nx-justify-center {
   background-color: #f7f7f7;
   box-shadow: none;
 }
 
+/* Footer on dark hide sidebar */
 html[style*="color-scheme: dark;"]
-  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
-  background-color: #0e121e !important;
-  box-shadow: none !important;
+  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-py-4.nx-flex-wrap.nx-justify-center {
+  background-color: #0e121e;
+  box-shadow: none;
 }
 
 /* Home animation */
+.homehero {
+  height: calc(100vh - var(--nextra-navbar-height));
+}
+
 #animation {
   position: relative;
   height: calc(100vh - 4rem);
@@ -151,20 +184,16 @@ html[style*="color-scheme: dark;"]
   z-index: 0;
 }
 
-html[style*="color-scheme: light;"] article.nextra-content {
-  background-color: #f7f7f7;
-}
-
-html[style*="color-scheme: dark;"] article.nextra-content {
-  background-color: #0e121e;
-}
-
-article.nextra-content:has(#animation) {
-  /* Styles to apply to the article element */
-  overflow: hidden;
+article.nextra-content:has(.homehero) {
+  padding: 0px 0px;
+  background-color: #04050c;
   height: calc(100vh - var(--nextra-navbar-height));
+  overflow: hidden;
 }
 
+body:has(article.nextra-content .homehero) {
+  overflow: hidden;
+}
 html[style*="color-scheme: light;"] #animation {
   background-color: #1c1c1c;
   background-size: cover;
