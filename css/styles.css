@@ -117,7 +117,9 @@ ul.nx-flex.nx-flex-col.nx-gap-1 > li:first-child > a .sidebar-menu-item {
   padding-top: 4px;
 }
 
-.nx-transition-opacity.nx-duration-500.nx-ease-in-out.motion-reduce\:nx-transition-none.nx-opacity-0.ltr\:nx-pr-0.rtl\:nx-pl-0.nx-pt-1 {
+/* Fix issue causing visual stutter on dropdown */
+.nx-transition-opacity.nx-duration-500.nx-ease-in-out.motion-reduce\:nx-transition-none.nx-opacity-0.ltr\:nx-pr-0.rtl\:nx-pl-0.nx-pt-1,
+.nx-transition-opacity.nx-duration-500.nx-ease-in-out.motion-reduce\:nx-transition-none.nx-opacity-100.ltr\:nx-pr-0.rtl\:nx-pl-0.nx-pt-1 {
   padding-top: 0px;
 }
 
@@ -163,10 +165,6 @@ ul.nx-flex.nx-flex-col.nx-gap-1 > li:first-child > a .sidebar-menu-item {
 ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3 {
   padding-left: 0px;
   margin-left: 1.5rem;
-}
-
-.nx-transition-opacity.nx-duration-500.nx-ease-in-out.motion-reduce\:nx-transition-none.nx-opacity-100.ltr\:nx-pr-0.rtl\:nx-pl-0.nx-pt-1 {
-  padding-top: 0px;
 }
 
 /* Sidebar footer */
