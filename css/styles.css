@@ -112,6 +112,15 @@ a:has(.sidebar-menu-item) {
   padding-left: 1.3rem;
 }
 
+/* Add a bit of padding to first sidebar item of each dropdown.  */
+ul.nx-flex.nx-flex-col.nx-gap-1 > li:first-child > a .sidebar-menu-item {
+  padding-top: 4px;
+}
+
+.nx-transition-opacity.nx-duration-500.nx-ease-in-out.motion-reduce\:nx-transition-none.nx-opacity-0.ltr\:nx-pr-0.rtl\:nx-pl-0.nx-pt-1 {
+  padding-top: 0px;
+}
+
 /* Sidebar item down arrow */
 .sidebar-menu-item + svg {
   margin-right: 20px;
@@ -158,10 +167,6 @@ ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset
 
 .nx-transition-opacity.nx-duration-500.nx-ease-in-out.motion-reduce\:nx-transition-none.nx-opacity-100.ltr\:nx-pr-0.rtl\:nx-pl-0.nx-pt-1 {
   padding-top: 0px;
-}
-
-ul.nx-flex.nx-flex-col.nx-gap-1 > li:first-child {
-  padding-top: 0.25rem;
 }
 
 /* Sidebar footer */
@@ -712,6 +717,11 @@ td.ant-table-cell {
     padding: 20px 4px;
   }
 
+  a:has(.sidebar-menu-item),
+  button:has(.sidebar-menu-item) {
+    padding: 18px 22px 18px 22px;
+  }
+
   article.nextra-content:has(#animation) {
     padding-right: 0px;
     padding-left: 0px;
@@ -805,10 +815,6 @@ td.ant-table-cell {
     margin-top: 60px;
   }
 
-  a:has(.sidebar-menu-item),
-  button:has(.sidebar-menu-item) {
-    padding: 18px 22px 18px 22px;
-  }
   .animation-overlay {
     background-color: rgba(0, 0, 0, 0.5) !important;
     position: fixed !important;
