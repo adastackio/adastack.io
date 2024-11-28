@@ -112,9 +112,16 @@ a:has(.sidebar-menu-item) {
   padding-left: 1.3rem;
 }
 
+/* Dropdown item styling */
+ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3 {
+  padding-left: 0px;
+  margin-left: 1.5rem;
+  padding-top: 2px;
+}
+
 /* Add a bit of padding to first sidebar item of each dropdown.  */
 ul.nx-flex.nx-flex-col.nx-gap-1 > li:first-child > a .sidebar-menu-item {
-  padding-top: 4px;
+  padding-top: 2px;
 }
 
 /* Fix issue causing visual stutter on dropdown */
@@ -159,12 +166,6 @@ ul.nx-flex.nx-flex-col.nx-gap-1 > li:first-child > a .sidebar-menu-item {
   ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3:before {
   background-color: #f3f3f3;
   width: 2px;
-}
-
-/* Dropdown item styling */
-ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3 {
-  padding-left: 0px;
-  margin-left: 1.5rem;
 }
 
 /* Sidebar footer */
