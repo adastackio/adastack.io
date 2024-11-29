@@ -2,6 +2,21 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.sidebar-menu-item,
+input::placeholder,
+.specialized_font {
+  font-family: var(--font-campton), "Segoe UI", "Roboto", "Noto Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", "ui-sans-serif", "system-ui", "-apple-system",
+    "BlinkMacSystemFont", "Arial", "sans-serif", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 /* Links */
 a {
   text-decoration: none !important;
