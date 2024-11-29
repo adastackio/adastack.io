@@ -22,7 +22,7 @@ const HomeHero = () => {
           Cardano Library
         </h1>
         <p className="text-xl text-gray-300 mb-4 specialized_font">
-          Learn, Explore, and Discover
+          Learn and Discover Cardano
         </p>
 
         <div className="flex flex-col items-center gap-2 mb-8 text-gray-300">

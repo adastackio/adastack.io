@@ -114,7 +114,6 @@ const TeamGithubTooltip = ({ record, children }) => {
 };
 
 const OpenSourceBuildersTable = ({ data }) => {
-  console.log(data);
   const columns = [
     {
       title: "Team",
@@ -374,15 +373,11 @@ const OpenSourceBuildersTable = ({ data }) => {
     },
   ];
 
-  const onChange = (pagination, filters, sorter, extra) => {
-    console.log("params", pagination, filters, sorter, extra);
-  };
   return (
     <>
       <Table
         columns={columns}
         dataSource={data}
-        onChange={onChange}
         pagination={false}
         scroll={{
           x: 500,

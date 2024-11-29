@@ -2,6 +2,15 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* Theme */
+html[style*="color-scheme: dark;"] body {
+  background-color: #0e121e !important;
+}
+
+html[style*="color-scheme: light;"] body {
+  background-color: #f7f7f7 !important;
+}
+
 h1,
 h2,
 h3,
@@ -546,6 +555,10 @@ img.shields_io_button {
   margin-top: 2px;
 }
 
+:is(html[class~="dark"]) .badge-button {
+  background-color: transparent !important;
+}
+
 .github-badge {
   display: inline-flex;
   align-items: center;
@@ -751,14 +764,6 @@ td.ant-table-cell {
 
   a.nextra-card {
     margin: 10px 10px;
-  }
-
-  html[style*="color-scheme: light;"] .ant-tooltip-inner {
-    color: #1e1e1e;
-  }
-
-  html[style*="color-scheme: light;"] .tooltip-title {
-    color: #1e1e1e;
   }
 
   .animation-content-container {

@@ -26,6 +26,7 @@ const MostStarredRepoBadge = ({ repoURL, repoStarCount }) => {
             justifyContent: "center",
             padding: "0px 11px 0px 12px",
           }}
+          className="badge-button"
         >
           <Text ellipsis style={{ maxWidth: 200, margin: 0 }}>
             {repoName}

@@ -74,6 +74,11 @@ const ThemeWrapper = ({ children }) => {
             colorBgSpotlight: isDark ? "#141414" : "#ffffff",
             colorTextLightSolid: isDark ? "#ffffff" : "#000000",
           },
+          components: {
+            Table: {
+              colorBgContainer: isDark ? "#0e121e" : "#f7f7f7",
+            },
+          },
         }}
       >
         <div className={campton.variable}>{children}</div>
