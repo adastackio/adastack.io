@@ -17,16 +17,16 @@ const HomeHero = () => {
         padding="0px 50px"
       />
 
-      <div className="relative z-10 text-center px-4">
-        <h1 className="text-[36px] text-white font-bold  mb-4">
+      <div className="-mt-3 relative z-10 text-center px-4">
+        <h1 className="text-[40px] text-white font-semibold mb-4">
           Cardano Library
         </h1>
-        <p className="text-xl text-[#c9d3ee] mb-4 specialized_font">
-          Learn and Discover Cardano
+        <p className="text-[24px] text-[#c9d3ee] mb-5 specialized_font">
+          Learn and Explore Cardano
         </p>
 
-        <div className="flex flex-col items-center gap-2 mb-8 text-gray-300">
-          <div className="flex items-center gap-2 w-[340px]">
+        <div className="flex flex-col items-center gap-2 mb-9 text-gray-300">
+          <div className="flex items-center gap-2 w-[355px] text-[17px]">
             <span>
               Adastack is your comprehensive guide to the Cardano ecosystem.
               Open-source knowledge, curated by the Cardano community.
