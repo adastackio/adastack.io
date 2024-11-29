@@ -5,7 +5,7 @@ import bgImage from "../assets/images/bg.jpg";
 
 const HomeHero = () => {
   return (
-    <div className="homehero relative  flex items-center justify-center overflow-hidden">
+    <div className="homehero relative flex items-center justify-center overflow-hidden">
       <Image
         src={bgImage}
         alt="Background"
@@ -18,16 +18,18 @@ const HomeHero = () => {
       />
 
       <div className="relative z-10 text-center px-4">
-        <h1 className="text-5xl font-bold text-white mb-4">Cardano Library</h1>
-        <p className="text-xl text-gray-300 mb-8">
-          130+ pages of tools and resources
+        <h1 className="text-[36px] font-bold text-[#c9d3ee] mb-4">
+          Cardano Library
+        </h1>
+        <p className="text-xl text-gray-300 mb-4 specialized_font">
+          Learn, Explore, and Discover
         </p>
 
         <div className="flex flex-col items-center gap-2 mb-8 text-gray-300">
           <div className="flex items-center gap-2 w-[335px]">
             <span>
-              We are an open source ecosystem explorer. This website is still in
-              development. Please vote for us in Catalyst Fund 13!
+              Adastack is your comprehensive guide to the Cardano ecosystem.
+              Open-source knowledge curated by the Cardano community.
             </span>
           </div>
         </div>
