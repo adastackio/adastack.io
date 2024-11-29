@@ -3,19 +3,16 @@ import { DocsThemeConfig, ThemeSwitch, useTheme } from "nextra-theme-docs";
 
 import { XIcon, GithubNavIcon } from "./assets/icons";
 import {
-  BlueAdastackIcon,
-  LightBlueAdastackIcon,
-  WhiteAdastackIcon,
   BlueDarkAdastackLogoFull,
   BlueLightAdastackLogoFull,
-  LightBlueAdastackLogoFull,
-  WhiteAdastackLogoFull,
 } from "./assets/logos";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 
-const standard_seo_description =
+const default_seo_description =
   "Adastack is an explorer to check out everything on Cardano. Find dApps, games, community, NFTs, staking, development, governance, and much more.";
+
+const default_seo_title = "Cardano Ecosystem Explorer | Adastack.io";
 
 const config: DocsThemeConfig = {
   head: () => {
@@ -25,10 +22,12 @@ const config: DocsThemeConfig = {
       "https://adastack.io" +
       (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
 
-    let title = `${frontMatter.seo_title} | Adastack.io`;
+    let title = frontMatter.seo_title
+      ? `${frontMatter.seo_title} | Adastack.io`
+      : default_seo_title;
     let description = frontMatter.seo_description
       ? frontMatter.seo_description
-      : standard_seo_description;
+      : default_seo_description;
     return (
       <>
         <meta property="og:url" content={url} />
@@ -55,10 +54,12 @@ const config: DocsThemeConfig = {
   useNextSeoProps() {
     const { frontMatter } = useConfig();
     return {
-      titleTemplate: `${frontMatter.seo_title} | Adastack.io`,
+      titleTemplate: frontMatter.seo_title
+        ? `${frontMatter.seo_title} | Adastack.io`
+        : default_seo_title,
       description: frontMatter.seo_description
         ? frontMatter.seo_description
-        : standard_seo_description,
+        : default_seo_description,
       // Note: This sets pages to index only if there is an seo-description on the page. Remove the below line once all pages have content and seo-descriptions.
       noindex: frontMatter.seo_description ? false : true,
     };
