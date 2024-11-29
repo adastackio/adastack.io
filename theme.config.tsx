@@ -1,6 +1,5 @@
 import React from "react";
-import { DocsThemeConfig, ThemeSwitch, useTheme } from "nextra-theme-docs";
-
+import { DocsThemeConfig, useTheme } from "nextra-theme-docs";
 import { XIcon, GithubNavIcon } from "./assets/icons";
 import {
   BlueDarkAdastackLogoFull,
@@ -10,7 +9,7 @@ import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 
 const default_seo_description =
-  "Adastack is an explorer to check out everything on Cardano. Find dApps, games, community, NFTs, staking, development, governance, and much more.";
+  "Adastack is an explorer for everything on Cardano. Find community, dApps, games, staking, NFTs, governance, development, DAOs, Layer 2s, and more.";
 
 const default_seo_title = "Cardano Ecosystem Explorer | Adastack.io";
 
@@ -33,6 +32,8 @@ const config: DocsThemeConfig = {
         <meta property="og:url" content={url} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="canonical" href={url} />
         <link
           rel="icon"
           type="image/png"
@@ -67,19 +68,11 @@ const config: DocsThemeConfig = {
   search: { placeholder: "Search Cardano" },
   chat: {
     link: "https://x.com/adastackio",
-    icon: (
-      <>
-        <XIcon />
-      </>
-    ),
+    icon: <XIcon />,
   },
   project: {
     link: "https://github.com/adastackio",
-    icon: (
-      <>
-        <GithubNavIcon />
-      </>
-    ),
+    icon: <GithubNavIcon />,
   },
   themeSwitch: {
     useOptions() {
@@ -111,11 +104,10 @@ const config: DocsThemeConfig = {
   sidebar: {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
-    titleComponent(props) {
-      const title = props.title;
+    titleComponent({ title }) {
+      // Note: Remove this variable, conditional class logic, and related CSS once content has been added to all pages. Keep the 'sidebar-menu-item' part below.
       const isInDevelopment = title.endsWith(" ");
       return (
-        // Note: Remove this conditional class logic and related CSS once content has been added to all pages
         <div
           className={`sidebar-menu-item ${
             isInDevelopment ? "page-in-development" : ""
