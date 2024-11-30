@@ -20,17 +20,6 @@
       "pagination": false
     }
   },
-  "ant_design": {
-    "title": "Ant Design Test",
-    "display": "hidden",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": false,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "dev_teams": {
     "title": "Software Development Firms",
     "theme": {
