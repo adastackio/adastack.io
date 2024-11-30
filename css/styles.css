@@ -250,6 +250,13 @@ html[style*="color-scheme: dark;"]
   box-shadow: none;
 }
 
+/* Remove check icon within black/white toggle */
+.nx-z-20.nx-max-h-64.nx-overflow-auto.nx-rounded-md
+  li
+  span.nx-absolute.nx-inset-y-0.nx-flex.nx-items-center.ltr\:nx-right-3.rtl\:nx-left-3 {
+  display: none;
+}
+
 /* Home animation */
 .homehero {
   height: calc(100vh - var(--nextra-navbar-height));
