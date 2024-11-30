@@ -17,7 +17,8 @@
       "sidebar": true,
       "toc": true,
       "footer": true,
-      "pagination": false
+      "pagination": false,
+      "layout": "full"
     }
   },
   "dev_teams": {
