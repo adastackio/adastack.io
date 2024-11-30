@@ -1195,6 +1195,12 @@ export const openSourceBuildersData = [
     teamGithubURL: "https://github.com/PaimaStudios",
     tags: ["Dev Company"],
   },
+  {
+    name: "Cardano Mercury",
+    website: "https://cardano-mercury.com/",
+    teamGithubURL: "https://github.com/cardano-mercury",
+    tags: ["dApp"],
+  },
 ];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
