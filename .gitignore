@@ -10,3 +10,5 @@ pnpm-lock.yaml
 .env*.local
 .aider*
 data/
+.vscode/settings.json
+
