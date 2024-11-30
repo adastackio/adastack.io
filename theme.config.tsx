@@ -120,6 +120,7 @@ const config: DocsThemeConfig = {
   },
   toc: {
     float: true,
+    title: "Table of Contents",
   },
   feedback: {
     content: "",
