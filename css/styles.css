@@ -2,6 +2,30 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* Theme */
+html[style*="color-scheme: dark;"] body {
+  background-color: #0e121e !important;
+}
+
+html[style*="color-scheme: light;"] body {
+  background-color: #f7f7f7 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.sidebar-menu-item,
+input::placeholder,
+.specialized_font {
+  font-family: var(--font-campton), "Segoe UI", "Roboto", "Noto Sans", "Ubuntu",
+    "Cantarell", "Helvetica Neue", "ui-sans-serif", "system-ui", "-apple-system",
+    "BlinkMacSystemFont", "Arial", "sans-serif", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 /* Links */
 a {
   text-decoration: none !important;
@@ -21,48 +45,254 @@ a:hover {
   color: #0056b3;
 }
 
+/* Top Navbar */
 /* Site logo */
-.adastack-title {
-  margin-left: -30px;
+.adastack-logo-container {
+  padding: 20px 23px;
 }
 
-html[style*="color-scheme: dark;"] .adastack-title {
-  color: #f3f4f6;
-}
-
-svg.adastack-logo {
-  padding: 13px;
-}
-
-/* Background on light */
-html[style*="color-scheme: light;"] div.nx-mx-auto.nx-flex.nx-max-w-\[90rem\] {
-  background-color: #fafafa;
-}
-
-/* Background on dark */
+/* Navbar on dark theme */
 html[style*="color-scheme: dark;"]
   .nextra-nav-container
   .nextra-nav-container-blur {
-  background-color: #050505 !important;
+  background-color: #080a15 !important;
+  box-shadow: none;
+  border-bottom: 1px solid #1d2235;
 }
 
-/* Nav background on light */
-html .nextra-nav-container .nextra-nav-container-blur {
-  background-color: #fafaf9 !important;
+/* Navbar on light theme */
+html[style*="color-scheme: light;"]
+  .nextra-nav-container
+  .nextra-nav-container-blur {
+  background-color: #fff !important;
+  box-shadow: none;
+  border-bottom: 1px solid #f1f5f9;
 }
 
-/* Nav GitHub Link  */
-.navbar-github-link {
-  margin-left: -4px;
+/* Social links */
+html .nextra-nav-container a.nx-p-2.nx-text-current {
+  padding: 2px !important;
+  margin-left: -6px;
+}
+
+/* Social links on light theme */
+html[style*="color-scheme: light;"]
+  .nextra-nav-container
+  a.nx-p-2.nx-text-current {
+  fill: #a3a3a3;
+}
+
+/* Social links on dark theme */
+html[style*="color-scheme: dark;"]
+  .nextra-nav-container
+  a.nx-p-2.nx-text-current {
+  fill: #64748b;
+}
+
+/* Search Bar */
+.nextra-search {
+  margin-right: 12px;
+}
+
+/* Search Bar Keyboard Icon */
+kbd.nx-absolute.nx-my-1\.5.nx-select-none.ltr\:nx-right-1\.5.rtl\:nx-left-1\.5.nx-h-5.nx-rounded.nx-bg-white.nx-px-1\.5.nx-font-mono.nx-text-\[10px\].nx-font-medium.nx-text-gray-500.nx-border.dark\:nx-border-gray-100\/20.dark\:nx-bg-dark\/50.contrast-more\:nx-border-current.contrast-more\:nx-text-current.contrast-more\:dark\:nx-border-current.nx-items-center.nx-gap-1.nx-transition-opacity.nx-pointer-events-none.nx-hidden.sm\:nx-flex {
+  background-color: #4363ee;
+  color: #fff;
+  border: 2px solid #5c78e8;
+}
+
+/* Left Sidebar */
+html[style*="color-scheme: dark;"] aside.nextra-sidebar-container {
+  border-right: 1px solid #1d2235;
+}
+html[style*="color-scheme: light;"] aside.nextra-sidebar-container {
+  border-right: 1px solid #f3f3f3;
+}
+html[style*="color-scheme: light;"] aside.nextra-sidebar-container {
+  background-color: #f7f7f7;
+  mask-image: none;
+}
+
+html[style*="color-scheme: dark;"] aside.nextra-sidebar-container {
+  background-color: #0e121e;
+  mask-image: none;
 }
 
 html[style*="color-scheme: light;"]
-  .navbar-github-link
-  .navbar-github-link-path {
-  fill: #9ca3af;
+  p.nx-mb-4.nx-font-semibold.nx-tracking-tight
+  + ul {
+  background-color: #f7f7f7;
+}
+
+/* Styles for the surroundings of the sidebar */
+.nextra-scrollbar {
+  padding-top: 0.3rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 1rem !important;
+  padding-left: 0rem !important;
+}
+
+/* Each sidebar item */
+button:has(.sidebar-menu-item),
+a:has(.sidebar-menu-item) {
+  margin-bottom: -4px;
+  padding-top: 11px;
+  padding-right: 0;
+  padding-bottom: 11px;
+  padding-left: 1.3rem;
+}
+
+/* Dropdown item styling */
+ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3 {
+  padding-left: 0px;
+  margin-left: 1.5rem;
+  padding-top: 2px;
+}
+
+/* Add a bit of padding to first sidebar item of each dropdown.  */
+ul.nx-flex.nx-flex-col.nx-gap-1 > li:first-child > a .sidebar-menu-item {
+  padding-top: 2px;
+}
+
+/* Fix issue causing visual stutter on dropdown */
+.nx-transition-opacity.nx-duration-500.nx-ease-in-out.motion-reduce\:nx-transition-none.nx-opacity-0.ltr\:nx-pr-0.rtl\:nx-pl-0.nx-pt-1,
+.nx-transition-opacity.nx-duration-500.nx-ease-in-out.motion-reduce\:nx-transition-none.nx-opacity-100.ltr\:nx-pr-0.rtl\:nx-pl-0.nx-pt-1 {
+  padding-top: 0px;
+}
+
+/* Sidebar item down arrow */
+.sidebar-menu-item + svg {
+  margin-right: 20px;
+}
+
+:is(html[class~="light"]) button:has(.sidebar-menu-item),
+:is(html[class~="light"]) a:has(.sidebar-menu-item) {
+  border-bottom: #e5e5e52e solid;
+}
+
+:is(html[class~="dark"]) button:has(.sidebar-menu-item),
+:is(html[class~="dark"]) a:has(.sidebar-menu-item) {
+  border-bottom: #2929292e solid;
+}
+
+.light-sidebar-item-highlighted {
+  background-color: rgba(243, 244, 246, 1);
+  color: rgba(17, 24, 39, 1);
+}
+
+.dark-sidebar-item-highlighted {
+  background-color: hsla(204, 100%, 94%, 0.05);
+  color: rgba(249, 250, 251, 1);
+}
+
+/* Line that shows up to the left of dropdown items */
+:is(html[class~="dark"])
+  ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3:before {
+  background-color: #121620;
+  width: 2px;
+}
+
+:is(html[class~="light"])
+  ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3:before {
+  background-color: #f3f3f3;
+  width: 2px;
+}
+
+/* Sidebar footer */
+.nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
+  box-shadow: none;
+  height: 30px;
+  margin-top: 30px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top: none;
+}
+
+/* Right TOC Sidebar */
+html[style*="color-scheme: dark;"]
+  .nextra-scrollbar
+  ul
+  + .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
+  background-color: #0e121e;
+  box-shadow: none;
+}
+
+html[style*="color-scheme: light;"]
+  .nextra-scrollbar
+  ul
+  + .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
+  background-color: #f7f7f7;
+  box-shadow: none;
+}
+
+/* Footer on light desktop */
+html[style*="color-scheme: light;"]
+  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
+  background-color: #f7f7f7;
+}
+/* Footer on dark desktop */
+html[style*="color-scheme: dark;"]
+  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
+  background-color: #0e121e !important;
+}
+
+/* Footer on light hide sidebar */
+html[style*="color-scheme: light;"]
+  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-py-4.nx-flex-wrap.nx-justify-center {
+  background-color: #f7f7f7;
+  box-shadow: none;
+}
+
+/* Footer on dark hide sidebar */
+html[style*="color-scheme: dark;"]
+  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-py-4.nx-flex-wrap.nx-justify-center {
+  background-color: #0e121e;
+  box-shadow: none;
+}
+
+/* Remove check icon within black/white toggle */
+.nx-z-20.nx-max-h-64.nx-overflow-auto.nx-rounded-md
+  li
+  span.nx-absolute.nx-inset-y-0.nx-flex.nx-items-center.ltr\:nx-right-3.rtl\:nx-left-3 {
+  display: none;
 }
 
 /* Home animation */
+.homehero {
+  height: calc(100vh - var(--nextra-navbar-height));
+}
+
+.homehero-button span {
+  color: white;
+}
+
+.homehero-button,
+.homehero-button:before,
+.homehero-button:hover {
+  overflow: hidden !important;
+  position: relative;
+}
+
+.homehero-button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 850ms;
+}
+
+.homehero-button:hover:before {
+  left: 100%;
+}
+
 #animation {
   position: relative;
   height: calc(100vh - 4rem);
@@ -70,10 +300,15 @@ html[style*="color-scheme: light;"]
   z-index: 0;
 }
 
-article.nextra-content:has(#animation) {
-  /* Styles to apply to the article element */
-  overflow: hidden;
+article.nextra-content:has(.homehero) {
+  padding: 0px 0px;
+  background-color: #04050c;
   height: calc(100vh - var(--nextra-navbar-height));
+  overflow: hidden;
+}
+
+body:has(article.nextra-content .homehero) {
+  overflow: hidden;
 }
 
 html[style*="color-scheme: light;"] #animation {
@@ -161,7 +396,7 @@ html[style*="color-scheme: light;"] .animation-subtitle {
 
 html[style*="color-scheme: dark;"] .animation-title,
 html[style*="color-scheme: dark;"] .animation-subtitle {
-  color: #fafaf9;
+  color: #f7f7f7;
 }
 
 ul.animation-description-text {
@@ -262,42 +497,6 @@ a.nextra-card .nextra-card-title svg {
   box-shadow: 0 0 0 1px #0080ff;
 }
 
-/* Left Sidebar */
-.nextra-scrollbar {
-  padding: 1rem 0rem 1rem 0rem !important;
-}
-
-button:has(.sidebar-menu-item) {
-  margin-bottom: -4px;
-  padding: 11px 0 11px 10px;
-}
-
-:is(html[class~="light"]) button:has(.sidebar-menu-item) {
-  border-bottom: #e5e5e52e solid;
-}
-
-:is(html[class~="dark"]) button:has(.sidebar-menu-item) {
-  border-bottom: #2929292e solid;
-}
-
-a:has(.sidebar-menu-item) {
-  padding: 10px 0 10px 10px;
-}
-
-button[title="Hide sidebar"] {
-  display: none;
-}
-
-.light-sidebar-item-highlighted {
-  background-color: rgba(243, 244, 246, 1);
-  color: rgba(17, 24, 39, 1);
-}
-
-.dark-sidebar-item-highlighted {
-  background-color: hsla(204, 100%, 94%, 0.05);
-  color: rgba(249, 250, 251, 1);
-}
-
 /* Page Content */
 /* Post header H1 */
 h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx-text-slate-100 {
@@ -307,21 +506,6 @@ h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx
 .nextra-breadcrumb {
   font-size: 0.675rem;
 }
-
-/* Right Sidebar */
-html[style*="color-scheme: light;"]
-  .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
-  background-color: #fafafa;
-  box-shadow: none;
-  bottom: -15px;
-}
-
-html[style*="color-scheme: light;"]
-  p.nx-mb-4.nx-font-semibold.nx-tracking-tight
-  + ul {
-  background-color: #fafafa;
-}
-
 footer {
   display: none;
 }
@@ -375,9 +559,19 @@ img.shields_io_button {
   margin-bottom: -5px;
 }
 
+.shields_io_language_badge,
+.shields_io_repo_badge {
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+
 .favicon-custom-css {
   border-color: #4b5563;
-  margin-top: 5px;
+  margin-top: 2px;
+}
+
+:is(html[class~="dark"]) .badge-button {
+  background-color: transparent !important;
 }
 
 .github-badge {
@@ -410,11 +604,20 @@ img.shields_io_button {
   text-decoration: none;
   opacity: 0.8;
 }
+
 .page-in-development {
   opacity: 0.5;
   color: #888;
   text-decoration: none;
   position: relative;
+}
+
+:is(html[class~="dark"]) li.ant-pagination-total-text {
+  color: #a3a3a3;
+}
+
+:is(html[class~="light"]) li.ant-pagination-total-text {
+  color: black;
 }
 
 a[class*="nx-cursor-pointer"]:has(.page-in-development) {
@@ -442,6 +645,88 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   right: -140px;
 }
 
+/* Badges */
+.svg-icon {
+  height: 100px;
+  width: 100px;
+}
+
+/* Ant Design Modifications */
+html body .ant-table-cell div a {
+  width: auto !important;
+}
+
+.ant-table-cell .ant-typography {
+  display: inline-block;
+  margin-bottom: 0px !important;
+  margin-right: 2px !important;
+}
+
+.last-commit-badge-container .last-commit-badge-content {
+  padding-left: 3px !important;
+  padding-right: 10px;
+}
+
+.last-commit-badge-container .last-commit-badge-content .ant-btn-icon {
+  margin-right: -8px;
+}
+
+html[style*="color-scheme: dark;"] .team_table_name {
+  color: #c8c8c8;
+}
+
+html[style*="color-scheme: dark;"] .team_table_name:hover {
+  color: #fff;
+}
+
+html[style*="color-scheme: light;"] .team_table_name {
+  color: #4b5563;
+}
+
+html[style*="color-scheme: light;"] .team_table_name:hover {
+  color: black;
+}
+
+.team_table_name_container:hover {
+  /* text-decoration: underline; */
+}
+
+.ant-table-cell div a {
+  width: 100%;
+}
+
+html[style*="color-scheme: dark;"] .ant-typography-copy svg {
+  margin-bottom: -6px;
+  opacity: 25%;
+  fill: white;
+}
+
+.ant-typography-copy svg {
+  margin-bottom: -6px;
+  opacity: 25%;
+}
+
+.ant-table-cell div a {
+  color: #007bff;
+}
+
+.ant-spin-nested-loading {
+  width: fit-content;
+}
+
+span.ant-tag {
+  font-size: 10px;
+}
+
+.ant-spin-nested-loading {
+  width: -moz-fit-content !important;
+  width: initial !important;
+}
+
+td.ant-table-cell {
+  padding: 4px 6px !important;
+}
+
 /* Media Queries */
 /* XS Size */
 @media (max-width: 544px) {
@@ -464,6 +749,15 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
     width: 100vw;
     height: calc(100vh - 4rem);
     overflow: hidden;
+  }
+
+  .adastack-logo-container {
+    padding: 20px 4px;
+  }
+
+  a:has(.sidebar-menu-item),
+  button:has(.sidebar-menu-item) {
+    padding: 18px 22px 18px 22px;
   }
 
   article.nextra-content:has(#animation) {
@@ -550,12 +844,7 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
     font-size: 1.5rem;
     margin-top: 60px;
   }
-  button:has(.sidebar-menu-item) {
-    padding: 20px 0 20px 10px;
-  }
-  a:has(.sidebar-menu-item) {
-    padding: 15px 0 15px 10px;
-  }
+
   .animation-overlay {
     background-color: rgba(0, 0, 0, 0.5) !important;
     position: fixed !important;
@@ -569,6 +858,10 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   .nextra-cards.home-navigation-cards {
     z-index: 10;
     position: relative;
+  }
+
+  .ant-table-cell .ant-typography {
+    display: none;
   }
 }
 /* Everything Under Large Size */

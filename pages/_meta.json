@@ -15,7 +15,7 @@
   "all_pages": {
     "title": "All Pages",
     "theme": {
-      "breadcrumb": false,
+      "breadcrumb": true,
       "sidebar": true,
       "toc": true,
       "footer": true,

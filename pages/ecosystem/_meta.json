@@ -39,8 +39,8 @@
       "pagination": false
     }
   },
-  "tokens": {
-    "title": "Tokens  ",
+  "cardano_markets": {
+    "title": "Cardano Markets  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
