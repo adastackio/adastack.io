@@ -24,7 +24,7 @@
     "antd": "^5.22.1",
     "antd-style": "^3.7.1",
     "javascript-time-ago": "^2.5.11",
-    "next": "15.0.1",
+    "next": "15.0.3",
     "nextra": "^2.13.4",
     "nextra-theme-docs": "^2.13.4",
     "react": "18.3.1",
