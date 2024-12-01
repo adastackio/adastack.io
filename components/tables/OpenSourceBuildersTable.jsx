@@ -382,6 +382,9 @@ const OpenSourceBuildersTable = ({ data }) => {
         scroll={{
           x: 500,
         }}
+        rowClassName={(record, index) =>
+          index % 2 === 0 ? "table-row-odd" : "table-row-even"
+        }
       />
     </>
   );

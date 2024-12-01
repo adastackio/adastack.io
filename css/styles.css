@@ -662,6 +662,25 @@ html body .ant-table-cell div a {
   margin-right: 2px !important;
 }
 
+td.ant-table-cell.ant-table-cell-fix-left.ant-table-cell-fix-left-last {
+  background-color: inherit;
+}
+
+html[style*="color-scheme: light;"] .table-row-odd {
+  background-color: #fcfcfc;
+}
+html[style*="color-scheme: light;"] .table-row-even {
+  background-color: #f6f6f6;
+}
+
+html[style*="color-scheme: dark;"] .table-row-odd {
+  background-color: #0d101c;
+}
+
+html[style*="color-scheme: dark;"] .table-row-even {
+  background-color: #080a15;
+}
+
 .last-commit-badge-container .last-commit-badge-content {
   padding-left: 3px !important;
   padding-right: 10px;
