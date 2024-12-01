@@ -1,221 +1,42 @@
 ---
 seo_title: Open Source Builders
 seo_description: Exploring Cardano's Open Source ecosystem? Explore the developer teams building tools, frameworks, and dApps that drive innovation on Cardano.
+toc: false
 ---
 
-import TableRow from "../../components/TableRow";
+import OpenSourceBuildersTable from "../../components/tables/OpenSourceBuildersTable";
+import openSourceBuildersAPI from "../../scripts/API/openSourceBuildersAPI";
+import { openSourceBuildersData } from "../api/open_source_builders";
 
 export const getStaticProps = async () => {
-  const fetchAllGitHubRepos = async (url, name) => {
-    let response = await fetch(url, {
-      headers: {
-        Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
-        Accept: "application/vnd.github.v3+json",
-      },
-    });
-    if (response.status === 404) {
-      url = `https://api.github.com/orgs/${name}/repos?per_page=100`;
-      response = await fetch(url, {
-        headers: {
-          Authorization: `token ${process.env.GITHUB_ACCESS_TOKEN}`,
-          Accept: "application/vnd.github.v3+json",
-        },
-      });
-    }
-    if (!response.ok) {
-      const errorMessage = `HTTP error! Status: ${response.status}, Text: ${response.statusText}`;
-      console.error(errorMessage);
-      throw new Error(errorMessage);
-    }
-    const repos = await response.json();
-    const nextLink = response.headers
-      .get("Link")
-      ?.match(/<([^>]+)>;\s*rel="next"/)?.[1];
-    return { repos, nextLink };
-  };
+  try {
+    const allRepos = await openSourceBuildersAPI(openSourceBuildersData);
+    const sortedOSBuilderData = allRepos.sort((a, b) => b.stars - a.stars);
 
-const fetchGitHubStars = async (name) => {
-let url = `https://api.github.com/users/${name}/repos?per_page=100`;
-let totalStars = 0;
+    return {
+      props: { sortedOSBuilderData },
+      revalidate: 600,
+    };
 
-    while (url) {
-      const { repos, nextLink } = await fetchAllGitHubRepos(url, name);
-      totalStars += repos.reduce(
-        (sum, repo) => sum + repo.stargazers_count,
-        0
-      );
-      url = nextLink;
-    }
-    return totalStars;
-
-};
-
-const teamData = [
-{ name: 'Input Output Global', website: 'https://iohk.io/', repoURL: 'https://github.com/input-output-hk', type: 'Dev Shop' },
-{ name: 'Tweag', website: 'https://www.tweag.io/', repoURL: 'https://github.com/tweag', type: 'Dev Shop' },
-{ name: 'Galois', website: 'https://galois.com/', repoURL: 'https://github.com/GaloisInc', type: 'Dev Shop' },
-{ name: 'Intersect MBO', website: 'https://www.intersectmbo.org/', repoURL: 'https://github.com/intersectmbo', type: 'Organization' },
-{ name: 'Protofire', website: 'https://protofire.io/', repoURL: 'https://github.com/protofire', type: 'Dev Shop' },
-{ name: 'Cardano Foundation', website: 'https://cardanofoundation.org/', repoURL: 'https://github.com/cardano-foundation', type: 'Organization' },
-{ name: 'Metalamp', website: 'https://metalamp.io/', repoURL: 'https://github.com/fullstack-development', type: 'Dev Shop' },
-{ name: 'Obsidian Systems', website: 'https://obsidian.systems/', repoURL: 'https://github.com/obsidiansystems', type: 'Dev Shop' },
-{ name: 'Well Typed', website: 'https://www.well-typed.com/', repoURL: 'https://github.com/well-typed', type: 'Dev Shop' },
-{ name: 'Emurgo', website: 'https://emurgo.io/', repoURL: 'https://github.com/Emurgo', type: 'Organization' },
-{ name: 'Tastenkunst GmbH', website: 'http://www.tastenkunst.com/', repoURL: 'https://github.com/Tastenkunst', type: 'Dev Shop' },
-{ name: 'Vacuumlabs', website: 'https://vacuumlabs.com/', repoURL: 'https://github.com/vacuumlabs', type: 'Dev Shop' },
-{ name: 'TxPipe', website: 'https://txpipe.io/', repoURL: 'https://github.com/txpipe', type: 'Dev Shop' },
-{ name: 'DC Spark', website: 'https://www.dcspark.io/', repoURL: 'https://github.com/dcSpark', type: 'Dev Shop' },
-{ name: 'Mlabs', website: 'https://mlabs.city/', repoURL: 'https://github.com/mlabs-haskell', type: 'Dev Shop' },
-{ name: 'Cardano Community', website: 'https://cardano-community.github.io', repoURL: 'https://github.com/cardano-community', type: 'Organization' },
-{ name: 'Blockfrost.io', website: 'https://blockfrost.io/', repoURL: 'https://github.com/blockfrost', type: 'dApp' },
-{ name: 'Coti', website: 'https://coti.io/', repoURL: 'https://github.com/coti-io', type: 'dApp' },
-{ name: 'Blink Labs', website: 'https://blinklabs.io/', repoURL: 'https://github.com/blinklabs-io', type: 'Dev Shop' },
-{ name: 'Spectrum Finance', website: 'https://spectrum.fi/', repoURL: 'https://github.com/spectrum-finance', type: 'dApp' },
-{ name: 'Mesh', website: 'https://meshjs.dev/', repoURL: 'https://github.com/MeshJS', type: 'Tools' },
-{ name: 'Sundae Labs', website: 'https://sundae.fi/', repoURL: 'https://github.com/SundaeSwap-finance', type: 'dApp' },
-{ name: 'Harmonic Labs', website: 'https://www.harmoniclabs.tech/', repoURL: 'https://github.com/HarmonicLabs', type: 'Dev Shop' },
-{ name: 'Minswap', website: 'https://app.minswap.org/', repoURL: 'https://github.com/minswap', type: 'dApp' },
-{ name: 'Liqwid Finance', website: 'https://liqwid.finance/', repoURL: 'https://github.com/liqwid-labs', type: 'dApp' },
-{ name: 'Genius Yield', website: 'https://app.geniusyield.co/', repoURL: 'https://github.com/geniusyield', type: 'dApp' },
-{ name: 'Strica', website: 'https://strica.io/', repoURL: 'https://github.com/StricaHQ', type: 'Dev Shop' },
-{ name: 'Dynamic Strategies', website: 'https://dynamicstrategies.io/', repoURL: 'https://github.com/dynamicstrategies', type: 'Dev Shop' },
-{ name: 'Anastasia Labs', website: 'https://anastasialabs.com/', repoURL: 'https://github.com/Anastasia-Labs', type: 'Dev Shop' },
-{ name: 'Ray Network', website: 'https://raynetwork.io/', repoURL: 'https://github.com/xray-network', type: 'dApp' },
-{ name: 'Indigo Protocol', website: 'https://indigoprotocol.io/', repoURL: 'https://github.com/IndigoProtocol', type: 'dApp' },
-{ name: 'Butane', website: 'https://butane.dev/', repoURL: 'https://github.com/butaneprotocol', type: 'dApp' },
-{ name: 'Zw3rk Tech', website: 'https://zw3rk.com/', repoURL: 'https://github.com/zw3rk', type: 'Dev Shop' },
-{ name: 'Dquadrant', website: 'https://dquadrant.com/', repoURL: 'https://github.com/dQuadrant', type: 'Dev Shop' },
-{ name: 'Mutual Knowledge', website: 'https://mukn.com/', repoURL: 'https://github.com/MuKnSys', type: 'Dev Shop' },
-{ name: 'Meld', website: 'https://www.meld.com/', repoURL: 'https://github.com/MELD-labs', type: 'dApp' },
-{ name: 'Five Binaries', website: 'https://fivebinaries.com/', repoURL: 'https://github.com/fivebinaries', type: 'Dev Shop' },
-{ name: 'Pragma', website: 'https://pragma.io/', repoURL: 'https://github.com/pragma-org', type: 'Organization' },
-{ name: 'MuesliSwap', website: 'https://muesliswap.com/', repoURL: 'https://github.com/MuesliSwapTeam', type: 'dApp' },
-{ name: 'Sidan', website: 'https://sidan.io/', repoURL: 'https://github.com/sidan-lab', type: 'Dev Shop' },
-{ name: 'UpToDate Developers', website: 'https://uptodatedevelopers.com/', repoURL: 'https://github.com/UPTODATE-DEV', type: 'Tools' },
-{ name: 'Cexplorer.io', website: 'https://cexplorer.io/', repoURL: 'https://github.com/cexplorer', type: 'Tools' },
-{ name: 'Logical Mechanism', website: 'https://logicalmechanism.io/', repoURL: 'https://github.com/logical-mechanism', type: 'Dev Shop' },
-{ name: 'Teddyswap', website: 'https://app.teddyswap.org/', repoURL: 'https://github.com/teddy-swap', type: 'dApp' },
-{ name: 'Maestro', website: 'https://www.gomaestro.org/', repoURL: 'https://github.com/maestro-org', type: 'Tools' },
-{ name: 'NMKR', website: 'https://nmkr.io/', repoURL: 'https://github.com/nftmakerio', type: 'Tools' },
-{ name: 'Iagon', website: 'https://iagon.com/', repoURL: 'https://github.com/iagonorg', type: 'dApp' },
-{ name: 'ZK Fold', website: 'https://zkfold.io/', repoURL: 'https://github.com/zkFold', type: 'dApp' },
-{ name: 'Wingriders', website: 'https://www.wingriders.com/', repoURL: 'https://github.com/WingRiders', type: 'dApp' },
-{ name: 'Studio Webux', website: 'https://webuxlab.com/', repoURL: 'https://github.com/studiowebux', type: 'Dev Shop' },
-{ name: 'Lenfi', website: 'https://lenfi.io/', repoURL: 'https://github.com/lenfiLabs', type: 'dApp' },
-{ name: 'DripDropz', website: 'https://dripdropz.io', repoURL: 'https://github.com/DripDropz', type: 'dApp' },
-{ name: 'Mynth.ai', website: 'https://mynth.ai', repoURL: 'https://github.com/MynthAI', type: 'dApp' },
-{ name: 'ADA Anvil', website: 'https://ada-anvil.io/', repoURL: 'https://github.com/Cardano-Forge', type: 'Dev Shop' },
-{ name: 'Biglup Labs', website: 'https://biglup.io/', repoURL: 'https://github.com/Biglup', type: 'Dev Shop' },
-{ name: 'Optim Finance', website: 'https://www.optim.finance/', repoURL: 'https://github.com/OptimFinance', type: 'dApp' },
-{ name: 'Danogo', website: 'https://danogo.io/', repoURL: 'https://github.com/Danogo2023', type: 'dApp' },
-{ name: 'DCOneCrypto', website: 'https://dconecrypto.finance/', repoURL: 'https://github.com/DCOneCrypto', type: 'Tools' },
-{ name: 'Ikigai Tech', website: 'https://ikigaitech.org/', repoURL: 'https://github.com/ikigai-github', type: 'Dev Shop' },
-{ name: 'Plank', website: 'https://www.joinplank.com/', repoURL: 'https://github.com/joinplank', type: 'Dev Shop' },
-{ name: 'VyFi', website: 'https://app.vyfi.io/dex', repoURL: 'https://github.com/vyfi', type: 'dApp' },
-{ name: 'Saib', website: 'https://saib.dev/', repoURL: 'https://github.com/SAIB-Inc', type: 'Dev Shop' },
-{ name: 'Evolute Software', website: 'https://evolute.software/', repoURL: 'https://github.com/evolute-software', type: 'Dev Shop' },
-{ name: 'Cerra.io', website: 'https://cerra.io/', repoURL: 'https://github.com/cerraio', type: 'dApp' },
-{ name: 'DexHunter', website: 'https://www.dexhunter.io/', repoURL: 'https://github.com/DexHunterIO', type: 'dApp' },
-{ name: 'Adastack', website: 'https://www.adastack.io', repoURL: 'https://github.com/adastackio/', type: 'Tools' },
-{ name: 'NFT Guild', website: 'https://www.nft-guild.io/', repoURL: 'https://github.com/NFT-Guild', type: 'Organization' },
-{ name: 'Bodega Market', website: 'https://bodegamarket.xyz/', repoURL: 'https://github.com/bodega-market', type: 'dApp' },
-{ name: 'Profila', website: 'https://profila.com/', repoURL: 'https://github.com/Profila', type: 'dApp' },
-{ name: 'Metera', website: 'https://www.meteraprotocol.io/', repoURL: 'https://github.com/MeteraLabs', type: 'dApp' },
-{ name: 'Paribus', website: 'https://paribus.io/', repoURL: 'https://github.com/paribus', type: 'dApp' },
-{ name: 'Splash protocol', website: 'https://www.splash.trade/', repoURL: 'https://github.com/splashprotocol', type: 'dApp' },
-{ name: 'Veralidity', website: 'https://veralidity.com/', repoURL: 'https://github.com/veralidity', type: 'Tools' },
-{ name: 'Self Driven Foundation', website: 'https://selfdriven.foundation/', repoURL: 'https://github.com/selfdriven-foundation', type: 'Organization' },
-{ name: 'Blueshift', website: 'https://blueshift.fi', repoURL: 'https://github.com/blueshift-fi', type: 'dApp' },
-{ name: 'Mayz', website: 'https://mayz.io/', repoURL: 'https://github.com/MAYZGitHub/', type: 'dApp' },
-{ name: 'Strike Finance', website: 'https://strikefinance.org/', repoURL: 'https://github.com/strike-finance', type: 'dApp' },
-{ name: 'Nucast Labs', website: 'https://www.nucastlabs.xyz/', repoURL: 'https://github.com/Nucastio', type: 'Dev Shop' },
-{ name: 'Saturn Labs', website: 'https://saturnlabs.org/', repoURL: 'https://github.com/SaturnLabs', type: 'Dev Shop' },
-{ name: 'Bloxico', website: 'https://bloxico.com/', repoURL: 'https://github.com/Bloxico', type: 'Dev Shop' },
-{ name: 'Thespian', website: 'https://thespian.eu/', repoURL: 'https://github.com/Thespian-Agency', type: 'Dev Shop' },
-{ name: 'Adaxon', website: 'https://adaxon.io/', repoURL: 'https://github.com/adaxonio', type: 'Dev Shop' },
-{ name: 'Xerberus', website: 'https://xerberus.io/', repoURL: 'https://github.com/XerberusTeam', type: 'dApp' },
-{ name: 'Delta Defi', website: 'https://www.deltadefi.io/', repoURL: 'https://github.com/deltadefi-protocol', type: 'dApp' },
-{ name: 'Ada Markets', website: 'https://ada.markets/', repoURL: 'https://github.com/ADA-Markets', type: 'dApp' },
-{ name: 'Big Blymp', website: 'http://www.bigblymp.com/', repoURL: 'https://github.com/BigBlymp', type: 'Dev Shop' },
-{ name: 'Foreon Network', website: 'https://foreon.network/', repoURL: 'https://github.com/Foreon-Network', type: 'dApp' },
-{ name: 'Nova Finance', website: 'https://www.novafinance.io/', repoURL: 'https://github.com/Nova-Finance', type: 'dApp' },
-{ name: 'Stargazer Finance', website: 'https://www.stargazer.finance/', repoURL: 'https://github.com/StargazerLabs', type: 'dApp' },
-{ name: 'Supra Payments', website: 'https://suprapayments.io/', repoURL: 'https://github.com/suprapayments', type: 'Tools' },
-{ name: 'SingularityNET', website: 'https://singularitynet.io/', repoURL: 'https://github.com/singnet', type: '' },
-{ name: 'Gnus.ai', website: 'https://www.gnus.ai/', repoURL: 'https://github.com/geniusventures', type: '' },
-{ name: 'SingularityDAO', website: 'https://www.singularitydao.ai/', repoURL: 'https://github.com/Singularity-DAO', type: '' },
-{ name: 'Yaya Labs', website: 'https://www.yayalabs.io/', repoURL: 'https://github.com/yaya-labs', type: 'Dev Shop', },
-{ name: 'Rejuve AI', website: ' https://www.rejuve.ai/', repoURL: 'https://github.com/Rejuve', type: 'dApp'},
-{ name: 'Zarqa AI', website: 'https://www.zarqa.ai/', repoURL: 'https://github.com/zarqa-ai', type: 'Tools'},
-{ name: 'Hypercycle AI', website: 'https://www.hypercycle.ai/', repoURL: 'https://github.com/hypercycle-community', type: ''},
-{ name: 'Cogito Finance', website: 'https://www.cogitoprotocol.com/', repoURL: 'https://github.com/cogito-finance', type: ''},
-{ name: 'True AGI', website: 'https://trueagi.io/', repoURL: 'https://github.com/trueagi-io', type: ''},
-];
-
-// { name: '', website: '', repoURL: '', type: ''},
-
-const teamWithStars = await Promise.all(
-teamData.map(async (member) => {
-try {
-const urlParts = new URL(member.repoURL).pathname.split("/").filter(Boolean);
-const owner = urlParts[0];
-const stars = await fetchGitHubStars(owner);
-return { ...member, stars, error: null };
 } catch (error) {
-console.error(`Error fetching stars for ${member.name}:`, error);
-return { ...member, stars: null, error: null };
-}
-})
-);
-
 return {
-props: {
-teamMembers: teamWithStars,
-},
-revalidate: 3600, // Revalidate every hour
+props: { sortedOSBuilderData: [] },
+notFound: true,
 };
+}
 };
 
-export default function DevTeams({ teamMembers }) {
-return (
-<>
-<h1>Open Source Builders</h1>
-
-      <p>
-      The Cardano ecosystem is rapidly evolving, driven by a big community of open-source builders. These teams provide the the tools, frameworks, libraries, and dApps we all use. By sharing their code, they build trust in their work and contribute to innovation around Cardano.
+export default function OpenSourceBuilders({ sortedOSBuilderData }) {
+  return (
+    <>
+      <h1 className="nx-mt-2 nx-text-4xl nx-font-bold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100">
+        Open Source Builders
+      </h1>
+      <p className="nx-mt-6 nx-leading-7 first:nx-mt-0">
+        Explore teams building open-source dApps and tools on Cardano.
       </p>
-
-      <p>
-      These are ranked based on the total number of stars received across their open-source repositories. Click on the star to view their GitHub profile.
-      </p>
-
-      <div className="mt-8">
-        <table className="nx-block nx-overflow-x-scroll nextra-scrollbar nx-mt-6 nx-p-0 first:nx-mt-0">
-          <thead>
-            <tr className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20">
-              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Team</th>
-              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Stars</th>
-              <th className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 nx-font-semibold dark:nx-border-gray-600">Type</th>
-            </tr>
-          </thead>
-          <tbody>
-            {teamMembers.map((member, index) => (
-              <tr className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20" key={index}>
-                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
-                  <a href={member.website} target="_blank" rel="noopener noreferrer" className="nx-text-primary-600 nx-underline nx-decoration-from-font [text-underline-position:from-font]">
-                    {member.name}
-                  </a>
-                </td>
-                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
-                  <TableRow repoURL={member.repoURL} stars={member.stars} />
-                </td>
-                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">{member.type}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      <br />
+      <OpenSourceBuildersTable data={sortedOSBuilderData} />
     </>
-
-);
+  );
 }
