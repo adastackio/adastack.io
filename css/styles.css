@@ -706,10 +706,6 @@ html[style*="color-scheme: light;"] .team_table_name:hover {
   color: black;
 }
 
-.team_table_name_container:hover {
-  /* text-decoration: underline; */
-}
-
 .ant-table-cell div a {
   width: 100%;
 }
@@ -744,6 +740,11 @@ span.ant-tag {
 
 td.ant-table-cell {
   padding: 4px 6px !important;
+}
+
+.stars-across-all-repos-badge-content {
+  outline-offset: 0 !important;
+  outline: none !important;
 }
 
 /* Media Queries */
