@@ -150,7 +150,6 @@ const OpenSourceBuildersTable = ({ data }) => {
       dataIndex: "starCount",
       key: "starCount",
       width: 100,
-      defaultSortOrder: "descend",
       sorter: {
         compare: (a, b) => (a.starCount ?? 0) - (b.starCount ?? 0),
         multiple: 2,

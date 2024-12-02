@@ -11,19 +11,23 @@ import { openSourceBuildersData } from "../api/open_source_builders";
 export const getStaticProps = async () => {
   try {
     const allRepos = await openSourceBuildersAPI(openSourceBuildersData);
-    const sortedOSBuilderData = allRepos.sort((a, b) => b.stars - a.stars);
+    const sortedOSBuilderData = allRepos.sort((a, b) => {
+      const dateA = new Date(a.mostRecentRepo?.pushedAt || 0).getTime();
+      const dateB = new Date(b.mostRecentRepo?.pushedAt || 0).getTime();
+      return dateB - dateA;
+    });
 
     return {
       props: { sortedOSBuilderData },
       revalidate: 600,
     };
-
-} catch (error) {
-return {
-props: { sortedOSBuilderData: [] },
-notFound: true,
-};
-}
+  } catch (error) {
+    console.error('Failed to fetch open source builders data:', error);
+    return {
+      props: { sortedOSBuilderData: [] },
+      notFound: true,
+    };
+  }
 };
 
 export default function OpenSourceBuilders({ sortedOSBuilderData }) {
