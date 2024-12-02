@@ -146,6 +146,61 @@ const OpenSourceBuildersTable = ({ data }) => {
       ),
     },
     {
+      title: "Latest Commit",
+      dataIndex: ["mostRecentRepo", "url"],
+      key: "url",
+      width: 276,
+      sorter: {
+        compare: (a, b) => {
+          const dateA = a.mostRecentRepo?.pushedAt
+            ? new Date(a.mostRecentRepo.pushedAt).getTime()
+            : 0;
+          const dateB = b.mostRecentRepo?.pushedAt
+            ? new Date(b.mostRecentRepo.pushedAt).getTime()
+            : 0;
+          return dateB - dateA;
+        },
+        multiple: 3,
+      },
+      render: (url, record) => (
+        <>
+          <RepoInfoTooltip repo={record.mostRecentRepo}>
+            <span>
+              <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
+            </span>
+          </RepoInfoTooltip>
+          &nbsp;
+          <span className="text-gray-400">
+            {record.mostRecentRepo?.timeSinceLastCommit || "..."}
+          </span>
+        </>
+      ),
+    },
+
+    {
+      title: "Most Starred Repo",
+      dataIndex: ["mostStarredRepo", "pushedAt"],
+      key: "pushedAt",
+      width: 280,
+      sorter: {
+        compare: (a, b) =>
+          (b.mostStarredRepo?.stars || 0) - (a.mostStarredRepo?.stars || 0),
+        multiple: 2,
+      },
+      render: (pushedAt, record) => (
+        <div>
+          <RepoInfoTooltip repo={record.mostStarredRepo}>
+            <span>
+              <MostStarredRepoBadge
+                repoURL={record.mostStarredRepo?.url || ""}
+                repoStarCount={record.mostStarredRepo?.stars ?? 0}
+              />
+            </span>
+          </RepoInfoTooltip>
+        </div>
+      ),
+    },
+    {
       title: "Total Stars",
       dataIndex: "starCount",
       key: "starCount",
@@ -179,60 +234,6 @@ const OpenSourceBuildersTable = ({ data }) => {
           </Button>
         );
       },
-    },
-    {
-      title: "Most Starred Repo",
-      dataIndex: ["mostStarredRepo", "pushedAt"],
-      key: "pushedAt",
-      width: 280,
-      sorter: {
-        compare: (a, b) =>
-          (b.mostStarredRepo?.stars || 0) - (a.mostStarredRepo?.stars || 0),
-        multiple: 2,
-      },
-      render: (pushedAt, record) => (
-        <div>
-          <RepoInfoTooltip repo={record.mostStarredRepo}>
-            <span>
-              <MostStarredRepoBadge
-                repoURL={record.mostStarredRepo?.url || ""}
-                repoStarCount={record.mostStarredRepo?.stars ?? 0}
-              />
-            </span>
-          </RepoInfoTooltip>
-        </div>
-      ),
-    },
-    {
-      title: "Latest Commit",
-      dataIndex: ["mostRecentRepo", "url"],
-      key: "url",
-      width: 276,
-      sorter: {
-        compare: (a, b) => {
-          const dateA = a.mostRecentRepo?.pushedAt
-            ? new Date(a.mostRecentRepo.pushedAt).getTime()
-            : 0;
-          const dateB = b.mostRecentRepo?.pushedAt
-            ? new Date(b.mostRecentRepo.pushedAt).getTime()
-            : 0;
-          return dateB - dateA;
-        },
-        multiple: 3,
-      },
-      render: (url, record) => (
-        <>
-          <RepoInfoTooltip repo={record.mostRecentRepo}>
-            <span>
-              <LatestCommitBadge repoURL={record.mostRecentRepo?.url || ""} />
-            </span>
-          </RepoInfoTooltip>
-          &nbsp;
-          <span className="text-gray-400">
-            {record.mostRecentRepo?.timeSinceLastCommit || "..."}
-          </span>
-        </>
-      ),
     },
     {
       title: "Team GitHub",
