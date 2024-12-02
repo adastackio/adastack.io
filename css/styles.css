@@ -701,15 +701,12 @@ html[style*="color-scheme: dark;"] .team_table_name:hover {
 html[style*="color-scheme: light;"] .team_table_name {
   color: #4b5563;
 }
-
 html[style*="color-scheme: light;"] .team_table_name:hover {
   color: black;
 }
-
 .ant-table-cell div a {
   width: 100%;
 }
-
 html[style*="color-scheme: dark;"] .ant-typography-copy svg {
   margin-bottom: -6px;
   opacity: 25%;
@@ -740,6 +737,10 @@ span.ant-tag {
 
 td.ant-table-cell {
   padding: 4px 6px !important;
+}
+
+thead th.ant-table-cell {
+  padding: 4px 16px !important;
 }
 
 .stars-across-all-repos-badge-content {

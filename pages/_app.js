@@ -77,6 +77,7 @@ const ThemeWrapper = ({ children }) => {
           components: {
             Table: {
               colorBgContainer: isDark ? "#0e121e" : "#f7f7f7",
+              headerBorderRadius: 4,
             },
           },
         }}
