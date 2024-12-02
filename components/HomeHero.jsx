@@ -1,4 +1,3 @@
-// components/HomeHero.jsx
 import Link from "next/link";
 import Image from "next/image";
 import bgImage from "../assets/images/bg.jpg";
@@ -26,7 +25,10 @@ const HomeHero = () => {
         </p>
 
         <div className="flex flex-col items-center gap-2 mb-9 text-gray-300">
-          <div className="flex items-center gap-2 w-[355px] text-[17px]">
+          <div
+            className="flex items-center gap-2 text-[17px]"
+            style={{ maxWidth: "355px" }}
+          >
             <span>
               Adastack is your comprehensive guide to the Cardano ecosystem.
               Open-source knowledge, curated by the Cardano community.
