@@ -152,16 +152,6 @@
       "pagination": false
     }
   },
-  "developer_tool_explorers": {
-    "title": "Tool Explorers  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "developer_jobs": {
     "title": "Developer Jobs  ",
     "theme": {
