@@ -69,16 +69,6 @@
       "pagination": false
     }
   },
-  "total_value_locked": {
-    "title": "Total Value Locked  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "staking_metrics": {
     "title": "Staking Metrics  ",
     "theme": {
