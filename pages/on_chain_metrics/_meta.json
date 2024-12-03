@@ -29,6 +29,16 @@
       "pagination": false
     }
   },
+  "staking_metrics": {
+    "title": "Staking  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "tokenomics_and_distribution": {
     "title": "Tokenomics and Distribution  ",
     "theme": {
@@ -61,16 +71,6 @@
   },
   "treasury": {
     "title": "Treasury  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "staking_metrics": {
-    "title": "Staking Metrics  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
