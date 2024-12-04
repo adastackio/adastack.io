@@ -139,8 +139,8 @@
       "pagination": false
     }
   },
-  "privacy": {
-    "title": "Privacy  ",
+  "privacy_and_security": {
+    "title": "Privacy & Security  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
