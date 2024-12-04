@@ -179,8 +179,8 @@
       "pagination": false
     }
   },
-  "reward_distribution_dapps": {
-    "title": "Reward Distribution  ",
+  "medical_and_health": {
+    "title": "Medical and Health  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -189,8 +189,8 @@
       "pagination": false
     }
   },
-  "medical_and_health": {
-    "title": "Medical and Health  ",
+  "reward_distribution_dapps": {
+    "title": "Reward Distribution  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
