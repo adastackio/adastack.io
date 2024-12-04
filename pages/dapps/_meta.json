@@ -9,8 +9,8 @@
       "pagination": false
     }
   },
-  "dapp_explorers": {
-    "title": "dApp Explorers",
+  "ai": {
+    "title": "AI  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -19,8 +19,38 @@
       "pagination": false
     }
   },
-  "dapp_analysis_tools": {
-    "title": "dApp Analysis Tools ",
+  "dapp_analysis_and_risk_rating": {
+    "title": "Dapp Analysis & Risk Ratings ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "dapp_explorers": {
+    "title": "Dapp Explorers",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "data_storage_and_computing": {
+    "title": "Data Storage & Computing  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "defi": {
+    "title": "DeFi  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -39,87 +69,7 @@
       "pagination": false
     }
   },
-  "defi_dapps": {
-    "title": "DeFi  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "payments_and_ecommerce_dapps": {
-    "title": "Payments and E-Commerce  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "data_storage_and_computing_dapps": {
-    "title": "Data Storage and Computing  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "ai_dapps": {
-    "title": "AI  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "social_media_dapps": {
-    "title": "Social Media  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "messaging_and_chat_dapps": {
-    "title": "Messaging and Chat  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "identity_dapps": {
-    "title": "Identity  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "signing_and_verification_dapps": {
-    "title": "Signing and Verification  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "education_dapps": {
+  "education": {
     "title": "Education  ",
     "theme": {
       "breadcrumb": true,
@@ -129,8 +79,8 @@
       "pagination": false
     }
   },
-  "events_and_ticketing_dapps": {
-    "title": "Events and Ticketing  ",
+  "events_and_ticketing": {
+    "title": "Events & Ticketing  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -139,38 +89,8 @@
       "pagination": false
     }
   },
-  "supply_chain_dapps": {
-    "title": "Supply Chain  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "real_world_asset_dapps": {
-    "title": "Real World Assets  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "positive_impact_dapps": {
-    "title": "Positive Impact  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "privacy_dapps": {
-    "title": "Privacy  ",
+  "identity": {
+    "title": "Identity  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -180,7 +100,7 @@
     }
   },
   "medical_and_health": {
-    "title": "Medical and Health  ",
+    "title": "Medical & Health  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -189,8 +109,88 @@
       "pagination": false
     }
   },
-  "reward_distribution_dapps": {
+  "messaging_and_chat": {
+    "title": "Messaging & Chat  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "payments_and_ecommerce": {
+    "title": "Payments & E-Commerce  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "positive_impact": {
+    "title": "Positive Impact  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "privacy": {
+    "title": "Privacy  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "real_world_assets": {
+    "title": "Real World Assets  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "reward_distribution": {
     "title": "Reward Distribution  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "signing_and_verification": {
+    "title": "Signing & Verification  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "social_media": {
+    "title": "Social Media  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "supply_chain": {
+    "title": "Supply Chain  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
