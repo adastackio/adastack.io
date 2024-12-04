@@ -39,8 +39,8 @@
       "pagination": false
     }
   },
-  "cardano_markets": {
-    "title": "Cardano Markets  ",
+  "price_and_charts": {
+    "title": "Price and Charts  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
