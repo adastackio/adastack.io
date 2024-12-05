@@ -5,26 +5,40 @@ toc: false
 ---
 
 # Stake Pool Monitoring Tools
-Stake pools require ongoing monitoring to ensure they are always performing well. These tools help stake pool operators (SPOs) manage, troubleshoot, and optimize their pools on Cardano.
 
-### Monitoring your Stake Pool independently
+Stake pools benefit from ongoing monitoring to ensure they always perform well. These tools help stake pool operators (SPOs) manage, troubleshoot, and optimize their pools on Cardano.
 
-Although a bit time-consuming to setup initially, an independent solution to monitoring key metrics for your Stake Pool is something to be . Cardano-node outputs a number of useful metrics to Prometheus, and these can be captured and visualized via Grafana. 
+### Monitoring with Prometheus and Grafana
 
-Both Prometheus and Grafana are very powerful tool stacks in active development, supported by easy-to-follow and up-to-date documentation.
+Prometheus and Grafana combined is the primary way to way to capture and visualize stake pool metrics on Cardano.
 
-Note that Grafana Cloud is free to use if the number of metrics is low enough. This is almost always the case for a Cardano Stake Pool. The on-call stack is also very helpful. 
+**Prometheus** is a data tool that gathers and stores metrics from Cardano nodes including performance, network status, and system resources. 
 
-* [Prometheus](https://prometheus.io/)
-	[Getting started with Prometheus](https://prometheus.io/docs/prometheus/latest/getting_started/)
-	[Sending metrics to Grafana Cloud](https://grafana.com/docs/grafana-cloud/send-data/metrics/metrics-prometheus/)
-- [Grafana](https://developers.cardano.org/docs/operate-a-stake-pool/grafana-dashboard-tutorial/)
-    - [https://github.com/grafana/](https://github.com/grafana/)
-    - [Grafana Labs](https://grafana.com/)
-    - [Grafana alert manager and on-call stack](https://grafana.com/products/cloud/oncall/)
-- [Armada Alliance Grafana Dashboards](https://github.com/armada-alliance/dashboards)
-    - [https://github.com/armada-alliance](https://github.com/armada-alliance)
-### Third Party tools
+**Grafana** is a visualization platform that creates interactive dashboards using the data collected by Prometheus.
+
+Both are in active development, supported by easy-to-follow and up-to-date documentation. Note that Grafana Cloud is free to use if the number of metrics is low enough. This is almost always the case for a Cardano Stake Pool. Grafana also provides notification features with their OnCall service.
+
+- [Prometheus](https://prometheus.io/)
+  - [Getting started with Prometheus](https://prometheus.io/docs/prometheus/latest/getting_started/)
+  - [Installing Prometheus for Cardano](https://cardano-course.gitbook.io/cardano-course/handbook/monitoring-our-nodes)
+  - [Send metrics to Grafana Cloud](https://grafana.com/docs/grafana-cloud/send-data/metrics/metrics-prometheus/)
+- [Grafana](https://grafana.com/)
+  - [Grafana Dashboard Tutorial](https://developers.cardano.org/docs/operate-a-stake-pool/grafana-dashboard-tutorial/)
+  - [Improve Grafana Security](https://developers.cardano.org/docs/operate-a-stake-pool/improve-grafana-security/)
+  - [Grafana OnCall for Notifications](https://grafana.com/products/cloud/oncall/)
+
+**Full Setup Guides**
+- [CoinCashew Installing Prometheus and Grafana](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/part-iii-operation/setting-up-dashboards)
+- [Guild Operators Monitoring Guide](https://cardano-community.github.io/guild-operators/Appendix/monitoring/?h=promet)
+- [EDEN Prometheus and Grafana Video Tutorial](https://youtu.be/oImqk-eubfs)
+- [Monitoring blockchain node with Prometheus and Grafana](https://www.youtube.com/watch?v=opSlGGa6lLg)
+
+**Grafana Dashboards**
+  - [Armada Alliance Grafana Dashboards](https://github.com/armada-alliance/dashboards)
+  - [Kirael Grafana Dashboard](https://github.com/Kirael12/Cardano-Grafana-Dashboards)
+  - [Carpool Grafana Dashboard](https://github.com/CardenPool/Cardano-Stake-Pool-Grafana-Dashboard)
+
+### Other Monitoring Tools
 
 Please note that these tools might no longer be in development. Exposing Stake Pool metrics should be done with care, DYOR.
 
@@ -58,6 +72,7 @@ Please note that these tools might no longer be in development. Exposing Stake P
 - [Cardano Node Audit](https://github.com/Kirael12/cardano-node-audit)
     
     - [https://github.com/Kirael12/](https://github.com/Kirael12/)
+
 ### More information  
 
 * Get started with CNtools
