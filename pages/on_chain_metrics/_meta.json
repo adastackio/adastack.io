@@ -79,8 +79,8 @@
       "pagination": false
     }
   },
-  "other_metrics": {
-    "title": "Other Metrics  ",
+  "other_on_chain_metrics": {
+    "title": "Other On-Chain Metrics  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
