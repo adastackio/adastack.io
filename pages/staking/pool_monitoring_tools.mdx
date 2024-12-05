@@ -5,14 +5,67 @@ toc: false
 ---
 
 # Stake Pool Monitoring Tools
+Stake pools require ongoing monitoring to ensure they are always performing well. These tools help stake pool operators (SPOs) manage, troubleshoot, and optimize their pools on Cardano.
 
-This content is being peer reviewed & formally verified. Check back soon!
+### Monitoring your Stake Pool independently
 
-In the meantime, explore other Cardano collections:
+Although a bit time-consuming to setup initially, an independent solution to monitoring key metrics for your Stake Pool is something to be . Cardano-node outputs a number of useful metrics to Prometheus, and these can be captured and visualized via Grafana. 
 
-- [YouTube Channels](https://www.adastack.io/community/youtube)
-- [Development Firms](https://www.adastack.io/development/dev_teams)
-- [Newsletters](https://www.adastack.io/community/newsletters)
-- [News and Blogs](https://www.adastack.io/community/news_and_blogs)
+Both Prometheus and Grafana are very powerful tool stacks in active development, supported by easy-to-follow and up-to-date documentation.
 
+Note that Grafana Cloud is free to use if the number of metrics is low enough. This is almost always the case for a Cardano Stake Pool. The on-call stack is also very helpful. 
+
+* [Prometheus](https://prometheus.io/)
+	[Getting started with Prometheus](https://prometheus.io/docs/prometheus/latest/getting_started/)
+	[Sending metrics to Grafana Cloud](https://grafana.com/docs/grafana-cloud/send-data/metrics/metrics-prometheus/)
+- [Grafana](https://developers.cardano.org/docs/operate-a-stake-pool/grafana-dashboard-tutorial/)
+    - [https://github.com/grafana/](https://github.com/grafana/)
+    - [Grafana Labs](https://grafana.com/)
+    - [Grafana alert manager and on-call stack](https://grafana.com/products/cloud/oncall/)
+- [Armada Alliance Grafana Dashboards](https://github.com/armada-alliance/dashboards)
+    - [https://github.com/armada-alliance](https://github.com/armada-alliance)
+### Third Party tools
+
+Please note that these tools might no longer be in development. Exposing Stake Pool metrics should be done with care, DYOR.
+
+- [Watchtower Tools](https://watchtower.tools/): Mobile app for SPOs and bring all useful metrics together and has push notifications.
+    
+    - [https://github.com/bkvpool](https://github.com/bkvpool)
+- [RT View](https://github.com/IntersectMBO/cardano-node/blob/master/cardano-tracer/docs/cardano-rtview.md/) [https://docs.cardano.org/cardano-components/cardano-rtview/](https://docs.cardano.org/cardano-components/cardano-rtview/)
+    
+    - [https://github.com/IntersectMBO](https://github.com/IntersectMBO)
+- [Jormanager](https://bitbucket.org/muamw10/jormanager/src/develop/)
+    
+    - [https://bitbucket.org/muamw10/](https://bitbucket.org/muamw10/)
+- [Nview](https://github.com/blinklabs-io/nview)
+    
+    - [https://github.com/blinklabs-io](https://github.com/blinklabs-io)
+- [CNTools](https://cardano-community.github.io/guild-operators/Scripts/cntools/)
+    
+    - [https://github.com/cardano-community](https://github.com/cardano-community)
+- [Cardano Light Tools](https://github.com/orpheus-antpool/cardano-light-tools)
+    
+    - [https://github.com/orpheus-antpool](https://github.com/orpheus-antpool)
+- [gLiveView](https://developers.cardano.org/docs/operate-a-stake-pool/monitoring-gliveview/): A script that displays live information about the node and the network, such as CPU usage, memory usage, slot number, epoch number, block height, and peers. It also shows the status of the stake pool, such as active stake, live stake, rewards, and performance.
+    
+    - No Github
+- [Cncli](https://github.com/cardano-community/cncli): A community-built command-line tool for interacting with the Cardano node. It provides features such as syncing the ledger state, calculating the leader schedule, sending tip information to pooltool.io, and generating pool reports.
+    
+    - [https://github.com/cardano-community](https://github.com/cardano-community)
+- [Pool.vet](https://pool.vet/): See if your Cardano stake pool is working or find out why it might not be.
+    
+    - No Github
+- [Cardano Node Audit](https://github.com/Kirael12/cardano-node-audit)
+    
+    - [https://github.com/Kirael12/](https://github.com/Kirael12/)
+### More information  
+
+* Get started with CNtools
+	* [https://developers.cardano.org/docs/operate-a-stake-pool/guild-ops-suite/](https://developers.cardano.org/docs/operate-a-stake-pool/guild-ops-suite/)  
+* Monitoring your nodes
+	* [https://docs.cardano.org/development-guidelines/node-monitoring/](https://docs.cardano.org/development-guidelines/node-monitoring/)  
+* Basic Pool checklists
+	* [https://blockchainlens.gitbook.io/cardano-spot-check](https://blockchainlens.gitbook.io/cardano-spot-check)  
+* About Guild Operators
+	* [https://cardano-community.github.io/guild-operators/build/](https://cardano-community.github.io/guild-operators/build/)  
 [Back to Full Library →](https://www.adastack.io/all_pages)
