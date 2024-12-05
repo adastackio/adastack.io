@@ -3,12 +3,13 @@ seo_title: Stake Pool Monitoring Tools
 seo_description:
 toc: false
 ---
+import OSS from '../../components/badges/OSS.tsx'
 
 # Stake Pool Monitoring Tools
 
 Stake pools benefit from ongoing monitoring to ensure they always perform well. These tools help stake pool operators (SPOs) manage, troubleshoot, and optimize their pools on Cardano.
 
-### Monitoring with Prometheus and Grafana
+### Prometheus and Grafana Stake Pool Monitoring
 
 Prometheus and Grafana combined is the primary way to way to capture and visualize stake pool metrics on Cardano.
 
@@ -18,11 +19,11 @@ Prometheus and Grafana combined is the primary way to way to capture and visuali
 
 Both are in active development, supported by easy-to-follow and up-to-date documentation. Note that Grafana Cloud is free to use if the number of metrics is low enough. This is almost always the case for a Cardano Stake Pool. Grafana also provides notification features with their OnCall service.
 
-- [Prometheus](https://prometheus.io/)
+- [Prometheus](https://prometheus.io/) <OSS repoURL="https://github.com/prometheus/prometheus" />
   - [Getting started with Prometheus](https://prometheus.io/docs/prometheus/latest/getting_started/)
   - [Installing Prometheus for Cardano](https://cardano-course.gitbook.io/cardano-course/handbook/monitoring-our-nodes)
   - [Send metrics to Grafana Cloud](https://grafana.com/docs/grafana-cloud/send-data/metrics/metrics-prometheus/)
-- [Grafana](https://grafana.com/)
+- [Grafana](https://grafana.com/) <OSS repoURL="https://github.com/grafana/grafana" />
   - [Grafana Dashboard Tutorial](https://developers.cardano.org/docs/operate-a-stake-pool/grafana-dashboard-tutorial/)
   - [Improve Grafana Security](https://developers.cardano.org/docs/operate-a-stake-pool/improve-grafana-security/)
   - [Grafana OnCall for Notifications](https://grafana.com/products/cloud/oncall/)
@@ -31,47 +32,32 @@ Both are in active development, supported by easy-to-follow and up-to-date docum
 - [CoinCashew Installing Prometheus and Grafana](https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/part-iii-operation/setting-up-dashboards)
 - [Guild Operators Monitoring Guide](https://cardano-community.github.io/guild-operators/Appendix/monitoring/?h=promet)
 - [EDEN Prometheus and Grafana Video Tutorial](https://youtu.be/oImqk-eubfs)
-- [Monitoring blockchain node with Prometheus and Grafana](https://www.youtube.com/watch?v=opSlGGa6lLg)
+- [CodiLime Monitoring Node with Prometheus and Grafana Video](https://www.youtube.com/watch?v=opSlGGa6lLg)
 
 **Grafana Dashboards**
   - [Armada Alliance Grafana Dashboards](https://github.com/armada-alliance/dashboards)
   - [Kirael Grafana Dashboard](https://github.com/Kirael12/Cardano-Grafana-Dashboards)
   - [Carpool Grafana Dashboard](https://github.com/CardenPool/Cardano-Stake-Pool-Grafana-Dashboard)
 
-### Other Monitoring Tools
+### Other Stake Pool Monitoring Tools
 
 Please note that these tools might no longer be in development. Exposing Stake Pool metrics should be done with care, DYOR.
 
-- [Watchtower Tools](https://watchtower.tools/): Mobile app for SPOs and bring all useful metrics together and has push notifications.
-    
-    - [https://github.com/bkvpool](https://github.com/bkvpool)
-- [RT View](https://github.com/IntersectMBO/cardano-node/blob/master/cardano-tracer/docs/cardano-rtview.md/) [https://docs.cardano.org/cardano-components/cardano-rtview/](https://docs.cardano.org/cardano-components/cardano-rtview/)
-    
-    - [https://github.com/IntersectMBO](https://github.com/IntersectMBO)
-- [Jormanager](https://bitbucket.org/muamw10/jormanager/src/develop/)
-    
-    - [https://bitbucket.org/muamw10/](https://bitbucket.org/muamw10/)
-- [Nview](https://github.com/blinklabs-io/nview)
-    
-    - [https://github.com/blinklabs-io](https://github.com/blinklabs-io)
-- [CNTools](https://cardano-community.github.io/guild-operators/Scripts/cntools/)
-    
-    - [https://github.com/cardano-community](https://github.com/cardano-community)
-- [Cardano Light Tools](https://github.com/orpheus-antpool/cardano-light-tools)
-    
-    - [https://github.com/orpheus-antpool](https://github.com/orpheus-antpool)
-- [gLiveView](https://developers.cardano.org/docs/operate-a-stake-pool/monitoring-gliveview/): A script that displays live information about the node and the network, such as CPU usage, memory usage, slot number, epoch number, block height, and peers. It also shows the status of the stake pool, such as active stake, live stake, rewards, and performance.
-    
-    - No Github
-- [Cncli](https://github.com/cardano-community/cncli): A community-built command-line tool for interacting with the Cardano node. It provides features such as syncing the ledger state, calculating the leader schedule, sending tip information to pooltool.io, and generating pool reports.
-    
-    - [https://github.com/cardano-community](https://github.com/cardano-community)
-- [Pool.vet](https://pool.vet/): See if your Cardano stake pool is working or find out why it might not be.
-    
-    - No Github
-- [Cardano Node Audit](https://github.com/Kirael12/cardano-node-audit)
-    
-    - [https://github.com/Kirael12/](https://github.com/Kirael12/)
+- [RT View](https://github.com/IntersectMBO/cardano-node/blob/master/cardano-tracer/docs/cardano-rtview.md/) <OSS repoURL="https://github.com/IntersectMBO/cardano-node/blob/master/cardano-tracer/docs/cardano-rtview.md" />: RTView is an optional part of cardano-tracer service. It is a real-time monitoring tool for Cardano nodes (RTView is an abbreviation for "Real Time View"). It provides an interactive web page where you can see different kinds of information about connected nodes.
+
+- [Nview](https://github.com/blinklabs-io/nview) <OSS repoURL="https://github.com/blinklabs-io/nview" />: Provides a TUI (terminal user interface) of a running node from the command line.
+
+- [Koios gLiveView](https://developers.cardano.org/docs/operate-a-stake-pool/monitoring-gliveview/): A script that displays live information about the node and the network, such as CPU usage, memory usage, slot number, epoch number, block height, and peers. It also shows the status of the stake pool, such as active stake, live stake, rewards, and performance.
+
+- [Cardano Light Tools](https://github.com/orpheus-antpool/cardano-light-tools) <OSS repoURL="https://github.com/orpheus-antpool/cardano-light-tools" />: Provides a simple monitoring script that logs relevant metrics directly into a text file in human-readable form.
+- 
+- [Cardano Node Audit](https://github.com/Kirael12/cardano-node-audit) <OSS repoURL="https://github.com/Kirael12/" />: CLI Tool to check the health of a stake pool.
+
+- [Jormanager](https://bitbucket.org/muamw10/jormanager/wiki/Home) <OSS repoURL="https://bitbucket.org/muamw10/jormanager/" />
+
+- [Pool.vet](https://pool.vet/): Website to check if your Cardano stake pool is working and identify issues.
+
+
 
 ### More information  
 
