@@ -142,8 +142,8 @@
       "pagination": false
     }
   },
-  "sidechains": {
-    "title": "Sidechains",
+  "partner_chains": {
+    "title": "Partner Chains",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

@@ -20,6 +20,11 @@ module.exports = withNextra({
         destination: "/development/dev_teams", // new URL
         permanent: true, // permanent 308
       },
+      {
+        source: "/sidechains/what_are_sidechains", // old URL
+        destination: "/partner_chains/what_are_partner_chains", // new URL
+        permanent: true, // permanent 308
+      },
     ];
   },
 
