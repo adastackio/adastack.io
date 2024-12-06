@@ -2,7 +2,7 @@ import React from "react";
 import { Table, Tag, Typography, Tooltip, Button, Card, Space } from "antd";
 import { StarIcon } from "../../assets/icons";
 import TeamGithubBadge from "@components/badges/TeamGithubBadge";
-import CodeLanguageShieldIoBadge from "@components/badges/shield_io_badges/CodeLanguageShieldIoBadge";
+import LanguageShieldIo from "@components/badges/shield_io_badges/LanguageShieldIo";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
 import MostStarredRepoBadge from "@components/badges/MostStarredRepoBadge";
@@ -53,7 +53,7 @@ const RepoInfoTooltip = ({ repo, children }) => {
                 >
                   <span className="font-semibold">Stack:</span>&nbsp;
                 </Text>
-                <CodeLanguageShieldIoBadge language={repo.language} />
+                <LanguageShieldIo language={repo.language} />
               </div>
             )}
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-const CodeLanguageShieldIoBadge = ({ language }) => {
+const LanguageShieldIo = ({ language }) => {
   if (!language) return null;
 
   // Convert language name to lowercase and handle special cases
@@ -98,10 +98,10 @@ const CodeLanguageShieldIoBadge = ({ language }) => {
       <img
         src={`https://img.shields.io/badge/${language}-1a1a1a?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
         className="shields_io_language_badge dark"
-        alt={`${language} badge`}
+        alt={`${language} programming language`}
       />
     </>
   );
 };
 
-export default CodeLanguageShieldIoBadge;
+export default LanguageShieldIo;
