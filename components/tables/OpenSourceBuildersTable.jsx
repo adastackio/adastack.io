@@ -53,7 +53,10 @@ const RepoInfoTooltip = ({ repo, children }) => {
                 >
                   <span className="font-semibold">Stack:</span>&nbsp;
                 </Text>
-                <LanguageShieldIo language={repo.language} />
+                <LanguageShieldIo
+                  language={repo.language}
+                  isColorChanging={true}
+                />
               </div>
             )}
 

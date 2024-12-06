@@ -1,6 +1,11 @@
 import React from "react";
 
-const LanguageShieldIo = ({ language }) => {
+interface LanguageShieldIoProps {
+  language: string;
+  isColorChanging?: boolean;
+}
+
+const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldIoProps) => {
   if (!language) return null;
 
   const capitalizedLanguage = language.charAt(0).toUpperCase() + language.slice(1);
@@ -72,31 +77,18 @@ const LanguageShieldIo = ({ language }) => {
 
   const logoColor = logoColorMap[languageLower] || logoColorMap.default;
 
+  if (!isColorChanging) {
+    return (
+      <img
+        src={`https://img.shields.io/badge/${encodedLanguage}-ffffff?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
+        className="shields_io_language_badge"
+        alt={`${encodedLanguage} badge`}
+      />
+    );
+  }
+
   return (
     <>
-      <style>
-        {`
-          .shields_io_language_badge {
-            display: none;
-          }
-          
-          /* Light theme badge */
-          .shields_io_language_badge.light {
-            display: inline;
-          }
-          html[style*="color-scheme: dark;"] .shields_io_language_badge.light {
-            display: none;
-          }
-          
-          /* Dark theme badge */
-          .shields_io_language_badge.dark {
-            display: none;
-          }
-          html[style*="color-scheme: dark;"] .shields_io_language_badge.dark {
-            display: inline;
-          }
-        `}
-      </style>
       <img
         src={`https://img.shields.io/badge/${encodedLanguage}-ffffff?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
         className="shields_io_language_badge light"
