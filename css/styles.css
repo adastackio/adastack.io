@@ -554,12 +554,21 @@ img.shields_io_button {
   display: inline;
 }
 
+.code-library-info-bar {
+  margin-top: 30px;
+  margin-bottom: 44px;
+}
+
+.code-library-info-bar img.shields_io_button {
+  display:block;
+}
+
 .shields_io_inline-badge {
   display: inline-block;
   margin-bottom: -5px;
 }
 
-.shields_io_language_badge,
+table .shields_io_language_badge,
 .shields_io_repo_badge {
   padding-bottom: 5px;
   margin-top: 5px;
@@ -651,6 +660,7 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   width: 100px;
 }
 
+
 /* Ant Design Modifications */
 html body .ant-table-cell div a {
   width: auto !important;
@@ -660,6 +670,22 @@ html body .ant-table-cell div a {
   display: inline-block;
   margin-bottom: 0px !important;
   margin-right: 2px !important;
+}
+
+/* Light theme badge */
+.shields_io_language_badge.light {
+  display: inline;
+}
+html[style*="color-scheme: dark"] .shields_io_language_badge.light {
+  display: none;
+}
+
+/* Dark theme badge */
+.shields_io_language_badge.dark {
+  display: none;
+}
+html[style*="color-scheme: dark"] .shields_io_language_badge.dark {
+  display: inline;
 }
 
 td.ant-table-cell.ant-table-cell-fix-left.ant-table-cell-fix-left-last {
@@ -747,6 +773,8 @@ thead th.ant-table-cell {
   outline-offset: 0 !important;
   outline: none !important;
 }
+
+
 
 /* Media Queries */
 /* XS Size */
