@@ -4,23 +4,22 @@ interface RepoShieldIoProps {
 
 const RepoShieldIo = ({ repoURL }: RepoShieldIoProps) => {
   const url = new URL(repoURL);
-  
-  // Remove trailing slashes and split path into segments
   const cleanPath = url.pathname.replace(/\/+$/, '');
-  
-  // Split path into segments and filter out empty segments 
   const pathSegments = cleanPath.split('/').filter(Boolean);
-  
-  // First segment is owner, second is repo name
   const [owner, repo] = pathSegments;
   
+  const isGitLab = url.hostname === 'gitlab.com';
+  
+  const shieldUrl = isGitLab
+    ? `https://img.shields.io/gitlab/stars/${owner}/${repo}?style=social&label=GitLab`
+    : `https://img.shields.io/github/stars/${owner}/${repo}?style=social&label=GitHub`;
 
   return (
     <a href={repoURL}>
       <img
-        src={`https://img.shields.io/github/stars/${owner}/${repo}?style=social&label=GitHub`}
+        src={shieldUrl}
         className="shields_io_button"
-        alt="GitHub link"
+        alt={`${isGitLab ? 'GitLab' : 'GitHub'} link`}
       />
     </a>
   );
