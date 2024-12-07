@@ -22,6 +22,7 @@ const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldI
       java: "openjdk", 
       nix: "nixos",
       css: "css3", 
+      scss: "sass"
     };
     return specialCases[name.toLowerCase()] || name.toLowerCase();
   };
@@ -42,6 +43,7 @@ const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldI
     nixos: "5277c3",
     assembly: "6E4C13",
     css3: "563D7C",
+    sass: "cc6599",
     agda: "315665",
     c: "555555",
     dart: "00B4AB",
