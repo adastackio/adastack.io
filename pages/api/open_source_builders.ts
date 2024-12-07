@@ -1172,12 +1172,6 @@ export const openSourceBuildersData = [
     tags: ["Tools"],
   },
   {
-    name: "Quality Assurance DAO",
-    website: "https://quality-assurance-dao.github.io/",
-    teamGithubURL: "https://github.com/Quality-Assurance-DAO",
-    tags: ["Tools"],
-  },
-  {
     name: "MigaMake",
     website: "https://migamake.com/",
     teamGithubURL: "https://github.com/migamake",
