@@ -18,7 +18,7 @@ const RepoShieldIo = ({ repoURL }: RepoShieldIoProps) => {
     <a className="inline-block" href={repoURL}>
       <img
         src={shieldUrl}
-        className="shield_io_badge"
+        className="shield_io_badge shields_io_repo_badge"
         alt={`${isGitLab ? 'GitLab' : 'GitHub'} link`}
       />
     </a>
