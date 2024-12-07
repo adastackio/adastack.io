@@ -81,7 +81,7 @@ const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldI
     return (
       <img
         src={`https://img.shields.io/badge/${encodedLanguage}-ffffff?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
-        className="shields_io_language_badge"
+        className="shield_io_badge shields_io_language_badge inline-block"
         alt={`${encodedLanguage} badge`}
       />
     );
@@ -91,12 +91,12 @@ const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldI
     <>
       <img
         src={`https://img.shields.io/badge/${encodedLanguage}-ffffff?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
-        className="shields_io_language_badge light"
+        className="shield_io_badge shields_io_language_badge  inline-block light"
         alt={`${encodedLanguage} badge`}
       />
       <img
         src={`https://img.shields.io/badge/${encodedLanguage}-1a1a1a?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
-        className="shields_io_language_badge dark"
+        className="shield_io_badge shields_io_language_badge  inline-block dark"
         alt={`${encodedLanguage} programming language`}
       />
     </>

@@ -15,10 +15,10 @@ const RepoShieldIo = ({ repoURL }: RepoShieldIoProps) => {
     : `https://img.shields.io/github/stars/${owner}/${repo}?style=social&label=GitHub`;
 
   return (
-    <a href={repoURL}>
+    <a className="inline-block" href={repoURL}>
       <img
         src={shieldUrl}
-        className="shields_io_button"
+        className="shield_io_badge"
         alt={`${isGitLab ? 'GitLab' : 'GitHub'} link`}
       />
     </a>

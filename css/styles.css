@@ -550,28 +550,15 @@ footer {
   transform: translate(-50%, -50%);
 }
 
-img.shields_io_button {
-  display: inline;
-}
-
 .code-library-info-bar {
   margin-top: 30px;
   margin-bottom: 44px;
 }
 
-.code-library-info-bar img.shields_io_button {
-  display:block;
-}
 
 .shields_io_inline-badge {
   display: inline-block;
   margin-bottom: -5px;
-}
-
-table .shields_io_language_badge,
-.shields_io_repo_badge {
-  padding-bottom: 5px;
-  margin-top: 5px;
 }
 
 .favicon-custom-css {
