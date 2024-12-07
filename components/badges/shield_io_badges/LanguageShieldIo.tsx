@@ -20,7 +20,8 @@ const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldI
       "jupyter notebook": "jupyter",
       html: "html5",
       java: "openjdk", 
-      nix: "nixos", 
+      nix: "nixos",
+      css: "css3", 
     };
     return specialCases[name.toLowerCase()] || name.toLowerCase();
   };
@@ -33,15 +34,16 @@ const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldI
   const logoColorMap = {
     cplusplus: "007cc7",
     csharp: "178600",
+    fsharp: "B845FC",
     objectivec: "438EFF",
     jupyter: "DA5B0B",
     html5: "E34C26",
     openjdk: "ED8B00",
     nixos: "5277c3",
     assembly: "6E4C13",
+    css3: "563D7C",
+    agda: "315665",
     c: "555555",
-    fsharp: "B845FC",
-    css: "563D7C",
     dart: "00B4AB",
     elixir: "6E4A7E",
     elm: "60B5CC",
@@ -69,7 +71,7 @@ const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldI
     swift: "F05138",
     typescript: "007ACC",
     vim: "199F4B",
-    vue: "41B883",
+    vue: "4FC08D",
     webassembly: "04133B",
     zig: "EC915C",
     default: "333333",

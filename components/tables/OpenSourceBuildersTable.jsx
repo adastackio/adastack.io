@@ -51,7 +51,8 @@ const RepoInfoTooltip = ({ repo, children }) => {
                     fontSize: "12px",
                   }}
                 >
-                  <span className="font-semibold">Stack:</span>&nbsp;
+                  <span className="font-semibold inline-block">Stack:</span>
+                  &nbsp;
                 </Text>
                 <LanguageShieldIo
                   language={repo.language}
@@ -64,19 +65,21 @@ const RepoInfoTooltip = ({ repo, children }) => {
               style={{
                 fontSize: "12px",
                 display: "block",
+                marginTop: "4px",
               }}
             >
-              <span className="font-semibold">Stars:</span>&nbsp;
+              <span className="font-semibold inline-block">Stars:</span>&nbsp;
               {repo?.stars ?? 0}
             </Text>
             <Text
               style={{
                 fontSize: "12px",
                 display: "block",
-                marginTop: "5px",
+                marginTop: "4px",
               }}
             >
-              <span className="font-semibold">Last Commit:</span>&nbsp;
+              <span className="font-semibold inline-block">Last Commit:</span>
+              &nbsp;
               {repo?.timeSinceLastCommit || ""} ago
             </Text>
             <a href={repo?.url || ""} target="_blank">
