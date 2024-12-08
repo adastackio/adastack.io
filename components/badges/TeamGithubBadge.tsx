@@ -29,4 +29,7 @@ const TeamGithubBadge: React.FC<TeamGithubBadgeProps> = React.memo(
   }
 );
 
+// Assign display name to the memoized component
+TeamGithubBadge.displayName = "TeamGithubBadge";
+
 export default TeamGithubBadge;

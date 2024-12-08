@@ -33,6 +33,8 @@ const StarIcon = React.memo(() => (
   </svg>
 ));
 
+StarIcon.displayName = "StarIcon";
+
 const StarBadge = ({ repoURL }) => {
   const [stars, setStars] = useState(null);
   const [loading, setLoading] = useState(true);

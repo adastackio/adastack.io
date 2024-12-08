@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,10 @@
     "@octokit/plugin-retry": "^7.1.2",
     "@octokit/plugin-throttling": "^9.3.2",
     "@octokit/rest": "^21.0.2",
-    "antd": "^5.22.1",
+    "antd": "^5.22.3",
     "antd-style": "^3.7.1",
     "javascript-time-ago": "^2.5.11",
-    "next": "15.0.3",
+    "next": "15.0.4",
     "nextra": "^2.13.4",
     "nextra-theme-docs": "^2.13.4",
     "react": "18.3.1",
@@ -34,10 +35,13 @@
     "@svgr/webpack": "^8.1.0",
     "@types/node": "22.10.1",
     "@types/react": "18.3.12",
-    "autoprefixer": "^10.4.18",
-    "postcss": "^8.4.35",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5.4.5"
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.16.0",
+    "eslint-config-next": "^15.0.4",
+    "eslint-define-config": "^2.1.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2"
   },
   "pnpm": {
     "overrides": {

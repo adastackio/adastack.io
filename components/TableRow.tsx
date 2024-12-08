@@ -1,6 +1,6 @@
 import React from "react";
 
-// Memoized StarIcon component
+// Memoized StarIcon component with display name
 const StarIcon = React.memo(() => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -19,6 +19,7 @@ const StarIcon = React.memo(() => (
     />
   </svg>
 ));
+StarIcon.displayName = "StarIcon"; // Assign display name
 
 interface TableRowProps {
   repoURL: string;
@@ -26,6 +27,7 @@ interface TableRowProps {
   error: string | null;
 }
 
+// Memoized TableRow component with display name
 const TableRow: React.FC<TableRowProps> = React.memo(
   ({ repoURL, stars, error }) => {
     if (!repoURL) {
@@ -54,5 +56,6 @@ const TableRow: React.FC<TableRowProps> = React.memo(
     );
   }
 );
+TableRow.displayName = "TableRow"; // Assign display name
 
 export default TableRow;

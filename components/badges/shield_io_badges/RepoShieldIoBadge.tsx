@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface RepoShieldIoBadgeProps {
   githubUrl: string;
@@ -23,7 +24,7 @@ const RepoShieldIoBadge: React.FC<RepoShieldIoBadgeProps> = React.memo(
 
     return (
       <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-        <img
+        <Image
           src={shieldsIoUrl}
           className="shields_io_repo_badge"
           alt={`${text} repo link`}
@@ -32,5 +33,8 @@ const RepoShieldIoBadge: React.FC<RepoShieldIoBadgeProps> = React.memo(
     );
   }
 );
+
+// Assign display name to the memoized component
+RepoShieldIoBadge.displayName = "RepoShieldIoBadge";
 
 export default RepoShieldIoBadge;

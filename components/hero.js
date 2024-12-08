@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import BGImg from "./../assets/dark/1.jpg";
-import { handleHeroButtonClick } from "../scripts/handleHeroButtonClick";
-import { handleHeroButtonClickMobile } from "../scripts/handleHeroButtonClickMobile";
 
 function Hero() {
   return (

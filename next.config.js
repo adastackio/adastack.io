@@ -7,7 +7,11 @@ module.exports = withNextra({
   env: {
     GITHUB_ACCESS_TOKEN: process.env.GITHUB_ACCESS_TOKEN,
   },
-
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
   async redirects() {
     return [
       {
