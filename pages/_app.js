@@ -7,6 +7,7 @@ import localFont from "next/font/local";
 const campton = localFont({
   src: [
     { path: "../assets/fonts/3_campton_normal.otf", weight: "400" },
+    { path: "../assets/fonts/4_campton_medium.otf", weight: "500" },
   ],
   variable: "--font-campton",
   fallback: [
@@ -65,6 +66,7 @@ const ThemeWrapper = ({ children }) => {
     components: {
       Table: {
         colorBgContainer: isDark ? "#0e121e" : "#f7f7f7",
+        headerBorderRadius: 4,
       },
     },
   };
