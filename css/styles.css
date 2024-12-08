@@ -32,22 +32,23 @@ input::placeholder,
 }
 
 /* Links */
-a {
+a,
+li a {
   text-decoration: none !important;
   color: #007bff;
-  transition: color 0.3s ease;
 }
 
-li a {
-  color: #007bff;
+a:hover,
+li a:hover {
+  color: #0056b3;
 }
 
 html[style*="color-scheme: dark;"] a {
   color: #b5a4ff;
 }
 
-a:hover {
-  color: #0056b3;
+html[style*="color-scheme: dark;"] a:hover {
+  color: #a08bfe;
 }
 
 /* Top Navbar */
