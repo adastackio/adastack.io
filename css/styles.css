@@ -566,9 +566,10 @@ footer {
   margin-bottom: -5px;
 }
 
-.favicon-custom-css {
+table .favicon-custom-css {
   margin-top: 1px;
-  margin-right: 2px;
+  margin-right: 2.5px;
+  margin-left: 4px;
 }
 
 :is(html[class~="dark"]) .badge-button {
