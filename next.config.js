@@ -12,6 +12,9 @@ module.exports = withNextra({
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  images: {
+    domains: ["www.google.com"],
+  },
   async redirects() {
     return [
       {

@@ -567,8 +567,8 @@ footer {
 }
 
 .favicon-custom-css {
-  border-color: #4b5563;
-  margin-top: 2px;
+  margin-top: 1px;
+  margin-right: 2px;
 }
 
 :is(html[class~="dark"]) .badge-button {
