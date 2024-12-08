@@ -608,8 +608,9 @@ footer {
 
 .open-source-icon-inline {
   padding-top: 1px;
-  margin-left: 3px;
+  margin-left: 3.5px;
 }
+
 .page-in-development {
   opacity: 0.5;
   color: #888;

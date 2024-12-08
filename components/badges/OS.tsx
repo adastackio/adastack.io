@@ -9,7 +9,7 @@ const OS = ({ repoURL, className }) => {
 
   return (
     <span className={spanClass}>
-      <a href={repoURL} target="_blank" rel="noopener noreferrer">
+      <a href={repoURL} target="_blank" rel="noopener">
         <OSIcon />
       </a>
     </span>
