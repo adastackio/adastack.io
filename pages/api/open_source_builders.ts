@@ -1219,6 +1219,12 @@ export const openSourceBuildersData = [
     teamGithubURL: "https://github.com/lantr-io",
     tags: ["Dev Company"],
   },
+  {
+    name: "Filabs",
+    website: "https://www.filabs.dev/",
+    teamGithubURL: "https://github.com/filabs-dev",
+    tags: ["Dev Company"],
+  },
 ];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
