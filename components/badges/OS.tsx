@@ -1,6 +1,6 @@
-import { OSIcon } from '../../assets/icons'
+import { OSIcon } from "../../assets/icons";
 
-const OSS = ({ repoURL, className }) => {
+const OS = ({ repoURL, className }) => {
   if (!repoURL) return null;
 
   return (
@@ -10,6 +10,6 @@ const OSS = ({ repoURL, className }) => {
       </a>
     </span>
   );
-}
+};
 
-export default OSS;
+export default OS;
