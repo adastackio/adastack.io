@@ -2,6 +2,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* Set full width even on large screens  */
+.nextra-nav-container + .nx-mx-auto.nx-flex {
+  max-width: 100%;
+}
+
 /* Theme */
 html[style*="color-scheme: dark;"] body {
   background-color: #0e121e !important;
@@ -555,7 +560,6 @@ footer {
   margin-bottom: 44px;
 }
 
-
 .shields_io_inline-badge {
   display: inline-block;
   margin-bottom: -5px;
@@ -651,13 +655,11 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   height: 22px;
   border: 1px solid #d2d2d2;
   border-radius: 3px;
-
 }
 
 .code-library-info-bar .shields_io_repo_badge {
   height: 22px;
 }
-
 
 /* Ant Design Modifications */
 html body .ant-table-cell div a {
@@ -771,8 +773,6 @@ thead th.ant-table-cell {
   outline-offset: 0 !important;
   outline: none !important;
 }
-
-
 
 /* Media Queries */
 /* XS Size */
