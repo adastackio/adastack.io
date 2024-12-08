@@ -1201,6 +1201,24 @@ export const openSourceBuildersData = [
     teamGithubURL: "https://github.com/paideiadao/",
     tags: ["Tools"],
   },
+  {
+    name: "Drunken Dragon Games",
+    website: "https://ddu.gg/",
+    teamGithubURL: "https://github.com/Drunken-Dragon-Games",
+    tags: ["dApp"],
+  },
+  {
+    name: "WIMs",
+    website: "https://cardano.wims.io/",
+    teamGithubURL: "https://github.com/wimsio",
+    tags: ["Organization"],
+  },
+  {
+    name: "Lantr",
+    website: "https://lantr.io/",
+    teamGithubURL: "https://github.com/lantr-io",
+    tags: ["Dev Company"],
+  },
 ];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
