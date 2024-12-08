@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const CodeLanguageShieldIoBadge = ({ language }) => {
   if (!language) return null;
@@ -90,12 +91,12 @@ const CodeLanguageShieldIoBadge = ({ language }) => {
           }
         `}
       </style>
-      <img
+      <Image
         src={`https://img.shields.io/badge/${language}-ffffff?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
         className="shields_io_language_badge light"
         alt={`${language} badge`}
       />
-      <img
+      <Image
         src={`https://img.shields.io/badge/${language}-1a1a1a?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
         className="shields_io_language_badge dark"
         alt={`${language} badge`}
