@@ -7,6 +7,7 @@ import {
 } from "./assets/logos";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
+import OS from "./components/badges/OS";
 
 const default_seo_description =
   "Adastack is an explorer for everything on Cardano. Find community, dApps, games, staking, NFTs, governance, development, DAOs, Layer 2s, and more.";
@@ -127,6 +128,9 @@ const config: DocsThemeConfig = {
     useLink() {
       return "https://github.com/adastackio/adastack.io/issues";
     },
+  },
+  components: {
+    OS: OS,
   },
   docsRepositoryBase: "https://github.com/adastackio/adastack.io/blob/main/",
   footer: {
