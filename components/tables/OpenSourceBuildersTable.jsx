@@ -1,13 +1,13 @@
 import React from "react";
 import { Table, Typography, Tooltip, Button, Card } from "antd";
-import { StarIcon } from "../../assets/icons";
-import TeamGithubBadge from "@components/badges/TeamGithubBadge";
+import { CopyIcon, CopySuccessIcon } from "../../assets/icons";
 import LanguageShieldIo from "@components/badges/shield_io_badges/LanguageShieldIo";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
+import { StarIcon } from "../../assets/icons";
 import MostStarredRepoBadge from "@components/badges/MostStarredRepoBadge";
+import TeamGithubBadge from "@components/badges/TeamGithubBadge";
 import CategoryTag from "@components/badges/CategoryTag";
-import { CopyIcon, CopySuccessIcon } from "../../assets/icons";
 
 const { Paragraph, Title, Text } = Typography;
 
