@@ -1225,6 +1225,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
     res.status(200).json(openSourceBuildersData);
   } catch (err) {
+    console.error(err); // Use err for logging or debugging
     res.status(500).json({
       success: false,
       message: "Failed to fetch builders data",

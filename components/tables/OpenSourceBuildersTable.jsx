@@ -1,5 +1,5 @@
 import React from "react";
-import { Table, Tag, Typography, Tooltip, Button, Card, Space } from "antd";
+import { Table, Typography, Tooltip, Button, Card } from "antd";
 import { StarIcon } from "../../assets/icons";
 import TeamGithubBadge from "@components/badges/TeamGithubBadge";
 import LanguageShieldIo from "@components/badges/shield_io_badges/LanguageShieldIo";
