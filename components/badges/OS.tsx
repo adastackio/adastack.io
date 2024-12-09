@@ -1,7 +1,7 @@
 import { OSIcon } from "../../assets/icons";
 
-const OS = ({ repoURL, className }) => {
-  if (!repoURL) return null;
+const OS = ({ url, className }) => {
+  if (!url) return null;
 
   const spanClass = className
     ? `open-source-icon-inline inline-block h-3 w-3 ${className}`
@@ -9,7 +9,7 @@ const OS = ({ repoURL, className }) => {
 
   return (
     <span className={spanClass}>
-      <a href={repoURL} target="_blank" rel="noopener">
+      <a href={url} target="_blank" rel="noopener">
         <OSIcon />
       </a>
     </span>
