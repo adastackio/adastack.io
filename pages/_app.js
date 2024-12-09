@@ -8,6 +8,7 @@ const campton = localFont({
   src: [
     { path: "../assets/fonts/3_campton_normal.otf", weight: "400" },
     { path: "../assets/fonts/4_campton_medium.otf", weight: "500" },
+    { path: "../assets/fonts/5_campton_semi_bold.otf", weight: "600" },
   ],
   variable: "--font-campton",
   fallback: [
