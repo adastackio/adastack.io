@@ -12,17 +12,22 @@ const LatestCommitBadgeIo = ({ repoURL }: LatestCommitBadgeIoProps) => {
 
   const isGitLab = url.hostname === "gitlab.com";
 
-  // For GitHub, use the shields.io last commit badge
+
+  const latestURL = isGitLab
+    ? `${url.origin}/${owner}/${repo}/-/commits/`
+    : `${url.origin}/${owner}/${repo}/commits/`;
+
+
   const shieldUrl = isGitLab
     ? `https://img.shields.io/gitlab/last-commit/${owner}/${repo}?color=dfe8f0&labelColor=white`
     : `https://img.shields.io/github/last-commit/${owner}/${repo}?color=dfe8f0&labelColor=white`;
 
   return (
-    <a className="inline-block" href={repoURL}>
+    <a className="inline-block" href={latestURL}>
       <img
         src={shieldUrl}
         className="shield_io_badge badge-io-custom-shading shields_io_repo_badge"
-        alt=""
+        alt="Latest Commit"
       />
     </a>
   );
