@@ -90,7 +90,7 @@
     }
   },
   "pool_monitoring_tools": {
-    "title": "Pool Monitoring Tools  ",
+    "title": "Pool Monitoring Tools",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -100,7 +100,7 @@
     }
   },
   "spo_chat_groups": {
-    "title": "SPO Chat Groups  ",
+    "title": "SPO Chat Groups ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -110,7 +110,7 @@
     }
   },
   "other_staking_tools": {
-    "title": "Other Staking Tools  ",
+    "title": "Other Staking Tools ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
