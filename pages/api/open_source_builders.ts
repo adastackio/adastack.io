@@ -1225,6 +1225,12 @@ export const openSourceBuildersData = [
     teamGithubURL: "https://github.com/filabs-dev",
     tags: ["Dev Company"],
   },
+  {
+    name: "Andamio",
+    website: "https://www.andamio.io/",
+    teamGithubURL: "https://github.com/Andamio-Platform",
+    tags: ["dApp"],
+  },
 ];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
