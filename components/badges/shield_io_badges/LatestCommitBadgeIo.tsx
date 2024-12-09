@@ -21,7 +21,7 @@ const LatestCommitBadgeIo = ({ repoURL }: LatestCommitBadgeIoProps) => {
     <a className="inline-block" href={repoURL}>
       <img
         src={shieldUrl}
-        className="shield_io_badge shields_io_repo_badge"
+        className="shield_io_badge badge-io-custom-shading shields_io_repo_badge"
         alt=""
       />
     </a>

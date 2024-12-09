@@ -5,10 +5,14 @@ interface LanguageShieldIoProps {
   isColorChanging?: boolean;
 }
 
-const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldIoProps) => {
+const LanguageShieldIo = ({
+  language,
+  isColorChanging = false,
+}: LanguageShieldIoProps) => {
   if (!language) return null;
 
-  const capitalizedLanguage = language.charAt(0).toUpperCase() + language.slice(1);
+  const capitalizedLanguage =
+    language.charAt(0).toUpperCase() + language.slice(1);
 
   // Convert language name to lowercase and handle special cases
   const formatLanguageName = (name) => {
@@ -19,18 +23,18 @@ const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldI
       "objective-c": "objectivec",
       "jupyter notebook": "jupyter",
       html: "html5",
-      java: "openjdk", 
+      java: "openjdk",
       nix: "nixos",
-      css: "css3", 
-      scss: "sass"
+      css: "css3",
+      scss: "sass",
     };
     return specialCases[name.toLowerCase()] || name.toLowerCase();
   };
-  
+
   const languageLower = formatLanguageName(language);
-  
+
   const encodedLanguage = encodeURIComponent(capitalizedLanguage);
-  
+
   // Logo colors mapped to GitHub's language colors
   const logoColorMap = {
     cplusplus: "007cc7",
@@ -85,7 +89,7 @@ const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldI
     return (
       <img
         src={`https://img.shields.io/badge/${encodedLanguage}-ffffff?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
-        className="shield_io_badge shields_io_language_badge inline-block"
+        className="shield_io_badge shields_io_language_badge badge-io-custom-shading inline-block"
         alt={`${encodedLanguage} badge`}
       />
     );
@@ -95,12 +99,12 @@ const LanguageShieldIo = ({ language, isColorChanging = false }: LanguageShieldI
     <>
       <img
         src={`https://img.shields.io/badge/${encodedLanguage}-ffffff?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
-        className="shield_io_badge shields_io_language_badge  inline-block light"
+        className="shield_io_badge shields_io_language_badge badge-io-custom-shading inline-block light"
         alt={`${encodedLanguage} badge`}
       />
       <img
         src={`https://img.shields.io/badge/${encodedLanguage}-1a1a1a?style=flat&logo=${languageLower}&logoColor=${logoColor}`}
-        className="shield_io_badge shields_io_language_badge  inline-block dark"
+        className="shield_io_badge badge-io-custom-shading shields_io_language_badge inline-block dark"
         alt={`${encodedLanguage} programming language`}
       />
     </>
