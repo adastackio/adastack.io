@@ -1,6 +1,6 @@
 {
   "intro_to_cardano_development": {
-    "title": "Intro to Cardano Development",
+    "title": "Intro to Cardano Dev",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -22,7 +22,7 @@
     }
   },
   "dev_teams": {
-    "title": "Software Development Firms",
+    "title": "Development Companies",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
