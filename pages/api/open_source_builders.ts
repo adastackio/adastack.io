@@ -88,7 +88,7 @@ export const openSourceBuildersData = [
   {
     name: "Harmonic Labs",
     website: "https://www.harmoniclabs.tech/",
-    teamGithubURL: "https://github.com/HarmonicLabs",
+    teamGithubURL: "https://github.com/harmoniclabs",
     tags: ["Dev Company"],
   },
   {
@@ -140,7 +140,7 @@ export const openSourceBuildersData = [
     tags: ["Organization"],
   },
   {
-    name: "Space Budz",
+    name: "SpaceBudz",
     website: "https://spacebudz.io/",
     teamGithubURL: "https://github.com/spacebudz",
     tags: ["dApp"],
@@ -1230,6 +1230,48 @@ export const openSourceBuildersData = [
     website: "https://www.andamio.io/",
     teamGithubURL: "https://github.com/Andamio-Platform",
     tags: ["dApp"],
+  },
+  {
+    name: "PyCardano",
+    website: "https://pycardano.readthedocs.io/en/latest/",
+    teamGithubURL: "https://github.com/Python-Cardano",
+    tags: ["Tools"],
+  },
+  {
+    name: "Plutonomicon",
+    website: "https://github.com/Plutonomicon/plutonomicon/blob/main/README.md",
+    teamGithubURL: "https://github.com/Plutonomicon",
+    tags: ["Tools"],
+  },
+  {
+    name: "Helios",
+    website: "https://helios-lang.io/",
+    teamGithubURL: "https://github.com/Plutonomicon",
+    tags: ["Tools"],
+  },
+  {
+    name: "Scalus",
+    website: "https://scalus.org/",
+    teamGithubURL: "https://github.com/nau",
+    tags: ["Tools"],
+  },
+  {
+    name: "Orcfax",
+    website: "https://orcfax.io/",
+    teamGithubURL: "https://github.com/orcfax",
+    tags: ["Tools"],
+  },
+  {
+    name: "Charli3",
+    website: "https://charli3.io/",
+    teamGithubURL: "https://github.com/Charli3-Official",
+    tags: ["Tools"],
+  },
+  {
+    name: "Marlowe",
+    website: "https://marlowe.iohk.io/",
+    teamGithubURL: "https://github.com/marlowe-lang",
+    tags: ["Tools"],
   },
 ];
 

@@ -578,7 +578,7 @@ table .favicon-custom-css {
 
 .open-source-icon-inline {
   padding-top: 2.7px;
-  margin-left: 3.5px;
+  margin-left: 4.5px;
 }
 
 :is(html[class~="dark"]) .open-source-icon-inline svg path {
