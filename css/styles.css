@@ -51,6 +51,11 @@ html[style*="color-scheme: dark;"] a:not(.nextra-sidebar-container a):hover {
   color: #a08bfe;
 }
 
+/* Make left sidebar dropdown items fill full space */
+.nx-transform-gpu.nx-overflow-hidden.nx-transition-all.nx-ease-in-out.motion-reduce\:nx-transition-none {
+  overflow: auto;
+}
+
 /* Top Navbar */
 /* Site logo */
 .adastack-logo-container {
