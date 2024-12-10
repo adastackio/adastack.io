@@ -5,7 +5,11 @@ import { ConfigProvider, theme } from "antd";
 import localFont from "next/font/local";
 
 const campton = localFont({
-  src: [{ path: "../assets/fonts/3_campton_normal.otf", weight: "400" }], // Loading only the regular font for optimization
+  src: [
+    { path: "../assets/fonts/3_campton_normal.otf", weight: "400" },
+    { path: "../assets/fonts/4_campton_medium.otf", weight: "500" },
+    { path: "../assets/fonts/5_campton_semi_bold.otf", weight: "600" },
+  ],
   variable: "--font-campton",
   fallback: [
     "Segoe UI",
@@ -63,6 +67,7 @@ const ThemeWrapper = ({ children }) => {
     components: {
       Table: {
         colorBgContainer: isDark ? "#0e121e" : "#f7f7f7",
+        headerBorderRadius: 4,
       },
     },
   };
@@ -83,7 +88,11 @@ const LoadingWrapper = ({ children }) => {
     setIsClient(true);
   }, []);
 
-  return isClient ? children : <div style={{ visibility: "hidden" }}>{children}</div>;
+  return isClient ? (
+    children
+  ) : (
+    <div style={{ visibility: "hidden" }}>{children}</div>
+  );
 };
 
 export default function MyApp({ Component, pageProps }) {

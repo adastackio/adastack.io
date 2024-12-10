@@ -29,8 +29,18 @@
       "pagination": false
     }
   },
+  "staking_metrics": {
+    "title": "Staking  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "tokenomics_and_distribution": {
-    "title": "Tokenomics and Distribution  ",
+    "title": "Tokenomics & Distribution  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -69,28 +79,8 @@
       "pagination": false
     }
   },
-  "total_value_locked": {
-    "title": "Total Value Locked  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "staking_metrics": {
-    "title": "Staking Metrics  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "other_metrics": {
-    "title": "Other Metrics  ",
+  "other_on_chain_metrics": {
+    "title": "Other On-Chain Metrics  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

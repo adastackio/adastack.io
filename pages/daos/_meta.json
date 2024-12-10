@@ -28,15 +28,5 @@
       "footer": true,
       "pagination": false
     }
-  },
-  "multisig": {
-    "title": "Multisig  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
   }
 }

@@ -10,6 +10,9 @@ module.exports = withNextra({
   eslint: {
     ignoreDuringBuilds: false,
   },
+  images: {
+    domains: ["www.google.com"],
+  },
   async redirects() {
     return [
       {
@@ -20,6 +23,11 @@ module.exports = withNextra({
       {
         source: "/ecosystem/dev_shops", // old URL
         destination: "/development/dev_teams", // new URL
+        permanent: true, // permanent 308
+      },
+      {
+        source: "/sidechains/what_are_sidechains", // old URL
+        destination: "/partner_chains/what_are_partner_chains", // new URL
         permanent: true, // permanent 308
       },
     ];

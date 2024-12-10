@@ -1,13 +1,13 @@
 import React from "react";
 import { Table, Typography, Tooltip, Button, Card } from "antd";
-import { StarIcon } from "../../assets/icons";
-import TeamGithubBadge from "@components/badges/TeamGithubBadge";
-import CodeLanguageShieldIoBadge from "@components/badges/shield_io_badges/CodeLanguageShieldIoBadge";
+import { CopyIcon, CopySuccessIcon } from "../../assets/icons";
+import LanguageShieldIo from "@components/badges/shield_io_badges/LanguageShieldIo";
 import Favicon from "@components/badges/Favicon";
 import LatestCommitBadge from "@components/badges/LatestCommitBadge";
+import { StarIcon } from "../../assets/icons";
 import MostStarredRepoBadge from "@components/badges/MostStarredRepoBadge";
+import TeamGithubBadge from "@components/badges/TeamGithubBadge";
 import CategoryTag from "@components/badges/CategoryTag";
-import { CopyIcon, CopySuccessIcon } from "../../assets/icons";
 
 const { Paragraph, Title, Text } = Typography;
 
@@ -51,9 +51,13 @@ const RepoInfoTooltip = ({ repo, children }) => {
                     fontSize: "12px",
                   }}
                 >
-                  <span className="font-semibold">Stack:</span>&nbsp;
+                  <span className="font-semibold inline-block">Stack:</span>
+                  &nbsp;
                 </Text>
-                <CodeLanguageShieldIoBadge language={repo.language} />
+                <LanguageShieldIo
+                  language={repo.language}
+                  isColorChanging={true}
+                />
               </div>
             )}
 
@@ -61,19 +65,21 @@ const RepoInfoTooltip = ({ repo, children }) => {
               style={{
                 fontSize: "12px",
                 display: "block",
+                marginTop: "4px",
               }}
             >
-              <span className="font-semibold">Stars:</span>&nbsp;
+              <span className="font-semibold inline-block">Stars:</span>&nbsp;
               {repo?.stars ?? 0}
             </Text>
             <Text
               style={{
                 fontSize: "12px",
                 display: "block",
-                marginTop: "5px",
+                marginTop: "4px",
               }}
             >
-              <span className="font-semibold">Last Commit:</span>&nbsp;
+              <span className="font-semibold inline-block">Last Commit:</span>
+              &nbsp;
               {repo?.timeSinceLastCommit || ""} ago
             </Text>
             <a href={repo?.url || ""} target="_blank">
@@ -146,65 +152,6 @@ const OpenSourceBuildersTable = ({ data }) => {
       ),
     },
     {
-      title: "Total Stars",
-      dataIndex: "starCount",
-      key: "starCount",
-      width: 100,
-      defaultSortOrder: "descend",
-      sorter: {
-        compare: (a, b) => (a.starCount ?? 0) - (b.starCount ?? 0),
-        multiple: 2,
-      },
-      render: (starCount, record) => {
-        const displayValue =
-          !starCount && starCount !== 0 ? "..." : starCount.toLocaleString();
-
-        return (
-          <Button
-            as="a"
-            href={record.reposOnGithub}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`${displayValue} GitHub stars`}
-            className="badge-button stars-across-all-repos-badge-content"
-            icon={<StarIcon aria-hidden="true" />}
-            style={{
-              display: "flex",
-              justifyContent: "flex-start",
-              alignItems: "center",
-              padding: "0px 8px 0px 10px",
-              gap: "6px",
-            }}
-          >
-            <Text style={{ fontSize: 14 }}>{displayValue}</Text>
-          </Button>
-        );
-      },
-    },
-    {
-      title: "Most Starred Repo",
-      dataIndex: ["mostStarredRepo", "pushedAt"],
-      key: "pushedAt",
-      width: 280,
-      sorter: {
-        compare: (a, b) =>
-          (b.mostStarredRepo?.stars || 0) - (a.mostStarredRepo?.stars || 0),
-        multiple: 2,
-      },
-      render: (pushedAt, record) => (
-        <div>
-          <RepoInfoTooltip repo={record.mostStarredRepo}>
-            <span>
-              <MostStarredRepoBadge
-                repoURL={record.mostStarredRepo?.url || ""}
-                repoStarCount={record.mostStarredRepo?.stars ?? 0}
-              />
-            </span>
-          </RepoInfoTooltip>
-        </div>
-      ),
-    },
-    {
       title: "Latest Commit",
       dataIndex: ["mostRecentRepo", "url"],
       key: "url",
@@ -234,6 +181,65 @@ const OpenSourceBuildersTable = ({ data }) => {
           </span>
         </>
       ),
+    },
+
+    {
+      title: "Most Starred Repo",
+      dataIndex: ["mostStarredRepo", "pushedAt"],
+      key: "pushedAt",
+      width: 280,
+      sorter: {
+        compare: (a, b) =>
+          (b.mostStarredRepo?.stars || 0) - (a.mostStarredRepo?.stars || 0),
+        multiple: 2,
+      },
+      render: (pushedAt, record) => (
+        <div>
+          <RepoInfoTooltip repo={record.mostStarredRepo}>
+            <span>
+              <MostStarredRepoBadge
+                repoURL={record.mostStarredRepo?.url || ""}
+                repoStarCount={record.mostStarredRepo?.stars ?? 0}
+              />
+            </span>
+          </RepoInfoTooltip>
+        </div>
+      ),
+    },
+    {
+      title: "Total Stars",
+      dataIndex: "starCount",
+      key: "starCount",
+      width: 100,
+      sorter: {
+        compare: (a, b) => (a.starCount ?? 0) - (b.starCount ?? 0),
+        multiple: 2,
+      },
+      render: (starCount, record) => {
+        const displayValue =
+          !starCount && starCount !== 0 ? "..." : starCount.toLocaleString();
+
+        return (
+          <Button
+            as="a"
+            href={record.reposOnGithub}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`${displayValue} GitHub stars`}
+            className="badge-button stars-across-all-repos-badge-content"
+            icon={<StarIcon aria-hidden="true" />}
+            style={{
+              display: "flex",
+              justifyContent: "flex-start",
+              alignItems: "center",
+              padding: "0px 8px 0px 10px",
+              gap: "6px",
+            }}
+          >
+            <Text style={{ fontSize: 14 }}>{displayValue}</Text>
+          </Button>
+        );
+      },
     },
     {
       title: "Team GitHub",
@@ -382,6 +388,9 @@ const OpenSourceBuildersTable = ({ data }) => {
         scroll={{
           x: 500,
         }}
+        rowClassName={(record, index) =>
+          index % 2 === 0 ? "table-row-odd" : "table-row-even"
+        }
       />
     </>
   );
