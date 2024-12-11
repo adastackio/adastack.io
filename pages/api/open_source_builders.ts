@@ -1273,6 +1273,12 @@ export const openSourceBuildersData = [
     teamGithubURL: "https://github.com/marlowe-lang",
     tags: ["Tools"],
   },
+  {
+    name: "Summon",
+    website: "https://summonplatform.io/",
+    teamGithubURL: "https://github.com/ADAO-Summon",
+    tags: ["Tools"],
+  },
 ];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
