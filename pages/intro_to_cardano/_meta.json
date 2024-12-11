@@ -29,6 +29,26 @@
       "pagination": false
     }
   },
+  "set_up_a_wallet": {
+    "title": "Set up a Wallet",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "buy_ada": {
+    "title": "Buy ADA",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "start_using_cardano": {
     "title": "Start Using Cardano",
     "theme": {
