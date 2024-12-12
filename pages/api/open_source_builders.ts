@@ -1279,6 +1279,12 @@ export const openSourceBuildersData = [
     teamGithubURL: "https://github.com/ADAO-Summon",
     tags: ["Tools"],
   },
+  {
+    name: "Cardano for the Masses",
+    website: "https://cardanobook.com/",
+    teamGithubURL: "https://github.com/johnnygreeney",
+    tags: ["Tools"],
+  },
 ];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
