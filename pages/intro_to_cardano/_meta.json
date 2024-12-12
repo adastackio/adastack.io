@@ -61,6 +61,7 @@
   },
   "cardano_vocab": {
     "title": "Cardano Vocab",
+    "display": "hidden",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
