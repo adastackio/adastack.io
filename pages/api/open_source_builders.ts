@@ -560,7 +560,7 @@ export const openSourceBuildersData = [
     tags: ["dApp"],
   },
   {
-    name: "Ada Markets",
+    name: "ADA Markets",
     website: "https://ada.markets/",
     teamGithubURL: "https://github.com/ADA-Markets",
     tags: ["dApp"],
@@ -974,7 +974,7 @@ export const openSourceBuildersData = [
     tags: ["dApp"],
   },
   {
-    name: "Decentralized Recovery Alliance",
+    name: "Derec Alliance",
     website: "https://derecalliance.org/",
     teamGithubURL: "https://github.com/derecalliance",
     tags: ["Organization"],
@@ -992,7 +992,7 @@ export const openSourceBuildersData = [
     tags: ["Organization"],
   },
   {
-    name: "Open Decentralized Innovation Network",
+    name: "ODIN Network",
     website: "https://www.odin.eco/",
     teamGithubURL: "https://github.com/ODIN-Initiative",
     tags: ["Organization"],
@@ -1130,7 +1130,7 @@ export const openSourceBuildersData = [
     tags: ["dApp"],
   },
   {
-    name: "Cardano Token Engineering Lab",
+    name: "Token Engineering Lab",
     website: "https://thetokenlab.xyz/",
     teamGithubURL: "https://github.com/Cardano-Token-Engineering-Lab",
     tags: ["Organization"],
