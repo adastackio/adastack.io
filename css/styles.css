@@ -218,6 +218,19 @@ li:first-of-type a:has(.sidebar-menu-item) {
   border-top: none;
 }
 
+/* Left sidebar theme selector */
+ul.nx-z-20.nx-max-h-64.nx-overflow-auto.nx-rounded-md.nx-ring-1.nx-ring-black\/5.nx-bg-white.nx-py-1.nx-text-sm.nx-shadow-lg.dark\:nx-ring-white\/20.dark\:nx-bg-neutral-800 {
+  padding: 10px;
+}
+
+:is(html[class~="dark"] ul.dark\:nx-bg-neutral-800) {
+  background-color: #0e121e;
+}
+
+:is(html[class~="light"] ul.dark\:nx-bg-neutral-800) {
+  background-color: #f7f7f7;
+}
+
 /* Right TOC Sidebar */
 html[style*="color-scheme: dark;"]
   .nextra-scrollbar
