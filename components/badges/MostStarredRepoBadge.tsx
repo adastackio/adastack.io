@@ -39,7 +39,7 @@ const MostStarredRepoBadge = ({ repoURL, repoStarCount }) => {
               margin: "0 2px",
             }}
           />
-          <Text style={{ fontSize: 12 }}>{repoStarCount}</Text>
+          <Text className="color-on-hover" style={{ fontSize: 12 }}>{repoStarCount}</Text>
         </Button>
       </a>
     </span>
