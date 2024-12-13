@@ -100,8 +100,45 @@ html[style*="color-scheme: dark;"]
   margin-right: 12px;
 }
 
+html[style*="color-scheme: light;"]
+  .nextra-nav-container
+  input.dark\:focus\:nx-bg-dark {
+  background-color: #f2f2f2 !important;
+}
+html[style*="color-scheme: light;"]
+  .nextra-nav-container
+  input.dark\:focus\:nx-bg-dark:focus {
+  background-color: #fff !important;
+}
+
+html[style*="color-scheme: light;"] .nextra-search ul {
+  background-color: #f7f7f7 !important;
+}
+
+html[style*="color-scheme: dark;"]
+  .nextra-nav-container
+  input.dark\:focus\:nx-bg-dark {
+  background-color: #111111 !important;
+}
+html[style*="color-scheme: dark;"]
+  .nextra-nav-container
+  input.dark\:focus\:nx-bg-dark:focus {
+  background-color: #111111 !important;
+}
+
+html[style*="color-scheme: dark;"] .nextra-search ul {
+  background-color: #0e121e !important;
+}
+
 /* Search Bar Keyboard Icon */
 kbd.nx-absolute.nx-my-1\.5.nx-select-none.ltr\:nx-right-1\.5.rtl\:nx-left-1\.5.nx-h-5.nx-rounded.nx-bg-white.nx-px-1\.5.nx-font-mono.nx-text-\[10px\].nx-font-medium.nx-text-gray-500.nx-border.dark\:nx-border-gray-100\/20.dark\:nx-bg-dark\/50.contrast-more\:nx-border-current.contrast-more\:nx-text-current.contrast-more\:dark\:nx-border-current.nx-items-center.nx-gap-1.nx-transition-opacity.nx-pointer-events-none.nx-hidden.sm\:nx-flex {
+  background-color: #4363ee;
+  color: #fff;
+  border: 2px solid #5c78e8;
+}
+
+/* Search Bar Keyboard Icon when the Input is in focus */
+kbd.nx-absolute.nx-my-1\.5.nx-select-none.ltr\:nx-right-1\.5.rtl\:nx-left-1\.5.nx-h-5.nx-rounded.nx-bg-white.nx-px-1\.5.nx-font-mono.nx-text-\[10px\].nx-font-medium.nx-text-gray-500.nx-border.dark\:nx-border-gray-100\/20.dark\:nx-bg-dark\/50.contrast-more\:nx-border-current.contrast-more\:nx-text-current.contrast-more\:dark\:nx-border-current.nx-items-center.nx-gap-1.nx-transition-opacity.nx-z-20.nx-flex.nx-cursor-pointer.hover\:nx-opacity-70 {
   background-color: #4363ee;
   color: #fff;
   border: 2px solid #5c78e8;
@@ -220,7 +257,7 @@ li:first-of-type a:has(.sidebar-menu-item) {
 
 /* Left sidebar theme selector */
 ul.nx-z-20.nx-max-h-64.nx-overflow-auto.nx-rounded-md.nx-ring-1.nx-ring-black\/5.nx-bg-white.nx-py-1.nx-text-sm.nx-shadow-lg.dark\:nx-ring-white\/20.dark\:nx-bg-neutral-800 {
-  padding: 10px;
+  padding: 8px;
 }
 
 :is(html[class~="dark"] ul.dark\:nx-bg-neutral-800) {
