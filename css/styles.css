@@ -738,17 +738,18 @@ html[style*="color-scheme: dark;"]
   border-bottom: 1px solid #303030 !important;
 }
 
+/* Badge buttons on dark */
 html[style*="color-scheme: dark;"] .ant-table-content .badge-button {
   border-color: #424242 !important;
   color: #dbdbdd;
 }
 
-html[style*="color-scheme: dark;"] .ant-table-content .badge-button:hover {
-  border-color: #5b81e8 !important;
-}
-
 .color-on-hover {
   transition: color 0.3s ease-in-out;
+}
+
+html[style*="color-scheme: dark;"] .ant-table-content .badge-button:hover {
+  border-color: #5b81e8 !important;
 }
 
 html[style*="color-scheme: light;"]
@@ -872,6 +873,11 @@ thead th.ant-table-cell {
 }
 /* Everything under medium - XS and S Size - Mobile */
 @media (max-width: 767px) {
+  /* Remove sticky table columns on mobile */
+  .ant-table-wrapper .ant-table-cell.ant-table-cell-fix-left,
+  .ant-table-wrapper .ant-table-cell.ant-table-cell-fix-right {
+    position: relative !important;
+  }
   #animation {
     width: 100vw;
     height: calc(100vh - 4rem);
