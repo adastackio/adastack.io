@@ -102,8 +102,8 @@
       "pagination": false
     }
   },
-  "catalyst": {
-    "title": "Catalyst",
+  "governance": {
+    "title": "Governance",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -112,8 +112,8 @@
       "pagination": false
     }
   },
-  "governance": {
-    "title": "Governance",
+  "catalyst": {
+    "title": "Project Catalyst",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
