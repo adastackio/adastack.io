@@ -92,16 +92,6 @@
       "pagination": false
     }
   },
-  "daos": {
-    "title": "DAOs",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "governance": {
     "title": "Governance",
     "theme": {
@@ -113,7 +103,17 @@
     }
   },
   "catalyst": {
-    "title": "Project Catalyst",
+    "title": "Catalyst",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "daos": {
+    "title": "DAOs",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
