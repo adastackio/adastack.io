@@ -428,6 +428,35 @@ html[style*="color-scheme: dark;"] .animation-content-container {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
+h2 + .toc-item,
+h3 + .toc-item,
+h4 + .toc-item,
+h5 + .toc-item,
+h6 + .toc-item {
+  margin-top: .9rem; 
+}
+
+.toc-item {
+  position: relative;
+  padding-left: .8rem; 
+}
+
+.toc-link::before {
+  content: '·';
+  position: absolute;
+  left: 0rem; /* Adjust position as needed */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 1;
+}
+
+.toc-link:hover::before {
+  content: '→'; /* Arrow */
+  transform: translateX(0.05rem); /* Slightly move the arrow to the right */
+  opacity: 1; /* Hide the bullet point */
+}
+
+
+
 .animation-title-container {
   width: 100%;
 }
