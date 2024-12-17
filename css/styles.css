@@ -438,7 +438,7 @@ h6 + .toc-item {
 
 .toc-item {
   position: relative;
-  padding-left: .8rem; 
+  padding-left: 0rem; 
 }
 
 .toc-link::before {
