@@ -10,7 +10,7 @@ import { useRouter } from "next/router";
 import OS from "./components/badges/OS";
 
 const default_seo_description =
-  "Explore the Cardano ecosystem: dApps, games, NFTs, staking, price, community, DAOs, Layer 2s, metrics, more. Adastack is your guide to Cardano.";
+  "Explore the Cardano ecosystem: Apps, Games, NFTs, Staking, Community, DAOs, Layer 2s, Sidechains, Metrics & ADA price. Your guide to Cardano.";
 
 const default_seo_title = "Cardano Explorer | Adastack.io";
 
