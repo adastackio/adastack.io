@@ -451,7 +451,7 @@ h6 + .toc-item {
 
 .toc-link:hover::before {
   content: '→'; /* Arrow */
-  transform: translateX(0.05rem); /* Slightly move the arrow to the right */
+  transform: translateX(0.09rem); /* Slightly move the arrow to the right */
   opacity: 1; /* Hide the bullet point */
 }
 
