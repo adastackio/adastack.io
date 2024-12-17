@@ -438,23 +438,17 @@ h6 + .toc-item {
 
 .toc-item {
   position: relative;
-  padding-left: 0rem; 
+  padding-left: .4rem; 
 }
 
-.toc-link::before {
-  content: '·';
-  position: absolute;
-  left: 0rem; /* Adjust position as needed */
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  opacity: 1;
+.toc-link {
+  position: relative;
+  transition: all 0.2s ease;
 }
 
-.toc-link:hover::before {
-  content: '→'; /* Arrow */
-  transform: translateX(0.09rem); /* Slightly move the arrow to the right */
-  opacity: 1; /* Hide the bullet point */
-}
-
+.toc-link:hover {
+  transform: translateX(2px);
+} 
 
 
 .animation-title-container {
