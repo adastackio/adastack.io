@@ -92,8 +92,8 @@
       "pagination": false
     }
   },
-  "daos": {
-    "title": "DAOs",
+  "governance": {
+    "title": "Governance",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -112,8 +112,8 @@
       "pagination": false
     }
   },
-  "governance": {
-    "title": "Governance",
+  "daos": {
+    "title": "DAOs",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
