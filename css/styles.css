@@ -484,6 +484,7 @@ h6 + .toc-item {
 }
 
 
+
 .animation-title-container {
   width: 100%;
 }
@@ -619,9 +620,12 @@ h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx
   font-weight: 500;
 }
 
-.nextra-breadcrumb {
-  font-size: 0.675rem;
+main .nextra-breadcrumb {
+
+  visibility: hidden;
 }
+
+
 footer {
   display: none;
 }
