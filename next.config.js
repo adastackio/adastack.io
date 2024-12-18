@@ -30,6 +30,21 @@ module.exports = withNextra({
         destination: "/partner_chains/what_are_partner_chains", // new URL
         permanent: true, // permanent 308
       },
+      {
+        source: "/staking/reward_calculators", // old URL
+        destination: "/staking/stake_reward_trackers", // new URL
+        permanent: true, // permanent 308
+      },
+      {
+        source: "/staking/reward_calendars", // old URL
+        destination: "/staking/stake_reward_trackers", // new URL
+        permanent: true, // permanent 308
+      },
+      {
+        source: "/staking/reward_trackers", // old URL
+        destination: "/staking/stake_reward_trackers", // new URL
+        permanent: true, // permanent 308
+      },
     ];
   },
 
