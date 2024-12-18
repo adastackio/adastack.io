@@ -50,9 +50,16 @@ ul {
 
 ul li {
   position: relative;
-  padding-left: 1.2em;
+  padding-left: 1.2rem;
   margin-left: -1.1rem;
 }
+
+ul.nextra-scrollbar li {
+  padding-left:inherit;
+  margin-right: inherit;
+}
+
+
 
 ul li::before {
   content: '';
@@ -197,6 +204,11 @@ html[style*="color-scheme: light;"]
 }
 
 /* Styles for the surroundings of the sidebar */
+ul.nextra-menu-mobile li, ul.nextra-menu-desktop li {
+  padding-left: 1.2rem;
+  margin-left: -1.1rem;
+}
+
 .nextra-sidebar-container .nextra-scrollbar {
   padding-top: 0.3rem !important;
   padding-right: 0rem !important;
@@ -238,7 +250,7 @@ li:first-of-type a:has(.sidebar-menu-item) {
 
 /* Sidebar item down arrow */
 .sidebar-menu-item + svg {
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 :is(html[class~="light"]) button:has(.sidebar-menu-item),
