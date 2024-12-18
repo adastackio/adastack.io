@@ -1,5 +1,5 @@
 import "../css/styles.css";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { StyleProvider } from "@ant-design/cssinjs";
 import { ConfigProvider, theme } from "antd";
 import localFont from "next/font/local";
@@ -31,18 +31,22 @@ const campton = localFont({
   ],
 });
 
-const ThemeWrapper = ({ children }) => {
-  const [isDark, setIsDark] = useState(false);
+const AppWrapper = ({ children }) => {
+  const [isClient, setIsClient] = useState(false);
+  const [isDark, setIsDark] = useState(
+    () =>
+      typeof window !== "undefined" &&
+      document.documentElement.classList.contains("dark")
+  );
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
+    setIsClient(true);
     setMounted(true);
 
     const handleThemeChange = () => {
       setIsDark(document.documentElement.classList.contains("dark"));
     };
-
-    handleThemeChange(); // Initial check
 
     const observer = new MutationObserver(handleThemeChange);
     observer.observe(document.documentElement, {
@@ -53,43 +57,37 @@ const ThemeWrapper = ({ children }) => {
     return () => observer.disconnect();
   }, []);
 
-  if (!mounted) return null; // Prevent hydration errors
-
-  const themeConfig = {
-    algorithm: isDark ? theme.darkAlgorithm : theme.defaultAlgorithm,
-    cssVar: true,
-    token: {
-      colorPrimary: "#3964f6",
-      colorBgContainer: isDark ? "#141414" : "#ffffff",
-      colorBgSpotlight: isDark ? "#141414" : "#ffffff",
-      colorTextLightSolid: isDark ? "#ffffff" : "#000000",
-    },
-    components: {
-      Table: {
-        colorBgContainer: isDark ? "#0e121e" : "#f7f7f7",
-        headerBorderRadius: 4,
+  const themeConfig = useMemo(
+    () => ({
+      algorithm: isDark ? theme.darkAlgorithm : theme.defaultAlgorithm,
+      cssVar: true,
+      token: {
+        colorPrimary: "#3964f6",
+        colorBgContainer: isDark ? "#141414" : "#ffffff",
+        colorBgSpotlight: isDark ? "#141414" : "#ffffff",
+        colorTextLightSolid: isDark ? "#ffffff" : "#000000",
       },
-    },
-  };
+      components: {
+        Table: {
+          colorBgContainer: isDark ? "#0e121e" : "#f7f7f7",
+          headerBorderRadius: 4,
+        },
+      },
+    }),
+    [isDark]
+  );
 
-  return (
+  if (!mounted) {
+    // Render nothing until the component is mounted to avoid mismatch
+    return null;
+  }
+
+  return isClient ? (
     <StyleProvider hashPriority="high">
       <ConfigProvider theme={themeConfig}>
         <div className={campton.variable}>{children}</div>
       </ConfigProvider>
     </StyleProvider>
-  );
-};
-
-const LoadingWrapper = ({ children }) => {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  return isClient ? (
-    children
   ) : (
     <div style={{ visibility: "hidden" }}>{children}</div>
   );
@@ -97,10 +95,8 @@ const LoadingWrapper = ({ children }) => {
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <LoadingWrapper>
-      <ThemeWrapper>
-        <Component {...pageProps} />
-      </ThemeWrapper>
-    </LoadingWrapper>
+    <AppWrapper>
+      <Component {...pageProps} />
+    </AppWrapper>
   );
 }

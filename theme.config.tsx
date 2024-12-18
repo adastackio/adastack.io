@@ -10,9 +10,9 @@ import { useRouter } from "next/router";
 import OS from "./components/badges/OS";
 
 const default_seo_description =
-  "Adastack is an explorer for everything on Cardano. Find community, dApps, games, staking, NFTs, governance, development, DAOs, Layer 2s, and more.";
+  "Explore the Cardano ecosystem: Apps, Games, NFTs, Staking, Community, DAOs, Layer 2s, Sidechains, Metrics & ADA price. Your guide to Cardano.";
 
-const default_seo_title = "Cardano Ecosystem Explorer | Adastack.io";
+const default_seo_title = "Cardano Explorer | Adastack.io";
 
 const config: DocsThemeConfig = {
   head: () => {

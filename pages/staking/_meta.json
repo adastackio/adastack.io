@@ -29,38 +29,8 @@
       "pagination": false
     }
   },
-  "reward_calculators": {
-    "title": "Reward Calculators",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "reward_calendars": {
-    "title": "Reward Calendars",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "reward_trackers": {
-    "title": "Reward Trackers",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "ispos": {
-    "title": "ISPOs",
+  "stake_reward_trackers": {
+    "title": "Stake Reward Trackers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -71,6 +41,16 @@
   },
   "stake_pool_alliances": {
     "title": "Stake Pool Alliances",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "ispos": {
+    "title": "ISPOs",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
