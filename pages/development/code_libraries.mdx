@@ -310,7 +310,7 @@ This C++ library provide an interfaces to integrate Cardano capabilities into a 
   repoURL="https://gitlab.com/viper-staking/libcardano"
 />
 
-## Web and Wallet Connector Libraries
+## Web & Wallet Connect Libraries
 
 Web and wallet libraries help connect websites with the Cardano blockchain. These libraries often support web components, wallet integration, API connections, and other development tools for Cardano web applications.
 
@@ -604,7 +604,7 @@ Cardano-skepsis-toolbox is a python-based utility designed for interacting with 
   repoURL="https://github.com/chrispalaskas/cardano-skepsis-toolbox"
 />
 
-## Node Libraries
+## Nodes & Node Libraries
 
 Node Libraries are essential libraries that deal with networking, consensus, and settlement. These libraries form the backbone of the Cardano blockchain network, enabling communication and operation between various components.
 
@@ -633,9 +633,19 @@ A lightweight bridge between the Cardano node and client applications, enabling 
   repoURL="https://github.com/CardanoSolutions/ogmios"
 />
 
+#### Oura
+
+Oura is tool that monitors a Cardano node in real-time. It allows filtering, saving, and reacting to on-chain events. Oura does not provide chain-indexing directly, but it supports sinks where filtered data can be stored (e.g. Elastic Search or Kafka).
+
+- [Oura GitHub](https://github.com/txpipe/oura)
+- [Oura Documentation](https://txpipe.github.io/oura/)
+- [TxPipe Discord](https://discord.gg/9vJnnW6vDP): Oura channel
+
+<LibraryInfoBar language="Rust" repoURL="https://github.com/txpipe/oura/" />
+
 #### Pallas
 
-Pallas re-implements common Ouroboros and other Cardano logic in native Rust. It can be useful for building wallets, explorers, or custom node implementations. It is a collection of modules, so developers can use only what they need.
+Pallas re-implements common Ouroboros and Cardano logic in native Rust. It can be useful for building wallets, explorers, or custom node implementations. It is a collection of modules, so developers can use only what they need.
 
 - [Pallas GitHub](https://github.com/txpipe/pallas)
 - [TxPipe Discord](https://discord.gg/sJ2D3g33Qp): Pallas channel
@@ -674,6 +684,16 @@ Amaru is a Cardano node client written in Rust. It aims to bring more node dive
 
 <LibraryInfoBar language="Rust" repoURL="https://github.com/pragma-org/amaru" />
 
+#### Adder
+
+Adder is a tool that monitors the Cardano blockchain and emits events as blocks and transactions occur. It provides developers with the ability to create custom indexers, allowing them to filter and track specific blockchain data efficiently.
+
+- [Adder GitHub](https://github.com/blinklabs-io/adder)
+- [Adder Starter Kit](https://github.com/blinklabs-io/adder-library-starter-kit)
+- [Blink Labs Discord](https://discord.gg/msgxSvq4Ez): Adder channel
+
+<LibraryInfoBar language="Go" repoURL="https://github.com/blinklabs-io/adder" />
+
 #### Yaci
 
 Yaci allows connection and interaction with Cardano nodes directly. The library provides capabilities to listen to incoming blocks in real-time, fetch previous blocks, and monitor the local mempool.
@@ -683,7 +703,7 @@ Yaci allows connection and interaction with Cardano nodes directly. The library 
 
 <LibraryInfoBar language="Java" repoURL="https://github.com/bloxbean/yaci" />
 
-## Indexing Libraries
+## Indexing & Storage Libraries
 
 Indexing libraries help to process the blockchain into a form where it the data can be easily queried. They can filter for specific addresses, assets, or transactions. They enable developers to access blockchain data in a way they can use.
 
@@ -700,16 +720,6 @@ Cardano-DB-Sync is a tool that continuously syncs the Cardano blockchain with a 
   language="Haskell"
   repoURL="https://github.com/input-output-hk/cardano-db-sync"
 />
-
-#### Oura
-
-Oura is CLI tool that monitors the Cardano blockchain in real-time. It allows filtering, saving, and reacting to on-chain events. Oura does not provide chain-indexing directly, but it supports sinks where filtered data can be stored (e.g. Elastic Search or Kafka).
-
-- [Oura GitHub](https://github.com/txpipe/oura)
-- [Oura Documentation](https://txpipe.github.io/oura/)
-- [TxPipe Discord](https://discord.gg/9vJnnW6vDP): Oura channel
-
-<LibraryInfoBar language="Rust" repoURL="https://github.com/txpipe/oura/" />
 
 #### Kupo
 
@@ -740,16 +750,6 @@ Scrolls is a Rust-based library designed for building and managing read-optimize
 - [TxPipe Discord](https://discord.gg/GgZbKGFeUx)
 
 <LibraryInfoBar language="Rust" repoURL="https://github.com/txpipe/scrolls" />
-
-#### Adder
-
-Adder is a tool that monitors the Cardano blockchain and emits events as blocks and transactions occur. It provides developers with the ability to create custom indexers, allowing them to filter and track specific blockchain data efficiently.
-
-- [Adder GitHub](https://github.com/blinklabs-io/adder)
-- [Adder Starter Kit](https://github.com/blinklabs-io/adder-library-starter-kit)
-- [Blink Labs Discord](https://discord.gg/msgxSvq4Ez): Adder channel
-
-<LibraryInfoBar language="Go" repoURL="https://github.com/blinklabs-io/adder" />
 
 #### LedgerSync
 
