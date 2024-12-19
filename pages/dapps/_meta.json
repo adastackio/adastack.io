@@ -69,6 +69,16 @@
       "pagination": false
     }
   },
+  "domains_and_handles": {
+    "title": "Domains & Handles  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "education": {
     "title": "Education  ",
     "theme": {
