@@ -10,7 +10,7 @@
     }
   },
   "blockchain_explorers": {
-    "title": "Blockchain Explorers",
+    "title": "Block Explorers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
