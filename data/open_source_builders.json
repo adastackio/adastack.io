@@ -1282,5 +1282,18 @@
       "website": "https://cardanobook.com/",
       "teamGithubURL": "https://github.com/johnnygreeney",
       "tags": ["tools"]
+    },
+    {
+      "name": "LATAM Cardano",
+      "website": "https://catalyst-swarm.gitbook.io/latam-cardano-community",
+      "teamGithubURL": "https://github.com/latamcardano",
+      "tags": ["organization"]
+    },
+    {
+      "name": "Cardano Atlantic Council",
+      "website": "https://atlanticcouncil.cc/",
+      "teamGithubURL": "https://github.com/Cardano-Atlantic-Council",
+      "tags": ["organization"]
     }
 ]
+
