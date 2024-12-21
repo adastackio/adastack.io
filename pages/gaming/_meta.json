@@ -19,8 +19,8 @@
       "pagination": false
     }
   },
-  "metaverses": {
-    "title": "Metaverses  ",
+  "games": {
+    "title": "Games  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -29,8 +29,8 @@
       "pagination": false
     }
   },
-  "games": {
-    "title": "Games  ",
+  "metaverses": {
+    "title": "Metaverses  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
