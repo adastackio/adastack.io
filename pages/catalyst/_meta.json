@@ -39,8 +39,8 @@
       "pagination": false
     }
   },
-  "catalyst_metrics": {
-    "title": "Catalyst Metrics  ",
+  "become_a_reviewer": {
+    "title": "Become a Reviewer  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
