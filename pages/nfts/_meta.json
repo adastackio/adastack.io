@@ -69,8 +69,8 @@
       "pagination": false
     }
   },
-  "other_nft_tools": {
-    "title": "Other NFT Tools  ",
+  "more_nft_tools": {
+    "title": "More NFT Tools  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
