@@ -209,8 +209,8 @@
       "pagination": false
     }
   },
-  "other_dapps": {
-    "title": "Other dApps  ",
+  "more_dapps": {
+    "title": "More dApps  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
