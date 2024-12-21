@@ -49,8 +49,8 @@
       "pagination": false
     }
   },
-  "other_catalyst_resources": {
-    "title": "Other Catalyst Resources  ",
+  "more_catalyst_resources": {
+    "title": "More Catalyst Resources  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
