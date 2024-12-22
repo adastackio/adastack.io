@@ -1,11 +1,11 @@
 import React from "react";
 
-interface DiscordBadgeIoProps {
+interface DiscordShieldIoProps {
   discordInviteURL?: string;
   discordChannelName?: string;
 }
 
-const DiscordBadgeIo: React.FC<DiscordBadgeIoProps> = ({
+const DiscordShieldIo: React.FC<DiscordShieldIoProps> = ({
   discordInviteURL,
   discordChannelName = "Discord",
 }) => {
@@ -34,4 +34,4 @@ const DiscordBadgeIo: React.FC<DiscordBadgeIoProps> = ({
   );
 };
 
-export default DiscordBadgeIo;
+export default DiscordShieldIo;

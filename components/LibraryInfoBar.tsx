@@ -1,8 +1,8 @@
 import React from "react";
 import RepoShieldIo from "./badges/shield_io_badges/RepoShieldIo";
 import LanguageShieldIo from "./badges/shield_io_badges/LanguageShieldIo";
-import LatestCommitBadgeIo from "./badges/shield_io_badges/LatestCommitBadgeIo";
-import DiscordBadgeIo from "./badges/shield_io_badges/DiscordBadgeIo";
+import LatestCommitShieldIo from "./badges/shield_io_badges/LatestCommitShieldIo";
+import DiscordShieldIo from "./badges/shield_io_badges/DiscordShieldIo";
 import DocsShieldIo from "./badges/shield_io_badges/DocsShieldIo";
 
 interface DiscordInfo {
@@ -28,12 +28,12 @@ const LibraryInfoBar: React.FC<LibraryInfoBarProps> = ({
       {language && (
         <LanguageShieldIo language={language} isColorChanging={false} />
       )}
-      {repoURL && <LatestCommitBadgeIo repoURL={repoURL} />}
+      {repoURL && <LatestCommitShieldIo repoURL={repoURL} />}
       {docsURL && <DocsShieldIo docsURL={docsURL} />}
       {discord &&
         discord.length > 0 &&
         discord.map((info, index) => (
-          <DiscordBadgeIo
+          <DiscordShieldIo
             key={index}
             discordInviteURL={info.discordInviteURL}
             discordChannelName={info.discordChannelName}

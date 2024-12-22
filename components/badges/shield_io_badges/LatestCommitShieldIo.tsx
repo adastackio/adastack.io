@@ -1,10 +1,10 @@
 import React from "react";
 
-interface LatestCommitBadgeIoProps {
+interface LatestCommitShieldIoProps {
   repoURL: string;
 }
 
-const LatestCommitBadgeIo = ({ repoURL }: LatestCommitBadgeIoProps) => {
+const LatestCommitShieldIo = ({ repoURL }: LatestCommitShieldIoProps) => {
   const url = new URL(repoURL);
   const cleanPath = url.pathname.replace(/\/+$/, "");
   const pathSegments = cleanPath.split("/").filter(Boolean);
@@ -36,4 +36,4 @@ const LatestCommitBadgeIo = ({ repoURL }: LatestCommitBadgeIoProps) => {
   );
 };
 
-export default LatestCommitBadgeIo;
+export default LatestCommitShieldIo;

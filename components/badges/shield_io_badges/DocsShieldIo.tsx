@@ -1,10 +1,10 @@
 import React from "react";
 
-interface LatestCommitBadgeIoProps {
+interface DocsShieldIoProps {
   docsURL: string;
 }
 
-const LatestCommitBadgeIo = ({ docsURL }: LatestCommitBadgeIoProps) => {
+const DocsShieldIo = ({ docsURL }: DocsShieldIoProps) => {
   return (
     <a
       className="inline-block"
@@ -21,4 +21,4 @@ const LatestCommitBadgeIo = ({ docsURL }: LatestCommitBadgeIoProps) => {
   );
 };
 
-export default LatestCommitBadgeIo;
+export default DocsShieldIo;
