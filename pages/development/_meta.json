@@ -121,6 +121,86 @@
       "pagination": false
     }
   },
+  "off_chain_libraries": {
+    "title": "Off-Chain Libraries",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "web_and_wallet_libraries": {
+    "title": "Web & Wallet Libraries",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "command_line_libraries": {
+    "title": "CLI Libraries",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "node_libraries": {
+    "title": "Node Libraries",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "indexing_and_storage_libraries": {
+    "title": "Indexing & Storage Libraries",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "serialization_libraries": {
+    "title": "Serialization Libraries",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "testing_libraries": {
+    "title": "Testing Libraries",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "registries": {
+    "title": "Registries",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "apis": {
     "title": "APIs  ",
     "theme": {
