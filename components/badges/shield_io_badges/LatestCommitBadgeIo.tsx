@@ -19,11 +19,11 @@ const LatestCommitBadgeIo = ({ repoURL }: LatestCommitBadgeIoProps) => {
 
 
   const shieldUrl = isGitLab
-    ? `https://img.shields.io/gitlab/last-commit/${owner}/${repo}?color=dfe8f0&labelColor=white`
-    : `https://img.shields.io/github/last-commit/${owner}/${repo}?color=dfe8f0&labelColor=white`;
+    ? `https://img.shields.io/gitlab/last-commit/${owner}/${repo}?color=white&labelColor=dfe8f0`
+    : `https://img.shields.io/github/last-commit/${owner}/${repo}?color=white&labelColor=dfe8f0`;
 
   return (
-    <a className="inline-block" href={latestURL}>
+    <a className="inline-block"  target="_blank" rel="noopener noreferrer" href={latestURL}>
       <img
         src={shieldUrl}
         className="shield_io_badge badge-io-custom-shading shields_io_repo_badge"
