@@ -4,27 +4,35 @@ import LanguageShieldIo from "./badges/shield_io_badges/LanguageShieldIo";
 import LatestCommitBadgeIo from "./badges/shield_io_badges/LatestCommitBadgeIo";
 import DiscordBadgeIo from "./badges/shield_io_badges/DiscordBadgeIo";
 
-interface LibraryInfoBarProps {
-  repoURL: string;
-  language: string;
+interface DiscordInfo {
   discordInviteURL: string;
   discordChannelName: string;
 }
 
-const LibraryInfoBar = ({
+interface LibraryInfoBarProps {
+  repoURL: string;
+  language: string;
+  discord: DiscordInfo[];
+}
+
+const LibraryInfoBar: React.FC<LibraryInfoBarProps> = ({
   repoURL,
   language,
-  discordInviteURL,
-  discordChannelName,
-}: LibraryInfoBarProps) => {
+  discord,
+}) => {
   return (
     <div className="code-library-info-bar flex gap-2 items-center">
       <LanguageShieldIo language={language} isColorChanging={false} />
       <LatestCommitBadgeIo repoURL={repoURL} />
-      <DiscordBadgeIo
-        discordInviteURL={discordInviteURL}
-        discordChannelName={discordChannelName}
-      />
+      {discord &&
+        discord.length > 0 &&
+        discord.map((info, index) => (
+          <DiscordBadgeIo
+            key={index}
+            discordInviteURL={info.discordInviteURL}
+            discordChannelName={info.discordChannelName}
+          />
+        ))}
       <RepoShieldIo repoURL={repoURL} />
     </div>
   );
