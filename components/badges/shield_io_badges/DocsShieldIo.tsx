@@ -13,7 +13,7 @@ const LatestCommitBadgeIo = ({ docsURL }: LatestCommitBadgeIoProps) => {
       href={docsURL}
     >
       <img
-        src="https://img.shields.io/badge/-docs-blue?logo=readme&labelColor=blue"
+        src="https://img.shields.io/badge/-Docs-white?logo=readme&labelColor=white&logoColor=61a6fa"
         className="shield_io_badge badge-io-custom-shading shields_io_repo_badge"
         alt="Latest Commit"
       />
