@@ -24,7 +24,7 @@ const DiscordBadgeIo: React.FC<DiscordBadgeIoProps> = ({
       rel="noopener noreferrer"
     >
       <img
-        className="shield_io_badge shields_io_repo_badge"
+        className="shield_io_badge badge-io-custom-shading shields_io_repo_badge"
         alt={`${discordChannelName} Discord`}
         src={`https://img.shields.io/badge/${encodeURIComponent(
           formattedChannelName
