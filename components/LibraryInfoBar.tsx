@@ -24,7 +24,7 @@ const LibraryInfoBar: React.FC<LibraryInfoBarProps> = ({
   docsURL,
 }) => {
   return (
-    <div className="code-library-info-bar flex gap-2 items-center">
+    <div className="code-library-info-bar flex gap-2 items-center pb-5">
       {language && (
         <LanguageShieldIo language={language} isColorChanging={false} />
       )}
