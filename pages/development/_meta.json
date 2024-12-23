@@ -42,7 +42,7 @@
     }
   },
   "documentation": {
-    "title": "Documentation  ",
+    "title": "Documentation",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
