@@ -25,7 +25,7 @@ The Cardano node is the core component to participate in the Cardano blockchain.
 
 #### Dolos
 
-Dolos is a specialized Cardano data node, designed to maintain an up-to-date copy of the ledger and respond to queries from trusted clients (but does not produce blocks or handle relays). Since it is optimized for providing data, It is smaller than the Cardano node. Dolos can be an efficient backend for dApps and a useful data source for indexers.
+Dolos is a lightweight Cardano data node that maintains a current ledger copy and handles queries from trusted clients. Without block production or relay functions, serving as an efficient backend for dApps and indexers.
 
 - [Dolos Documentation](https://dolos.txpipe.io/)
 
@@ -57,9 +57,39 @@ Amaru is a Cardano node client written in Rust. It aims to bring more node dive
   ]}
 />
 
+#### Gerolamo
+
+Gerolamo is a TypeScript implementation of the Cardano node. It is a full node that aims to broaden the ecosystem's accessibility and decentralization.
+
+<LibraryInfoBar
+  language="TypeScript"
+  repoURL="https://github.com/HarmonicLabs/gerolamo"
+  discord={[
+    {
+      discordChannelName: "Harmonic Labs",
+      discordInviteURL: "https://discord.com/invite/CGKNcG7ade",
+    },
+  ]}
+/>
+
+#### Dingo
+
+Dingo is a lightweight Cardano data node written in Go that connects to the Cardano network using the Ouroboros protocol. It functions as a data service layer, reading blockchain data and serving it to dApps, data services, and analytics platforms.
+
+<LibraryInfoBar
+  language="Go"
+  repoURL="https://github.com/blinklabs-io/dingo"
+  discord={[
+    {
+      discordChannelName: "Blink Labs",
+      discordInviteURL: "https://discord.com/invite/5fPRZnX4qW",
+    },
+  ]}
+/>
+
 ## Node Tools
 
-Libraries that facilitate direct interaction with Cardano nodes, offering various interfaces for node communication and management.
+Libraries that facilitate direct interaction with Cardano nodes and offer various interfaces for node communication and management.
 
 #### Ogmios
 
@@ -108,17 +138,6 @@ Pallas re-implements common Ouroboros and Cardano logic in native Rust. It can b
       discordInviteURL: "https://discord.com/invite/ZTHcHUy5HY",
     },
   ]}
-/>
-
-#### Cardano Node Tests
-
-Cardano Node Tests is a library provides system and end-to-end (E2E) tests for cardano-node, allowing developers to run comprehensive tests on node implementations.
-
-- [Cardano-node-tests Documentation](https://tests.cardano.intersectmbo.org/)
-
-<LibraryInfoBar
-  language="Python"
-  repoURL="https://github.com/IntersectMBO/cardano-node-tests"
 />
 
 #### Adder
