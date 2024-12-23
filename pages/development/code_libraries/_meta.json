@@ -1,4 +1,14 @@
 {
+  "node_libraries": {
+    "title": "Node Libraries",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "off_chain_libraries": {
     "title": "Off-Chain Libraries",
     "theme": {
@@ -21,16 +31,6 @@
   },
   "command_line_libraries": {
     "title": "CLI Libraries",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "node_libraries": {
-    "title": "Node Libraries",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
