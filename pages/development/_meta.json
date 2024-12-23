@@ -41,16 +41,6 @@
       "pagination": false
     }
   },
-  "coding_environments": {
-    "title": "Coding Environments  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "documentation": {
     "title": "Documentation  ",
     "theme": {
@@ -91,6 +81,16 @@
       "pagination": false
     }
   },
+  "smart_contract_languages": {
+    "title": "Smart Contract Languages  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "testnets": {
     "title": "Testnets  ",
     "theme": {
@@ -101,8 +101,8 @@
       "pagination": false
     }
   },
-  "smart_contract_languages": {
-    "title": "Smart Contract Languages  ",
+  "coding_environments": {
+    "title": "Coding Environments  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
