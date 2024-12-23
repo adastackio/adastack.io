@@ -61,6 +61,16 @@
       "pagination": false
     }
   },
+  "install_cardano_node": {
+    "title": "Install Cardano Node  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "developer_chat": {
     "title": "Developer Chat",
     "theme": {
@@ -71,8 +81,8 @@
       "pagination": false
     }
   },
-  "cardano_node": {
-    "title": "Cardano Node  ",
+  "code_libraries": {
+    "title": "Code Libraries",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -93,16 +103,6 @@
   },
   "smart_contract_languages": {
     "title": "Smart Contract Languages  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "code_libraries": {
-    "title": "Code Libraries",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
