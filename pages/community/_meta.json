@@ -89,8 +89,8 @@
       "pagination": false
     }
   },
-  "social_bots": {
-    "title": "Social Bots  ",
+  "bots": {
+    "title": "Bots  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
