@@ -14,11 +14,10 @@ Curated directories that maintain verified information about the Cardano ecosyst
 
 The Cardano token registry is where token creators submit verified information about their tokens, including names, descriptions, and logos.
 
-- [Cardano Token Registry Guide and FAQ](https://github.com/cardano-foundation/cardano-token-registry/wiki)
-
 <LibraryInfoBar
-  language="Nix"
+  language="JSON"
   repoURL="https://github.com/cardano-foundation/cardano-token-registry"
+  docsURL="https://github.com/cardano-foundation/cardano-token-registry/wiki"
 />
 
 #### Offchain Data Registry
@@ -28,6 +27,7 @@ The Offchain Data Registry maps dApps to their script addresses. They also maint
 <LibraryInfoBar
   language="JSON"
   repoURL="https://github.com/Cardano-Fans/crfa-offchain-data-registry"
+  docsURL="https://github.com/Cardano-Fans/crfa-offchain-data-registry"
 />
 
 #### Cardano Contracts Registry
@@ -35,8 +35,9 @@ The Offchain Data Registry maps dApps to their script addresses. They also maint
 A registry maintaining information about dApps on the Cardano blockchain, used by the Cardanoscan Explorer.
 
 <LibraryInfoBar
-  language="JavaScript"
+  language="JSON"
   repoURL="https://github.com/StricaHQ/cardano-contracts-registry"
+  docsURL="https://github.com/StricaHQ/cardano-contracts-registry"
   discord={[
     {
       discordChannelName: "Strica",
@@ -49,11 +50,10 @@ A registry maintaining information about dApps on the Cardano blockchain, used b
 
 Metadata Registry Testnet provides a way to register off-chain token metadata that can map to on-chain identifiers (typically hashes representing asset IDs, output locking scripts, or token forging policies). It is intended for use with testnets, use the Cardano Token Registry instead for mainnet.
 
-- [Metadata Registry Testnet Wiki](https://github.com/cardano-foundation/cardano-token-registry/wiki)
-
 <LibraryInfoBar
-  language="Nix"
+  language="JSON"
   repoURL="https://github.com/input-output-hk/metadata-registry-testnet"
+  docsURL="https://github.com/input-output-hk/metadata-registry-testnet"
   discord={[
     {
       discordChannelName: "IOG Technical Community",
@@ -64,14 +64,12 @@ Metadata Registry Testnet provides a way to register off-chain token metadata th
 
 #### Cardano Shield Registry
 
-Cardano shield is a registry of known scammers, collected to provide protection from phishing using machine learning and community insights. It can be used to create automatic warnings in wallets before making transactions to scammers.
-
-- [Cardano Shield Website](https://www.cardanoshield.com/)
-- [Cardano Shield Blacklist](https://github.com/adabox-aio/cardano-shield/blob/main/config/blacklist.json)
+Cardano shield is a registry of known scammers, collected to provide protection from phishing using machine learning and community insights. It can be used to create automatic warnings in wallets before making transactions to scammers. [See the blacklist](https://github.com/adabox-aio/cardano-shield/blob/main/config/blacklist.json).
 
 <LibraryInfoBar
-  language="Python"
+  language="JSON"
   repoURL="https://github.com/adabox-aio/cardano-shield/"
+  docsURL="https://github.com/adabox-aio/cardano-shield/"
   discord={[
     {
       discordChannelName: "Gero Wallet",
@@ -82,22 +80,26 @@ Cardano shield is a registry of known scammers, collected to provide protection 
 
 #### Eternl Guard Registry
 
-Eternl Guard is a repository designed to gather domain names and asset of known bad actors. This helps users protect their funds by identifying scams.
-
-- [Eternl Guard Blacklist](https://github.com/Tastenkunst/eternl-guard/tree/main/src/entries)
+Eternl Guard is a repository designed to gather domain names and asset of known bad actors. This helps users protect their funds by identifying scams. [See the blacklist](https://github.com/Tastenkunst/eternl-guard/tree/main/src/entries).
 
 <LibraryInfoBar
   language="JSON"
   repoURL="https://github.com/Tastenkunst/eternl-guard"
+  docsURL="https://github.com/Tastenkunst/eternl-guard"
 />
 
 #### Cardano Scam Token Registry
 
-Cardano Scam Token Registry is a list of scam tokens. To find the scam tokens, the team uses a process that's triggered when someone sends a token to $sendscams. Each token is reviewed, and the scams are added to the registry.
-
-- [Cardano Scam Token Registry Blacklist](https://github.com/BrockCruess/Cardano-Scam-Token-Registry/blob/main/scam-token-list)
+Cardano Scam Token Registry is a list of scam tokens. To find the scam tokens, the team uses a process that's triggered when someone sends a token to $sendscams. Each token is reviewed, and the scams are added to the registry. [See the blacklist](https://github.com/BrockCruess/Cardano-Scam-Token-Registry/blob/main/scam-token-list).
 
 <LibraryInfoBar
-  language="Python"
+  language="TXT"
   repoURL="https://github.com/BrockCruess/Cardano-Scam-Token-Registry"
+  docsURL="https://github.com/BrockCruess/Cardano-Scam-Token-Registry"
+  discord={[
+    {
+      discordChannelName: "$sendscams Community Review",
+      discordInviteURL: "https://discord.com/invite/hqwvvR6KpM",
+    },
+  ]}
 />
