@@ -28,8 +28,8 @@ const LibraryInfoBar: React.FC<LibraryInfoBarProps> = ({
       {language && (
         <LanguageShieldIo language={language} isColorChanging={false} />
       )}
-      {repoURL && <LatestCommitShieldIo repoURL={repoURL} />}
       {docsURL && <DocsShieldIo docsURL={docsURL} />}
+
       {discord &&
         discord.length > 0 &&
         discord.map((info, index) => (
@@ -39,6 +39,7 @@ const LibraryInfoBar: React.FC<LibraryInfoBarProps> = ({
             discordChannelName={info.discordChannelName}
           />
         ))}
+      {repoURL && <LatestCommitShieldIo repoURL={repoURL} />}
       {repoURL && <RepoShieldIo repoURL={repoURL} />}
     </div>
   );
