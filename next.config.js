@@ -117,6 +117,11 @@ module.exports = withNextra({
         destination: "/staking/stake_reward_trackers", // new URL
         permanent: true, // permanent 308
       },
+      {
+        source: "/ecosystem/ecosystem_maps", // old URL
+        destination: "/ecosystem/cardano_directories", // new URL
+        permanent: true, // permanent 308
+      },
     ];
   },
 

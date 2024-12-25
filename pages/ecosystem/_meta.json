@@ -9,8 +9,8 @@
       "pagination": false
     }
   },
-  "ecosystem_maps": {
-    "title": "Ecosystem Maps",
+  "cardano_directories": {
+    "title": "Directories",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
