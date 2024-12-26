@@ -2,19 +2,19 @@ import React from "react";
 
 interface DiscordShieldIoProps {
   discordInviteURL?: string;
-  discordChannelName?: string;
+  DiscordServerName?: string;
 }
 
 const DiscordShieldIo: React.FC<DiscordShieldIoProps> = ({
   discordInviteURL,
-  discordChannelName = "Discord",
+  DiscordServerName = "Discord",
 }) => {
   if (!discordInviteURL) {
     return null;
   }
 
   // Replace dashes with HTML entity for en dash
-  const formattedChannelName = discordChannelName.replace(/-/g, "–");
+  const formattedChannelName = DiscordServerName.replace(/-/g, "–");
 
   return (
     <a
@@ -25,7 +25,7 @@ const DiscordShieldIo: React.FC<DiscordShieldIoProps> = ({
     >
       <img
         className="shield_io_badge badge-io-custom-shading shields_io_repo_badge"
-        alt={`${discordChannelName} Discord`}
+        alt={`${DiscordServerName} Discord`}
         src={`https://img.shields.io/badge/${encodeURIComponent(
           formattedChannelName
         )}-ffffff?style=flat&logo=discord&logoColor=7289DA&labelColor=dfe8f0`}

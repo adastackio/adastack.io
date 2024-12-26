@@ -4,7 +4,7 @@ seo_description: Cardano node libraries and implementations — from core node i
 toc: true
 ---
 
-import LibraryInfoBar from "../../../components/LibraryInfoBar";
+import LibraryInfo from "../../../components/LibraryInfo";
 
 # Node Libraries
 
@@ -18,7 +18,7 @@ A collection of implementations of the Cardano node, providing different approac
 
 The Cardano node is the core component to participate in the Cardano blockchain. It serves as the means for stake pool operators to produce blocks, and for all network participants to interact with the Cardano network.
 
-<LibraryInfoBar
+<LibraryInfo
   language="Haskell"
   repoURL="https://github.com/IntersectMBO/cardano-node"
   docsURL="https://github.com/input-output-hk/cardano-node-wiki/wiki"
@@ -28,13 +28,13 @@ The Cardano node is the core component to participate in the Cardano blockchain.
 
 Dolos is a lightweight Cardano data node that maintains a current ledger copy and handles queries from trusted clients. Its serves as an efficient backend for dApps and indexers.
 
-<LibraryInfoBar
+<LibraryInfo
   language="Rust"
   repoURL="https://github.com/txpipe/dolos"
   docsURL="https://dolos.txpipe.io/"
   discord={[
     {
-      discordChannelName: "TxPipe #Dolos",
+      DiscordServerName: "TxPipe #Dolos",
       discordInviteURL: "https://discord.com/invite/ZTHcHUy5HY",
     },
   ]}
@@ -44,30 +44,14 @@ Dolos is a lightweight Cardano data node that maintains a current ledger copy an
 
 Amaru is a Cardano node client written in Rust. It aims to bring more node diversity to Cardano. It is currently in development.
 
-<LibraryInfoBar
+<LibraryInfo
   language="Rust"
   repoURL="https://github.com/pragma-org/amaru"
   docsURL="https://github.com/pragma-org/amaru"
   discord={[
     {
-      discordChannelName: "Pragma #Amaru",
+      DiscordServerName: "Pragma #Amaru",
       discordInviteURL: "https://discord.gg/M65GBpkGjK",
-    },
-  ]}
-/>
-
-#### Gerolamo
-
-Gerolamo is a TypeScript implementation of the Cardano node. It is a full node that aims to broaden the ecosystem's accessibility and decentralization.
-
-<LibraryInfoBar
-  language="TypeScript"
-  repoURL="https://github.com/HarmonicLabs/gerolamo"
-  docsURL="https://github.com/HarmonicLabs/gerolamo"
-  discord={[
-    {
-      discordChannelName: "Harmonic Labs",
-      discordInviteURL: "https://discord.com/invite/CGKNcG7ade",
     },
   ]}
 />
@@ -76,14 +60,30 @@ Gerolamo is a TypeScript implementation of the Cardano node. It is a full node t
 
 Dingo is a lightweight Cardano data node written in Go that connects to the Cardano network using the Ouroboros protocol. It functions as a data service layer, reading blockchain data and serving it to dApps, data services, and analytics platforms.
 
-<LibraryInfoBar
+<LibraryInfo
   language="Go"
   repoURL="https://github.com/blinklabs-io/dingo"
   docsURL="https://pkg.go.dev/github.com/blinklabs-io/dingo"
   discord={[
     {
-      discordChannelName: "Blink Labs",
+      DiscordServerName: "Blink Labs",
       discordInviteURL: "https://discord.com/invite/5fPRZnX4qW",
+    },
+  ]}
+/>
+
+#### Gerolamo
+
+Gerolamo is a TypeScript implementation of the Cardano node. It is a full node that aims to broaden the ecosystem's accessibility and decentralization.
+
+<LibraryInfo
+  language="TypeScript"
+  repoURL="https://github.com/HarmonicLabs/gerolamo"
+  docsURL="https://github.com/HarmonicLabs/gerolamo"
+  discord={[
+    {
+      DiscordServerName: "Harmonic Labs",
+      discordInviteURL: "https://discord.com/invite/CGKNcG7ade",
     },
   ]}
 />
@@ -96,13 +96,13 @@ Libraries that facilitate direct interaction with Cardano nodes and offer variou
 
 A lightweight bridge between the Cardano node and client applications, enabling efficient communication. It allows developers to use JSON and RPC for operations like querying ledger state, submitting transactions, and monitoring the mempool.
 
-<LibraryInfoBar
+<LibraryInfo
   language="Haskell"
   repoURL="https://github.com/CardanoSolutions/ogmios"
   docsURL="https://ogmios.dev/"
   discord={[
     {
-      discordChannelName: "IOG Technical Community",
+      DiscordServerName: "IOG Technical Community",
       discordInviteURL: "https://discord.com/invite/inputoutput",
     },
   ]}
@@ -112,13 +112,13 @@ A lightweight bridge between the Cardano node and client applications, enabling 
 
 Oura is tool that monitors a Cardano node in real-time. It allows filtering, saving, and reacting to on-chain events. Oura does not provide chain-indexing directly, but it supports sinks where filtered data can be stored (e.g. Elastic Search or Kafka).
 
-<LibraryInfoBar
+<LibraryInfo
   language="Rust"
   repoURL="https://github.com/txpipe/oura/"
   docsURL="https://txpipe.github.io/oura/"
   discord={[
     {
-      discordChannelName: "TxPipe #Oura",
+      DiscordServerName: "TxPipe #Oura",
       discordInviteURL: "https://discord.com/invite/ZTHcHUy5HY",
     },
   ]}
@@ -128,13 +128,13 @@ Oura is tool that monitors a Cardano node in real-time. It allows filtering, sav
 
 Pallas re-implements common Ouroboros and Cardano logic in native Rust. It can be useful for building wallets, explorers, or custom node implementations. It is a collection of modules, so developers can use only what they need.
 
-<LibraryInfoBar
+<LibraryInfo
   language="Rust"
   repoURL="https://github.com/txpipe/pallas"
   docsURL="https://github.com/txpipe/pallas"
   discord={[
     {
-      discordChannelName: "TxPipe #Pallas",
+      DiscordServerName: "TxPipe #Pallas",
       discordInviteURL: "https://discord.com/invite/ZTHcHUy5HY",
     },
   ]}
@@ -144,13 +144,13 @@ Pallas re-implements common Ouroboros and Cardano logic in native Rust. It can b
 
 gOuroboros is a Go implementation of the Cardano Ouroboros family of protocols, allowing developers to write Go apps that communicate with Cardano nodes or manage blocks/transactions.
 
-<LibraryInfoBar
+<LibraryInfo
   language="Go"
   repoURL="https://github.com/blinklabs-io/gouroboros"
   docsURL="https://pkg.go.dev/github.com/blinklabs-io/gouroboros"
   discord={[
     {
-      discordChannelName: "Blink Labs",
+      DiscordServerName: "Blink Labs",
       discordInviteURL: "https://discord.com/invite/5fPRZnX4qW",
     },
   ]}
@@ -160,13 +160,13 @@ gOuroboros is a Go implementation of the Cardano Ouroboros family of protocols, 
 
 Adder is a tool that monitors the Cardano blockchain and emits events as blocks and transactions occur. It provides developers with the ability to create custom indexers, allowing them to filter and track specific blockchain data efficiently. Get started easily using the [Adder Starter Kit](https://github.com/blinklabs-io/adder-library-starter-kit).
 
-<LibraryInfoBar
+<LibraryInfo
   language="Go"
   repoURL="https://github.com/blinklabs-io/adder"
   docsURL="https://github.com/blinklabs-io/adder"
   discord={[
     {
-      discordChannelName: "Blink Labs",
+      DiscordServerName: "Blink Labs",
       discordInviteURL: "https://discord.com/invite/5fPRZnX4qW",
     },
   ]}
@@ -176,13 +176,13 @@ Adder is a tool that monitors the Cardano blockchain and emits events as blocks 
 
 Yaci allows connection and interaction with Cardano nodes directly. The library provides capabilities to listen to incoming blocks in real-time, fetch previous blocks, and monitor the local mempool.
 
-<LibraryInfoBar
+<LibraryInfo
   language="Java"
   repoURL="https://github.com/bloxbean/yaci"
   docsURL="https://github.com/bloxbean/yaci"
   discord={[
     {
-      discordChannelName: "Roasted Bean Alliance",
+      DiscordServerName: "Roasted Bean Alliance",
       discordInviteURL: "https://discord.com/invite/JtQ54MSw6p",
     },
   ]}
@@ -192,13 +192,13 @@ Yaci allows connection and interaction with Cardano nodes directly. The library 
 
 An API for interfacing with a local Cardano Node and providing the node internal data for HTTP clients, using the Ouroboros network protocol.
 
-<LibraryInfoBar
+<LibraryInfo
   language="Go"
   repoURL="https://github.com/blinklabs-io/cardano-node-api"
   docsURL="https://github.com/blinklabs-io/cardano-node-api"
   discord={[
     {
-      discordChannelName: "Blink Labs",
+      DiscordServerName: "Blink Labs",
       discordInviteURL: "https://discord.com/invite/5fPRZnX4qW",
     },
   ]}
@@ -208,13 +208,13 @@ An API for interfacing with a local Cardano Node and providing the node internal
 
 Kogmios is a Kotlin client library for Cardano's Ogmios interface, designed to simplify interaction with Cardano nodes by abstracting away the complexities of WebSocket and JSON-WSP message handling.
 
-<LibraryInfoBar
+<LibraryInfo
   language="Kotlin"
   repoURL="https://github.com/projectNEWM/kogmios"
   docsURL="https://github.com/projectNEWM/kogmios"
   discord={[
     {
-      discordChannelName: "NEWM",
+      DiscordServerName: "NEWM",
       discordInviteURL: "https://discord.com/invite/z4sYqxqgvQ",
     },
   ]}
@@ -224,7 +224,7 @@ Kogmios is a Kotlin client library for Cardano's Ogmios interface, designed to s
 
 OgmiosDotnetClient is a .NET client library designed to facilitate communication with a Cardano Node via the Ogmios WebSocket interface. It enables developers to synchronize blockchain data from a specific point, retrieve block information, and handle real-time blockchain events.
 
-<LibraryInfoBar
+<LibraryInfo
   language="C#"
   repoURL="https://github.com/ItsDaveB/OgmiosDotnet"
   docsURL="https://github.com/ItsDaveB/OgmiosDotnet"

@@ -7,17 +7,17 @@ import DocsShieldIo from "./badges/shield_io_badges/DocsShieldIo";
 
 interface DiscordInfo {
   discordInviteURL: string;
-  discordChannelName: string;
+  DiscordServerName: string;
 }
 
-interface LibraryInfoBarProps {
+interface LibraryInfoProps {
   repoURL: string;
   language: string;
   docsURL: string;
   discord: DiscordInfo[];
 }
 
-const LibraryInfoBar: React.FC<LibraryInfoBarProps> = ({
+const LibraryInfo: React.FC<LibraryInfoProps> = ({
   repoURL,
   language,
   discord,
@@ -36,7 +36,7 @@ const LibraryInfoBar: React.FC<LibraryInfoBarProps> = ({
           <DiscordShieldIo
             key={index}
             discordInviteURL={info.discordInviteURL}
-            discordChannelName={info.discordChannelName}
+            DiscordServerName={info.DiscordServerName}
           />
         ))}
       {repoURL && <LatestCommitShieldIo repoURL={repoURL} />}
@@ -45,4 +45,4 @@ const LibraryInfoBar: React.FC<LibraryInfoBarProps> = ({
   );
 };
 
-export default LibraryInfoBar;
+export default LibraryInfo;
