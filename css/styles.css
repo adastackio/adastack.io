@@ -698,6 +698,10 @@ footer {
 .code-library-info-bar {
   margin-top: 30px;
   margin-bottom: 44px;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 
 .shields_io_inline-badge {
