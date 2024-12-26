@@ -704,6 +704,15 @@ footer {
   -webkit-overflow-scrolling: touch;
 }
 
+.code-library-info-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.code-library-info-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .shields_io_inline-badge {
   display: inline-block;
   margin-bottom: -5px;
