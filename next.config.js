@@ -119,7 +119,7 @@ module.exports = withNextra({
       },
       {
         source: "/ecosystem/ecosystem_maps", // old URL
-        destination: "/ecosystem/cardano_directories", // new URL
+        destination: "/ecosystem/directories", // new URL
         permanent: true, // permanent 308
       },
     ];

@@ -9,8 +9,8 @@
       "pagination": false
     }
   },
-  "cardano_directories": {
-    "title": "Directories",
+  "directories": {
+    "title": "Ecosystem Directories",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
