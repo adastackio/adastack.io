@@ -44,7 +44,7 @@ li a:hover {
 }
 
 ul {
-  list-style: none !important; 
+  list-style: none !important;
   padding-left: 0em;
 }
 
@@ -55,28 +55,27 @@ ul li {
 }
 
 ul.nextra-scrollbar li {
-  padding-left:inherit;
+  padding-left: inherit;
   margin-right: inherit;
 }
 
-
-
 ul li::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0.66em;
-  width: .38rem; 
-  height: .38rem; 
-  background: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3Ny4wOCA3Ny4wOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzcuMDggNzcuMDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojNDM2MkVFO30uc3Qxe2ZpbGw6I0M5RDNFRTt9PC9zdHlsZT48Zz48Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIzOC41NCIgY3k9IjM4LjU0IiByPSIzOC4xNSIvPjxjaXJjbGUgY2xhc3M9InN0MSIgY3g9IjM4LjU0IiBjeT0iMzguNTQiIHI9IjIxLjg5Ii8+PC9nPjwvc3ZnPg==') no-repeat center center;
+  width: 0.38rem;
+  height: 0.38rem;
+  background: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3Ny4wOCA3Ny4wOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzcuMDggNzcuMDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojNDM2MkVFO30uc3Qxe2ZpbGw6I0M5RDNFRTt9PC9zdHlsZT48Zz48Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIzOC41NCIgY3k9IjM4LjU0IiByPSIzOC4xNSIvPjxjaXJjbGUgY2xhc3M9InN0MSIgY3g9IjM4LjU0IiBjeT0iMzguNTQiIHI9IjIxLjg5Ii8+PC9nPjwvc3ZnPg==")
+    no-repeat center center;
   background-size: contain;
 }
 
 ul.nextra-menu-mobile li::before,
 ul.nextra-menu-desktop li::before,
 ul.nextra-scrollbar li::before {
-  content: none; 
-  background: none
+  content: none;
+  background: none;
 }
 
 html[style*="color-scheme: dark;"] a {
@@ -204,7 +203,8 @@ html[style*="color-scheme: light;"]
 }
 
 /* Styles for the surroundings of the sidebar */
-ul.nextra-menu-mobile li, ul.nextra-menu-desktop li {
+ul.nextra-menu-mobile li,
+ul.nextra-menu-desktop li {
   padding-left: 1.2rem;
   margin-left: -1.1rem;
 }
@@ -360,17 +360,17 @@ html[style*="color-scheme: dark;"]
 
 /* Customize Steps */
 .nextra-steps h3:before {
-border-width: 1px !important;
-padding-top: 3px !important;
+  border-width: 1px !important;
+  padding-top: 3px !important;
 }
 
-:is(html[class~=dark] .nextra-steps h3):before {
+:is(html[class~="dark"] .nextra-steps h3):before {
   border-color: #4363ee !important;
   color: #dedede;
   background-color: rgb(8 10 21) !important;
 }
 
-:is(html[class~=light] .nextra-steps h3):before {
+:is(html[class~="light"] .nextra-steps h3):before {
   color: #4363ee;
   border-color: #4363ee !important;
 }
@@ -491,12 +491,12 @@ h3 + .toc-item,
 h4 + .toc-item,
 h5 + .toc-item,
 h6 + .toc-item {
-  margin-top: .9rem; 
+  margin-top: 0.9rem;
 }
 
 .toc-item {
   position: relative;
-  padding-left: .3rem; 
+  padding-left: 0.3rem;
 }
 
 .toc-link {
@@ -506,13 +506,11 @@ h6 + .toc-item {
 
 .toc-link:hover {
   transform: translateX(2px);
-} 
-
-.blue-bullet {
-  margin-right:8px;
 }
 
-
+.blue-bullet {
+  margin-right: 8px;
+}
 
 .animation-title-container {
   width: 100%;
@@ -650,10 +648,8 @@ h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx
 }
 
 main .nextra-breadcrumb {
-
   visibility: hidden;
 }
-
 
 footer {
   display: none;
@@ -779,6 +775,8 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
 
 .code-library-info-bar .shields_io_repo_badge {
   height: 22px;
+  width: auto;
+  max-width: none;
 }
 
 /* Ant Design Modifications */
