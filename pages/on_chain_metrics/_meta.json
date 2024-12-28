@@ -29,6 +29,16 @@
       "pagination": false
     }
   },
+  "treasury": {
+    "title": "Treasury  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "tokenomics_and_distribution": {
     "title": "Tokenomics & Distribution  ",
     "theme": {
@@ -41,16 +51,6 @@
   },
   "monetary_policy": {
     "title": "Monetary Policy  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "treasury": {
-    "title": "Treasury  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
