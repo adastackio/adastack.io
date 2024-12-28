@@ -49,16 +49,6 @@
       "pagination": false
     }
   },
-  "circulating_supply": {
-    "title": "Circulating Supply  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "treasury": {
     "title": "Treasury  ",
     "theme": {
