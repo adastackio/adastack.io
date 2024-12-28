@@ -78,15 +78,5 @@
       "footer": true,
       "pagination": false
     }
-  },
-  "other_on_chain_metrics": {
-    "title": "Other On-Chain Metrics  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
   }
 }
