@@ -38,11 +38,6 @@ li a {
   color: #007bff;
 }
 
-a:hover,
-li a:hover {
-  color: #0056b3;
-}
-
 .nextra-content li a:hover {
   text-decoration: underline !important;
 }
@@ -52,11 +47,11 @@ li a:hover {
 }
 
 html[style*="color-scheme: dark;"] a {
-  color: #6d84eb;
+  color: #c0ccff;
 }
 
 html[style*="color-scheme: dark;"] a:not(.nextra-sidebar-container a):hover {
-  color: #6d84eb;
+  color: #94a8ff;
   text-decoration: underline !important;
 }
 
@@ -740,6 +735,13 @@ table .favicon-custom-css {
 .open-source-icon-inline {
   padding-top: 2.7px;
   margin-left: 4.5px;
+}
+
+:is(html[class~="light"]) .open-source-icon-inline a svg {
+  fill: #20b2aa;
+}
+:is(html[class~="dark"]) .open-source-icon-inline a svg {
+  fill: #3c4a6d;
 }
 
 .page-in-development {
