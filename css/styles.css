@@ -43,6 +43,23 @@ li a:hover {
   color: #0056b3;
 }
 
+.nextra-content li a:hover {
+  text-decoration: underline !important;
+}
+
+.nextra-content li a:not(.nextra-sidebar-container a) {
+  padding: 8px 0px;
+}
+
+html[style*="color-scheme: dark;"] a {
+  color: #6d84eb;
+}
+
+html[style*="color-scheme: dark;"] a:not(.nextra-sidebar-container a):hover {
+  color: #6d84eb;
+  text-decoration: underline !important;
+}
+
 ul {
   list-style: none !important;
   padding-left: 0em;
@@ -76,14 +93,6 @@ ul.nextra-menu-desktop li::before,
 ul.nextra-scrollbar li::before {
   content: none;
   background: none;
-}
-
-html[style*="color-scheme: dark;"] a {
-  color: #b5a4ff;
-}
-
-html[style*="color-scheme: dark;"] a:not(.nextra-sidebar-container a):hover {
-  color: #a08bfe;
 }
 
 /* Top Navbar */
