@@ -47,7 +47,7 @@ li a {
 }
 
 html[style*="color-scheme: dark;"] a {
-  color: #c0ccff;
+  color: #b6c4ff;
 }
 
 html[style*="color-scheme: dark;"] a:not(.nextra-sidebar-container a):hover {
@@ -75,7 +75,7 @@ ul li::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.66em;
+  top: 0.6em;
   width: 0.38rem;
   height: 0.38rem;
   background: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjAiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3Ny4wOCA3Ny4wOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNzcuMDggNzcuMDg7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5zdDB7ZmlsbDojNDM2MkVFO30uc3Qxe2ZpbGw6I0M5RDNFRTt9PC9zdHlsZT48Zz48Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIzOC41NCIgY3k9IjM4LjU0IiByPSIzOC4xNSIvPjxjaXJjbGUgY2xhc3M9InN0MSIgY3g9IjM4LjU0IiBjeT0iMzguNTQiIHI9IjIxLjg5Ii8+PC9nPjwvc3ZnPg==")
@@ -488,6 +488,11 @@ html[style*="color-scheme: dark;"] .animation-content-container {
   border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.nextra-content li.nx-my-2 {
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
 }
 
 h2 + .toc-item,
