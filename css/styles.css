@@ -47,7 +47,7 @@ li a {
 }
 
 html[style*="color-scheme: dark;"] a {
-  color: #b6c4ff;
+  color: #9eb1ff;
 }
 
 html[style*="color-scheme: dark;"] a:not(.nextra-sidebar-container a):hover {
