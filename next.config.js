@@ -122,6 +122,11 @@ module.exports = withNextra({
         destination: "/ecosystem/directories", // new URL
         permanent: true, // permanent 308
       },
+      {
+        source: "/gaming/what_is_web3_gaming", // old URL
+        destination: "/gaming/what_are_web3_games", // new URL
+        permanent: true, // permanent 308
+      },
     ];
   },
 
