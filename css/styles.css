@@ -1183,7 +1183,7 @@ thead th.ant-table-cell {
     display: none !important; /* Hide cards on larger screens */
   }
   aside.nextra-sidebar-container {
-    width: 18rem;
+    width: 17.5rem;
   }
 }
 /* Everything Over Large Size */
