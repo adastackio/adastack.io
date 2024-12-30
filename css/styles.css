@@ -1182,6 +1182,9 @@ thead th.ant-table-cell {
   .nextra-cards {
     display: none !important; /* Hide cards on larger screens */
   }
+  aside.nextra-sidebar-container {
+    width: 18rem;
+  }
 }
 /* Everything Over Large Size */
 @media (min-width: 992px) {
