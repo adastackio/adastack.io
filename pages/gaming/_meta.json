@@ -9,16 +9,6 @@
       "pagination": false
     }
   },
-  "game_explorers": {
-    "title": "Game Explorers  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "all_games": {
     "title": "All Games  ",
     "theme": {
@@ -29,18 +19,8 @@
       "pagination": false
     }
   },
-  "metaverses": {
-    "title": "Metaverses  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "gambling": {
-    "title": "Gambling  ",
+  "game_explorers": {
+    "title": "Game Explorers  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
