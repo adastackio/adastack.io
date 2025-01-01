@@ -4,15 +4,15 @@ seo_description:
 toc: false
 ---
 
+import wallets from "../../data/wallets.json";
+import WalletsTable from "../../components/tables/WalletsTable";
+
 # Wallets
 
-This content is being peer reviewed & formally verified. Check back soon!
+## Mobile Wallets
 
-In the meantime, explore other Cardano collections:
+<WalletsTable wallets={wallets} filterBy="mobile" />
 
-- [YouTube Channels](/community/youtube)
-- [Development Firms](/development/dev_teams)
-- [Newsletters](/community/newsletters)
-- [News and Blogs](/community/news_and_blogs)
+## Browser Wallets
 
-[See the Full Library →](/all_pages)
+<WalletsTable wallets={wallets} filterBy="browser" />
