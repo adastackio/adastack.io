@@ -9,17 +9,7 @@
       "pagination": false
     }
   },
-  "partner_chain_explorers": {
-    "title": "Partner Chain Explorers  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "cardano_partner_chains": {
+  "all_partner_chains": {
     "title": "All Partner Chains  ",
     "theme": {
       "breadcrumb": true,

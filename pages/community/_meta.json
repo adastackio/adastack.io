@@ -1,6 +1,6 @@
 {
-  "newsletters": {
-    "title": "Newsletters",
+  "organizations": {
+    "title": "Organizations  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -21,6 +21,16 @@
   },
   "youtube": {
     "title": "YouTube",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "newsletters": {
+    "title": "Newsletters",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -89,8 +99,8 @@
       "pagination": false
     }
   },
-  "social_bots": {
-    "title": "Social Bots  ",
+  "bots": {
+    "title": "Bots  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

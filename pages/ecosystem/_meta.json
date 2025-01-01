@@ -1,6 +1,6 @@
 {
-  "ecosystem_maps": {
-    "title": "Ecosystem Maps",
+  "blockchain_explorers": {
+    "title": "Block Explorers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -9,8 +9,8 @@
       "pagination": false
     }
   },
-  "blockchain_explorers": {
-    "title": "Blockchain Explorers",
+  "directories": {
+    "title": "Ecosystem Directories",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -79,16 +79,6 @@
       "pagination": false
     }
   },
-  "organizations": {
-    "title": "Organizations  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "security_tools": {
     "title": "Security Tools  ",
     "theme": {
@@ -99,8 +89,8 @@
       "pagination": false
     }
   },
-  "portfolio_trackers": {
-    "title": "Portfolio Trackers  ",
+  "portfolio_trackers_and_apps": {
+    "title": "Portfolio Trackers & Apps  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

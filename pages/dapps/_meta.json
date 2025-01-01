@@ -69,6 +69,16 @@
       "pagination": false
     }
   },
+  "domains_and_handles": {
+    "title": "Domains & Handles  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "education": {
     "title": "Education  ",
     "theme": {
@@ -99,6 +109,16 @@
       "pagination": false
     }
   },
+  "impact_and_environment": {
+    "title": "Impact & Environment  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "medical_and_health": {
     "title": "Medical & Health  ",
     "theme": {
@@ -121,16 +141,6 @@
   },
   "payments_and_ecommerce": {
     "title": "Payments & E-Commerce  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "positive_impact": {
-    "title": "Positive Impact  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -199,8 +209,8 @@
       "pagination": false
     }
   },
-  "other_dapps": {
-    "title": "Other dApps  ",
+  "more_dapps": {
+    "title": "More dApps  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

@@ -19,28 +19,8 @@
       "pagination": false
     }
   },
-  "nft_market_metrics": {
-    "title": "NFT Market Metrics  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
   "minting_services": {
     "title": "Minting Services  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "domains_and_handles": {
-    "title": "Domains & Handles  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -79,8 +59,8 @@
       "pagination": false
     }
   },
-  "other_nft_tools": {
-    "title": "Other NFT Tools  ",
+  "more_nft_tools": {
+    "title": "More NFT Tools  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

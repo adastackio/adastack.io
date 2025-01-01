@@ -1,6 +1,6 @@
 {
   "on_chain_dashboards": {
-    "title": "On-Chain Dashboards",
+    "title": "Metric Tracking Sites",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -29,8 +29,8 @@
       "pagination": false
     }
   },
-  "staking_metrics": {
-    "title": "Staking  ",
+  "treasury": {
+    "title": "Treasury  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -51,36 +51,6 @@
   },
   "monetary_policy": {
     "title": "Monetary Policy  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "circulating_supply": {
-    "title": "Circulating Supply  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "treasury": {
-    "title": "Treasury  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "other_on_chain_metrics": {
-    "title": "Other On-Chain Metrics  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

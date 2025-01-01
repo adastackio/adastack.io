@@ -285,7 +285,7 @@ const OpenSourceBuildersTable = ({ data }) => {
             "Organization",
             "dApp",
             "Audits",
-            "Dev Company",
+            "dev_company",
             "Tools",
           ];
 
@@ -319,23 +319,23 @@ const OpenSourceBuildersTable = ({ data }) => {
       filters: [
         {
           text: "Organization",
-          value: "Organization",
+          value: "organization",
         },
         {
           text: "Dapp",
-          value: "dApp",
+          value: "dapp",
         },
         {
           text: "Dev Company",
-          value: "Dev Company",
+          value: "dev_company",
         },
         {
           text: "Audits",
-          value: "Audits",
+          value: "audits",
         },
         {
           text: "Tools",
-          value: "Tools",
+          value: "tools",
         },
       ],
       filterMode: "tree",
@@ -369,7 +369,10 @@ const OpenSourceBuildersTable = ({ data }) => {
                 }
                 return (
                   <>
-                    <CategoryTag color={color} category={tag.toUpperCase()} />
+                    <CategoryTag
+                      color={color}
+                      category={tag.replace(/_/g, " ").toUpperCase()}
+                    />
                   </>
                 );
               })}

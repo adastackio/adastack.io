@@ -1,40 +1,81 @@
 ---
 seo_title: Decentralization Metrics
-seo_description: Discover Cardano's robust decentralization and network security through key metrics like node distribution, Nakamoto coefficient (MAV), and ledger size.
+seo_description: "Explore Cardano's decentralization through essential metrics: node distribution, Nakamoto coefficient, stake pools, node size, and network performance."
 toc: false
 ---
 
 # Decentralization Metrics
 
-Blockchains rely on decentralization to maintain long-term resilience and security. By distributing block-production and block records across a wide network of nodes, decentralization prevents single points of failure that can compromise the system.
+Decentralization is pivotal in blockchain networks. This is achieved by distributing the network's computation across thousands of independent nodes. These metrics help quantify Cardano's decentralization.
 
-## Decentralization Indexes
+## Decentralization Index
 
-Compare Cardano's decentralization with other blockchains.
+Cardano's decentralization metrics compared to other blockchains.
 
-- [Edinburgh Decentralization Index](http://blockchainlab.inf.ed.ac.uk/edi-dashboard/)<OS url="https://github.com/Blockchain-Technology-Lab" />: University of Edinburgh initiative to objectively measure the decentralization of major cryptocurrencies across various layers.
-
-## Minimum Attack Vector (MAV)
-
-MAV measures how many stake pools would need to be compromised for an attacker to gain a majority of the network's block production (51% attack). This metric is also known as Nakamoto Coefficient.
-
-- [Cexplorer Groups](https://cexplorer.io/groups)<OS url="https://github.com/cexplorer" />: MAV by stake pool
-- [Balance Analytics Cardano Donut Chart](https://www.balanceanalytics.io/chartboards/donut_shop)<OS url="https://github.com/Balance-Analytics" />: MAV donut graphs
-- [Balance Analytics Cardano Decentralization Metrics](https://www.balanceanalytics.io/chartboards/decentralization)<OS url="https://github.com/Balance-Analytics" />: MAV graphs
+- [Edinburgh Decentralization Index](http://blockchainlab.inf.ed.ac.uk/edi-dashboard/)<OS url="https://blockchainlab.inf.ed.ac.uk/edi-dashboard/" />: University of Edinburgh initiative to measure the decentralization of major cryptocurrencies.
 
 ## Geographic Node Distribution
 
-Geographic node distribution refers to the global spread of blockchain nodes, enhancing network resilience by reducing single points of failure.
+The worldwide distribution of nodes across different regions, indicating network resilience.
 
-- [Cexplorer.io Relays](https://cexplorer.io/relays)<OS url="https://github.com/cexplorer" />: Country and ISP distribution
-- [Pooltool Network Health](https://pooltool.io/networkhealth)<OS url="https://github.com/PoolTool-io" />: Data center distribution
-- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/m24jHTNX1DM): Geographic and ISP distribution
-- [MonadPool](https://monadpool.com/cardano.html): Relay Map
-- [Relay Geolocation](https://relaygeolocatio.netlify.app/): Geolocation Map for Cardano Relays
+- [Cexplorer.io Relays](https://cexplorer.io/relays)<OS url="https://github.com/cexplorer" />: Country and ISP distribution.
+- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/m24jHTNX1DM): Geographic and ISP distribution.
+- [MonadPool](https://monadpool.com/cardano.html): Relay Map.
+- [Relay Geolocation](https://relaygeolocatio.netlify.app/): Geolocation Map for Cardano Relays.
+- [Cardano.org Explorer](https://beta.explorer.cardano.org/en/micar)<OS url="https://github.com/cardano-foundation/cf-explorer" />: Nodes per country.
+
+## ISP Diversity
+
+Internet service provider distribution among Cardano nodes, measuring network infrastructure diversity.
+
+- [Cexplorer.io Relays](https://cexplorer.io/relays)<OS url="https://github.com/cexplorer" />: ISP distribution breakdown.
+- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/m24jHTNX1DM): Relays per provider.
+- [Pooltool Network Health](https://pooltool.io/networkhealth)<OS url="https://github.com/PoolTool-io" />: Data center distribution.
+
+## Node Versions
+
+Node versions being run on the Cardano network.
+
+- [Cexplorer Versions](https://cexplorer.io/versions)<OS url="https://github.com/cexplorer" />: Node version charts.
+- [Pooltool](https://pooltool.io/networkhealth)<OS url="https://github.com/PoolTool-io" />: Node version charts.
+- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/ptQ2TyzLyog): Node version chart.
 
 ## Full Node Size
 
-The size of a Cardano full node indicates the amount of storage needed to maintain the complete blockchain record.
+The amount of storage needed to have a full copy of a blockchain.
 
-- [Cexplorer Storage](https://cexplorer.io/storage)<OS url="https://github.com/cexplorer" />
-- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/rkbL4boJKeY)
+- [Cexplorer Storage](https://cexplorer.io/storage)<OS url="https://github.com/cexplorer" />: Total storage in MB.
+- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/rkbL4boJKeY): Ledger size in bytes.
+
+## Minimum Attack Vector (MAV)
+
+MAV measures how many stake pools would need to be compromised for an attacker to gain a majority of the network's block production (51% attack).
+
+- [Cexplorer Groups](https://cexplorer.io/groups)<OS url="https://github.com/cexplorer" />: MAV by stake pool.
+- [Balance Analytics Cardano Donut Chart](https://www.balanceanalytics.io/chartboards/donut_shop)<OS url="https://github.com/Balance-Analytics" />: MAV donut graphs.
+- [Balance Analytics Cardano Decentralization Metrics](https://www.balanceanalytics.io/chartboards/decentralization)<OS url="https://github.com/Balance-Analytics" />: MAV graphs.
+
+## Staking Metrics
+
+Staking data including delegations, rewards, and total value staked in the Cardano network.
+
+- [Balance Analytics](https://www.balanceanalytics.io/chartboards/utxo_allocation)<OS url="https://github.com/Balance-Analytics" />: Staking status of all ADA UTXOs on Cardano.
+- [CardanoScan](https://cardanoscan.io/analytics/epochRewardDistribution)<OS url="https://github.com/StricaHQ" />: Reward distribution chart per epoch.
+- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/ngjdnF7UcC0): Staking stats by day.
+- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/jPLgGGDCuww): Staking stats by epoch.
+- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/tfLPyoVjJG0): Stake Pool stats by epoch.
+- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/lFEdCKh30Kk): Stake Pool stats by epoch (2).
+
+## Block Production
+
+Track data on blocks production and missed blocks.
+
+- [Cexplorer Producers](https://cexplorer.io/producers)<OS url="https://github.com/cexplorer" />: Ratio of total pools to block producers.
+- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/nwBRCIaRdRQ): Blocks per epoch and missed blocks.
+
+## Block Propagation Speed
+
+Block transmission speeds and efficiency across the global network of nodes.
+
+- [Cardano.org Explorer](https://beta.explorer.cardano.org/en/network-monitoring)<OS url="https://github.com/cardano-foundation/cf-explorer" />: Block propagation times per day and epoch.
+- [Pooltool.io](https://pooltool.io/networkhealth)<OS url="https://github.com/PoolTool-io" />: Block propagation time and delays.

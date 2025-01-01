@@ -1,6 +1,16 @@
 {
-  "what_is_web3_gaming": {
-    "title": "What is Web3 Gaming?",
+  "what_are_web3_games": {
+    "title": "What are Web3 Games?",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+  "all_games": {
+    "title": "All Games  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -11,36 +21,6 @@
   },
   "game_explorers": {
     "title": "Game Explorers  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "metaverses": {
-    "title": "Metaverses  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "games": {
-    "title": "Games  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "gambling": {
-    "title": "Gambling  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

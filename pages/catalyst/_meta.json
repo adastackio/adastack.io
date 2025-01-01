@@ -9,6 +9,16 @@
       "pagination": false
     }
   },
+  "explore_proposals": {
+    "title": "Explore Proposals  ",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "vote_in_catalyst": {
     "title": "Vote in Catalyst  ",
     "theme": {
@@ -29,8 +39,8 @@
       "pagination": false
     }
   },
-  "funded_proposals": {
-    "title": "Funded Proposals  ",
+  "become_a_reviewer": {
+    "title": "Become a Reviewer  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -39,18 +49,8 @@
       "pagination": false
     }
   },
-  "catalyst_metrics": {
-    "title": "Catalyst Metrics  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "other_catalyst_resources": {
-    "title": "Other Catalyst Resources  ",
+  "more_catalyst_resources": {
+    "title": "More Catalyst Resources  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

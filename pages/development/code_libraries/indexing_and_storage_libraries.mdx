@@ -1,0 +1,137 @@
+---
+seo_title: Indexing & Storage Libraries
+seo_description: Explore Cardano indexing and storage libraries — top developer tools for data querying, analysis, and storage using Rust, Haskell, Java, C#, and more.
+toc: true
+---
+
+import LibraryInfo from "../../../components/LibraryInfo";
+
+# Indexing and Storage Libraries
+
+Tools that index and organize Cardano blockchain data, making it easier to store, query, and analyze blockchain information efficiently.
+
+#### Cardano-DB-Sync
+
+Cardano-DB-Sync is a tool that continuously syncs the Cardano blockchain with a PostgreSQL database. It allows users to efficiently query and analyze blockchain data in real-time.
+
+<LibraryInfo
+  language="Haskell"
+  repoURL="https://github.com/IntersectMBO/cardano-db-sync"
+  docsURL="https://github.com/IntersectMBO/cardano-db-sync"
+  discord={[
+    {
+      DiscordServerName: "TxPipe #DB-Sync",
+      discordInviteURL: "https://discord.com/invite/ZTHcHUy5HY",
+    },
+  ]}
+/>
+
+#### Kupo
+
+Kupo is a lightweight chain-indexing tool for the Cardano blockchain. It quickly syncs data by matching addresses in transaction outputs and creates a lookup table for easy access to output references, values, and scripts.
+
+<LibraryInfo
+  language="Haskell"
+  repoURL="https://github.com/CardanoSolutions/kupo"
+  docsURL="https://github.com/CardanoSolutions/kupo"
+  discord={[
+    {
+      DiscordServerName: "TxPipe #Kupo",
+      discordInviteURL: "https://discord.com/invite/ZTHcHUy5HY",
+    },
+  ]}
+/>
+
+#### Carp
+
+Carp is an indexer, built in Rust, that syncs blockchain data into a PostgreSQL database. It’s designed for speed and flexibility, making it ideal for production applications like wallets. It has an indexer for storing data and a web server with a REST API for database queries.
+
+<LibraryInfo
+  language="Rust"
+  repoURL="https://github.com/dcSpark/carp/"
+  docsURL="https://dcspark.github.io/carp/"
+  discord={[
+    {
+      DiscordServerName: "DcSpark",
+      discordInviteURL: "https://discord.com/invite/6zY6sybPEk",
+    },
+  ]}
+/>
+
+#### Scrolls
+
+Scrolls is a Rust-based library designed for building and managing read-optimized collections of Cardano blockchain data. It efficiently crawls the blockchain, aggregates data, and keeps data updated by monitoring the chain tip.
+
+<LibraryInfo
+  language="Rust"
+  repoURL="https://github.com/txpipe/scrolls"
+  docsURL="https://github.com/txpipe/scrolls"
+  discord={[
+    {
+      DiscordServerName: "TxPipe #Scrolls",
+      discordInviteURL: "https://discord.com/invite/ZTHcHUy5HY",
+    },
+  ]}
+/>
+
+#### LedgerSync
+
+LedgerSync is a Java application for indexing Cardano blockchain data. It reads from the Cardano blockchain and writes it to a PostgreSQL database. There is also a streaming app that publishes events to messaging middleware like Kafka or RabbitMQ.
+
+<LibraryInfo
+  language="Java"
+  repoURL="https://github.com/cardano-foundation/cf-ledger-sync"
+  docsURL="https://cardano-foundation.github.io/cf-ledger-sync"
+/>
+
+#### Yaci-store
+
+Yaci Store is a modular indexer library written in Java for the Cardano blockchain. It helps developers write their own scoped indexers in Java, Kotlin, or any other JVM language. It also provides a few out-of-the-box indexers, such as yaci-store-all, which indexes all on-chain data into databases like H2, PostgreSQL, or MySQL.
+
+<LibraryInfo
+  language="Java"
+  repoURL="https://github.com/bloxbean/yaci-store"
+  docsURL="https://store.yaci.xyz/"
+  discord={[
+    {
+      DiscordServerName: "Roasted Bean Alliance",
+      discordInviteURL: "https://discord.com/invite/JtQ54MSw6p",
+    },
+  ]}
+/>
+
+#### Marconi
+
+Marconi is a lightweight, customizable framework for indexing and querying Cardano blockchain data. It offers flexible data storage options such as SQLite, file-based, and in-memory.
+
+<LibraryInfo
+  language="Haskell"
+  repoURL="https://github.com/input-output-hk/marconi"
+  docsURL="https://github.com/input-output-hk/marconi"
+  discord={[
+    {
+      DiscordServerName: "IOG Technical Community",
+      discordInviteURL: "https://discord.com/invite/inputoutput",
+    },
+  ]}
+/>
+
+#### Mafoc
+
+Mafoc is a Haskell framework for developing custom blockchain indexers, using an SQLite database that can be queried for data.
+
+<LibraryInfo
+  language="Haskell"
+  repoURL="https://github.com/eyeinsky/mafoc"
+  docsURL="https://github.com/eyeinsky/mafoc"
+/>
+
+#### Argus
+
+Argus is a .NET library that simplifies indexing that provides a framework. It processes block data into structured, queryable formats in a PostgreSQL database. It is designed for robust enterprise integration.
+
+<LibraryInfo
+  language="C#"
+  repoURL="https://github.com/SAIB-Inc/Argus"
+  docsURL="https://github.com/SAIB-Inc/Argus"
+/>

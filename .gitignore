@@ -8,7 +8,5 @@ pnpm-lock.yaml
 .env
 .vercel
 .env*.local
-.aider*
-data/
 .vscode/settings.json
 
