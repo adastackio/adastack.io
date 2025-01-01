@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Vespr",
+    "website": "https://www.vespr.xyz/:",
+    "teamGithubURL": "https://github.com/vespr-wallet",
+    "walletGithubURL": "",
+    "tags": ["mobile"]
+  },
+  {
+    "name": "Begin",
+    "website": "https://begin.is/",
+    "teamGithubURL": "https://github.com/B58-Finance",
+    "walletGithubURL": "",
+    "tags": ["mobile"]
+  },
+  {
+    "name": "Mantium",
+    "website": "https://www.mantium.app/",
+    "teamGithubURL": "",
+    "walletGithubURL": "",
+    "tags": ["mobile"]
+  },
+  {
+    "name": "Tokeo",
+    "website": "https://tokeopay.io/",
+    "teamGithubURL": "",
+    "walletGithubURL": "",
+    "tags": ["mobile"]
+  },
+  {
+    "name": "Typhon",
+    "website": "https://typhonwallet.io/",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "walletGithubURL": "",
+    "tags": ["browser"]
+  }
+]
