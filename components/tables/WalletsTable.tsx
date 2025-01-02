@@ -1,4 +1,5 @@
 import React from "react";
+import TeamGithubBadge from "@components/badges/TeamGithubBadge";
 
 interface Wallet {
   name: string;
@@ -24,9 +25,8 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
         <tr>
           <th>Name</th>
           <th>Website</th>
-          <th>Team GitHub</th>
-          <th>Wallet GitHub</th>
-          <th>Tags</th>
+          <th>Team on GitHub</th>
+          <th>Wallet Repo</th>
         </tr>
       </thead>
       <tbody>
@@ -48,29 +48,23 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
               </a>
             </td>
             <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
-              <a
-                href={wallet.teamGithubURL}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {wallet.teamGithubURL}
-              </a>
+              <TeamGithubBadge
+                teamGithubURL={wallet.teamGithubURL}
+                text="Team"
+              />
             </td>
             <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
-              {wallet.walletGithubURL ? (
+              {wallet.walletRepoURL ? (
                 <a
-                  href={wallet.walletGithubURL}
+                  href={wallet.walletRepoURL}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {wallet.walletGithubURL}
+                  {wallet.walletRepoURL}
                 </a>
               ) : (
                 "N/A"
               )}
-            </td>
-            <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
-              {wallet.tags.join(", ")}
             </td>
           </tr>
         ))}

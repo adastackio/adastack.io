@@ -3,35 +3,98 @@
     "name": "Vespr",
     "website": "https://www.vespr.xyz/:",
     "teamGithubURL": "https://github.com/vespr-wallet",
-    "walletGithubURL": "",
-    "tags": ["mobile"]
+    "walletRepoURL": "",
+    "tags": ["mobile", "browser"]
   },
   {
     "name": "Begin",
     "website": "https://begin.is/",
     "teamGithubURL": "https://github.com/B58-Finance",
-    "walletGithubURL": "",
+    "walletRepoURL": "https://github.com/BeginWallet/begin-core",
     "tags": ["mobile"]
   },
   {
     "name": "Mantium",
     "website": "https://www.mantium.app/",
     "teamGithubURL": "",
-    "walletGithubURL": "",
+    "walletRepoURL": "",
     "tags": ["mobile"]
   },
   {
     "name": "Tokeo",
     "website": "https://tokeopay.io/",
-    "teamGithubURL": "",
-    "walletGithubURL": "",
+    "teamGithubURL": "https://github.com/TokeoPay",
+    "walletRepoURL": "",
     "tags": ["mobile"]
+  },
+  {
+    "name": "Eternl",
+    "website": "https://eternl.io/",
+    "teamGithubURL": "https://github.com/Tastenkunst",
+    "walletRepoURL": "",
+    "tags": ["browser", "mobile", "website"]
+  },
+  {
+    "name": "Nufi",
+    "website": "https://nu.fi",
+    "teamGithubURL": "https://github.com/nufi-official/",
+    "walletRepoURL": "https://github.com/nufi-official/nufi/",
+    "tags": ["browser", "website"]
+  },
+  {
+    "name": "Yoroi",
+    "website": "https://yoroi-wallet.com",
+    "teamGithubURL": "https://github.com/emurgo",
+    "walletRepoURL": "https://github.com/Emurgo/yoroi",
+    "tags": ["browser", "mobile"]
   },
   {
     "name": "Typhon",
     "website": "https://typhonwallet.io/",
     "teamGithubURL": "https://github.com/StricaHQ",
-    "walletGithubURL": "",
+    "walletRepoURL": "",
+    "tags": ["browser"]
+  },
+  {
+    "name": "Lace",
+    "website": "https://www.lace.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "walletRepoURL": "https://github.com/input-output-hk/lace",
+    "tags": ["browser"]
+  },
+  {
+    "name": "Nami",
+    "website": "https://namiwallet.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "walletRepoURL": "https://github.com/input-output-hk/nami",
+    "tags": ["browser"]
+  },
+  {
+    "name": "Gero Wallet",
+    "website": "https://gerowallet.io/",
+    "teamGithubURL": "",
+    "walletRepoURL": "",
+    "tags": ["browser"]
+  },
+  {
+    "name": "Adalite",
+    "website": "https://adalite.io/",
+    "teamGithubURL": "https://github.com/vacuumlabs/",
+    "walletRepoURL": "https://github.com/vacuumlabs/adalite",
+    "tags": ["website"]
+  },
+  {
+    "name": "GameChanger",
+    "website": "https://gamechanger.finance/",
+    "teamGithubURL": "https://github.com/GameChangerFinance/",
+    "walletRepoURL": "https://github.com/GameChangerFinance/gamechanger.wallet",
+    "tags": ["website"]
+  },
+  {
+    "name": "Metamask (using Nufi Cardano Snap)",
+    "website": "https://metamask.io/",
+    "teamGithubURL": "https://github.com/metamask",
+    "walletRepoURL": "https://github.com/MetaMask/metamask-extension",
     "tags": ["browser"]
   }
 ]
