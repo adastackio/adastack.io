@@ -9,7 +9,7 @@
   {
     "name": "Begin",
     "website": "https://begin.is/",
-    "teamGithubURL": "https://github.com/B58-Finance",
+    "teamGithubURL": "https://github.com/BeginWallet",
     "walletRepoURL": "https://github.com/BeginWallet/begin-core",
     "tags": ["mobile"]
   },
@@ -35,7 +35,7 @@
     "tags": ["browser", "mobile", "website"]
   },
   {
-    "name": "Nufi",
+    "name": "NuFi",
     "website": "https://nu.fi",
     "teamGithubURL": "https://github.com/nufi-official/",
     "walletRepoURL": "https://github.com/nufi-official/nufi/",
@@ -91,7 +91,7 @@
     "tags": ["website"]
   },
   {
-    "name": "Metamask (using Nufi Cardano Snap)",
+    "name": "Metamask (using NuFi Cardano Snap)",
     "website": "https://metamask.io/",
     "teamGithubURL": "https://github.com/metamask",
     "walletRepoURL": "https://github.com/MetaMask/metamask-extension",
