@@ -618,6 +618,11 @@ a.nextra-card:hover {
   cursor: pointer;
 }
 
+.badge-button.github-repo-badge-content {
+  padding-left: 5px;
+  gap: 3px;
+}
+
 a.nextra-card .nextra-card-title {
   font-size: 20px;
   padding-left: 30px;

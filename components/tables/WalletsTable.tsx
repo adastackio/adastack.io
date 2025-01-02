@@ -1,5 +1,7 @@
 import React from "react";
 import TeamGithubBadge from "@components/badges/TeamGithubBadge";
+import GithubRepoBadge from "@components/badges/GithubRepoBadge";
+import Favicon from "@components/badges/Favicon";
 
 interface Wallet {
   name: string;
@@ -23,8 +25,7 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
     <table>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Website</th>
+          <th>Wallet</th>
           <th>Team on GitHub</th>
           <th>Wallet Repo</th>
         </tr>
@@ -36,16 +37,17 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
             className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20"
           >
             <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
-              {wallet.name}
-            </td>
-            <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
-              <a
-                href={wallet.website}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {wallet.website}
-              </a>
+              <div className="flex items-center justify-between w-full">
+                <span className="flex items-center">
+                  <Favicon url={wallet.website} />
+                  &nbsp;
+                  <a href={wallet.website}>
+                    <span className="team_table_name_container">
+                      {wallet.name}
+                    </span>
+                  </a>
+                </span>
+              </div>
             </td>
             <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
               <TeamGithubBadge
@@ -54,17 +56,10 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
               />
             </td>
             <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
-              {wallet.walletRepoURL ? (
-                <a
-                  href={wallet.walletRepoURL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {wallet.walletRepoURL}
-                </a>
-              ) : (
-                "N/A"
-              )}
+              <GithubRepoBadge
+                repoURL={wallet.walletRepoURL}
+                text="Wallet Code"
+              />
             </td>
           </tr>
         ))}
