@@ -1,7 +1,14 @@
 [
   {
+    "name": "Lace",
+    "website": "https://www.lace.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "walletRepoURL": "https://github.com/input-output-hk/lace",
+    "tags": ["browser", "paper"]
+  },
+  {
     "name": "Vespr",
-    "website": "https://www.vespr.xyz/:",
+    "website": "https://www.vespr.xyz/",
     "teamGithubURL": "https://github.com/vespr-wallet",
     "walletRepoURL": "",
     "tags": ["mobile", "browser"]
@@ -53,13 +60,6 @@
     "website": "https://typhonwallet.io/",
     "teamGithubURL": "https://github.com/StricaHQ",
     "walletRepoURL": "",
-    "tags": ["browser"]
-  },
-  {
-    "name": "Lace",
-    "website": "https://www.lace.io/",
-    "teamGithubURL": "https://github.com/input-output-hk",
-    "walletRepoURL": "https://github.com/input-output-hk/lace",
     "tags": ["browser"]
   },
   {
@@ -131,5 +131,145 @@
     "teamGithubURL": "https://github.com/keystoneHQ",
     "walletRepoURL": "https://github.com/KeystoneHQ/keystone3-firmware",
     "tags": ["hardware"]
+  },
+  {
+    "name": "NMKR Wallet",
+    "website": "https://www.nmkr.io/paper-wallet",
+    "teamGithubURL": "https://github.com/nftmakerio",
+    "walletRepoURL": "",
+    "tags": ["paper"]
+  },
+  {
+    "name": "BroClan",
+    "website": "https://broclan.io/",
+    "teamGithubURL": "https://github.com/leo42/",
+    "walletRepoURL": "https://github.com/leo42/BroClanWallet",
+    "tags": ["multisig"]
+  },
+  {
+    "name": "ADAO Round Table",
+    "website": "https://round-table.vercel.app",
+    "teamGithubURL": "https://github.com/ADAOcommunity",
+    "walletRepoURL": "https://github.com/ADAOcommunity/round-table",
+    "tags": ["multisig"]
+  },
+  {
+    "name": "Iagon LedgerFlow",
+    "website": "https://docs.iagon.com/overview/products/ledgerflow",
+    "teamGithubURL": "https://github.com/iagonorg",
+    "walletRepoURL": "",
+    "tags": ["multisig"]
+  },
+  {
+    "name": "Mesh Multisig",
+    "website": "https://multisig.meshjs.dev/",
+    "teamGithubURL": "https://github.com/MeshJS",
+    "walletRepoURL": "",
+    "tags": ["multisig"]
+  },
+  {
+    "name": "CF Identity Wallet",
+    "website": "https://identity.cardanofoundation.org/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "walletRepoURL": "https://github.com/cardano-foundation/cf-identity-wallet",
+    "tags": ["identity"]
+  },
+  {
+    "name": "BlockTrust Identity Wallet",
+    "website": "https://identity.cardanofoundation.org/",
+    "teamGithubURL": "https://github.com/bsandmann",
+    "walletRepoURL": "https://github.com/bsandmann/blocktrust-identity-wallet",
+    "tags": ["identity"]
+  },
+  {
+    "name": "Socious Wallet",
+    "website": "https://socious.io/",
+    "teamGithubURL": "https://github.com/socious-io/",
+    "walletRepoURL": "https://github.com/socious-io/socious-wallet",
+    "tags": ["identity"]
+  },
+  {
+    "name": "IAMX Wallet",
+    "website": "https://iamx.id/",
+    "teamGithubURL": "https://github.com/iamxid",
+    "walletRepoURL": "",
+    "tags": ["identity"]
+  },
+  {
+    "name": "Sorbet",
+    "website": "https://github.com/SundaeSwap-finance/Sorbet",
+    "teamGithubURL": "https://github.com/SundaeSwap-finance/",
+    "walletRepoURL": "https://github.com/SundaeSwap-finance/Sorbet",
+    "tags": ["dev"]
+  },
+  {
+    "name": "MLabs Dev Wallet",
+    "website": "https://github.com/mlabs-haskell/cardano-dev-wallet",
+    "teamGithubURL": "https://github.com/mlabs-haskell/",
+    "walletRepoURL": "https://github.com/mlabs-haskell/cardano-dev-wallet",
+    "tags": ["dev"]
+  },
+  {
+    "name": "P2P Wallet",
+    "website": "https://github.com/fallen-icarus/p2p-wallet",
+    "teamGithubURL": "https://github.com/fallen-icarus/",
+    "walletRepoURL": "https://github.com/fallen-icarus/p2p-wallet",
+    "tags": ["dev"]
+  },
+  {
+    "name": "Mynth CLI Wallet",
+    "website": "https://github.com/MynthAI/wallet",
+    "teamGithubURL": "https://github.com/MynthAI/",
+    "walletRepoURL": "https://github.com/MynthAI/wallet",
+    "tags": ["dev"]
+  },
+  {
+    "name": "Stealth Wallet",
+    "website": "https://github.com/while0x1/stealthWallet",
+    "teamGithubURL": "https://github.com/while0x1/",
+    "walletRepoURL": "https://github.com/while0x1/stealthWallet",
+    "tags": ["dev"]
+  },
+  {
+    "name": "Bursa Wallet",
+    "website": "https://github.com/blinklabs-io/bursa",
+    "teamGithubURL": "https://github.com/blinklabs-io/",
+    "walletRepoURL": "https://github.com/blinklabs-io/bursa",
+    "tags": ["dev"]
+  },
+  {
+    "name": "Seedelf Wallet",
+    "website": "https://github.com/logical-mechanism/Seedelf-Wallet",
+    "teamGithubURL": "https://github.com/logical-mechanism/",
+    "walletRepoURL": "https://github.com/logical-mechanism/Seedelf-Wallet",
+    "tags": ["dev"]
+  },
+  {
+    "name": "TxPipe CShell",
+    "website": "https://github.com/txpipe/cshell",
+    "teamGithubURL": "https://github.com/txpipe/",
+    "walletRepoURL": "https://github.com/txpipe/cshell",
+    "tags": ["dev"]
+  },
+  {
+    "name": "Cardaminal CLI",
+    "website": "https://github.com/IntersectMBO/cardaminal",
+    "teamGithubURL": "https://github.com/IntersectMBO/",
+    "walletRepoURL": "https://github.com/IntersectMBO/cardaminal",
+    "tags": ["dev"]
+  },
+  {
+    "name": "Godot Wallet",
+    "website": "https://mlabs-haskell.github.io/godot-cardano/",
+    "teamGithubURL": "https://github.com/mlabs-haskell/",
+    "walletRepoURL": "https://github.com/mlabs-haskell/godot-cardano",
+    "tags": ["specialized"]
+  },
+  {
+    "name": "Salesforce Wallet",
+    "website": "https://github.com/MuKnSys/ada-wallet-for-salesforce",
+    "teamGithubURL": "https://github.com/MuKnSys/",
+    "walletRepoURL": "https://github.com/MuKnSys/ada-wallet-for-salesforce",
+    "tags": ["specialized"]
   }
 ]
