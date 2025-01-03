@@ -96,5 +96,40 @@
     "teamGithubURL": "https://github.com/metamask",
     "walletRepoURL": "https://github.com/MetaMask/metamask-extension",
     "tags": ["browser"]
+  },
+  {
+    "name": "Daedalus",
+    "website": "https://daedaluswallet.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "walletRepoURL": "https://github.com/input-output-hk/daedalus",
+    "tags": ["desktop"]
+  },
+  {
+    "name": "Ledger",
+    "website": "https://www.ledger.com/",
+    "teamGithubURL": "https://github.com/ledgerhq",
+    "walletRepoURL": "",
+    "tags": ["hardware"]
+  },
+  {
+    "name": "Trezor",
+    "website": "https://trezor.io/",
+    "teamGithubURL": "https://github.com/trezor",
+    "walletRepoURL": "https://github.com/trezor/trezor-firmware",
+    "tags": ["hardware"]
+  },
+  {
+    "name": "Tangem",
+    "website": "https://tangem.com/",
+    "teamGithubURL": "https://github.com/tangem",
+    "walletRepoURL": "",
+    "tags": ["hardware"]
+  },
+  {
+    "name": "Keystone",
+    "website": "https://keyst.one/",
+    "teamGithubURL": "https://github.com/keystoneHQ",
+    "walletRepoURL": "https://github.com/KeystoneHQ/keystone3-firmware",
+    "tags": ["hardware"]
   }
 ]

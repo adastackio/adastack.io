@@ -618,6 +618,10 @@ a.nextra-card:hover {
   cursor: pointer;
 }
 
+html[style*="color-scheme: dark;"] td a {
+  color: #e2e8f0;
+}
+
 .badge-button.github-repo-badge-content {
   padding-left: 5px;
   gap: 3px;
@@ -971,7 +975,7 @@ html[style*="color-scheme: dark;"] .table-row-even {
 }
 
 html[style*="color-scheme: dark;"] .team_table_name {
-  color: #c8c8c8;
+  color: #e2e8f0;
 }
 
 html[style*="color-scheme: dark;"] .team_table_name:hover {
