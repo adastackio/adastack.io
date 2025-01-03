@@ -7,7 +7,7 @@ interface Wallet {
   name: string;
   website: string;
   teamGithubURL: string;
-  walletGithubURL: string;
+  walletRepoURL: string;
   tags: string[];
 }
 
@@ -21,6 +21,14 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
     ? wallets.filter((wallet) => wallet.tags.includes(filterBy))
     : wallets;
 
+  const sortedWallets = filteredWallets.sort((a, b) => {
+    if (a.walletRepoURL && !b.walletRepoURL) return -1;
+    if (!a.walletRepoURL && b.walletRepoURL) return 1;
+    if (a.teamGithubURL && !b.teamGithubURL) return -1;
+    if (!a.teamGithubURL && b.teamGithubURL) return 1;
+    return 0;
+  });
+
   return (
     <table>
       <thead>
@@ -31,7 +39,7 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
         </tr>
       </thead>
       <tbody>
-        {filteredWallets.map((wallet, index) => (
+        {sortedWallets.map((wallet, index) => (
           <tr
             key={index}
             className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20"
