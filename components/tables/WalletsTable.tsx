@@ -21,6 +21,7 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
     ? wallets.filter((wallet) => wallet.tags.includes(filterBy))
     : wallets;
 
+  // Sort wallets by open source status
   const sortedWallets = filteredWallets.sort((a, b) => {
     if (a.walletRepoURL && !b.walletRepoURL) return -1;
     if (!a.walletRepoURL && b.walletRepoURL) return 1;
