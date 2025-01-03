@@ -34,9 +34,9 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
     <table className="data-table">
       <thead>
         <tr>
-          <th>Wallet</th>
-          <th>Team on GitHub</th>
-          <th>Wallet Repo</th>
+          <th></th>
+          <th></th>
+          <th></th>
         </tr>
       </thead>
       <tbody>

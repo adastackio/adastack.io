@@ -70,7 +70,7 @@
     "tags": ["browser"]
   },
   {
-    "name": "Gero Wallet",
+    "name": "Gero",
     "website": "https://gerowallet.io/",
     "teamGithubURL": "",
     "walletRepoURL": "",
@@ -133,7 +133,7 @@
     "tags": ["hardware"]
   },
   {
-    "name": "NMKR Wallet",
+    "name": "NMKR Paper",
     "website": "https://www.nmkr.io/paper-wallet",
     "teamGithubURL": "https://github.com/nftmakerio",
     "walletRepoURL": "",
@@ -168,42 +168,42 @@
     "tags": ["multisig"]
   },
   {
-    "name": "CF Identity Wallet",
+    "name": "CF Identity",
     "website": "https://identity.cardanofoundation.org/",
     "teamGithubURL": "https://github.com/cardano-foundation",
     "walletRepoURL": "https://github.com/cardano-foundation/cf-identity-wallet",
     "tags": ["identity"]
   },
   {
-    "name": "BlockTrust Identity Wallet",
+    "name": "BlockTrust",
     "website": "https://identity.cardanofoundation.org/",
     "teamGithubURL": "https://github.com/bsandmann",
     "walletRepoURL": "https://github.com/bsandmann/blocktrust-identity-wallet",
     "tags": ["identity"]
   },
   {
-    "name": "Socious Wallet",
+    "name": "Socious",
     "website": "https://socious.io/",
     "teamGithubURL": "https://github.com/socious-io/",
     "walletRepoURL": "https://github.com/socious-io/socious-wallet",
     "tags": ["identity"]
   },
   {
-    "name": "IAMX Wallet",
+    "name": "IAMX",
     "website": "https://iamx.id/",
     "teamGithubURL": "https://github.com/iamxid",
     "walletRepoURL": "",
     "tags": ["identity"]
   },
   {
-    "name": "Sorbet",
+    "name": "Sundae Sorbet",
     "website": "https://github.com/SundaeSwap-finance/Sorbet",
     "teamGithubURL": "https://github.com/SundaeSwap-finance/",
     "walletRepoURL": "https://github.com/SundaeSwap-finance/Sorbet",
     "tags": ["dev"]
   },
   {
-    "name": "MLabs Dev Wallet",
+    "name": "MLabs Dev",
     "website": "https://github.com/mlabs-haskell/cardano-dev-wallet",
     "teamGithubURL": "https://github.com/mlabs-haskell/",
     "walletRepoURL": "https://github.com/mlabs-haskell/cardano-dev-wallet",
@@ -217,28 +217,28 @@
     "tags": ["dev"]
   },
   {
-    "name": "Mynth CLI Wallet",
+    "name": "Mynth CLI",
     "website": "https://github.com/MynthAI/wallet",
     "teamGithubURL": "https://github.com/MynthAI/",
     "walletRepoURL": "https://github.com/MynthAI/wallet",
     "tags": ["dev"]
   },
   {
-    "name": "Stealth Wallet",
+    "name": "Stealth",
     "website": "https://github.com/while0x1/stealthWallet",
     "teamGithubURL": "https://github.com/while0x1/",
     "walletRepoURL": "https://github.com/while0x1/stealthWallet",
     "tags": ["dev"]
   },
   {
-    "name": "Bursa Wallet",
+    "name": "Blinklabs Bursa",
     "website": "https://github.com/blinklabs-io/bursa",
     "teamGithubURL": "https://github.com/blinklabs-io/",
     "walletRepoURL": "https://github.com/blinklabs-io/bursa",
     "tags": ["dev"]
   },
   {
-    "name": "Seedelf Wallet",
+    "name": "Seedelf",
     "website": "https://github.com/logical-mechanism/Seedelf-Wallet",
     "teamGithubURL": "https://github.com/logical-mechanism/",
     "walletRepoURL": "https://github.com/logical-mechanism/Seedelf-Wallet",
@@ -252,7 +252,7 @@
     "tags": ["dev"]
   },
   {
-    "name": "Cardaminal CLI",
+    "name": "Intersect Cardaminal CLI",
     "website": "https://github.com/IntersectMBO/cardaminal",
     "teamGithubURL": "https://github.com/IntersectMBO/",
     "walletRepoURL": "https://github.com/IntersectMBO/cardaminal",
