@@ -1194,6 +1194,9 @@ thead th.ant-table-cell {
   aside.nextra-sidebar-container {
     width: 17.5rem;
   }
+  .data-table .first-table-data {
+    width: 400px;
+  }
 }
 /* Everything Over Large Size */
 @media (min-width: 992px) {

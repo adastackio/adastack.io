@@ -31,7 +31,7 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
   });
 
   return (
-    <table>
+    <table className="data-table">
       <thead>
         <tr>
           <th>Wallet</th>
@@ -45,7 +45,7 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
             key={index}
             className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20"
           >
-            <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
+            <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 first-table-data">
               <div className="flex items-center justify-between w-full">
                 <span className="flex items-center">
                   <Favicon url={wallet.website} />
@@ -58,13 +58,13 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
                 </span>
               </div>
             </td>
-            <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
+            <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 second-table-data">
               <TeamGithubBadge
                 teamGithubURL={wallet.teamGithubURL}
                 text="Team"
               />
             </td>
-            <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">
+            <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 third-table-data">
               <GithubRepoBadge
                 repoURL={wallet.walletRepoURL}
                 text="Wallet Code"
