@@ -42,6 +42,13 @@
     "tags": ["browser", "mobile", "website"]
   },
   {
+    "name": "Trust",
+    "website": "https://trustwallet.com/",
+    "teamGithubURL": "https://github.com/trustwallet",
+    "walletRepoURL": "",
+    "tags": ["mobile"]
+  },
+  {
     "name": "NuFi",
     "website": "https://nu.fi",
     "teamGithubURL": "https://github.com/nufi-official/",
@@ -102,6 +109,34 @@
     "website": "https://daedaluswallet.io/",
     "teamGithubURL": "https://github.com/input-output-hk",
     "walletRepoURL": "https://github.com/input-output-hk/daedalus",
+    "tags": ["desktop"]
+  },
+  {
+    "name": "Guarda",
+    "website": "https://guarda.com/",
+    "teamGithubURL": "https://github.com/guardaco",
+    "walletRepoURL": "",
+    "tags": ["desktop"]
+  },
+  {
+    "name": "Exodus",
+    "website": "https://www.exodus.com/",
+    "teamGithubURL": "https://github.com/ExodusMovement",
+    "walletRepoURL": "",
+    "tags": ["desktop"]
+  },
+  {
+    "name": "Coin Wallet",
+    "website": "https://coin.space/",
+    "teamGithubURL": "https://github.com/CoinSpace/",
+    "walletRepoURL": "https://github.com/CoinSpace/CoinSpace",
+    "tags": ["desktop"]
+  },
+  {
+    "name": "Atomic",
+    "website": "https://atomicwallet.io/",
+    "teamGithubURL": "https://github.com/Atomicwallet",
+    "walletRepoURL": "",
     "tags": ["desktop"]
   },
   {
