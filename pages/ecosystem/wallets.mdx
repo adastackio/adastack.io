@@ -9,16 +9,27 @@ import WalletsTable from "../../components/tables/WalletsTable";
 
 # Wallets
 
+Wallets allow you to manage digital assets, make transactions, and use Cardano applications. For security tips and setup instructions, visit [Set up a Wallet](../intro_to_cardano/set_up_a_wallet).
+
 ## Mobile Wallets
 
+Mobile wallets allow users to store, send, and receive cryptocurrency using a phone app. They are convenient for making quick transactions on the move, though they are more susceptible to security risks because they are consistently connected to the internet and rely on third-party nodes.
+
+<br />
 <WalletsTable wallets={wallets} filterBy="mobile" />
 
 ## Browser Wallets
 
+Browser wallets give easy access to your Cardano wallet using a web browser extension. They are perfect for interacting with decentralized apps, though they may be susceptible to security risks because they are consistently connected to the internet and rely on third-party nodes.
+
+<br />
 <WalletsTable wallets={wallets} filterBy="browser" />
 
 ## Desktop Wallets
 
+Desktop wallets are full apps designed for power users. They provide convenience and a full wallet experience, though they are often connected to the internet and face associated risks. Some desktop wallets like Daedalus store a copy of the entire blockchain on the wallet, enhancing their security and trust.
+
+<br />
 <WalletsTable wallets={wallets} filterBy="desktop" />
 
 ## Hardware Wallets
