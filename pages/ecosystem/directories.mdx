@@ -4,16 +4,12 @@ seo_description: Explore the Cardano ecosystem using ecosystem maps and discover
 toc: false
 ---
 
+import directories from "../../data/directories.json";
+import DirectoryTable from "../../components/tables/DirectoryTable";
+
 # Ecosystem Directories
 
-Explore projects and tools built on Cardano.
+Websites to explore projects building on Cardano.
 
-- [CardanoCube](https://www.cardanocube.com/cardano-ecosystem-interactive-map): Large collection of Cardano projects.
-
-- [Built on Cardano](https://builtoncardano.com/): Organized map of Cardano projects.
-
-- [CardanoSpot Project Library](https://cardanospot.io/project-library/all)<OS url="https://github.com/emurgo" />: Library of dApps building on Cardano.
-
-- [Cardano.org Showcase](https://developers.cardano.org/showcase/)<OS url="https://github.com/cardano-foundation" />: Collection of projects building on Cardano.
-
-- [Dapps on Cardano](https://dappsoncardano.com/)<OS url="https://github.com/Cardano-Fans" />: Ranking stats for dApps, and links to code audits.
+<br />
+<DirectoryTable projects={directories} />

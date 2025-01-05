@@ -1,0 +1,32 @@
+[
+  {
+    "name": "CardanoCube",
+    "website": "https://www.cardanocube.com/cardano-ecosystem-interactive-map",
+    "teamGithubURL": "",
+    "description": "Large collection of Cardano projects"
+  },
+  {
+    "name": "Built on Cardano",
+    "website": "https://builtoncardano.com",
+    "teamGithubURL": "",
+    "description": "Organized map of Cardano projects"
+  },
+  {
+    "name": "CardanoSpot Library",
+    "website": "https://cardanospot.io/project-library/all",
+    "teamGithubURL": "https://github.com/emurgo",
+    "description": "Library of dApps building on Cardano"
+  },
+  {
+    "name": "Cardano.org Showcase",
+    "website": "https://developers.cardano.org/showcase",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "description": "Collection of projects building on Cardano"
+  },
+  {
+    "name": "Dapps on Cardano",
+    "website": "https://dappsoncardano.com",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "description": "Ranking stats for dApps, and links to code audits"
+  }
+]

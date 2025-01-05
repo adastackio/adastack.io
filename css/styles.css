@@ -819,6 +819,10 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   max-width: none;
 }
 
+.data-table .table-cell {
+  height: 50px;
+}
+
 /* Ant Design Modifications */
 html body .ant-table-cell div a {
   width: auto !important;
@@ -1194,8 +1198,12 @@ thead th.ant-table-cell {
   aside.nextra-sidebar-container {
     width: 17.5rem;
   }
-  .data-table .first-table-data {
+  .data-table .first-column-cell {
     width: 400px;
+  }
+
+  .data-table.directory-table .first-column-cell {
+    width: 230px;
   }
 }
 /* Everything Over Large Size */
