@@ -4,13 +4,12 @@ import { SingleCommitIcon } from "../../assets/icons";
 
 interface GithubRepoBadgeProps {
   repoURL: string;
-  error: string | null;
   text?: string; // Optional text prop with default value
 }
 
 const GithubRepoBadge: React.FC<GithubRepoBadgeProps> = React.memo(
-  ({ repoURL, error, text = "Team" }) => {
-    if (!repoURL || error) {
+  ({ repoURL, text = "Team" }) => {
+    if (!repoURL) {
       return null;
     }
 
