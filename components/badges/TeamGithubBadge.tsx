@@ -4,8 +4,8 @@ import { GithubIcon } from "../../assets/icons";
 
 interface TeamGithubBadgeProps {
   teamGithubURL: string;
-  error: string | null;
-  text?: string; // Optional text prop with default value
+  error?: string | null;
+  text?: string;
 }
 
 const TeamGithubBadge: React.FC<TeamGithubBadgeProps> = React.memo(
