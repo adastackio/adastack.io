@@ -844,9 +844,8 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
 .data-table.wallet-table .first-column-cell {
   width: 300px;
 }
-
 .data-table.directory-table .first-column-cell {
-  width: 230px;
+  width: 300px;
 }
 
 /* Ant Design Modifications */
@@ -1223,10 +1222,6 @@ thead th.ant-table-cell {
   }
   aside.nextra-sidebar-container {
     width: 17.5rem;
-  }
-
-  .data-table-wrapper {
-    min-width: 800px;
   }
 }
 /* Everything Over Large Size */
