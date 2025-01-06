@@ -4,13 +4,12 @@ import { GithubIcon } from "../../assets/icons";
 
 interface TeamGithubBadgeProps {
   teamGithubURL: string;
-  error?: string | null;
   text?: string;
 }
 
 const TeamGithubBadge: React.FC<TeamGithubBadgeProps> = React.memo(
-  ({ teamGithubURL, error, text = "Team" }) => {
-    if (!teamGithubURL || error) {
+  ({ teamGithubURL, text = "Team" }) => {
+    if (!teamGithubURL) {
       return null;
     }
 
