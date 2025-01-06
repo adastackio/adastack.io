@@ -760,6 +760,11 @@ table .favicon-custom-css {
   fill: #538bde;
 }
 
+/* Hide all pages from sidebar that aren't live yet. Remove the .page-in-development declarations once all pages are live */
+li.nx-flex.nx-flex-col.nx-gap-1:has(a div.page-in-development) {
+  display: none;
+}
+
 .page-in-development {
   opacity: 0.5;
   color: #888;
