@@ -20,7 +20,7 @@
     }
   },
   "wallets": {
-    "title": "Wallets  ",
+    "title": "Wallets",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

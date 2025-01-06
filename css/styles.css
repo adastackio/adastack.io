@@ -1224,6 +1224,10 @@ thead th.ant-table-cell {
   aside.nextra-sidebar-container {
     width: 17.5rem;
   }
+
+  .data-table-wrapper {
+    min-width: 800px;
+  }
 }
 /* Everything Over Large Size */
 @media (min-width: 992px) {
