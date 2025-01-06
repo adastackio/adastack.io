@@ -3,308 +3,308 @@
     "name": "Lace",
     "website": "https://www.lace.io/",
     "teamGithubURL": "https://github.com/input-output-hk",
-    "walletRepoURL": "https://github.com/input-output-hk/lace",
+    "sourceRepoURL": "https://github.com/input-output-hk/lace",
     "tags": ["browser", "paper"]
   },
   {
     "name": "Vespr",
     "website": "https://www.vespr.xyz/",
     "teamGithubURL": "https://github.com/vespr-wallet",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["mobile", "browser"]
   },
   {
     "name": "Begin",
     "website": "https://begin.is/",
     "teamGithubURL": "https://github.com/BeginWallet",
-    "walletRepoURL": "https://github.com/BeginWallet/begin-core",
+    "sourceRepoURL": "https://github.com/BeginWallet/begin-core",
     "tags": ["mobile"]
   },
   {
     "name": "Mantium",
     "website": "https://www.mantium.app/",
     "teamGithubURL": "",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["mobile"]
   },
   {
     "name": "Tokeo",
     "website": "https://tokeopay.io/",
     "teamGithubURL": "https://github.com/TokeoPay",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["mobile"]
   },
   {
     "name": "Eternl",
     "website": "https://eternl.io/",
     "teamGithubURL": "https://github.com/Tastenkunst",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["browser", "mobile", "website"]
   },
   {
     "name": "Trust",
     "website": "https://trustwallet.com/",
     "teamGithubURL": "https://github.com/trustwallet",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["mobile"]
   },
   {
     "name": "NuFi",
     "website": "https://nu.fi",
     "teamGithubURL": "https://github.com/nufi-official/",
-    "walletRepoURL": "https://github.com/nufi-official/nufi/",
+    "sourceRepoURL": "https://github.com/nufi-official/nufi/",
     "tags": ["browser", "website"]
   },
   {
     "name": "Yoroi",
     "website": "https://yoroi-wallet.com",
     "teamGithubURL": "https://github.com/emurgo",
-    "walletRepoURL": "https://github.com/Emurgo/yoroi",
+    "sourceRepoURL": "https://github.com/Emurgo/yoroi",
     "tags": ["browser", "mobile"]
   },
   {
     "name": "Typhon",
     "website": "https://typhonwallet.io/",
     "teamGithubURL": "https://github.com/StricaHQ",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["browser"]
   },
   {
     "name": "Nami",
     "website": "https://namiwallet.io/",
     "teamGithubURL": "https://github.com/input-output-hk",
-    "walletRepoURL": "https://github.com/input-output-hk/nami",
+    "sourceRepoURL": "https://github.com/input-output-hk/nami",
     "tags": ["browser"]
   },
   {
     "name": "Gero",
     "website": "https://gerowallet.io/",
     "teamGithubURL": "",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["browser"]
   },
   {
     "name": "Adalite",
     "website": "https://adalite.io/",
     "teamGithubURL": "https://github.com/vacuumlabs/",
-    "walletRepoURL": "https://github.com/vacuumlabs/adalite",
+    "sourceRepoURL": "https://github.com/vacuumlabs/adalite",
     "tags": ["website"]
   },
   {
     "name": "GameChanger",
     "website": "https://gamechanger.finance/",
     "teamGithubURL": "https://github.com/GameChangerFinance/",
-    "walletRepoURL": "https://github.com/GameChangerFinance/gamechanger.wallet",
+    "sourceRepoURL": "https://github.com/GameChangerFinance/gamechanger.wallet",
     "tags": ["website"]
   },
   {
-    "name": "Metamask (using NuFi Cardano Snap)",
+    "name": "Metamask (NuFi Cardano Snap)",
     "website": "https://metamask.io/",
     "teamGithubURL": "https://github.com/metamask",
-    "walletRepoURL": "https://github.com/MetaMask/metamask-extension",
+    "sourceRepoURL": "https://github.com/MetaMask/metamask-extension",
     "tags": ["browser"]
   },
   {
     "name": "Daedalus",
     "website": "https://daedaluswallet.io/",
     "teamGithubURL": "https://github.com/input-output-hk",
-    "walletRepoURL": "https://github.com/input-output-hk/daedalus",
+    "sourceRepoURL": "https://github.com/input-output-hk/daedalus",
     "tags": ["desktop"]
   },
   {
     "name": "Guarda",
     "website": "https://guarda.com/",
     "teamGithubURL": "https://github.com/guardaco",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["desktop"]
   },
   {
     "name": "Exodus",
     "website": "https://www.exodus.com/",
     "teamGithubURL": "https://github.com/ExodusMovement",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["desktop"]
   },
   {
     "name": "Coin Wallet",
     "website": "https://coin.space/",
     "teamGithubURL": "https://github.com/CoinSpace/",
-    "walletRepoURL": "https://github.com/CoinSpace/CoinSpace",
+    "sourceRepoURL": "https://github.com/CoinSpace/CoinSpace",
     "tags": ["desktop"]
   },
   {
     "name": "Atomic",
     "website": "https://atomicwallet.io/",
     "teamGithubURL": "https://github.com/Atomicwallet",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["desktop"]
   },
   {
     "name": "Ledger",
     "website": "https://www.ledger.com/",
     "teamGithubURL": "https://github.com/ledgerhq",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["hardware"]
   },
   {
     "name": "Trezor",
     "website": "https://trezor.io/",
     "teamGithubURL": "https://github.com/trezor",
-    "walletRepoURL": "https://github.com/trezor/trezor-firmware",
+    "sourceRepoURL": "https://github.com/trezor/trezor-firmware",
     "tags": ["hardware"]
   },
   {
     "name": "Tangem",
     "website": "https://tangem.com/",
     "teamGithubURL": "https://github.com/tangem",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["hardware"]
   },
   {
     "name": "Keystone",
     "website": "https://keyst.one/",
     "teamGithubURL": "https://github.com/keystoneHQ",
-    "walletRepoURL": "https://github.com/KeystoneHQ/keystone3-firmware",
+    "sourceRepoURL": "https://github.com/KeystoneHQ/keystone3-firmware",
     "tags": ["hardware"]
   },
   {
     "name": "NMKR Paper",
     "website": "https://www.nmkr.io/paper-wallet",
     "teamGithubURL": "https://github.com/nftmakerio",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["paper"]
   },
   {
     "name": "BroClan",
     "website": "https://broclan.io/",
     "teamGithubURL": "https://github.com/leo42/",
-    "walletRepoURL": "https://github.com/leo42/BroClanWallet",
+    "sourceRepoURL": "https://github.com/leo42/BroClanWallet",
     "tags": ["multisig"]
   },
   {
     "name": "ADAO Round Table",
     "website": "https://round-table.vercel.app",
     "teamGithubURL": "https://github.com/ADAOcommunity",
-    "walletRepoURL": "https://github.com/ADAOcommunity/round-table",
+    "sourceRepoURL": "https://github.com/ADAOcommunity/round-table",
     "tags": ["multisig"]
   },
   {
     "name": "Iagon LedgerFlow",
     "website": "https://docs.iagon.com/overview/products/ledgerflow",
     "teamGithubURL": "https://github.com/iagonorg",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["multisig"]
   },
   {
     "name": "Mesh Multisig",
     "website": "https://multisig.meshjs.dev/",
     "teamGithubURL": "https://github.com/MeshJS",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["multisig"]
   },
   {
     "name": "CF Identity",
     "website": "https://identity.cardanofoundation.org/",
     "teamGithubURL": "https://github.com/cardano-foundation",
-    "walletRepoURL": "https://github.com/cardano-foundation/cf-identity-wallet",
+    "sourceRepoURL": "https://github.com/cardano-foundation/cf-identity-wallet",
     "tags": ["identity"]
   },
   {
     "name": "BlockTrust",
     "website": "https://identity.cardanofoundation.org/",
     "teamGithubURL": "https://github.com/bsandmann",
-    "walletRepoURL": "https://github.com/bsandmann/blocktrust-identity-wallet",
+    "sourceRepoURL": "https://github.com/bsandmann/blocktrust-identity-wallet",
     "tags": ["identity"]
   },
   {
     "name": "Socious",
     "website": "https://socious.io/",
     "teamGithubURL": "https://github.com/socious-io/",
-    "walletRepoURL": "https://github.com/socious-io/socious-wallet",
+    "sourceRepoURL": "https://github.com/socious-io/socious-wallet",
     "tags": ["identity"]
   },
   {
     "name": "IAMX",
     "website": "https://iamx.id/",
     "teamGithubURL": "https://github.com/iamxid",
-    "walletRepoURL": "",
+    "sourceRepoURL": "",
     "tags": ["identity"]
   },
   {
     "name": "Sundae Sorbet",
     "website": "https://github.com/SundaeSwap-finance/Sorbet",
     "teamGithubURL": "https://github.com/SundaeSwap-finance/",
-    "walletRepoURL": "https://github.com/SundaeSwap-finance/Sorbet",
+    "sourceRepoURL": "https://github.com/SundaeSwap-finance/Sorbet",
     "tags": ["dev"]
   },
   {
     "name": "MLabs Dev",
     "website": "https://github.com/mlabs-haskell/cardano-dev-wallet",
     "teamGithubURL": "https://github.com/mlabs-haskell/",
-    "walletRepoURL": "https://github.com/mlabs-haskell/cardano-dev-wallet",
+    "sourceRepoURL": "https://github.com/mlabs-haskell/cardano-dev-wallet",
     "tags": ["dev"]
   },
   {
     "name": "P2P Wallet",
     "website": "https://github.com/fallen-icarus/p2p-wallet",
     "teamGithubURL": "https://github.com/fallen-icarus/",
-    "walletRepoURL": "https://github.com/fallen-icarus/p2p-wallet",
+    "sourceRepoURL": "https://github.com/fallen-icarus/p2p-wallet",
     "tags": ["dev"]
   },
   {
     "name": "Mynth CLI",
     "website": "https://github.com/MynthAI/wallet",
     "teamGithubURL": "https://github.com/MynthAI/",
-    "walletRepoURL": "https://github.com/MynthAI/wallet",
+    "sourceRepoURL": "https://github.com/MynthAI/wallet",
     "tags": ["dev"]
   },
   {
     "name": "Stealth",
     "website": "https://github.com/while0x1/stealthWallet",
     "teamGithubURL": "https://github.com/while0x1/",
-    "walletRepoURL": "https://github.com/while0x1/stealthWallet",
+    "sourceRepoURL": "https://github.com/while0x1/stealthWallet",
     "tags": ["dev"]
   },
   {
     "name": "Blinklabs Bursa",
     "website": "https://github.com/blinklabs-io/bursa",
     "teamGithubURL": "https://github.com/blinklabs-io/",
-    "walletRepoURL": "https://github.com/blinklabs-io/bursa",
+    "sourceRepoURL": "https://github.com/blinklabs-io/bursa",
     "tags": ["dev"]
   },
   {
     "name": "Seedelf",
     "website": "https://github.com/logical-mechanism/Seedelf-Wallet",
     "teamGithubURL": "https://github.com/logical-mechanism/",
-    "walletRepoURL": "https://github.com/logical-mechanism/Seedelf-Wallet",
+    "sourceRepoURL": "https://github.com/logical-mechanism/Seedelf-Wallet",
     "tags": ["dev"]
   },
   {
     "name": "TxPipe CShell",
     "website": "https://github.com/txpipe/cshell",
     "teamGithubURL": "https://github.com/txpipe/",
-    "walletRepoURL": "https://github.com/txpipe/cshell",
+    "sourceRepoURL": "https://github.com/txpipe/cshell",
     "tags": ["dev"]
   },
   {
     "name": "Intersect Cardaminal CLI",
     "website": "https://github.com/IntersectMBO/cardaminal",
     "teamGithubURL": "https://github.com/IntersectMBO/",
-    "walletRepoURL": "https://github.com/IntersectMBO/cardaminal",
+    "sourceRepoURL": "https://github.com/IntersectMBO/cardaminal",
     "tags": ["dev"]
   },
   {
     "name": "Godot Wallet",
     "website": "https://mlabs-haskell.github.io/godot-cardano/",
     "teamGithubURL": "https://github.com/mlabs-haskell/",
-    "walletRepoURL": "https://github.com/mlabs-haskell/godot-cardano",
+    "sourceRepoURL": "https://github.com/mlabs-haskell/godot-cardano",
     "tags": ["specialized"]
   },
   {
     "name": "Salesforce Wallet",
     "website": "https://github.com/MuKnSys/ada-wallet-for-salesforce",
     "teamGithubURL": "https://github.com/MuKnSys/",
-    "walletRepoURL": "https://github.com/MuKnSys/ada-wallet-for-salesforce",
+    "sourceRepoURL": "https://github.com/MuKnSys/ada-wallet-for-salesforce",
     "tags": ["specialized"]
   }
 ]
