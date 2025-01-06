@@ -211,7 +211,7 @@
   },
   {
     "name": "BlockTrust",
-    "website": "https://identity.cardanofoundation.org/",
+    "website": "https://blocktrust.dev/identitywallet",
     "teamGithubURL": "https://github.com/bsandmann",
     "sourceRepoURL": "https://github.com/bsandmann/blocktrust-identity-wallet",
     "tags": ["identity"]
