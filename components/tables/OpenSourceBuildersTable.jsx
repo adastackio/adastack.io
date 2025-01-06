@@ -254,7 +254,6 @@ const OpenSourceBuildersTable = ({ data }) => {
                 <TeamGithubBadge
                   teamGithubURL={teamGithubURL}
                   text="Team"
-                  error={record.error}
                 />
               </span>
             </TeamGithubTooltip>
