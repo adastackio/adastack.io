@@ -9,65 +9,74 @@ import WalletsTable from "../../components/tables/WalletsTable";
 
 # Wallets
 
-Wallets allow you to manage digital assets, make transactions, and use Cardano dApps. To get started, [set up a wallet](../intro_to_cardano/set_up_a_wallet) and review important [security tips](https://www.reddit.com/r/cardano/wiki/wallets/seedphrase/) and [common scams](https://cardano.org/common-scams/). It's recommended to use an open-source wallets so its code is available to verify.
+Wallets let you store ADA and use Cardano dApps. Follow our [setup guide](../intro_to_cardano/set_up_a_wallet), review [security tips](https://www.reddit.com/r/cardano/wiki/wallets/seedphrase/), and learn about [common scams](https://cardano.org/common-scams/). It's recommended to use open-source wallets so their integrity can be verified.
 
 ## Mobile Wallets
 
-Mobile wallets allow users to store, send, and receive cryptocurrency using a phone app. They are convenient for making quick transactions on the move, though they are more susceptible to security risks because they are consistently connected to the internet and rely on third-party nodes.
+Mobile wallets are phone apps for quick, on-the-go transactions. They are convenient but not the most secure option unless paired with a hardware wallet.
 
 <br />
 <WalletsTable wallets={wallets} filterBy="mobile" />
 
 ## Browser Wallets
 
-Browser wallets give easy access to your Cardano wallet using a web browser extension. They are perfect for interacting with decentralized apps, though they may be susceptible to security risks because they are consistently connected to the internet and rely on third-party nodes.
+Browser wallets are browser extensions that enable dApp interactions. They can be installed in your web browser of choice. Pair with hardware wallet for extra security.
 
 <br />
 <WalletsTable wallets={wallets} filterBy="browser" />
 
 ## Desktop Wallets
 
-Desktop wallets are full apps designed for power users. They provide convenience and a full wallet experience, though they are often connected to the internet and face associated risks. Some desktop wallets like Daedalus store a copy of the entire blockchain on the wallet, enhancing their security and trust.
+Desktop wallets are full-featured applications for power users. Uniquely, Daedalus runs as a full node (meaning it stores a copy of the entire blockchain) for enhanced security.
 
 <br />
 <WalletsTable wallets={wallets} filterBy="desktop" />
 
 ## Hardware Wallets
 
-Hardware wallets, AKA cold wallets, are physical devices that offer offline storage for digital assets. They provide the highest level of security because they are not internet-connected.
+Physical devices that store cryptocurrency offline. They are the most secure wallet, as PIN verification is needed to make transactions. They can connect to browser and mobile wallets and interact with dApps.
 
 <br />
 <WalletsTable wallets={wallets} filterBy="hardware" />
 
 ## Website Wallets
 
-Websites that provide a wallet interface for users. These are convenient options because no installation is necessary. Only use website wallets if they are trustworthy, and make sure to double check the URL.
+No-install web wallets for convenient access. Verify URLs carefully and use trusted sites only. Pair with hardware wallet for extra security.
 
 <br />
 <WalletsTable wallets={wallets} filterBy="website" />
 
 ## Paper Wallets
 
-Paper wallets provide a highly secure offline storage solution for digital assets, assuming the keys are generated honestly and no one else has access to the document. Paper wallets cannot be compromised through online attacks.
+Paper wallets are printed copies of private keys for offline storage. They offer strong security if generated on an offline device and stored in a protected location.
 
 <br />
 <WalletsTable wallets={wallets} filterBy="paper" />
 
 ## Identity Wallets
 
-Identity wallets securely store personal identification credentials and essential documents in an encrypted format. They allow for robust security and enhanced privacy for identity items.
+Identity wallets securely store and manage personal credentials like IDs and documents. This gives users control over how their credentials are shared and accessed.
 
 <br />
 <WalletsTable wallets={wallets} filterBy="identity" />
 
 ## Multisig Wallets
 
+Multisig wallets require signatures from multiple parties to approve transactions. They are ideal for managing shared funds like DAO treasuries.
+
+<br />
 <WalletsTable wallets={wallets} filterBy="multisig" />
 
 ## Dev Wallets
 
+Tools for testing and developing Cardano applications. These may also be prototypes or reference implementations. Not for everyday use.
+
+<br />
 <WalletsTable wallets={wallets} filterBy="dev" />
 
 ## Specialized Wallets
 
+Specialized wallets integrate Cardano with existing platforms and software, expanding Cardano network access to new environments.
+
+<br />
 <WalletsTable wallets={wallets} filterBy="specialized" />
