@@ -824,8 +824,29 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   max-width: none;
 }
 
+/* Tailwind data-table */
+.data-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100vw;
+  overflow: none;
+  white-space: nowrap;
+}
+
+.table-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
 .data-table .table-cell {
   height: 50px;
+}
+
+.data-table.wallet-table .first-column-cell {
+  width: 300px;
+}
+
+.data-table.directory-table .first-column-cell {
+  width: 230px;
 }
 
 /* Ant Design Modifications */
@@ -1202,13 +1223,6 @@ thead th.ant-table-cell {
   }
   aside.nextra-sidebar-container {
     width: 17.5rem;
-  }
-  .data-table .first-column-cell {
-    width: 400px;
-  }
-
-  .data-table.directory-table .first-column-cell {
-    width: 230px;
   }
 }
 /* Everything Over Large Size */
