@@ -43,7 +43,7 @@
     "name": "CF Explorer",
     "website": "https://beta.explorer.cardano.org/en/",
     "teamGithubURL": "https://github.com/cardano-foundation",
-    "sourceRepoURL": "",
+    "sourceRepoURL": "https://github.com/cardano-foundation/cf-explorer",
     "description": "Block explorer created by the Cardano Foundation.",
     "tags": ["block_explorer"]
   },
@@ -61,14 +61,6 @@
     "teamGithubURL": "https://github.com/QSchlegel/",
     "sourceRepoURL": "https://github.com/QSchlegel/script-explorer",
     "description": "Explore visual representations of simple or complex transactions.",
-    "tags": ["block_visualizer"]
-  },
-  {
-    "name": "CardexScan",
-    "website": "https://cardexscan.com/global-trades",
-    "teamGithubURL": "",
-    "sourceRepoURL": "",
-    "description": "Real-time view of all trades happening on the Cardano blockchain.",
     "tags": ["block_visualizer"]
   },
   {
@@ -91,8 +83,8 @@
     "name": "3xpl",
     "website": "https://3xpl.com/cardano",
     "teamGithubURL": "https://github.com/3xplcom",
-    "sourceRepoURL": "Multi-blockchain explorer that supports Cardano.",
-    "description": "",
+    "sourceRepoURL": "",
+    "description": "Multi-blockchain explorer that supports Cardano.",
     "tags": ["block_explorer"]
   },
   {

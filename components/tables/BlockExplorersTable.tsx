@@ -9,17 +9,25 @@ interface Project {
   teamGithubURL?: string;
   sourceRepoURL?: string;
   description?: string;
+  tags?: string[];
 }
 
 interface BlockExplorersTableProps {
   projects: Project[];
+  filterBy?: string; // Add filterBy property
 }
 
 const BlockExplorersTable: React.FC<BlockExplorersTableProps> = ({
   projects = [],
+  filterBy,
 }) => {
+  // Filter projects by tags if filterBy is provided
+  const filteredProjects = filterBy
+    ? projects.filter((project) => project.tags?.includes(filterBy))
+    : projects;
+
   // Sort projects by open source status
-  const sortedProjects = projects.sort((a, b) => {
+  const sortedProjects = filteredProjects.sort((a, b) => {
     if (a.sourceRepoURL && !b.sourceRepoURL) return -1;
     if (!a.sourceRepoURL && b.sourceRepoURL) return 1;
     if (a.teamGithubURL && !b.teamGithubURL) return -1;
