@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Cexplorer",
+    "website": "https://cexplorer.io/",
+    "teamGithubURL": "https://github.com/cexplorer/",
+    "sourceRepoURL": "",
+    "description": "Explorer with simple-to-use features.",
+    "tags": ["block_explorer"]
+  },
+  {
+    "name": "CardanoScan",
+    "website": "https://cardanoscan.io/",
+    "teamGithubURL": "https://github.com/StricaHQ/",
+    "sourceRepoURL": "",
+    "description": "Fully-featured Cardano explorer.",
+    "tags": ["block_explorer"]
+  },
+  {
+    "name": "Eutxo.org",
+    "website": "https://eutxo.org/",
+    "teamGithubURL": "",
+    "sourceRepoURL": "",
+    "description": "Cardano visualizer and search tool to see live blocks.",
+    "tags": ["block_explorer", "block_visualizer"]
+  },
+  {
+    "name": "Pool.pm",
+    "website": "https://pool.pm/",
+    "teamGithubURL": "https://github.com/SmaugPool/",
+    "sourceRepoURL": "",
+    "description": "Visual blockchain explorer to search pools, wallets, NFTs, and more.",
+    "tags": ["block_explorer", "block_visualizer"]
+  },
+  {
+    "name": "Alethea",
+    "website": "https://alethea.io/",
+    "teamGithubURL": "https://github.com/alethea-io",
+    "sourceRepoURL": "",
+    "description": "Explore on-chain activity and track your portfolio.",
+    "tags": ["block_explorer"]
+  },
+  {
+    "name": "CF Explorer",
+    "website": "https://beta.explorer.cardano.org/en/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "sourceRepoURL": "",
+    "description": "Block explorer created by the Cardano Foundation.",
+    "tags": ["block_explorer"]
+  },
+  {
+    "name": "AdaStat",
+    "website": "https://adastat.net/",
+    "teamGithubURL": "https://github.com/CardanoExplorer",
+    "sourceRepoURL": "",
+    "description": "Full features including options to change language and currency.",
+    "tags": ["block_explorer"]
+  },
+  {
+    "name": "Script Explorer",
+    "website": "https://www.script-explorer.com/",
+    "teamGithubURL": "https://github.com/QSchlegel/",
+    "sourceRepoURL": "https://github.com/QSchlegel/script-explorer",
+    "description": "Explore visual representations of simple or complex transactions.",
+    "tags": ["block_visualizer"]
+  },
+  {
+    "name": "CardexScan",
+    "website": "https://cardexscan.com/global-trades",
+    "teamGithubURL": "",
+    "sourceRepoURL": "",
+    "description": "Real-time view of all trades happening on the Cardano blockchain.",
+    "tags": ["block_visualizer"]
+  },
+  {
+    "name": "Raw Cardano",
+    "website": "https://rawcardano.app/",
+    "teamGithubURL": "https://github.com/QuixoteSystems",
+    "sourceRepoURL": "",
+    "description": "Made for developers because it returns results in JSON, which is useful in programming.",
+    "tags": ["block_explorer"]
+  },
+  {
+    "name": "Blockchair",
+    "website": "https://blockchair.com/cardano",
+    "teamGithubURL": "https://github.com/blockchair",
+    "sourceRepoURL": "",
+    "description": "Universal blockchain search engine that works with many blockchains.",
+    "tags": ["block_explorer"]
+  },
+  {
+    "name": "3xpl",
+    "website": "https://3xpl.com/cardano",
+    "teamGithubURL": "https://github.com/3xplcom",
+    "sourceRepoURL": "Multi-blockchain explorer that supports Cardano.",
+    "description": "",
+    "tags": ["block_explorer"]
+  },
+  {
+    "name": "Eutxo.org Mempool",
+    "website": "https://eutxo.org/mempool/live",
+    "teamGithubURL": "",
+    "sourceRepoURL": "",
+    "description": "Visual mempool explorer",
+    "tags": ["mempool_explorer"]
+  },
+  {
+    "name": "CardanoAPI",
+    "website": "https://mempool.cardanoapi.io/mempool",
+    "teamGithubURL": "https://github.com/cardanoapi",
+    "sourceRepoURL": "https://github.com/cardanoapi/mempool-explorer",
+    "description": "Live mempool explorer",
+    "tags": ["mempool_explorer"]
+  },
+  {
+    "name": "Cardanoscan Mempool",
+    "website": "https://cardanoscan.io/mempoolTransactions",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "sourceRepoURL": "",
+    "description": "Current transactions in mempool",
+    "tags": ["mempool_explorer"]
+  }
+]
