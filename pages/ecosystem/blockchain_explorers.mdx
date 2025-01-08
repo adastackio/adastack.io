@@ -4,9 +4,14 @@ seo_description: "Blockchain Explorers provide a live view of the Cardano networ
 toc: false
 ---
 
+import block_explorers from "../../data/block_explorers.json";
+import BlockExplorersTable from "../../components/tables/BlockExplorersTable";
+
 # Block Explorers
 
 Block Explorers allow you to see everything happening on the blockchain. You can search specific transactions, blocks, addresses, stake pools, and more.
+
+<BlockExplorersTable projects={block_explorers} />
 
 - [Cexplorer](https://cexplorer.io/)<OS url="https://github.com/cexplorer/cexplorer.io" />: Explorer with simple-to-use features.
 
