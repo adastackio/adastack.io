@@ -1294,5 +1294,11 @@
     "website": "https://atlanticcouncil.cc/",
     "teamGithubURL": "https://github.com/Cardano-Atlantic-Council",
     "tags": ["organization"]
+  },
+  {
+    "name": "Edda Labs",
+    "website": "https://www.eddalabs.io/",
+    "teamGithubURL": "https://github.com/ErickRomeroDev",
+    "tags": ["dev_company"]
   }
 ]
