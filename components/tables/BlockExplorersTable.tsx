@@ -14,7 +14,7 @@ interface Project {
 
 interface BlockExplorersTableProps {
   projects: Project[];
-  filterBy?: string; // Add filterBy property
+  filterBy?: string;
 }
 
 const BlockExplorersTable: React.FC<BlockExplorersTableProps> = ({
@@ -37,7 +37,7 @@ const BlockExplorersTable: React.FC<BlockExplorersTableProps> = ({
 
   return (
     <div className="data-table-wrapper">
-      <table className="data-table directory-table">
+      <table className="data-table block-explorers-table">
         <tbody>
           {sortedProjects.map((project, index) => (
             <tr
