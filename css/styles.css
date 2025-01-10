@@ -847,6 +847,10 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   width: 300px;
 }
 
+.data-table.youtube-table .first-column-cell {
+  width: 550px;
+}
+
 /* Ant Design Modifications */
 html body .ant-table-cell div a {
   width: auto !important;
