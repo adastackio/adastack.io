@@ -29,6 +29,16 @@
       "pagination": false
     }
   },
+  "youtube_international": {
+    "title": "YouTube International",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "newsletters": {
     "title": "Newsletters",
     "theme": {
