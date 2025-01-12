@@ -5,8 +5,18 @@
     "tags": ["top"]
   },
   {
+    "name": "Learn Cardano",
+    "channel_url": "https://www.youtube.com/@LearnCardano",
+    "tags": ["top"]
+  },
+  {
     "name": "Cardano with Paul",
     "channel_url": "https://www.youtube.com/@CardanoWithPaul",
+    "tags": ["top"]
+  },
+  {
+    "name": "Charles Hoskinson",
+    "channel_url": "https://www.youtube.com/c/charleshoskinsoncrypto",
     "tags": ["top"]
   },
   {
@@ -17,16 +27,6 @@
   {
     "name": "Army of Spies",
     "channel_url": "https://www.youtube.com/@ArmyofSpies",
-    "tags": ["top"]
-  },
-  {
-    "name": "Learn Cardano",
-    "channel_url": "https://www.youtube.com/@LearnCardano",
-    "tags": ["top"]
-  },
-  {
-    "name": "Charles Hoskinson",
-    "channel_url": "https://www.youtube.com/c/charleshoskinsoncrypto",
     "tags": ["top"]
   },
   {
@@ -45,11 +45,6 @@
     "tags": ["top"]
   },
   {
-    "name": "Late Game Crypto",
-    "channel_url": "https://www.youtube.com/@LateGameCrypto",
-    "tags": ["top"]
-  },
-  {
     "name": "Decentralized Nation",
     "channel_url": "https://www.youtube.com/@decentralizednation",
     "tags": ["top"]
@@ -60,38 +55,8 @@
     "tags": ["top"]
   },
   {
-    "name": "Will Norris",
-    "channel_url": "https://www.youtube.com/@WillNorrisCardano",
-    "tags": ["top"]
-  },
-  {
-    "name": "Cryptofluency",
-    "channel_url": "https://www.youtube.com/@cryptofluencyio",
-    "tags": ["top"]
-  },
-  {
-    "name": "Nova Cardano Stake Pool",
-    "channel_url": "https://www.youtube.com/@NOVApool",
-    "tags": ["top"]
-  },
-  {
-    "name": "Linda CryptoFly",
-    "channel_url": "https://www.youtube.com/@lindacryptofly9182",
-    "tags": ["top"]
-  },
-  {
-    "name": "Big Pey",
-    "channel_url": "https://www.youtube.com/@bigpey",
-    "tags": ["top"]
-  },
-  {
-    "name": "The Cardano Convo",
-    "channel_url": "https://www.youtube.com/@TheCardanoConvo",
-    "tags": ["top"]
-  },
-  {
-    "name": "Adapulse",
-    "channel_url": "https://www.youtube.com/@AdaPulse",
+    "name": "Cattle Daddy Media",
+    "channel_url": "https://www.youtube.com/@itscattledaddy",
     "tags": ["top"]
   },
   {
@@ -100,11 +65,25 @@
     "tags": ["top"]
   },
   {
-    "name": "ADA Boyz",
-    "channel_url": "https://www.youtube.com/@TheRealADABoyz",
+    "name": "Linda CryptoFly",
+    "channel_url": "https://www.youtube.com/@lindacryptofly9182",
     "tags": ["top"]
   },
-
+  {
+    "name": "Adapulse",
+    "channel_url": "https://www.youtube.com/@AdaPulse",
+    "tags": ["top"]
+  },
+  {
+    "name": "Angry Crypto Show",
+    "channel_url": "https://www.youtube.com/@AngryCryptoShow",
+    "tags": ["top"]
+  },
+  {
+    "name": "ThinkGrowCrypto",
+    "channel_url": "https://www.youtube.com/@ThinkGrowCrypto",
+    "tags": ["top"]
+  },
   {
     "name": "Digital Fortress",
     "channel_url": "https://www.youtube.com/@DigitalFortress",
@@ -121,13 +100,38 @@
     "tags": ["general"]
   },
   {
+    "name": "Nova Cardano Stake Pool",
+    "channel_url": "https://www.youtube.com/@NOVApool",
+    "tags": ["general"]
+  },
+  {
+    "name": "ADA North Pool",
+    "channel_url": "https://youtube.com/@adanorthpool5123",
+    "tags": ["general"]
+  },
+  {
     "name": "Nordic Ada",
     "channel_url": "https://www.youtube.com/@NordicADA",
     "tags": ["general"]
   },
   {
+    "name": "Big Pey",
+    "channel_url": "https://www.youtube.com/@bigpey",
+    "tags": ["general"]
+  },
+  {
     "name": "Stake with Robot",
     "channel_url": "https://www.youtube.com/@stakewithrobot",
+    "tags": ["general"]
+  },
+  {
+    "name": "Cryptofluency",
+    "channel_url": "https://www.youtube.com/@cryptofluencyio",
+    "tags": ["general"]
+  },
+  {
+    "name": "Cardano Community",
+    "channel_url": "https://www.youtube.com/@CardanoCommunity",
     "tags": ["general"]
   },
   {
@@ -141,13 +145,13 @@
     "tags": ["general"]
   },
   {
-    "name": "Pitch Point Podcast",
-    "channel_url": "https://www.youtube.com/@PitchPointPodcast",
+    "name": "The Cardano Convo",
+    "channel_url": "https://www.youtube.com/@TheCardanoConvo",
     "tags": ["general"]
   },
   {
-    "name": "Clover Nodes",
-    "channel_url": "https://www.youtube.com/@clovernodes",
+    "name": "The Media3 Report",
+    "channel_url": "https://www.youtube.com/@themedia3-report",
     "tags": ["general"]
   },
   {
@@ -196,18 +200,23 @@
     "tags": ["general"]
   },
   {
-    "name": "ThinkGrowCrypto",
-    "channel_url": "https://www.youtube.com/@ThinkGrowCrypto",
+    "name": "Late Game Crypto",
+    "channel_url": "https://www.youtube.com/@LateGameCrypto",
     "tags": ["general"]
   },
   {
-    "name": "Ctiel Blockchain Academy",
-    "channel_url": "https://www.youtube.com/@cteilblockchainacademy7328",
+    "name": "Will Norris",
+    "channel_url": "https://www.youtube.com/@WillNorrisCardano",
     "tags": ["general"]
   },
   {
     "name": "Whiteboard Cardano",
     "channel_url": "https://www.youtube.com/@WhiteboardCardano",
+    "tags": ["general"]
+  },
+  {
+    "name": "The Rare Network",
+    "channel_url": "https://www.youtube.com/@RareNetworkMedia",
     "tags": ["general"]
   },
   {
@@ -226,11 +235,6 @@
     "tags": ["general"]
   },
   {
-    "name": "That Cardano Guy",
-    "channel_url": "https://www.youtube.com/@ThatCardanoGuy",
-    "tags": ["general"]
-  },
-  {
     "name": "Black Star Crypto",
     "channel_url": "https://www.youtube.com/@blackstarcrypto1662",
     "tags": ["general"]
@@ -238,7 +242,7 @@
   {
     "name": "Cerkoryn",
     "channel_url": "https://www.youtube.com/@rian222",
-    "tags": ["general"]
+    "tags": ["general", "development"]
   },
   {
     "name": "Cardano Ark",
@@ -248,11 +252,6 @@
   {
     "name": "ADA Ace",
     "channel_url": "https://www.youtube.com/@ADA_ACE",
-    "tags": ["general"]
-  },
-  {
-    "name": "Meet Cardano",
-    "channel_url": "https://www.youtube.com/@MeetCardano",
     "tags": ["general"]
   },
   {
@@ -273,11 +272,6 @@
   {
     "name": "WIMS-Cardano",
     "channel_url": "https://www.youtube.com/@WIMS-Cardano-ud5rw/",
-    "tags": ["general"]
-  },
-  {
-    "name": "Weed Stake Pool",
-    "channel_url": "https://www.youtube.com/@CardanoWEEDStakePool",
     "tags": ["general"]
   },
   {
@@ -321,11 +315,6 @@
     "tags": ["general"]
   },
   {
-    "name": "Shamrock Stake Pool",
-    "channel_url": "https://www.youtube.com/@shamrockstakepool2837",
-    "tags": ["general"]
-  },
-  {
     "name": "Queen's Cardano",
     "channel_url": "https://www.youtube.com/@CardanoQU",
     "tags": ["general"]
@@ -336,23 +325,8 @@
     "tags": ["general"]
   },
   {
-    "name": "The Rare Network",
-    "channel_url": "https://www.youtube.com/@RareNetworkMedia",
-    "tags": ["general"]
-  },
-  {
     "name": "Ken Adams",
     "channel_url": "https://www.youtube.com/@KEWW-ADA",
-    "tags": ["general"]
-  },
-  {
-    "name": "From Zero to Crypto",
-    "channel_url": "https://www.youtube.com/@fromZeroToCrypto",
-    "tags": ["general"]
-  },
-  {
-    "name": "Subcritical",
-    "channel_url": "https://www.youtube.com/@Subcritical",
     "tags": ["general"]
   },
   {
@@ -366,8 +340,8 @@
     "tags": ["general"]
   },
   {
-    "name": "Cardano Community",
-    "channel_url": "https://www.youtube.com/@CardanoCommunity",
+    "name": "Ctiel Blockchain Academy",
+    "channel_url": "https://www.youtube.com/@cteilblockchainacademy7328",
     "tags": ["general"]
   },
   {
@@ -441,6 +415,21 @@
     "tags": ["development"]
   },
   {
+    "name": "TxBody",
+    "channel_url": "https://www.youtube.com/@txbody-ada",
+    "tags": ["development"]
+  },
+  {
+    "name": "MLabs",
+    "channel_url": "https://www.youtube.com/@MlabsUK",
+    "tags": ["development"]
+  },
+  {
+    "name": "Fallen Icarus",
+    "channel_url": "https://www.youtube.com/@fallen-icarus-ada",
+    "tags": ["development"]
+  },
+  {
     "name": "Lambdac",
     "channel_url": "https://www.youtube.com/@lambdacdev",
     "tags": ["development"]
@@ -451,6 +440,11 @@
     "tags": ["development"]
   },
   {
+    "name": "Coxygen",
+    "channel_url": "https://www.youtube.com/@Coxygen",
+    "tags": ["development"]
+  },
+  {
     "name": "Work With Cardano",
     "channel_url": "https://www.youtube.com/@workwithcardano",
     "tags": ["development"]
@@ -458,6 +452,11 @@
   {
     "name": "EDEN Garden Pool",
     "channel_url": "https://www.youtube.com/channel/UCZvLM73pSD3aSJv6_Egf8Fg",
+    "tags": ["development"]
+  },
+  {
+    "name": "Blink Labs",
+    "channel_url": "https://www.youtube.com/@BlinkLabs_io",
     "tags": ["development"]
   },
   {
@@ -523,6 +522,11 @@
   {
     "name": "Disruptive IT Cameroon",
     "channel_url": "https://youtube.com/@disruptiveitcameroon6365",
+    "tags": ["development"]
+  },
+  {
+    "name": "Jaiyeola Demilade",
+    "channel_url": "https://www.youtube.com/@jaiyeolademilade5002",
     "tags": ["development"]
   },
   {
@@ -826,8 +830,18 @@
     "tags": ["project"]
   },
   {
+    "name": "Andiamo",
+    "channel_url": " https://youtube.com/@andamio",
+    "tags": ["project"]
+  },
+  {
     "name": "Atrium Labs",
     "channel_url": "https://www.youtube.com/@AtriumLab",
+    "tags": ["project"]
+  },
+  {
+    "name": "ADA Anvil",
+    "channel_url": "https://www.youtube.com/@ada-anvil",
     "tags": ["project"]
   },
   {
@@ -881,13 +895,13 @@
     "tags": ["project"]
   },
   {
-    "name": "Fraction Estate",
-    "channel_url": "https://www.youtube.com/@FractionEstate",
+    "name": "Xerberus",
+    "channel_url": "https://www.youtube.com/@xerberus_news",
     "tags": ["project"]
   },
   {
-    "name": "Blink Labs",
-    "channel_url": "https://www.youtube.com/@BlinkLabs_io",
+    "name": "Fraction Estate",
+    "channel_url": "https://www.youtube.com/@FractionEstate",
     "tags": ["project"]
   },
   {
@@ -913,6 +927,16 @@
   {
     "name": "Adaverse Accelerator",
     "channel_url": "https://www.youtube.com/@adaverseaccelerator8015",
+    "tags": ["project"]
+  },
+  {
+    "name": "DEADPXLZ",
+    "channel_url": "https://youtube.com/@deadpxlz",
+    "tags": ["project"]
+  },
+  {
+    "name": "AdaStat",
+    "channel_url": "https://www.youtube.com/@CardanoExplorer",
     "tags": ["project"]
   },
   {
@@ -1223,6 +1247,16 @@
   {
     "name": "Ada 180",
     "channel_url": "https://www.youtube.com/@ADA180",
+    "tags": ["inactive"]
+  },
+  {
+    "name": "That Cardano Guy",
+    "channel_url": "https://www.youtube.com/@ThatCardanoGuy",
+    "tags": ["inactive"]
+  },
+  {
+    "name": "Meet Cardano",
+    "channel_url": "https://www.youtube.com/@MeetCardano",
     "tags": ["inactive"]
   }
 ]
