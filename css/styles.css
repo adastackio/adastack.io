@@ -843,12 +843,17 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
 .data-table.wallet-table .first-column-cell {
   width: 300px;
 }
+
 .data-table.directory-table .first-column-cell {
   width: 300px;
 }
 
 .data-table.youtube-table .first-column-cell {
   width: 550px;
+}
+
+.data-table.dev-companies-table .first-column-cell {
+  width: 450px;
 }
 
 /* Ant Design Modifications */
