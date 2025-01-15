@@ -84,6 +84,12 @@
     "tags": ["organization"]
   },
   {
+    "name": "Well Typed",
+    "website": "https://www.well-typed.com/",
+    "teamGithubURL": "https://github.com/well-typed",
+    "tags": ["dev_company"]
+  },
+  {
     "name": "Harmonic Labs",
     "website": "https://www.harmoniclabs.tech/",
     "teamGithubURL": "https://github.com/harmoniclabs",
@@ -99,7 +105,7 @@
     "name": "Sundae Labs",
     "website": "https://sundae.fi/",
     "teamGithubURL": "https://github.com/SundaeSwap-finance",
-    "tags": ["dapp", "audits"]
+    "tags": ["dapp", "dev_company", "audits"]
   },
   {
     "name": "Dquadrant",
@@ -172,12 +178,6 @@
     "website": "https://obsidian.systems/",
     "teamGithubURL": "https://github.com/obsidiansystems",
     "tags": ["dev_company", "audits"]
-  },
-  {
-    "name": "Well Typed",
-    "website": "https://www.well-typed.com/",
-    "teamGithubURL": "https://github.com/well-typed",
-    "tags": ["dev_company"]
   },
   {
     "name": "Butane",
@@ -351,7 +351,7 @@
     "name": "ZK Fold",
     "website": "https://zkfold.io/",
     "teamGithubURL": "https://github.com/zkFold",
-    "tags": ["dapp"]
+    "tags": ["dapp", "dev_company"]
   },
   {
     "name": "Wingriders",
@@ -1182,6 +1182,12 @@
     "tags": ["dev_company"]
   },
   {
+    "name": "Platonic Systems",
+    "website": "https://platonic.systems/",
+    "teamGithubURL": "https://gitlab.com/platonic",
+    "tags": ["dev_company"]
+  },
+  {
     "name": "Paima Studios",
     "website": "https://www.paimastudios.com/",
     "teamGithubURL": "https://github.com/PaimaStudios",
@@ -1212,9 +1218,15 @@
     "tags": ["organization"]
   },
   {
-    "name": "Lantr",
+    "name": "Lantr.io",
     "website": "https://lantr.io/",
     "teamGithubURL": "https://github.com/lantr-io",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Modulo-P",
+    "website": "https://modulo-p.io/",
+    "teamGithubURL": "https://github.com/modulo-p",
     "tags": ["dev_company"]
   },
   {
@@ -1299,6 +1311,60 @@
     "name": "Edda Labs",
     "website": "https://www.eddalabs.io/",
     "teamGithubURL": "https://github.com/ErickRomeroDev",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Trivolve Tech",
+    "website": "https://trivolvetech.com/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Gen Lambda",
+    "website": "https://www.genlambda.com/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "We Deliver",
+    "website": "https://we-deliver.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Crystal Software",
+    "website": "http://www.crystal.infinityfreeapp.com",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Pendulumdev",
+    "website": "https://pendulumdev.co.uk/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Adaxon",
+    "website": "https://adaxon.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Antier Solutions",
+    "website": "https://www.antiersolutions.com/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Kompact",
+    "website": "https://kompact.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Inversion",
+    "website": "https://inversion.dev/",
+    "teamGithubURL": "",
     "tags": ["dev_company"]
   }
 ]
