@@ -258,18 +258,6 @@
     "tags": ["dev_company"]
   },
   {
-    "name": "Saturn Labs",
-    "website": "https://saturnlabs.org/",
-    "teamGithubURL": "https://github.com/SaturnLabs",
-    "tags": ["dev_company"]
-  },
-  {
-    "name": "Yaya Labs",
-    "website": "https://www.yayalabs.io/",
-    "teamGithubURL": "https://github.com/yaya-labs",
-    "tags": ["dev_company"]
-  },
-  {
     "name": "Trivolve Tech",
     "website": "https://trivolvetech.com/",
     "teamGithubURL": "",
