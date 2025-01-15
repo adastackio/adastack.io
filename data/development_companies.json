@@ -1,0 +1,326 @@
+[
+  {
+    "name": "TxPipe",
+    "website": "https://txpipe.io/",
+    "teamGithubURL": "https://github.com/txpipe",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Mlabs",
+    "website": "https://mlabs.city/",
+    "teamGithubURL": "https://github.com/mlabs-haskell",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Anastasia Labs",
+    "website": "https://anastasialabs.com/",
+    "teamGithubURL": "https://github.com/Anastasia-Labs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Dquadrant",
+    "website": "https://dquadrant.com/",
+    "teamGithubURL": "https://github.com/dQuadrant",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Five Binaries",
+    "website": "https://fivebinaries.com/",
+    "teamGithubURL": "https://github.com/fivebinaries",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Input Output Global",
+    "website": "https://iohk.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Strica",
+    "website": "https://strica.io/",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Saib",
+    "website": "https://saib.dev/",
+    "teamGithubURL": "https://github.com/SAIB-Inc",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Sidan",
+    "website": "https://sidan.io/",
+    "teamGithubURL": "https://github.com/sidan-lab",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "ZK Fold",
+    "website": "https://zkfold.io/",
+    "teamGithubURL": "https://github.com/zkFold/",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Blink Labs",
+    "website": "https://blinklabs.io/",
+    "teamGithubURL": "https://github.com/blinklabs-io",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Ikigai Tech",
+    "website": "https://ikigaitech.org/",
+    "teamGithubURL": "https://github.com/ikigai-github",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Harmonic Labs",
+    "website": "https://www.harmoniclabs.tech/",
+    "teamGithubURL": "https://github.com/HarmonicLabs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "DC Spark",
+    "website": "https://www.dcspark.io/",
+    "teamGithubURL": "https://github.com/dcSpark",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Well Typed",
+    "website": "https://www.well-typed.com/",
+    "teamGithubURL": "https://github.com/well-typed",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Vacuumlabs",
+    "website": "https://vacuumlabs.com/",
+    "teamGithubURL": "https://github.com/vacuumlabs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Sundae Labs",
+    "website": "https://sundae.fi/",
+    "teamGithubURL": "https://github.com/SundaeSwap-finance",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "ADA Anvil",
+    "website": "https://ada-anvil.io/",
+    "teamGithubURL": "https://github.com/Cardano-Forge",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Protofire",
+    "website": "https://protofire.io/",
+    "teamGithubURL": "https://github.com/protofire",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Kora Labs",
+    "website": "https://koralabs.io/",
+    "teamGithubURL": "https://github.com/koralabs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Nucast Labs",
+    "website": "https://www.nucastlabs.com/",
+    "teamGithubURL": "https://github.com/Nucastio",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Obsidian Systems",
+    "website": "https://obsidian.systems/",
+    "teamGithubURL": "https://github.com/obsidiansystems",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Platonic Systems",
+    "website": "https://platonic.systems/",
+    "teamGithubURL": "https://gitlab.com/platonic",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Tweag",
+    "website": "https://www.tweag.io/",
+    "teamGithubURL": "https://github.com/tweag",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Logical Mechanism",
+    "website": "https://www.logicalmechanism.io/",
+    "teamGithubURL": "https://github.com/logical-mechanism",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Dynamic Strategies",
+    "website": "https://dynamicstrategies.io/",
+    "teamGithubURL": "https://github.com/dynamicstrategies",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Galois",
+    "website": "https://galois.com/",
+    "teamGithubURL": "https://github.com/GaloisInc",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Edda Labs",
+    "website": "https://www.eddalabs.io/",
+    "teamGithubURL": "https://github.com/ErickRomeroDev",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Awen Online",
+    "website": "https://awen.online/",
+    "teamGithubURL": "https://github.com/Awen-online",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Plank",
+    "website": "https://www.joinplank.com/",
+    "teamGithubURL": "https://github.com/joinplank",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Bloxico",
+    "website": "https://bloxico.com/",
+    "teamGithubURL": "https://github.com/Bloxico",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Mutual Knowledge",
+    "website": "https://mukn.com/",
+    "teamGithubURL": "https://github.com/MuKnSys",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Filabs",
+    "website": "https://www.filabs.dev/",
+    "teamGithubURL": "https://github.com/filabs-dev",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Evolute Software",
+    "website": "https://evolute.software/",
+    "teamGithubURL": "https://github.com/evolute-software",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "UpToDate Developers",
+    "website": "https://uptodatedevelopers.com/",
+    "teamGithubURL": "https://github.com/UPTODATE-DEV",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Metalamp",
+    "website": "https://metalamp.io/",
+    "teamGithubURL": "https://github.com/fullstack-development",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Thespian",
+    "website": "https://thespian.eu/",
+    "teamGithubURL": "https://github.com/Thespian-Agency",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Zw3rk",
+    "website": "https://zw3rk.com/",
+    "teamGithubURL": "https://github.com/zw3rk",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Tastenkunst GmbH",
+    "website": "http://www.tastenkunst.com/",
+    "teamGithubURL": "https://github.com/Tastenkunst",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Studio Webux",
+    "website": "https://webuxlab.com/",
+    "teamGithubURL": "https://github.com/studiowebux",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Biglup Labs",
+    "website": "https://biglup.io/",
+    "teamGithubURL": "https://github.com/Biglup",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Big Blymp",
+    "website": "https://www.bigblymp.com/",
+    "teamGithubURL": "https://github.com/BigBlymp",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "M2Tec",
+    "website": "https://www.m2tec.nl/",
+    "teamGithubURL": "https://github.com/M2tec",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Saturn Labs",
+    "website": "https://saturnlabs.org/",
+    "teamGithubURL": "https://github.com/SaturnLabs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Yaya Labs",
+    "website": "https://www.yayalabs.io/",
+    "teamGithubURL": "https://github.com/yaya-labs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Trivolve Tech",
+    "website": "https://trivolvetech.com/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Gen Lambda",
+    "website": "https://www.genlambda.com/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "We Deliver",
+    "website": "https://we-deliver.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Crystal Software",
+    "website": "http://www.crystal.infinityfreeapp.com",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Pendulumdev",
+    "website": "https://pendulumdev.co.uk/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Adaxon",
+    "website": "https://adaxon.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Antier Solutions",
+    "website": "https://www.antiersolutions.com/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Kompact",
+    "website": "https://kompact.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Inversion",
+    "website": "https://inversion.dev/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  }
+]
