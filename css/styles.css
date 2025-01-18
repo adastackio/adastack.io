@@ -856,6 +856,10 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   width: 450px;
 }
 
+.data-table.block-explorers-table .first-column-cell {
+  width: 450px;
+}
+
 /* Ant Design Modifications */
 html body .ant-table-cell div a {
   width: auto !important;

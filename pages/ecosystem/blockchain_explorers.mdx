@@ -4,7 +4,7 @@ seo_description: "Blockchain Explorers provide a live view of the Cardano networ
 toc: false
 ---
 
-import block_explorers from "../../data/block_explorers.json";
+import builders from "../../data/builders.json";
 import BlockExplorersTable from "../../components/tables/BlockExplorersTable";
 
 # Block Explorers
@@ -16,18 +16,18 @@ Block Explorers show everything happening on the blockchain.
 Search specific transactions, blocks, addresses, stake pools, and more.
 
 <br />
-<BlockExplorersTable projects={block_explorers} filterBy="block_explorer" />
+<BlockExplorersTable projects={builders} filterBy="block_explorer" />
 
 ## Blockchain Visualizers
 
 Visual representations of block, transactions, and data.
 
 <br />
-<BlockExplorersTable projects={block_explorers} filterBy="block_visualizer" />
+<BlockExplorersTable projects={builders} filterBy="block_visualizer" />
 
 ## Mempool Explorers
 
 Explore new transactions that haven't been added to a block yet.
 
 <br />
-<BlockExplorersTable projects={block_explorers} filterBy="mempool_explorer" />
+<BlockExplorersTable projects={builders} filterBy="mempool_explorer" />
