@@ -321,7 +321,13 @@
     "name": "Cexplorer.io",
     "website": "https://cexplorer.io/",
     "teamGithubURL": "https://github.com/cexplorer",
-    "tags": ["tools"]
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "CardanoScan",
+    "website": "https://cardanoscan.io/",
+    "teamGithubURL": "https://github.com/StricaHQ/",
+    "tags": ["tools", "block_explorer"]
   },
   {
     "name": "Logical Mechanism",
@@ -705,7 +711,7 @@
     "name": "Alethea.io",
     "website": "https://alethea.io/",
     "teamGithubURL": "https://github.com/alethea-io",
-    "tags": ["tools"]
+    "tags": ["tools", "block_explorer"]
   },
   {
     "name": "Encoins",
@@ -729,7 +735,7 @@
     "name": "Adastat.net",
     "website": "https://adastat.net/",
     "teamGithubURL": "https://github.com/CardanoExplorer",
-    "tags": ["tools"]
+    "tags": ["tools", "block_explorer"]
   },
   {
     "name": "Pooltool.io",
@@ -795,7 +801,7 @@
     "name": "Pool.pm",
     "website": "https://pool.pm/",
     "teamGithubURL": "https://github.com/SmaugPool/",
-    "tags": ["tools"]
+    "tags": ["tools", "block_explorer", "block_visualizer"]
   },
   {
     "name": "Gimbalabs",
@@ -1053,7 +1059,7 @@
     "name": "Agrow Labs",
     "website": "https://www.agrowlabs.co/",
     "teamGithubURL": "https://github.com/Agrow-Labs",
-    "tags": ["dapp"]
+    "tags": ["dev_company"]
   },
   {
     "name": "Wanchain",
@@ -1366,5 +1372,77 @@
     "website": "https://inversion.dev/",
     "teamGithubURL": "",
     "tags": ["dev_company"]
+  },
+  {
+    "name": "Clear Contracts",
+    "website": "https://www.clearcontracts.io/",
+    "teamGithubURL": "https://github.com/ClearContracts",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Sireto",
+    "website": "https://sireto.io/",
+    "teamGithubURL": "https://github.com/sireto",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "MigaMake",
+    "website": "https://migamake.com/",
+    "teamGithubURL": "https://github.com/migamake",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Eutxo.org",
+    "website": "https://eutxo.org/",
+    "teamGithubURL": "",
+    "tags": ["tools", "block_explorer", "block_visualizer"]
+  },
+  {
+    "name": "CF Explorer",
+    "website": "https://beta.explorer.cardano.org/en/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "Script Explorer",
+    "website": "https://www.script-explorer.com/",
+    "teamGithubURL": "https://github.com/QSchlegel/",
+    "tags": ["tools", "block_visualizer"]
+  },
+  {
+    "name": "Raw Cardano",
+    "website": "https://rawcardano.app/",
+    "teamGithubURL": "https://github.com/QuixoteSystems",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "Blockchair",
+    "website": "https://blockchair.com/cardano",
+    "teamGithubURL": "https://github.com/blockchair",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "3xpl",
+    "website": "https://3xpl.com/cardano",
+    "teamGithubURL": "https://github.com/3xplcom",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "Eutxo.org Mempool",
+    "website": "https://eutxo.org/mempool/live",
+    "teamGithubURL": "",
+    "tags": ["tools", "mempool_explorer"]
+  },
+  {
+    "name": "CardanoAPI",
+    "website": "https://mempool.cardanoapi.io/mempool",
+    "teamGithubURL": "https://github.com/cardanoapi",
+    "tags": ["tools", "mempool_explorer"]
+  },
+  {
+    "name": "Cardanoscan Mempool",
+    "website": "https://cardanoscan.io/mempoolTransactions",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "mempool_explorer"]
   }
 ]
