@@ -7,19 +7,25 @@ interface Project {
   name: string;
   website: string;
   teamGithubURL?: string;
-  sourceRepoURL?: string;
-  description?: string;
+  tags?: string[];
 }
 
 interface DirectoryTableProps {
   projects: Project[];
+  filterBy?: string;
 }
 
-const DirectoryTable: React.FC<DirectoryTableProps> = ({ projects = [] }) => {
+const DirectoryTable: React.FC<DirectoryTableProps> = ({
+  projects = [],
+  filterBy,
+}) => {
+  // Filter projects by tags if filterBy is provided
+  const filteredProjects = filterBy
+    ? projects.filter((project) => project.tags?.includes(filterBy))
+    : projects;
+
   // Sort projects by open source status
-  const sortedProjects = projects.sort((a, b) => {
-    if (a.sourceRepoURL && !b.sourceRepoURL) return -1;
-    if (!a.sourceRepoURL && b.sourceRepoURL) return 1;
+  const sortedProjects = filteredProjects.sort((a, b) => {
     if (a.teamGithubURL && !b.teamGithubURL) return -1;
     if (!a.teamGithubURL && b.teamGithubURL) return 1;
     return 0;
@@ -52,16 +58,6 @@ const DirectoryTable: React.FC<DirectoryTableProps> = ({ projects = [] }) => {
                   <TeamGithubBadge
                     teamGithubURL={project.teamGithubURL}
                     text="Team"
-                  />
-                ) : (
-                  ""
-                )}
-              </td>
-              <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
-                {project.sourceRepoURL ? (
-                  <GithubRepoBadge
-                    repoURL={project.sourceRepoURL}
-                    text="Source Code"
                   />
                 ) : (
                   ""

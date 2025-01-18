@@ -840,11 +840,11 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   height: 50px;
 }
 
-.data-table.wallet-table .first-column-cell {
-  width: 300px;
+.data-table .first-column-cell {
+  width: 450px;
 }
 
-.data-table.directory-table .first-column-cell {
+.data-table.wallet-table .first-column-cell {
   width: 300px;
 }
 
