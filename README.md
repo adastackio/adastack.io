@@ -2,9 +2,18 @@
 
 # Adastack Cardano Explorer
 
-Adastack is an open-source Cardano explorer with 130+ pages of resources and tools.
+Adastack provides a guide to everything being created within the Cardano ecosystem, offering extensive documentation and development tools.
 
-The website displays projects building in the Cardano ecosystem.
+## Getting Started
+
+#### Clone the repository
+```git clone https://github.com/adastackio/adastack.io.git```
+
+#### Install dependencies
+```pnpm i```
+
+#### Launch development server
+```pnpm dev```
 
 **Project Links**
 
@@ -26,29 +35,14 @@ Here's where to go:
 - [**Suggest Features or Report Bugs**](https://github.com/adastackio/adastack.io/issues): Submit an issue to suggest features or report bugs. Please provide as many details as possible.
 - [**Ask a Question**](https://github.com/adastackio/adastack.io/discussions): Use the discussion area to ask a question and get answers from the developers and community.
 
-## Local Development
+## Tech Stack
 
-1. Clone the repository onto your local machine `git clone https://github.com/adastackio/adastack.io.git`
-
-2. Navigate to the top level of the directory and install the site's dependencies `pnpm i`
-
-3. Start the development server `pnpm dev` and visit localhost:3000.
-
-## Documentation
-
-The site's tech stack includes Tailwind, React, Next, and Nextra.
-
-[**Read the Tailwind docs →**](https://v2.tailwindcss.com/docs)
-
-[**Read the React docs →**](https://react.dev/)
-
-[**Read the Next docs →**](https://nextjs.org/docs)
-
-[**Read the Nextra docs →**](https://nextra.site/docs)
-
-The site's content is composed in markdown.
-
-[**Markdown docs→**](https://www.markdownguide.org/basic-syntax/)
+| Purpose | Tech |
+|-----------|------------|
+| Frontend | [React](https://react.dev/) + [Next.js](https://nextjs.org/docs) |
+| Styling | [Tailwind CSS](https://v2.tailwindcss.com/docs) |
+| Documentation | [Nextra](https://nextra.site/docs) |
+| Content | [Markdown](https://www.markdownguide.org/) |
 
 ## License
 
