@@ -5,7 +5,7 @@ toc: false
 ---
 
 import builders from "../../data/builders.json";
-import BlockExplorersTable from "../../components/tables/BlockExplorersTable";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
 
 # Block Explorers
 
@@ -16,18 +16,18 @@ Block Explorers show everything happening on the blockchain.
 Search specific transactions, blocks, addresses, stake pools, and more.
 
 <br />
-<BlockExplorersTable projects={builders} filterBy="block_explorer" />
+<DefaultDataTable projects={builders} filterBy="block_explorer" />
 
 ## Blockchain Visualizers
 
 Visual representations of block, transactions, and data.
 
 <br />
-<BlockExplorersTable projects={builders} filterBy="block_visualizer" />
+<DefaultDataTable projects={builders} filterBy="block_visualizer" />
 
 ## Mempool Explorers
 
 Explore new transactions that haven't been added to a block yet.
 
 <br />
-<BlockExplorersTable projects={builders} filterBy="mempool_explorer" />
+<DefaultDataTable projects={builders} filterBy="mempool_explorer" />
