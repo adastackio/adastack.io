@@ -4,12 +4,12 @@ seo_description: Get regular email updates with Cardano newsletters. Stay inform
 toc: false
 ---
 
-import newsletters from "../../data/newsletters.json";
-import NewslettersTable from "../../components/tables/NewslettersTable";
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
 
 # Newsletters
 
 Get the latest Cardano updates directly by email.
 
 <br />
-<NewslettersTable projects={newsletters} filterBy="general" />
+<DefaultDataTable projects={builders} filterBy="newsletter" />

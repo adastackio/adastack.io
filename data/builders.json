@@ -1522,5 +1522,65 @@
     "website": "https://upstream.org.uk/cardano-stake-pool-explorer",
     "teamGithubURL": "",
     "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Intersect Newsletter",
+    "website": "https://intersectmbo.org/news",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Cardano Newsletter",
+    "website": "https://www.cardanonewsletter.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Cardano Community Digest",
+    "website": "https://cardano.org/newsletter",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Catalyst Newsletter",
+    "website": "https://projectcatalyst.io/news",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Cardano Spotlight",
+    "website": "https://cardanospot.beehiiv.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Interviewing Cardano",
+    "website": "https://medium.com/@patryk_karter",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "ThinkGrowCrypto Media",
+    "website": "https://tgcmedia.beehiiv.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "LibεʁLiøη newsletter",
+    "website": "https://liberlion.medium.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Frontier Letter",
+    "website": "https://www.frontierletter.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Cardano Daily Digest",
+    "website": "https://cardano.beehiiv.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
   }
 ]
