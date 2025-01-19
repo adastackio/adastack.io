@@ -801,7 +801,7 @@
     "name": "Gimbalabs",
     "website": "https://gimbalabs.com/",
     "teamGithubURL": "https://github.com/gimbalabs",
-    "tags": ["organization"]
+    "tags": ["organization", "dev_learning_platform"]
   },
   {
     "name": "Berry Pool",
@@ -999,7 +999,7 @@
     "name": "Lovelace Academy",
     "website": "https://lovelace.academy/",
     "teamGithubURL": "https://github.com/lovelaceacademy",
-    "tags": ["organization"]
+    "tags": ["organization", "dev_learning_platform"]
   },
   {
     "name": "Kora Labs",
@@ -1239,7 +1239,7 @@
     "name": "Andamio",
     "website": "https://www.andamio.io/",
     "teamGithubURL": "https://github.com/Andamio-Platform",
-    "tags": ["dapp"]
+    "tags": ["dapp", "dev_learning_platform"]
   },
   {
     "name": "PyCardano",
@@ -1798,5 +1798,47 @@
     "website": "https://adastats.info/dashboard",
     "teamGithubURL": "",
     "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Cardano Foundation Academy",
+    "website": "https://education.cardanofoundation.org",
+    "teamGithubURL": "https://github.com/cardano-foundation/cardano-academy",
+    "tags": ["tools", "dev_learning_platform"]
+  },
+  {
+    "name": "Emurgo Academy",
+    "website": "https://education.emurgo.io",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["tools", "dev_learning_platform"]
+  },
+  {
+    "name": "Work Courses",
+    "website": "https://work.courses",
+    "teamGithubURL": "https://github.com/The-Working-Dead",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Olympus Insights",
+    "website": "https://olympusinsights.io",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Mesh JS Guides",
+    "website": "https://meshjs.dev/guides",
+    "teamGithubURL": "https://github.com/meshjs",
+    "tags": ["tools", "dev_learning_platform"]
+  },
+  {
+    "name": "Danolearn",
+    "website": "https://danolearn.com/course",
+    "teamGithubURL": "",
+    "tags": ["tools", "dev_learning_platform"]
+  },
+  {
+    "name": "Plutus Pioneers",
+    "website": "https://github.com/input-output-hk/plutus-pioneer-program",
+    "teamGithubURL": "https://github.com/input-output-hk/plutus-pioneer-program",
+    "tags": ["tools", "dev_learning_platform"]
   }
 ]
