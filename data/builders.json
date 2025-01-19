@@ -1480,5 +1480,47 @@
     "website": "https://www.cardanolink.net/Cardanolink/Eng.html",
     "teamGithubURL": "https://github.com/NotMick3",
     "tags": ["tools", "ecosystem_directory"]
+  },
+  {
+    "name": "Cexplorer Stake Pools",
+    "website": "https://cexplorer.io/pool",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "AdaStat",
+    "website": "https://adastat.net/pools",
+    "teamGithubURL": "https://github.com/CardanoExplorer",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Alethea",
+    "website": "https://alethea.io/pools",
+    "teamGithubURL": "https://github.com/alethea-io",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "PoolTool",
+    "website": "https://pooltool.io/pools",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "CardanoScan Pools",
+    "website": "https://cardanoscan.io/pools",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Stakada",
+    "website": "https://stakada.io",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Upstream",
+    "website": "https://upstream.org.uk/cardano-stake-pool-explorer",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_explorer"]
   }
 ]
