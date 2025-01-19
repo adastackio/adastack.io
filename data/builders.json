@@ -996,12 +996,6 @@
     "tags": ["organization"]
   },
   {
-    "name": "Lovelace Academy",
-    "website": "https://lovelace.academy/",
-    "teamGithubURL": "https://github.com/lovelaceacademy",
-    "tags": ["organization", "dev_learning_platform"]
-  },
-  {
     "name": "Kora Labs",
     "website": "https://koralabs.io/",
     "teamGithubURL": "https://github.com/koralabs/",
@@ -1840,5 +1834,41 @@
     "website": "https://github.com/input-output-hk/plutus-pioneer-program",
     "teamGithubURL": "https://github.com/input-output-hk/plutus-pioneer-program",
     "tags": ["tools", "dev_learning_platform"]
+  },
+  {
+    "name": "Cardano.org Docs",
+    "website": "https://docs.cardano.org",
+    "teamGithubURL": "https://github.com/input-output-hk/cardano-documentation",
+    "tags": ["tools", "dev_documentation"]
+  },
+  {
+    "name": "Cardano.org Developer Portal",
+    "website": "https://developers.cardano.org",
+    "teamGithubURL": "https://github.com/cardano-foundation/developer-portal",
+    "tags": ["tools", "dev_documentation"]
+  },
+  {
+    "name": "Lovelace Academy",
+    "website": "https://lovelace.academy/",
+    "teamGithubURL": "https://github.com/lovelaceacademy",
+    "tags": ["organization", "dev_learning_platform", "dev_documentation"]
+  },
+  {
+    "name": "Ultimate Cardano Smart Contracts",
+    "website": "https://www.amazon.com/Ultimate-Cardano-Smart-Contracts-Development/dp/8197396531",
+    "teamGithubURL": "https://github.com/lley154",
+    "tags": ["tools", "dev_book"]
+  },
+  {
+    "name": "eUTxO Fundamentals",
+    "website": "https://github.com/elRaulito/eUTxO-Fundamentals-Building-Cardano-Smart-Contracts",
+    "teamGithubURL": "https://github.com/elRaulito/eUTxO-Fundamentals-Building-Cardano-Smart-Contracts",
+    "tags": ["tools", "dev_book"]
+  },
+  {
+    "name": "EUTXO Handbook",
+    "website": "https://ucarecdn.com/3da33f2f-73ac-4c9b-844b-f215dcce0628/EUTXOhandbook_for_EC.pdf",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "dev_book"]
   }
 ]
