@@ -31,17 +31,17 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
   });
 
   // Check if any project has a GitHub URL
-  const hasAnyProjectWithGithubURL = sortedProjects.some((project) => project.teamGithubURL);
+  const hasAnyProjectWithGithubURL = sortedProjects.some(
+    (project) => project.teamGithubURL
+  );
 
   return (
     <div className="data-table-wrapper">
       <table className="data-table default-data-table">
         <thead>
           <tr>
-            <th className="nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">Name</th>
-            {hasAnyProjectWithGithubURL && (
-              <th className="nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600">GitHub</th>
-            )}
+            <th></th>
+            {hasAnyProjectWithGithubURL && <th></th>}
           </tr>
         </thead>
         <tbody>
