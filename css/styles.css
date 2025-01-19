@@ -844,6 +844,10 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   width: 450px;
 }
 
+.data-table td.first-column-cell:only-child {
+  width: 600px;
+}
+
 .data-table.wallet-table .first-column-cell {
   width: 300px;
 }
