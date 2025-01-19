@@ -1582,5 +1582,89 @@
     "website": "https://cardano.beehiiv.com",
     "teamGithubURL": "",
     "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Cexplorer Rewards",
+    "website": "https://cexplorer.io/rewards",
+    "teamGithubURL": "https://github.com/cexplorer/",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "WhenAda",
+    "website": "https://www.whenada.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "Cardano Countdown",
+    "website": "https://cardanocountdown.com/Rewards",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "Cardano Explorer",
+    "website": "https://beta.explorer.cardano.org/staking-lifecycle",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "CardanoScan",
+    "website": "https://cardanoscan.io",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "Antipalos Calculator",
+    "website": "https://antipalos.github.io/cardano-calculator/#calculator",
+    "teamGithubURL": "https://github.com/antipalos",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Armada Alliance",
+    "website": "https://armada-alliance.com",
+    "teamGithubURL": "https://github.com/armada-alliance/",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Cardano with Paul Calculators",
+    "website": "https://www.cardanowithpaul.com/calculators",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Cardano Date",
+    "website": "https://cardano.date",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Cardano Calendar",
+    "website": "https://cardano-calendar.com/month",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Pool Peek Calendar",
+    "website": "https://poolpeek.com/epochcalendar",
+    "teamGithubURL": "https://github.com/ShamrockPool/",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Cexplorer Calendar",
+    "website": "https://cexplorer.io/calendar",
+    "teamGithubURL": "https://github.com/cexplorer/",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Azure ADA Calendar",
+    "website": "https://azureada.com/epoch-calendar",
+    "teamGithubURL": "https://github.com/AzureADA",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Hype Staking",
+    "website": "https://hype-staking.com/home",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calendar"]
   }
 ]
