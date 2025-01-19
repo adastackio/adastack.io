@@ -1666,5 +1666,59 @@
     "website": "https://hype-staking.com/home",
     "teamGithubURL": "",
     "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Armada Alliance — Energy Efficient Pools",
+    "website": "https://armada-alliance.com",
+    "teamGithubURL": "https://github.com/armada-alliance",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "Mission Driven Pools",
+    "website": "https://missiondrivenpools.org",
+    "teamGithubURL": "https://github.com/CardanoMDP",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "xSPO Alliance",
+    "website": "https://www.xspo-alliance.org",
+    "teamGithubURL": "https://github.com/xSPO-Alliance",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "Single Pool Alliance",
+    "website": "https://singlepoolalliance.net",
+    "teamGithubURL": "https://github.com/SinglePoolAlliance",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "SPO Japan Guild",
+    "website": "https://spojapanguild.net",
+    "teamGithubURL": "https://github.com/btbf/spojapanguild",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "Canadian Cardano Stake Pool Association",
+    "website": "https://ccspa.ca",
+    "teamGithubURL": "https://github.com/CCSPA",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "Aldea Latin America DAO",
+    "website": "https://aldea-dao.org",
+    "teamGithubURL": "https://github.com/ALDEA-DAO",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "StakePool Operator Tools Alliance",
+    "website": "https://github.com/gitmachtl/StakePool-Operator-Tools-Alliance",
+    "teamGithubURL": "https://github.com/gitmachtl/StakePool-Operator-Tools-Alliance",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "Climate Neutral Cardano",
+    "website": "https://climateneutralcardano.org",
+    "teamGithubURL": "",
+    "tags": ["organization", "stake_pool_alliance"]
   }
 ]
