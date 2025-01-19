@@ -831,7 +831,7 @@
     "name": "Balance Analytics",
     "website": "https://www.balanceanalytics.io/",
     "teamGithubURL": "https://github.com/Balance-Analytics",
-    "tags": ["tools"]
+    "tags": ["tools", "metric_tracker_site"]
   },
   {
     "name": "Project Catalyst",
@@ -1488,10 +1488,10 @@
     "tags": ["tools", "dapp_explorer"]
   },
   {
-    "name": "DefiLlama",
+    "name": "DefiLlama Cardano",
     "website": "https://defillama.com/chain/Cardano",
     "teamGithubURL": "https://github.com/DefiLlama",
-    "tags": ["tools", "dapp_explorer"]
+    "tags": ["tools", "dapp_explorer", "metric_tracker_site"]
   },
   {
     "name": "Dapp Radar",
@@ -1756,5 +1756,47 @@
     "website": "https://climateneutralcardano.org",
     "teamGithubURL": "",
     "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "Cardano Blockchain Insights",
+    "website": "https://lookerstudio.google.com/s/huXqeQmi9qA",
+    "teamGithubURL": "",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Edinburgh Decentralization Index",
+    "website": "http://blockchainlab.inf.ed.ac.uk/edi-dashboard",
+    "teamGithubURL": "https://github.com/Blockchain-Technology-Lab",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Pooltool Network Health",
+    "website": "https://pooltool.io/networkhealth",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Cexplorer Insights",
+    "website": "https://cexplorer.io/insights",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "CardanoScan Analytics",
+    "website": "https://cardanoscan.io/analytics",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Dapps on Cardano Network Stats",
+    "website": "https://dappsoncardano.com/analytics/globalstats",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Adastats Dashboard",
+    "website": "https://adastats.info/dashboard",
+    "teamGithubURL": "",
+    "tags": ["tools", "metric_tracker_site"]
   }
 ]
