@@ -2,18 +2,25 @@
 
 # Adastack Cardano Explorer
 
-Adastack provides a guide to everything being created within the Cardano ecosystem, offering extensive documentation and development tools.
+Adastack is a comprehensive ecosystem explorer for Cardano.
+
+- Explore thousands of dApps.
+- Step-by-step Cardano guides.
+- [Code Libraries](https://www.adastack.io/development/code_libraries) and more for devs.
 
 ## Getting Started
 
 #### Clone the repository
-```git clone https://github.com/adastackio/adastack.io.git```
+
+`git clone https://github.com/adastackio/adastack.io.git`
 
 #### Install dependencies
-```pnpm i```
+
+`pnpm i`
 
 #### Launch development server
-```pnpm dev```
+
+`pnpm dev`
 
 **Project Links**
 
@@ -37,12 +44,12 @@ Here's where to go:
 
 ## Tech Stack
 
-| Purpose | Tech |
-|-----------|------------|
-| Frontend | [React](https://react.dev/) + [Next.js](https://nextjs.org/docs) |
-| Styling | [Tailwind CSS](https://v2.tailwindcss.com/docs) |
-| Documentation | [Nextra](https://nextra.site/docs) |
-| Content | [Markdown](https://www.markdownguide.org/) |
+| Purpose       | Tech                                                             |
+| ------------- | ---------------------------------------------------------------- |
+| Frontend      | [React](https://react.dev/) + [Next.js](https://nextjs.org/docs) |
+| Styling       | [Tailwind CSS](https://v2.tailwindcss.com/docs)                  |
+| Documentation | [Nextra](https://nextra.site/docs)                               |
+| Content       | [Markdown](https://www.markdownguide.org/)                       |
 
 ## License
 
