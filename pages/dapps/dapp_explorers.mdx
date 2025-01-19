@@ -4,30 +4,12 @@ seo_description: Discover a variety of decentralized applications (dApps) in the
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # Dapp Explorers
 
 Explore the dApps in the Cardano ecosystem.
 
-- [Taptools](https://www.taptools.io/)
-
-- [CardanoCube](https://www.cardanocube.com/cardano-ecosystem-interactive-map)
-
-- [Built on Cardano](https://builtoncardano.com/)
-
-- [Danogo](https://danogo.io/tvl-report)<OS url="https://github.com/Danogo2023" />
-
-- [Alethea](https://alethea.io/dapps)<OS url="https://github.com/alethea-io" />
-
-- [DefiLlama](https://defillama.com/chain/Cardano?currency=ADA)<OS url="https://github.com/DefiLlama" />
-
-- [Dapp Radar](https://dappradar.com/rankings/protocol/cardano)<OS url="https://github.com/dappradar" />
-
-- [CardanoSpot Project Library](https://cardanospot.io/project-library/all/)<OS url="https://github.com/emurgo" />
-
-- [Adaplug Resource Directory](https://adaplug.com/business-directory)
-
-- [Cardano.org Showcase](https://developers.cardano.org/showcase/)<OS url="https://github.com/cardano-foundation/developer-portal" />
-
-- [DC One Crypto](https://dconecrypto.finance/#)<OS url="https://github.com/DCOneCrypto" />
-
-- [Cexplorer Scripts](https://cexplorer.io/dapps)<OS url="https://github.com/cexplorer" />: Explore dApps by smart contracts.
+<br />
+<DefaultDataTable projects={builders} filterBy="dapp_explorer" />

@@ -408,12 +408,6 @@
     "tags": ["dapp"]
   },
   {
-    "name": "DCOneCrypto",
-    "website": "https://dconecrypto.finance/",
-    "teamGithubURL": "https://github.com/DCOneCrypto",
-    "tags": ["tools"]
-  },
-  {
     "name": "Ikigai Tech",
     "website": "https://ikigaitech.org/",
     "teamGithubURL": "https://github.com/ikigai-github",
@@ -1449,19 +1443,19 @@
     "name": "CardanoCube",
     "website": "https://www.cardanocube.com/cardano-ecosystem-interactive-map",
     "teamGithubURL": "",
-    "tags": ["tools", "ecosystem_directory"]
+    "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
   },
   {
     "name": "Built on Cardano",
     "website": "https://builtoncardano.com",
     "teamGithubURL": "",
-    "tags": ["tools", "ecosystem_directory"]
+    "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
   },
   {
     "name": "Cardano.org Showcase",
     "website": "https://developers.cardano.org/showcase",
     "teamGithubURL": "https://github.com/cardano-foundation",
-    "tags": ["tools", "ecosystem_directory"]
+    "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
   },
   {
     "name": "CardanoDegen Resource Directory",
@@ -1480,6 +1474,48 @@
     "website": "https://www.cardanolink.net/Cardanolink/Eng.html",
     "teamGithubURL": "https://github.com/NotMick3",
     "tags": ["tools", "ecosystem_directory"]
+  },
+  {
+    "name": "Taptools",
+    "website": "https://www.taptools.io",
+    "teamGithubURL": "",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "Alethea Dapps",
+    "website": "https://alethea.io/dapps",
+    "teamGithubURL": "https://github.com/alethea-io",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "DefiLlama",
+    "website": "https://defillama.com/chain/Cardano",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "Dapp Radar",
+    "website": "https://dappradar.com/rankings/protocol/cardano",
+    "teamGithubURL": "https://github.com/dappradar",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "Cexplorer Scripts",
+    "website": "https://cexplorer.io/dapps",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "Danogo Dapps by TVL",
+    "website": "https://danogo.io/tvl-report",
+    "teamGithubURL": "https://github.com/Danogo2023",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "DC One Crypto",
+    "website": "https://dconecrypto.finance/",
+    "teamGithubURL": "https://github.com/DCOneCrypto",
+    "tags": ["tools", "dapp_explorer"]
   },
   {
     "name": "Cexplorer Stake Pools",
