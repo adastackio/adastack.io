@@ -1870,5 +1870,569 @@
     "website": "https://ucarecdn.com/3da33f2f-73ac-4c9b-844b-f215dcce0628/EUTXOhandbook_for_EC.pdf",
     "teamGithubURL": "https://github.com/input-output-hk",
     "tags": ["tools", "dev_book"]
+  },
+  {
+    "name": "Adapulse",
+    "website": "https://adapulse.io/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_news_website"]
+  },
+  {
+    "name": "Essential Cardano",
+    "website": "https://www.essentialcardano.io/content",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "cardano_news_website"]
+  },
+  {
+    "name": "Cexplorer Articles",
+    "website": "https://cexplorer.io/article",
+    "teamGithubURL": "https://github.com/cexplorer/cexplorer.io",
+    "tags": ["tools", "cardano_news_website"]
+  },
+  {
+    "name": "Cardano Spot",
+    "website": "https://cardanospot.io/news-feed",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["tools", "cardano_news_website"]
+  },
+  {
+    "name": "Ada Plug",
+    "website": "https://adaplug.com/blog/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_news_website"]
+  },
+  {
+    "name": "Cardano Feed",
+    "website": "https://cardanofeed.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_news_website"]
+  },
+  {
+    "name": "r/Cardano Reddit News",
+    "website": "https://www.reddit.com/r/cardano/?f=flair_name%3A%22News%22",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_news_website"]
+  },
+  {
+    "name": "Intersect News",
+    "website": "https://www.intersectmbo.org/news",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["tools", "organization_news"]
+  },
+  {
+    "name": "IOHK Blog",
+    "website": "https://iohk.io/en/blog/posts/page-1/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "organization_news"]
+  },
+  {
+    "name": "Cardano Foundation News",
+    "website": "https://cardanofoundation.org/en/news/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "organization_news"]
+  },
+  {
+    "name": "Emurgo News",
+    "website": "https://www.emurgo.io/press-news/",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["tools", "organization_news"]
+  },
+  {
+    "name": "Cardano.org News",
+    "website": "https://cardano.org/news/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "organization_news"]
+  },
+  {
+    "name": "Project Catalyst Blog",
+    "website": "https://projectcatalyst.io/blog",
+    "teamGithubURL": "https://github.com/Project-Catalyst",
+    "tags": ["tools", "organization_news"]
+  },
+  {
+    "name": "GM Cardano",
+    "website": "https://gmcardano.com/",
+    "teamGithubURL": "https://github.com/LloydDuhon",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Reddspark",
+    "website": "https://reddspark.blog/",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Adavault",
+    "website": "https://adavault.com/index.php/cardano-and-crypto-news-blog/",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Cardano.org Developer Blog",
+    "website": "https://developers.cardano.org/blog/",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "ADA Crunch",
+    "website": "https://adacrunch.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Liberlion",
+    "website": "https://liberlion.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Nick Hiams",
+    "website": "https://oleum-stakepool.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Cardano with Paul",
+    "website": "https://www.cardanowithpaul.com/blog/",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Rudy's Hangout",
+    "website": "https://medium.com/@roymavila",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Mike Borman",
+    "website": "https://medium.com/@mikeborman",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Cardano Times",
+    "website": "https://thecardanotimes.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Built on Cardano",
+    "website": "https://builtoncardano.com/blog",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Flantoshi",
+    "website": "https://medium.com/@flantoshi",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Ada Crunch",
+    "website": "https://adacrunch.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Cardano-Fans",
+    "website": "https://cardano-fans.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Cardanians.io",
+    "website": "https://cardanians.io/en/blog",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Charles Hoskinson Blog",
+    "website": "https://hoskinsoncharles.blogspot.com/?m=1",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Community Led Growth",
+    "website": "https://communityledgrowth.substack.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "community_blog"]
+  },
+  {
+    "name": "Bill Clark",
+    "website": "https://billclark.beehiiv.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_blog"]
+  },
+  {
+    "name": "Cardano Developer Diaries",
+    "website": "https://blocksplained.substack.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_blog"]
+  },
+  {
+    "name": "Alessio Dev",
+    "website": "https://medium.com/@alessio.dev",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_blog"]
+  },
+  {
+    "name": "50x50",
+    "website": "https://medium.com/@alexeusgr",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_blog"]
+  },
+  {
+    "name": "Mesh.js Blog",
+    "website": "https://meshjs.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_blog"]
+  },
+  {
+    "name": "Cardano Scaling Updates",
+    "website": "https://cardano-scaling.org/monthly/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_blog"]
+  },
+  {
+    "name": "Pi Lanningham",
+    "website": "https://www.314pool.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_blog"]
+  },
+  {
+    "name": "Sarmaad",
+    "website": "https://sarmaad.com/blog",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_blog"]
+  },
+  {
+    "name": "SingularityNET Blog",
+    "website": "https://blog.singularitynet.io/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "World Mobile Blog",
+    "website": "https://worldmobile.io/blog/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Cornucopias Blog",
+    "website": "https://cornucopias.io/blog",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Iagon Blog",
+    "website": "https://blog.iagon.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Nunet Blog",
+    "website": "https://medium.com/nunet",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Minswap Labs Blog",
+    "website": "https://minswap-labs.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Liqwid Finance Blog",
+    "website": "https://liqwidfinance.substack.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Coti Blog",
+    "website": "https://medium.com/cotinetwork",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Moneta Blog",
+    "website": "https://medium.com/@MehenOfficial",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "DexHunter Blog",
+    "website": "https://dexhunterio.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Lenfi Blog",
+    "website": "https://medium.com/@lenfi",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Indigo Protocol Blog",
+    "website": "https://indigoprotocol1.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "SundaeSwap Blog",
+    "website": "https://sundaeswap-finance.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Rejuve Blog",
+    "website": "https://www.rejuve.ai/blog",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Optim Finance Blog",
+    "website": "https://optim-labs.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "MuesliSwap Blog",
+    "website": "https://medium.com/@muesliswap",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Clarity Blog",
+    "website": "https://medium.com/@Clarity_",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Orcfax Blog",
+    "website": "https://medium.com/@orcfax",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "NMKR Blog",
+    "website": "https://www.nmkr.io/blog",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Fluid Tokens Blog",
+    "website": "https://medium.com/@FluidTokens",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Encoins Blog",
+    "website": "https://encoins-crypto.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Yamfore Blog",
+    "website": "https://bigblymp.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Empowa Blog",
+    "website": "https://empowa-io.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Charli3 Blog",
+    "website": "https://oraclecharli3.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Axo Blog",
+    "website": "https://www.axo.trade/newsroom/categories/news",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Jpg Store Blog",
+    "website": "https://blog.jpg.store/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "VyFinance Blog",
+    "website": "https://vyfinance.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Smart Places Blog",
+    "website": "https://smartplacesprotocol.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Xray Network Blog",
+    "website": "https://xray-network.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Gero Wallet Blog",
+    "website": "https://www.gerowallet.io/blog",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Genius Yield Blog",
+    "website": "https://academy.geniusyield.co/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Sky Protocol Blog",
+    "website": "https://medium.com/@skyprotocol",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Linkage Finance Blog",
+    "website": "https://medium.com/@LinkageFinance",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "CSwap DEX Blog",
+    "website": "https://medium.com/@cswapdex",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Aneta Blog",
+    "website": "https://medium.com/@anetaBTC",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "CardanoGPT Blog",
+    "website": "https://medium.com/@cardanogpt",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Cerra Blog",
+    "website": "https://medium.com/@cerra_io",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Mayz Blog",
+    "website": "https://medium.com/@MAYZ.io",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Tap in with Tap Tools Blog",
+    "website": "https://medium.com/@TapInWithTapTools",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Jam on Bread Blog",
+    "website": "https://blog.jamonbread.io/en",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Rare Evo Blog",
+    "website": "https://rareevo.io/rare-network-blog",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Wingriders Blog",
+    "website": "https://medium.com/@wingriderscom",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Meld DeFi Blog",
+    "website": "https://medium.com/meld-defi",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Milkomeda Blog",
+    "website": "https://medium.com/@milkomedafoundation",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Spectrum Network Blog",
+    "website": "https://spectrumxnet.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Summon Platform Blog",
+    "website": "https://summonplatform.io/blog/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Metera Blog",
+    "website": "https://meteraprotocol.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Bodega Market Blog",
+    "website": "https://medium.com/@bodegacardano",
+    "teamGithubURL": "",
+    "tags": ["tools", "project_blog"]
+  },
+  {
+    "name": "Purchains Blog",
+    "website": "https://news.purchains.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "blog_mandarin_lang"]
+  },
+  {
+    "name": "Carnada Revista Blog",
+    "website": "https://issuu.com/carnadarevista",
+    "teamGithubURL": "",
+    "tags": ["tools", "blog_spanish_lang"]
+  },
+  {
+    "name": "Cardanologie Blog",
+    "website": "https://cardanologie.fr/",
+    "teamGithubURL": "",
+    "tags": ["tools", "blog_french_lang"]
+  },
+  {
+    "name": "Odyc Blog",
+    "website": "https://odyc.gr/",
+    "teamGithubURL": "",
+    "tags": ["tools", "blog_greek_lang"]
+  },
+  {
+    "name": "ADA Bamboo Blog",
+    "website": "https://ada-bamboo.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "blog_vietnamese_lang"]
+  },
+  {
+    "name": "Cardano Library Blog",
+    "website": "https://cardanolibrary.net/category/news/cardano-news/",
+    "teamGithubURL": "",
+    "tags": ["tools", "blog_vietnamese_lang"]
+  },
+  {
+    "name": "Cardano Nederland Blog",
+    "website": "https://cardanonederland.nl/",
+    "teamGithubURL": "",
+    "tags": ["tools", "blog_dutch_lang"]
   }
 ]
