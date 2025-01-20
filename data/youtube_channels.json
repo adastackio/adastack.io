@@ -955,6 +955,16 @@
     "tags": ["mandarin_lang"]
   },
   {
+    "name": "Blockchain Daily",
+    "channel_url": "https://www.youtube.com/@blockchaindailynews",
+    "tags": ["mandarin_lang"]
+  },
+  {
+    "name": "直男說 Men's talk",
+    "channel_url": "https://www.youtube.com/@mens.talk.tw.official",
+    "tags": ["mandarin_lang"]
+  },
+  {
     "name": "Individuo Digital",
     "channel_url": "https://www.youtube.com/@IndividuoDigital",
     "tags": ["spanish_lang"]
@@ -1025,6 +1035,11 @@
     "tags": ["spanish_lang"]
   },
   {
+    "name": "Mayank Kharayat",
+    "channel_url": "https://www.youtube.com/@Mayankkharayat",
+    "tags": ["hindi_lang"]
+  },
+  {
     "name": "Crypto India Cardano",
     "channel_url": "https://www.youtube.com/@cryptoindiacardano3478",
     "tags": ["hindi_lang"]
@@ -1033,6 +1048,47 @@
     "name": "Block Tech",
     "channel_url": "https://www.youtube.com/channel/UCR0naW7kjpcripfuDXgZqzw",
     "tags": ["hindi_lang"]
+  },
+  {
+    "name": "Crypto Bangla",
+    "channel_url": "https://www.youtube.com/@cryptobangla5163",
+    "tags": ["bengali_lang"]
+  },
+  {
+    "name": "Crypto Tamil",
+    "channel_url": "https://www.youtube.com/@CryptoTamil",
+    "tags": ["tamil_lang"]
+  },
+  {
+    "name": "Mana Cardano",
+    "channel_url": "https://www.youtube.com/@manacardano9426",
+    "tags": ["telugu_lang"]
+  },
+  {
+    "name": "Crypto Kranti | क्रिप्टो क्रांती ",
+    "channel_url": "https://www.youtube.com/@CryptoKranti",
+    "tags": ["marathi_lang"]
+  },
+  {
+    "name": "Crypto Ventures in Kannada",
+    "channel_url": "https://www.youtube.com/@CryptoVentures7723/videos",
+    "tags": ["kannada_lang"]
+  },
+  {
+    "name": "Online Kannada Crypto Talks",
+    "channel_url": "https://www.youtube.com/@OnlineKannada",
+    "tags": ["kannada_lang"]
+  },
+  {
+    "name": "Cryptolokam",
+    "channel_url": "https://www.youtube.com/@Cryptolokam",
+    "tags": ["malayalam_lang"]
+  },
+
+  {
+    "name": "Logic Chat",
+    "channel_url": "https://www.youtube.com/@LogicChat",
+    "tags": ["malayalam_lang"]
   },
   {
     "name": "Cardanistas",
@@ -1080,9 +1136,19 @@
     "tags": ["japanese_lang"]
   },
   {
+    "name": "渡辺水華",
+    "channel_url": "https://www.youtube.com/@adauser-mizca",
+    "tags": ["japanese_lang"]
+  },
+  {
     "name": "Cardano Asia",
     "channel_url": "https://www.youtube.com/@cardano.adalovelaces",
     "tags": ["japanese_lang", "korean_lang", "vietnamese_lang", "general"]
+  },
+  {
+    "name": "코리아풀",
+    "channel_url": "https://www.youtube.com/@KoreaPool",
+    "tags": ["korean_lang"]
   },
   {
     "name": "Pan-chan",
@@ -1145,9 +1211,24 @@
     "tags": ["standard_arabic_lang", "general"]
   },
   {
+    "name": " خانه ترید -  آموزش ارز دیجیتال",
+    "channel_url": "https://www.youtube.com/@khanetrade",
+    "tags": ["persian_lang"]
+  },
+  {
+    "name": "Alper Baran ESİN",
+    "channel_url": "https://www.youtube.com/c/AlperBaranES%C4%B0N",
+    "tags": ["turkish_lang"]
+  },
+  {
     "name": "Nova Cardano Stake Pool",
     "channel_url": "https://www.youtube.com/@NOVApool",
     "tags": ["german_lang", "general"]
+  },
+  {
+    "name": "Decentralized Finance Hungary",
+    "channel_url": "https://www.youtube.com/@DecentralizedFinanceHungary",
+    "tags": ["hungarian_lang"]
   },
   {
     "name": "Inkuba",
@@ -1215,6 +1296,11 @@
     "tags": ["javanese_lang"]
   },
   {
+    "name": "Pinoy Crypto Trader",
+    "channel_url": "https://www.youtube.com/@pinoycryptotrader",
+    "tags": ["tagalog_lang"]
+  },
+  {
     "name": "Codanar",
     "channel_url": "https://www.youtube.com/@codanar",
     "tags": ["thai_lang"]
@@ -1232,6 +1318,16 @@
   {
     "name": "Varavas",
     "channel_url": "https://www.youtube.com/@Varavas/",
+    "tags": ["greek_lang"]
+  },
+  {
+    "name": "CardanoChefTalk",
+    "channel_url": "https://www.youtube.com/@cardanocheftalk4779",
+    "tags": ["greek_lang"]
+  },
+  {
+    "name": "Kersoras Monad EVM Greek Channel",
+    "channel_url": "https://www.youtube.com/@sapiopoolgreekcardanocommu8889",
     "tags": ["greek_lang"]
   },
   {
