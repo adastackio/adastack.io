@@ -2397,42 +2397,42 @@
     "name": "Purchains Blog",
     "website": "https://news.purchains.com/",
     "teamGithubURL": "",
-    "tags": ["tools", "blog_mandarin_lang"]
+    "tags": ["tools", "mandarin_lang_blog"]
   },
   {
     "name": "Carnada Revista Blog",
     "website": "https://issuu.com/carnadarevista",
     "teamGithubURL": "",
-    "tags": ["tools", "blog_spanish_lang"]
+    "tags": ["tools", "spanish_lang_blog"]
   },
   {
     "name": "Cardanologie Blog",
     "website": "https://cardanologie.fr/",
     "teamGithubURL": "",
-    "tags": ["tools", "blog_french_lang"]
+    "tags": ["tools", "french_lang_blog"]
   },
   {
     "name": "Odyc Blog",
     "website": "https://odyc.gr/",
     "teamGithubURL": "",
-    "tags": ["tools", "blog_greek_lang"]
+    "tags": ["tools", "greek_lang_blog"]
   },
   {
     "name": "ADA Bamboo Blog",
     "website": "https://ada-bamboo.com/",
     "teamGithubURL": "",
-    "tags": ["tools", "blog_vietnamese_lang"]
+    "tags": ["tools", "vietnamese_lang_blog"]
   },
   {
     "name": "Cardano Library Blog",
     "website": "https://cardanolibrary.net/category/news/cardano-news/",
     "teamGithubURL": "",
-    "tags": ["tools", "blog_vietnamese_lang"]
+    "tags": ["tools", "vietnamese_lang_blog"]
   },
   {
     "name": "Cardano Nederland Blog",
     "website": "https://cardanonederland.nl/",
     "teamGithubURL": "",
-    "tags": ["tools", "blog_dutch_lang"]
+    "tags": ["tools", "dutch_lang_blog"]
   }
 ]
