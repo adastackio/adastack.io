@@ -22,7 +22,7 @@ const BlockExplorersTable: React.FC<BlockExplorersTableProps> = ({
     : projects;
 
   return (
-    <div className="data-table-wrapper">
+    <div className="data-table-wrapper  mt-6">
       <table className="data-table youtube-table">
         <tbody>
           {filteredProjects.map((project, index) => (

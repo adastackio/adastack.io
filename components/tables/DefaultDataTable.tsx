@@ -36,7 +36,7 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
   );
 
   return (
-    <div className="data-table-wrapper">
+    <div className="data-table-wrapper mt-6">
       <table className="data-table default-data-table">
         <thead>
           <tr>
