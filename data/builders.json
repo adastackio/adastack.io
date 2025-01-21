@@ -2692,5 +2692,347 @@
     "website": "https://t.me/DesarrolloCardano",
     "teamGithubURL": "",
     "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "CardanoScan Daily Transactions",
+    "website": "https://cardanoscan.io/analytics/dailyTxCountAndFees",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "CardanoScan Absolute Transactions",
+    "website": "https://cardanoscan.io/analytics/absoluteTxCount",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "Daily Transactions",
+    "website": "https://lookerstudio.google.com/s/r-x_IbY41mY",
+    "teamGithubURL": "",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "Epoch Transactions 1",
+    "website": "https://lookerstudio.google.com/s/i1ovIilH5gY",
+    "teamGithubURL": "",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "Epoch Transactions 2",
+    "website": "https://lookerstudio.google.com/s/pw0_jGTWlcs",
+    "teamGithubURL": "",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "Epoch Transactions 3",
+    "website": "https://lookerstudio.google.com/s/l-enmJx8O8c",
+    "teamGithubURL": "",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "Block Saturation Metrics",
+    "website": "https://lookerstudio.google.com/s/sVOfkq0gl1o",
+    "teamGithubURL": "",
+    "tags": ["tools", "blockspace_metrics"]
+  },
+  {
+    "name": "CardanoScan Block Size",
+    "website": "https://cardanoscan.io/analytics/blockSize",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "blockspace_metrics"]
+  },
+  {
+    "name": "Cexplorer Block Usage",
+    "website": "https://cexplorer.io/usage",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "blockspace_metrics"]
+  },
+  {
+    "name": "TapTools Token Volume",
+    "website": "https://www.taptools.io/?rankBy=volume&order=desc&assetType=Tokens",
+    "teamGithubURL": "",
+    "tags": ["tools", "volume_metrics"]
+  },
+  {
+    "name": "DexScreener Token Volume",
+    "website": "https://dexscreener.com/cardano?rankBy=trendingScoreH24&order=desc",
+    "teamGithubURL": "https://github.com/dexscreener",
+    "tags": ["tools", "volume_metrics"]
+  },
+  {
+    "name": "Cexplorer Token Volume",
+    "website": "https://cexplorer.io/token/top",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "volume_metrics"]
+  },
+  {
+    "name": "DefiLlama Volume Metrics",
+    "website": "https://defillama.com/chain/Cardano?currency=USD&volume=true&tvl=false",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "volume_metrics"]
+  },
+  {
+    "name": "TapTools Volume Rankings",
+    "website": "https://www.taptools.io/market-overview",
+    "teamGithubURL": "",
+    "tags": ["tools", "dapp_volume_metrics"]
+  },
+  {
+    "name": "DappRadar Volume Rankings",
+    "website": "https://dappradar.com/rankings/protocol/cardano?sort=totalVolumeInFiat&order=desc",
+    "teamGithubURL": "https://github.com/dappradar",
+    "tags": ["tools", "dapp_volume_metrics"]
+  },
+  {
+    "name": "Cexplorer TVL Chart",
+    "website": "https://cexplorer.io/defi/tvl",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "tvl_metrics"]
+  },
+  {
+    "name": "DefiLlama TVL Chart",
+    "website": "https://defillama.com/chain/Cardano?currency=USD&tvl=tvl",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "tvl_metrics"]
+  },
+  {
+    "name": "Danogo dApp TVL Rankings",
+    "website": "https://danogo.io/tvl-report",
+    "teamGithubURL": "https://github.com/Danogo2023",
+    "tags": ["tools", "dapp_tvl_metrics"]
+  },
+  {
+    "name": "Cardano dApp TVL Rankings",
+    "website": "https://lookerstudio.google.com/s/kpmEIAO1Qiw",
+    "teamGithubURL": "",
+    "tags": ["tools", "dapp_tvl_metrics"]
+  },
+  {
+    "name": "CoinMarketCap Rankings",
+    "website": "https://coinmarketcap.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "market_metrics"]
+  },
+  {
+    "name": "CoinGecko Rankings",
+    "website": "https://www.coingecko.com/",
+    "teamGithubURL": "https://github.com/coingecko",
+    "tags": ["tools", "market_metrics"]
+  },
+  {
+    "name": "MarketCapOf Comparison",
+    "website": "https://marketcapof.com/crypto/cardano/",
+    "teamGithubURL": "",
+    "tags": ["tools", "market_metrics"]
+  },
+  {
+    "name": "TapTools Token Rankings",
+    "website": "https://www.taptools.io/?rankBy=mcap&order=desc&minLiq=10000&minHolders=100&mcapCustomFilters=true",
+    "teamGithubURL": "",
+    "tags": ["tools", "dapp_market_metrics"]
+  },
+  {
+    "name": "CoinGecko Token Rankings",
+    "website": "https://www.coingecko.com/en/categories/cardano-ecosystem",
+    "teamGithubURL": "https://github.com/coingecko",
+    "tags": ["tools", "dapp_market_metrics"]
+  },
+  {
+    "name": "Danogo Active Wallets",
+    "website": "https://danogo.io/active-wallet-report",
+    "teamGithubURL": "https://github.com/Danogo2023",
+    "tags": ["tools", "address_metrics"]
+  },
+  {
+    "name": "Adastats Address Overview",
+    "website": "https://adastats.info/addresses",
+    "teamGithubURL": "",
+    "tags": ["tools", "address_metrics"]
+  },
+  {
+    "name": "Cexplorer Wallet Activity",
+    "website": "https://cexplorer.io/wallets",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "address_metrics"]
+  },
+  {
+    "name": "DefiLlama Address Activity",
+    "website": "https://defillama.com/chain/Cardano?addresses=true&tvl=false",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "address_metrics"]
+  },
+  {
+    "name": "Frigid Top NFT Sales",
+    "website": "https://frigid.ai/",
+    "teamGithubURL": "",
+    "tags": ["tools", "nft_market_metrics"]
+  },
+  {
+    "name": "CNFT Tools Volume",
+    "website": "https://cnft.tools/",
+    "teamGithubURL": "",
+    "tags": ["tools", "nft_market_metrics"]
+  },
+  {
+    "name": "Poki Market Pulse",
+    "website": "https://www.getpoki.com/live-market",
+    "teamGithubURL": "",
+    "tags": ["tools", "nft_market_metrics"]
+  },
+  {
+    "name": "Cexplorer NFT Collections",
+    "website": "https://cexplorer.io/collection",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "nft_market_metrics"]
+  },
+  {
+    "name": "Adalive NFT Stats",
+    "website": "https://www.adalive.io/stats",
+    "teamGithubURL": "",
+    "tags": ["tools", "nft_market_metrics"]
+  },
+  {
+    "name": "Cexplorer TPS Chart",
+    "website": "https://cexplorer.io/tps",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "tps_metrics"]
+  },
+  {
+    "name": "Eutxo.org Live TPS Viewer",
+    "website": "https://eutxo.org/",
+    "teamGithubURL": "",
+    "tags": ["tools", "tps_metrics"]
+  },
+  {
+    "name": "Chainspect TPS Analysis",
+    "website": "https://chainspect.app/chain/cardano",
+    "teamGithubURL": "https://github.com/fromaline/chainspect_app",
+    "tags": ["tools", "tps_metrics"]
+  },
+  {
+    "name": "Electric Capital Developer Report",
+    "website": "https://www.developerreport.com/ecosystems/cardano",
+    "teamGithubURL": "https://github.com/electric-capital/crypto-ecosystems/blob/master/data/ecosystems/c/cardano.toml",
+    "tags": ["tools", "development_metrics"]
+  },
+  {
+    "name": "Essential Cardano Development Updates",
+    "website": "https://www.essentialcardano.io/development-update",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "development_metrics"]
+  },
+  {
+    "name": "Cryptometheus Development Stats",
+    "website": "https://cryptometheus.com/project/Cardano",
+    "teamGithubURL": "",
+    "tags": ["tools", "development_metrics"]
+  },
+  {
+    "name": "DefiLlama Developer Activity",
+    "website": "https://defillama.com/chain/Cardano?currency=USD&volume=false&tvl=false&price=false&addresses=false&stables=false&developers=false&devsCommits=true",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "development_metrics"]
+  },
+  {
+    "name": "Santiment Developer Activity",
+    "website": "https://app.santiment.net/s/_e1ROYfa",
+    "teamGithubURL": "https://github.com/santiment",
+    "tags": ["tools", "development_metrics"]
+  },
+  {
+    "name": "Cardano Smart Contract Explorer",
+    "website": "https://beta.explorer.cardano.org/en/native-scripts-sc/smart-contracts",
+    "teamGithubURL": "https://github.com/cardano-foundation/cf-explorer",
+    "tags": ["tools", "smart_contract_metrics"]
+  },
+  {
+    "name": "Cardano New Smart Contracts",
+    "website": "https://lookerstudio.google.com/s/v2mPjKyMK00",
+    "teamGithubURL": "",
+    "tags": ["tools", "smart_contract_metrics"]
+  },
+  {
+    "name": "CardanoScan Fee Analysis",
+    "website": "https://cardanoscan.io/analytics/epochFees",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "fee_metrics"]
+  },
+  {
+    "name": "Cardano Network Fees",
+    "website": "https://lookerstudio.google.com/s/gx8f-az2E9o",
+    "teamGithubURL": "",
+    "tags": ["tools", "fee_metrics"]
+  },
+  {
+    "name": "Cexplorer Pool Profitability",
+    "website": "https://cexplorer.io/profitability",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "fee_metrics"]
+  },
+  {
+    "name": "Cardano Pool Fees and ROI",
+    "website": "https://lookerstudio.google.com/s/lFEdCKh30Kk",
+    "teamGithubURL": "",
+    "tags": ["tools", "fee_metrics"]
+  },
+  {
+    "name": "CardexScan Live Trading",
+    "website": "https://cardexscan.com/global-trades",
+    "teamGithubURL": "",
+    "tags": ["tools", "live_metrics"]
+  },
+  {
+    "name": "Adalive NFT Market",
+    "website": "https://www.adalive.io/",
+    "teamGithubURL": "",
+    "tags": ["tools", "live_metrics"]
+  },
+  {
+    "name": "Eutxo Block Explorer",
+    "website": "https://eutxo.org/",
+    "teamGithubURL": "",
+    "tags": ["tools", "live_metrics"]
+  },
+  {
+    "name": "Fiatleak ADA Purchases",
+    "website": "https://fiatleak.com/ada",
+    "teamGithubURL": "",
+    "tags": ["tools", "live_metrics"]
+  },
+  {
+    "name": "Cexplorer Energy Usage",
+    "website": "https://cexplorer.io/energy",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "energy_metrics"]
+  },
+  {
+    "name": "Cardano Energy Analysis",
+    "website": "https://lookerstudio.google.com/s/nFWDaZS8yWU",
+    "teamGithubURL": "",
+    "tags": ["tools", "energy_metrics"]
+  },
+  {
+    "name": "Cardano Sustainability Metrics",
+    "website": "https://beta.explorer.cardano.org/en/micar",
+    "teamGithubURL": "https://github.com/cardano-foundation/cf-explorer",
+    "tags": ["tools", "energy_metrics"]
+  },
+  {
+    "name": "Messari Social Analysis",
+    "website": "https://messari.io/project/cardano/charts/social",
+    "teamGithubURL": "https://github.com/messari",
+    "tags": ["tools", "social_metrics"]
+  },
+  {
+    "name": "Cardano Social Activity",
+    "website": "https://lookerstudio.google.com/s/kSD1cN_TrrA",
+    "teamGithubURL": "",
+    "tags": ["tools", "social_metrics"]
+  },
+  {
+    "name": "Santiment Sentiment Analysis",
+    "website": "https://app.santiment.net/labs/trends/explore/cardano",
+    "teamGithubURL": "https://github.com/santiment",
+    "tags": ["tools", "social_metrics"]
   }
 ]
