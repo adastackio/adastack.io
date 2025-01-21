@@ -841,27 +841,11 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
 }
 
 .data-table .first-column-cell {
-  width: 450px;
+  width: 100vw;
 }
 
 .data-table td.first-column-cell:only-child {
-  width: 600px;
-}
-
-.data-table.wallet-table .first-column-cell {
-  width: 400px;
-}
-
-.data-table.youtube-table .first-column-cell {
-  width: 550px;
-}
-
-.data-table.dev-companies-table .first-column-cell {
-  width: 450px;
-}
-
-.data-table.block-explorers-table .first-column-cell {
-  width: 450px;
+  width: 100vw;
 }
 
 /* Ant Design Modifications */
