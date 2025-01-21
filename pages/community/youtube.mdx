@@ -4,7 +4,6 @@ seo_description: "Stay updated with Cardano: YouTube channels covering news, NFT
 toc: true
 ---
 
-import youtube_channels from "../../data/youtube_channels.json";
 import builders from "../../data/builders.json";
 import DefaultDataTable from "../../components/tables/DefaultDataTable";
 
@@ -16,38 +15,30 @@ Explore these YouTube channels covering Cardano news, development, NFTs, Catalys
 
 <DefaultDataTable projects={builders} filterBy="top_youtube" />
 
-<DefaultDataTable projects={youtube_channels} filterBy="top" />
-
 ## More Cardano Channels
 
 <DefaultDataTable projects={builders} filterBy="general_youtube" />
-
-<DefaultDataTable projects={youtube_channels} filterBy="general" />
 
 ## Development
 
 <DefaultDataTable projects={builders} filterBy="development_youtube" />
 
-<DefaultDataTable projects={youtube_channels} filterBy="development" />
-
 ## Organizations and Institutions
 
 <DefaultDataTable projects={builders} filterBy="organization_youtube" />
 
-<DefaultDataTable projects={youtube_channels} filterBy="organization" />
-
 ## Governance
 
-<DefaultDataTable projects={youtube_channels} filterBy="governance" />
+<DefaultDataTable projects={builders} filterBy="governance_youtube" />
 
 ## Project Catalyst
 
-<DefaultDataTable projects={youtube_channels} filterBy="catalyst" />
+<DefaultDataTable projects={builders} filterBy="catalyst_youtube" />
 
 ## NFTs
 
-<DefaultDataTable projects={youtube_channels} filterBy="nft" />
+<DefaultDataTable projects={builders} filterBy="nft_youtube" />
 
 ## Projects on Cardano
 
-<DefaultDataTable projects={youtube_channels} filterBy="project" />
+<DefaultDataTable projects={builders} filterBy="project_youtube" />
