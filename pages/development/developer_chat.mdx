@@ -4,6 +4,9 @@ seo_description: Discover top Cardano developer channels on forums, Telegram, an
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # Developer Chat
 
 Explore forums, Discord channels, and Telegram groups for Cardano developers to chat, collaborate on projects, ask questions, and connect with pros.
@@ -12,56 +15,16 @@ Explore forums, Discord channels, and Telegram groups for Cardano developers to 
 
 Forums to discuss Cardano development.
 
-- [Cardano Stack Exchange](https://cardano.stackexchange.com/)
-- [Cardano Reddit](https://www.reddit.com/r/Cardano/)
-- [Cardano Developers Reddit](https://www.reddit.com/r/CardanoDevelopers/)
-- [Cardano Forum](https://forum.cardano.org/)
-- [UpToDev Community](https://updevcommunity.com/): English and French speaking developer community.
+<DefaultDataTable projects={builders} filterBy="developer_forum" />
 
 ## Discord Channels
 
 Discord channels to chat about Cardano development.
 
-- [Input Output Technical](https://discord.com/invite/inputoutput)<OS url="https://github.com/input-output-hk/" />
-- [TxPipe](https://discord.com/invite/ZTHcHUy5HY)<OS url="https://github.com/txpipe/" />
-- [MeshJS](https://discord.com/invite/WvnCNqmAxy)<OS url="https://github.com/MeshJS/" />
-- [Blink Labs](https://discord.com/invite/5fPRZnX4qW)<OS url="github.com/blinklabs-io/" />
-- [SpaceBudz](https://discord.com/invite/vtmm6RG2Bv)<OS url="github.com/spacebudz/" />
-- [Harmonic Labs](https://discord.com/invite/CGKNcG7ade)<OS url="https://github.com/harmoniclabs" />
-- [Gimbalabs](https://discord.com/invite/Va7DXqSSn8)<OS url="https://github.com/gimbalabs" />
-- [Pragma](https://discord.com/invite/Zbbumu9NMz)<OS url="https://github.com/pragma-org" />
-- [PyCardano](https://discord.com/invite/qT9Mn9xjgz)<OS url="https://github.com/Python-Cardano/" />
-- [OpShin](https://discord.com/invite/umR3A2g4uw)<OS url="https://github.com/OpShin" />
-- [Emurgo Community](https://discord.com/invite/AWEp2SG437)<OS url="https://github.com/Emurgo" />
-- [Emurgo Academy Community](https://discord.com/invite/beTSe5Sky4)<OS url="https://github.com/Emurgo" />
-- [BuildingOnCardano.Dev](https://discord.com/invite/ze5xh884ta)<OS url="https://github.com/selfdriven-foundation" />
-- [Plutonomicon](https://discord.gg/JhbexnV9Pc)<OS url="https://github.com/Plutonomicon" />
-- [Roasted Bean Alliance](https://discord.com/invite/JtQ54MSw6p)<OS url="https://github.com/bloxbean" />
-- [Anastasia Labs](https://discord.com/invite/s89P9gpEff)<OS url="github.com/anastasia-labs/" />
-- [Sidan Labs](https://discord.com/invite/b3H2Jhq5Wq)<OS url="https://github.com/sidan-lab" />
-- [Cardano Open Source](https://discord.gg/VvraErKX7p)<OS url="https://github.com/wimsio" />
-- [Lovelace Academy](https://discord.com/invite/cqQBvBpXzR)<OS url="https://github.com/lovelaceacademy" />
-- [dcSpark](https://discord.com/invite/6zY6sybPEk)<OS url="https://github.com/dcSpark" />
-- [Maestro](https://discord.com/invite/ES2rDhBJt3)<OS url="https://github.com/maestro-org" />
-- [CardanoSharp](https://discord.com/invite/WRAySDD2Kk)<OS url="https://github.com/CardanoSharp" />
-- [Helios](https://discord.com/invite/XTwPrvB25q)<OS url="https://github.com/HeliosLang" />
-- [Kuber](https://discord.com/invite/xtbqzBTXFf)<OS url="github.com/dquadrant/" />
-- [Scalus](https://discord.com/invite/ygwtuBybsy)<OS url="https://github.com/nau" />
-- [Orcfax](https://discord.com/invite/UbAeRuNzDu)<OS url="https://github.com/orcfax" />
-- [Charli3](https://discord.com/invite/kQmTxJBFp3)<OS url="https://github.com/Charli3-Official" />
-- [Cardano BSD Alliance](https://discord.com/invite/t9Nshe7MJb)<OS url="https://github.com/cardano-bsd-alliance" />
-- [Cardano Improvement Proposals](https://discord.com/invite/J8sGdCuKhs)<OS url="https://github.com/cardano-foundation/CIPs" />
-- [Cardano Community](https://discord.gg/v5AEnHJ6Nx)<OS url="https://github.com/cardano-foundation/" />: Dev-general channel
-- [Saturn Swap](https://discord.com/invite/QJ6nnFaByV)<OS url="https://github.com/Orion-Crypto" />: Dev-chat channel
-- [Wild Tangz](https://discord.com/invite/wildtangz)<OS url="https://github.com/thaddeusdiamond" />: Coding channel
+<DefaultDataTable projects={builders} filterBy="developer_discord" />
 
 ## Telegram Channels
 
 Telegram channels for developer chat and announcements.
 
-- [Cardano Announcements](https://t.me/CardanoAnnouncements)<OS url="https://github.com/input-output-hk" />: Cardano announcements.
-- [IOG Dev Announcements](https://t.me/IOdevannouncements)<OS url="https://github.com/input-output-hk" />: Dev announcements.
-- [Cardano Developers Official](https://t.me/CardanoDevelopersOfficial)<OS url="https://github.com/cardano-foundation" />: Chat for devs.
-- [Marlowe Official](https://t.me/IOHK_Marlowe)<OS url="https://github.com/marlowe-lang" />: Chat for Marlowe users.
-- [Developer Ecosystem](https://t.me/DeveloperEcosystem): Community dev channel.
-- [Desarrollo Cardano](https://t.me/DesarrolloCardano): Spanish speaking group managed by several Cardano ambassadors.
+<DefaultDataTable projects={builders} filterBy="developer_telegram" />

@@ -2434,5 +2434,263 @@
     "website": "https://cardanonederland.nl/",
     "teamGithubURL": "",
     "tags": ["tools", "dutch_lang_blog"]
+  },
+  {
+    "name": "Cardano Stack Exchange",
+    "website": "https://cardano.stackexchange.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_forum"]
+  },
+  {
+    "name": "Cardano Reddit",
+    "website": "https://www.reddit.com/r/Cardano/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_forum"]
+  },
+  {
+    "name": "Cardano Developers Reddit",
+    "website": "https://www.reddit.com/r/CardanoDevelopers/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_forum"]
+  },
+  {
+    "name": "Cardano Forum",
+    "website": "https://forum.cardano.org/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_forum"]
+  },
+  {
+    "name": "UpToDev Community",
+    "website": "https://updevcommunity.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_forum"]
+  },
+  {
+    "name": "Input Output Technical",
+    "website": "https://discord.com/invite/inputoutput",
+    "teamGithubURL": "https://github.com/input-output-hk/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "TxPipe",
+    "website": "https://discord.com/invite/ZTHcHUy5HY",
+    "teamGithubURL": "https://github.com/txpipe/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "MeshJS",
+    "website": "https://discord.com/invite/WvnCNqmAxy",
+    "teamGithubURL": "https://github.com/MeshJS/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Blink Labs",
+    "website": "https://discord.com/invite/5fPRZnX4qW",
+    "teamGithubURL": "github.com/blinklabs-io/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "SpaceBudz",
+    "website": "https://discord.com/invite/vtmm6RG2Bv",
+    "teamGithubURL": "github.com/spacebudz/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Harmonic Labs",
+    "website": "https://discord.com/invite/CGKNcG7ade",
+    "teamGithubURL": "https://github.com/harmoniclabs",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Gimbalabs",
+    "website": "https://discord.com/invite/Va7DXqSSn8",
+    "teamGithubURL": "https://github.com/gimbalabs",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Pragma",
+    "website": "https://discord.com/invite/Zbbumu9NMz",
+    "teamGithubURL": "https://github.com/pragma-org",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "PyCardano",
+    "website": "https://discord.com/invite/qT9Mn9xjgz",
+    "teamGithubURL": "https://github.com/Python-Cardano/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "OpShin",
+    "website": "https://discord.com/invite/umR3A2g4uw",
+    "teamGithubURL": "https://github.com/OpShin",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Emurgo Community",
+    "website": "https://discord.com/invite/AWEp2SG437",
+    "teamGithubURL": "https://github.com/Emurgo",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Emurgo Academy Community",
+    "website": "https://discord.com/invite/beTSe5Sky4",
+    "teamGithubURL": "https://github.com/Emurgo",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "BuildingOnCardano.Dev",
+    "website": "https://discord.com/invite/ze5xh884ta",
+    "teamGithubURL": "https://github.com/selfdriven-foundation",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Plutonomicon",
+    "website": "https://discord.gg/JhbexnV9Pc",
+    "teamGithubURL": "https://github.com/Plutonomicon",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Roasted Bean Alliance",
+    "website": "https://discord.com/invite/JtQ54MSw6p",
+    "teamGithubURL": "https://github.com/bloxbean",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Anastasia Labs",
+    "website": "https://discord.com/invite/s89P9gpEff",
+    "teamGithubURL": "github.com/anastasia-labs/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Sidan Labs",
+    "website": "https://discord.com/invite/b3H2Jhq5Wq",
+    "teamGithubURL": "https://github.com/sidan-lab",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Cardano Open Source",
+    "website": "https://discord.gg/VvraErKX7p",
+    "teamGithubURL": "https://github.com/wimsio",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Lovelace Academy",
+    "website": "https://discord.com/invite/cqQBvBpXzR",
+    "teamGithubURL": "https://github.com/lovelaceacademy",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "dcSpark",
+    "website": "https://discord.com/invite/6zY6sybPEk",
+    "teamGithubURL": "https://github.com/dcSpark",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Maestro",
+    "website": "https://discord.com/invite/ES2rDhBJt3",
+    "teamGithubURL": "https://github.com/maestro-org",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "CardanoSharp",
+    "website": "https://discord.com/invite/WRAySDD2Kk",
+    "teamGithubURL": "https://github.com/CardanoSharp",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Helios",
+    "website": "https://discord.com/invite/XTwPrvB25q",
+    "teamGithubURL": "https://github.com/HeliosLang",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Kuber",
+    "website": "https://discord.com/invite/xtbqzBTXFf",
+    "teamGithubURL": "github.com/dquadrant/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Scalus",
+    "website": "https://discord.com/invite/ygwtuBybsy",
+    "teamGithubURL": "https://github.com/nau",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Orcfax",
+    "website": "https://discord.com/invite/UbAeRuNzDu",
+    "teamGithubURL": "https://github.com/orcfax",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Charli3",
+    "website": "https://discord.com/invite/kQmTxJBFp3",
+    "teamGithubURL": "https://github.com/Charli3-Official",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Cardano BSD Alliance",
+    "website": "https://discord.com/invite/t9Nshe7MJb",
+    "teamGithubURL": "https://github.com/cardano-bsd-alliance",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Cardano Improvement Proposals",
+    "website": "https://discord.com/invite/J8sGdCuKhs",
+    "teamGithubURL": "https://github.com/cardano-foundation/CIPs",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Cardano Community",
+    "website": "https://discord.gg/v5AEnHJ6Nx",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Saturn Swap",
+    "website": "https://discord.com/invite/QJ6nnFaByV",
+    "teamGithubURL": "https://github.com/Orion-Crypto",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Wild Tangz",
+    "website": "https://discord.com/invite/wildtangz",
+    "teamGithubURL": "https://github.com/thaddeusdiamond",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Cardano Announcements",
+    "website": "https://t.me/CardanoAnnouncements",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "IOG Dev Announcements",
+    "website": "https://t.me/IOdevannouncements",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Cardano Developers Official",
+    "website": "https://t.me/CardanoDevelopersOfficial",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Marlowe Official",
+    "website": "https://t.me/IOHK_Marlowe",
+    "teamGithubURL": "https://github.com/marlowe-lang",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Developer Ecosystem",
+    "website": "https://t.me/DeveloperEcosystem",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Desarrollo Cardano",
+    "website": "https://t.me/DesarrolloCardano",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_telegram"]
   }
 ]
