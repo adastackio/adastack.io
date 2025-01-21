@@ -5,7 +5,7 @@ toc: true
 ---
 
 import youtube_channels from "../../data/youtube_channels.json";
-import YoutubeChannelsTable from "../../components/tables/YoutubeChannelsTable";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
 
 # YouTube Channels
 
@@ -13,32 +13,32 @@ Explore these YouTube channels covering Cardano news, development, NFTs, Catalys
 
 ## Top Channels
 
-<YoutubeChannelsTable projects={youtube_channels} filterBy="top" />
+<DefaultDataTable projects={youtube_channels} filterBy="top" />
 
 ## More Cardano Channels
 
-<YoutubeChannelsTable projects={youtube_channels} filterBy="general" />
+<DefaultDataTable projects={youtube_channels} filterBy="general" />
 
 ## Development
 
-<YoutubeChannelsTable projects={youtube_channels} filterBy="development" />
+<DefaultDataTable projects={youtube_channels} filterBy="development" />
 
 ## Organizations and Institutions
 
-<YoutubeChannelsTable projects={youtube_channels} filterBy="organization" />
+<DefaultDataTable projects={youtube_channels} filterBy="organization" />
 
 ## Governance
 
-<YoutubeChannelsTable projects={youtube_channels} filterBy="governance" />
+<DefaultDataTable projects={youtube_channels} filterBy="governance" />
 
 ## Project Catalyst
 
-<YoutubeChannelsTable projects={youtube_channels} filterBy="catalyst" />
+<DefaultDataTable projects={youtube_channels} filterBy="catalyst" />
 
 ## NFTs
 
-<YoutubeChannelsTable projects={youtube_channels} filterBy="nft" />
+<DefaultDataTable projects={youtube_channels} filterBy="nft" />
 
 ## Projects on Cardano
 
-<YoutubeChannelsTable projects={youtube_channels} filterBy="project" />
+<DefaultDataTable projects={youtube_channels} filterBy="project" />
