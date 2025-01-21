@@ -3034,5 +3034,167 @@
     "website": "https://app.santiment.net/labs/trends/explore/cardano",
     "teamGithubURL": "https://github.com/santiment",
     "tags": ["tools", "social_metrics"]
+  },
+  {
+    "name": "Edinburgh Decentralization Index",
+    "website": "http://blockchainlab.inf.ed.ac.uk/edi-dashboard/",
+    "teamGithubURL": "https://blockchainlab.inf.ed.ac.uk/edi-dashboard/",
+    "tags": ["tools", "decentralization_index"]
+  },
+  {
+    "name": "Cexplorer Node Distribution",
+    "website": "https://cexplorer.io/relays",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "node_distribution_metrics"]
+  },
+  {
+    "name": "Cardano Geographic Distribution",
+    "website": "https://lookerstudio.google.com/s/m24jHTNX1DM",
+    "teamGithubURL": "",
+    "tags": ["tools", "node_distribution_metrics"]
+  },
+  {
+    "name": "MonadPool Relay Map",
+    "website": "https://monadpool.com/cardano.html",
+    "teamGithubURL": "",
+    "tags": ["tools", "node_distribution_metrics"]
+  },
+  {
+    "name": "Relay Geolocation Map",
+    "website": "https://relaygeolocatio.netlify.app/",
+    "teamGithubURL": "",
+    "tags": ["tools", "node_distribution_metrics"]
+  },
+  {
+    "name": "Cardano Node Distribution",
+    "website": "https://beta.explorer.cardano.org/en/micar",
+    "teamGithubURL": "https://github.com/cardano-foundation/cf-explorer",
+    "tags": ["tools", "node_distribution_metrics"]
+  },
+  {
+    "name": "Cexplorer ISP Distribution",
+    "website": "https://cexplorer.io/relays",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "isp_diversity_metrics"]
+  },
+  {
+    "name": "Cardano ISP Distribution",
+    "website": "https://lookerstudio.google.com/s/m24jHTNX1DM",
+    "teamGithubURL": "",
+    "tags": ["tools", "isp_diversity_metrics"]
+  },
+  {
+    "name": "Pooltool Network Health",
+    "website": "https://pooltool.io/networkhealth",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "isp_diversity_metrics"]
+  },
+  {
+    "name": "Cexplorer Node Versions",
+    "website": "https://cexplorer.io/versions",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "node_version_metrics"]
+  },
+  {
+    "name": "Pooltool Node Distribution",
+    "website": "https://pooltool.io/networkhealth",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "node_version_metrics"]
+  },
+  {
+    "name": "Cardano Version Distribution",
+    "website": "https://lookerstudio.google.com/s/ptQ2TyzLyog",
+    "teamGithubURL": "",
+    "tags": ["tools", "node_version_metrics"]
+  },
+  {
+    "name": "Cexplorer Total Storage in MB",
+    "website": "https://cexplorer.io/storage",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "node_storage_metrics"]
+  },
+  {
+    "name": "Cardano Ledger Size in Bytes",
+    "website": "https://lookerstudio.google.com/s/rkbL4boJKeY",
+    "teamGithubURL": "",
+    "tags": ["tools", "node_storage_metrics"]
+  },
+  {
+    "name": "Cexplorer MAV Analysis",
+    "website": "https://cexplorer.io/groups",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "mav_metrics"]
+  },
+  {
+    "name": "Balance Analytics MAV Donut",
+    "website": "https://www.balanceanalytics.io/chartboards/donut_shop",
+    "teamGithubURL": "https://github.com/Balance-Analytics",
+    "tags": ["tools", "mav_metrics"]
+  },
+  {
+    "name": "Balance Analytics MAV Chart",
+    "website": "https://www.balanceanalytics.io/chartboards/decentralization",
+    "teamGithubURL": "https://github.com/Balance-Analytics",
+    "tags": ["tools", "mav_metrics"]
+  },
+  {
+    "name": "Balance Analytics UTXO Distribution",
+    "website": "https://www.balanceanalytics.io/chartboards/utxo_allocation",
+    "teamGithubURL": "https://github.com/Balance-Analytics",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "CardanoScan Rewards",
+    "website": "https://cardanoscan.io/analytics/epochRewardDistribution",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "Cardano Daily Staking",
+    "website": "https://lookerstudio.google.com/s/ngjdnF7UcC0",
+    "teamGithubURL": "",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "Cardano Epoch Staking",
+    "website": "https://lookerstudio.google.com/s/jPLgGGDCuww",
+    "teamGithubURL": "",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "CBI Epoch Pool Stats 1",
+    "website": "https://lookerstudio.google.com/s/tfLPyoVjJG0",
+    "teamGithubURL": "",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "CBI Epoch Pool Stats 2",
+    "website": "https://lookerstudio.google.com/s/lFEdCKh30Kk",
+    "teamGithubURL": "",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "Cexplorer Block Production",
+    "website": "https://cexplorer.io/producers",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "block_production_metrics"]
+  },
+  {
+    "name": "CBI Block Analysis",
+    "website": "https://lookerstudio.google.com/s/nwBRCIaRdRQ",
+    "teamGithubURL": "",
+    "tags": ["tools", "block_production_metrics"]
+  },
+  {
+    "name": "Cardano.org Block Propagation",
+    "website": "https://beta.explorer.cardano.org/en/network-monitoring",
+    "teamGithubURL": "https://github.com/cardano-foundation/cf-explorer",
+    "tags": ["tools", "block_propagation_metrics"]
+  },
+  {
+    "name": "Pooltool Block Propagation",
+    "website": "https://pooltool.io/networkhealth",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "block_propagation_metrics"]
   }
 ]
