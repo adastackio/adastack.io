@@ -1380,6 +1380,48 @@
     "tags": ["dev_company"]
   },
   {
+    "name": "Akyo Labs",
+    "website": "https://akyolabs.com/",
+    "teamGithubURL": "https://github.com/Akyo-Labs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Ethernal Tech",
+    "website": "https://ethernal.tech/",
+    "teamGithubURL": "https://github.com/Ethernal-Tech",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Rush Labs",
+    "website": "https://www.rushlabs.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Vaka Consulting",
+    "website": "https://www.vakaconsulting.io/",
+    "teamGithubURL": "https://github.com/Vaka-Consulting",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Bloxbean",
+    "website": "https://www.bloxbean.com/",
+    "teamGithubURL": "https://github.com/bloxbean",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Jigsaw Kloud",
+    "website": "https://jigsawkloud.design/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Yepple",
+    "website": "https://blockchain.yepple.io/",
+    "teamGithubURL": "https://github.com/YeppleInc",
+    "tags": ["dev_company"]
+  },
+  {
     "name": "Eutxo.org",
     "website": "https://eutxo.org/",
     "teamGithubURL": "",
@@ -2434,6 +2476,126 @@
     "website": "https://cardanonederland.nl/",
     "teamGithubURL": "",
     "tags": ["tools", "dutch_lang_blog"]
+  },
+  {
+    "name": "bitgetapps",
+    "website": "https://www.bitgetapps.com/zh-CN/price/cardano/news",
+    "teamGithubURL": "",
+    "tags": ["tools", "mandarin_lang_blog"]
+  },
+  {
+    "name": "cardano vn",
+    "website": "https://cardano.vn/",
+    "teamGithubURL": "",
+    "tags": ["tools", "vietnamese_lang_blog"]
+  },
+  {
+    "name": "Bitpinas",
+    "website": "https://bitpinas.com/?s=cardano",
+    "teamGithubURL": "",
+    "tags": ["tools", "tagalog_lang_blog"]
+  },
+  {
+    "name": "Kriptomat",
+    "website": "https://kriptomat.io/tr/kripto-para-fiyatlari/cardano-ada-fiyati/nedir/",
+    "teamGithubURL": "",
+    "tags": ["tools", "turkish_lang_blog"]
+  },
+  {
+    "name": "Comunidad Cardano",
+    "website": "https://www.comunidadcardano.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "spanish_lang_blog"]
+  },
+  {
+    "name": "Cassandra Lab Blog",
+    "website": "https://blog.cassandralab.ai/cardano/",
+    "teamGithubURL": "",
+    "tags": ["tools", "spanish_lang_blog"]
+  },
+  {
+    "name": "Einvestidor",
+    "website": "https://einvestidor.estadao.com.br/?s=Cardano",
+    "teamGithubURL": "",
+    "tags": ["tools", "portuguese_lang_blog"]
+  },
+  {
+    "name": "Coin Lore",
+    "website": "https://www.coinlore.com/ru/coin/cardano/news",
+    "teamGithubURL": "",
+    "tags": ["tools", "russian_lang_blog"]
+  },
+  {
+    "name": "Stake Pool",
+    "website": "https://stakepool.fr/actu",
+    "teamGithubURL": "",
+    "tags": ["tools", "french_lang_blog"]
+  },
+  {
+    "name": "Journal Du Coin",
+    "website": "https://journalducoin.com/tag/cardano-ada/",
+    "teamGithubURL": "",
+    "tags": ["tools", "french_lang_blog"]
+  },
+  {
+    "name": "Coincierge",
+    "website": "https://coincierge.de/category/cardano/",
+    "teamGithubURL": "",
+    "tags": ["tools", "german_lang_blog"]
+  },
+  {
+    "name": "Newsbit",
+    "website": "https://newsbit.de/cardano-news/",
+    "teamGithubURL": "",
+    "tags": ["tools", "german_lang_blog"]
+  },
+  {
+    "name": "Casa Cardano",
+    "website": "https://casacardano.it/",
+    "teamGithubURL": "",
+    "tags": ["tools", "italian_lang_blog"]
+  },
+  {
+    "name": "Crypto Voice",
+    "website": "https://cryptovoice.gr/?s=cardano",
+    "teamGithubURL": "",
+    "tags": ["tools", "greek_lang_blog"]
+  },
+  {
+    "name": "NBX",
+    "website": "https://nbx.com/sv/blogg",
+    "teamGithubURL": "",
+    "tags": ["tools", "swedish_lang_blog"]
+  },
+  {
+    "name": "Kaaosteoria",
+    "website": "https://kaaosteoria.fi/cardano-ada-esittely-opas-skaalautuvaan-ekosysteemiin/",
+    "teamGithubURL": "",
+    "tags": ["tools", "finnish_lang_blog"]
+  },
+  {
+    "name": "Cardano SE",
+    "website": "https://cardano.se/nyheter/",
+    "teamGithubURL": "",
+    "tags": ["tools", "swedish_lang_blog"]
+  },
+  {
+    "name": "Cardanoism",
+    "website": "https://cardanoism.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "japanese_lang_blog"]
+  },
+  {
+    "name": "Intersec Jp",
+    "website": "https://intersectmbo.jp/",
+    "teamGithubURL": "",
+    "tags": ["tools", "japanese_lang_blog"]
+  },
+  {
+    "name": "Sip Tokyo",
+    "website": "https://sipo.tokyo/",
+    "teamGithubURL": "",
+    "tags": ["tools", "japanese_lang_blog"]
   },
   {
     "name": "Cardano Stack Exchange",

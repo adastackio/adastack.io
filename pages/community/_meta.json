@@ -19,6 +19,16 @@
       "pagination": false
     }
   },
+  "news_and_blogs_international": {
+    "title": "News & Blogs — International",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "youtube": {
     "title": "YouTube",
     "theme": {
@@ -30,7 +40,7 @@
     }
   },
   "youtube_international": {
-    "title": "YouTube International",
+    "title": "YouTube — International",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
