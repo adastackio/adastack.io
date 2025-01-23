@@ -24,15 +24,15 @@
     "tags": ["organization"]
   },
   {
-    "name": "Cardano Scaling",
-    "website": "https://cardano-scaling.org/",
-    "teamGithubURL": "https://github.com/cardano-scaling",
-    "tags": ["organization"]
-  },
-  {
     "name": "Pragma",
     "website": "https://pragma.io/",
     "teamGithubURL": "https://github.com/pragma-org",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano Scaling",
+    "website": "https://cardano-scaling.org/",
+    "teamGithubURL": "https://github.com/cardano-scaling",
     "tags": ["organization"]
   },
   {
@@ -297,6 +297,12 @@
     "name": "Single Pool Alliance",
     "website": "https://singlepoolalliance.net/",
     "teamGithubURL": "https://github.com/SinglePoolAlliance",
+    "tags": ["organization"]
+  },
+  {
+    "name": "West Africa Decentralized Alliance (WADA)",
+    "website": "https://www.wada.org/",
+    "teamGithubURL": "",
     "tags": ["organization"]
   },
   {
@@ -717,7 +723,7 @@
     "name": "Free Honey",
     "website": "https://github.com/free-honey",
     "teamGithubURL": "https://github.com/free-honey",
-    "tags": ["organization"]
+    "tags": ["tools"]
   },
   {
     "name": "Adabox.io",
@@ -744,27 +750,15 @@
     "tags": ["organization"]
   },
   {
-    "name": "Mission Driven Pools",
-    "website": "https://missiondrivenpools.org/",
-    "teamGithubURL": "https://github.com/CardanoMDP",
-    "tags": ["organization"]
-  },
-  {
-    "name": "xSPO Alliance",
-    "website": "https://www.xspo-alliance.org/",
-    "teamGithubURL": "https://github.com/xSPO-Alliance",
-    "tags": ["organization"]
-  },
-  {
-    "name": "SPO Japan Guild",
-    "website": "https://spojapanguild.net/",
-    "teamGithubURL": "https://github.com/btbf",
-    "tags": ["organization"]
-  },
-  {
     "name": "Aldea DAO",
     "website": "https://aldea-dao.org/",
     "teamGithubURL": "https://github.com/ALDEA-DAO",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano Blockchain Infrastructure Alliance",
+    "website": "https://cbia.io/",
+    "teamGithubURL": "",
     "tags": ["organization"]
   },
   {
@@ -1128,6 +1122,36 @@
     "tags": ["organization"]
   },
   {
+    "name": "The Proof of Stake Alliance",
+    "website": "https://www.proofofstakealliance.org/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Catalyst Network",
+    "website": "https://docs.projectcatalyst.io/current-fund/general-information/catalyst-network",
+    "teamGithubURL": "https://github.com/Project-Catalyst",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Blockchain Game Alliance",
+    "website": "https://blockchaingamealliance.net/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Hyperledger Foundation",
+    "website": "https://www.hyperledger.org/",
+    "teamGithubURL": "https://github.com/hyperledger",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano Confederation",
+    "website": "https://www.cardanoconfederation.org/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
     "name": "Adadomains.io",
     "website": "https://www.adadomains.io/",
     "teamGithubURL": "https://github.com/adadomains",
@@ -1209,6 +1233,12 @@
     "name": "WIMs",
     "website": "https://cardano.wims.io/",
     "teamGithubURL": "https://github.com/wimsio",
+    "tags": ["organization"]
+  },
+  {
+    "name": "UTXO Alliance",
+    "website": "https://utxo-alliance.org",
+    "teamGithubURL": "",
     "tags": ["organization"]
   },
   {
@@ -1299,6 +1329,12 @@
     "name": "Cardano Atlantic Council",
     "website": "https://atlanticcouncil.cc/",
     "teamGithubURL": "https://github.com/Cardano-Atlantic-Council",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano4Good",
+    "website": "https://cardano4good.net/",
+    "teamGithubURL": "",
     "tags": ["organization"]
   },
   {
@@ -1419,6 +1455,24 @@
     "name": "Yepple",
     "website": "https://blockchain.yepple.io/",
     "teamGithubURL": "https://github.com/YeppleInc",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "PaskLab Technologies",
+    "website": "http://pasklab.com",
+    "teamGithubURL": "https://github.com/PaskLab",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Baires Dev",
+    "website": "https://www.bairesdev.com/",
+    "teamGithubURL": "https://github.com/bairesdev",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "IntelliSoftAlpin",
+    "website": "https://intellisoftalpin.com/",
+    "teamGithubURL": "https://github.com/intellisoftalpin",
     "tags": ["dev_company"]
   },
   {
