@@ -750,12 +750,6 @@
     "tags": ["organization"]
   },
   {
-    "name": "Aldea DAO",
-    "website": "https://aldea-dao.org/",
-    "teamGithubURL": "https://github.com/ALDEA-DAO",
-    "tags": ["organization"]
-  },
-  {
     "name": "Cardano Blockchain Infrastructure Alliance",
     "website": "https://cbia.io/",
     "teamGithubURL": "",
@@ -978,7 +972,7 @@
     "tags": ["organization"]
   },
   {
-    "name": "Quality Assurance DAO",
+    "name": "Quality Assurance",
     "website": "https://quality-assurance-dao.github.io/",
     "teamGithubURL": "https://github.com/Quality-Assurance-DAO",
     "tags": ["organization"]
@@ -1833,7 +1827,7 @@
     "name": "Aldea Latin America DAO",
     "website": "https://aldea-dao.org",
     "teamGithubURL": "https://github.com/ALDEA-DAO",
-    "tags": ["organization", "stake_pool_alliance"]
+    "tags": ["stake_pool_alliance"]
   },
   {
     "name": "StakePool Operator Tools Alliance",
