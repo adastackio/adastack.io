@@ -1029,7 +1029,13 @@
     "name": "Reach your People",
     "website": "https://www.ryp.io/",
     "teamGithubURL": "https://github.com/nilscodes/",
-    "tags": ["dapp"]
+    "tags": ["dapp", "dao_explorer"]
+  },
+  {
+    "name": "Summon Platform",
+    "website": "https://summonplatform.io/",
+    "teamGithubURL": "https://github.com/ADAO-Summon",
+    "tags": ["tools", "dao_explorer"]
   },
   {
     "name": "Trustlevel",
@@ -1084,6 +1090,12 @@
     "website": "https://fida.finance/",
     "teamGithubURL": "https://github.com/fida-services",
     "tags": ["dapp"]
+  },
+  {
+    "name": "BuiltOnCardano DAO Explorer",
+    "website": "https://builtoncardano.com/ecosystem/dao",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dao_explorer"]
   },
   {
     "name": "CardanoPress",
@@ -1362,12 +1374,6 @@
     "tags": ["tools"]
   },
   {
-    "name": "Summon",
-    "website": "https://summonplatform.io/",
-    "teamGithubURL": "https://github.com/ADAO-Summon",
-    "tags": ["tools"]
-  },
-  {
     "name": "Cardano for the Masses",
     "website": "https://cardanobook.com/",
     "teamGithubURL": "https://github.com/johnnygreeney",
@@ -1588,6 +1594,12 @@
     "website": "https://www.cardanocube.com/cardano-ecosystem-interactive-map",
     "teamGithubURL": "",
     "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
+  },
+  {
+    "name": "Clarity",
+    "website": "https://www.clarity.vote/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dao_explorer"]
   },
   {
     "name": "Built on Cardano",
