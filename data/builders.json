@@ -672,6 +672,18 @@
     "tags": ["dapp", "nft_marketplace"]
   },
   {
+    "name": "Trading Tent",
+    "website": "https://www.tradingtent.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_p2p_trading"]
+  },
+  {
+    "name": "Atomic Swap",
+    "website": "https://atomic-swap.io/",
+    "teamGithubURL": "https://github.com/honungsburk",
+    "tags": ["dapp", "nft_p2p_trading"]
+  },
+  {
     "name": "Empowa",
     "website": "https://empowa.io/",
     "teamGithubURL": "https://github.com/empowa-io",
