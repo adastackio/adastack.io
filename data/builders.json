@@ -138,10 +138,10 @@
     "tags": ["tools"]
   },
   {
-    "name": "ADAO Community",
-    "website": "http://www.theADAO.io/",
+    "name": "ADAO",
+    "website": "https://adao.arweave.dev/",
     "teamGithubURL": "https://github.com/ADAOcommunity",
-    "tags": ["organization"]
+    "tags": ["organization", "dao_management_software"]
   },
   {
     "name": "SpaceBudz",
@@ -1035,7 +1035,7 @@
     "name": "Summon Platform",
     "website": "https://summonplatform.io/",
     "teamGithubURL": "https://github.com/ADAO-Summon",
-    "tags": ["tools", "dao_explorer"]
+    "tags": ["tools", "dao_explorer", "dao_management_software"]
   },
   {
     "name": "Trustlevel",
@@ -1287,7 +1287,7 @@
     "name": "Paideia",
     "website": "https://www.paideia.im/",
     "teamGithubURL": "https://github.com/paideiadao/",
-    "tags": ["tools"]
+    "tags": ["tools", "dao_management_software"]
   },
   {
     "name": "Drunken Dragon Games",
@@ -1599,7 +1599,43 @@
     "name": "Clarity",
     "website": "https://www.clarity.vote/",
     "teamGithubURL": "",
-    "tags": ["dapp", "dao_explorer"]
+    "tags": ["dapp", "dao_explorer", "dao_management_software"]
+  },
+  {
+    "name": "Tempo",
+    "website": "https://tempo.vote/dao",
+    "teamGithubURL": "",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "Agora",
+    "website": "https://github.com/Liqwid-Labs/agora",
+    "teamGithubURL": "https://github.com/Liqwid-Labs/",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "SundaeSwap Governance",
+    "website": "https://services.sundaeswap.finance/",
+    "teamGithubURL": "https://github.com/SundaeSwap-finance",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "CF Cardano Ballot",
+    "website": "https://github.com/cardano-foundation/cf-cardano-ballot",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "CardanoPress Governance",
+    "website": "https://cardanopress.io/products/governance/",
+    "teamGithubURL": "https://github.com/cardanopress",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "Wing Riders DAO Framework",
+    "website": "https://github.com/WingRiders/on-chain-dao-governance",
+    "teamGithubURL": "https://github.com/WingRiders/",
+    "tags": ["tools", "dao_management_software"]
   },
   {
     "name": "Built on Cardano",
