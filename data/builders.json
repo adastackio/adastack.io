@@ -267,7 +267,7 @@
     "name": "JPG Store",
     "website": "https://www.jpg.store/",
     "teamGithubURL": "https://github.com/jpg-store",
-    "tags": ["dapp"]
+    "tags": ["dapp", "nft_marketplace"]
   },
   {
     "name": "Mutual Knowledge",
@@ -310,12 +310,6 @@
     "website": "https://sidan.io/",
     "teamGithubURL": "https://github.com/sidan-lab",
     "tags": ["dev_company"]
-  },
-  {
-    "name": "Artano",
-    "website": "https://artano.io",
-    "teamGithubURL": "https://github.com/artano-io",
-    "tags": ["dapp"]
   },
   {
     "name": "UpToDate Developers",
@@ -615,13 +609,31 @@
     "name": "Kreate Art",
     "website": "https://kreate.community/",
     "teamGithubURL": "https://github.com/kreate-art",
-    "tags": ["dapp"]
+    "tags": ["dapp", "nft_marketplace"]
   },
   {
     "name": "Jam on Bread",
     "website": "https://jamonbread.io/",
     "teamGithubURL": "https://github.com/JamOnBread",
-    "tags": ["dapp"]
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Flipr",
+    "website": "https://flipr.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Dropspot",
+    "website": "https://dropspot.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Saturn NFT",
+    "website": "https://saturnnft.io/",
+    "teamGithubURL": "https://github.com/Orion-Crypto",
+    "tags": ["dapp", "nft_marketplace"]
   },
   {
     "name": "SaturnSwap",
@@ -643,15 +655,21 @@
   },
   {
     "name": "CSwap DEX",
-    "website": "https://cswap.fi/",
+    "website": "https://app.cswap.fi/",
     "teamGithubURL": "https://github.com/cswapsystems",
-    "tags": ["dapp"]
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "WayUp",
+    "website": "https://www.wayup.io/",
+    "teamGithubURL": "https://github.com/Cardano-Forge",
+    "tags": ["dapp", "nft_marketplace"]
   },
   {
     "name": "Token Riot",
     "website": "https://tokenriot.io/",
     "teamGithubURL": "https://github.com/TokenRiot",
-    "tags": ["dapp"]
+    "tags": ["dapp", "nft_marketplace"]
   },
   {
     "name": "Empowa",
@@ -1071,7 +1089,37 @@
     "name": "Crashr",
     "website": "https://www.crashr.io/",
     "teamGithubURL": "https://github.com/Crashr-io",
-    "tags": ["tools"]
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Blockgen Art",
+    "website": "https://www.blockgen.art/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Grabbit Market",
+    "website": "https://grabbit.market/",
+    "teamGithubURL": "https://github.com/ikigai-github",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Cardahub",
+    "website": "https://cardahub.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Arkhouse Gallery",
+    "website": "https://www.arkhouse.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Artano",
+    "website": "https://artano.io",
+    "teamGithubURL": "https://github.com/artano-io",
+    "tags": ["dapp", "nft_marketplace"]
   },
   {
     "name": "Yepple",
