@@ -1851,7 +1851,7 @@
     "name": "Edinburgh Decentralization Index",
     "website": "http://blockchainlab.inf.ed.ac.uk/edi-dashboard",
     "teamGithubURL": "https://github.com/Blockchain-Technology-Lab",
-    "tags": ["tools", "metric_tracker_site"]
+    "tags": ["tools", "metric_tracker_site", "decentralization_index"]
   },
   {
     "name": "Pooltool Network Health",
@@ -3244,12 +3244,6 @@
     "website": "https://app.santiment.net/labs/trends/explore/cardano",
     "teamGithubURL": "https://github.com/santiment",
     "tags": ["tools", "social_metrics"]
-  },
-  {
-    "name": "Edinburgh Decentralization Index",
-    "website": "http://blockchainlab.inf.ed.ac.uk/edi-dashboard/",
-    "teamGithubURL": "https://blockchainlab.inf.ed.ac.uk/edi-dashboard/",
-    "tags": ["tools", "decentralization_index"]
   },
   {
     "name": "Cexplorer Node Distribution",
