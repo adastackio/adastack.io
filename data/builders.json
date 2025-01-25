@@ -39,7 +39,7 @@
     "name": "TxPipe",
     "website": "https://txpipe.io/",
     "teamGithubURL": "https://github.com/txpipe",
-    "tags": ["dev_company", "audits"]
+    "tags": ["dev_company", "audit_company"]
   },
   {
     "name": "Aiken",
@@ -57,7 +57,7 @@
     "name": "Anastasia Labs",
     "website": "https://anastasialabs.com/",
     "teamGithubURL": "https://github.com/Anastasia-Labs",
-    "tags": ["dev_company", "audits"]
+    "tags": ["dev_company", "audit_company"]
   },
   {
     "name": "Blockfrost.io",
@@ -99,13 +99,13 @@
     "name": "Vacuumlabs",
     "website": "https://vacuumlabs.com/",
     "teamGithubURL": "https://github.com/vacuumlabs",
-    "tags": ["dev_company", "audits"]
+    "tags": ["dev_company", "audit_company"]
   },
   {
     "name": "Sundae Labs",
     "website": "https://sundae.fi/",
     "teamGithubURL": "https://github.com/SundaeSwap-finance",
-    "tags": ["dapp", "dev_company", "audits"]
+    "tags": ["dapp", "dev_company", "audit_company"]
   },
   {
     "name": "Dquadrant",
@@ -123,7 +123,7 @@
     "name": "Mlabs",
     "website": "https://mlabs.city/",
     "teamGithubURL": "https://github.com/mlabs-haskell",
-    "tags": ["dev_company", "audits"]
+    "tags": ["dev_company", "audit_company"]
   },
   {
     "name": "Five Binaries",
@@ -153,7 +153,7 @@
     "name": "Tweag",
     "website": "https://www.tweag.io/",
     "teamGithubURL": "https://github.com/tweag",
-    "tags": ["dev_company", "audits"]
+    "tags": ["dev_company", "audit_company"]
   },
   {
     "name": "Galois",
@@ -177,7 +177,7 @@
     "name": "Obsidian Systems",
     "website": "https://obsidian.systems/",
     "teamGithubURL": "https://github.com/obsidiansystems",
-    "tags": ["dev_company", "audits"]
+    "tags": ["dev_company", "audit_company"]
   },
   {
     "name": "Butane",
@@ -417,7 +417,7 @@
     "name": "Ikigai Tech",
     "website": "https://ikigaitech.org/",
     "teamGithubURL": "https://github.com/ikigai-github",
-    "tags": ["dev_company", "audits"]
+    "tags": ["dev_company", "audit_company"]
   },
   {
     "name": "Plank",
@@ -831,13 +831,13 @@
     "name": "Runtime Verification",
     "website": "https://runtimeverification.com/",
     "teamGithubURL": "https://github.com/runtimeverification/",
-    "tags": ["audits"]
+    "tags": ["audit_company"]
   },
   {
     "name": "CertiK",
     "website": "http://certik.com",
     "teamGithubURL": "https://github.com/CertiKProject",
-    "tags": ["audits"]
+    "tags": ["audit_company"]
   },
   {
     "name": "Hachi Security",

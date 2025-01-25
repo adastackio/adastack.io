@@ -330,7 +330,7 @@ const OpenSourceBuildersTable = ({ data }) => {
         },
         {
           text: "Audits",
-          value: "audits",
+          value: "audit_company",
         },
         {
           text: "Tools",
