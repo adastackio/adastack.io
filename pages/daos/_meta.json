@@ -10,7 +10,7 @@
     }
   },
   "dao_explorers": {
-    "title": "DAO Explorers  ",
+    "title": "DAO Explorers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
