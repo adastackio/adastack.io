@@ -723,19 +723,385 @@
     "name": "Cornucopias",
     "website": "https://www.cornucopias.io/",
     "teamGithubURL": "https://github.com/Cornucopias",
-    "tags": ["dapp"]
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Chains of War",
+    "website": "https://www.chainsofwar.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Fluxpoint PFP Pit Brawl",
+    "website": "https://fluxpointstudios.com/games/pitbrawl",
+    "teamGithubURL": "https://github.com/Flux-Point-Studios",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Chronoshot",
+    "website": "https://rflxt.com/game-sites/chronoshot",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "RFLXT Voyager Ascension",
+    "website": "https://rflxt.com/game-sites/voyager",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Mocossi",
+    "website": "https://mocossi.com/",
+    "teamGithubURL": "https://github.com/officialmocossi",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Pxlwars",
+    "website": "https://www.pxlwars.com/",
+    "teamGithubURL": "https://github.com/DEADPXLZ",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Ascent Rivals",
+    "website": "https://www.ascentrivals.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Eternals: Rise of the Overworld",
+    "website": "https://eternalsgame.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Virtua",
+    "website": "https://virtua.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Claymates",
+    "website": "https://www.claynation.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
   },
   {
     "name": "FutureFest",
     "website": "https://www.futurefest.io/",
     "teamGithubURL": "https://github.com/FutureFest",
-    "tags": ["dapp"]
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Carda Station",
+    "website": "https://www.cardastation.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "game"]
+  },
+  {
+    "name": "Sophiaverse",
+    "website": "https://www.sophiaverse.ai/",
+    "teamGithubURL": "https://github.com/singnet",
+    "tags": ["dapp", "game"]
   },
   {
     "name": "Enter the Mandala",
     "website": "https://enterthemandala.app/",
     "teamGithubURL": "https://github.com/mandalaverse",
-    "tags": ["dapp"]
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Boss Planet",
+    "website": "https://bossplanet.games/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "The Cardanoverse",
+    "website": "http://thecardanoverse.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Streaks Game Predictions by CNFT",
+    "website": "https://streaks.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Bettting ADA",
+    "website": "https://betttingada.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Danzo casino",
+    "website": "https://www.danzo.gg/#/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Cpoker.pro",
+    "website": "http://cpoker.pro",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Cardanocasino.vip",
+    "website": "https://cardanocasino.vip/",
+    "teamGithubURL": "https://github.com/cardanocasinovip",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Gaming-Snek Raffle",
+    "website": "https://gaming-snek.com/raffle",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "VyFi Lottery",
+    "website": "https://app.vyfi.io/lottery",
+    "teamGithubURL": "https://github.com/vyfi",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Mutant NFTs Raffle",
+    "website": "https://labs.mutant-nft.com/raffles",
+    "teamGithubURL": "https://github.com/MutantNFTs",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Miverse",
+    "website": "https://miverse.io/",
+    "teamGithubURL": "https://github.com/MiverseGame",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Goombles",
+    "website": "https://www.goombles.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Tavern Squad",
+    "website": "https://tavernsquad.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Cardano Warriors",
+    "website": "https://cardanowarriors.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Mad Dog Car Club",
+    "website": "https://maddogcarclub.io",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Battle Alliance",
+    "website": "https://battlealliance.io",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Realm of Titans",
+    "website": "https://www.rotitans.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Stellar Hood",
+    "website": "https://stellarhood.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Tetrano",
+    "website": "https://www.tetrano.net/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Machiavellic",
+    "website": "https://machiavellic.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Cardano Crocs Club",
+    "website": "https://cportal.io/croc-store/all-categories",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Slap Ventures",
+    "website": "https://slapventures.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "PlayerMint",
+    "website": "https://www.playermint.com",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Hell Hyena Motorcycle Club",
+    "website": "https://hhmc.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Rookiez",
+    "website": "https://rookiez.org",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Equine",
+    "website": "https://www.equine.gg/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "CryptoRaggies",
+    "website": "https://cryptoraggies.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Star Atlas",
+    "website": "https://staratlas.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Cyberverse",
+    "website": "https://playcyberverse.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Goldmine Arcade",
+    "website": "https://www.digitalgoldecosystem.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "SpeedThrone",
+    "website": "https://speedthrone.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Khaos Factions",
+    "website": "https://factions.worldswithin.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Cardano Lands",
+    "website": "https://cardanolands.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Tarochi",
+    "website": "https://tarochi.paimastudios.com/",
+    "teamGithubURL": "https://github.com/PaimaStudios",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Lovelace Saga",
+    "website": "https://lovelacesaga.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "ADA Quest",
+    "website": "https://www.ada-quest.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Snek Game",
+    "website": "https://gaming-snek.com/snek-game",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Virtua Jetpack League",
+    "website": "https://play.virtua.com/jetpack",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Chibidango Heroes",
+    "website": "https://chibidangoheroes.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Cardano Racers",
+    "website": "https://www.cardanoracers.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Bankopoly",
+    "website": "https://bankopoly.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Quest",
+    "website": "https://www.questgold.online/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Cardania",
+    "website": "https://cardania.com/",
+    "teamGithubURL": "https://github.com/cardania",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Adania",
+    "website": "https://adania.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Wolves of Rome",
+    "website": "https://wolvesofrome.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Psychoz",
+    "website": "https://psychoz.cards/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Astraeus Cards",
+    "website": "https://astraeus.cards/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Wargrum",
+    "website": "https://www.wargrum.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Tier One Combat",
+    "website": "https://tieronecombat.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game"]
   },
   {
     "name": "Alethea.io",
