@@ -1952,7 +1952,7 @@
   {
     "name": "Cardano Blockchain Insights",
     "website": "https://lookerstudio.google.com/s/huXqeQmi9qA",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "metric_tracker_site"]
   },
   {
@@ -3026,31 +3026,31 @@
   {
     "name": "Daily Transactions",
     "website": "https://lookerstudio.google.com/s/r-x_IbY41mY",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "transaction_metrics"]
   },
   {
     "name": "Epoch Transactions 1",
     "website": "https://lookerstudio.google.com/s/i1ovIilH5gY",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "transaction_metrics"]
   },
   {
     "name": "Epoch Transactions 2",
     "website": "https://lookerstudio.google.com/s/pw0_jGTWlcs",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "transaction_metrics"]
   },
   {
     "name": "Epoch Transactions 3",
     "website": "https://lookerstudio.google.com/s/l-enmJx8O8c",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "transaction_metrics"]
   },
   {
     "name": "Block Saturation Metrics",
     "website": "https://lookerstudio.google.com/s/sVOfkq0gl1o",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "blockspace_metrics"]
   },
   {
@@ -3122,7 +3122,7 @@
   {
     "name": "Cardano dApp TVL Rankings",
     "website": "https://lookerstudio.google.com/s/kpmEIAO1Qiw",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "dapp_tvl_metrics"]
   },
   {
@@ -3266,7 +3266,7 @@
   {
     "name": "Cardano New Smart Contracts",
     "website": "https://lookerstudio.google.com/s/v2mPjKyMK00",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "smart_contract_metrics"]
   },
   {
@@ -3278,7 +3278,7 @@
   {
     "name": "Cardano Network Fees",
     "website": "https://lookerstudio.google.com/s/gx8f-az2E9o",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "fee_metrics"]
   },
   {
@@ -3290,7 +3290,7 @@
   {
     "name": "Cardano Pool Fees and ROI",
     "website": "https://lookerstudio.google.com/s/lFEdCKh30Kk",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "fee_metrics"]
   },
   {
@@ -3326,7 +3326,7 @@
   {
     "name": "Cardano Energy Analysis",
     "website": "https://lookerstudio.google.com/s/nFWDaZS8yWU",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "energy_metrics"]
   },
   {
@@ -3344,7 +3344,7 @@
   {
     "name": "Cardano Social Activity",
     "website": "https://lookerstudio.google.com/s/kSD1cN_TrrA",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "social_metrics"]
   },
   {
@@ -3362,7 +3362,7 @@
   {
     "name": "Cardano Geographic Distribution",
     "website": "https://lookerstudio.google.com/s/m24jHTNX1DM",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "node_distribution_metrics"]
   },
   {
@@ -3392,7 +3392,7 @@
   {
     "name": "Cardano ISP Distribution",
     "website": "https://lookerstudio.google.com/s/m24jHTNX1DM",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "isp_diversity_metrics"]
   },
   {
@@ -3416,7 +3416,7 @@
   {
     "name": "Cardano Version Distribution",
     "website": "https://lookerstudio.google.com/s/ptQ2TyzLyog",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "node_version_metrics"]
   },
   {
@@ -3428,7 +3428,7 @@
   {
     "name": "Cardano Ledger Size in Bytes",
     "website": "https://lookerstudio.google.com/s/rkbL4boJKeY",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "node_storage_metrics"]
   },
   {
@@ -3464,25 +3464,25 @@
   {
     "name": "Cardano Daily Staking",
     "website": "https://lookerstudio.google.com/s/ngjdnF7UcC0",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "staking_metrics"]
   },
   {
     "name": "Cardano Epoch Staking",
     "website": "https://lookerstudio.google.com/s/jPLgGGDCuww",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "staking_metrics"]
   },
   {
     "name": "CBI Epoch Pool Stats 1",
     "website": "https://lookerstudio.google.com/s/tfLPyoVjJG0",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "staking_metrics"]
   },
   {
     "name": "CBI Epoch Pool Stats 2",
     "website": "https://lookerstudio.google.com/s/lFEdCKh30Kk",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "staking_metrics"]
   },
   {
@@ -3494,7 +3494,7 @@
   {
     "name": "CBI Block Analysis",
     "website": "https://lookerstudio.google.com/s/nwBRCIaRdRQ",
-    "teamGithubURL": "https://github.com/matiwinnetou",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "block_production_metrics"]
   },
   {
