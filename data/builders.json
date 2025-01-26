@@ -465,7 +465,7 @@
     "name": "Bodega Market",
     "website": "https://bodegamarket.xyz/",
     "teamGithubURL": "https://github.com/bodega-market",
-    "tags": ["dapp"]
+    "tags": ["dapp", "game"]
   },
   {
     "name": "Profila",
@@ -573,7 +573,7 @@
     "name": "Foreon Network",
     "website": "https://foreon.network/",
     "teamGithubURL": "https://github.com/Foreon-Network",
-    "tags": ["dapp"]
+    "tags": ["dapp", "game"]
   },
   {
     "name": "Nova Finance",
