@@ -11,17 +11,26 @@ interface Project {
 
 interface DefaultDataTableProps {
   projects: Project[];
-  filterBy?: string;
+  filterBy?: string | string[];
 }
 
 const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
   projects = [],
-  filterBy,
+  filterBy = [],
 }) => {
-  // Filter projects by tags if filterBy is provided
-  const filteredProjects = filterBy
-    ? projects.filter((project) => project.tags?.includes(filterBy))
-    : projects;
+  // Convert filterBy to array if it's a string
+  const filterArray = Array.isArray(filterBy)
+    ? filterBy
+    : [filterBy].filter(Boolean);
+
+  // Filter projects by tags
+  const filteredProjects =
+    filterArray.length > 0
+      ? projects.filter((project) =>
+          // Check if project.tags exists and has at least one matching tag
+          project.tags?.some((tag) => filterArray.includes(tag))
+        )
+      : projects;
 
   // Sort projects by GitHub presence
   const sortedProjects = filteredProjects.sort((a, b) => {
