@@ -10,7 +10,7 @@
     }
   },
   "all_games": {
-    "title": "All Games  ",
+    "title": "All Games",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
