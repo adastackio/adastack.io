@@ -3024,31 +3024,31 @@
     "tags": ["tools", "transaction_metrics"]
   },
   {
-    "name": "Daily Transactions",
+    "name": "CBI Daily Transactions",
     "website": "https://lookerstudio.google.com/s/r-x_IbY41mY",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "transaction_metrics"]
   },
   {
-    "name": "Epoch Transactions 1",
+    "name": "CBI Epoch Transactions 1",
     "website": "https://lookerstudio.google.com/s/i1ovIilH5gY",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "transaction_metrics"]
   },
   {
-    "name": "Epoch Transactions 2",
+    "name": "CBI Epoch Transactions 2",
     "website": "https://lookerstudio.google.com/s/pw0_jGTWlcs",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "transaction_metrics"]
   },
   {
-    "name": "Epoch Transactions 3",
+    "name": "CBI Epoch Transactions 3",
     "website": "https://lookerstudio.google.com/s/l-enmJx8O8c",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "transaction_metrics"]
   },
   {
-    "name": "Block Saturation Metrics",
+    "name": "CBI Block Saturation Metrics",
     "website": "https://lookerstudio.google.com/s/sVOfkq0gl1o",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "blockspace_metrics"]
@@ -3120,7 +3120,7 @@
     "tags": ["tools", "dapp_tvl_metrics"]
   },
   {
-    "name": "Cardano dApp TVL Rankings",
+    "name": "CBI Cardano dApp TVL Rankings",
     "website": "https://lookerstudio.google.com/s/kpmEIAO1Qiw",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "dapp_tvl_metrics"]
@@ -3264,7 +3264,7 @@
     "tags": ["tools", "smart_contract_metrics"]
   },
   {
-    "name": "Cardano New Smart Contracts",
+    "name": "CBI New Smart Contracts",
     "website": "https://lookerstudio.google.com/s/v2mPjKyMK00",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "smart_contract_metrics"]
@@ -3276,7 +3276,7 @@
     "tags": ["tools", "fee_metrics"]
   },
   {
-    "name": "Cardano Network Fees",
+    "name": "CBI Network Fees",
     "website": "https://lookerstudio.google.com/s/gx8f-az2E9o",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "fee_metrics"]
@@ -3288,7 +3288,7 @@
     "tags": ["tools", "fee_metrics"]
   },
   {
-    "name": "Cardano Pool Fees and ROI",
+    "name": "CBI Pool Fees and ROI",
     "website": "https://lookerstudio.google.com/s/lFEdCKh30Kk",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "fee_metrics"]
@@ -3324,7 +3324,7 @@
     "tags": ["tools", "energy_metrics"]
   },
   {
-    "name": "Cardano Energy Analysis",
+    "name": "CBI Energy Analysis",
     "website": "https://lookerstudio.google.com/s/nFWDaZS8yWU",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "energy_metrics"]
@@ -3342,7 +3342,7 @@
     "tags": ["tools", "social_metrics"]
   },
   {
-    "name": "Cardano Social Activity",
+    "name": "CBI Cardano Social Activity",
     "website": "https://lookerstudio.google.com/s/kSD1cN_TrrA",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "social_metrics"]
@@ -3360,7 +3360,7 @@
     "tags": ["tools", "node_distribution_metrics"]
   },
   {
-    "name": "Cardano Geographic Distribution",
+    "name": "CBI Geographic Distribution",
     "website": "https://lookerstudio.google.com/s/m24jHTNX1DM",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "node_distribution_metrics"]
@@ -3390,7 +3390,7 @@
     "tags": ["tools", "isp_diversity_metrics"]
   },
   {
-    "name": "Cardano ISP Distribution",
+    "name": "CBI ISP Distribution",
     "website": "https://lookerstudio.google.com/s/m24jHTNX1DM",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "isp_diversity_metrics"]
@@ -3414,7 +3414,7 @@
     "tags": ["tools", "node_version_metrics"]
   },
   {
-    "name": "Cardano Version Distribution",
+    "name": "CBI Version Distribution",
     "website": "https://lookerstudio.google.com/s/ptQ2TyzLyog",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "node_version_metrics"]
@@ -3426,7 +3426,7 @@
     "tags": ["tools", "node_storage_metrics"]
   },
   {
-    "name": "Cardano Ledger Size in Bytes",
+    "name": "CBI Ledger Size in Bytes",
     "website": "https://lookerstudio.google.com/s/rkbL4boJKeY",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "node_storage_metrics"]
@@ -3462,13 +3462,13 @@
     "tags": ["tools", "staking_metrics"]
   },
   {
-    "name": "Cardano Daily Staking",
+    "name": "CBI Daily Staking",
     "website": "https://lookerstudio.google.com/s/ngjdnF7UcC0",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "staking_metrics"]
   },
   {
-    "name": "Cardano Epoch Staking",
+    "name": "CBI Epoch Staking",
     "website": "https://lookerstudio.google.com/s/jPLgGGDCuww",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "staking_metrics"]
