@@ -813,41 +813,35 @@
     "name": "Foreon Network",
     "website": "https://foreon.network/",
     "teamGithubURL": "https://github.com/Foreon-Network",
-    "tags": ["dapp", "game", "gambling"]
+    "tags": ["dapp", "game", "prediction"]
   },
   {
     "name": "Bodega Market",
     "website": "https://bodegamarket.xyz/",
     "teamGithubURL": "https://github.com/bodega-market",
-    "tags": ["dapp", "game", "gambling"]
+    "tags": ["dapp", "game", "prediction"]
   },
   {
     "name": "Ridotto",
     "website": "https://ridotto.io/",
     "teamGithubURL": "https://github.com/ridotto-io",
-    "tags": ["dapp", "game", "gambling"]
+    "tags": ["dapp", "game", "gambling", "prediction"]
   },
   {
     "name": "Streaks Game Predictions by CNFT",
     "website": "https://streaks.io/",
     "teamGithubURL": "",
-    "tags": ["dapp", "game", "gambling"]
+    "tags": ["dapp", "game", "prediction"]
   },
   {
     "name": "Bettting ADA",
     "website": "https://betttingada.com/",
     "teamGithubURL": "",
-    "tags": ["dapp", "game", "gambling"]
+    "tags": ["dapp", "game", "prediction"]
   },
   {
     "name": "Danzo casino",
     "website": "https://www.danzo.gg/#/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "game", "gambling"]
-  },
-  {
-    "name": "Cpoker.pro",
-    "website": "http://cpoker.pro",
     "teamGithubURL": "",
     "tags": ["dapp", "game", "gambling"]
   },
