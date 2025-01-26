@@ -19,7 +19,7 @@
       "pagination": false
     }
   },
-  "prediction_and_gambling": {
+  "gambling": {
     "title": "Prediction & Gambling",
     "theme": {
       "breadcrumb": true,
