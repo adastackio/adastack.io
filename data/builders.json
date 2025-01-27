@@ -1104,6 +1104,78 @@
     "tags": ["dapp", "game"]
   },
   {
+    "name": "Flux Point Studio",
+    "website": "https://fluxpointstudios.com/",
+    "teamGithubURL": "https://github.com/Flux-Point-Studios",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Banana Clip Studios",
+    "website": "https://www.bananaclip.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Paima Studios",
+    "website": "https://www.paimastudios.com/",
+    "teamGithubURL": "https://github.com/PaimaStudios",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "RFLXT",
+    "website": "https://rflxt.com/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Dega",
+    "website": "https://www.dega.org/",
+    "teamGithubURL": "https://github.com/DEGAorg",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "WAGMI Games",
+    "website": "https://www.wagmigame.io/",
+    "teamGithubURL": "https://github.com/wagmigame",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Pixel Cab Games",
+    "website": "https://pixelcabgames.com/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "WildSnake Software",
+    "website": "https://www.wildsnake.com/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Risk Gaming",
+    "website": "https://riskgaming.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Tavern Squad Studios",
+    "website": "https://tavernsquad.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "SuraLabs Gaming",
+    "website": "https://suralabs.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Battle Alliance",
+    "website": "https://battlealliance.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
     "name": "Alethea.io",
     "website": "https://alethea.io/",
     "teamGithubURL": "https://github.com/alethea-io",
