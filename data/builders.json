@@ -1140,6 +1140,36 @@
     "tags": ["tools"]
   },
   {
+    "name": "BuiltOnCardano Games",
+    "website": "https://builtoncardano.com/ecosystem/games-and-gaming",
+    "teamGithubURL": "",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "Playtoearn.com Cardano",
+    "website": "https://playtoearn.com/blockchaingames/Cardano/All-Genre/All-Status/All-Device/All-NFT/All-PlayToEarn/All-FreeToPlay",
+    "teamGithubURL": "",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "Cardano.org Game Showcase",
+    "website": "https://developers.cardano.org/showcase/?tags=game",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "CardanoSpot Gaming Projects",
+    "website": "https://cardanospot.io/project-library/Gaming",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "DappRadar Games",
+    "website": "https://dappradar.com/rankings/protocol/cardano/category/games",
+    "teamGithubURL": "https://github.com/dappradar",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
     "name": "Littlefish Foundation",
     "website": "https://littlefish.foundation/",
     "teamGithubURL": "https://github.com/littlefish-foundation",
