@@ -810,66 +810,6 @@
     "tags": ["dapp", "game"]
   },
   {
-    "name": "Foreon Network",
-    "website": "https://foreon.network/",
-    "teamGithubURL": "https://github.com/Foreon-Network",
-    "tags": ["dapp", "game", "prediction"]
-  },
-  {
-    "name": "Bodega Market",
-    "website": "https://bodegamarket.xyz/",
-    "teamGithubURL": "https://github.com/bodega-market",
-    "tags": ["dapp", "game", "prediction"]
-  },
-  {
-    "name": "Ridotto",
-    "website": "https://ridotto.io/",
-    "teamGithubURL": "https://github.com/ridotto-io",
-    "tags": ["dapp", "game", "gambling", "prediction"]
-  },
-  {
-    "name": "Streaks Game Predictions by CNFT",
-    "website": "https://streaks.io/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "game", "prediction"]
-  },
-  {
-    "name": "Bettting ADA",
-    "website": "https://betttingada.com/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "game", "prediction"]
-  },
-  {
-    "name": "Danzo casino",
-    "website": "https://www.danzo.gg/#/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "game", "gambling"]
-  },
-  {
-    "name": "Cardanocasino.vip",
-    "website": "https://cardanocasino.vip/",
-    "teamGithubURL": "https://github.com/cardanocasinovip",
-    "tags": ["dapp", "game", "gambling"]
-  },
-  {
-    "name": "Gaming-Snek Raffle",
-    "website": "https://gaming-snek.com/raffle",
-    "teamGithubURL": "",
-    "tags": ["dapp", "game", "gambling"]
-  },
-  {
-    "name": "VyFi Lottery",
-    "website": "https://app.vyfi.io/lottery",
-    "teamGithubURL": "https://github.com/vyfi",
-    "tags": ["dapp", "game", "gambling"]
-  },
-  {
-    "name": "Mutant NFTs Raffle",
-    "website": "https://labs.mutant-nft.com/raffles",
-    "teamGithubURL": "https://github.com/MutantNFTs",
-    "tags": ["dapp", "game", "gambling"]
-  },
-  {
     "name": "Miverse",
     "website": "https://miverse.io/",
     "teamGithubURL": "https://github.com/MiverseGame",
@@ -1102,6 +1042,66 @@
     "website": "https://tieronecombat.io/",
     "teamGithubURL": "",
     "tags": ["dapp", "game"]
+  },
+  {
+    "name": "Foreon Network",
+    "website": "https://foreon.network/",
+    "teamGithubURL": "https://github.com/Foreon-Network",
+    "tags": ["dapp", "game", "prediction"]
+  },
+  {
+    "name": "Bodega Market",
+    "website": "https://bodegamarket.xyz/",
+    "teamGithubURL": "https://github.com/bodega-market",
+    "tags": ["dapp", "game", "prediction"]
+  },
+  {
+    "name": "Ridotto",
+    "website": "https://ridotto.io/",
+    "teamGithubURL": "https://github.com/ridotto-io",
+    "tags": ["dapp", "game", "gambling", "prediction"]
+  },
+  {
+    "name": "Streaks Game Predictions by CNFT",
+    "website": "https://streaks.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game", "prediction"]
+  },
+  {
+    "name": "Bettting ADA",
+    "website": "https://betttingada.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game", "prediction"]
+  },
+  {
+    "name": "Danzo casino",
+    "website": "https://www.danzo.gg/#/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game", "gambling"]
+  },
+  {
+    "name": "Cardanocasino.vip",
+    "website": "https://cardanocasino.vip/",
+    "teamGithubURL": "https://github.com/cardanocasinovip",
+    "tags": ["dapp", "game", "gambling"]
+  },
+  {
+    "name": "Gaming-Snek Raffle",
+    "website": "https://gaming-snek.com/raffle",
+    "teamGithubURL": "",
+    "tags": ["dapp", "game", "gambling"]
+  },
+  {
+    "name": "VyFi Lottery",
+    "website": "https://app.vyfi.io/lottery",
+    "teamGithubURL": "https://github.com/vyfi",
+    "tags": ["dapp", "game", "gambling"]
+  },
+  {
+    "name": "Mutant NFTs Raffle",
+    "website": "https://labs.mutant-nft.com/raffles",
+    "teamGithubURL": "https://github.com/MutantNFTs",
+    "tags": ["dapp", "game", "gambling"]
   },
   {
     "name": "Flux Point Studio",
