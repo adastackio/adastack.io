@@ -12,25 +12,34 @@ interface Project {
 interface DefaultDataTableProps {
   projects: Project[];
   filterBy?: string | string[];
+  excludeTags?: string | string[];
 }
 
 const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
   projects = [],
   filterBy = [],
+  excludeTags = [],
 }) => {
-  // Convert filterBy to array if it's a string
+  // Convert both filterBy and excludeTags to arrays if they're strings
   const filterArray = Array.isArray(filterBy)
     ? filterBy
     : [filterBy].filter(Boolean);
+  const excludeArray = Array.isArray(excludeTags)
+    ? excludeTags
+    : [excludeTags].filter(Boolean);
 
-  // Filter projects by tags
-  const filteredProjects =
-    filterArray.length > 0
-      ? projects.filter((project) =>
-          // Check if project.tags exists and has at least one matching tag
-          project.tags?.some((tag) => filterArray.includes(tag))
-        )
-      : projects;
+  // Filter projects by tags and exclude specified tags
+  const filteredProjects = projects.filter((project) => {
+    // If no filterArray, include all projects that don't have excluded tags
+    if (filterArray.length === 0) {
+      return !project.tags?.some((tag) => excludeArray.includes(tag));
+    }
+    // Otherwise, include projects that have required tags but not excluded tags
+    return (
+      project.tags?.some((tag) => filterArray.includes(tag)) &&
+      !project.tags?.some((tag) => excludeArray.includes(tag))
+    );
+  });
 
   // Sort projects by GitHub presence
   const sortedProjects = filteredProjects.sort((a, b) => {
