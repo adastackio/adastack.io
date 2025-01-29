@@ -72,7 +72,12 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
                 <div className="flex items-center justify-between w-full">
                   <span className="flex items-center">
                     <Favicon url={project.website} />
-                    <a className="py-2 px-2" href={project.website}>
+                    <a
+                      className="py-2 px-2"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={project.website}
+                    >
                       <span className="team_table_name_container">
                         {project.name}
                       </span>
