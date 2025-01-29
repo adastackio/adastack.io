@@ -4,6 +4,9 @@ seo_description: Learn essential Cardano vocabulary to understand major concepts
 toc: true
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # Cardano Vocab to Know
 
 ### ADA
@@ -114,8 +117,4 @@ On-Chain actions are actions that takes place on the blockchain. Because they ar
 
 ### Further Reading
 
-- [Vocabulary Wiki by Cardano Spot](https://cardanospot.io/wiki/vocabulary/a)<OS url="https://github.com/Emurgo" />
-- [NMKR Glossary](https://www.nmkr.io/glossary)<OS url="https://github.com/nftmakerio" />
-- [Wolfram Blockchain Labs Glossary](https://www.wolframblockchainlabs.com/dashboard/resources/glossary)<OS url="https://github.com/WolframBlockchainLabs" />
-- [Glossary by Essential Cardano](https://www.essentialcardano.io/glossary?sort=alphabetical)<OS url="https://github.com/cardano-foundation/" />
-- [Intersect Open Source Glossary](https://docs.intersectmbo.org/legal/policies-and-conditions/intersect-open-source-glossary)<OS url="https://github.com/IntersectMBO" />
+<DefaultDataTable projects={builders} filterBy="glossary_additional" />
