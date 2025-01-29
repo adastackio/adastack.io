@@ -414,12 +414,6 @@
     "tags": ["dev_company"]
   },
   {
-    "name": "ZK Fold",
-    "website": "https://zkfold.io/",
-    "teamGithubURL": "https://github.com/zkFold",
-    "tags": ["dev_company", "dapp"]
-  },
-  {
     "name": "Evolute Software",
     "website": "https://evolute.software/",
     "teamGithubURL": "https://github.com/evolute-software",
@@ -3980,6 +3974,18 @@
     "tags": ["tools", "block_propagation_metrics"]
   },
   {
+    "name": "Maestro",
+    "website": "https://www.gomaestro.org/marketplace",
+    "teamGithubURL": "https://github.com/maestro-org",
+    "tags": ["tools", "ispo_explorer"]
+  },
+  {
+    "name": "CardanoCube ISPOs",
+    "website": "https://www.cardanocube.com/categories/ispo",
+    "teamGithubURL": "",
+    "tags": ["tools", "ispo_explorer"]
+  },
+  {
     "name": "Dapp Central",
     "website": "https://www.youtube.com/@DappCentral",
     "teamGithubURL": "",
@@ -5617,5 +5623,23 @@
     "website": "https://www.youtube.com/@MeetCardano",
     "teamGithubURL": "",
     "tags": ["tools", "inactive_youtube"]
+  },
+  {
+    "name": "Littlefish Foundation ISPO Guide",
+    "website": "https://vault.littlefish.foundation/F.+Cardano/ISPO+-+What%2C+Why%2C+How%3F",
+    "teamGithubURL": "https://github.com/littlefish-foundation",
+    "tags": ["info", "what_is_an_ispo"]
+  },
+  {
+    "name": "CardanoSpot ISPO Guide",
+    "website": "https://cardanospot.io/news/initial-stake-pool-offering-ispo-on-cardano-ecosystem-0",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["info", "what_is_an_ispo"]
+  },
+  {
+    "name": "Cointelegraph ISPO 101",
+    "website": "https://cointelegraph.com/learn/ispo-101-a-beginners-guide-on-initial-stake-pool-offerings",
+    "teamGithubURL": "",
+    "tags": ["info", "what_is_an_ispo"]
   }
 ]
