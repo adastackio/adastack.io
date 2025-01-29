@@ -5625,6 +5625,150 @@
     "tags": ["tools", "inactive_youtube"]
   },
   {
+    "name": "Cardano.org",
+    "website": "https://cardano.org/",
+    "teamGithubURL": "https://github.com/cardano-foundation/cardano-org",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "Intersect",
+    "website": "https://www.intersectmbo.org/",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "Input Output Global (IOG)",
+    "website": "https://iohk.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "The Cardano Foundation",
+    "website": "https://cardanofoundation.org/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "Cardano Roadmap",
+    "website": "https://roadmap.cardano.org/en/",
+    "teamGithubURL": "https://github.com/cardano-foundation/cardano-org",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "Research Library",
+    "website": "https://iohk.io/en/research/library/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "Cardano for the M₳sses: A Financial OS for People Who Don't Have One",
+    "website": "https://www.amazon.com/dp/B0B912X5G6",
+    "teamGithubURL": "https://github.com/johnnygreeney/CardanoForTheMasses",
+    "tags": ["info", "cardano_book"]
+  },
+  {
+    "name": "Cardano: The Essential Guide",
+    "website": "https://www.amazon.com/dp/B0B1DSTS3X",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_book"]
+  },
+  {
+    "name": "Cardano 101: Understanding Cardano and its Financial Opportunities",
+    "website": "https://www.amazon.com/dp/B0C524H491",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_book"]
+  },
+  {
+    "name": "Ultimate Cardano Smart Contracts: Develop Real-World Web 3.0 Projects",
+    "website": "https://www.amazon.com/Ultimate-Cardano-Smart-Contracts-Development/dp/8197396531/",
+    "teamGithubURL": "https://github.com/lley154",
+    "tags": ["info", "cardano_book"]
+  },
+  {
+    "name": "New to Cardano Guide",
+    "website": "https://docs.cardano.org/about-cardano/new-to-cardano/",
+    "teamGithubURL": "https://github.com/cardano-foundation/cardano-org",
+    "tags": ["info", "cardano_guide"]
+  },
+  {
+    "name": "Digital Defense Open-Source Checklist",
+    "website": "https://digital-defense.io/",
+    "teamGithubURL": "https://github.com/lissy93/personal-security-checklist",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "Cardano Ninja",
+    "website": "https://cardano.ninja/",
+    "teamGithubURL": "https://github.com/selfdriven-foundation",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "Getting Started: Basic Personal Cybersecurity for Everyone",
+    "website": "https://avoidthehack.com/getting-started-cybersecurity",
+    "teamGithubURL": "",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "Secure Your Crypto Life, Avoid Scams & Protect Your Crypto Assets Video",
+    "website": "https://www.youtube.com/watch?v=W2YeB5clm0k",
+    "teamGithubURL": "https://github.com/pbwebdev",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "The Essential Cardano Guide to the Ecosystem",
+    "website": "https://services.iohk.io/hubfs/EssentialCardano/PDF/Essential%20Cardano%20Guide%20to%20the%20Ecosystem.pdf?hsLang=en",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["info", "cardano_report"]
+  },
+  {
+    "name": "Messari Cardano Reports",
+    "website": "https://messari.io/project/cardano/research",
+    "teamGithubURL": "https://github.com/messari",
+    "tags": ["info", "cardano_report"]
+  },
+  {
+    "name": "Cardano: A New Generation In Smart Contract Platform Design",
+    "website": "https://blog.kraken.com/crypto-education/kraken-intelligence/cardano-a-new-generation-in-smart-contract-platform-design",
+    "teamGithubURL": "https://github.com/krakenfx",
+    "tags": ["info", "cardano_report"]
+  },
+  {
+    "name": "Blockchain Education Program",
+    "website": "https://academy.cardanofoundation.org/",
+    "teamGithubURL": "https://github.com/cardano-foundation/cardano-academy/",
+    "tags": ["info", "cardano_full_course"]
+  },
+  {
+    "name": "Kaizen Crypto Cardano 101 Course",
+    "website": "https://www.youtube.com/playlist?list=PLrbMFdXZnzoAwfxIVo-SQ_qEBCqbwuU6o",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_full_course"]
+  },
+  {
+    "name": "Blockchain & Argentina: Past & present",
+    "website": "https://www.youtube.com/watch?v=SkixwjCzQ9c",
+    "teamGithubURL": "https://github.com/charleshoskinson",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
+    "name": "Getting Started Guide to Cardano ADA",
+    "website": "https://www.youtube.com/watch?v=vOqjHEnoRWU",
+    "teamGithubURL": "https://github.com/pbwebdev",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
+    "name": "Charles Hoskinson 2017 Whiteboard",
+    "website": "https://www.youtube.com/watch?v=Ja9D0kpksxw",
+    "teamGithubURL": "https://github.com/charleshoskinson",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
+    "name": "The Next Evolution of Cardano",
+    "website": "https://www.youtube.com/watch?v=_s4OauGIzNg",
+    "teamGithubURL": "https://github.com/charleshoskinson",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
     "name": "Littlefish Foundation ISPO Guide",
     "website": "https://vault.littlefish.foundation/F.+Cardano/ISPO+-+What%2C+Why%2C+How%3F",
     "teamGithubURL": "https://github.com/littlefish-foundation",
@@ -5641,5 +5785,65 @@
     "website": "https://cointelegraph.com/learn/ispo-101-a-beginners-guide-on-initial-stake-pool-offerings",
     "teamGithubURL": "",
     "tags": ["info", "what_is_an_ispo"]
+  },
+  {
+    "name": "Cardano Glossary",
+    "website": "https://cardanobook.com/glossary/",
+    "teamGithubURL": "https://github.com/johnnygreeney",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Web3 Glossary",
+    "website": "https://cardanowomen.io/web3-glossary",
+    "teamGithubURL": "",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "DeFi Glossary",
+    "website": "https://wiki.axo.trade/axo-defi-glossary",
+    "teamGithubURL": "",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Governance Glossary",
+    "website": "https://docs.intersectmbo.org/glossary/general-glossary",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Cardano Vocab",
+    "website": "https://www.adastack.io/intro_to_cardano/cardano_vocab",
+    "teamGithubURL": "https://github.com/adastackio/adastack.io",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Intersect Open Source Glossary",
+    "website": "https://docs.intersectmbo.org/legal/policies-and-conditions/intersect-open-source-glossary",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "Cardano Spot Vocabulary",
+    "website": "https://cardanospot.io/wiki/vocabulary/a",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "NMKR Glossary",
+    "website": "https://www.nmkr.io/glossary",
+    "teamGithubURL": "https://github.com/nftmakerio",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "Wolfram Blockchain Labs Glossary",
+    "website": "https://www.wolframblockchainlabs.com/dashboard/resources/glossary",
+    "teamGithubURL": "https://github.com/WolframBlockchainLabs",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "Essential Cardano Glossary",
+    "website": "https://www.essentialcardano.io/glossary?sort=alphabetical",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["info", "glossary_additional"]
   }
 ]
