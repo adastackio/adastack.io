@@ -5691,6 +5691,48 @@
     "tags": ["info", "cardano_guide"]
   },
   {
+    "name": "CardanoPick",
+    "website": "https://cardanopick.com/",
+    "teamGithubURL": "https://github.com/nilscodes",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "Getting On Chain Guide by SelfDriven",
+    "website": "https://buildingoncardano.dev/getting-on-chain",
+    "teamGithubURL": "https://github.com/selfdriven-foundation",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "Your Cardano Onboarding Guide by Essential Cardano",
+    "website": "https://www.essentialcardano.io/article/your-cardano-onboarding-guide",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "Cardano Nexus",
+    "website": "https://www.cardanonexus.org/",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "The Essential Cardano Guide to the Ecosystem",
+    "website": "https://services.iohk.io/hubfs/EssentialCardano/PDF/Essential%20Cardano%20Guide%20to%20the%20Ecosystem.pdf?hsLang=en",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["info", "cardano_report"]
+  },
+  {
+    "name": "Messari Cardano Reports",
+    "website": "https://messari.io/project/cardano/research",
+    "teamGithubURL": "https://github.com/messari",
+    "tags": ["info", "cardano_report"]
+  },
+  {
+    "name": "Cardano: A New Generation In Smart Contract Platform Design",
+    "website": "https://blog.kraken.com/crypto-education/kraken-intelligence/cardano-a-new-generation-in-smart-contract-platform-design",
+    "teamGithubURL": "https://github.com/krakenfx",
+    "tags": ["info", "cardano_report"]
+  },
+  {
     "name": "Digital Defense Open-Source Checklist",
     "website": "https://digital-defense.io/",
     "teamGithubURL": "https://github.com/lissy93/personal-security-checklist",
@@ -5713,24 +5755,6 @@
     "website": "https://www.youtube.com/watch?v=W2YeB5clm0k",
     "teamGithubURL": "https://github.com/pbwebdev",
     "tags": ["info", "security_guide"]
-  },
-  {
-    "name": "The Essential Cardano Guide to the Ecosystem",
-    "website": "https://services.iohk.io/hubfs/EssentialCardano/PDF/Essential%20Cardano%20Guide%20to%20the%20Ecosystem.pdf?hsLang=en",
-    "teamGithubURL": "https://github.com/cardano-foundation/",
-    "tags": ["info", "cardano_report"]
-  },
-  {
-    "name": "Messari Cardano Reports",
-    "website": "https://messari.io/project/cardano/research",
-    "teamGithubURL": "https://github.com/messari",
-    "tags": ["info", "cardano_report"]
-  },
-  {
-    "name": "Cardano: A New Generation In Smart Contract Platform Design",
-    "website": "https://blog.kraken.com/crypto-education/kraken-intelligence/cardano-a-new-generation-in-smart-contract-platform-design",
-    "teamGithubURL": "https://github.com/krakenfx",
-    "tags": ["info", "cardano_report"]
   },
   {
     "name": "Blockchain Education Program",
