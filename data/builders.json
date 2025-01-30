@@ -1320,24 +1320,6 @@
     "tags": ["dapp"]
   },
   {
-    "name": "DEADPXLZ",
-    "website": "https://pxlz.org/",
-    "teamGithubURL": "https://github.com/DEADPXLZ",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Mutant NFTs",
-    "website": "https://labs.mutant-nft.com/",
-    "teamGithubURL": "https://github.com/MutantNFTs",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "SpaceBudz",
-    "website": "https://spacebudz.io/",
-    "teamGithubURL": "https://github.com/spacebudz",
-    "tags": ["dapp"]
-  },
-  {
     "name": "BuiltOnCardano DAO Explorer",
     "website": "https://builtoncardano.com/ecosystem/dao",
     "teamGithubURL": "",
