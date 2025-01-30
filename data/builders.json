@@ -2113,6 +2113,12 @@
     "tags": ["tools", "block_explorer", "block_visualizer"]
   },
   {
+    "name": "CGlobe.io",
+    "website": "https://cglobe.io/",
+    "teamGithubURL": "",
+    "tags": ["tools", "block_visualizer"]
+  },
+  {
     "name": "CF Explorer",
     "website": "https://beta.explorer.cardano.org/en/",
     "teamGithubURL": "https://github.com/cardano-foundation",
