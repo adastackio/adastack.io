@@ -810,27 +810,9 @@
     "tags": ["dapp"]
   },
   {
-    "name": "VyFi",
-    "website": "https://app.vyfi.io/dex",
-    "teamGithubURL": "https://github.com/vyfi",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Optim Finance",
-    "website": "https://www.optim.finance/",
-    "teamGithubURL": "https://github.com/OptimFinance",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Danogo",
-    "website": "https://danogo.io/",
-    "teamGithubURL": "https://github.com/Danogo2023",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Cerra.io",
-    "website": "https://cerra.io/",
-    "teamGithubURL": "https://github.com/cerraio",
+    "name": "NMKR",
+    "website": "https://nmkr.io/",
+    "teamGithubURL": "https://github.com/nftmakerio",
     "tags": ["dapp"]
   },
   {
@@ -840,45 +822,15 @@
     "tags": ["dapp"]
   },
   {
-    "name": "Profila",
-    "website": "https://profila.com/",
-    "teamGithubURL": "https://github.com/Profila",
+    "name": "Butane",
+    "website": "https://butane.dev/",
+    "teamGithubURL": "https://github.com/butaneprotocol",
     "tags": ["dapp"]
   },
   {
-    "name": "Metera",
-    "website": "https://www.meteraprotocol.io/",
-    "teamGithubURL": "https://github.com/MeteraLabs",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Encoins",
-    "website": "https://encoins.io/",
-    "teamGithubURL": "https://github.com/encryptedcoins/",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Paribus",
-    "website": "https://paribus.io/",
-    "teamGithubURL": "https://github.com/paribus",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Splash protocol",
-    "website": "https://www.splash.trade/",
-    "teamGithubURL": "https://github.com/splashprotocol",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Teddyswap",
-    "website": "https://app.teddyswap.org/",
-    "teamGithubURL": "https://github.com/teddy-swap",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Blockfrost.io",
-    "website": "https://blockfrost.io/",
-    "teamGithubURL": "https://github.com/blockfrost",
+    "name": "Fluid Tokens",
+    "website": "https://fluidtokens.com/",
+    "teamGithubURL": "https://github.com/fluidtokens",
     "tags": ["dapp"]
   },
   {
@@ -888,15 +840,111 @@
     "tags": ["dapp"]
   },
   {
-    "name": "SpaceBudz",
-    "website": "https://spacebudz.io/",
-    "teamGithubURL": "https://github.com/spacebudz",
+    "name": "Splash Protocol",
+    "website": "https://www.splash.trade/",
+    "teamGithubURL": "https://github.com/splashprotocol",
     "tags": ["dapp"]
   },
   {
-    "name": "Butane",
-    "website": "https://butane.dev/",
-    "teamGithubURL": "https://github.com/butaneprotocol",
+    "name": "Moneta",
+    "website": "https://moneta.global/",
+    "teamGithubURL": "",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Rejuve AI",
+    "website": " https://www.rejuve.ai/",
+    "teamGithubURL": "https://github.com/Rejuve",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Optim Finance",
+    "website": "https://www.optim.finance/",
+    "teamGithubURL": "https://github.com/OptimFinance",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Mynth.ai",
+    "website": "https://mynth.ai",
+    "teamGithubURL": "https://github.com/MynthAI",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "MuesliSwap",
+    "website": "https://muesliswap.com/",
+    "teamGithubURL": "https://github.com/MuesliSwapTeam",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Axo",
+    "website": "https://www.axo.trade/",
+    "teamGithubURL": "",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Coti",
+    "website": "https://coti.io/",
+    "teamGithubURL": "https://github.com/coti-io",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Bodega Market",
+    "website": "https://bodegamarket.xyz/",
+    "teamGithubURL": "https://github.com/bodega-market",
+    "tags": ["dapp", "prediction_game"]
+  },
+  {
+    "name": "Dedium",
+    "website": "https://dedium.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Strike Finance",
+    "website": "https://strikefinance.org/",
+    "teamGithubURL": "https://github.com/strike-finance",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Yamfore",
+    "website": "https://www.yamfore.com/",
+    "teamGithubURL": "https://github.com/BigBlymp",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "JPG Store",
+    "website": "https://www.jpg.store/",
+    "teamGithubURL": "https://github.com/jpg-store",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "VyFi",
+    "website": "https://app.vyfi.io/dex",
+    "teamGithubURL": "https://github.com/vyfi",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "NEWM",
+    "website": "https://newm.io/",
+    "teamGithubURL": "https://github.com/projectNEWM",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Metera",
+    "website": "https://www.meteraprotocol.io/",
+    "teamGithubURL": "https://github.com/MeteraLabs",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Foreon Network",
+    "website": "https://foreon.network/",
+    "teamGithubURL": "https://github.com/Foreon-Network",
+    "tags": ["dapp", "prediction_game"]
+  },
+  {
+    "name": "Xerberus",
+    "website": "https://xerberus.io/",
+    "teamGithubURL": "https://github.com/XerberusTeam",
     "tags": ["dapp"]
   },
   {
@@ -904,6 +952,12 @@
     "website": "https://www.geniusyield.co/",
     "teamGithubURL": "https://github.com/geniusyield",
     "tags": ["dapp"]
+  },
+  {
+    "name": "Summon Platform",
+    "website": "https://summonplatform.io/",
+    "teamGithubURL": "https://github.com/ADAO-Summon",
+    "tags": ["dapp", "dao_explorer", "dao_management_software"]
   },
   {
     "name": "Andamio",
@@ -930,12 +984,6 @@
     "tags": ["dapp", "dao_explorer", "dao_management_software"]
   },
   {
-    "name": "Coti",
-    "website": "https://coti.io/",
-    "teamGithubURL": "https://github.com/coti-io",
-    "tags": ["dapp"]
-  },
-  {
     "name": "Spectrum Finance",
     "website": "https://spectrum.fi/",
     "teamGithubURL": "https://github.com/spectrum-finance",
@@ -954,9 +1002,81 @@
     "tags": ["dapp"]
   },
   {
-    "name": "Mynth.ai",
-    "website": "https://mynth.ai",
-    "teamGithubURL": "https://github.com/MynthAI",
+    "name": "Blockfrost.io",
+    "website": "https://blockfrost.io/",
+    "teamGithubURL": "https://github.com/blockfrost",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Kreate Art",
+    "website": "https://kreate.community/",
+    "teamGithubURL": "https://github.com/kreate-art",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Jam on Bread",
+    "website": "https://jamonbread.io/",
+    "teamGithubURL": "https://github.com/JamOnBread",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Empowa",
+    "website": "https://empowa.io/",
+    "teamGithubURL": "https://github.com/empowa-io",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Stuff.io",
+    "website": "https://stuff.io/",
+    "teamGithubURL": "https://github.com/book-io",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "CSwap DEX",
+    "website": "https://app.cswap.fi/",
+    "teamGithubURL": "https://github.com/cswapsystems",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Walkers",
+    "website": "https://walkerscardano.xyz/",
+    "teamGithubURL": "",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Danogo",
+    "website": "https://danogo.io/",
+    "teamGithubURL": "https://github.com/Danogo2023",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Cerra.io",
+    "website": "https://cerra.io/",
+    "teamGithubURL": "https://github.com/cerraio",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Profila",
+    "website": "https://profila.com/",
+    "teamGithubURL": "https://github.com/Profila",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Encoins",
+    "website": "https://encoins.io/",
+    "teamGithubURL": "https://github.com/encryptedcoins/",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Paribus",
+    "website": "https://paribus.io/",
+    "teamGithubURL": "https://github.com/paribus",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Teddyswap",
+    "website": "https://app.teddyswap.org/",
+    "teamGithubURL": "https://github.com/teddy-swap",
     "tags": ["dapp"]
   },
   {
@@ -969,18 +1089,6 @@
     "name": "Mayz",
     "website": "https://mayz.io/",
     "teamGithubURL": "https://github.com/MAYZGitHub/",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Strike Finance",
-    "website": "https://strikefinance.org/",
-    "teamGithubURL": "https://github.com/strike-finance",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Xerberus",
-    "website": "https://xerberus.io/",
-    "teamGithubURL": "https://github.com/XerberusTeam",
     "tags": ["dapp"]
   },
   {
@@ -1014,24 +1122,6 @@
     "tags": ["dapp"]
   },
   {
-    "name": "Rejuve AI",
-    "website": " https://www.rejuve.ai/",
-    "teamGithubURL": "https://github.com/Rejuve",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Kreate Art",
-    "website": "https://kreate.community/",
-    "teamGithubURL": "https://github.com/kreate-art",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
-    "name": "Jam on Bread",
-    "website": "https://jamonbread.io/",
-    "teamGithubURL": "https://github.com/JamOnBread",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
     "name": "Flipr",
     "website": "https://flipr.io/",
     "teamGithubURL": "",
@@ -1054,24 +1144,6 @@
     "website": "https://saturnswap.io/",
     "teamGithubURL": "https://github.com/Orion-Crypto",
     "tags": ["dapp"]
-  },
-  {
-    "name": "NEWM",
-    "website": "https://newm.io/",
-    "teamGithubURL": "https://github.com/projectNEWM",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Stuff.io",
-    "website": "https://stuff.io/",
-    "teamGithubURL": "https://github.com/book-io",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "CSwap DEX",
-    "website": "https://app.cswap.fi/",
-    "teamGithubURL": "https://github.com/cswapsystems",
-    "tags": ["dapp", "nft_marketplace"]
   },
   {
     "name": "WayUp",
@@ -1098,9 +1170,153 @@
     "tags": ["dapp", "nft_p2p_trading"]
   },
   {
-    "name": "Empowa",
-    "website": "https://empowa.io/",
-    "teamGithubURL": "https://github.com/empowa-io",
+    "name": "Cardano Lightning",
+    "website": "https://cardano-lightning.org/",
+    "teamGithubURL": "https://github.com/cardano-lightning",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Aneta BTC",
+    "website": "https://anetabtc.io/",
+    "teamGithubURL": "https://github.com/anetaBTC",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "CardanoGPT",
+    "website": "https://cardanogpt.ai/",
+    "teamGithubURL": "https://github.com/cardanogpt",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Meld",
+    "website": "https://www.meld.com/",
+    "teamGithubURL": "https://github.com/MELD-labs",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Ray Network",
+    "website": "https://raynetwork.io/",
+    "teamGithubURL": "https://github.com/xray-network",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Mint Matrix",
+    "website": "https://mintmatrix.io/",
+    "teamGithubURL": "https://github.com/MintMatrix",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "IAMX",
+    "website": "https://iamx.id/",
+    "teamGithubURL": "https://github.com/iamxid",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Rosen Bridge",
+    "website": "https://rosen.tech/",
+    "teamGithubURL": "https://github.com/rosen-bridge",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Maya Protocol",
+    "website": "https://www.mayaprotocol.com/",
+    "teamGithubURL": "https://github.com/Maya-Protocol",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "BitcoinOS",
+    "website": "https://www.bitcoinos.build/",
+    "teamGithubURL": "https://github.com/bitsnark",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Vista Bridge",
+    "website": "https://www.vistabridge.org/",
+    "teamGithubURL": "https://github.com/vista-foundation",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Coinecta",
+    "website": "https://coinecta.fi/",
+    "teamGithubURL": "https://github.com/coinecta",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "AdaSouls",
+    "website": "https://www.adasouls.io/",
+    "teamGithubURL": "https://github.com/AdaSouls",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Reach your People",
+    "website": "https://www.ryp.io/",
+    "teamGithubURL": "https://github.com/nilscodes/",
+    "tags": ["dapp", "dao_explorer"]
+  },
+  {
+    "name": "Trustlevel",
+    "website": "https://www.trustlevel.io/",
+    "teamGithubURL": "https://github.com/TrustLevel",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Socious.io",
+    "website": "https://socious.io/",
+    "teamGithubURL": "https://github.com/socious-io",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "ZenGate",
+    "website": "https://www.zengate.global/",
+    "teamGithubURL": "https://github.com/zenGate-Global",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Wanchain",
+    "website": "https://www.wanchain.org/",
+    "teamGithubURL": "https://github.com/wanchain",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "TosiDrop",
+    "website": "https://tosidrop.io/",
+    "teamGithubURL": "https://github.com/TosiDrop",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Fida Finance",
+    "website": "https://fida.finance/",
+    "teamGithubURL": "https://github.com/fida-services",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "CNS Space",
+    "website": "https://cns.space/",
+    "teamGithubURL": "https://github.com/cns-space",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Digitalis Domains",
+    "website": "https://www.digitalis.domains/",
+    "teamGithubURL": "https://github.com/digitalis-domains",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Adadomains.io",
+    "website": "https://www.adadomains.io/",
+    "teamGithubURL": "https://github.com/adadomains",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Fortuna",
+    "website": "https://minefortuna.com/",
+    "teamGithubURL": "https://github.com/cardano-miners",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Cardano Mercury",
+    "website": "https://cardano-mercury.com/",
+    "teamGithubURL": "https://github.com/cardano-mercury",
     "tags": ["dapp"]
   },
   {
@@ -1114,6 +1330,54 @@
     "website": "https://labs.mutant-nft.com/",
     "teamGithubURL": "https://github.com/MutantNFTs",
     "tags": ["dapp"]
+  },
+  {
+    "name": "SpaceBudz",
+    "website": "https://spacebudz.io/",
+    "teamGithubURL": "https://github.com/spacebudz",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "BuiltOnCardano DAO Explorer",
+    "website": "https://builtoncardano.com/ecosystem/dao",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dao_explorer"]
+  },
+  {
+    "name": "Crashr",
+    "website": "https://www.crashr.io/",
+    "teamGithubURL": "https://github.com/Crashr-io",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Blockgen Art",
+    "website": "https://www.blockgen.art/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Grabbit Market",
+    "website": "https://grabbit.market/",
+    "teamGithubURL": "https://github.com/ikigai-github",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Cardahub",
+    "website": "https://cardahub.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Arkhouse Gallery",
+    "website": "https://www.arkhouse.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Artano",
+    "website": "https://artano.io",
+    "teamGithubURL": "https://github.com/artano-io",
+    "tags": ["dapp", "nft_marketplace"]
   },
   {
     "name": "Chains of War",
@@ -1452,18 +1716,6 @@
     "tags": ["dapp", "general_game"]
   },
   {
-    "name": "Foreon Network",
-    "website": "https://foreon.network/",
-    "teamGithubURL": "https://github.com/Foreon-Network",
-    "tags": ["dapp", "prediction_game"]
-  },
-  {
-    "name": "Bodega Market",
-    "website": "https://bodegamarket.xyz/",
-    "teamGithubURL": "https://github.com/bodega-market",
-    "tags": ["dapp", "prediction_game"]
-  },
-  {
     "name": "Ridotto",
     "website": "https://ridotto.io/",
     "teamGithubURL": "https://github.com/ridotto-io",
@@ -1510,216 +1762,6 @@
     "website": "https://labs.mutant-nft.com/raffles",
     "teamGithubURL": "https://github.com/MutantNFTs",
     "tags": ["dapp", "gambling_game"]
-  },
-  {
-    "name": "Cardano Lightning",
-    "website": "https://cardano-lightning.org/",
-    "teamGithubURL": "https://github.com/cardano-lightning",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Fluid Tokens",
-    "website": "https://fluidtokens.com/",
-    "teamGithubURL": "https://github.com/fluidtokens",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Aneta BTC",
-    "website": "https://anetabtc.io/",
-    "teamGithubURL": "https://github.com/anetaBTC",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "CardanoGPT",
-    "website": "https://cardanogpt.ai/",
-    "teamGithubURL": "https://github.com/cardanogpt",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "JPG Store",
-    "website": "https://www.jpg.store/",
-    "teamGithubURL": "https://github.com/jpg-store",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
-    "name": "Meld",
-    "website": "https://www.meld.com/",
-    "teamGithubURL": "https://github.com/MELD-labs",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Ray Network",
-    "website": "https://raynetwork.io/",
-    "teamGithubURL": "https://github.com/xray-network",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "MuesliSwap",
-    "website": "https://muesliswap.com/",
-    "teamGithubURL": "https://github.com/MuesliSwapTeam",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Mint Matrix",
-    "website": "https://mintmatrix.io/",
-    "teamGithubURL": "https://github.com/MintMatrix",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "IAMX",
-    "website": "https://iamx.id/",
-    "teamGithubURL": "https://github.com/iamxid",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Rosen Bridge",
-    "website": "https://rosen.tech/",
-    "teamGithubURL": "https://github.com/rosen-bridge",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Maya Protocol",
-    "website": "https://www.mayaprotocol.com/",
-    "teamGithubURL": "https://github.com/Maya-Protocol",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "BitcoinOS",
-    "website": "https://www.bitcoinos.build/",
-    "teamGithubURL": "https://github.com/bitsnark",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Vista Bridge",
-    "website": "https://www.vistabridge.org/",
-    "teamGithubURL": "https://github.com/vista-foundation",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Coinecta",
-    "website": "https://coinecta.fi/",
-    "teamGithubURL": "https://github.com/coinecta",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "AdaSouls",
-    "website": "https://www.adasouls.io/",
-    "teamGithubURL": "https://github.com/AdaSouls",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Reach your People",
-    "website": "https://www.ryp.io/",
-    "teamGithubURL": "https://github.com/nilscodes/",
-    "tags": ["dapp", "dao_explorer"]
-  },
-  {
-    "name": "Trustlevel",
-    "website": "https://www.trustlevel.io/",
-    "teamGithubURL": "https://github.com/TrustLevel",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Socious.io",
-    "website": "https://socious.io/",
-    "teamGithubURL": "https://github.com/socious-io",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "ZenGate",
-    "website": "https://www.zengate.global/",
-    "teamGithubURL": "https://github.com/zenGate-Global",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Wanchain",
-    "website": "https://www.wanchain.org/",
-    "teamGithubURL": "https://github.com/wanchain",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "TosiDrop",
-    "website": "https://tosidrop.io/",
-    "teamGithubURL": "https://github.com/TosiDrop",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Fida Finance",
-    "website": "https://fida.finance/",
-    "teamGithubURL": "https://github.com/fida-services",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "BuiltOnCardano DAO Explorer",
-    "website": "https://builtoncardano.com/ecosystem/dao",
-    "teamGithubURL": "",
-    "tags": ["dapp", "dao_explorer"]
-  },
-  {
-    "name": "Crashr",
-    "website": "https://www.crashr.io/",
-    "teamGithubURL": "https://github.com/Crashr-io",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
-    "name": "Blockgen Art",
-    "website": "https://www.blockgen.art/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
-    "name": "Grabbit Market",
-    "website": "https://grabbit.market/",
-    "teamGithubURL": "https://github.com/ikigai-github",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
-    "name": "Cardahub",
-    "website": "https://cardahub.io/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
-    "name": "Arkhouse Gallery",
-    "website": "https://www.arkhouse.io/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
-    "name": "Artano",
-    "website": "https://artano.io",
-    "teamGithubURL": "https://github.com/artano-io",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
-    "name": "CNS Space",
-    "website": "https://cns.space/",
-    "teamGithubURL": "https://github.com/cns-space",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Digitalis Domains",
-    "website": "https://www.digitalis.domains/",
-    "teamGithubURL": "https://github.com/digitalis-domains",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Adadomains.io",
-    "website": "https://www.adadomains.io/",
-    "teamGithubURL": "https://github.com/adadomains",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Fortuna",
-    "website": "https://minefortuna.com/",
-    "teamGithubURL": "https://github.com/cardano-miners",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Cardano Mercury",
-    "website": "https://cardano-mercury.com/",
-    "teamGithubURL": "https://github.com/cardano-mercury",
-    "tags": ["dapp"]
   },
   {
     "name": "Eternl Wallet",
@@ -1792,12 +1834,6 @@
     "website": "https://keyst.one/",
     "teamGithubURL": "https://github.com/keystoneHQ",
     "tags": ["tools"]
-  },
-  {
-    "name": "Summon Platform",
-    "website": "https://summonplatform.io/",
-    "teamGithubURL": "https://github.com/ADAO-Summon",
-    "tags": ["tools", "dao_explorer", "dao_management_software"]
   },
   {
     "name": "Proof of Space",
@@ -2008,12 +2044,6 @@
     "name": "Veralidity",
     "website": "https://veralidity.com/",
     "teamGithubURL": "https://github.com/veralidity",
-    "tags": ["tools"]
-  },
-  {
-    "name": "NMKR",
-    "website": "https://nmkr.io/",
-    "teamGithubURL": "https://github.com/nftmakerio",
     "tags": ["tools"]
   },
   {
@@ -3313,7 +3343,7 @@
     "tags": ["tools", "block_propagation_metrics"]
   },
   {
-    "name": "Maestro",
+    "name": "Maestro Marketplace",
     "website": "https://www.gomaestro.org/marketplace",
     "teamGithubURL": "https://github.com/maestro-org",
     "tags": ["tools", "ispo_explorer"]
