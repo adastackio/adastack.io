@@ -212,7 +212,7 @@
   {
     "name": "SPO Japan Guild",
     "website": "https://spojapanguild.net",
-    "teamGithubURL": "https://github.com/btbf/spojapanguild",
+    "teamGithubURL": "https://github.com/btbf/",
     "tags": ["organization", "stake_pool_alliance"]
   },
   {
@@ -224,7 +224,7 @@
   {
     "name": "StakePool Operator Tools Alliance",
     "website": "https://github.com/gitmachtl/StakePool-Operator-Tools-Alliance",
-    "teamGithubURL": "https://github.com/gitmachtl/StakePool-Operator-Tools-Alliance",
+    "teamGithubURL": "https://github.com/gitmachtl/",
     "tags": ["organization", "stake_pool_alliance"]
   },
   {
@@ -2529,7 +2529,7 @@
   {
     "name": "Cardano Foundation Academy",
     "website": "https://education.cardanofoundation.org",
-    "teamGithubURL": "https://github.com/cardano-foundation/cardano-academy",
+    "teamGithubURL": "https://github.com/cardano-foundation",
     "tags": ["tools", "dev_learning_platform"]
   },
   {
@@ -2553,19 +2553,19 @@
   {
     "name": "Plutus Pioneers",
     "website": "https://github.com/input-output-hk/plutus-pioneer-program",
-    "teamGithubURL": "https://github.com/input-output-hk/plutus-pioneer-program",
+    "teamGithubURL": "https://github.com/input-output-hk",
     "tags": ["tools", "dev_learning_platform"]
   },
   {
     "name": "Cardano.org Docs",
     "website": "https://docs.cardano.org",
-    "teamGithubURL": "https://github.com/input-output-hk/cardano-documentation",
+    "teamGithubURL": "https://github.com/input-output-hk",
     "tags": ["tools", "dev_documentation"]
   },
   {
     "name": "Cardano.org Developer Portal",
     "website": "https://developers.cardano.org",
-    "teamGithubURL": "https://github.com/cardano-foundation/developer-portal",
+    "teamGithubURL": "https://github.com/cardano-foundation",
     "tags": ["tools", "dev_documentation"]
   },
   {
@@ -2577,7 +2577,7 @@
   {
     "name": "eUTxO Fundamentals",
     "website": "https://github.com/elRaulito/eUTxO-Fundamentals-Building-Cardano-Smart-Contracts",
-    "teamGithubURL": "https://github.com/elRaulito/eUTxO-Fundamentals-Building-Cardano-Smart-Contracts",
+    "teamGithubURL": "https://github.com/elRaulito",
     "tags": ["tools", "dev_book"]
   },
   {
@@ -2637,13 +2637,13 @@
   {
     "name": "Blink Labs",
     "website": "https://discord.com/invite/5fPRZnX4qW",
-    "teamGithubURL": "github.com/blinklabs-io/",
+    "teamGithubURL": "https://github.com/blinklabs-io/",
     "tags": ["tools", "developer_discord"]
   },
   {
     "name": "SpaceBudz",
     "website": "https://discord.com/invite/vtmm6RG2Bv",
-    "teamGithubURL": "github.com/spacebudz/",
+    "teamGithubURL": "https://github.com/spacebudz/",
     "tags": ["tools", "developer_discord"]
   },
   {
@@ -2787,7 +2787,7 @@
   {
     "name": "Cardano Improvement Proposals",
     "website": "https://discord.com/invite/J8sGdCuKhs",
-    "teamGithubURL": "https://github.com/cardano-foundation/CIPs",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
     "tags": ["tools", "developer_discord"]
   },
   {
@@ -3057,13 +3057,13 @@
   {
     "name": "Chainspect TPS Analysis",
     "website": "https://chainspect.app/chain/cardano",
-    "teamGithubURL": "https://github.com/fromaline/chainspect_app",
+    "teamGithubURL": "https://github.com/fromaline/",
     "tags": ["tools", "tps_metrics"]
   },
   {
     "name": "Electric Capital Developer Report",
     "website": "https://www.developerreport.com/ecosystems/cardano",
-    "teamGithubURL": "https://github.com/electric-capital/crypto-ecosystems/blob/master/data/ecosystems/c/cardano.toml",
+    "teamGithubURL": "https://github.com/electric-capital/",
     "tags": ["tools", "development_metrics"]
   },
   {
@@ -3093,7 +3093,7 @@
   {
     "name": "Cardano Smart Contract Explorer",
     "website": "https://beta.explorer.cardano.org/en/native-scripts-sc/smart-contracts",
-    "teamGithubURL": "https://github.com/cardano-foundation/cf-explorer",
+    "teamGithubURL": "https://github.com/cardano-foundation",
     "tags": ["tools", "smart_contract_metrics"]
   },
   {
@@ -3165,7 +3165,7 @@
   {
     "name": "Cardano Sustainability Metrics",
     "website": "https://beta.explorer.cardano.org/en/micar",
-    "teamGithubURL": "https://github.com/cardano-foundation/cf-explorer",
+    "teamGithubURL": "https://github.com/cardano-foundation",
     "tags": ["tools", "energy_metrics"]
   },
   {
@@ -3213,7 +3213,7 @@
   {
     "name": "Cardano Node Distribution",
     "website": "https://beta.explorer.cardano.org/en/micar",
-    "teamGithubURL": "https://github.com/cardano-foundation/cf-explorer",
+    "teamGithubURL": "https://github.com/cardano-foundation",
     "tags": ["tools", "node_distribution_metrics"]
   },
   {
@@ -3333,7 +3333,7 @@
   {
     "name": "Cardano.org Block Propagation",
     "website": "https://beta.explorer.cardano.org/en/network-monitoring",
-    "teamGithubURL": "https://github.com/cardano-foundation/cf-explorer",
+    "teamGithubURL": "https://github.com/cardano-foundation",
     "tags": ["tools", "block_propagation_metrics"]
   },
   {
@@ -3369,7 +3369,7 @@
   {
     "name": "Cexplorer Articles",
     "website": "https://cexplorer.io/article",
-    "teamGithubURL": "https://github.com/cexplorer/cexplorer.io",
+    "teamGithubURL": "https://github.com/cexplorer",
     "tags": ["news_updates", "cardano_news_website"]
   },
   {
@@ -5680,7 +5680,7 @@
   {
     "name": "Cardano.org",
     "website": "https://cardano.org/",
-    "teamGithubURL": "https://github.com/cardano-foundation/cardano-org",
+    "teamGithubURL": "https://github.com/cardano-foundation",
     "tags": ["info", "official_link"]
   },
   {
@@ -5704,7 +5704,7 @@
   {
     "name": "Cardano Roadmap",
     "website": "https://roadmap.cardano.org/en/",
-    "teamGithubURL": "https://github.com/cardano-foundation/cardano-org",
+    "teamGithubURL": "https://github.com/cardano-foundation",
     "tags": ["info", "official_link"]
   },
   {
@@ -5716,7 +5716,7 @@
   {
     "name": "Cardano for the M₳sses: A Financial OS for People Who Don't Have One",
     "website": "https://www.amazon.com/dp/B0B912X5G6",
-    "teamGithubURL": "https://github.com/johnnygreeney/CardanoForTheMasses",
+    "teamGithubURL": "https://github.com/johnnygreeney",
     "tags": ["info", "cardano_book"]
   },
   {
@@ -5740,7 +5740,7 @@
   {
     "name": "New to Cardano Guide",
     "website": "https://docs.cardano.org/about-cardano/new-to-cardano/",
-    "teamGithubURL": "https://github.com/cardano-foundation/cardano-org",
+    "teamGithubURL": "https://github.com/cardano-foundation",
     "tags": ["info", "cardano_guide"]
   },
   {
@@ -5788,7 +5788,7 @@
   {
     "name": "Digital Defense Open-Source Checklist",
     "website": "https://digital-defense.io/",
-    "teamGithubURL": "https://github.com/lissy93/personal-security-checklist",
+    "teamGithubURL": "https://github.com/lissy93",
     "tags": ["info", "security_guide"]
   },
   {
@@ -5812,7 +5812,7 @@
   {
     "name": "Blockchain Education Program",
     "website": "https://academy.cardanofoundation.org/",
-    "teamGithubURL": "https://github.com/cardano-foundation/cardano-academy/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
     "tags": ["info", "cardano_full_course"]
   },
   {
@@ -5890,7 +5890,7 @@
   {
     "name": "Cardano Vocab",
     "website": "https://www.adastack.io/intro_to_cardano/cardano_vocab",
-    "teamGithubURL": "https://github.com/adastackio/adastack.io",
+    "teamGithubURL": "https://github.com/adastackio",
     "tags": ["info", "glossary_top"]
   },
   {
