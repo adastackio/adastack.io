@@ -140,5 +140,15 @@
       "footer": true,
       "pagination": false
     }
+  },
+  "audit_companies": {
+    "title": "Audit Companies",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
   }
 }

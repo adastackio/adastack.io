@@ -4,38 +4,23 @@ seo_description: "Blockchain Explorers provide a live view of the Cardano networ
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # Block Explorers
 
-Block Explorers allow you to see everything happening on the blockchain. You can search specific transactions, blocks, addresses, stake pools, and more.
+Block Explorers show everything happening on the blockchain. Search transactions, blocks, addresses, stake pools, and more.
 
-- [Cexplorer](https://cexplorer.io/)<OS url="https://github.com/cexplorer/cexplorer.io" />: Explorer with simple-to-use features.
+<DefaultDataTable projects={builders} filterBy="block_explorer" />
 
-- [CardanoScan](https://cardanoscan.io/)<OS url="https://github.com/StricaHQ/" />: Fully-featured Cardano explorer.
+## Blockchain Visualizers
 
-- [Eutxo.org](https://eutxo.org/): Cardano visualizer and search tool to see live blocks.
+Visual representations of block, transactions, and data.
 
-- [Pool.pm](https://pool.pm/)<OS url="https://github.com/SmaugPool/" />: Visual blockchain explorer to search pools, wallets, NFTs, and more.
+<DefaultDataTable projects={builders} filterBy="block_visualizer" />
 
-- [Alethea](https://alethea.io/)<OS url="https://github.com/alethea-io" />: Explore on-chain activity and track your portfolio.
+## Mempool Explorers
 
-- [CF Explorer](https://beta.explorer.cardano.org/en/)<OS url="https://github.com/cardano-foundation" />: Block explorer created by the Cardano Foundation.
+Explore new transactions that haven't been added to a block yet.
 
-- [AdaStat](https://adastat.net/)<OS url="https://github.com/CardanoExplorer" />: Full features including options to change language and currency.
-
-- [Script Explorer](https://www.script-explorer.com/)<OS url="https://github.com/QSchlegel/script-explorer" />: Explore visual representations of simple or complex transactions.
-
-- [CardexScan](https://cardexscan.com/): Real-time view of all trades happening on the Cardano blockchain.
-
-- [Raw Cardano](https://rawcardano.app/): Made for developers because it returns results in JSON, which is useful in programming.
-
-- [Blockchair](https://blockchair.com/cardano)<OS url="https://github.com/blockchair" />: Universal blockchain search engine that works with many blockchains.
-
-- [3xpl](https://3xpl.com/cardano)<OS url="https://github.com/3xplcom" />: Multi-blockchain explorer that supports Cardano.
-
-### Mempool Explorers
-
-Mempool explorers show transactions that haven't been added to a block yet.
-
-- [Eutxo.org](https://eutxo.org/mempool/live): Visual mempool
-- [CardanoAPI Mempool](https://mempool.cardanoapi.io/mempool)<OS url="https://github.com/cardanoapi/mempool-explorer" />: Live mempool explorer
-- [Cardanoscan.io](https://cardanoscan.io/mempoolTransactions)<OS url="https://github.com/StricaHQ" />: Current transactions in mempool
+<DefaultDataTable projects={builders} filterBy="mempool_explorer" />

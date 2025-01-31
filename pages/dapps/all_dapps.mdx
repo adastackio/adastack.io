@@ -1,0 +1,18 @@
+---
+seo_title: All dApps
+seo_description: Discover and explore the complete directory of decentralized applications (dApps) built on Cardano. Browse and find the perfect dApp for your needs.
+toc: false
+---
+
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
+# All DApps
+
+Explore dApps across the Cardano ecosystem.
+
+<DefaultDataTable
+  projects={builders}
+  filterBy="dapp"
+  excludeTags="general_game"
+/>
