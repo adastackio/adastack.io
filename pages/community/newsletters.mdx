@@ -1,30 +1,14 @@
 ---
 seo_title: Newsletters
-seo_description: Get regular email updates using these Cardano newsletters and stay informed with the latest Cardano updates, releases, and news.
+seo_description: Get regular email updates with Cardano newsletters. Stay informed with the latest Cardano updates, releases, and news.
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # Newsletters
 
-Newsletters to get the latest Cardano updates by email.
+Get the latest Cardano updates directly by email.
 
-- [Intersect Newsletter](https://www.intersectmbo.org/news)<OS url="https://github.com/IntersectMBO" />: Weekly governance updates from [Intersect](https://www.intersectmbo.org/), the organization coordinating Cardano's future development.
-
-- [Cardano Newsletter](https://www.cardanonewsletter.com/): Weekly newsletter of top stories on Cardano.
-- [Cardano Community Digest](https://cardano.org/newsletter/)<OS url="https://github.com/cardano-foundation" />: Every two weeks, receive news and updates from the Cardano Foundation Community Team.
-
-- [Catalyst Newsletter](https://projectcatalyst.io/news)<OS url="https://github.com/Project-Catalyst" />: Weekly updates about the decentralized innovation fund [Project Catalyst](https://projectcatalyst.io/). Newsletter sign up is in footer.
-
-- [Cardano Spotlight](https://cardanospot.io/landing)<OS url="https://github.com/emurgo" />: Weekly rundown newsletter of big topics of the week.
-
-- [Interviewing Cardano Newsletter](https://medium.com/@patryk_karter): Interviews with DeFi projects, NFT projects, and stake pool operators (SPOs).
-
-- [ThinkGrowCrypto Media](https://tgcmedia.beehiiv.com/): Weekly community newsletter covering updates in blockchain and Cardano.
-
-- [Li₿εʁLiøη newsletter](https://liberlion.medium.com/): Newsletter on cryptocurrency theory, strategy, and privacy that often talks about Cardano.
-
-- [Frontier Letter](https://frontierletter.substack.com/): Futuristic newsletter that sometimes covers Cardano.
-
-- [Just the Metrics](https://justthemetrics.beehiiv.com/): In-depth assessments of cryptocurrencies with some Cardano posts.
-
-- [Cardano Daily Digest by Cardano Feed](https://cardano.beehiiv.com/): Aggregation of Cardano news from all over the internet.
+<DefaultDataTable projects={builders} filterBy="newsletter" />

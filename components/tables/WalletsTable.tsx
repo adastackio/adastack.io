@@ -31,7 +31,7 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
   });
 
   return (
-    <div className="data-table-wrapper">
+    <div className="data-table-wrapper mt-6">
       <table className="data-table wallet-table">
         <thead>
           <tr>
@@ -60,15 +60,15 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
                 </div>
               </td>
               <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
-                <TeamGithubBadge
-                  teamGithubURL={wallet.teamGithubURL}
-                  text="Team"
-                />
-              </td>
-              <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
                 <GithubRepoBadge
                   repoURL={wallet.sourceRepoURL}
                   text="Source Code"
+                />
+              </td>
+              <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
+                <TeamGithubBadge
+                  teamGithubURL={wallet.teamGithubURL}
+                  text="Team"
                 />
               </td>
             </tr>

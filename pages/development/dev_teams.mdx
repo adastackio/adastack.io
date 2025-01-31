@@ -4,60 +4,14 @@ seo_description: Need a dev company to help build your Cardano project? These Pr
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # Development Companies
 
-Development companies build dApps, write smart contracts, manage projects, and may provide code audits. Reach out to them if you have an idea and need an experienced team to build it.
+Development companies build dApps, write smart contracts, manage projects, and may provide code audits. Reach out if you have an idea and need an experienced team to build it.
 
-- [TxPipe](https://txpipe.io/)<OS url="https://github.com/txpipe" />
-- [Mlabs](https://mlabs.city/)<OS url="https://github.com/mlabs-haskell" />
-- [Anastasia Labs](https://anastasialabs.com/)<OS url="https://github.com/Anastasia-Labs" />
-- [Dquadrant](https://dquadrant.com/)<OS url="https://github.com/dQuadrant" />
-- [Five Binaries](https://fivebinaries.com/)<OS url="https://github.com/fivebinaries" />
-- [Input Output Global](https://iohk.io/)<OS url="https://github.com/input-output-hk" />
-- [Strica](https://strica.io/)<OS url="https://github.com/StricaHQ" />
-- [Saib](https://saib.dev/)<OS url="https://github.com/SAIB-Inc" />
-- [Sidan](https://sidan.io/)<OS url="https://github.com/sidan-lab" />
-- [ZK Fold](https://zkfold.io/)<OS url="https://github.com/zkFold/" />
-- [Blink Labs](https://blinklabs.io/)<OS url="https://github.com/blinklabs-io" />
-- [Ikigai Tech](https://ikigaitech.org/)<OS url="https://github.com/ikigai-github" />
-- [Harmonic Labs](https://www.harmoniclabs.tech/)<OS url="https://github.com/HarmonicLabs" />
-- [DC Spark](https://www.dcspark.io/)<OS url="https://github.com/dcSpark" />
-- [Well Typed](https://www.well-typed.com/)<OS url="https://github.com/well-typed" />
-- [Vacuumlabs](https://vacuumlabs.com/)<OS url="https://github.com/vacuumlabs" />
-- [Sundae Labs](https://sundae.fi/)<OS url="https://github.com/SundaeSwap-finance" />
-- [ADA Anvil](https://ada-anvil.io/)<OS url="https://github.com/Cardano-Forge" />
-- [Protofire](https://protofire.io/)<OS url="https://github.com/protofire" />
-- [Kora Labs](https://koralabs.io/)<OS url="https://github.com/koralabs" />
-- [Nucast Labs](https://www.nucastlabs.com/)<OS url="https://github.com/Nucastio" />
-- [Obsidian Systems](https://obsidian.systems/)<OS url="https://github.com/obsidiansystems" />
-- [Platonic Systems](https://platonic.systems/)<OS url="https://gitlab.com/platonic" />
-- [Tweag](https://www.tweag.io/)<OS url="https://github.com/tweag" />
-- [Logical Mechanism](https://www.logicalmechanism.io/)<OS url="https://github.com/logical-mechanism" />
-- [Dynamic Strategies](https://dynamicstrategies.io/)<OS url="https://github.com/dynamicstrategies" />
-- [Galois](https://galois.com/)<OS url="https://github.com/GaloisInc" />
-- [Awen Online](https://awen.online/)<OS url="https://github.com/Awen-online" />
-- [Plank](https://www.joinplank.com/)<OS url="https://github.com/joinplank" />
-- [Bloxico](https://bloxico.com/)<OS url="https://github.com/Bloxico" />
-- [Mutual Knowledge](https://mukn.com/)<OS url="https://github.com/MuKnSys" />
-- [Filabs](https://www.filabs.dev/)<OS url="https://github.com/filabs-dev" />
-- [Evolute Software](https://evolute.software/)<OS url="https://github.com/evolute-software" />
-- [UpToDate Developers](https://uptodatedevelopers.com/)<OS url="https://github.com/UPTODATE-DEV" />
-- [Metalamp](https://metalamp.io/)<OS url="https://github.com/fullstack-development" />
-- [Thespian](https://thespian.eu/)<OS url="https://github.com/Thespian-Agency" />
-- [Zw3rk](https://zw3rk.com/)<OS url="https://github.com/zw3rk" />
-- [Tastenkunst GmbH](http://www.tastenkunst.com/)<OS url="https://github.com/Tastenkunst" />
-- [Studio Webux](https://webuxlab.com/)<OS url="https://github.com/studiowebux" />
-- [Biglup Labs](https://biglup.io/)<OS url="https://github.com/Biglup" />
-- [Big Blymp](https://www.bigblymp.com/)<OS url="https://github.com/BigBlymp" />
-- [M2Tec](https://www.m2tec.nl/)<OS url="https://github.com/M2tec" />
-- [Saturn Labs](https://saturnlabs.org/)<OS url="https://github.com/SaturnLabs" />
-- [Yaya Labs](https://www.yayalabs.io/)<OS url="https://github.com/yaya-labs" />
-- [Trivolve Tech](https://trivolvetech.com/)
-- [Gen Lambda](https://www.genlambda.com/)
-- [We Deliver](https://we-deliver.io/)
-- [Crystal Software](http://www.crystal.infinityfreeapp.com)
-- [Pendulumdev](https://pendulumdev.co.uk/)
-- [Adaxon](https://adaxon.io/)
-- [Antier Solutions](https://www.antiersolutions.com/)
-- [Kompact](https://kompact.io/)
-- [Inversion](https://inversion.dev/)
+<DefaultDataTable
+  projects={builders}
+  filterBy={["dev_company", "game_studio"]}
+/>

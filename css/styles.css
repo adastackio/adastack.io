@@ -840,11 +840,12 @@ a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
   height: 50px;
 }
 
-.data-table.wallet-table .first-column-cell {
-  width: 300px;
+.data-table .first-column-cell {
+  width: 100vw;
 }
-.data-table.directory-table .first-column-cell {
-  width: 300px;
+
+.data-table td.first-column-cell:only-child {
+  width: 100vw;
 }
 
 /* Ant Design Modifications */

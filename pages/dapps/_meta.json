@@ -9,6 +9,16 @@
       "pagination": false
     }
   },
+  "all_dapps": {
+    "title": "All DApps",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "ai": {
     "title": "AI  ",
     "theme": {

@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import openSourceBuildersData from "../../data/open_source_builders.json";
+import openSourceBuildersData from "../../data/builders.json";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
   try {
