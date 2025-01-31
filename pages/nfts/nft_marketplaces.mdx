@@ -4,15 +4,17 @@ seo_description:
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # NFT Marketplaces
 
-This content is being peer reviewed & formally verified. Check back soon!
+NFT Marketplaces are markets for people to buy and sell NFTs on the blockchain.
 
-In the meantime, explore other Cardano collections:
+<DefaultDataTable projects={builders} filterBy="nft_marketplace" />
 
-- [YouTube Channels](/community/youtube)
-- [Development Firms](/development/dev_teams)
-- [Newsletters](/community/newsletters)
-- [News and Blogs](/community/news_and_blogs)
+## P2P NFT Trading
 
-[See the Full Library →](/all_pages)
+Organize direct swaps of Cardano NFTs.
+
+<DefaultDataTable projects={builders} filterBy="nft_p2p_trading" />

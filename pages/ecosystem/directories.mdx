@@ -4,12 +4,11 @@ seo_description: Explore the Cardano ecosystem using ecosystem maps and discover
 toc: false
 ---
 
-import directories from "../../data/directories.json";
-import DirectoryTable from "../../components/tables/DirectoryTable";
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
 
 # Ecosystem Directories
 
 Websites to explore projects building on Cardano.
 
-<br />
-<DirectoryTable projects={directories} />
+<DefaultDataTable projects={builders} filterBy="ecosystem_directory" />

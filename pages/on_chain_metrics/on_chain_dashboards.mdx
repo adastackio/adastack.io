@@ -4,16 +4,11 @@ seo_description: See the state of the Cardano network. Explore on-chain dashboar
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # Metric Tracking Websites
 
-Metric websites show various information about the state of the Cardano network.
+Information about the state of the Cardano network.
 
-- [Cardano Blockchain Insights](https://lookerstudio.google.com/s/huXqeQmi9qA): Stake pools, smart contracts, distribution, and treasury.
-- [Edinburgh Decentralization Index](http://blockchainlab.inf.ed.ac.uk/edi-dashboard/)<OS url="https://github.com/Blockchain-Technology-Lab" />: Compares decentralization across many blockchains.
-- [Pooltool Network Health](https://pooltool.io/networkhealth)<OS url="https://github.com/PoolTool-io" />: Block production, stake pool, and decentralization metrics.
-- [Balance Analytics](https://www.balanceanalytics.io/)<OS url="https://github.com/Balance-Analytics" />: Decentralization, MAV, and UTXO allocation.
-- [DefiLlama Cardano Dashboard](https://defillama.com/chain/Cardano)<OS url="https://github.com/DefiLlama" />: Price, development, and activity metrics.
-- [Cexplorer Insights](https://cexplorer.io/insights)<OS url="https://github.com/cexplorer" />: Scripts, transactions, minted assets.
-- [CardanoScan Analytics](https://cardanoscan.io/analytics)<OS url="https://github.com/StricaHQ" />: Analytics on rewards, fees, transactions, and more.
-- [Dapps on Cardano Network Stats](https://dappsoncardano.com/analytics/globalstats)<OS url="https://github.com/Cardano-Fans" />: Accounts, fees, and transactions.
-- [Adastats Dashboard](https://adastats.info/dashboard): State of the network and price.
+<DefaultDataTable projects={builders} filterBy="metric_tracker_site" />

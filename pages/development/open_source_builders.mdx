@@ -6,7 +6,7 @@ toc: false
 
 import OpenSourceBuildersTable from "../../components/tables/OpenSourceBuildersTable";
 import openSourceBuildersAPI from "../../scripts/API/openSourceBuildersAPI";
-import openSourceBuildersData from "../../data/open_source_builders.json";
+import openSourceBuildersData from "../../data/builders.json";
 
 export const getStaticProps = async () => {
   try {
@@ -21,13 +21,14 @@ export const getStaticProps = async () => {
       props: { sortedOSBuilderData },
       revalidate: 600,
     };
-  } catch (error) {
-    console.error('Failed to fetch open source builders data:', error);
-    return {
-      props: { sortedOSBuilderData: [] },
-      notFound: true,
-    };
-  }
+
+} catch (error) {
+console.error('Failed to fetch open source builders data:', error);
+return {
+props: { sortedOSBuilderData: [] },
+notFound: true,
+};
+}
 };
 
 export default function OpenSourceBuilders({ sortedOSBuilderData }) {

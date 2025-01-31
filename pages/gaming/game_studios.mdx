@@ -1,18 +1,14 @@
 ---
 seo_title: Game Studios
-seo_description:
+seo_description: Explore blockchain game studios building on Cardano. Find top game developers, explore games and dApps, and reach out for assistance with game dev.
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # Game Studios
 
-This content is being peer reviewed & formally verified. Check back soon!
+Game studios building on Cardano.
 
-In the meantime, explore other Cardano collections:
-
-- [YouTube Channels](/community/youtube)
-- [Development Firms](/development/dev_teams)
-- [Newsletters](/community/newsletters)
-- [News and Blogs](/community/news_and_blogs)
-
-[See the Full Library →](/all_pages)
+<DefaultDataTable projects={builders} filterBy="game_studio" />

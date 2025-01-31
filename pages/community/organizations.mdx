@@ -1,18 +1,14 @@
 ---
 seo_title: Organizations
-seo_description:
+seo_description: Discover key organizations, alliances, guilds, and consortiums working in Cardano. Explore and join the groups shaping the ecosystem's future.
 toc: false
 ---
 
-# Organizations
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
 
-This content is being peer reviewed & formally verified. Check back soon!
+# Organizations, Alliances, and Guilds
 
-In the meantime, explore other Cardano collections:
+Discover the groups shaping the Cardano ecosystem's future.
 
-- [YouTube Channels](/community/youtube)
-- [Development Firms](/development/dev_teams)
-- [Newsletters](/community/newsletters)
-- [News and Blogs](/community/news_and_blogs)
-
-[See the Full Library →](/all_pages)
+<DefaultDataTable projects={builders} filterBy="organization" />

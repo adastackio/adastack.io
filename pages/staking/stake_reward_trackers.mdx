@@ -4,6 +4,9 @@ seo_description: Stake reward trackers to see your reward history, calculate upc
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # Stake Reward Trackers
 
 Check your staking reward history and estimate upcoming rewards using these tools.
@@ -12,33 +15,16 @@ Check your staking reward history and estimate upcoming rewards using these tool
 
 Enter your wallet address to see accumulated rewards and history.
 
-- [Cexplorer](https://cexplorer.io/rewards)<OS url="https://github.com/cexplorer/cexplorer.io" />: Reward history and graph
-
-- [WhenAda](https://www.whenada.com/): Reward history and graph
-
-- [Cardano Countdown](https://cardanocountdown.com/Rewards): Reward history
-
-- [Cardano.org Explorer](https://beta.explorer.cardano.org/staking-lifecycle/)<OS url="https://github.com/cardano-foundation/cf-explorer" />: Rewards and staking lifecycle
-
-- [CardanoScan](https://cardanoscan.io/)<OS url="https://github.com/StricaHQ" />: Reward balance
+<DefaultDataTable projects={builders} filterBy="reward_tracker" />
 
 ### Reward Calculators
 
 Calculator tools to predict upcoming ADA staking earnings.
 
-- [Antipalos Cardano Calculator](https://antipalos.github.io/cardano-calculator/#calculator)<OS url="https://github.com/antipalos" />: Open-source reward calculator
-- [Armada Alliance](https://armada-alliance.com/)<OS url="https://github.com/armada-alliance/armada-alliance" />: Scroll down for staking rewards, live off rewards, and retirement
-- [Cardano with Paul](https://www.cardanowithpaul.com/calculators/ada-staking-rewards-calculator/): Staking rewards
-- [Cardano with Paul](https://www.cardanowithpaul.com/calculators/ada-price-needed-to-live-off-rewards/): Live off rewards
-- [Cardano with Paul](https://www.cardanowithpaul.com/calculators/how-much-ada-do-you-need-to-retire/): Retirement
+<DefaultDataTable projects={builders} filterBy="reward_calculator" />
 
 ### Reward Calendars
 
 View reward history and future payout dates in a calender view.
 
-- [Cardano Date](https://cardano.date/#)
-- [Cardano-Calendar](https://cardano-calendar.com/month/#)
-- [Pool Peek Epoch Calendar](https://poolpeek.com/epochcalendar)<OS url="https://github.com/ShamrockPool/PoolPeek.github.io" />
-- [Cexplorer Calendar](https://cexplorer.io/calendar)<OS url="https://github.com/cexplorer/cexplorer.io" />
-- [Azure ADA Epoch Calendar](https://azureada.com/epoch-calendar/)<OS url="https://github.com/AzureADA" />
-- [Hype Staking](https://hype-staking.com/home)
+<DefaultDataTable projects={builders} filterBy="reward_calendar" />
