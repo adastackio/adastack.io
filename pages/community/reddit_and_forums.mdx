@@ -1,18 +1,20 @@
 ---
 seo_title: Reddit & Forums
-seo_description:
+seo_description: Discover the top Cardano community forums and subreddit channels on Reddit for ADA discussion and memes. Find international forums in 9+ languages.
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # Reddit and Forums
 
-This content is being peer reviewed & formally verified. Check back soon!
+Reddit pages and dedicated Cardano forums to participate in discussions.
 
-In the meantime, explore other Cardano collections:
+<DefaultDataTable projects={builders} filterBy="cardano_forum" />
 
-- [YouTube Channels](/community/youtube)
-- [Development Firms](/development/dev_teams)
-- [Newsletters](/community/newsletters)
-- [News and Blogs](/community/news_and_blogs)
+## International Forums
 
-[See the Full Library →](/all_pages)
+International forums organized by language.
+
+<DefaultDataTable projects={builders} filterBy="international_cardano_forum" />

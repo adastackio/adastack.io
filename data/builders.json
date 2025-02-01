@@ -3391,6 +3391,108 @@
     "tags": ["tools", "stake_pool_monitoring_tool_additional"]
   },
   {
+    "name": "Cardano Reddit",
+    "website": "https://www.reddit.com/r/cardano/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano ELI5 Reddit",
+    "website": "https://www.reddit.com/r/Cardano_ELI5/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano NFTs Reddit",
+    "website": "https://www.reddit.com/r/CardanoNFTs/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano Stake Pools Reddit",
+    "website": "https://www.reddit.com/r/CardanoStakePools/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano Developers Reddit",
+    "website": "https://www.reddit.com/r/CardanoDevelopers/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano Forum",
+    "website": "https://forum.cardano.org/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano Stack Exchange",
+    "website": "https://cardano.stackexchange.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Facebook Cardano Community",
+    "website": "https://www.facebook.com/groups/CardanoCommunity",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Spanish",
+    "website": "https://forum.cardano.org/c/espanol/126",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Chinese",
+    "website": "https://forum.cardano.org/c/chinese/39",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Germany",
+    "website": "https://forum.cardano.org/c/deutsch/112",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Japanese",
+    "website": "https://forum.cardano.org/c/japanese/19",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Korean",
+    "website": "https://forum.cardano.org/c/korean/52",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Portuguese",
+    "website": "https://forum.cardano.org/c/portugues/134",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Italian",
+    "website": "https://forum.cardano.org/c/italiano/165",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum French",
+    "website": "https://forum.cardano.org/c/francais/174",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Bahasa Indonesian",
+    "website": "https://forum.cardano.org/c/bahasa-indonesia/179",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
     "name": "Adapulse",
     "website": "https://adapulse.io/",
     "teamGithubURL": "",
