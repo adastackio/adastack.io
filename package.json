@@ -23,7 +23,7 @@
     "react-dom": "18.3.1",
     "next": "^15.1.0",
     "nextra": "2.13.4",
-    "nextra-theme-docs": "2.13.4",
+    "nextra-theme-docs": "4.2.1",
     "antd": "^5.22.3",
     "antd-style": "^3.7.1",
     "javascript-time-ago": "^2.5.11",
