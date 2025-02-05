@@ -71,8 +71,8 @@
       "pagination": false
     }
   },
-  "code_libraries": {
-    "title": "Code Libraries",
+  "smart_contract_languages": {
+    "title": "Smart Contract Languages",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -81,8 +81,8 @@
       "pagination": false
     }
   },
-  "smart_contract_languages": {
-    "title": "Smart Contract Languages",
+  "code_libraries": {
+    "title": "Code Libraries",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
