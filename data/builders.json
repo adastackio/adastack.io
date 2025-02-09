@@ -612,6 +612,12 @@
     "tags": ["dev_company"]
   },
   {
+    "name": "Exura Labs",
+    "website": "https://www.exura.org/",
+    "teamGithubURL": "https://github.com/exuralabs",
+    "tags": ["dev_company"]
+  },
+  {
     "name": "Rush Labs",
     "website": "https://www.rushlabs.io/",
     "teamGithubURL": "",
