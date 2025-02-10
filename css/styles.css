@@ -1084,6 +1084,13 @@ thead th.ant-table-cell {
   .ant-table-wrapper .ant-table-cell.ant-table-cell-fix-right {
     position: relative !important;
   }
+
+  /* Hide H2 items on mobile dropdown menu */
+  .nextra-menu-mobile
+    ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3 {
+    display: none;
+  }
+
   #animation {
     width: 100vw;
     height: calc(100vh - 4rem);
