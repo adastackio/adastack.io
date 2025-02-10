@@ -3499,6 +3499,36 @@
     "tags": ["tools", "international_cardano_forum"]
   },
   {
+    "name": "Aiken Website and Documentation",
+    "website": "https://aiken-lang.org/",
+    "teamGithubURL": "https://github.com/aiken-lang/",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Aiken Playground",
+    "website": "https://play.aiken-lang.org/",
+    "teamGithubURL": "https://github.com/aiken-lang/",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Aiken Repo",
+    "website": "https://github.com/aiken-lang/aiken",
+    "teamGithubURL": "https://github.com/aiken-lang/",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Awesome Aiken",
+    "website": "https://github.com/aiken-lang/awesome-aiken",
+    "teamGithubURL": "https://github.com/aiken-lang/",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Aiken VS Code Extension",
+    "website": "https://marketplace.visualstudio.com/items?itemName=TxPipe.aiken",
+    "teamGithubURL": "https://github.com/aiken-lang/",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
     "name": "Adapulse",
     "website": "https://adapulse.io/",
     "teamGithubURL": "",

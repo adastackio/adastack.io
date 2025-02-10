@@ -5,6 +5,8 @@ toc: false
 ---
 
 import LibraryInfo from "../../../components/LibraryInfo";
+import builders from "../../../data/builders.json";
+import DefaultDataTable from "../../../components/tables/DefaultDataTable";
 
 # Aiken
 
@@ -23,3 +25,7 @@ Aiken also provides a toolkit of developer utilities including integrated testin
     },
   ]}
 />
+
+## Useful Links
+
+<DefaultDataTable projects={builders} filterBy="aiken_link" />
