@@ -3505,12 +3505,6 @@
     "tags": ["tools", "aiken_link"]
   },
   {
-    "name": "Aiken Playground",
-    "website": "https://play.aiken-lang.org/",
-    "teamGithubURL": "https://github.com/aiken-lang/",
-    "tags": ["tools", "aiken_link"]
-  },
-  {
     "name": "Aiken Repo",
     "website": "https://github.com/aiken-lang/aiken",
     "teamGithubURL": "https://github.com/aiken-lang/",
@@ -3523,10 +3517,58 @@
     "tags": ["tools", "aiken_link"]
   },
   {
+    "name": "Aiken Playground",
+    "website": "https://play.aiken-lang.org/",
+    "teamGithubURL": "https://github.com/aiken-lang/",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Cardano Stack Exchange Aiken",
+    "website": "https://cardano.stackexchange.com/questions/tagged/aiken",
+    "teamGithubURL": "https://github.com/StackExchange",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Cardano Developer Portal Aiken",
+    "website": "https://developers.cardano.org/docs/smart-contracts/aiken/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
     "name": "Aiken VS Code Extension",
     "website": "https://marketplace.visualstudio.com/items?itemName=TxPipe.aiken",
     "teamGithubURL": "https://github.com/aiken-lang/",
     "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Plutus Documentation",
+    "website": "https://plutus.cardano.intersectmbo.org/docs/",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["tools", "plutus_link"]
+  },
+  {
+    "name": "Plutus Repo",
+    "website": "https://github.com/IntersectMBO/plutus",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["tools", "plutus_link"]
+  },
+  {
+    "name": "Awesome Plutus",
+    "website": "https://github.com/mlabs-haskell/awesome-plutus",
+    "teamGithubURL": "https://github.com/mlabs-haskell/",
+    "tags": ["tools", "plutus_link"]
+  },
+  {
+    "name": "Cardano Developer Portal Plutus",
+    "website": "https://developers.cardano.org/docs/smart-contracts/plutus/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "plutus_link"]
+  },
+  {
+    "name": "Cardano Stack Exchange Plutus",
+    "website": "https://cardano.stackexchange.com/questions/tagged/plutus",
+    "teamGithubURL": "https://github.com/StackExchange",
+    "tags": ["tools", "plutus_link"]
   },
   {
     "name": "Adapulse",

@@ -5,8 +5,12 @@ toc: false
 ---
 
 import LibraryInfo from "../../../components/LibraryInfo";
+import builders from "../../../data/builders.json";
+import DefaultDataTable from "../../../components/tables/DefaultDataTable";
 
 # Plutus
+
+Plutus is Cardano's native smart contract programming language. It uses the Haskell language, allowing developers to write on-chain code in an established functional language. It was the original smart contract language created by Input Output to write smart contracts on Cardano.
 
 <LibraryInfo
   language="Haskell"
@@ -23,3 +27,7 @@ import LibraryInfo from "../../../components/LibraryInfo";
     },
   ]}
 />
+
+## Useful Links
+
+<DefaultDataTable projects={builders} filterBy="plutus_link" />
