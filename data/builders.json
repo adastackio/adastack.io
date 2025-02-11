@@ -3571,6 +3571,48 @@
     "tags": ["tools", "plutus_link"]
   },
   {
+    "name": "Marlowe Website",
+    "website": "https://marlowe.iohk.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Marlowe Documentation",
+    "website": "https://docs.marlowe.iohk.io/",
+    "teamGithubURL": "https://github.com/marlowe-lang",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Marlowe Repo",
+    "website": "https://github.com/input-output-hk/marlowe",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Awesome Marlowe",
+    "website": "https://github.com/input-output-hk/awesome-marlowe",
+    "teamGithubURL": "https://github.com/input-output-hk/",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Marlowehub Smart Contract Explorer",
+    "website": "https://www.marlowehub.io/",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Cardano Developer Portal Marlowe",
+    "website": "https://developers.cardano.org/docs/smart-contracts/marlowe/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Cardano Stack Exchange Marlowe",
+    "website": "https://cardano.stackexchange.com/questions/tagged/marlowe",
+    "teamGithubURL": "https://github.com/StackExchange",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
     "name": "Adapulse",
     "website": "https://adapulse.io/",
     "teamGithubURL": "",

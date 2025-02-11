@@ -5,8 +5,14 @@ toc: false
 ---
 
 import LibraryInfo from "../../../components/LibraryInfo";
+import builders from "../../../data/builders.json";
+import DefaultDataTable from "../../../components/tables/DefaultDataTable";
 
 # Marlowe
+
+Marlowe is a domain-specific language (DSL) designed to create financial smart contracts on the Cardano blockchain. It provides a visual interface, allowing non-programmers to create and execute smart contracts using interconnecting blocks.
+
+It provides a simplified approach to smart contract development, making it an ideal solution for organizations looking to automate financial operations on the blockchain. It also provides built-in safety guardrails, to ensure contracts execute safely and as expected.
 
 <LibraryInfo
   language="Haskell"
@@ -23,3 +29,7 @@ import LibraryInfo from "../../../components/LibraryInfo";
     },
   ]}
 />
+
+## Useful Links
+
+<DefaultDataTable projects={builders} filterBy="marlowe_link" />
