@@ -129,14 +129,6 @@ const config: DocsThemeConfig = {
       return "https://github.com/adastackio/adastack.io/issues";
     },
   },
-  banner: {
-    key: "job_banner",
-    text: (
-      <a href="https://github.com/tuckpuck" target="_blank">
-        Tuckpuck is looking for a job in web or Cardano development →
-      </a>
-    ),
-  },
   components: {
     OS: OS,
   },
