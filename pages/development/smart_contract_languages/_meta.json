@@ -19,8 +19,8 @@
       "pagination": false
     }
   },
-  "marlowe": {
-    "title": "Marlowe",
+  "opshin": {
+    "title": "OpShin",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -39,8 +39,8 @@
       "pagination": false
     }
   },
-  "opshin": {
-    "title": "OpShin",
+  "marlowe": {
+    "title": "Marlowe",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
