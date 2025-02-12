@@ -5,8 +5,12 @@ toc: false
 ---
 
 import LibraryInfo from "../../../components/LibraryInfo";
+import builders from "../../../data/builders.json";
+import DefaultDataTable from "../../../components/tables/DefaultDataTable";
 
 # OpShin
+
+OpShin is a Python-based programming language for developing secure smart contracts on the Cardano blockchain. It is 100% valid Python, meaning you can leverage the existing tool stack for Python, including syntax highlighting, linting, debugging, unit-testing, property-based testing, and verification. Because it is Python, writing OpShin contracts is intuitive and reduces the barrier of entry to create custom validators in Cardano.
 
 <LibraryInfo
   language="Python"
@@ -19,3 +23,7 @@ import LibraryInfo from "../../../components/LibraryInfo";
     },
   ]}
 />
+
+## Links
+
+<DefaultDataTable projects={builders} filterBy="opshin_link" />

@@ -3505,7 +3505,7 @@
     "tags": ["tools", "aiken_link"]
   },
   {
-    "name": "Aiken Repo",
+    "name": "Aiken GitHub Repo",
     "website": "https://github.com/aiken-lang/aiken",
     "teamGithubURL": "https://github.com/aiken-lang/",
     "tags": ["tools", "aiken_link"]
@@ -3547,7 +3547,7 @@
     "tags": ["tools", "plutus_link"]
   },
   {
-    "name": "Plutus Repo",
+    "name": "Plutus GitHub Repo",
     "website": "https://github.com/IntersectMBO/plutus",
     "teamGithubURL": "https://github.com/IntersectMBO",
     "tags": ["tools", "plutus_link"]
@@ -3571,6 +3571,36 @@
     "tags": ["tools", "plutus_link"]
   },
   {
+    "name": "OpShin Website",
+    "website": "https://opshin.dev/",
+    "teamGithubURL": "https://github.com/OpShin/",
+    "tags": ["tools", "opshin_link"]
+  },
+  {
+    "name": "OpShin Documentation",
+    "website": "https://book.opshin.dev/",
+    "teamGithubURL": "https://github.com/OpShin/",
+    "tags": ["tools", "opshin_link"]
+  },
+  {
+    "name": "OpShin GitHub Repo",
+    "website": "https://github.com/OpShin/opshin",
+    "teamGithubURL": "https://github.com/OpShin/",
+    "tags": ["tools", "opshin_link"]
+  },
+  {
+    "name": "Awesome OpShin",
+    "website": "https://github.com/OpShin/awesome-opshin",
+    "teamGithubURL": "https://github.com/OpShin/",
+    "tags": ["tools", "opshin_link"]
+  },
+  {
+    "name": "Cardano Developer Portal OpShin",
+    "website": "https://developers.cardano.org/docs/smart-contracts/opshin",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "opshin_link"]
+  },
+  {
     "name": "Marlowe Website",
     "website": "https://marlowe.iohk.io/",
     "teamGithubURL": "https://github.com/input-output-hk",
@@ -3583,7 +3613,7 @@
     "tags": ["tools", "marlowe_link"]
   },
   {
-    "name": "Marlowe Repo",
+    "name": "Marlowe GitHub Repo",
     "website": "https://github.com/input-output-hk/marlowe",
     "teamGithubURL": "https://github.com/input-output-hk",
     "tags": ["tools", "marlowe_link"]
