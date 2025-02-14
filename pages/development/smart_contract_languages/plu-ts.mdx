@@ -5,8 +5,12 @@ toc: false
 ---
 
 import LibraryInfo from "../../../components/LibraryInfo";
+import builders from "../../../data/builders.json";
+import DefaultDataTable from "../../../components/tables/DefaultDataTable";
 
 # Plu-Ts
+
+Plu-ts streamlines Cardano DApp development by allowing developers to write smart contracts in TypeScript. It produces resource-efficient smart contracts through advanced compiler optimizations and strict type checking. By using a highly popular language like TypeScript for writing smart contracts it minimizes context-switching and makes it faster for devs to get started.
 
 <LibraryInfo
   language="TypeScript"
@@ -23,3 +27,7 @@ import LibraryInfo from "../../../components/LibraryInfo";
     },
   ]}
 />
+
+## Links
+
+<DefaultDataTable projects={builders} filterBy="plu_ts_link" />

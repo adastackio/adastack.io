@@ -3601,6 +3601,30 @@
     "tags": ["tools", "opshin_link"]
   },
   {
+    "name": "Plu-ts Website and Documentation",
+    "website": "https://pluts.harmoniclabs.tech/",
+    "teamGithubURL": "https://github.com/HarmonicLabs",
+    "tags": ["tools", "plu_ts_link"]
+  },
+  {
+    "name": "Plu-ts Repo GitHub",
+    "website": "https://github.com/HarmonicLabs/plu-ts",
+    "teamGithubURL": "https://github.com/HarmonicLabs",
+    "tags": ["tools", "plu_ts_link"]
+  },
+  {
+    "name": "Cardano Developer Portal Plu-ts",
+    "website": "https://developers.cardano.org/docs/smart-contracts/plu-ts/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "plu_ts_link"]
+  },
+  {
+    "name": "Cardano Stack Exchange Plu-Ts",
+    "website": "https://cardano.stackexchange.com/questions/tagged/plu-ts",
+    "teamGithubURL": "https://github.com/StackExchange",
+    "tags": ["tools", "plu_ts_link"]
+  },
+  {
     "name": "Marlowe Website",
     "website": "https://marlowe.iohk.io/",
     "teamGithubURL": "https://github.com/input-output-hk",
