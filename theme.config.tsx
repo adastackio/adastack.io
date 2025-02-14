@@ -32,15 +32,21 @@ const config: DocsThemeConfig = {
       <>
         <meta name="title" content={title} />
         <meta name="description" content={description} />
-        <meta property="og:url" content={url} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="canonical" href={url} />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="apple-mobile-web-app-title" content="adastack.io" />
+        <meta property="og:url" content={url} />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="adastack.io" />
+        <meta property="twitter:url" content={url} />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </>
     );
   },
