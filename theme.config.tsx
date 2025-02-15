@@ -18,9 +18,9 @@ const config: DocsThemeConfig = {
   head: () => {
     const { asPath, defaultLocale, locale } = useRouter();
     const { frontMatter } = useConfig();
+    const baseUrl = "https://adastack.io";
     const url =
-      "https://adastack.io" +
-      (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
+      baseUrl + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
 
     let title = frontMatter.seo_title
       ? `${frontMatter.seo_title} | Adastack.io`
@@ -41,8 +41,10 @@ const config: DocsThemeConfig = {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/adastack_open_graph.png" />
-        <meta name="twitter:image" content="/adastack_open_graph.png" />
+        <meta
+          property="og:image"
+          content={`${baseUrl}/adastack_open_graph.png`}
+        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta
@@ -61,7 +63,14 @@ const config: DocsThemeConfig = {
     );
   },
   useNextSeoProps() {
+    const { asPath, defaultLocale, locale } = useRouter();
     const { frontMatter } = useConfig();
+    const default_seo_title = "Cardano Explorer | Adastack.io";
+    const default_seo_description =
+      "Explore the Cardano ecosystem: Apps, Games, NFTs, Staking, Community, DAOs, Layer 2s, Sidechains, Metrics & ADA price. Your guide to Cardano.";
+    const url =
+      "https://adastack.io" +
+      (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
     return {
       titleTemplate: frontMatter.seo_title
         ? `${frontMatter.seo_title} | Adastack.io`
@@ -71,6 +80,23 @@ const config: DocsThemeConfig = {
         : default_seo_description,
       // Note: This sets pages to index only if there is an seo-description on the page. Remove the below line once all pages have content and seo-descriptions.
       noindex: frontMatter.seo_description ? false : true,
+      openGraph: {
+        type: "website",
+        url: url,
+        images: [
+          {
+            url: "https://adastack.io/adastack_open_graph.png",
+            width: 1200,
+            height: 630,
+            alt: "Adastack Cardano Explorer Image",
+          },
+        ],
+        siteName: "Adastack.io",
+      },
+      twitter: {
+        cardType: "summary_large_image",
+        site: "@adastackio",
+      },
     };
   },
   search: { placeholder: "Search Cardano" },
