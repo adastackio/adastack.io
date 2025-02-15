@@ -9,16 +9,17 @@ import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 import OS from "./components/badges/OS";
 
+const { asPath, defaultLocale, locale } = useRouter();
+const { frontMatter } = useConfig();
+const default_seo_title = "Cardano Explorer | Adastack.io";
+const default_seo_description =
+  "Explore the Cardano ecosystem: Apps, Games, NFTs, Staking, Community, DAOs, Layer 2s, Sidechains, Metrics & ADA price. Your guide to Cardano.";
+const url =
+  "https://adastack.io" +
+  (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
+
 const config: DocsThemeConfig = {
   useNextSeoProps() {
-    const { asPath, defaultLocale, locale } = useRouter();
-    const { frontMatter } = useConfig();
-    const default_seo_title = "Cardano Explorer | Adastack.io";
-    const default_seo_description =
-      "Explore the Cardano ecosystem: Apps, Games, NFTs, Staking, Community, DAOs, Layer 2s, Sidechains, Metrics & ADA price. Your guide to Cardano.";
-    const url =
-      "https://adastack.io" +
-      (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
     return {
       titleTemplate: frontMatter.seo_title
         ? `${frontMatter.seo_title} | Adastack.io`
