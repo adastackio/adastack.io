@@ -41,6 +41,16 @@ const config: DocsThemeConfig = {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="/adastack_open_graph.png" />
+        <meta name="twitter:image" content="/adastack_open_graph.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+          property="og:image:alt"
+          content="Adastack Cardano Explorer Image"
+        />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:site_name" content="Adastack.io" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="adastack.io" />
         <meta property="twitter:url" content={url} />
