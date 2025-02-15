@@ -9,59 +9,7 @@ import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 import OS from "./components/badges/OS";
 
-const default_seo_description =
-  "Explore the Cardano ecosystem: Apps, Games, NFTs, Staking, Community, DAOs, Layer 2s, Sidechains, Metrics & ADA price. Your guide to Cardano.";
-
-const default_seo_title = "Cardano Explorer | Adastack.io";
-
 const config: DocsThemeConfig = {
-  head: () => {
-    const { asPath, defaultLocale, locale } = useRouter();
-    const { frontMatter } = useConfig();
-    const baseUrl = "https://adastack.io";
-    const url =
-      baseUrl + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
-
-    let title = frontMatter.seo_title
-      ? `${frontMatter.seo_title} | Adastack.io`
-      : default_seo_title;
-    let description = frontMatter.seo_description
-      ? frontMatter.seo_description
-      : default_seo_description;
-    return (
-      <>
-        <meta name="title" content={title} />
-        <meta name="description" content={description} />
-        <link rel="canonical" href={url} />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <meta name="apple-mobile-web-app-title" content="adastack.io" />
-        <meta property="og:url" content={url} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content={`${baseUrl}/adastack_open_graph.png`}
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta
-          property="og:image:alt"
-          content="Adastack Cardano Explorer Image"
-        />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:site_name" content="Adastack.io" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content="adastack.io" />
-        <meta property="twitter:url" content={url} />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </>
-    );
-  },
   useNextSeoProps() {
     const { asPath, defaultLocale, locale } = useRouter();
     const { frontMatter } = useConfig();
