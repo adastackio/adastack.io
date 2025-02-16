@@ -9,43 +9,82 @@ import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
 import OS from "./components/badges/OS";
 
-const default_seo_title = "Cardano Explorer | Adastack.io";
-const default_seo_description =
-  "Explore the Cardano ecosystem: Apps, Games, NFTs, Staking, Community, DAOs, Layer 2s, Sidechains, Metrics & ADA price. Your guide to Cardano.";
-
 const config: DocsThemeConfig = {
   useNextSeoProps() {
     const { asPath, defaultLocale, locale } = useRouter();
     const { frontMatter } = useConfig();
-    const url =
-      "https://adastack.io" +
-      (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
+
+    const base_url = "https://adastack.io";
+    const page_url =
+      base_url + (defaultLocale === locale ? asPath : `/${locale}${asPath}`);
+
+    const default_seo_title = "Cardano Explorer | Adastack.io";
+    const site_title = frontMatter.seo_title
+      ? `${frontMatter.seo_title} | Adastack.io`
+      : default_seo_title;
+
+    const default_seo_description =
+      "Explore the Cardano ecosystem: Apps, Games, NFTs, Staking, Community, DAOs, Layer 2s, Sidechains, Metrics & ADA price. Your guide to Cardano.";
+    const site_description = frontMatter.seo_description
+      ? frontMatter.seo_description
+      : default_seo_description;
 
     return {
-      titleTemplate: frontMatter.seo_title
-        ? `${frontMatter.seo_title} | Adastack.io`
-        : default_seo_title,
-      description: frontMatter.seo_description
-        ? frontMatter.seo_description
-        : default_seo_description,
-      // Note: This sets pages to index only if there is an seo-description on the page. Remove the below line once all pages have content and seo-descriptions.
+      titleTemplate: site_title,
+      description: site_description,
       noindex: frontMatter.seo_description ? false : true,
+      canonical: page_url,
+      mobileAlternate: {
+        media: "only screen and (max-width: 640px)",
+        href: page_url,
+      },
+      additionalMetaTags: [
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0",
+        },
+        {
+          name: "apple-mobile-web-app-title",
+          content: "adastack.io",
+        },
+      ],
+      additionalLinkTags: [
+        {
+          rel: "icon",
+          type: "image/svg+xml",
+          href: "/favicon.svg",
+        },
+        {
+          rel: "shortcut icon",
+          href: "/favicon.ico",
+        },
+        {
+          rel: "manifest",
+          href: "/site.webmanifest",
+        },
+      ],
       openGraph: {
         type: "website",
-        url: url,
+        url: page_url,
+        site_name: "Adastack.io",
         images: [
           {
-            url: "https://adastack.io/adastack_open_graph.png",
+            url: `${base_url}/adastack_open_graph.png`,
             width: 1200,
             height: 630,
             alt: "Adastack Cardano Explorer Image",
+            type: "image/png",
           },
         ],
-        siteName: "Adastack.io",
+        title: site_title,
+        description: site_description,
       },
       twitter: {
         cardType: "summary_large_image",
         site: "@adastackio",
+        handle: "@adastackio",
+        title: site_title,
+        description: site_description,
       },
     };
   },
