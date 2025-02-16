@@ -38,14 +38,6 @@ li a {
   color: #007bff;
 }
 
-.nextra-content li a:hover {
-  text-decoration: underline !important;
-}
-
-.nextra-content li a:not(.nextra-sidebar-container a) {
-  padding: 8px 0px;
-}
-
 html[style*="color-scheme: dark;"] a {
   color: #9eb1ff;
 }
@@ -53,6 +45,14 @@ html[style*="color-scheme: dark;"] a {
 html[style*="color-scheme: dark;"] a:not(.nextra-sidebar-container a):hover {
   color: #94a8ff;
   text-decoration: underline !important;
+}
+
+.nextra-content li a:hover {
+  text-decoration: underline !important;
+}
+
+.nextra-content li a:not(.nextra-sidebar-container a) {
+  padding: 8px 0px;
 }
 
 ul {
@@ -379,7 +379,7 @@ html[style*="color-scheme: dark;"]
   border-color: #4363ee !important;
 }
 
-/* Home animation */
+/* Home */
 .homehero {
   height: calc(100vh - var(--nextra-navbar-height));
 }
@@ -415,13 +415,6 @@ html[style*="color-scheme: dark;"]
   left: 100%;
 }
 
-#animation {
-  position: relative;
-  height: calc(100vh - 4rem);
-  width: calc(100vw - 16rem - 24px);
-  z-index: 0;
-}
-
 article.nextra-content:has(.homehero) {
   padding: 0px 0px;
   background-color: #04050c;
@@ -431,63 +424,6 @@ article.nextra-content:has(.homehero) {
 
 body:has(article.nextra-content .homehero) {
   overflow: hidden;
-}
-
-html[style*="color-scheme: light;"] #animation {
-  background-color: #1c1c1c;
-  background-size: cover;
-}
-
-html[style*="color-scheme: dark;"] #animation {
-  background-color: #1c1c1c;
-  background-size: cover;
-}
-
-:is(html[class~="light"]) .animation-overlay {
-  position: absolute; /* Cover the entire viewport */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0); /* Dark overlay with transparency */
-  z-index: 1; /* Ensure it sits above other content */
-}
-
-:is(html[class~="dark"]) .animation-overlay {
-  position: absolute; /* Cover the entire viewport */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.25); /* Dark overlay with transparency */
-  z-index: 1; /* Ensure it sits above other content */
-}
-
-.animation-content-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 65px 55px 50px;
-  z-index: 2;
-}
-
-html[style*="color-scheme: light;"] .animation-content-container {
-  background: rgb(250 250 250);
-  background: -webkit-linear-gradient(to bottom, #ddd, #ffffff);
-  background: linear-gradient(to bottom, #ddd, #ffffff);
-  backdrop-filter: blur(6px); /* Apply blur to the background */
-  border: 1px solid rgba(255, 255, 255, 0.12); /* Add a subtle border */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-}
-
-html[style*="color-scheme: dark;"] .animation-content-container {
-  background-color: rgba(255, 255, 255, 0.13);
-  backdrop-filter: blur(12px); /* Apply blur to the background */
-  border: 1px solid rgba(255, 255, 255, 0.1); /* Add a subtle border */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .nextra-content li.nx-my-2 {
@@ -519,85 +455,6 @@ h6 + .toc-item {
 
 .blue-bullet {
   margin-right: 8px;
-}
-
-.animation-title-container {
-  width: 100%;
-}
-
-.animation-title {
-  font-size: 28px;
-  margin-top: -20px;
-  text-align: center;
-  font-family: "__Nunito_7d500b", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  z-index: 3;
-}
-
-.animation-subtitle {
-  font-size: 1rem;
-  margin-top: 4px;
-  margin-bottom: 14px;
-  text-align: center;
-  z-index: 3;
-}
-
-html[style*="color-scheme: light;"] .animation-title,
-html[style*="color-scheme: light;"] .animation-subtitle {
-  color: #272727;
-}
-
-html[style*="color-scheme: dark;"] .animation-title,
-html[style*="color-scheme: dark;"] .animation-subtitle {
-  color: #f7f7f7;
-}
-
-ul.animation-description-text {
-  list-style: circle;
-  font-size: 14px;
-  padding: 11px 0px 17px 0px;
-  margin-left: 15px;
-}
-
-ul.animation-description-text a {
-  text-decoration: underline !important;
-}
-
-.animation-button-container {
-  text-align: center;
-}
-
-.animation-button {
-  white-space: nowrap;
-  overflow: hidden;
-  color: black;
-  padding: 10px 23px;
-}
-
-:is(html[class~="light"]) .animation-button:first-of-type {
-  border: 1px solid #ccc;
-}
-
-:is(html[class~="dark"]) .animation-button:first-of-type {
-  border: 1px solid #555;
-  background-color: rgba(0, 0, 0, 0.16);
-  color: #fafaf9;
-}
-
-:is(html[class~="light"]) .animation-button:hover {
-  background-color: rgba(100, 100, 100, 0.1);
-  color: black;
-}
-
-:is(html[class~="dark"]) .animation-button:hover {
-  background-color: rgba(0, 0, 0, 0.32);
-  color: white;
-}
-
-.animation-button-mobile {
-  display: none;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: white;
 }
 
 /* Home navigation Cards */
@@ -1092,12 +949,6 @@ thead th.ant-table-cell {
     display: none;
   }
 
-  #animation {
-    width: 100vw;
-    height: calc(100vh - 4rem);
-    overflow: hidden;
-  }
-
   .adastack-logo-container {
     padding: 20px 4px;
   }
@@ -1107,94 +958,8 @@ thead th.ant-table-cell {
     padding: 18px 22px 18px 22px;
   }
 
-  article.nextra-content:has(#animation) {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
-  .animation-button {
-    display: none;
-  }
-
-  article.nextra-content:has(#animation) {
-    overflow: visible;
-  }
-
   a.nextra-card {
     margin: 10px 10px;
-  }
-
-  .animation-content-container {
-    overflow: scroll;
-    border-radius: 0px !important;
-    padding: 0px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    flex-direction: column;
-    border: none;
-  }
-
-  html[style*="color-scheme: light;"] .animation-content-container {
-    height: 100%;
-    width: 102vw;
-    background: transparent;
-    backdrop-filter: blur(0px);
-    border: none;
-    border-radius: 0px;
-    box-shadow: 0;
-  }
-
-  html[style*="color-scheme: dark;"] .animation-content-container {
-    height: 100%;
-    width: 102vw;
-    background: transparent;
-    backdrop-filter: blur(0px);
-    border: none;
-    border-radius: 0px;
-    box-shadow: 0;
-  }
-
-  ul.animation-description-text {
-    color: white;
-  }
-
-  .animation-title-container {
-    width: 100%;
-    top: 44%;
-    left: 50%;
-  }
-  .animation-button-container {
-    display: block;
-    margin: 0 auto;
-  }
-
-  html[style*="color-scheme: light;"] .animation-title,
-  html[style*="color-scheme: dark;"] .animation-title {
-    font-size: 32px;
-    color: white;
-    margin-bottom: 20px;
-    margin-top: -50px;
-  }
-
-  html[style*="color-scheme: light;"] .animation-subtitle,
-  html[style*="color-scheme: dark;"] .animation-subtitle {
-    font-size: 1.1rem;
-    color: white;
-    margin-bottom: 60px;
-  }
-  .animation-button-mobile {
-    display: block;
-    padding: 12px 20px;
-    font-size: 1.5rem;
-    margin-top: 60px;
-  }
-
-  .animation-overlay {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    position: fixed !important;
   }
 
   .hero-bg {
@@ -1202,6 +967,7 @@ thead th.ant-table-cell {
     transform: rotate(180deg);
     position: fixed !important;
   }
+
   .nextra-cards.home-navigation-cards {
     z-index: 10;
     position: relative;
@@ -1222,9 +988,6 @@ thead th.ant-table-cell {
 }
 /* Everything Over Medium Tablet Size */
 @media (min-width: 768px) {
-  #animation {
-    display: block !important; /* Show animation on larger screens */
-  }
   .nextra-cards {
     display: none !important; /* Hide cards on larger screens */
   }
