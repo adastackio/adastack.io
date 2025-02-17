@@ -1,0 +1,52 @@
+export default {
+  what_are_web3_games: {
+    title: "What are Web3 Games?",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  all_games: {
+    title: "All Games",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  gambling: {
+    title: "Prediction & Gambling",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  game_explorers: {
+    title: "Game Explorers",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  game_studios: {
+    title: "Game Studios",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+};

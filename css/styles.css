@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 
 /* Set full width even on large screens  */
-.nextra-nav-container + .nx-mx-auto.nx-flex {
+.nextra-nav-container + ._mx-auto._flex {
   max-width: 100%;
 }
 
@@ -115,22 +115,18 @@ html[style*="color-scheme: light;"]
 }
 
 /* Social links */
-html .nextra-nav-container a.nx-p-2.nx-text-current {
+html .nextra-nav-container a._p-2._text-current {
   padding: 2px !important;
   margin-left: -6px;
 }
 
 /* Social links on light theme */
-html[style*="color-scheme: light;"]
-  .nextra-nav-container
-  a.nx-p-2.nx-text-current {
+html[style*="color-scheme: light;"] .nextra-nav-container a._p-2._text-current {
   fill: #a3a3a3;
 }
 
 /* Social links on dark theme */
-html[style*="color-scheme: dark;"]
-  .nextra-nav-container
-  a.nx-p-2.nx-text-current {
+html[style*="color-scheme: dark;"] .nextra-nav-container a._p-2._text-current {
   fill: #64748b;
 }
 
@@ -141,12 +137,12 @@ html[style*="color-scheme: dark;"]
 
 html[style*="color-scheme: light;"]
   .nextra-nav-container
-  input.dark\:focus\:nx-bg-dark {
+  input.dark\:focus\:_bg-dark {
   background-color: #f2f2f2 !important;
 }
 html[style*="color-scheme: light;"]
   .nextra-nav-container
-  input.dark\:focus\:nx-bg-dark:focus {
+  input.dark\:focus\:_bg-dark:focus {
   background-color: #fff !important;
 }
 
@@ -156,12 +152,12 @@ html[style*="color-scheme: light;"] .nextra-search ul {
 
 html[style*="color-scheme: dark;"]
   .nextra-nav-container
-  input.dark\:focus\:nx-bg-dark {
+  input.dark\:focus\:_bg-dark {
   background-color: #111111 !important;
 }
 html[style*="color-scheme: dark;"]
   .nextra-nav-container
-  input.dark\:focus\:nx-bg-dark:focus {
+  input.dark\:focus\:_bg-dark:focus {
   background-color: #111111 !important;
 }
 
@@ -170,14 +166,14 @@ html[style*="color-scheme: dark;"] .nextra-search ul {
 }
 
 /* Search Bar Keyboard Icon */
-kbd.nx-absolute.nx-my-1\.5.nx-select-none.ltr\:nx-right-1\.5.rtl\:nx-left-1\.5.nx-h-5.nx-rounded.nx-bg-white.nx-px-1\.5.nx-font-mono.nx-text-\[10px\].nx-font-medium.nx-text-gray-500.nx-border.dark\:nx-border-gray-100\/20.dark\:nx-bg-dark\/50.contrast-more\:nx-border-current.contrast-more\:nx-text-current.contrast-more\:dark\:nx-border-current.nx-items-center.nx-gap-1.nx-transition-opacity.nx-pointer-events-none.nx-hidden.sm\:nx-flex {
+kbd._absolute._my-1\.5._select-none.ltr\:_right-1\.5.rtl\:_left-1\.5._h-5._rounded._bg-white._px-1\.5._font-mono._text-\[10px\]._font-medium._text-gray-500._border.dark\:_border-gray-100\/20.dark\:_bg-dark\/50.contrast-more\:_border-current.contrast-more\:_text-current.contrast-more\:dark\:_border-current._items-center._gap-1._transition-opacity._pointer-events-none._hidden.sm\:_flex {
   background-color: #4363ee;
   color: #fff;
   border: 2px solid #5c78e8;
 }
 
 /* Search Bar Keyboard Icon when the Input is in focus */
-kbd.nx-absolute.nx-my-1\.5.nx-select-none.ltr\:nx-right-1\.5.rtl\:nx-left-1\.5.nx-h-5.nx-rounded.nx-bg-white.nx-px-1\.5.nx-font-mono.nx-text-\[10px\].nx-font-medium.nx-text-gray-500.nx-border.dark\:nx-border-gray-100\/20.dark\:nx-bg-dark\/50.contrast-more\:nx-border-current.contrast-more\:nx-text-current.contrast-more\:dark\:nx-border-current.nx-items-center.nx-gap-1.nx-transition-opacity.nx-z-20.nx-flex.nx-cursor-pointer.hover\:nx-opacity-70 {
+kbd._absolute._my-1\.5._select-none.ltr\:_right-1\.5.rtl\:_left-1\.5._h-5._rounded._bg-white._px-1\.5._font-mono._text-\[10px\]._font-medium._text-gray-500._border.dark\:_border-gray-100\/20.dark\:_bg-dark\/50.contrast-more\:_border-current.contrast-more\:_text-current.contrast-more\:dark\:_border-current._items-center._gap-1._transition-opacity._z-20._flex._cursor-pointer.hover\:_opacity-70 {
   background-color: #4363ee;
   color: #fff;
   border: 2px solid #5c78e8;
@@ -201,7 +197,7 @@ html[style*="color-scheme: dark;"] aside.nextra-sidebar-container {
 }
 
 html[style*="color-scheme: light;"]
-  p.nx-mb-4.nx-font-semibold.nx-tracking-tight
+  p._mb-4._font-semibold._tracking-tight
   + ul {
   background-color: #f7f7f7;
 }
@@ -231,14 +227,14 @@ a:has(.sidebar-menu-item) {
 }
 
 /* Dropdown item styling */
-ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3 {
+ul._flex._flex-col._gap-1._relative.before\:_absolute.before\:_inset-y-1.before\:_w-px.before\:_bg-gray-200.before\:_content-\[\"\"\].dark\:before\:_bg-neutral-800.ltr\:_pl-3.ltr\:before\:_left-0.rtl\:_pr-3.rtl\:before\:_right-0.ltr\:_ml-3.rtl\:_mr-3 {
   padding-left: 0px;
   margin-left: 1.5rem;
   padding-top: 2px;
 }
 
 /* Add a bit of padding to first sidebar item of each dropdown.  */
-ul.nx-flex.nx-flex-col.nx-gap-1 > li:first-child > a .sidebar-menu-item {
+ul._flex._flex-col._gap-1 > li:first-child > a .sidebar-menu-item {
   padding-top: 2px;
 }
 
@@ -247,8 +243,8 @@ li:first-of-type a:has(.sidebar-menu-item) {
 }
 
 /* Fix issue causing visual stutter on dropdown */
-.nx-transition-opacity.nx-duration-500.nx-ease-in-out.motion-reduce\:nx-transition-none.nx-opacity-0.ltr\:nx-pr-0.rtl\:nx-pl-0.nx-pt-1,
-.nx-transition-opacity.nx-duration-500.nx-ease-in-out.motion-reduce\:nx-transition-none.nx-opacity-100.ltr\:nx-pr-0.rtl\:nx-pl-0.nx-pt-1 {
+._transition-opacity._duration-500._ease-in-out.motion-reduce\:_transition-none._opacity-0.ltr\:_pr-0.rtl\:_pl-0._pt-1,
+._transition-opacity._duration-500._ease-in-out.motion-reduce\:_transition-none._opacity-100.ltr\:_pr-0.rtl\:_pl-0._pt-1 {
   padding-top: 0px;
 }
 
@@ -279,19 +275,19 @@ li:first-of-type a:has(.sidebar-menu-item) {
 
 /* Line that shows up to the left of dropdown items */
 :is(html[class~="dark"])
-  ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3:before {
+  ul._flex._flex-col._gap-1._relative.before\:_absolute.before\:_inset-y-1.before\:_w-px.before\:_bg-gray-200.before\:_content-\[\"\"\].dark\:before\:_bg-neutral-800.ltr\:_pl-3.ltr\:before\:_left-0.rtl\:_pr-3.rtl\:before\:_right-0.ltr\:_ml-3.rtl\:_mr-3:before {
   background-color: #121620;
   width: 2px;
 }
 
 :is(html[class~="light"])
-  ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3:before {
+  ul._flex._flex-col._gap-1._relative.before\:_absolute.before\:_inset-y-1.before\:_w-px.before\:_bg-gray-200.before\:_content-\[\"\"\].dark\:before\:_bg-neutral-800.ltr\:_pl-3.ltr\:before\:_left-0.rtl\:_pr-3.rtl\:before\:_right-0.ltr\:_ml-3.rtl\:_mr-3:before {
   background-color: #f3f3f3;
   width: 2px;
 }
 
 /* Sidebar footer */
-.nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
+._sticky._bottom-0._bg-white.dark\:_bg-dark._mx-4._py-4._shadow-\[0_-12px_16px_\#fff\]._flex._items-center._gap-2.dark\:_border-neutral-800.dark\:_shadow-\[0_-12px_16px_\#111\].contrast-more\:_border-neutral-400.contrast-more\:_shadow-none.contrast-more\:dark\:_shadow-none._border-t {
   box-shadow: none;
   height: 30px;
   margin-top: 30px;
@@ -301,15 +297,15 @@ li:first-of-type a:has(.sidebar-menu-item) {
 }
 
 /* Left sidebar theme selector */
-ul.nx-z-20.nx-max-h-64.nx-overflow-auto.nx-rounded-md.nx-ring-1.nx-ring-black\/5.nx-bg-white.nx-py-1.nx-text-sm.nx-shadow-lg.dark\:nx-ring-white\/20.dark\:nx-bg-neutral-800 {
+ul._z-20._max-h-64._overflow-auto._rounded-md._ring-1._ring-black\/5._bg-white._py-1._text-sm._shadow-lg.dark\:_ring-white\/20.dark\:_bg-neutral-800 {
   padding: 8px;
 }
 
-:is(html[class~="dark"] ul.dark\:nx-bg-neutral-800) {
+:is(html[class~="dark"] ul.dark\:_bg-neutral-800) {
   background-color: #0e121e;
 }
 
-:is(html[class~="light"] ul.dark\:nx-bg-neutral-800) {
+:is(html[class~="light"] ul.dark\:_bg-neutral-800) {
   background-color: #f7f7f7;
 }
 
@@ -317,7 +313,7 @@ ul.nx-z-20.nx-max-h-64.nx-overflow-auto.nx-rounded-md.nx-ring-1.nx-ring-black\/5
 html[style*="color-scheme: dark;"]
   .nextra-scrollbar
   ul
-  + .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
+  + ._mt-8._border-t._bg-white._pt-8._shadow-\[0_-12px_16px_white\].dark\:_bg-dark.dark\:_shadow-\[0_-12px_16px_\#111\]._sticky._bottom-0._flex._flex-col._items-start._gap-2._pb-8.dark\:_border-neutral-800.contrast-more\:_border-t.contrast-more\:_border-neutral-400.contrast-more\:_shadow-none.contrast-more\:dark\:_border-neutral-400 {
   background-color: #0e121e;
   box-shadow: none;
 }
@@ -325,40 +321,40 @@ html[style*="color-scheme: dark;"]
 html[style*="color-scheme: light;"]
   .nextra-scrollbar
   ul
-  + .nx-mt-8.nx-border-t.nx-bg-white.nx-pt-8.nx-shadow-\[0_-12px_16px_white\].dark\:nx-bg-dark.dark\:nx-shadow-\[0_-12px_16px_\#111\].nx-sticky.nx-bottom-0.nx-flex.nx-flex-col.nx-items-start.nx-gap-2.nx-pb-8.dark\:nx-border-neutral-800.contrast-more\:nx-border-t.contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-border-neutral-400 {
+  + ._mt-8._border-t._bg-white._pt-8._shadow-\[0_-12px_16px_white\].dark\:_bg-dark.dark\:_shadow-\[0_-12px_16px_\#111\]._sticky._bottom-0._flex._flex-col._items-start._gap-2._pb-8.dark\:_border-neutral-800.contrast-more\:_border-t.contrast-more\:_border-neutral-400.contrast-more\:_shadow-none.contrast-more\:dark\:_border-neutral-400 {
   background-color: #f7f7f7;
   box-shadow: none;
 }
 
 /* Footer on light desktop */
 html[style*="color-scheme: light;"]
-  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
+  ._sticky._bottom-0._bg-white.dark\:_bg-dark._mx-4._py-4._shadow-\[0_-12px_16px_\#fff\]._flex._items-center._gap-2.dark\:_border-neutral-800.dark\:_shadow-\[0_-12px_16px_\#111\].contrast-more\:_border-neutral-400.contrast-more\:_shadow-none.contrast-more\:dark\:_shadow-none._border-t {
   background-color: #f7f7f7;
 }
 /* Footer on dark desktop */
 html[style*="color-scheme: dark;"]
-  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-border-t {
+  ._sticky._bottom-0._bg-white.dark\:_bg-dark._mx-4._py-4._shadow-\[0_-12px_16px_\#fff\]._flex._items-center._gap-2.dark\:_border-neutral-800.dark\:_shadow-\[0_-12px_16px_\#111\].contrast-more\:_border-neutral-400.contrast-more\:_shadow-none.contrast-more\:dark\:_shadow-none._border-t {
   background-color: #0e121e !important;
 }
 
 /* Footer on light hide sidebar */
 html[style*="color-scheme: light;"]
-  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-py-4.nx-flex-wrap.nx-justify-center {
+  ._sticky._bottom-0._bg-white.dark\:_bg-dark._mx-4._py-4._shadow-\[0_-12px_16px_\#fff\]._flex._items-center._gap-2.dark\:_border-neutral-800.dark\:_shadow-\[0_-12px_16px_\#111\].contrast-more\:_border-neutral-400.contrast-more\:_shadow-none.contrast-more\:dark\:_shadow-none._py-4._flex-wrap._justify-center {
   background-color: #f7f7f7;
   box-shadow: none;
 }
 
 /* Footer on dark hide sidebar */
 html[style*="color-scheme: dark;"]
-  .nx-sticky.nx-bottom-0.nx-bg-white.dark\:nx-bg-dark.nx-mx-4.nx-py-4.nx-shadow-\[0_-12px_16px_\#fff\].nx-flex.nx-items-center.nx-gap-2.dark\:nx-border-neutral-800.dark\:nx-shadow-\[0_-12px_16px_\#111\].contrast-more\:nx-border-neutral-400.contrast-more\:nx-shadow-none.contrast-more\:dark\:nx-shadow-none.nx-py-4.nx-flex-wrap.nx-justify-center {
+  ._sticky._bottom-0._bg-white.dark\:_bg-dark._mx-4._py-4._shadow-\[0_-12px_16px_\#fff\]._flex._items-center._gap-2.dark\:_border-neutral-800.dark\:_shadow-\[0_-12px_16px_\#111\].contrast-more\:_border-neutral-400.contrast-more\:_shadow-none.contrast-more\:dark\:_shadow-none._py-4._flex-wrap._justify-center {
   background-color: #0e121e;
   box-shadow: none;
 }
 
 /* Remove check icon within black/white toggle */
-.nx-z-20.nx-max-h-64.nx-overflow-auto.nx-rounded-md
+._z-20._max-h-64._overflow-auto._rounded-md
   li
-  span.nx-absolute.nx-inset-y-0.nx-flex.nx-items-center.ltr\:nx-right-3.rtl\:nx-left-3 {
+  span._absolute._inset-y-0._flex._items-center.ltr\:_right-3.rtl\:_left-3 {
   display: none;
 }
 
@@ -426,7 +422,7 @@ body:has(article.nextra-content .homehero) {
   overflow: hidden;
 }
 
-.nextra-content li.nx-my-2 {
+.nextra-content li._my-2 {
   margin-top: 0.7rem;
   margin-bottom: 0.7rem;
 }
@@ -518,7 +514,7 @@ a.nextra-card .nextra-card-title svg {
 
 /* Page Content */
 /* Post header H1 */
-h1.nx-mt-2.nx-text-4xl.nx-font-bold.nx-tracking-tight.nx-text-slate-900.dark\:nx-text-slate-100 {
+h1._mt-2._text-4xl._font-bold._tracking-tight._text-slate-900.dark\:_text-slate-100 {
   font-weight: 500;
 }
 
@@ -618,7 +614,7 @@ table .favicon-custom-css {
 }
 
 /* Hide all pages from sidebar that aren't live yet. Remove the .page-in-development declarations once all pages are live */
-li.nx-flex.nx-flex-col.nx-gap-1:has(a div.page-in-development) {
+li._flex._flex-col._gap-1:has(a div.page-in-development) {
   display: none;
 }
 
@@ -637,11 +633,11 @@ li.nx-flex.nx-flex-col.nx-gap-1:has(a div.page-in-development) {
   color: black;
 }
 
-a[class*="nx-cursor-pointer"]:has(.page-in-development) {
+a[class*="_cursor-pointer"]:has(.page-in-development) {
   cursor: default !important;
 }
 
-a[class*="nx-cursor-pointer"] .page-in-development::after {
+a[class*="_cursor-pointer"] .page-in-development::after {
   content: "Coming Soon";
   position: absolute;
   right: -130px;
@@ -657,7 +653,7 @@ a[class*="nx-cursor-pointer"] .page-in-development::after {
   z-index: 10;
 }
 
-a[class*="nx-cursor-pointer"]:hover .page-in-development::after {
+a[class*="_cursor-pointer"]:hover .page-in-development::after {
   opacity: 1;
   right: -140px;
 }
@@ -945,7 +941,7 @@ thead th.ant-table-cell {
   /* Hide H2 items on mobile dropdown menu */
   .nextra-menu-mobile
     a[href="/all_pages"]
-    + ul.nx-flex.nx-flex-col.nx-gap-1.nx-relative.before\:nx-absolute.before\:nx-inset-y-1.before\:nx-w-px.before\:nx-bg-gray-200.before\:nx-content-\[\"\"\].dark\:before\:nx-bg-neutral-800.ltr\:nx-pl-3.ltr\:before\:nx-left-0.rtl\:nx-pr-3.rtl\:before\:nx-right-0.ltr\:nx-ml-3.rtl\:nx-mr-3 {
+    + ul._flex._flex-col._gap-1._relative.before\:_absolute.before\:_inset-y-1.before\:_w-px.before\:_bg-gray-200.before\:_content-\[\"\"\].dark\:before\:_bg-neutral-800.ltr\:_pl-3.ltr\:before\:_left-0.rtl\:_pr-3.rtl\:before\:_right-0.ltr\:_ml-3.rtl\:_mr-3 {
     display: none;
   }
 

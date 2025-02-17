@@ -1,9 +1,16 @@
-const withNextra = require("nextra")({
+import nextra from "nextra";
+
+const withNextra = nextra({
   theme: "nextra-theme-docs",
   themeConfig: "./theme.config.tsx",
+  latex: true,
+  search: {
+    codeblocks: false,
+  },
 });
 
-module.exports = withNextra({
+const config = {
+  reactStrictMode: true,
   env: {
     GITHUB_ACCESS_TOKEN: process.env.GITHUB_ACCESS_TOKEN,
   },
@@ -145,4 +152,6 @@ module.exports = withNextra({
     });
     return config;
   },
-});
+};
+
+export default withNextra(config);

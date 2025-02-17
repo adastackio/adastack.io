@@ -10,7 +10,7 @@ import { useRouter } from "next/router";
 import OS from "./components/badges/OS";
 
 const config: DocsThemeConfig = {
-  useNextSeoProps() {
+  head: () => {
     const { asPath, defaultLocale, locale } = useRouter();
     const { frontMatter } = useConfig();
 
@@ -29,64 +29,41 @@ const config: DocsThemeConfig = {
       ? frontMatter.seo_description
       : default_seo_description;
 
-    return {
-      titleTemplate: site_title,
-      description: site_description,
-      noindex: frontMatter.seo_description ? false : true,
-      canonical: page_url,
-      mobileAlternate: {
-        media: "only screen and (max-width: 640px)",
-        href: page_url,
-      },
-      additionalMetaTags: [
-        {
-          name: "viewport",
-          content: "width=device-width, initial-scale=1.0",
-        },
-        {
-          name: "apple-mobile-web-app-title",
-          content: "adastack.io",
-        },
-      ],
-      additionalLinkTags: [
-        {
-          rel: "icon",
-          type: "image/svg+xml",
-          href: "/favicon.svg",
-        },
-        {
-          rel: "shortcut icon",
-          href: "/favicon.ico",
-        },
-        {
-          rel: "manifest",
-          href: "/site.webmanifest",
-        },
-      ],
-      openGraph: {
-        type: "website",
-        url: page_url,
-        site_name: "Adastack.io",
-        images: [
-          {
-            url: `${base_url}/adastack_open_graph.png`,
-            width: 1200,
-            height: 630,
-            alt: "Adastack Cardano Explorer Image",
-            type: "image/png",
-          },
-        ],
-        title: site_title,
-        description: site_description,
-      },
-      twitter: {
-        cardType: "summary_large_image",
-        site: "@adastackio",
-        handle: "@adastackio",
-        title: site_title,
-        description: site_description,
-      },
-    };
+    return (
+      <>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={site_description} />
+        <meta property="og:title" content={site_title} />
+        <meta property="og:description" content={site_description} />
+        <meta property="og:url" content={page_url} />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Adastack.io" />
+        <meta
+          property="og:image"
+          content={`${base_url}/adastack_open_graph.png`}
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta
+          property="og:image:alt"
+          content="Adastack Cardano Explorer Image"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@adastackio" />
+        <meta name="twitter:creator" content="@adastackio" />
+        <meta name="twitter:title" content={site_title} />
+        <meta name="twitter:description" content={site_description} />
+        <meta
+          name="twitter:image"
+          content={`${base_url}/adastack_open_graph.png`}
+        />
+        <link rel="canonical" href={page_url} />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </>
+    );
   },
   search: { placeholder: "Search Cardano" },
   chat: {
@@ -127,19 +104,6 @@ const config: DocsThemeConfig = {
   sidebar: {
     defaultMenuCollapseLevel: 1,
     toggleButton: true,
-    titleComponent({ title }) {
-      // Note: Remove this variable, conditional class logic, and related CSS once content has been added to all pages. Keep the 'sidebar-menu-item' part below.
-      const isInDevelopment = title.endsWith(" ");
-      return (
-        <div
-          className={`sidebar-menu-item ${
-            isInDevelopment ? "page-in-development" : ""
-          }`}
-        >
-          {title}
-        </div>
-      );
-    },
   },
   toc: {
     float: true,
@@ -156,7 +120,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: "https://github.com/adastackio/adastack.io/blob/main/",
   footer: {
-    text: null,
+    content: null,
   },
 };
 

@@ -44,9 +44,9 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
           {sortedWallets.map((wallet, index) => (
             <tr
               key={index}
-              className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20"
+              className="_m-0 _border-t _border-gray-300 _p-0 dark:_border-gray-600 even:_bg-gray-100 even:dark:_bg-gray-600/20"
             >
-              <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell first-column-cell">
+              <td className="_m-0 _border _border-gray-300 _px-4 _py-2 dark:_border-gray-600 table-cell first-column-cell">
                 <div className="flex items-center justify-between w-full">
                   <span className="flex items-center">
                     <Favicon url={wallet.website} />
@@ -59,13 +59,13 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
                   </span>
                 </div>
               </td>
-              <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
+              <td className="_m-0 _border _border-gray-300 _px-4 _py-2 dark:_border-gray-600 table-cell">
                 <GithubRepoBadge
                   repoURL={wallet.sourceRepoURL}
                   text="Source Code"
                 />
               </td>
-              <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
+              <td className="_m-0 _border _border-gray-300 _px-4 _py-2 dark:_border-gray-600 table-cell">
                 <TeamGithubBadge
                   teamGithubURL={wallet.teamGithubURL}
                   text="Team"

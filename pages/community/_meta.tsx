@@ -1,0 +1,132 @@
+export default {
+  organizations: {
+    title: "Organizations",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  news_and_blogs: {
+    title: "News & Blogs",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  news_and_blogs_international: {
+    title: "News & Blogs — International",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  youtube: {
+    title: "YouTube",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  youtube_international: {
+    title: "YouTube — International",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  newsletters: {
+    title: "Newsletters",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  reddit_and_forums: {
+    title: "Reddit & Forums",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  x: {
+    title: "X",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  discord: {
+    title: "Discord",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  telegram: {
+    title: "Telegram",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  podcasts: {
+    title: "Podcasts",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  events: {
+    title: "Events",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+  bots: {
+    title: "Bots",
+    theme: {
+      breadcrumb: true,
+      sidebar: true,
+      toc: true,
+      footer: true,
+      pagination: false,
+    },
+  },
+};
