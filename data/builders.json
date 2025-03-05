@@ -2401,16 +2401,16 @@
     "tags": ["tools", "reward_tracker"]
   },
   {
-    "name": "Cardano Explorer",
-    "website": "https://beta.explorer.cardano.org/staking-lifecycle",
-    "teamGithubURL": "https://github.com/cardano-foundation/",
-    "tags": ["tools", "reward_tracker"]
-  },
-  {
     "name": "CardanoScan",
     "website": "https://cardanoscan.io",
     "teamGithubURL": "https://github.com/StricaHQ",
     "tags": ["tools", "reward_tracker"]
+  },
+    {
+    "name": "Cardano Explorer",
+    "website": "https://cardano.org/calculator",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "reward_calculator"]
   },
   {
     "name": "Antipalos Calculator",
@@ -2429,24 +2429,6 @@
     "website": "https://www.cardanowithpaul.com/calculators",
     "teamGithubURL": "",
     "tags": ["tools", "reward_calculator"]
-  },
-  {
-    "name": "Cardano Date",
-    "website": "https://cardano.date",
-    "teamGithubURL": "",
-    "tags": ["tools", "reward_calendar"]
-  },
-  {
-    "name": "Cardano Calendar",
-    "website": "https://cardano-calendar.com/month",
-    "teamGithubURL": "",
-    "tags": ["tools", "reward_calendar"]
-  },
-  {
-    "name": "Pool Peek Calendar",
-    "website": "https://poolpeek.com/epochcalendar",
-    "teamGithubURL": "https://github.com/ShamrockPool/",
-    "tags": ["tools", "reward_calendar"]
   },
   {
     "name": "Cexplorer Calendar",
