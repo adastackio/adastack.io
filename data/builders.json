@@ -2431,24 +2431,6 @@
     "tags": ["tools", "reward_calculator"]
   },
   {
-    "name": "Cardano Date",
-    "website": "https://cardano.date",
-    "teamGithubURL": "",
-    "tags": ["tools", "reward_calendar"]
-  },
-  {
-    "name": "Cardano Calendar",
-    "website": "https://cardano-calendar.com/month",
-    "teamGithubURL": "",
-    "tags": ["tools", "reward_calendar"]
-  },
-  {
-    "name": "Pool Peek Calendar",
-    "website": "https://poolpeek.com/epochcalendar",
-    "teamGithubURL": "https://github.com/ShamrockPool/",
-    "tags": ["tools", "reward_calendar"]
-  },
-  {
     "name": "Cexplorer Calendar",
     "website": "https://cexplorer.io/calendar",
     "teamGithubURL": "https://github.com/cexplorer/",
