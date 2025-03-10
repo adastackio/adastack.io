@@ -2221,12 +2221,6 @@
     "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
   },
   {
-    "name": "CardanoDegen Resource Directory",
-    "website": "https://cardanodegen.shop/cardano-links",
-    "teamGithubURL": "https://github.com/ensured",
-    "tags": ["tools", "ecosystem_directory"]
-  },
-  {
     "name": "dSociety Real World Projects",
     "website": "https://dsociety.io/least-harmful",
     "teamGithubURL": "https://github.com/selfdriven-foundation",
