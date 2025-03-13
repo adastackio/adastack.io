@@ -174,6 +174,12 @@
     "tags": ["organization"]
   },
   {
+    "name": "Cardano Atlantic Council",
+    "website": "https://x.com/CardanoAtlantic",
+    "teamGithubURL": "https://github.com/Cardano-Atlantic-Council",
+    "tags": ["organization"]
+  },
+  {
     "name": "Cardano4Good",
     "website": "https://cardano4good.net/",
     "teamGithubURL": "",
@@ -189,13 +195,13 @@
     "name": "Mission Driven Pools",
     "website": "https://missiondrivenpools.org",
     "teamGithubURL": "https://github.com/CardanoMDP",
-    "tags": ["organization", "stake_pool_alliance"]
+    "tags": ["organization", "stake_pool_alliance", "stake_pool_explorer"]
   },
   {
     "name": "xSPO Alliance",
     "website": "https://www.xspo-alliance.org",
     "teamGithubURL": "https://github.com/xSPO-Alliance",
-    "tags": ["organization", "stake_pool_alliance"]
+    "tags": ["organization", "stake_pool_alliance", "stake_pool_explorer"]
   },
   {
     "name": "Single Pool Alliance",
@@ -1957,13 +1963,13 @@
     "tags": ["tools", "game_explorer"]
   },
   {
-    "name": "DappRadar Games",
+    "name": "DAppRadar Games",
     "website": "https://dappradar.com/rankings/protocol/cardano/category/games",
     "teamGithubURL": "https://github.com/dappradar",
     "tags": ["tools", "game_explorer"]
   },
   {
-    "name": "Dapps on Cardano",
+    "name": "DApps on Cardano",
     "website": "https://dappsoncardano.com/",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "ecosystem_directory"]
@@ -2221,7 +2227,7 @@
     "tags": ["tools", "dapp_explorer"]
   },
   {
-    "name": "Alethea Dapps",
+    "name": "Alethea DApps",
     "website": "https://alethea.io/dapps",
     "teamGithubURL": "https://github.com/alethea-io",
     "tags": ["tools", "dapp_explorer"]
@@ -2233,7 +2239,7 @@
     "tags": ["tools", "dapp_explorer", "metric_tracker_site"]
   },
   {
-    "name": "Dapp Radar",
+    "name": "DApp Radar",
     "website": "https://dappradar.com/rankings/protocol/cardano",
     "teamGithubURL": "https://github.com/dappradar",
     "tags": ["tools", "dapp_explorer"]
@@ -2245,7 +2251,7 @@
     "tags": ["tools", "dapp_explorer"]
   },
   {
-    "name": "Danogo Dapps by TVL",
+    "name": "Danogo DApps by TVL",
     "website": "https://danogo.io/tvl-report",
     "teamGithubURL": "https://github.com/Danogo2023",
     "tags": ["tools", "dapp_explorer"]
@@ -2382,8 +2388,8 @@
     "teamGithubURL": "https://github.com/StricaHQ",
     "tags": ["tools", "reward_tracker"]
   },
-    {
-    "name": "Cardano Explorer",
+  {
+    "name": "Cardano Staking Calculator",
     "website": "https://cardano.org/calculator",
     "teamGithubURL": "https://github.com/cardano-foundation/",
     "tags": ["tools", "reward_calculator"]
@@ -2398,7 +2404,7 @@
     "name": "Armada Alliance",
     "website": "https://armada-alliance.com",
     "teamGithubURL": "https://github.com/armada-alliance/",
-    "tags": ["tools", "reward_calculator"]
+    "tags": ["tools", "reward_calculator", "stake_pool_explorer"]
   },
   {
     "name": "Cardano with Paul Calculators",
@@ -2461,7 +2467,7 @@
     "tags": ["tools", "metric_tracker_site"]
   },
   {
-    "name": "Dapps on Cardano Network Stats",
+    "name": "DApps on Cardano Network Stats",
     "website": "https://dappsoncardano.com/analytics/globalstats",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "metric_tracker_site"]
@@ -2875,7 +2881,7 @@
     "tags": ["tools", "dapp_volume_metrics"]
   },
   {
-    "name": "DappRadar Volume Rankings",
+    "name": "DAppRadar Volume Rankings",
     "website": "https://dappradar.com/rankings/protocol/cardano?sort=totalVolumeInFiat&order=desc",
     "teamGithubURL": "https://github.com/dappradar",
     "tags": ["tools", "dapp_volume_metrics"]
@@ -2893,13 +2899,13 @@
     "tags": ["tools", "tvl_metrics"]
   },
   {
-    "name": "Danogo dApp TVL Rankings",
+    "name": "Danogo DApp TVL Rankings",
     "website": "https://danogo.io/tvl-report",
     "teamGithubURL": "https://github.com/Danogo2023",
     "tags": ["tools", "dapp_tvl_metrics"]
   },
   {
-    "name": "CBI Cardano dApp TVL Rankings",
+    "name": "CBI Cardano DApp TVL Rankings",
     "website": "https://lookerstudio.google.com/s/kpmEIAO1Qiw",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "dapp_tvl_metrics"]
@@ -4027,7 +4033,7 @@
     "tags": ["news_updates", "japanese_lang_blog"]
   },
   {
-    "name": "Dapp Central",
+    "name": "DApp Central",
     "website": "https://www.youtube.com/@DappCentral",
     "teamGithubURL": "",
     "tags": ["video_channel", "top_youtube"]
