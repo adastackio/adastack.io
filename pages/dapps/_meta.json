@@ -30,7 +30,7 @@
     }
   },
   "dapp_analysis_and_risk_rating": {
-    "title": "Dapp Analysis & Risk Ratings ",
+    "title": "DApp Analysis & Risk Ratings ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -40,7 +40,7 @@
     }
   },
   "dapp_explorers": {
-    "title": "Dapp Explorers",
+    "title": "DApp Explorers",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

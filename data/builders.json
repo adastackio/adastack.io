@@ -1963,13 +1963,13 @@
     "tags": ["tools", "game_explorer"]
   },
   {
-    "name": "DappRadar Games",
+    "name": "DAppRadar Games",
     "website": "https://dappradar.com/rankings/protocol/cardano/category/games",
     "teamGithubURL": "https://github.com/dappradar",
     "tags": ["tools", "game_explorer"]
   },
   {
-    "name": "Dapps on Cardano",
+    "name": "DApps on Cardano",
     "website": "https://dappsoncardano.com/",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "ecosystem_directory"]
@@ -2227,7 +2227,7 @@
     "tags": ["tools", "dapp_explorer"]
   },
   {
-    "name": "Alethea Dapps",
+    "name": "Alethea DApps",
     "website": "https://alethea.io/dapps",
     "teamGithubURL": "https://github.com/alethea-io",
     "tags": ["tools", "dapp_explorer"]
@@ -2239,7 +2239,7 @@
     "tags": ["tools", "dapp_explorer", "metric_tracker_site"]
   },
   {
-    "name": "Dapp Radar",
+    "name": "DApp Radar",
     "website": "https://dappradar.com/rankings/protocol/cardano",
     "teamGithubURL": "https://github.com/dappradar",
     "tags": ["tools", "dapp_explorer"]
@@ -2251,7 +2251,7 @@
     "tags": ["tools", "dapp_explorer"]
   },
   {
-    "name": "Danogo Dapps by TVL",
+    "name": "Danogo DApps by TVL",
     "website": "https://danogo.io/tvl-report",
     "teamGithubURL": "https://github.com/Danogo2023",
     "tags": ["tools", "dapp_explorer"]
@@ -2467,7 +2467,7 @@
     "tags": ["tools", "metric_tracker_site"]
   },
   {
-    "name": "Dapps on Cardano Network Stats",
+    "name": "DApps on Cardano Network Stats",
     "website": "https://dappsoncardano.com/analytics/globalstats",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "metric_tracker_site"]
@@ -2881,7 +2881,7 @@
     "tags": ["tools", "dapp_volume_metrics"]
   },
   {
-    "name": "DappRadar Volume Rankings",
+    "name": "DAppRadar Volume Rankings",
     "website": "https://dappradar.com/rankings/protocol/cardano?sort=totalVolumeInFiat&order=desc",
     "teamGithubURL": "https://github.com/dappradar",
     "tags": ["tools", "dapp_volume_metrics"]
@@ -4033,7 +4033,7 @@
     "tags": ["news_updates", "japanese_lang_blog"]
   },
   {
-    "name": "Dapp Central",
+    "name": "DApp Central",
     "website": "https://www.youtube.com/@DappCentral",
     "teamGithubURL": "",
     "tags": ["video_channel", "top_youtube"]

@@ -321,7 +321,7 @@ const OpenSourceBuildersTable = ({ data }) => {
           value: "organization",
         },
         {
-          text: "Dapp",
+          text: "DApp",
           value: "dapp",
         },
         {
