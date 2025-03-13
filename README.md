@@ -4,7 +4,7 @@
 
 Adastack is a comprehensive ecosystem explorer for Cardano.
 
-- Explore thousands of dApps.
+- Explore thousands of DApps.
 - Step-by-step Cardano guides.
 - [Code Libraries](https://www.adastack.io/development/code_libraries) and more for devs.
 

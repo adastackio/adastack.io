@@ -2899,13 +2899,13 @@
     "tags": ["tools", "tvl_metrics"]
   },
   {
-    "name": "Danogo dApp TVL Rankings",
+    "name": "Danogo DApp TVL Rankings",
     "website": "https://danogo.io/tvl-report",
     "teamGithubURL": "https://github.com/Danogo2023",
     "tags": ["tools", "dapp_tvl_metrics"]
   },
   {
-    "name": "CBI Cardano dApp TVL Rankings",
+    "name": "CBI Cardano DApp TVL Rankings",
     "website": "https://lookerstudio.google.com/s/kpmEIAO1Qiw",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "dapp_tvl_metrics"]
