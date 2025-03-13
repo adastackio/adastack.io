@@ -2095,12 +2095,6 @@
     "tags": ["tools", "block_visualizer"]
   },
   {
-    "name": "CF Explorer",
-    "website": "https://beta.explorer.cardano.org/en/",
-    "teamGithubURL": "https://github.com/cardano-foundation",
-    "tags": ["tools", "block_explorer"]
-  },
-  {
     "name": "Script Explorer",
     "website": "https://www.script-explorer.com/",
     "teamGithubURL": "https://github.com/QSchlegel/",
