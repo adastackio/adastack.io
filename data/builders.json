@@ -1266,12 +1266,6 @@
     "tags": ["dapp"]
   },
   {
-    "name": "Cardano Mercury",
-    "website": "https://cardano-mercury.com/",
-    "teamGithubURL": "https://github.com/cardano-mercury",
-    "tags": ["dapp"]
-  },
-  {
     "name": "BuiltOnCardano DAO Explorer",
     "website": "https://builtoncardano.com/ecosystem/dao",
     "teamGithubURL": "",
