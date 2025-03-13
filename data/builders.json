@@ -551,12 +551,7 @@
     "teamGithubURL": "",
     "tags": ["dev_company"]
   },
-  {
-    "name": "Adaxon",
-    "website": "https://adaxon.io/",
-    "teamGithubURL": "",
-    "tags": ["dev_company"]
-  },
+
   {
     "name": "Antier Solutions",
     "website": "https://www.antiersolutions.com/",
@@ -861,12 +856,6 @@
     "name": "MuesliSwap",
     "website": "https://muesliswap.com/",
     "teamGithubURL": "https://github.com/MuesliSwapTeam",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Axo",
-    "website": "https://www.axo.trade/",
-    "teamGithubURL": "",
     "tags": ["dapp"]
   },
   {
