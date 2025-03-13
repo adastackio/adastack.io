@@ -1158,12 +1158,6 @@
     "tags": ["dapp"]
   },
   {
-    "name": "Meld",
-    "website": "https://www.meld.com/",
-    "teamGithubURL": "https://github.com/MELD-labs",
-    "tags": ["dapp"]
-  },
-  {
     "name": "Ray Network",
     "website": "https://raynetwork.io/",
     "teamGithubURL": "https://github.com/xray-network",
