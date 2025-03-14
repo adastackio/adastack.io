@@ -1,12 +1,16 @@
 ---
 seo_title: Plutarch
-seo_description: 
+seo_description:
 toc: false
 ---
 
+import builders from "../../../data/builders.json";
+import DefaultDataTable from "../../../components/tables/DefaultDataTable";
 import LibraryInfo from "../../../components/LibraryInfo";
 
 # Plutarch
+
+Plutarch typed eDSL in Haskell that enables developers to write small and fast contracts in Cardano by generating compact Untyped Plutus Core (UPLC). Plutarch prioritizes efficiency and fee optimization, making it particularly useful for building applications constrained by Cardano's transaction size limits.
 
 <LibraryInfo
   language="Haskell"
@@ -19,3 +23,7 @@ import LibraryInfo from "../../../components/LibraryInfo";
     },
   ]}
 />
+
+## Links
+
+<DefaultDataTable projects={builders} filterBy="plutarch_link" />

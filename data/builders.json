@@ -3697,6 +3697,24 @@
     "tags": ["tools", "helios_link"]
   },
   {
+    "name": "Plutarch Website",
+    "website": "https://plutonomicon.github.io/plutarch-plutus/",
+    "teamGithubURL": "https://github.com/Plutonomicon",
+    "tags": ["tools", "plutarch_link"]
+  },
+  {
+    "name": "Plutarch GitHub",
+    "website": "https://github.com/Plutonomicon/plutarch-plutus",
+    "teamGithubURL": "https://github.com/Plutonomicon",
+    "tags": ["tools", "plutarch_link"]
+  },
+  {
+    "name": "Plutarch Discord",
+    "website": "https://discord.com/invite/722KnTC8jF",
+    "teamGithubURL": "https://github.com/Plutonomicon",
+    "tags": ["tools", "plutarch_link"]
+  },
+  {
     "name": "Adapulse",
     "website": "https://adapulse.io/",
     "teamGithubURL": "",
