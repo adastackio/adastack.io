@@ -5,8 +5,12 @@ toc: false
 ---
 
 import LibraryInfo from "../../../components/LibraryInfo";
+import builders from "../../../data/builders.json";
+import DefaultDataTable from "../../../components/tables/DefaultDataTable";
 
 # Helios
+
+Helios offers web developers a simpler, JavaScript/TypeScript-based alternative to Cardano's native Plutus smart contract language. It streamlines dApp creation by combining on-chain and off-chain code capabilities into a single toolkit, eliminating the need to switch languages during development.
 
 <LibraryInfo
   language="JavaScript"
@@ -19,3 +23,7 @@ import LibraryInfo from "../../../components/LibraryInfo";
     },
   ]}
 />
+
+## Links
+
+<DefaultDataTable projects={builders} filterBy="helios_link" />

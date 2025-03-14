@@ -3667,6 +3667,36 @@
     "tags": ["tools", "marlowe_link"]
   },
   {
+    "name": "Helios Website",
+    "website": "https://www.helios-lang.io/",
+    "teamGithubURL": "https://github.com/Hyperion-BT/",
+    "tags": ["tools", "helios_link"]
+  },
+  {
+    "name": "Helios GitHub",
+    "website": "https://github.com/Hyperion-BT/Helios",
+    "teamGithubURL": "https://github.com/Hyperion-BT/",
+    "tags": ["tools", "helios_link"]
+  },
+  {
+    "name": "Helios Documentation",
+    "website": "https://www.hyperion-bt.org/helios-book/",
+    "teamGithubURL": "https://github.com/Hyperion-BT/",
+    "tags": ["tools", "helios_link"]
+  },
+  {
+    "name": "Helios Playground",
+    "website": "https://www.hyperion-bt.org/helios-playground/",
+    "teamGithubURL": "https://github.com/Hyperion-BT/",
+    "tags": ["tools", "helios_link"]
+  },
+  {
+    "name": "Helios Discord",
+    "website": "https://discord.com/invite/XTwPrvB25q",
+    "teamGithubURL": "",
+    "tags": ["tools", "helios_link"]
+  },
+  {
     "name": "Adapulse",
     "website": "https://adapulse.io/",
     "teamGithubURL": "",
