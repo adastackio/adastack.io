@@ -3080,12 +3080,6 @@
     "tags": ["tools", "node_distribution_metrics"]
   },
   {
-    "name": "Cardano Node Distribution",
-    "website": "https://beta.explorer.cardano.org/en/micar",
-    "teamGithubURL": "https://github.com/cardano-foundation",
-    "tags": ["tools", "node_distribution_metrics"]
-  },
-  {
     "name": "Cexplorer ISP Distribution",
     "website": "https://cexplorer.io/relays",
     "teamGithubURL": "https://github.com/cexplorer",
