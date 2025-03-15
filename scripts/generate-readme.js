@@ -13,8 +13,8 @@ function generateTableForCategory(category, items) {
     markdown += `${category.description}\n\n`;
   }
 
-  // If this is just a section header without items or it's specifically marked as a header-only section
-  if (!items || items.length === 0 || category.headerOnly) {
+  // If this is a section with no items, just return the header
+  if (!items || items.length === 0) {
     return markdown;
   }
 
@@ -52,41 +52,41 @@ buildersData.forEach((item) => {
 
 console.log("Available tags in your data:", Array.from(allTags).sort());
 
-// Define the categories in the exact order they should appear
+// // Define the categories in the exact order they should appear
 const categoryConfig = [
   // Main sections and subsections in desired order
-  { name: "Intro to Cardano", level: 1, headerOnly: true },
+  { name: "Intro to Cardano", tag: "", level: 1 },
   { name: "Official Websites", tag: "official_link", level: 2 },
   { name: "Intro Courses", tag: "cardano_full_course", level: 2 },
   { name: "Books", tag: "cardano_book", level: 2 },
   { name: "Security Guides", tag: "security_guide", level: 2 },
 
-  { name: "Staking", level: 1, headerOnly: true },
+  { name: "Staking", tag: "", level: 1 },
   { name: "Stake Pool Explorers", tag: "stake_pool_explorer", level: 2 },
 
-  { name: "Community", level: 1, headerOnly: true },
+  { name: "Community", tag: "", level: 1 },
 
-  { name: "Ecosystem", level: 1, headerOnly: true },
+  { name: "Ecosystem", tag: "", level: 1 },
 
-  { name: "DApps", level: 1, headerOnly: true },
+  { name: "DApps", tag: "", level: 1 },
 
-  { name: "NFTs", level: 1, headerOnly: true },
+  { name: "NFTs", tag: "", level: 1 },
 
-  { name: "Games", level: 1, headerOnly: true },
+  { name: "Games", tag: "", level: 1 },
 
-  { name: "Governance", level: 1, headerOnly: true },
+  { name: "Governance", tag: "", level: 1 },
 
-  { name: "Catalyst", level: 1, headerOnly: true },
+  { name: "Catalyst", tag: "", level: 1 },
 
-  { name: "DAOs", level: 1, headerOnly: true },
+  { name: "DAOs", tag: "", level: 1 },
 
-  { name: "Development", level: 1, headerOnly: true },
+  { name: "Development", tag: "", level: 1 },
 
-  { name: "On-Chain Metrics", level: 1, headerOnly: true },
+  { name: "On-Chain Metrics", tag: "", level: 1 },
 
-  { name: "Partner Chains", level: 1, headerOnly: true },
+  { name: "Partner Chains", tag: "", level: 1 },
 
-  { name: "Layer 2s", level: 1, headerOnly: true },
+  { name: "Layer 2s", tag: "", level: 1 },
 ];
 
 // Generate categories based on tags
@@ -94,8 +94,8 @@ const categories = {};
 const emptyCategories = new Set(); // Track categories with no items
 
 categoryConfig.forEach((config) => {
-  // If this is explicitly a header-only category or has no tag, add it as an empty category
-  if (config.headerOnly || !config.tag) {
+  // If this has an empty tag, add it as an empty category
+  if (!config.tag) {
     categories[config.name] = [];
     return;
   }
@@ -144,12 +144,7 @@ categoryConfig.forEach((config) => {
   // Get items for this category
   const items = categories[config.name] || [];
 
-  // Skip empty categories unless they are header-only sections
-  if (items.length === 0 && !config.headerOnly) {
-    return;
-  }
-
-  // Generate the section
+  // Always include the section, even if empty
   readmeContent += generateTableForCategory(config, items);
 });
 

@@ -4,9 +4,9 @@
   "description": "Adastack.io Cardano ecosystem explorer",
   "scripts": {
     "dev": "next dev",
-    "generate-readme": "node scripts/generate-readme.js",
     "build": "next build",
     "start": "next start",
+    "generate-readme": "node scripts/generate-readme.js",
     "lint": "next lint"
   },
   "repository": {
