@@ -1,6 +1,6 @@
-# Cardano Ecosystem Builder Directory
+# Awesome Cardano [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
-This repository contains a comprehensive directory of builders, tools, and resources in the Cardano ecosystem.
+Curated List of Cardano Resources, DApps, and Tools
 
 ## Contents
 

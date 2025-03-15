@@ -35,9 +35,8 @@ const categories = {
 };
 
 // Generate the readme content
-let readmeContent = "# Cardano Ecosystem Builder Directory\n\n";
-readmeContent +=
-  "This repository contains a comprehensive directory of builders, tools, and resources in the Cardano ecosystem.\n\n";
+let readmeContent = "# Awesome Cardano [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)\n\n";
+readmeContent += "Curated List of Cardano Resources, DApps, and Tools\n\n";
 
 // Add table of contents
 readmeContent += "## Contents\n\n";
