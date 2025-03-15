@@ -551,12 +551,7 @@
     "teamGithubURL": "",
     "tags": ["dev_company"]
   },
-  {
-    "name": "Adaxon",
-    "website": "https://adaxon.io/",
-    "teamGithubURL": "",
-    "tags": ["dev_company"]
-  },
+
   {
     "name": "Antier Solutions",
     "website": "https://www.antiersolutions.com/",
@@ -864,12 +859,6 @@
     "tags": ["dapp"]
   },
   {
-    "name": "Axo",
-    "website": "https://www.axo.trade/",
-    "teamGithubURL": "",
-    "tags": ["dapp"]
-  },
-  {
     "name": "Coti",
     "website": "https://coti.io/",
     "teamGithubURL": "https://github.com/coti-io",
@@ -1038,33 +1027,15 @@
     "tags": ["dapp"]
   },
   {
-    "name": "Cerra.io",
-    "website": "https://cerra.io/",
-    "teamGithubURL": "https://github.com/cerraio",
-    "tags": ["dapp"]
-  },
-  {
     "name": "Profila",
     "website": "https://profila.com/",
     "teamGithubURL": "https://github.com/Profila",
     "tags": ["dapp"]
   },
   {
-    "name": "Encoins",
-    "website": "https://encoins.io/",
-    "teamGithubURL": "https://github.com/encryptedcoins/",
-    "tags": ["dapp"]
-  },
-  {
     "name": "Paribus",
     "website": "https://paribus.io/",
     "teamGithubURL": "https://github.com/paribus",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Teddyswap",
-    "website": "https://app.teddyswap.org/",
-    "teamGithubURL": "https://github.com/teddy-swap",
     "tags": ["dapp"]
   },
   {
@@ -1112,12 +1083,6 @@
   {
     "name": "Flipr",
     "website": "https://flipr.io/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
-    "name": "Dropspot",
-    "website": "https://dropspot.io/",
     "teamGithubURL": "",
     "tags": ["dapp", "nft_marketplace"]
   },
@@ -1176,12 +1141,6 @@
     "tags": ["dapp"]
   },
   {
-    "name": "Meld",
-    "website": "https://www.meld.com/",
-    "teamGithubURL": "https://github.com/MELD-labs",
-    "tags": ["dapp"]
-  },
-  {
     "name": "Ray Network",
     "website": "https://raynetwork.io/",
     "teamGithubURL": "https://github.com/xray-network",
@@ -1215,12 +1174,6 @@
     "name": "BitcoinOS",
     "website": "https://www.bitcoinos.build/",
     "teamGithubURL": "https://github.com/bitsnark",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Vista Bridge",
-    "website": "https://www.vistabridge.org/",
-    "teamGithubURL": "https://github.com/vista-foundation",
     "tags": ["dapp"]
   },
   {
@@ -1278,12 +1231,6 @@
     "tags": ["dapp"]
   },
   {
-    "name": "CNS Space",
-    "website": "https://cns.space/",
-    "teamGithubURL": "https://github.com/cns-space",
-    "tags": ["dapp"]
-  },
-  {
     "name": "Digitalis Domains",
     "website": "https://www.digitalis.domains/",
     "teamGithubURL": "https://github.com/digitalis-domains",
@@ -1299,12 +1246,6 @@
     "name": "Fortuna",
     "website": "https://minefortuna.com/",
     "teamGithubURL": "https://github.com/cardano-miners",
-    "tags": ["dapp"]
-  },
-  {
-    "name": "Cardano Mercury",
-    "website": "https://cardano-mercury.com/",
-    "teamGithubURL": "https://github.com/cardano-mercury",
     "tags": ["dapp"]
   },
   {
@@ -1341,12 +1282,6 @@
     "name": "Arkhouse Gallery",
     "website": "https://www.arkhouse.io/",
     "teamGithubURL": "",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
-    "name": "Artano",
-    "website": "https://artano.io",
-    "teamGithubURL": "https://github.com/artano-io",
     "tags": ["dapp", "nft_marketplace"]
   },
   {
@@ -1387,7 +1322,7 @@
   },
   {
     "name": "Pxlwars",
-    "website": "https://www.pxlwars.com/",
+    "website": "https://pxlz.org/",
     "teamGithubURL": "https://github.com/DEADPXLZ",
     "tags": ["dapp", "general_game"]
   },
@@ -1411,7 +1346,7 @@
   },
   {
     "name": "Claymates",
-    "website": "https://www.claynation.io/",
+    "website": "https://www.clayspace.io/",
     "teamGithubURL": "",
     "tags": ["dapp", "general_game"]
   },
@@ -1520,12 +1455,6 @@
   {
     "name": "Slap Ventures",
     "website": "https://slapventures.com/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "general_game"]
-  },
-  {
-    "name": "PlayerMint",
-    "website": "https://www.playermint.com",
     "teamGithubURL": "",
     "tags": ["dapp", "general_game"]
   },
@@ -1963,13 +1892,13 @@
     "tags": ["tools", "game_explorer"]
   },
   {
-    "name": "DappRadar Games",
+    "name": "DAppRadar Games",
     "website": "https://dappradar.com/rankings/protocol/cardano/category/games",
     "teamGithubURL": "https://github.com/dappradar",
     "tags": ["tools", "game_explorer"]
   },
   {
-    "name": "Dapps on Cardano",
+    "name": "DApps on Cardano",
     "website": "https://dappsoncardano.com/",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "ecosystem_directory"]
@@ -2101,12 +2030,6 @@
     "tags": ["tools", "block_visualizer"]
   },
   {
-    "name": "CF Explorer",
-    "website": "https://beta.explorer.cardano.org/en/",
-    "teamGithubURL": "https://github.com/cardano-foundation",
-    "tags": ["tools", "block_explorer"]
-  },
-  {
     "name": "Script Explorer",
     "website": "https://www.script-explorer.com/",
     "teamGithubURL": "https://github.com/QSchlegel/",
@@ -2203,12 +2126,6 @@
     "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
   },
   {
-    "name": "CardanoDegen Resource Directory",
-    "website": "https://cardanodegen.shop/cardano-links",
-    "teamGithubURL": "https://github.com/ensured",
-    "tags": ["tools", "ecosystem_directory"]
-  },
-  {
     "name": "dSociety Real World Projects",
     "website": "https://dsociety.io/least-harmful",
     "teamGithubURL": "https://github.com/selfdriven-foundation",
@@ -2227,7 +2144,7 @@
     "tags": ["tools", "dapp_explorer"]
   },
   {
-    "name": "Alethea Dapps",
+    "name": "Alethea DApps",
     "website": "https://alethea.io/dapps",
     "teamGithubURL": "https://github.com/alethea-io",
     "tags": ["tools", "dapp_explorer"]
@@ -2239,7 +2156,7 @@
     "tags": ["tools", "dapp_explorer", "metric_tracker_site"]
   },
   {
-    "name": "Dapp Radar",
+    "name": "DApp Radar",
     "website": "https://dappradar.com/rankings/protocol/cardano",
     "teamGithubURL": "https://github.com/dappradar",
     "tags": ["tools", "dapp_explorer"]
@@ -2251,7 +2168,7 @@
     "tags": ["tools", "dapp_explorer"]
   },
   {
-    "name": "Danogo Dapps by TVL",
+    "name": "Danogo DApps by TVL",
     "website": "https://danogo.io/tvl-report",
     "teamGithubURL": "https://github.com/Danogo2023",
     "tags": ["tools", "dapp_explorer"]
@@ -2467,7 +2384,7 @@
     "tags": ["tools", "metric_tracker_site"]
   },
   {
-    "name": "Dapps on Cardano Network Stats",
+    "name": "DApps on Cardano Network Stats",
     "website": "https://dappsoncardano.com/analytics/globalstats",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "metric_tracker_site"]
@@ -2881,7 +2798,7 @@
     "tags": ["tools", "dapp_volume_metrics"]
   },
   {
-    "name": "DappRadar Volume Rankings",
+    "name": "DAppRadar Volume Rankings",
     "website": "https://dappradar.com/rankings/protocol/cardano?sort=totalVolumeInFiat&order=desc",
     "teamGithubURL": "https://github.com/dappradar",
     "tags": ["tools", "dapp_volume_metrics"]
@@ -2899,13 +2816,13 @@
     "tags": ["tools", "tvl_metrics"]
   },
   {
-    "name": "Danogo dApp TVL Rankings",
+    "name": "Danogo DApp TVL Rankings",
     "website": "https://danogo.io/tvl-report",
     "teamGithubURL": "https://github.com/Danogo2023",
     "tags": ["tools", "dapp_tvl_metrics"]
   },
   {
-    "name": "CBI Cardano dApp TVL Rankings",
+    "name": "CBI Cardano DApp TVL Rankings",
     "website": "https://lookerstudio.google.com/s/kpmEIAO1Qiw",
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "dapp_tvl_metrics"]
@@ -3733,12 +3650,6 @@
     "tags": ["news_updates", "project_blog"]
   },
   {
-    "name": "Jpg Store Blog",
-    "website": "https://blog.jpg.store/",
-    "teamGithubURL": "",
-    "tags": ["news_updates", "project_blog"]
-  },
-  {
     "name": "VyFinance Blog",
     "website": "https://vyfinance.medium.com/",
     "teamGithubURL": "",
@@ -3901,12 +3812,6 @@
     "tags": ["news_updates", "vietnamese_lang_blog"]
   },
   {
-    "name": "Cardano Library Blog",
-    "website": "https://cardanolibrary.net/category/news/cardano-news/",
-    "teamGithubURL": "",
-    "tags": ["news_updates", "vietnamese_lang_blog"]
-  },
-  {
     "name": "Cardano Nederland Blog",
     "website": "https://cardanonederland.nl/",
     "teamGithubURL": "",
@@ -3939,12 +3844,6 @@
   {
     "name": "Comunidad Cardano",
     "website": "https://www.comunidadcardano.com/",
-    "teamGithubURL": "",
-    "tags": ["news_updates", "spanish_lang_blog"]
-  },
-  {
-    "name": "Cassandra Lab Blog",
-    "website": "https://blog.cassandralab.ai/cardano/",
     "teamGithubURL": "",
     "tags": ["news_updates", "spanish_lang_blog"]
   },
@@ -4033,7 +3932,7 @@
     "tags": ["news_updates", "japanese_lang_blog"]
   },
   {
-    "name": "Dapp Central",
+    "name": "DApp Central",
     "website": "https://www.youtube.com/@DappCentral",
     "teamGithubURL": "",
     "tags": ["video_channel", "top_youtube"]
@@ -4209,12 +4108,6 @@
   {
     "name": "The Cardano Convo",
     "website": "https://www.youtube.com/@TheCardanoConvo",
-    "teamGithubURL": "",
-    "tags": ["video_channel", "general_youtube"]
-  },
-  {
-    "name": "The Media3 Report",
-    "website": "https://www.youtube.com/@themedia3-report",
     "teamGithubURL": "",
     "tags": ["video_channel", "general_youtube"]
   },
@@ -4591,12 +4484,6 @@
     "tags": ["video_channel", "development_youtube"]
   },
   {
-    "name": "Yümi & AI",
-    "website": "https://www.youtube.com/@yumiai3059",
-    "teamGithubURL": "",
-    "tags": ["video_channel", "development_youtube"]
-  },
-  {
     "name": "Workshop Maybe",
     "website": "https://www.youtube.com/@WorkshopMaybe",
     "teamGithubURL": "",
@@ -4615,14 +4502,8 @@
     "tags": ["video_channel", "development_youtube"]
   },
   {
-    "name": "PG Blockchain Dev",
-    "website": "https://www.youtube.com/@PGWAD",
-    "teamGithubURL": "",
-    "tags": ["video_channel", "development_youtube"]
-  },
-  {
     "name": "The Viper Staking Team",
-    "website": "https://www.youtube.com/@viperstakepool",
+    "website": "https://www.youtube.com/@viper_science",
     "teamGithubURL": "",
     "tags": ["video_channel", "development_youtube"]
   },
@@ -5298,12 +5179,6 @@
     "website": "https://www.youtube.com/channel/UCR0naW7kjpcripfuDXgZqzw",
     "teamGithubURL": "",
     "tags": ["video_channel", "hindi_lang_youtube"]
-  },
-  {
-    "name": "Crypto Bangla",
-    "website": "https://www.youtube.com/@cryptobangla5163",
-    "teamGithubURL": "",
-    "tags": ["video_channel", "bengali_lang_youtube"]
   },
   {
     "name": "Crypto Tamil",
