@@ -21,7 +21,14 @@ function generateTableForCategory(category, items) {
   markdown += "| Name | GitHub |\n";
   markdown += "|:-------------------------------------|:--------:|\n";
 
-  items.forEach((item) => {
+  // Sort items by GitHub presence
+  const sortedItems = [...items].sort((a, b) => {
+    if (a.teamGithubURL && !b.teamGithubURL) return -1;
+    if (!a.teamGithubURL && b.teamGithubURL) return 1;
+    return 0;
+  });
+
+  sortedItems.forEach((item) => {
     if (!item.name || !item.website) return; // Skip incomplete entries
 
     const githubLink = item.teamGithubURL

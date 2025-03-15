@@ -49,9 +49,9 @@ Curated List of Cardano Resources, DApps, and Tools
 | Name | GitHub |
 |:-------------------------------------|:--------:|
 | [Cardano for the M₳sses: A Financial OS for People Who Don't Have One](https://www.amazon.com/dp/B0B912X5G6) | [GitHub](https://github.com/johnnygreeney) |
+| [Ultimate Cardano Smart Contracts: Develop Real-World Web 3.0 Projects](https://www.amazon.com/Ultimate-Cardano-Smart-Contracts-Development/dp/8197396531/) | [GitHub](https://github.com/lley154) |
 | [Cardano: The Essential Guide](https://www.amazon.com/dp/B0B1DSTS3X) | - |
 | [Cardano 101: Understanding Cardano and its Financial Opportunities](https://www.amazon.com/dp/B0C524H491) | - |
-| [Ultimate Cardano Smart Contracts: Develop Real-World Web 3.0 Projects](https://www.amazon.com/Ultimate-Cardano-Smart-Contracts-Development/dp/8197396531/) | [GitHub](https://github.com/lley154) |
 
 ## Security Guides
 
@@ -59,8 +59,8 @@ Curated List of Cardano Resources, DApps, and Tools
 |:-------------------------------------|:--------:|
 | [Digital Defense Open-Source Checklist](https://digital-defense.io/) | [GitHub](https://github.com/lissy93) |
 | [Cardano Ninja](https://cardano.ninja/) | [GitHub](https://github.com/selfdriven-foundation) |
-| [Getting Started: Basic Personal Cybersecurity for Everyone](https://avoidthehack.com/getting-started-cybersecurity) | - |
 | [Secure Your Crypto Life, Avoid Scams & Protect Your Crypto Assets Video](https://www.youtube.com/watch?v=W2YeB5clm0k) | [GitHub](https://github.com/pbwebdev) |
+| [Getting Started: Basic Personal Cybersecurity for Everyone](https://avoidthehack.com/getting-started-cybersecurity) | - |
 
 # Staking
 
@@ -75,9 +75,9 @@ Curated List of Cardano Resources, DApps, and Tools
 | [Alethea](https://alethea.io/pools) | [GitHub](https://github.com/alethea-io) |
 | [PoolTool](https://pooltool.io/pools) | [GitHub](https://github.com/PoolTool-io) |
 | [CardanoScan Pools](https://cardanoscan.io/pools) | [GitHub](https://github.com/StricaHQ) |
+| [Armada Alliance](https://armada-alliance.com) | [GitHub](https://github.com/armada-alliance/) |
 | [Stakada](https://stakada.io) | - |
 | [Upstream](https://upstream.org.uk/cardano-stake-pool-explorer) | - |
-| [Armada Alliance](https://armada-alliance.com) | [GitHub](https://github.com/armada-alliance/) |
 
 # Community
 
