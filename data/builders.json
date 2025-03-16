@@ -5001,6 +5001,198 @@
     "tags": ["video_channel", "project_youtube"]
   },
   {
+    "name": "Gero Wallet",
+    "website": "https://www.youtube.com/channel/UCtOzEFWEsLKvHALULZvsIFg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Yoroi Wallet",
+    "website": "https://www.youtube.com/channel/UCgFQ0hHuPO1QDcyP6t9KZTQ",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Arculus",
+    "website": "https://www.youtube.com/channel/UCfSNqRVqiS_sEvLBxmOWUvQ",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+   {
+    "name": "Atomic Wallet",
+    "website": "https://www.youtube.com/c/AtomicWallet",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Exodus",
+    "website": "https://www.youtube.com/c/exodus",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "GameChanger Wallet",
+    "website": "https://www.youtube.com/@gamechanger.finance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Lace",
+    "website": "https://www.youtube.com/c/Laceio",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Nufi",
+    "website": "https://www.youtube.com/channel/UC50lyApB5r9venIgxdszmWw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Daedalus Wallet",
+    "website": "https://www.youtube.com/c/IohkIo",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Genius Yield",
+    "website": "https://www.youtube.com/channel/UC0Lw_flS1WokWYH9ZHIQv2g",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "WingRiders",
+    "website": "https://www.youtube.com/channel/UC1eo9BYlzkc3sU6F3Zo3sKw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "VyFinance",
+    "website": "https://www.youtube.com/@VyFinance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "iUSD",
+    "website": "https://www.youtube.com/channel/UCZtghAMaSza6v6d1ie9ACIg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "USDM",
+    "website": "https://www.youtube.com/@USDMstablecoin",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "MyUSD",
+    "website": "https://www.youtube.com/@mynthproject",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Lenfi",
+    "website": "https://www.youtube.com/@LenfiOfficial",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Paribus",
+    "website": "https://www.youtube.com/@Paribus_Crypto",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Nexo",
+    "website": "https://www.youtube.com/@NexoFinance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Indigo Protocol",
+    "website": "https://www.youtube.com/channel/UCZtghAMaSza6v6d1ie9ACIg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Astarter",
+    "website": "https://www.youtube.com/c/astartertv",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Maya",
+    "website": "https://www.youtube.com/@mayaprotocol",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "GoKey",
+    "website": "https://www.youtube.com/@gokeyfinance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Reitcircles",
+    "website": "https://www.youtube.com/@rietcircles8955",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Whimsy",
+    "website": "https://www.youtube.com/@whimsy_estates",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Mynth",
+    "website": "https://www.youtube.com/@mynthproject",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Digital Gold",
+    "website": "https://www.youtube.com/channel/UCVnJXnM8DhxL8VpyxmzK-cw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "IBILECOIN",
+    "website": "https://www.youtube.com/@IbileCoinADA/featured",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "iBTC",
+    "website": "https://www.youtube.com/channel/UCZtghAMaSza6v6d1ie9ACIg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "CardanoPress",
+    "website": "https://www.youtube.com/watch?v=rlPzbhKcHC4&list=PL2fWPJCv7fcAS17k-1lQqxpFTqanNaPNT",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Empowa",
+    "website": "https://www.youtube.com/channel/UCfmTyDzMbYfdwUZZC1h9jbw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "World Mobile",
+    "website": "https://www.youtube.com/channel/UCw8cjqZEfYIs1I-bMocfXAg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Midnight",
+    "website": "https://www.youtube.com/@midnight.network",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
     "name": "Begin Wallet",
     "website": "https://www.youtube.com/@beginwallet",
     "teamGithubURL": "",
