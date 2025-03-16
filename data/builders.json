@@ -3026,12 +3026,6 @@
     "tags": ["tools", "energy_metrics"]
   },
   {
-    "name": "Cardano Sustainability Metrics",
-    "website": "https://beta.explorer.cardano.org/en/micar",
-    "teamGithubURL": "https://github.com/cardano-foundation",
-    "tags": ["tools", "energy_metrics"]
-  },
-  {
     "name": "Messari Social Analysis",
     "website": "https://messari.io/project/cardano/charts/social",
     "teamGithubURL": "https://github.com/messari",
