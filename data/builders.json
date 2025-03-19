@@ -3698,6 +3698,78 @@
     "tags": ["news_updates", "project_blog"]
   },
   {
+    "name": "Arculus Blog",
+    "website": "https://www.getarculus.com/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Atomic Wallet Blog",
+    "website": "https://atomicwallet.io/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Lace Blog",
+    "website": "https://www.lace.io/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "NuFi Blog",
+    "website": "https://nu.fi/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "VESPR Wallet Blog",
+    "website": "https://vespr.substack.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Genius Yield Blog",
+    "website": "https://geniusyield.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Minswap Blog",
+    "website": "https://minswap-labs.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "SundaeSwap Blog",
+    "website": "https://sundaeswap-finance.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "WingRiders",
+    "website": "https://medium.com/@wingriderscom",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "CSWAP DEX",
+    "website": "https://medium.com/@cswapdex",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "DexHunter",
+    "website": "https://dexhunterio.medium.com",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "USDM",
+    "website": "https://medium.com/@USDMOfficial",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
     "name": "Mayz Blog",
     "website": "https://medium.com/@MAYZ.io",
     "teamGithubURL": "",
