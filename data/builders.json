@@ -4849,10 +4849,171 @@
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
   },
-
   {
     "name": "NEWM",
     "website": "https://www.youtube.com/@projectNEWM",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Chainlink",
+    "website": "https://www.youtube.com/channel/UCnjkrlqaWEBSnKZQ71gdyFA",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Tangocrypto",
+    "website": "https://www.youtube.com/channel/UCmBDcgWgk3SOQA91s-rAFZg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "CTimelines",
+    "website": "https://www.youtube.com/channel/UCp4RuX6EgQQ8MsVVM0PLJDw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Camelcoin",
+    "website": "https://www.youtube.com/channel/UCbEnO3TtJ4wBxP745CCYEkg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Paideia",
+    "website": "https://www.youtube.com/channel/UC4SUgJTznlIg6masMVX1hXA",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Wada",
+    "website": "https://www.youtube.com/c/Wada_org",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Virtua",
+    "website": "https://www.youtube.com/VirtuaMetaverse",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Cornucopias",
+    "website": "https://www.youtube.com/c/CornucopiasGame",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Pavia",
+    "website": "https://www.youtube.com/c/PaviaCorp",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Cardania",
+    "website": "https://www.youtube.com/@cardaniaHQ/videos",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Eikonikos",
+    "website": "https://www.youtube.com/@eikonikos2586",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Ridotto",
+    "website": "https://www.youtube.com/channel/UCxumaSF7pnu29f5kU4FAJbw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "BlockTree",
+    "website": "https://www.youtube.com/@blocktree",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "BlockTree",
+    "website": "https://www.youtube.com/@blocktree",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Veritree",
+    "website": "https://www.youtube.com/@veritree",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Carda Station",
+    "website": "https://www.youtube.com/channel/UCMARwR4huz9k8Nzd7cdy0fQ",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+   {
+    "name": "LATAM Cardano Community",
+    "website": "https://www.youtube.com/channel/UCRZKx4HJFifOy8HCeOB8pxw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "European Cardano Community",
+    "website": "https://github.com/eucardano/operations-framework/tree/main",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Fluree",
+    "website": "https://www.youtube.com/channel/UCyerylQ7xRK0fyf19OMC5kg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Sound Rig",
+    "website": "https://www.youtube.com/@SoundRigMusic",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "JamOnBread",
+    "website": "https://www.youtube.com/@jamonbreadio",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "zenGate Global",
+    "website": "https://www.youtube.com/channel/UCdkpYKlWNOpjcUdPXgBz-Dw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Rare Evo",
+    "website": "https://www.youtube.com/@RareNetworkMedia",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "The Cardano Times",
+    "website": "https://www.youtube.com/channel/UCNYDdEjadRvixjHyZxdVLlQ/featured",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Dapp Central",
+    "website": "https://www.youtube.com/@DappCentral",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Coxygen Global",
+    "website": "https://www.youtube.com/@Coxygen/videos",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Blink Labs",
+    "website": "https://www.youtube.com/@blinklabs_io",
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
   },
