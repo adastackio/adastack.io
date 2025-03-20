@@ -3506,6 +3506,180 @@
     "tags": ["news_updates", "project_blog"]
   },
   {
+    "name": "Lenfi Blog",
+    "website": "https://medium.com/@lenfi",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Yamfore Blog",
+    "website": "https://bigblymp.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "Astarter Blog",
+    "website": "https://medium.com/@AstarterDefiHub",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Ledgity Blog",
+    "website": "https://medium.com/ledgity",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "Linkage Finance Blog",
+    "website": "https://medium.com/@LinkageFinance",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Optim Finance Blog",
+    "website": "https://optim-labs.medium.com",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "OptionFlow Blog",
+    "website": "https://docs.optionflow.finance/optionflow-cardano-option-protocol",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Stargazer Blog",
+    "website": "https://medium.com/@stargazerlabs",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "OptionFlow Blog",
+    "website": "https://docs.optionflow.finance/optionflow-cardano-option-protocol",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Chaincrib Blog",
+    "website": "https://chaincrib.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Landano Blog",
+    "website": "https://www.landano.io/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "anetaBTC Blog",
+    "website": "https://medium.com/@anetaBTC",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Mynth Blog",
+    "website": "https://docs.mynth.ai/guide/the-problem",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "VISTA Bridge Blog",
+    "website": "https://www.vistabridge.org/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Encoins Blog",
+    "website": "https://encoins-crypto.medium.com",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Digital Gold Blog",
+    "website": "https://www.digitalgoldecosystem.com/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Shen Blog",
+    "website": "https://medium.com/cotinetwork",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "CardanoPress Blog",
+    "website": "https://cardanopress.io/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Ada Handle Blog",
+    "website": "https://medium.com/ada-handle",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Empowa Blog",
+    "website": "https://empowa-io.medium.com",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "World Mobile Blog",
+    "website": "https://worldmobile.io/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Maestro Blog",
+    "website": "https://www.gomaestro.org/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Midnight Blog",
+    "website": "https://midnight.network/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Mithril Blog",
+    "website": "https://mithril.network/doc/dev-blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Worldads Blog",
+    "website": "https://worldadsio.medium.com",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "MAYZ Blog",
+    "website": "https://medium.com/@MAYZ.io",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Foreon Network Blog",
+    "website": "https://foreonnetwork.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "Fluidtokens Blog",
+    "website": "https://medium.com/@FluidTokens",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Paribus Blog",
+    "website": "https://blog.paribus.io/?gi=99dbc7ea4bd4",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
     "name": "Nunet Blog",
     "website": "https://medium.com/nunet",
     "teamGithubURL": "",
