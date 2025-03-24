@@ -4,8 +4,8 @@ const path = require("path");
 // Load the builders data
 const buildersData = require("../data/builders.json");
 
-// Function to generate a markdown table for a specific category
-function generateTableForCategory(category, items) {
+// Function to generate a markdown list for a specific category
+function generateCategoryList(category, items) {
   let markdown = `${"#".repeat(category.level)} ${category.name}\n\n`;
 
   // Add description if it exists
@@ -18,9 +18,6 @@ function generateTableForCategory(category, items) {
     return markdown;
   }
 
-  markdown += "| Name | GitHub |\n";
-  markdown += "|:-------------------------------------|:--------:|\n";
-
   // Sort items by GitHub presence
   const sortedItems = [...items].sort((a, b) => {
     if (a.teamGithubURL && !b.teamGithubURL) return -1;
@@ -31,11 +28,14 @@ function generateTableForCategory(category, items) {
   sortedItems.forEach((item) => {
     if (!item.name || !item.website) return; // Skip incomplete entries
 
-    const githubLink = item.teamGithubURL
-      ? `[GitHub](${item.teamGithubURL})`
-      : "-";
     const nameWithLink = `[${item.name}](${item.website})`;
-    markdown += `| ${nameWithLink} | ${githubLink} |\n`;
+
+    if (item.teamGithubURL) {
+      // Add GitHub icon link for items with GitHub URLs
+      markdown += `- ${nameWithLink} [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](${item.teamGithubURL})\n`;
+    } else {
+      markdown += `- ${nameWithLink}\n`;
+    }
   });
 
   markdown += "\n";
@@ -64,7 +64,7 @@ const categoryConfig = [
   { name: "Intro Videos", tag: "intro_video", level: 2 },
   { name: "Cardano Glossary", tag: "glossary_top", level: 2 },
   { name: "Guides to Get Started", tag: "cardano_guide", level: 2 },
-  
+
   { name: "Staking", tag: "", level: 1 },
   { name: "Stake Pool Explorers", tag: "stake_pool_explorer", level: 2 },
 
@@ -118,10 +118,21 @@ categoryConfig.forEach((config) => {
   }
 });
 
-// Generate the readme content
-let readmeContent =
-  "# Awesome Cardano [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)\n\n";
-readmeContent += "Curated List of Cardano Resources, DApps, and Tools\n\n";
+// Generate the readme content with improved styling
+let readmeContent = `# Awesome Cardano
+<!--rehype:style=font-size: 38px; border-bottom: 0; display: flex; min-height: 200px; align-items: center; justify-content: center;-->
+
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+<!--rehype:style=text-align: center;-->
+
+Curated List of Cardano Resources, DApps, and Tools. This project collects awesome Cardano ecosystem resources and arranges them into various categories.
+Feel free to **star** and **fork**.
+
+Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack/issues) We love PRs :)
+<!--rehype:style=text-align: center;-->
+
+`;
 
 // Add table of contents with proper indentation based on levels
 readmeContent += "## Contents\n\n";
@@ -149,7 +160,7 @@ categoryConfig.forEach((config) => {
   const items = categories[config.name] || [];
 
   // Always include the section, even if empty
-  readmeContent += generateTableForCategory(config, items);
+  readmeContent += generateCategoryList(config, items);
 });
 
 // Write to README file
