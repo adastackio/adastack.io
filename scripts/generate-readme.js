@@ -52,15 +52,19 @@ buildersData.forEach((item) => {
 
 console.log("Available tags in your data:", Array.from(allTags).sort());
 
-// // Define the categories in the exact order they should appear
+// Define the categories in the exact order they should appear
 const categoryConfig = [
   // Main sections and subsections in desired order
   { name: "Intro to Cardano", tag: "", level: 1 },
   { name: "Official Websites", tag: "official_link", level: 2 },
   { name: "Intro Courses", tag: "cardano_full_course", level: 2 },
   { name: "Books", tag: "cardano_book", level: 2 },
+  { name: "Guides and Reports", tag: "cardano_report", level: 2 },
   { name: "Security Guides", tag: "security_guide", level: 2 },
-
+  { name: "Intro Videos", tag: "intro_video", level: 2 },
+  { name: "Cardano Glossary", tag: "glossary_top", level: 2 },
+  { name: "Guides to Get Started", tag: "cardano_guide", level: 2 },
+  
   { name: "Staking", tag: "", level: 1 },
   { name: "Stake Pool Explorers", tag: "stake_pool_explorer", level: 2 },
 

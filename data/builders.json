@@ -5613,34 +5613,34 @@
     "tags": ["info", "cardano_book"]
   },
   {
-    "name": "New to Cardano Guide",
-    "website": "https://docs.cardano.org/about-cardano/new-to-cardano/",
-    "teamGithubURL": "https://github.com/cardano-foundation",
-    "tags": ["info", "cardano_guide"]
-  },
-  {
     "name": "CardanoPick",
     "website": "https://cardanopick.com/",
     "teamGithubURL": "https://github.com/nilscodes",
-    "tags": ["info", "cardano_guide_additional"]
+    "tags": ["info", "cardano_guide"]
   },
   {
     "name": "Getting On Chain Guide by SelfDriven",
     "website": "https://buildingoncardano.dev/getting-on-chain",
     "teamGithubURL": "https://github.com/selfdriven-foundation",
-    "tags": ["info", "cardano_guide_additional"]
+    "tags": ["info", "cardano_guide"]
   },
   {
     "name": "Your Cardano Onboarding Guide by Essential Cardano",
     "website": "https://www.essentialcardano.io/article/your-cardano-onboarding-guide",
     "teamGithubURL": "https://github.com/input-output-hk",
-    "tags": ["info", "cardano_guide_additional"]
+    "tags": ["info", "cardano_guide"]
   },
   {
     "name": "Cardano Nexus",
     "website": "https://www.cardanonexus.org/",
     "teamGithubURL": "",
-    "tags": ["info", "cardano_guide_additional"]
+    "tags": ["info", "cardano_guide"]
+  },
+  {
+    "name": "New to Cardano Guide",
+    "website": "https://docs.cardano.org/about-cardano/new-to-cardano/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "cardano_report"]
   },
   {
     "name": "The Essential Cardano Guide to the Ecosystem",

@@ -8,7 +8,11 @@ Curated List of Cardano Resources, DApps, and Tools
     - [Official Websites](#official-websites)
     - [Intro Courses](#intro-courses)
     - [Books](#books)
+    - [Guides and Reports](#guides-and-reports)
     - [Security Guides](#security-guides)
+    - [Intro Videos](#intro-videos)
+    - [Cardano Glossary](#cardano-glossary)
+    - [Guides to Get Started](#guides-to-get-started)
 - [Staking](#staking)
     - [Stake Pool Explorers](#stake-pool-explorers)
 - [Community](#community)
@@ -53,6 +57,15 @@ Curated List of Cardano Resources, DApps, and Tools
 | [Cardano: The Essential Guide](https://www.amazon.com/dp/B0B1DSTS3X) | - |
 | [Cardano 101: Understanding Cardano and its Financial Opportunities](https://www.amazon.com/dp/B0C524H491) | - |
 
+## Guides and Reports
+
+| Name | GitHub |
+|:-------------------------------------|:--------:|
+| [New to Cardano Guide](https://docs.cardano.org/about-cardano/new-to-cardano/) | [GitHub](https://github.com/cardano-foundation) |
+| [The Essential Cardano Guide to the Ecosystem](https://services.iohk.io/hubfs/EssentialCardano/PDF/Essential%20Cardano%20Guide%20to%20the%20Ecosystem.pdf?hsLang=en) | [GitHub](https://github.com/cardano-foundation/) |
+| [Messari Cardano Reports](https://messari.io/project/cardano/research) | [GitHub](https://github.com/messari) |
+| [Cardano: A New Generation In Smart Contract Platform Design](https://blog.kraken.com/crypto-education/kraken-intelligence/cardano-a-new-generation-in-smart-contract-platform-design) | [GitHub](https://github.com/krakenfx) |
+
 ## Security Guides
 
 | Name | GitHub |
@@ -61,6 +74,27 @@ Curated List of Cardano Resources, DApps, and Tools
 | [Cardano Ninja](https://cardano.ninja/) | [GitHub](https://github.com/selfdriven-foundation) |
 | [Secure Your Crypto Life, Avoid Scams & Protect Your Crypto Assets Video](https://www.youtube.com/watch?v=W2YeB5clm0k) | [GitHub](https://github.com/pbwebdev) |
 | [Getting Started: Basic Personal Cybersecurity for Everyone](https://avoidthehack.com/getting-started-cybersecurity) | - |
+
+## Intro Videos
+
+## Cardano Glossary
+
+| Name | GitHub |
+|:-------------------------------------|:--------:|
+| [Cardano Glossary](https://cardanobook.com/glossary/) | [GitHub](https://github.com/johnnygreeney) |
+| [Governance Glossary](https://docs.intersectmbo.org/glossary/general-glossary) | [GitHub](https://github.com/IntersectMBO) |
+| [Cardano Vocab](https://www.adastack.io/intro_to_cardano/cardano_vocab) | [GitHub](https://github.com/adastackio) |
+| [Web3 Glossary](https://cardanowomen.io/web3-glossary) | - |
+| [DeFi Glossary](https://wiki.axo.trade/axo-defi-glossary) | - |
+
+## Guides to Get Started
+
+| Name | GitHub |
+|:-------------------------------------|:--------:|
+| [CardanoPick](https://cardanopick.com/) | [GitHub](https://github.com/nilscodes) |
+| [Getting On Chain Guide by SelfDriven](https://buildingoncardano.dev/getting-on-chain) | [GitHub](https://github.com/selfdriven-foundation) |
+| [Your Cardano Onboarding Guide by Essential Cardano](https://www.essentialcardano.io/article/your-cardano-onboarding-guide) | [GitHub](https://github.com/input-output-hk) |
+| [Cardano Nexus](https://www.cardanonexus.org/) | - |
 
 # Staking
 
