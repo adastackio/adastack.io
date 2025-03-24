@@ -56,7 +56,13 @@ console.log("Available tags in your data:", Array.from(allTags).sort());
 // Define the categories in the exact order they should appear
 const categoryConfig = [
   // Main sections and subsections in desired order
-  { name: "Intro to Cardano", tag: "", level: 1 },
+  {
+    name: "Intro to Cardano",
+    tag: "",
+    level: 1,
+    description:
+      "A comprehensive introduction to the Cardano blockchain, its philosophy, and core technology.",
+  },
   { name: "Official Websites", tag: "official_link", level: 2 },
   { name: "Intro Courses", tag: "cardano_full_course", level: 2 },
   { name: "Books", tag: "cardano_book", level: 2 },
@@ -145,7 +151,7 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 `;
 
 // Add table of contents with proper indentation based on levels
-readmeContent += "## Contents\n\n";
+readmeContent += "## Table of Contents\n\n";
 
 let currentLevel1 = null;
 

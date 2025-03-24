@@ -8,7 +8,7 @@ Feel free to **star** and **fork**.
 
 Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack/issues) We love PRs :)
 
-## Contents
+## Table of Contents
 
 - [Intro to Cardano](#intro-to-cardano)
     - [Official Websites](#official-websites)
@@ -41,6 +41,8 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 - [Layer 2s](#layer-2s)
 
 # Intro to Cardano
+
+A comprehensive introduction to the Cardano blockchain, its philosophy, and core technology.
 
 ### Official Websites
 
