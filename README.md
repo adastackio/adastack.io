@@ -76,6 +76,11 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 
 ## Intro Videos
 
+- [Blockchain & Argentina: Past & present](https://www.youtube.com/watch?v=SkixwjCzQ9c) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/charleshoskinson)
+- [Getting Started Guide to Cardano ADA](https://www.youtube.com/watch?v=vOqjHEnoRWU) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/pbwebdev)
+- [Charles Hoskinson 2017 Whiteboard](https://www.youtube.com/watch?v=Ja9D0kpksxw) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/charleshoskinson)
+- [The Next Evolution of Cardano](https://www.youtube.com/watch?v=_s4OauGIzNg) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/charleshoskinson)
+
 ## Cardano Glossary
 
 - [Cardano Glossary](https://cardanobook.com/glossary/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/johnnygreeney)

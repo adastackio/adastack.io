@@ -61,7 +61,7 @@ const categoryConfig = [
   { name: "Books", tag: "cardano_book", level: 2 },
   { name: "Guides and Reports", tag: "cardano_report", level: 2 },
   { name: "Security Guides", tag: "security_guide", level: 2 },
-  { name: "Intro Videos", tag: "intro_video", level: 2 },
+  { name: "Intro Videos", tag: "cardano_intro_video", level: 2 },
   { name: "Cardano Glossary", tag: "glossary_top", level: 2 },
   { name: "Guides to Get Started", tag: "cardano_guide", level: 2 },
 
