@@ -4,6 +4,10 @@ const path = require("path");
 // Load the builders data
 const buildersData = require("../data/builders.json");
 
+// Constants for reuse
+const GITHUB_ICON = "[GitHub Icon]";
+const GITHUB_ICON_URL = "https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg";
+
 // Function to generate a markdown list for a specific category
 function generateCategoryList(category, items) {
   let headingLevel = category.level === 1 ? 1 : 3;
@@ -32,8 +36,8 @@ function generateCategoryList(category, items) {
     const nameWithLink = `[${item.name}](${item.website})`;
 
     if (item.teamGithubURL) {
-      // Add GitHub icon link for items with GitHub URLs
-      markdown += `- ${nameWithLink} [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](${item.teamGithubURL})\n`;
+      // Using the reference-style link
+      markdown += `- ${nameWithLink} [![GitHub]${GITHUB_ICON}](${item.teamGithubURL})\n`;
     } else {
       markdown += `- ${nameWithLink}\n`;
     }
@@ -143,12 +147,11 @@ let readmeContent = `# Awesome Cardano
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Curated List of Cardano Resources, DApps, and Tools. This project collects awesome Cardano ecosystem resources and arranges them into various categories.
-Feel free to **star** and **fork**.
+Curated List of Cardano Resources, DApps, and Tools. This project collects Cardano resources and arranges them into various categories. Feel free to **star** and **fork**.
 
-[![GitHub][GitHub Icon]](#) is a link to the project's team on **GitHub**, a platform for open-source collaboration. Click the icon to see their OS work. 
+[![GitHub]${GITHUB_ICON}](#) is a link to the project's team on **GitHub**, a platform for open-source collaboration. Click the icon to see their OS work. 
 
-[GitHub Icon]: https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg
+${GITHUB_ICON}: ${GITHUB_ICON_URL}
 
 Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack/issues) We love PRs :)
 
