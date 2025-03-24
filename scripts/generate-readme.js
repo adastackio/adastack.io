@@ -6,7 +6,8 @@ const buildersData = require("../data/builders.json");
 
 // Function to generate a markdown list for a specific category
 function generateCategoryList(category, items) {
-  let markdown = `${"#".repeat(category.level)} ${category.name}\n\n`;
+  let headingLevel = category.level === 1 ? 1 : 3;
+  let markdown = `${"#".repeat(headingLevel)} ${category.name}\n\n`;
 
   // Add description if it exists
   if (category.description) {

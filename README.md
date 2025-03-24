@@ -1,15 +1,12 @@
 # Awesome Cardano
-<!--rehype:style=font-size: 38px; border-bottom: 0; display: flex; min-height: 200px; align-items: center; justify-content: center;-->
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-<!--rehype:style=text-align: center;-->
 
 Curated List of Cardano Resources, DApps, and Tools. This project collects awesome Cardano ecosystem resources and arranges them into various categories.
 Feel free to **star** and **fork**.
 
 Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack/issues) We love PRs :)
-<!--rehype:style=text-align: center;-->
 
 ## Contents
 
@@ -45,7 +42,7 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 
 # Intro to Cardano
 
-## Official Websites
+### Official Websites
 
 - [Cardano.org](https://cardano.org/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/cardano-foundation)
 - [Intersect](https://www.intersectmbo.org/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/IntersectMBO)
@@ -54,40 +51,40 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 - [Cardano Roadmap](https://roadmap.cardano.org/en/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/cardano-foundation)
 - [Research Library](https://iohk.io/en/research/library/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/input-output-hk)
 
-## Intro Courses
+### Intro Courses
 
 - [Blockchain Education Program](https://academy.cardanofoundation.org/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/cardano-foundation)
 - [Kaizen Crypto Cardano 101 Course](https://www.youtube.com/playlist?list=PLrbMFdXZnzoAwfxIVo-SQ_qEBCqbwuU6o)
 
-## Books
+### Books
 
 - [Cardano for the M₳sses: A Financial OS for People Who Don't Have One](https://www.amazon.com/dp/B0B912X5G6) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/johnnygreeney)
 - [Ultimate Cardano Smart Contracts: Develop Real-World Web 3.0 Projects](https://www.amazon.com/Ultimate-Cardano-Smart-Contracts-Development/dp/8197396531/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/lley154)
 - [Cardano: The Essential Guide](https://www.amazon.com/dp/B0B1DSTS3X)
 - [Cardano 101: Understanding Cardano and its Financial Opportunities](https://www.amazon.com/dp/B0C524H491)
 
-## Guides and Reports
+### Guides and Reports
 
 - [New to Cardano Guide](https://docs.cardano.org/about-cardano/new-to-cardano/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/cardano-foundation)
 - [The Essential Cardano Guide to the Ecosystem](https://services.iohk.io/hubfs/EssentialCardano/PDF/Essential%20Cardano%20Guide%20to%20the%20Ecosystem.pdf?hsLang=en) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/cardano-foundation/)
 - [Messari Cardano Reports](https://messari.io/project/cardano/research) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/messari)
 - [Cardano: A New Generation In Smart Contract Platform Design](https://blog.kraken.com/crypto-education/kraken-intelligence/cardano-a-new-generation-in-smart-contract-platform-design) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/krakenfx)
 
-## Security Guides
+### Security Guides
 
 - [Digital Defense Open-Source Checklist](https://digital-defense.io/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/lissy93)
 - [Cardano Ninja](https://cardano.ninja/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/selfdriven-foundation)
 - [Secure Your Crypto Life, Avoid Scams & Protect Your Crypto Assets Video](https://www.youtube.com/watch?v=W2YeB5clm0k) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/pbwebdev)
 - [Getting Started: Basic Personal Cybersecurity for Everyone](https://avoidthehack.com/getting-started-cybersecurity)
 
-## Intro Videos
+### Intro Videos
 
 - [Blockchain & Argentina: Past & present](https://www.youtube.com/watch?v=SkixwjCzQ9c) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/charleshoskinson)
 - [Getting Started Guide to Cardano ADA](https://www.youtube.com/watch?v=vOqjHEnoRWU) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/pbwebdev)
 - [Charles Hoskinson 2017 Whiteboard](https://www.youtube.com/watch?v=Ja9D0kpksxw) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/charleshoskinson)
 - [The Next Evolution of Cardano](https://www.youtube.com/watch?v=_s4OauGIzNg) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/charleshoskinson)
 
-## Cardano Glossary
+### Cardano Glossary
 
 - [Cardano Glossary](https://cardanobook.com/glossary/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/johnnygreeney)
 - [Governance Glossary](https://docs.intersectmbo.org/glossary/general-glossary) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/IntersectMBO)
@@ -95,7 +92,7 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 - [Web3 Glossary](https://cardanowomen.io/web3-glossary)
 - [DeFi Glossary](https://wiki.axo.trade/axo-defi-glossary)
 
-## Guides to Get Started
+### Guides to Get Started
 
 - [CardanoPick](https://cardanopick.com/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/nilscodes)
 - [Getting On Chain Guide by SelfDriven](https://buildingoncardano.dev/getting-on-chain) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/selfdriven-foundation)
@@ -104,7 +101,7 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 
 # Staking
 
-## Stake Pool Explorers
+### Stake Pool Explorers
 
 - [Mission Driven Pools](https://missiondrivenpools.org) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/CardanoMDP)
 - [xSPO Alliance](https://www.xspo-alliance.org) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/xSPO-Alliance)
@@ -117,27 +114,27 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 - [Stakada](https://stakada.io)
 - [Upstream](https://upstream.org.uk/cardano-stake-pool-explorer)
 
-## Stake Reward History
+### Stake Reward History
 
 - [Cexplorer Rewards](https://cexplorer.io/rewards) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/cexplorer/)
 - [CardanoScan](https://cardanoscan.io) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/StricaHQ)
 - [WhenAda](https://www.whenada.com)
 - [Cardano Countdown](https://cardanocountdown.com/Rewards)
 
-## Stake Reward Calculator
+### Stake Reward Calculator
 
 - [Cardano Staking Calculator](https://cardano.org/calculator) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/cardano-foundation/)
 - [Antipalos Calculator](https://antipalos.github.io/cardano-calculator/#calculator) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/antipalos)
 - [Armada Alliance](https://armada-alliance.com) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/armada-alliance/)
 - [Cardano with Paul Calculators](https://www.cardanowithpaul.com/calculators)
 
-## Stake Reward Calendar
+### Stake Reward Calendar
 
 - [Cexplorer Calendar](https://cexplorer.io/calendar) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/cexplorer/)
 - [Azure ADA Calendar](https://azureada.com/epoch-calendar) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/AzureADA)
 - [Hype Staking](https://hype-staking.com/home)
 
-## Stake Pool Alliances
+### Stake Pool Alliances
 
 - [Armada Alliance — Energy Efficient Pools](https://armada-alliance.com) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/armada-alliance)
 - [Mission Driven Pools](https://missiondrivenpools.org) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/CardanoMDP)
@@ -149,12 +146,12 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 - [Aldea Latin America DAO](https://aldea-dao.org) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/ALDEA-DAO)
 - [Climate Neutral Cardano](https://climateneutralcardano.org)
 
-## ISPO Explorer
+### ISPO Explorer
 
 - [Maestro Marketplace](https://www.gomaestro.org/marketplace) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/maestro-org)
 - [CardanoCube ISPOs](https://www.cardanocube.com/categories/ispo)
 
-## Stake Pool Monitoring Tools
+### Stake Pool Monitoring Tools
 
 - [Prometheus](https://prometheus.io/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/prometheus)
 - [Grafana](https://grafana.com/) [![GitHub](https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg)](https://github.com/grafana)
