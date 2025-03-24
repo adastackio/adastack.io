@@ -146,7 +146,9 @@ let readmeContent = `# Awesome Cardano
 Curated List of Cardano Resources, DApps, and Tools. This project collects awesome Cardano ecosystem resources and arranges them into various categories.
 Feel free to **star** and **fork**.
 
-[![GitHub Icon][https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg]](#) is a link to the project's team on **GitHub**, a platform for open-source collaboration. Click the icon to see their OS work.
+[![GitHub][GitHub Icon]](#) is a link to the project's team on **GitHub**, a platform for open-source collaboration. Click the icon to see their OS work. 
+
+[GitHub Icon]: https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg
 
 Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack/issues) We love PRs :)
 
