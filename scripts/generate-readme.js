@@ -67,29 +67,31 @@ const categoryConfig = [
 
   { name: "Staking", tag: "", level: 1 },
   { name: "Stake Pool Explorers", tag: "stake_pool_explorer", level: 2 },
+  { name: "Stake Reward History", tag: "reward_tracker", level: 2 },
+  { name: "Stake Reward Calculator", tag: "reward_calculator", level: 2 },
+  { name: "Stake Reward Calendar", tag: "reward_calendar", level: 2 },
+  { name: "Stake Pool Alliances", tag: "stake_pool_alliance", level: 2 },
+  { name: "ISPO Explorer", tag: "ispo_explorer", level: 2 },
+  {
+    name: "Stake Pool Monitoring Tools",
+    tag: [
+      "stake_pool_monitoring_tool_top",
+      "stake_pool_monitoring_tool_additional",
+    ],
+    level: 2,
+  },
 
   { name: "Community", tag: "", level: 1 },
-
   { name: "Ecosystem", tag: "", level: 1 },
-
   { name: "DApps", tag: "", level: 1 },
-
   { name: "NFTs", tag: "", level: 1 },
-
   { name: "Games", tag: "", level: 1 },
-
   { name: "Governance", tag: "", level: 1 },
-
   { name: "Catalyst", tag: "", level: 1 },
-
   { name: "DAOs", tag: "", level: 1 },
-
   { name: "Development", tag: "", level: 1 },
-
   { name: "On-Chain Metrics", tag: "", level: 1 },
-
   { name: "Partner Chains", tag: "", level: 1 },
-
   { name: "Layer 2s", tag: "", level: 1 },
 ];
 
@@ -104,10 +106,20 @@ categoryConfig.forEach((config) => {
     return;
   }
 
-  // Filter builders by tag
-  const items = buildersData.filter(
-    (item) => item.tags && item.tags.includes(config.tag)
-  );
+  // Filter builders by tag(s)
+  let items;
+  if (Array.isArray(config.tag)) {
+    // If tag is an array, filter items that match ANY of the tags
+    items = buildersData.filter((item) => {
+      if (!item.tags || !Array.isArray(item.tags)) return false;
+      return config.tag.some((tag) => item.tags.includes(tag));
+    });
+  } else {
+    // Single tag filtering (original behavior)
+    items = buildersData.filter(
+      (item) => item.tags && item.tags.includes(config.tag)
+    );
+  }
 
   // Store items in the category
   categories[config.name] = items;
