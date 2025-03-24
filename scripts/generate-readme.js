@@ -132,17 +132,14 @@ categoryConfig.forEach((config) => {
 
 // Generate the readme content with improved styling
 let readmeContent = `# Awesome Cardano
-<!--rehype:style=font-size: 38px; border-bottom: 0; display: flex; min-height: 200px; align-items: center; justify-content: center;-->
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-<!--rehype:style=text-align: center;-->
 
 Curated List of Cardano Resources, DApps, and Tools. This project collects awesome Cardano ecosystem resources and arranges them into various categories.
 Feel free to **star** and **fork**.
 
 Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack/issues) We love PRs :)
-<!--rehype:style=text-align: center;-->
 
 `;
 
