@@ -3,9 +3,9 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Curated List of Cardano Resources, DApps, and Tools. This project collects Cardano resources and arranges them into various categories. Feel free to **star** and **fork**.
+This project is a curated list of Cardano resources, DApps, and tools. Feel free to **star** and **fork**.
 
-> [!TIP] 
+> [!NOTE] 
 > [![GitHub][GitHub Icon]](https://github.com) is a link to the team's profile on **GitHub**, a platform for open-source collaboration.
 
 [GitHub Icon]: https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg
