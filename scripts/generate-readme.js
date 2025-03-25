@@ -152,16 +152,14 @@ categoryConfig.forEach((config) => {
 let readmeContent = `# Awesome Cardano
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-A curated list of Cardano Resources, DApps, and Tools. 
+A curated list of Resources, DApps, and Tools related to the [Cardano](https://cardano.org/) blockchain. 
 
 > The [![GitHub]${GITHUB_ICON}](#) icon links to each team on **GitHub**.
 
 ${GITHUB_ICON}: ${GITHUB_ICON_URL}
 
-
-Feel free to **star** and **contribute**. We love PRs :)
+Feel free to **star** and **add new projects**. We love PRs :)
 
 `;
 

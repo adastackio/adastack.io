@@ -1,16 +1,14 @@
 # Awesome Cardano
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-A curated list of Cardano Resources, DApps, and Tools. 
+A curated list of Resources, DApps, and Tools related to the [Cardano](https://cardano.org/) blockchain. 
 
 > The [![GitHub][GitHub Icon]](#) icon links to each team on **GitHub**.
 
 [GitHub Icon]: https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg
 
-
-Feel free to **star** and **contribute**. We love PRs :)
+Feel free to **star** and **add new projects**. We love PRs :)
 
 ## Table of Contents
 
