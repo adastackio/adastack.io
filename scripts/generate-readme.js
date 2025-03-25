@@ -158,13 +158,11 @@ let readmeContent = `# Awesome Cardano
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of Resources, DApps, and Tools related to [Cardano](https://cardano.org/). This list is maintained by the community and is not affiliated with any organization.
-  
-  
-> The [![GitHub]${GITHUB_ICON}](#) icon links to each team on **GitHub**.
+<br/>
+> The [![GitHub]${GITHUB_ICON}](#) icons link to each team on **GitHub**.
 
 ${GITHUB_ICON}: ${GITHUB_ICON_URL}
-  
-  
+<br/>
 Feel free to **star** and **add new projects**. We love PRs :)
 
 `;
