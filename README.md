@@ -3,19 +3,17 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-This project is a curated list of Cardano resources, DApps, and tools. Feel free to **star** and **fork**.
+A curated list of Cardano Resources, DApps, and Tools. 
 
-> [!NOTE] 
-> [![GitHub][GitHub Icon]](https://github.com) is a link to the team's profile on **GitHub**, a platform for open-source collaboration.
+> The [![GitHub][GitHub Icon]](#) icon links to each team on **GitHub**.
 
 [GitHub Icon]: https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg
 
-Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack/issues) We love PRs :)
+
+Feel free to **star** and **contribute**. We love PRs :)
 
 ## Table of Contents
 
-- [Awesome Cardano](#awesome-cardano)
-  - [Table of Contents](#table-of-contents)
 - [Intro to Cardano](#intro-to-cardano)
     - [Official Websites](#official-websites)
     - [Intro Courses](#intro-courses)
@@ -193,3 +191,4 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 # Partner Chains
 
 # Layer 2s
+

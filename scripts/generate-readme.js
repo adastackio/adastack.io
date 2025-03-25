@@ -154,13 +154,14 @@ let readmeContent = `# Awesome Cardano
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-Curated List of Cardano Resources, DApps, and Tools. This project collects Cardano resources and arranges them into various categories. Feel free to **star** and **fork**.
+A curated list of Cardano Resources, DApps, and Tools. 
 
-[![GitHub]${GITHUB_ICON}](#) is a link to the project's team on **GitHub**, a platform for open-source collaboration. Click the icon to see their OS work. 
+> The [![GitHub]${GITHUB_ICON}](#) icon links to each team on **GitHub**.
 
 ${GITHUB_ICON}: ${GITHUB_ICON_URL}
 
-Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack/issues) We love PRs :)
+
+Feel free to **star** and **contribute**. We love PRs :)
 
 `;
 
