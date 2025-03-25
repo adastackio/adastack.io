@@ -81,7 +81,7 @@ const categoryConfig = [
   { name: "Security Guides", tag: "security_guide", level: 2 },
   { name: "Intro Videos", tag: "cardano_intro_video", level: 2 },
   {
-    name: "Cardano Glossary",
+    name: "Cardano Glossaries",
     tag: ["glossary_top", "glossary_additional"],
     level: 2,
   },
@@ -90,8 +90,8 @@ const categoryConfig = [
   { name: "Staking", tag: "", level: 1 },
   { name: "Stake Pool Explorers", tag: "stake_pool_explorer", level: 2 },
   { name: "Stake Reward History", tag: "reward_tracker", level: 2 },
-  { name: "Stake Reward Calculator", tag: "reward_calculator", level: 2 },
-  { name: "Stake Reward Calendar", tag: "reward_calendar", level: 2 },
+  { name: "Stake Reward Calculator", tag: "reward_calculators", level: 2 },
+  { name: "Stake Reward Calendar", tag: "reward_calendars", level: 2 },
   { name: "Stake Pool Alliances", tag: "stake_pool_alliance", level: 2 },
   { name: "ISPO Explorer", tag: "ispo_explorer", level: 2 },
   {
@@ -155,19 +155,19 @@ categoryConfig.forEach((config) => {
 // Generate the readme content with improved styling
 let readmeContent = `# Awesome Cardano
 
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of Resources, DApps, and Tools related to [Cardano](https://cardano.org/). This list is maintained by the Cardano community.
 <br/>
 <br/>
 
 > The [![GitHub]${GITHUB_ICON}](https://github.com) icons link to each team on **GitHub**.
-
-${GITHUB_ICON}: ${GITHUB_ICON_URL}
+<br/>
 <br/>
 
 Feel free to **star** or **add new projects**. We love PRs :)
 
+${GITHUB_ICON}: ${GITHUB_ICON_URL}
 `;
 
 // Add table of contents with proper indentation based on levels

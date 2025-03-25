@@ -1,18 +1,18 @@
 # Awesome Cardano
 
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of Resources, DApps, and Tools related to [Cardano](https://cardano.org/). This list is maintained by the Cardano community.
 <br/>
 <br/>
 
 > The [![GitHub][GitHub Icon]](https://github.com) icons link to each team on **GitHub**.
-
-[GitHub Icon]: https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg
+<br/>
 <br/>
 
 Feel free to **star** or **add new projects**. We love PRs :)
 
+[GitHub Icon]: https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg
 ## Table of Contents
 
 - [Intro to Cardano](#intro-to-cardano)
@@ -22,7 +22,7 @@ Feel free to **star** or **add new projects**. We love PRs :)
     - [Guides and Reports](#guides-and-reports)
     - [Security Guides](#security-guides)
     - [Intro Videos](#intro-videos)
-    - [Cardano Glossary](#cardano-glossary)
+    - [Cardano Glossaries](#cardano-glossaries)
     - [Guides to Get Started](#guides-to-get-started)
 - [Staking](#staking)
     - [Stake Pool Explorers](#stake-pool-explorers)
@@ -91,7 +91,7 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Charles Hoskinson 2017 Whiteboard](https://www.youtube.com/watch?v=Ja9D0kpksxw) [![GitHub][GitHub Icon]](https://github.com/charleshoskinson)
 - [The Next Evolution of Cardano](https://www.youtube.com/watch?v=_s4OauGIzNg) [![GitHub][GitHub Icon]](https://github.com/charleshoskinson)
 
-### Cardano Glossary
+### Cardano Glossaries
 
 - [Cardano Glossary](https://cardanobook.com/glossary/) [![GitHub][GitHub Icon]](https://github.com/johnnygreeney)
 - [Governance Glossary](https://docs.intersectmbo.org/glossary/general-glossary) [![GitHub][GitHub Icon]](https://github.com/IntersectMBO)
@@ -135,16 +135,7 @@ Feel free to **star** or **add new projects**. We love PRs :)
 
 ### Stake Reward Calculator
 
-- [Cardano Staking Calculator](https://cardano.org/calculator) [![GitHub][GitHub Icon]](https://github.com/cardano-foundation/)
-- [Antipalos Calculator](https://antipalos.github.io/cardano-calculator/#calculator) [![GitHub][GitHub Icon]](https://github.com/antipalos)
-- [Armada Alliance](https://armada-alliance.com) [![GitHub][GitHub Icon]](https://github.com/armada-alliance/)
-- [Cardano with Paul Calculators](https://www.cardanowithpaul.com/calculators)
-
 ### Stake Reward Calendar
-
-- [Cexplorer Calendar](https://cexplorer.io/calendar) [![GitHub][GitHub Icon]](https://github.com/cexplorer/)
-- [Azure ADA Calendar](https://azureada.com/epoch-calendar) [![GitHub][GitHub Icon]](https://github.com/AzureADA)
-- [Hype Staking](https://hype-staking.com/home)
 
 ### Stake Pool Alliances
 
