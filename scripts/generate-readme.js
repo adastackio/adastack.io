@@ -90,8 +90,8 @@ const categoryConfig = [
   { name: "Staking", tag: "", level: 1 },
   { name: "Stake Pool Explorers", tag: "stake_pool_explorer", level: 2 },
   { name: "Stake Reward History", tag: "reward_tracker", level: 2 },
-  { name: "Stake Reward Calculator", tag: "reward_calculators", level: 2 },
-  { name: "Stake Reward Calendar", tag: "reward_calendars", level: 2 },
+  { name: "Stake Reward Calculators", tag: "reward_calculator", level: 2 },
+  { name: "Stake Reward Calendars", tag: "reward_calendar", level: 2 },
   { name: "Stake Pool Alliances", tag: "stake_pool_alliance", level: 2 },
   { name: "ISPO Explorer", tag: "ispo_explorer", level: 2 },
   {
