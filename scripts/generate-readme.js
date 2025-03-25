@@ -80,7 +80,11 @@ const categoryConfig = [
   { name: "Guides and Reports", tag: "cardano_report", level: 2 },
   { name: "Security Guides", tag: "security_guide", level: 2 },
   { name: "Intro Videos", tag: "cardano_intro_video", level: 2 },
-  { name: "Cardano Glossary", tag: "glossary_top", level: 2 },
+  {
+    name: "Cardano Glossary",
+    tag: ["glossary_top", "glossary_additional"],
+    level: 2,
+  },
   { name: "Guides to Get Started", tag: "cardano_guide", level: 2 },
 
   { name: "Staking", tag: "", level: 1 },
@@ -153,12 +157,14 @@ let readmeContent = `# Awesome Cardano
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of Resources, DApps, and Tools related to the [Cardano](https://cardano.org/) blockchain. 
-
+A curated list of Resources, DApps, and Tools related to [Cardano](https://cardano.org/). This list is maintained by the community and is not affiliated with any organization.
+  
+  
 > The [![GitHub]${GITHUB_ICON}](#) icon links to each team on **GitHub**.
 
 ${GITHUB_ICON}: ${GITHUB_ICON_URL}
-
+  
+  
 Feel free to **star** and **add new projects**. We love PRs :)
 
 `;

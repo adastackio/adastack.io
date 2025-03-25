@@ -2,12 +2,14 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of Resources, DApps, and Tools related to the [Cardano](https://cardano.org/) blockchain. 
-
+A curated list of Resources, DApps, and Tools related to [Cardano](https://cardano.org/). This list is maintained by the community and is not affiliated with any organization.
+  
+  
 > The [![GitHub][GitHub Icon]](#) icon links to each team on **GitHub**.
 
 [GitHub Icon]: https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg
-
+  
+  
 Feel free to **star** and **add new projects**. We love PRs :)
 
 ## Table of Contents
@@ -93,6 +95,11 @@ Feel free to **star** and **add new projects**. We love PRs :)
 - [Cardano Glossary](https://cardanobook.com/glossary/) [![GitHub][GitHub Icon]](https://github.com/johnnygreeney)
 - [Governance Glossary](https://docs.intersectmbo.org/glossary/general-glossary) [![GitHub][GitHub Icon]](https://github.com/IntersectMBO)
 - [Cardano Vocab](https://www.adastack.io/intro_to_cardano/cardano_vocab) [![GitHub][GitHub Icon]](https://github.com/adastackio)
+- [Intersect Open Source Glossary](https://docs.intersectmbo.org/legal/policies-and-conditions/intersect-open-source-glossary) [![GitHub][GitHub Icon]](https://github.com/IntersectMBO)
+- [Cardano Spot Vocabulary](https://cardanospot.io/wiki/vocabulary/a) [![GitHub][GitHub Icon]](https://github.com/emurgo)
+- [NMKR Glossary](https://www.nmkr.io/glossary) [![GitHub][GitHub Icon]](https://github.com/nftmakerio)
+- [Wolfram Blockchain Labs Glossary](https://www.wolframblockchainlabs.com/dashboard/resources/glossary) [![GitHub][GitHub Icon]](https://github.com/WolframBlockchainLabs)
+- [Essential Cardano Glossary](https://www.essentialcardano.io/glossary?sort=alphabetical) [![GitHub][GitHub Icon]](https://github.com/cardano-foundation/)
 - [Web3 Glossary](https://cardanowomen.io/web3-glossary)
 - [DeFi Glossary](https://wiki.axo.trade/axo-defi-glossary)
 
