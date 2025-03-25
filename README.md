@@ -8,7 +8,6 @@ A curated list of Resources, DApps, and Tools related to [Cardano](https://carda
 
 > The [![GitHub][GitHub Icon]](https://github.com) icons link to each team on **GitHub**.
 <br/>
-<br/>
 
 Feel free to **star** or **add new projects**. We love PRs :)
 
