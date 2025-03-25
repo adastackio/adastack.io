@@ -3,12 +3,13 @@
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of Resources, DApps, and Tools related to [Cardano](https://cardano.org/). This list is maintained by the Cardano community.
-
 <br/>
-> The [![GitHub][GitHub Icon]](#) icons link to each team on **GitHub**.
+
+> The [![GitHub][GitHub Icon]](https://github.com) icons link to each team on **GitHub**.
 
 [GitHub Icon]: https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg
 <br/>
+
 Feel free to **star** or **add new projects**. We love PRs :)
 
 ## Table of Contents
