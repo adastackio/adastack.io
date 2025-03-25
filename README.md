@@ -4,6 +4,7 @@
 
 A curated list of Resources, DApps, and Tools related to [Cardano](https://cardano.org/). This list is maintained by the Cardano community.
 <br/>
+<br/>
 
 > The [![GitHub][GitHub Icon]](https://github.com) icons link to each team on **GitHub**.
 
