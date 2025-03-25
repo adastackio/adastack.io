@@ -5,7 +5,8 @@
 
 Curated List of Cardano Resources, DApps, and Tools. This project collects Cardano resources and arranges them into various categories. Feel free to **star** and **fork**.
 
-[![GitHub][GitHub Icon]](#) is a link to the project's team on **GitHub**, a platform for open-source collaboration. Click the icon to see their OS work. 
+> [!TIP] 
+> [![GitHub][GitHub Icon]](https://github.com) is a link to the team's profile on **GitHub**, a platform for open-source collaboration.
 
 [GitHub Icon]: https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg
 
@@ -13,6 +14,8 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 
 ## Table of Contents
 
+- [Awesome Cardano](#awesome-cardano)
+  - [Table of Contents](#table-of-contents)
 - [Intro to Cardano](#intro-to-cardano)
     - [Official Websites](#official-websites)
     - [Intro Courses](#intro-courses)
@@ -190,4 +193,3 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 # Partner Chains
 
 # Layer 2s
-
