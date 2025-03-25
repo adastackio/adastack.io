@@ -45,7 +45,7 @@ Any comments, suggestions? [Let us know!](https://github.com/adastackio/adastack
 
 # Intro to Cardano
 
-A comprehensive introduction to the Cardano blockchain, its philosophy, and core technology.
+> A comprehensive introduction to the Cardano blockchain, its philosophy, and core technology.
 
 ### Official Websites
 

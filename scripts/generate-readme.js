@@ -6,16 +6,23 @@ const buildersData = require("../data/builders.json");
 
 // Constants for reuse
 const GITHUB_ICON = "[GitHub Icon]";
-const GITHUB_ICON_URL = "https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg";
+const GITHUB_ICON_URL =
+  "https://raw.githubusercontent.com/adastackio/adastack.io/readme/assets/icons/github_readme.svg";
 
 // Function to generate a markdown list for a specific category
 function generateCategoryList(category, items) {
   let headingLevel = category.level === 1 ? 1 : 3;
   let markdown = `${"#".repeat(headingLevel)} ${category.name}\n\n`;
 
-  // Add description if it exists
+  // Add description if it exists, formatted as a blockquote
   if (category.description) {
-    markdown += `${category.description}\n\n`;
+    // Split by newlines and add '> ' prefix to each line
+    const formattedDescription = category.description
+      .split("\n")
+      .map((line) => `> ${line}`)
+      .join("\n");
+
+    markdown += `${formattedDescription}\n\n`;
   }
 
   // If this is a section with no items, just return the header
