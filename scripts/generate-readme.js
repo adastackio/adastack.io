@@ -57,7 +57,7 @@ function generateCategoryList(category, items) {
 // Helper function to generate international content sections
 function generateInternationalContent(sectionName, items, tagSuffix) {
   let markdown = `### ${sectionName}\n\n`;
-  
+
   if (items.length === 0) {
     return markdown + "\n";
   }
@@ -71,24 +71,25 @@ function generateInternationalContent(sectionName, items, tagSuffix) {
 
   sortedItems.forEach((item) => {
     if (!item.name || !item.website) return; // Skip incomplete entries
-    
+
     // Find the language tag
-    const langTag = item.tags.find(tag => tag.endsWith(tagSuffix));
+    const langTag = item.tags.find((tag) => tag.endsWith(tagSuffix));
     if (!langTag) return;
-    
+
     // Extract language name from tag (e.g., "portuguese" from "portuguese_lang_blog")
-    const language = langTag.replace(tagSuffix, '');
-    const formattedLanguage = language.charAt(0).toUpperCase() + language.slice(1);
-    
+    const language = langTag.replace(tagSuffix, "");
+    const formattedLanguage =
+      language.charAt(0).toUpperCase() + language.slice(1);
+
     const nameWithLink = `[${item.name}](${item.website})`;
-    
+
     if (item.teamGithubURL) {
       markdown += `- ${nameWithLink}: ${formattedLanguage} [![GitHub]${GITHUB_ICON}](${item.teamGithubURL})\n`;
     } else {
       markdown += `- ${nameWithLink}: ${formattedLanguage}\n`;
     }
   });
-  
+
   return markdown + "\n";
 }
 
@@ -148,17 +149,19 @@ const categoryConfig = [
   { name: "Community Blogs", tag: "community_blog", level: 2 },
   { name: "Developer Blogs", tag: "developer_blog", level: 2 },
   { name: "Project Blogs", tag: "project_blog", level: 2 },
-  { 
-    name: "International News", 
-    tag: (item) => item.tags && item.tags.some(tag => tag.endsWith('_lang_blog')),
+  {
+    name: "International News",
+    tag: (item) =>
+      item.tags && item.tags.some((tag) => tag.endsWith("_lang_blog")),
     customHandler: true,
-    level: 2 
+    level: 2,
   },
-  { 
-    name: "International YouTube", 
-    tag: (item) => item.tags && item.tags.some(tag => tag.endsWith('_lang_youtube')),
+  {
+    name: "International YouTube",
+    tag: (item) =>
+      item.tags && item.tags.some((tag) => tag.endsWith("_lang_youtube")),
     customHandler: true,
-    level: 2 
+    level: 2,
   },
   { name: "Ecosystem", tag: "", level: 1 },
   { name: "DApps", tag: "", level: 1 },
@@ -186,7 +189,7 @@ categoryConfig.forEach((config) => {
 
   // Filter builders by tag(s)
   let items;
-  if (typeof config.tag === 'function') {
+  if (typeof config.tag === "function") {
     // Function-based filtering
     items = buildersData.filter(config.tag);
   } else if (Array.isArray(config.tag)) {
@@ -256,9 +259,17 @@ categoryConfig.forEach((config) => {
   // Check if this is a custom handler
   if (config.customHandler) {
     if (config.name === "International News") {
-      readmeContent += generateInternationalContent(config.name, items, '_lang_blog');
+      readmeContent += generateInternationalContent(
+        config.name,
+        items,
+        "_lang_blog"
+      );
     } else if (config.name === "International YouTube") {
-      readmeContent += generateInternationalContent(config.name, items, '_lang_youtube');
+      readmeContent += generateInternationalContent(
+        config.name,
+        items,
+        "_lang_youtube"
+      );
     }
   } else {
     // Use the standard generator for non-custom handlers
