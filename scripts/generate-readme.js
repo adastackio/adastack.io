@@ -54,6 +54,44 @@ function generateCategoryList(category, items) {
   return markdown;
 }
 
+// Helper function to generate international content sections
+function generateInternationalContent(sectionName, items, tagSuffix) {
+  let markdown = `### ${sectionName}\n\n`;
+  
+  if (items.length === 0) {
+    return markdown + "\n";
+  }
+
+  // Sort items by GitHub presence
+  const sortedItems = [...items].sort((a, b) => {
+    if (a.teamGithubURL && !b.teamGithubURL) return -1;
+    if (!a.teamGithubURL && b.teamGithubURL) return 1;
+    return 0;
+  });
+
+  sortedItems.forEach((item) => {
+    if (!item.name || !item.website) return; // Skip incomplete entries
+    
+    // Find the language tag
+    const langTag = item.tags.find(tag => tag.endsWith(tagSuffix));
+    if (!langTag) return;
+    
+    // Extract language name from tag (e.g., "portuguese" from "portuguese_lang_blog")
+    const language = langTag.replace(tagSuffix, '');
+    const formattedLanguage = language.charAt(0).toUpperCase() + language.slice(1);
+    
+    const nameWithLink = `[${item.name}](${item.website})`;
+    
+    if (item.teamGithubURL) {
+      markdown += `- ${nameWithLink}: ${formattedLanguage} [![GitHub]${GITHUB_ICON}](${item.teamGithubURL})\n`;
+    } else {
+      markdown += `- ${nameWithLink}: ${formattedLanguage}\n`;
+    }
+  });
+  
+  return markdown + "\n";
+}
+
 // Find all unique tags in the data
 const allTags = new Set();
 buildersData.forEach((item) => {
@@ -110,6 +148,18 @@ const categoryConfig = [
   { name: "Community Blogs", tag: "community_blog", level: 2 },
   { name: "Developer Blogs", tag: "developer_blog", level: 2 },
   { name: "Project Blogs", tag: "project_blog", level: 2 },
+  { 
+    name: "International News", 
+    tag: (item) => item.tags && item.tags.some(tag => tag.endsWith('_lang_blog')),
+    customHandler: true,
+    level: 2 
+  },
+  { 
+    name: "International YouTube", 
+    tag: (item) => item.tags && item.tags.some(tag => tag.endsWith('_lang_youtube')),
+    customHandler: true,
+    level: 2 
+  },
   { name: "Ecosystem", tag: "", level: 1 },
   { name: "DApps", tag: "", level: 1 },
   { name: "NFTs", tag: "", level: 1 },
@@ -136,7 +186,10 @@ categoryConfig.forEach((config) => {
 
   // Filter builders by tag(s)
   let items;
-  if (Array.isArray(config.tag)) {
+  if (typeof config.tag === 'function') {
+    // Function-based filtering
+    items = buildersData.filter(config.tag);
+  } else if (Array.isArray(config.tag)) {
     // If tag is an array, filter items that match ANY of the tags
     items = buildersData.filter((item) => {
       if (!item.tags || !Array.isArray(item.tags)) return false;
@@ -200,8 +253,17 @@ categoryConfig.forEach((config) => {
   // Get items for this category
   const items = categories[config.name] || [];
 
-  // Always include the section, even if empty
-  readmeContent += generateCategoryList(config, items);
+  // Check if this is a custom handler
+  if (config.customHandler) {
+    if (config.name === "International News") {
+      readmeContent += generateInternationalContent(config.name, items, '_lang_blog');
+    } else if (config.name === "International YouTube") {
+      readmeContent += generateInternationalContent(config.name, items, '_lang_youtube');
+    }
+  } else {
+    // Use the standard generator for non-custom handlers
+    readmeContent += generateCategoryList(config, items);
+  }
 });
 
 // Write to README file

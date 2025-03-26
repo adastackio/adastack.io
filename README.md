@@ -38,6 +38,8 @@ Feel free to **star** or **add new projects**. We love PRs :)
     - [Community Blogs](#community-blogs)
     - [Developer Blogs](#developer-blogs)
     - [Project Blogs](#project-blogs)
+    - [International News](#international-news)
+    - [International YouTube](#international-youtube)
 - [Ecosystem](#ecosystem)
 - [DApps](#dapps)
 - [NFTs](#nfts)
@@ -323,6 +325,115 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Summon Platform Blog](https://summonplatform.io/blog/)
 - [Metera Blog](https://meteraprotocol.medium.com/)
 - [Bodega Market Blog](https://medium.com/@bodegacardano)
+
+### International News
+
+- [Purchains Blog](https://news.purchains.com/): Mandarin
+- [Carnada Revista Blog](https://issuu.com/carnadarevista): Spanish
+- [Cardanologie Blog](https://cardanologie.fr/): French
+- [Odyc Blog](https://odyc.gr/): Greek
+- [ADA Bamboo Blog](https://ada-bamboo.com/): Vietnamese
+- [Cardano Nederland Blog](https://cardanonederland.nl/): Dutch
+- [bitgetapps](https://www.bitgetapps.com/zh-CN/price/cardano/news): Mandarin
+- [cardano vn](https://cardano.vn/): Vietnamese
+- [Bitpinas](https://bitpinas.com/?s=cardano): Tagalog
+- [Kriptomat](https://kriptomat.io/tr/kripto-para-fiyatlari/cardano-ada-fiyati/nedir/): Turkish
+- [Comunidad Cardano](https://www.comunidadcardano.com/): Spanish
+- [Einvestidor](https://einvestidor.estadao.com.br/?s=Cardano): Portuguese
+- [Coin Lore](https://www.coinlore.com/ru/coin/cardano/news): Russian
+- [Stake Pool](https://stakepool.fr/actu): French
+- [Journal Du Coin](https://journalducoin.com/tag/cardano-ada/): French
+- [Coincierge](https://coincierge.de/category/cardano/): German
+- [Newsbit](https://newsbit.de/cardano-news/): German
+- [Casa Cardano](https://casacardano.it/): Italian
+- [Crypto Voice](https://cryptovoice.gr/?s=cardano): Greek
+- [NBX](https://nbx.com/sv/blogg): Swedish
+- [Kaaosteoria](https://kaaosteoria.fi/cardano-ada-esittely-opas-skaalautuvaan-ekosysteemiin/): Finnish
+- [Cardano SE](https://cardano.se/nyheter/): Swedish
+- [Cardanoism](https://cardanoism.com/): Japanese
+- [Intersec Jp](https://intersectmbo.jp/): Japanese
+- [Sip Tokyo](https://sipo.tokyo/): Japanese
+
+### International YouTube
+
+- [Cardano Media Taiwan](https://www.youtube.com/@cardanomediataiwan): Mandarin
+- [Bullish Dumpling](https://www.youtube.com/@BullishDumpling): Mandarin
+- [Cardano 鬼鏈之聲](http://www.youtube.com/@Cardano-%E9%AC%BC%E9%8F%88%E4%B9%8B%E8%81%B2): Mandarin
+- [Big Lazy Cat](https://www.youtube.com/@biglazycat): Mandarin
+- [Blockchain Daily](https://www.youtube.com/@blockchaindailynews): Mandarin
+- [直男說 Men's talk](https://www.youtube.com/@mens.talk.tw.official): Mandarin
+- [Individuo Digital](https://www.youtube.com/@IndividuoDigital): Spanish
+- [Cardano Castellano](https://www.youtube.com/@CardanoCastellano): Spanish
+- [Hermanos en Crypto](https://www.youtube.com/@hermanosencrypto): Spanish
+- [LATAM Cardano Community](https://www.youtube.com/@LATAMCardanoCommunity): Spanish
+- [Cardisa Latina](https://youtube.com/@cardisalatina): Spanish
+- [Aldea DAO](https://www.youtube.com/@aldeadao4287): Spanish
+- [Cardano Latino](https://www.youtube.com/@CardanoLatino): Spanish
+- [Cardano Stake Pool ONE1](https://www.youtube.com/@cardanostakepoolone1432/): Spanish
+- [Crypto Latinoamérica](https://youtube.com/@cryptolatinoamerica9459): Spanish
+- [Quixote Dream Pool](https://www.youtube.com/@QuixoteDreamPool): Spanish
+- [Alex Pestchanker](https://www.youtube.com/@alexpestchanker9356): Spanish
+- [Juan Sierra](https://www.youtube.com/@JuanTheOne): Spanish
+- [Cardano Hispano](https://www.youtube.com/@CardanoHispano): Spanish
+- [CAPO Cardano](https://www.youtube.com/@capocardapoolstake6145): Spanish
+- [Mayank Kharayat](https://www.youtube.com/@Mayankkharayat): Hindi
+- [Crypto India Cardano](https://www.youtube.com/@cryptoindiacardano3478): Hindi
+- [Block Tech](https://www.youtube.com/channel/UCR0naW7kjpcripfuDXgZqzw): Hindi
+- [Crypto Tamil](https://www.youtube.com/@CryptoTamil): Tamil
+- [Mana Cardano](https://www.youtube.com/@manacardano9426): Telugu
+- [Crypto Kranti | क्रिप्टो क्रांती ](https://www.youtube.com/@CryptoKranti): Marathi
+- [Crypto Ventures in Kannada](https://www.youtube.com/@CryptoVentures7723/videos): Kannada
+- [Online Kannada Crypto Talks](https://www.youtube.com/@OnlineKannada): Kannada
+- [Cryptolokam](https://www.youtube.com/@Cryptolokam): Malayalam
+- [Logic Chat](https://www.youtube.com/@LogicChat): Malayalam
+- [Cardanistas](https://www.youtube.com/@Cardanistas): Portuguese
+- [Catalyst School Brasil](https://www.youtube.com/@CatalystBrasil): Portuguese
+- [GovChainLab](https://www.youtube.com/@GovChainLab): Portuguese
+- [Orégano Research](https://www.youtube.com/@oreganoresearch): Portuguese
+- [Skywalker](https://www.youtube.com/@SkyWalker.45B): Portuguese
+- [Maria Carmo](https://www.youtube.com/@mariacarmo369): Portuguese
+- [Ouros Tech](https://www.youtube.com/@OurosTech): Portuguese
+- [Anastasia Pro](https://www.youtube.com/@anastasia.pro_blockchain): Russian
+- [Sasa Stake Pool](https://www.youtube.com/@sasastakepool): Japanese
+- [渡辺水華](https://www.youtube.com/@adauser-mizca): Japanese
+- [Cardano Asia](https://www.youtube.com/@cardano.adalovelaces): Japanese
+- [코리아풀](https://www.youtube.com/@KoreaPool): Korean
+- [Pan-chan](https://www.youtube.com/@jgsp_cardano): Japanese
+- [Mang Cardano về Việt Nam](https://www.youtube.com/@cardano2vn): Vietnamese
+- [Tài Chính - Tâm An](https://www.youtube.com/@taichinh-taman5516/): Vietnamese
+- [Tiger View](https://www.youtube.com/@TIGERView/): Vietnamese
+- [Logauit](https://www.youtube.com/@logauit): Vietnamese
+- [Blockchain Cardano](https://www.youtube.com/@blockchain_cardano): Vietnamese
+- [Vcoincheck](https://youtube.com/@vcoincheck): Vietnamese
+- [Ada Bamboo](https://youtube.com/@ADA-Bamboo): Vietnamese
+- [Blockchain MKT HongMinh](https://youtube.com/@HongminhMKT): Vietnamese
+- [Cardano Ecosystem Hub in Vietnam](https://youtube.com/@CeviHub): Vietnamese
+- [Cardano Vietnam](https://www.youtube.com/@cardanovietnam): Vietnamese
+- [Cardano bel 3arabi](https://www.youtube.com/@cardanati): Standard_arabic
+- [ خانه ترید -  آموزش ارز دیجیتال](https://www.youtube.com/@khanetrade): Persian
+- [Alper Baran ESİN](https://www.youtube.com/c/AlperBaranES%C4%B0N): Turkish
+- [Nova Cardano Stake Pool](https://www.youtube.com/@NOVApool): German
+- [Decentralized Finance Hungary](https://www.youtube.com/@DecentralizedFinanceHungary): Hungarian
+- [Inkuba](https://www.youtube.com/@inkuba790): French
+- [Cardano FR for Students](https://www.youtube.com/@CardanoFRforstudents): French
+- [Uptodate Developers](https://youtube.com/@uptodatedevelopers2554): French
+- [Podcast Cardano FR](https://www.youtube.com/@podcastcardanofr4086): French
+- [Mike Hornan](https://www.youtube.com/@hancoeur): French
+- [Skathy](https://www.youtube.com/@SKATHYUnderstandCardano): French
+- [Goma Stake Pool](https://www.youtube.com/@gomastakepool5102): French
+- [Disruptive IT Cameroon](https://youtube.com/@disruptiveitcameroon6365): French
+- [Easy1 Stake Pool](https://www.youtube.com/@giannigargiulo): Italian
+- [Dev Stake Pool](https://www.youtube.com/@DEVStakePoolCardano): Italian
+- [Paman Kripto](https://www.youtube.com/@PamanKripto): Javanese
+- [Komunitas Cardano Indonesia](https://www.youtube.com/@cardanoindonesia): Javanese
+- [Cardano Women Indonesia](https://www.youtube.com/@CardanoWomanIndonesia): Javanese
+- [Pinoy Crypto Trader](https://www.youtube.com/@pinoycryptotrader): Tagalog
+- [Codanar](https://www.youtube.com/@codanar): Thai
+- [Cardano Nederland](https://www.youtube.com/@cardanonederland): Dutch
+- [Bitterbal Pool](https://www.youtube.com/@bitterbalpool): Dutch
+- [Varavas](https://www.youtube.com/@Varavas/): Greek
+- [CardanoChefTalk](https://www.youtube.com/@cardanocheftalk4779): Greek
+- [Kersoras Monad EVM Greek Channel](https://www.youtube.com/@sapiopoolgreekcardanocommu8889): Greek
 
 # Ecosystem
 
