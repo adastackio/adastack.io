@@ -157,12 +157,53 @@ const categoryConfig = [
     level: 2,
   },
   {
+    name: "Cardano YouTube Channels",
+    tag: ["top_youtube", "general_youtube"],
+    level: 2,
+  },
+  {
+    name: "Developer YouTube Channels",
+    tag: "development_youtube",
+    level: 2,
+  },
+  {
+    name: "Organizations and Institutions YouTube Channels",
+    tag: "organization_youtube",
+    level: 2,
+  },
+  {
+    name: "Governance YouTube Channels",
+    tag: "governance_youtube",
+    level: 2,
+  },
+  {
+    name: "Project Catalyst YouTube Channels",
+    tag: "catalyst_youtube",
+    level: 2,
+  },
+  {
+    name: "NFT YouTube Channels",
+    tag: "nft_youtube",
+    level: 2,
+  },
+  {
+    name: "Cardano Project YouTube Channels",
+    tag: "project_youtube",
+    level: 2,
+  },
+  {
     name: "International YouTube",
     tag: (item) =>
       item.tags && item.tags.some((tag) => tag.endsWith("_lang_youtube")),
     customHandler: true,
     level: 2,
   },
+  {
+    name: "Newsletters",
+    tag: "newsletter",
+    level: 2,
+  },
+
   { name: "Ecosystem", tag: "", level: 1 },
   { name: "DApps", tag: "", level: 1 },
   { name: "NFTs", tag: "", level: 1 },
