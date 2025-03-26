@@ -943,6 +943,12 @@
     "tags": ["dapp", "dev_learning_platform"]
   },
   {
+    "name": "Wisdom Courses",
+    "website": "https://wisdom.courses",
+    "teamGithubURL": "https://github.com/The-Working-Dead",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
     "name": "Olympus Insights",
     "website": "https://olympusinsights.io",
     "teamGithubURL": "",
@@ -3554,7 +3560,7 @@
     "tags": ["news_updates", "project_blog"]
   },
    {
-    "name": "Chaincrib Blog",
+    "name": "ChainCrib Blog",
     "website": "https://chaincrib.medium.com/",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
@@ -3566,7 +3572,7 @@
     "tags": ["news_updates", "project_blog"]
   },
    {
-    "name": "anetaBTC Blog",
+    "name": "AnetaBTC Blog",
     "website": "https://medium.com/@anetaBTC",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
@@ -3914,25 +3920,25 @@
     "tags": ["news_updates", "project_blog"]
   },
  {
-    "name": "WingRiders",
+    "name": "WingRiders Blog",
     "website": "https://medium.com/@wingriderscom",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
   {
-    "name": "CSWAP DEX",
+    "name": "CSWAP DEX Blog",
     "website": "https://medium.com/@cswapdex",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
  {
-    "name": "DexHunter",
+    "name": "DexHunter Blog",
     "website": "https://dexhunterio.medium.com",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
  {
-    "name": "USDM",
+    "name": "Moneta Blog",
     "website": "https://medium.com/@USDMOfficial",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
@@ -4244,13 +4250,13 @@
     "tags": ["news_updates", "dutch_lang_blog"]
   },
   {
-    "name": "bitgetapps",
+    "name": "Bitgetapps",
     "website": "https://www.bitgetapps.com/zh-CN/price/cardano/news",
     "teamGithubURL": "",
     "tags": ["news_updates", "mandarin_lang_blog"]
   },
   {
-    "name": "cardano vn",
+    "name": "Cardano VN",
     "website": "https://cardano.vn/",
     "teamGithubURL": "",
     "tags": ["news_updates", "vietnamese_lang_blog"]
@@ -5378,12 +5384,6 @@
     "tags": ["video_channel", "project_youtube"]
   },
   {
-    "name": "BlockTree",
-    "website": "https://www.youtube.com/@blocktree",
-    "teamGithubURL": "",
-    "tags": ["video_channel", "project_youtube"]
-  },
-  {
     "name": "Veritree",
     "website": "https://www.youtube.com/@veritree",
     "teamGithubURL": "",
@@ -5440,12 +5440,6 @@
   {
     "name": "The Cardano Times",
     "website": "https://www.youtube.com/channel/UCNYDdEjadRvixjHyZxdVLlQ/featured",
-    "teamGithubURL": "",
-    "tags": ["video_channel", "project_youtube"]
-  },
-  {
-    "name": "Dapp Central",
-    "website": "https://www.youtube.com/@DappCentral",
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
   },
@@ -5624,7 +5618,7 @@
     "tags": ["video_channel", "project_youtube"]
   },
   {
-    "name": "Andiamo",
+    "name": "Andamio",
     "website": " https://youtube.com/@andamio",
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
