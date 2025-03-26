@@ -104,6 +104,12 @@ const categoryConfig = [
   },
 
   { name: "Community", tag: "", level: 1 },
+  { name: "Organizations", tag: "organization", level: 2 },
+  { name: "News Websites", tag: "cardano_news_website", level: 2 },
+  { name: "Organization News", tag: "organization_news", level: 2 },
+  { name: "Community Blogs", tag: "community_blog", level: 2 },
+  { name: "Developer Blogs", tag: "developer_blog", level: 2 },
+  { name: "Project Blogs", tag: "project_blog", level: 2 },
   { name: "Ecosystem", tag: "", level: 1 },
   { name: "DApps", tag: "", level: 1 },
   { name: "NFTs", tag: "", level: 1 },
