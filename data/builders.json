@@ -943,8 +943,8 @@
     "tags": ["dapp", "dev_learning_platform"]
   },
   {
-    "name": "Work Courses",
-    "website": "https://work.courses",
+    "name": "Wisdom Courses",
+    "website": "https://wisdom.courses",
     "teamGithubURL": "https://github.com/The-Working-Dead",
     "tags": ["dapp", "dev_learning_platform"]
   },
@@ -3524,6 +3524,180 @@
     "tags": ["news_updates", "project_blog"]
   },
   {
+    "name": "Lenfi Blog",
+    "website": "https://medium.com/@lenfi",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Yamfore Blog",
+    "website": "https://bigblymp.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "Astarter Blog",
+    "website": "https://medium.com/@AstarterDefiHub",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Ledgity Blog",
+    "website": "https://medium.com/ledgity",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "Linkage Finance Blog",
+    "website": "https://medium.com/@LinkageFinance",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Optim Finance Blog",
+    "website": "https://optim-labs.medium.com",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "OptionFlow Blog",
+    "website": "https://docs.optionflow.finance/optionflow-cardano-option-protocol",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Stargazer Blog",
+    "website": "https://medium.com/@stargazerlabs",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "OptionFlow Blog",
+    "website": "https://docs.optionflow.finance/optionflow-cardano-option-protocol",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "ChainCrib Blog",
+    "website": "https://chaincrib.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Landano Blog",
+    "website": "https://www.landano.io/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "AnetaBTC Blog",
+    "website": "https://medium.com/@anetaBTC",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Mynth Blog",
+    "website": "https://docs.mynth.ai/guide/the-problem",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "VISTA Bridge Blog",
+    "website": "https://www.vistabridge.org/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Encoins Blog",
+    "website": "https://encoins-crypto.medium.com",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Digital Gold Blog",
+    "website": "https://www.digitalgoldecosystem.com/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Shen Blog",
+    "website": "https://medium.com/cotinetwork",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "CardanoPress Blog",
+    "website": "https://cardanopress.io/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Ada Handle Blog",
+    "website": "https://medium.com/ada-handle",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Empowa Blog",
+    "website": "https://empowa-io.medium.com",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "World Mobile Blog",
+    "website": "https://worldmobile.io/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Maestro Blog",
+    "website": "https://www.gomaestro.org/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Midnight Blog",
+    "website": "https://midnight.network/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Mithril Blog",
+    "website": "https://mithril.network/doc/dev-blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Worldads Blog",
+    "website": "https://worldadsio.medium.com",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "MAYZ Blog",
+    "website": "https://medium.com/@MAYZ.io",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Foreon Network Blog",
+    "website": "https://foreonnetwork.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "Fluidtokens Blog",
+    "website": "https://medium.com/@FluidTokens",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Paribus Blog",
+    "website": "https://blog.paribus.io/?gi=99dbc7ea4bd4",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
     "name": "Nunet Blog",
     "website": "https://medium.com/nunet",
     "teamGithubURL": "",
@@ -3712,6 +3886,78 @@
   {
     "name": "Cerra Blog",
     "website": "https://medium.com/@cerra_io",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Arculus Blog",
+    "website": "https://www.getarculus.com/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Atomic Wallet Blog",
+    "website": "https://atomicwallet.io/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Lace Blog",
+    "website": "https://www.lace.io/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "NuFi Blog",
+    "website": "https://nu.fi/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "VESPR Wallet Blog",
+    "website": "https://vespr.substack.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Genius Yield Blog",
+    "website": "https://geniusyield.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Minswap Blog",
+    "website": "https://minswap-labs.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "SundaeSwap Blog",
+    "website": "https://sundaeswap-finance.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "WingRiders Blog",
+    "website": "https://medium.com/@wingriderscom",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "CSWAP DEX Blog",
+    "website": "https://medium.com/@cswapdex",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "DexHunter Blog",
+    "website": "https://dexhunterio.medium.com",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "Moneta Blog",
+    "website": "https://medium.com/@USDMOfficial",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
@@ -4022,13 +4268,13 @@
     "tags": ["news_updates", "dutch_lang_blog"]
   },
   {
-    "name": "bitgetapps",
+    "name": "Bitgetapps",
     "website": "https://www.bitgetapps.com/zh-CN/price/cardano/news",
     "teamGithubURL": "",
     "tags": ["news_updates", "mandarin_lang_blog"]
   },
   {
-    "name": "cardano vn",
+    "name": "Cardano VN",
     "website": "https://cardano.vn/",
     "teamGithubURL": "",
     "tags": ["news_updates", "vietnamese_lang_blog"]
@@ -5071,10 +5317,159 @@
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
   },
-
   {
     "name": "NEWM",
     "website": "https://www.youtube.com/@projectNEWM",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Chainlink",
+    "website": "https://www.youtube.com/channel/UCnjkrlqaWEBSnKZQ71gdyFA",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Tangocrypto",
+    "website": "https://www.youtube.com/channel/UCmBDcgWgk3SOQA91s-rAFZg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "CTimelines",
+    "website": "https://www.youtube.com/channel/UCp4RuX6EgQQ8MsVVM0PLJDw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Camelcoin",
+    "website": "https://www.youtube.com/channel/UCbEnO3TtJ4wBxP745CCYEkg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Paideia",
+    "website": "https://www.youtube.com/channel/UC4SUgJTznlIg6masMVX1hXA",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Wada",
+    "website": "https://www.youtube.com/c/Wada_org",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Virtua",
+    "website": "https://www.youtube.com/VirtuaMetaverse",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Cornucopias",
+    "website": "https://www.youtube.com/c/CornucopiasGame",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Pavia",
+    "website": "https://www.youtube.com/c/PaviaCorp",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Cardania",
+    "website": "https://www.youtube.com/@cardaniaHQ/videos",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Eikonikos",
+    "website": "https://www.youtube.com/@eikonikos2586",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Ridotto",
+    "website": "https://www.youtube.com/channel/UCxumaSF7pnu29f5kU4FAJbw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "BlockTree",
+    "website": "https://www.youtube.com/@blocktree",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Veritree",
+    "website": "https://www.youtube.com/@veritree",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Carda Station",
+    "website": "https://www.youtube.com/channel/UCMARwR4huz9k8Nzd7cdy0fQ",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+   {
+    "name": "LATAM Cardano Community",
+    "website": "https://www.youtube.com/channel/UCRZKx4HJFifOy8HCeOB8pxw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "European Cardano Community",
+    "website": "https://github.com/eucardano/operations-framework/tree/main",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Fluree",
+    "website": "https://www.youtube.com/channel/UCyerylQ7xRK0fyf19OMC5kg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Sound Rig",
+    "website": "https://www.youtube.com/@SoundRigMusic",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "JamOnBread",
+    "website": "https://www.youtube.com/@jamonbreadio",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "zenGate Global",
+    "website": "https://www.youtube.com/channel/UCdkpYKlWNOpjcUdPXgBz-Dw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Rare Evo",
+    "website": "https://www.youtube.com/@RareNetworkMedia",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "The Cardano Times",
+    "website": "https://www.youtube.com/channel/UCNYDdEjadRvixjHyZxdVLlQ/featured",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Coxygen Global",
+    "website": "https://www.youtube.com/@Coxygen/videos",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Blink Labs",
+    "website": "https://www.youtube.com/@blinklabs_io",
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
   },
@@ -5097,14 +5492,56 @@
     "tags": ["video_channel", "project_youtube"]
   },
   {
+    "name": "Blocktrust",
+    "website": "https://www.youtube.com/c/Bj%C3%B6rnSandmann",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Profila",
+    "website": "https://www.youtube.com/@profila8010",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
     "name": "Empowa",
     "website": "https://www.youtube.com/@empowa_io",
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
   },
   {
-    "name": "NMKR",
-    "website": "https://www.youtube.com/@nmkr_io",
+    "name": "ProofSpace",
+    "website": "https://www.youtube.com/channel/UClrbCIizVKCbT_qQfoD176g",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Revuto",
+    "website": "https://www.youtube.com/c/RevutoOfficialChannel",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Adaverse",
+    "website": "https://www.youtube.com/channel/UCZcATzyOykPDkoY5_0F_jkg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Iagon",
+    "website": "https://www.youtube.com/channel/UCpIUqQSMK5cE4QncanEUpKg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "DripDropz",
+    "website": "https://www.youtube.com/channel/UCW9O-P2pPIgxLwdlF7nuuKw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Ensuro",
+    "website": "ttps://www.youtube.com/@Ensuro-co",
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
   },
@@ -5115,7 +5552,91 @@
     "tags": ["video_channel", "project_youtube"]
   },
   {
-    "name": "Andiamo",
+    "name": "Fida Finance",
+    "website": "https://www.youtube.com/@Fida.Finance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "SingularityNET",
+    "website": "https://www.youtube.com/c/SingularityNET",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Nunet",
+    "website": "https://www.youtube.com/channel/UCLTTOrMYDTbQYHs1HCFPtfA",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Project Catalyst",
+    "website": "https://www.youtube.com/watch?v=P67YFdGedQ4&list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Rejuve.AI",
+    "website": "https://www.youtube.com/@RejuveAi",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "NEWM",
+    "website": "https://www.youtube.com/channel/UCcsBNWGjIf8YarD9uaZEEvw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "ChainPort.io",
+    "website": "https://www.youtube.com/@chainport",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "dcSpark",
+    "website": "https://www.youtube.com/@dcSpark",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Wanchain",
+    "website": "https://www.youtube.com/@Wanchain",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Genius X",
+    "website": "https://www.youtube.com/channel/UCaPoXxROOpDb9waSGSKFkbw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Clarity",
+    "website": "https://www.youtube.com/playlist?list=PL_pBRKCC0S_qu0ujUQZ0wx-pUjsgdDM7T",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Atrium",
+    "website": "https://www.youtube.com/watch?v=9qobCc6lH64",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Bamboo",
+    "website": "https://www.youtube.com/@ADA-Bamboo",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Cardano Spot",
+    "website": "https://www.youtube.com/channel/UC7llllpJtfVJuHiDcO_s5Dw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Andamio",
     "website": " https://youtube.com/@andamio",
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
