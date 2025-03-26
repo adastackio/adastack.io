@@ -3782,10 +3782,214 @@
     "tags": ["news_updates", "project_blog"]
   },
   {
+    "name": "Revuto Blog",
+    "website": "https://getrevuto.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Adaverse Blog",
+    "website": "https://www.adaverse.co/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "DripDropz Blog",
+    "website": "https://dripdropz.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "TosiDrop Blog",
+    "website": "https://medium.com/@tosidrop",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Ensuro Blog",
+    "website": "https://blog.ensuro.co/?gi=dbbc67fb7860",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Fida Finance Blog",
+    "website": "https://medium.com/@fida.finance",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "Nunet Blog",
+    "website": "https://medium.com/nunet",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "SingularityDAO Blog",
+    "website": "https://medium.com/singularitydao",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "SingularityNET Blog",
+    "website": "https://singularitynet.io/updates/blogs/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "Bodega Market Blog",
+    "website": "https://medium.com/@bodegacardano",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "CardanoGPT Blog",
+    "website": "https://medium.com/@cardanogpt",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Cogito Protocol Blog",
+    "website": "https://www.cogito.finance/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "MarketRaker Blog",
+    "website": "https://marketraker.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Rejuve.AI Blog",
+    "website": "https://www.rejuve.ai/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "Atrium Blog",
+    "website": "https://medium.com/atrium-lab",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "Cardexscan Blog",
+    "website": "https://medium.com/@cardexscan",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+   {
+    "name": "Chainspect Blog",
+    "website": "https://chainspect.app/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "Project Catalyst Blog",
+    "website": "https://projectcatalyst.io/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "Clarity Blog",
+    "website": "https://medium.com/@Clarity_",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "Cardano Shield Blog",
+    "website": "https://docs.cardanoshield.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "CRCI Blog",
+    "website": "https://www.crci.review/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "Genius X Blog",
+    "website": "https://medium.com/@GeniusXOfficial",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "Pop Up World Token Blog",
+    "website": "https://popupworld.org/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "T Minus One Blog",
+    "website": "https://docs.tminusone.pro/t-minus-one",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "dcSpark Blog",
+    "website": "https://blog.dcspark.io/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "ChainPort.io" Blog",
+    "website": "https://blog.chainport.io/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "Wanchain Blog",
+    "website": "https://blog.chainport.io/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "Blockfrost Blog",
+    "website": "https://blog.blockfrost.io",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "Charli3 Blog",
+    "website": "https://oraclecharli3.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+     {
+    "name": "SecurityBot Blog",
+    "website": "https://securitybot.info/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
     "name": "Purchains Blog",
     "website": "https://news.purchains.com/",
     "teamGithubURL": "",
     "tags": ["news_updates", "mandarin_lang_blog"]
+  },
+  {
+    "name": "Worldads Blog",
+    "website": "https://worldadsio.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "IAMX Blog",
+    "website": "https://medium.com/iamx-own-your-identity",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+ {
+    "name": "Blocktrust Blog",
+    "website": "https://www.blocktrust.dev/Blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Profila Blog",
+    "website": "https://medium.com/profila-com",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
   },
   {
     "name": "Carnada Revista Blog",
