@@ -7,7 +7,7 @@ interface Wallet {
   name: string;
   website: string;
   teamGithubURL: string;
-  sourceRepoURL: string;
+  repoURL: string;
   tags: string[];
 }
 
@@ -23,8 +23,8 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
 
   // Sort wallets by open source status
   const sortedWallets = filteredWallets.sort((a, b) => {
-    if (a.sourceRepoURL && !b.sourceRepoURL) return -1;
-    if (!a.sourceRepoURL && b.sourceRepoURL) return 1;
+    if (a.repoURL && !b.repoURL) return -1;
+    if (!a.repoURL && b.repoURL) return 1;
     if (a.teamGithubURL && !b.teamGithubURL) return -1;
     if (!a.teamGithubURL && b.teamGithubURL) return 1;
     return 0;
@@ -60,10 +60,7 @@ const WalletsTable: React.FC<WalletsTableProps> = ({ wallets, filterBy }) => {
                 </div>
               </td>
               <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
-                <GithubRepoBadge
-                  repoURL={wallet.sourceRepoURL}
-                  text="Source Code"
-                />
+                <GithubRepoBadge repoURL={wallet.repoURL} text="Source Code" />
               </td>
               <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
                 <TeamGithubBadge
