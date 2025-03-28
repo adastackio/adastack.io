@@ -80,7 +80,7 @@
     }
   },
   "domains_and_handles": {
-    "title": "Domains & Handles  ",
+    "title": "Domains & Handles",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
