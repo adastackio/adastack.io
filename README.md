@@ -49,6 +49,10 @@ Feel free to **star** or **add new projects**. We love PRs :)
     - [International YouTube](#international-youtube)
     - [Newsletters](#newsletters)
 - [Ecosystem](#ecosystem)
+    - [Blockchain Explorers](#blockchain-explorers)
+    - [Blockchain Visualizer](#blockchain-visualizer)
+    - [Mempool Explorer](#mempool-explorer)
+    - [Ecosystem Directories](#ecosystem-directories)
 - [DApps](#dapps)
 - [NFTs](#nfts)
 - [Games](#games)
@@ -800,6 +804,40 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Cardano Daily Digest](https://cardano.beehiiv.com)
 
 # Ecosystem
+
+### Blockchain Explorers
+
+- [Pool.pm](https://pool.pm/) [![GitHub][GitHub Icon]](https://github.com/SmaugPool/)
+- [Alethea.io](https://alethea.io/) [![GitHub][GitHub Icon]](https://github.com/alethea-io)
+- [Adastat.net](https://adastat.net/) [![GitHub][GitHub Icon]](https://github.com/CardanoExplorer)
+- [Cexplorer.io](https://cexplorer.io/) [![GitHub][GitHub Icon]](https://github.com/cexplorer)
+- [CardanoScan](https://cardanoscan.io/) [![GitHub][GitHub Icon]](https://github.com/StricaHQ/)
+- [Raw Cardano](https://rawcardano.app/) [![GitHub][GitHub Icon]](https://github.com/QuixoteSystems)
+- [Blockchair](https://blockchair.com/cardano) [![GitHub][GitHub Icon]](https://github.com/blockchair)
+- [3xpl](https://3xpl.com/cardano) [![GitHub][GitHub Icon]](https://github.com/3xplcom)
+- [Eutxo.org](https://eutxo.org/)
+
+### Blockchain Visualizer
+
+- [Pool.pm](https://pool.pm/) [![GitHub][GitHub Icon]](https://github.com/SmaugPool/)
+- [CGlobe.io](https://cglobe.io/) [![GitHub][GitHub Icon]](https://github.com/cardanotech)
+- [Script Explorer](https://www.script-explorer.com/) [![GitHub][GitHub Icon]](https://github.com/QSchlegel/)
+- [Eutxo.org](https://eutxo.org/)
+
+### Mempool Explorer
+
+- [CardanoAPI](https://mempool.cardanoapi.io/mempool) [![GitHub][GitHub Icon]](https://github.com/cardanoapi)
+- [Cardanoscan Mempool](https://cardanoscan.io/mempoolTransactions) [![GitHub][GitHub Icon]](https://github.com/StricaHQ)
+- [Eutxo.org Mempool](https://eutxo.org/mempool/live)
+
+### Ecosystem Directories
+
+- [DApps on Cardano](https://dappsoncardano.com/) [![GitHub][GitHub Icon]](https://github.com/Cardano-Fans)
+- [Cardano.org Showcase](https://developers.cardano.org/showcase) [![GitHub][GitHub Icon]](https://github.com/cardano-foundation)
+- [dSociety Real World Projects](https://dsociety.io/least-harmful) [![GitHub][GitHub Icon]](https://github.com/selfdriven-foundation)
+- [CardanoLink.net](https://www.cardanolink.net/Cardanolink/Eng.html) [![GitHub][GitHub Icon]](https://github.com/NotMick3)
+- [CardanoCube](https://www.cardanocube.com/cardano-ecosystem-interactive-map)
+- [Built on Cardano](https://builtoncardano.com)
 
 # DApps
 

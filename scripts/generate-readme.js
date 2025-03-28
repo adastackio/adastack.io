@@ -205,6 +205,26 @@ const categoryConfig = [
   },
 
   { name: "Ecosystem", tag: "", level: 1 },
+  {
+    name: "Blockchain Explorers",
+    tag: "block_explorer",
+    level: 2,
+  },
+  {
+    name: "Blockchain Visualizer",
+    tag: "block_visualizer",
+    level: 2,
+  },
+  {
+    name: "Mempool Explorer",
+    tag: "mempool_explorer",
+    level: 2,
+  },
+  {
+    name: "Ecosystem Directories",
+    tag: "ecosystem_directory",
+    level: 2,
+  },
   { name: "DApps", tag: "", level: 1 },
   { name: "NFTs", tag: "", level: 1 },
   { name: "Games", tag: "", level: 1 },
