@@ -53,6 +53,16 @@ Feel free to **star** or **add new projects**. We love PRs :)
     - [Blockchain Visualizer](#blockchain-visualizer)
     - [Mempool Explorer](#mempool-explorer)
     - [Ecosystem Directories](#ecosystem-directories)
+    - [Mobile Wallets](#mobile-wallets)
+    - [Browser Wallets](#browser-wallets)
+    - [Desktop Wallets](#desktop-wallets)
+    - [Hardware Wallets](#hardware-wallets)
+    - [Web Wallets](#web-wallets)
+    - [Paper Wallets](#paper-wallets)
+    - [Identity Wallets](#identity-wallets)
+    - [Multisig Wallets](#multisig-wallets)
+    - [Dev Wallets](#dev-wallets)
+    - [Specialized Wallets](#specialized-wallets)
 - [DApps](#dapps)
 - [NFTs](#nfts)
 - [Games](#games)
@@ -701,6 +711,38 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Tangocrypto](https://www.youtube.com/channel/UCmBDcgWgk3SOQA91s-rAFZg)
 - [Xerberus](https://www.youtube.com/@xerberus_news)
 - [Fraction Estate](https://www.youtube.com/@FractionEstate)
+- [Gero Wallet](https://www.youtube.com/channel/UCtOzEFWEsLKvHALULZvsIFg)
+- [Yoroi Wallet](https://www.youtube.com/channel/UCgFQ0hHuPO1QDcyP6t9KZTQ)
+- [Arculus](https://www.youtube.com/channel/UCfSNqRVqiS_sEvLBxmOWUvQ)
+- [Atomic Wallet](https://www.youtube.com/c/AtomicWallet)
+- [Exodus](https://www.youtube.com/c/exodus)
+- [GameChanger Wallet](https://www.youtube.com/@gamechanger.finance)
+- [Lace](https://www.youtube.com/c/Laceio)
+- [Nufi](https://www.youtube.com/channel/UC50lyApB5r9venIgxdszmWw)
+- [Daedalus Wallet](https://www.youtube.com/c/IohkIo)
+- [Genius Yield](https://www.youtube.com/channel/UC0Lw_flS1WokWYH9ZHIQv2g)
+- [WingRiders](https://www.youtube.com/channel/UC1eo9BYlzkc3sU6F3Zo3sKw)
+- [VyFinance](https://www.youtube.com/@VyFinance)
+- [iUSD](https://www.youtube.com/channel/UCZtghAMaSza6v6d1ie9ACIg)
+- [USDM](https://www.youtube.com/@USDMstablecoin)
+- [MyUSD](https://www.youtube.com/@mynthproject)
+- [Lenfi](https://www.youtube.com/@LenfiOfficial)
+- [Paribus](https://www.youtube.com/@Paribus_Crypto)
+- [Nexo](https://www.youtube.com/@NexoFinance)
+- [Indigo Protocol](https://www.youtube.com/channel/UCZtghAMaSza6v6d1ie9ACIg)
+- [Astarter](https://www.youtube.com/c/astartertv)
+- [Maya](https://www.youtube.com/@mayaprotocol)
+- [GoKey](https://www.youtube.com/@gokeyfinance)
+- [Reitcircles](https://www.youtube.com/@rietcircles8955)
+- [Whimsy](https://www.youtube.com/@whimsy_estates)
+- [Mynth](https://www.youtube.com/@mynthproject)
+- [Digital Gold](https://www.youtube.com/channel/UCVnJXnM8DhxL8VpyxmzK-cw)
+- [IBILECOIN](https://www.youtube.com/@IbileCoinADA/featured)
+- [iBTC](https://www.youtube.com/channel/UCZtghAMaSza6v6d1ie9ACIg)
+- [CardanoPress](https://www.youtube.com/watch?v=rlPzbhKcHC4&list=PL2fWPJCv7fcAS17k-1lQqxpFTqanNaPNT)
+- [Empowa](https://www.youtube.com/channel/UCfmTyDzMbYfdwUZZC1h9jbw)
+- [World Mobile](https://www.youtube.com/channel/UCw8cjqZEfYIs1I-bMocfXAg)
+- [Midnight](https://www.youtube.com/@midnight.network)
 - [Begin Wallet](https://www.youtube.com/@beginwallet)
 - [WADA](https://www.youtube.com/@Wada_org)
 - [Blueshift](https://www.youtube.com/@blueshiftfi)
@@ -838,6 +880,86 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [CardanoLink.net](https://www.cardanolink.net/Cardanolink/Eng.html) [![GitHub][GitHub Icon]](https://github.com/NotMick3)
 - [CardanoCube](https://www.cardanocube.com/cardano-ecosystem-interactive-map)
 - [Built on Cardano](https://builtoncardano.com)
+
+### Mobile Wallets
+
+- [Vespr](https://www.vespr.xyz/) [![GitHub][GitHub Icon]](https://github.com/vespr-wallet)
+- [Begin](https://begin.is/) [![GitHub][GitHub Icon]](https://github.com/BeginWallet)
+- [Tokeo](https://tokeopay.io/) [![GitHub][GitHub Icon]](https://github.com/TokeoPay)
+- [Eternl](https://eternl.io/) [![GitHub][GitHub Icon]](https://github.com/Tastenkunst)
+- [Trust](https://trustwallet.com/) [![GitHub][GitHub Icon]](https://github.com/trustwallet)
+- [Yoroi](https://yoroi-wallet.com) [![GitHub][GitHub Icon]](https://github.com/emurgo)
+- [Mantium](https://www.mantium.app/)
+
+### Browser Wallets
+
+- [Lace](https://www.lace.io/) [![GitHub][GitHub Icon]](https://github.com/input-output-hk)
+- [Vespr](https://www.vespr.xyz/) [![GitHub][GitHub Icon]](https://github.com/vespr-wallet)
+- [Eternl](https://eternl.io/) [![GitHub][GitHub Icon]](https://github.com/Tastenkunst)
+- [NuFi](https://nu.fi) [![GitHub][GitHub Icon]](https://github.com/nufi-official/)
+- [Yoroi](https://yoroi-wallet.com) [![GitHub][GitHub Icon]](https://github.com/emurgo)
+- [Typhon](https://typhonwallet.io/) [![GitHub][GitHub Icon]](https://github.com/StricaHQ)
+- [Nami](https://namiwallet.io/) [![GitHub][GitHub Icon]](https://github.com/input-output-hk)
+- [Metamask (NuFi Cardano Snap)](https://metamask.io/) [![GitHub][GitHub Icon]](https://github.com/metamask)
+- [Gero](https://gerowallet.io/)
+
+### Desktop Wallets
+
+- [Daedalus](https://daedaluswallet.io/) [![GitHub][GitHub Icon]](https://github.com/input-output-hk)
+- [Guarda](https://guarda.com/) [![GitHub][GitHub Icon]](https://github.com/guardaco)
+- [Exodus](https://www.exodus.com/) [![GitHub][GitHub Icon]](https://github.com/ExodusMovement)
+- [Coin Wallet](https://coin.space/) [![GitHub][GitHub Icon]](https://github.com/CoinSpace/)
+- [Atomic](https://atomicwallet.io/) [![GitHub][GitHub Icon]](https://github.com/Atomicwallet)
+
+### Hardware Wallets
+
+- [Ledger](https://www.ledger.com/) [![GitHub][GitHub Icon]](https://github.com/ledgerhq)
+- [Trezor](https://trezor.io/) [![GitHub][GitHub Icon]](https://github.com/trezor)
+- [Tangem](https://tangem.com/) [![GitHub][GitHub Icon]](https://github.com/tangem)
+- [Keystone](https://keyst.one/) [![GitHub][GitHub Icon]](https://github.com/keystoneHQ)
+
+### Web Wallets
+
+- [Eternl](https://eternl.io/) [![GitHub][GitHub Icon]](https://github.com/Tastenkunst)
+- [NuFi](https://nu.fi) [![GitHub][GitHub Icon]](https://github.com/nufi-official/)
+- [Adalite](https://adalite.io/) [![GitHub][GitHub Icon]](https://github.com/vacuumlabs/)
+- [GameChanger](https://gamechanger.finance/) [![GitHub][GitHub Icon]](https://github.com/GameChangerFinance/)
+
+### Paper Wallets
+
+- [Lace](https://www.lace.io/) [![GitHub][GitHub Icon]](https://github.com/input-output-hk)
+- [NMKR Paper](https://www.nmkr.io/paper-wallet) [![GitHub][GitHub Icon]](https://github.com/nftmakerio)
+
+### Identity Wallets
+
+- [CF Identity](https://identity.cardanofoundation.org/) [![GitHub][GitHub Icon]](https://github.com/cardano-foundation)
+- [BlockTrust](https://blocktrust.dev/identitywallet) [![GitHub][GitHub Icon]](https://github.com/bsandmann)
+- [Socious](https://socious.io/) [![GitHub][GitHub Icon]](https://github.com/socious-io/)
+- [IAMX](https://iamx.id/) [![GitHub][GitHub Icon]](https://github.com/iamxid)
+
+### Multisig Wallets
+
+- [BroClan](https://broclan.io/) [![GitHub][GitHub Icon]](https://github.com/leo42/)
+- [ADAO Round Table](https://round-table.vercel.app) [![GitHub][GitHub Icon]](https://github.com/ADAOcommunity)
+- [Iagon LedgerFlow](https://docs.iagon.com/overview/products/ledgerflow) [![GitHub][GitHub Icon]](https://github.com/iagonorg)
+- [Mesh Multisig](https://multisig.meshjs.dev/) [![GitHub][GitHub Icon]](https://github.com/MeshJS)
+
+### Dev Wallets
+
+- [Sundae Sorbet](https://github.com/SundaeSwap-finance/Sorbet) [![GitHub][GitHub Icon]](https://github.com/SundaeSwap-finance/)
+- [MLabs Dev](https://github.com/mlabs-haskell/cardano-dev-wallet) [![GitHub][GitHub Icon]](https://github.com/mlabs-haskell/)
+- [P2P Wallet](https://github.com/fallen-icarus/p2p-wallet) [![GitHub][GitHub Icon]](https://github.com/fallen-icarus/)
+- [Mynth CLI](https://github.com/MynthAI/wallet) [![GitHub][GitHub Icon]](https://github.com/MynthAI/)
+- [Stealth](https://github.com/while0x1/stealthWallet) [![GitHub][GitHub Icon]](https://github.com/while0x1/)
+- [Blinklabs Bursa](https://github.com/blinklabs-io/bursa) [![GitHub][GitHub Icon]](https://github.com/blinklabs-io/)
+- [Seedelf](https://github.com/logical-mechanism/Seedelf-Wallet) [![GitHub][GitHub Icon]](https://github.com/logical-mechanism/)
+- [TxPipe CShell](https://github.com/txpipe/cshell) [![GitHub][GitHub Icon]](https://github.com/txpipe/)
+- [Intersect Cardaminal CLI](https://github.com/IntersectMBO/cardaminal) [![GitHub][GitHub Icon]](https://github.com/IntersectMBO/)
+
+### Specialized Wallets
+
+- [Godot Wallet](https://mlabs-haskell.github.io/godot-cardano/) [![GitHub][GitHub Icon]](https://github.com/mlabs-haskell/)
+- [Salesforce Wallet](https://github.com/MuKnSys/ada-wallet-for-salesforce) [![GitHub][GitHub Icon]](https://github.com/MuKnSys/)
 
 # DApps
 

@@ -225,6 +225,56 @@ const categoryConfig = [
     tag: "ecosystem_directory",
     level: 2,
   },
+  {
+    name: "Mobile Wallets",
+    tag: "mobile_wallet",
+    level: 2,
+  },
+  {
+    name: "Browser Wallets",
+    tag: "browser_wallet",
+    level: 2,
+  },
+  {
+    name: "Desktop Wallets",
+    tag: "desktop_wallet",
+    level: 2,
+  },
+  {
+    name: "Hardware Wallets",
+    tag: "hardware_wallet",
+    level: 2,
+  },
+  {
+    name: "Web Wallets",
+    tag: "web_wallet",
+    level: 2,
+  },
+  {
+    name: "Paper Wallets",
+    tag: "paper_wallet",
+    level: 2,
+  },
+  {
+    name: "Identity Wallets",
+    tag: "identity_wallet",
+    level: 2,
+  },
+  {
+    name: "Multisig Wallets",
+    tag: "multisig_wallet",
+    level: 2,
+  },
+  {
+    name: "Dev Wallets",
+    tag: "dev_wallet",
+    level: 2,
+  },
+  {
+    name: "Specialized Wallets",
+    tag: "specialized_wallet",
+    level: 2,
+  },
   { name: "DApps", tag: "", level: 1 },
   { name: "NFTs", tag: "", level: 1 },
   { name: "Games", tag: "", level: 1 },
