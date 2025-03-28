@@ -727,6 +727,314 @@
     "tags": ["game_studio"]
   },
   {
+    "name": "Lace",
+    "website": "https://www.lace.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "repoURL": "https://github.com/input-output-hk/lace",
+    "tags": ["dapp", "browser_wallet", "paper_wallet"]
+  },
+  {
+    "name": "Vespr",
+    "website": "https://www.vespr.xyz/",
+    "teamGithubURL": "https://github.com/vespr-wallet",
+    "repoURL": "",
+    "tags": ["dapp", "mobile_wallet", "browser_wallet"]
+  },
+  {
+    "name": "Begin",
+    "website": "https://begin.is/",
+    "teamGithubURL": "https://github.com/BeginWallet",
+    "repoURL": "https://github.com/BeginWallet/begin-core",
+    "tags": ["dapp", "mobile_wallet"]
+  },
+  {
+    "name": "Mantium",
+    "website": "https://www.mantium.app/",
+    "teamGithubURL": "",
+    "repoURL": "",
+    "tags": ["dapp", "mobile_wallet"]
+  },
+  {
+    "name": "Tokeo",
+    "website": "https://tokeopay.io/",
+    "teamGithubURL": "https://github.com/TokeoPay",
+    "repoURL": "",
+    "tags": ["dapp", "mobile_wallet"]
+  },
+  {
+    "name": "Eternl",
+    "website": "https://eternl.io/",
+    "teamGithubURL": "https://github.com/Tastenkunst",
+    "repoURL": "",
+    "tags": ["dapp", "browser_wallet", "mobile_wallet", "web_wallet"]
+  },
+  {
+    "name": "Trust",
+    "website": "https://trustwallet.com/",
+    "teamGithubURL": "https://github.com/trustwallet",
+    "repoURL": "",
+    "tags": ["dapp", "mobile_wallet"]
+  },
+  {
+    "name": "NuFi",
+    "website": "https://nu.fi",
+    "teamGithubURL": "https://github.com/nufi-official/",
+    "repoURL": "https://github.com/nufi-official/nufi/",
+    "tags": ["dapp", "browser_wallet", "web_wallet"]
+  },
+  {
+    "name": "Yoroi",
+    "website": "https://yoroi-wallet.com",
+    "teamGithubURL": "https://github.com/emurgo",
+    "repoURL": "https://github.com/Emurgo/yoroi",
+    "tags": ["dapp", "browser_wallet", "mobile_wallet"]
+  },
+  {
+    "name": "Typhon",
+    "website": "https://typhonwallet.io/",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "repoURL": "",
+    "tags": ["dapp", "browser_wallet"]
+  },
+  {
+    "name": "Nami",
+    "website": "https://namiwallet.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "repoURL": "https://github.com/input-output-hk/nami",
+    "tags": ["dapp", "browser_wallet"]
+  },
+  {
+    "name": "Gero",
+    "website": "https://gerowallet.io/",
+    "teamGithubURL": "",
+    "repoURL": "",
+    "tags": ["dapp", "browser_wallet"]
+  },
+  {
+    "name": "Adalite",
+    "website": "https://adalite.io/",
+    "teamGithubURL": "https://github.com/vacuumlabs/",
+    "repoURL": "https://github.com/vacuumlabs/adalite",
+    "tags": ["dapp", "web_wallet"]
+  },
+  {
+    "name": "GameChanger",
+    "website": "https://gamechanger.finance/",
+    "teamGithubURL": "https://github.com/GameChangerFinance/",
+    "repoURL": "https://github.com/GameChangerFinance/gamechanger.wallet",
+    "tags": ["dapp", "web_wallet"]
+  },
+  {
+    "name": "Metamask (NuFi Cardano Snap)",
+    "website": "https://metamask.io/",
+    "teamGithubURL": "https://github.com/metamask",
+    "repoURL": "https://github.com/MetaMask/metamask-extension",
+    "tags": ["dapp", "browser_wallet"]
+  },
+  {
+    "name": "Daedalus",
+    "website": "https://daedaluswallet.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "repoURL": "https://github.com/input-output-hk/daedalus",
+    "tags": ["dapp", "desktop_wallet"]
+  },
+  {
+    "name": "Guarda",
+    "website": "https://guarda.com/",
+    "teamGithubURL": "https://github.com/guardaco",
+    "repoURL": "",
+    "tags": ["dapp", "desktop_wallet"]
+  },
+  {
+    "name": "Exodus",
+    "website": "https://www.exodus.com/",
+    "teamGithubURL": "https://github.com/ExodusMovement",
+    "repoURL": "",
+    "tags": ["dapp", "desktop_wallet"]
+  },
+  {
+    "name": "Coin Wallet",
+    "website": "https://coin.space/",
+    "teamGithubURL": "https://github.com/CoinSpace/",
+    "repoURL": "https://github.com/CoinSpace/CoinSpace",
+    "tags": ["dapp", "desktop_wallet"]
+  },
+  {
+    "name": "Atomic",
+    "website": "https://atomicwallet.io/",
+    "teamGithubURL": "https://github.com/Atomicwallet",
+    "repoURL": "",
+    "tags": ["dapp", "desktop_wallet"]
+  },
+  {
+    "name": "Ledger",
+    "website": "https://www.ledger.com/",
+    "teamGithubURL": "https://github.com/ledgerhq",
+    "repoURL": "",
+    "tags": ["dapp", "hardware_wallet"]
+  },
+  {
+    "name": "Trezor",
+    "website": "https://trezor.io/",
+    "teamGithubURL": "https://github.com/trezor",
+    "repoURL": "https://github.com/trezor/trezor-firmware",
+    "tags": ["dapp", "hardware_wallet"]
+  },
+  {
+    "name": "Tangem",
+    "website": "https://tangem.com/",
+    "teamGithubURL": "https://github.com/tangem",
+    "repoURL": "",
+    "tags": ["dapp", "hardware_wallet"]
+  },
+  {
+    "name": "Keystone",
+    "website": "https://keyst.one/",
+    "teamGithubURL": "https://github.com/keystoneHQ",
+    "repoURL": "https://github.com/KeystoneHQ/keystone3-firmware",
+    "tags": ["dapp", "hardware_wallet"]
+  },
+  {
+    "name": "NMKR Paper",
+    "website": "https://www.nmkr.io/paper-wallet",
+    "teamGithubURL": "https://github.com/nftmakerio",
+    "repoURL": "",
+    "tags": ["dapp", "paper_wallet"]
+  },
+  {
+    "name": "BroClan",
+    "website": "https://broclan.io/",
+    "teamGithubURL": "https://github.com/leo42/",
+    "repoURL": "https://github.com/leo42/BroClanWallet",
+    "tags": ["dapp", "multisig_wallet"]
+  },
+  {
+    "name": "ADAO Round Table",
+    "website": "https://round-table.vercel.app",
+    "teamGithubURL": "https://github.com/ADAOcommunity",
+    "repoURL": "https://github.com/ADAOcommunity/round-table",
+    "tags": ["dapp", "multisig_wallet"]
+  },
+  {
+    "name": "Iagon LedgerFlow",
+    "website": "https://docs.iagon.com/overview/products/ledgerflow",
+    "teamGithubURL": "https://github.com/iagonorg",
+    "repoURL": "",
+    "tags": ["dapp", "multisig_wallet"]
+  },
+  {
+    "name": "Mesh Multisig",
+    "website": "https://multisig.meshjs.dev/",
+    "teamGithubURL": "https://github.com/MeshJS",
+    "repoURL": "",
+    "tags": ["dapp", "multisig_wallet"]
+  },
+  {
+    "name": "CF Identity",
+    "website": "https://identity.cardanofoundation.org/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "repoURL": "https://github.com/cardano-foundation/cf-identity-wallet",
+    "tags": ["dapp", "identity_wallet"]
+  },
+  {
+    "name": "BlockTrust",
+    "website": "https://blocktrust.dev/identitywallet",
+    "teamGithubURL": "https://github.com/bsandmann",
+    "repoURL": "https://github.com/bsandmann/blocktrust-identity-wallet",
+    "tags": ["dapp", "identity_wallet"]
+  },
+  {
+    "name": "Socious",
+    "website": "https://socious.io/",
+    "teamGithubURL": "https://github.com/socious-io/",
+    "repoURL": "https://github.com/socious-io/socious-wallet",
+    "tags": ["dapp", "identity_wallet"]
+  },
+  {
+    "name": "IAMX",
+    "website": "https://iamx.id/",
+    "teamGithubURL": "https://github.com/iamxid",
+    "repoURL": "",
+    "tags": ["dapp", "identity_wallet"]
+  },
+  {
+    "name": "Sundae Sorbet",
+    "website": "https://github.com/SundaeSwap-finance/Sorbet",
+    "teamGithubURL": "https://github.com/SundaeSwap-finance/",
+    "repoURL": "https://github.com/SundaeSwap-finance/Sorbet",
+    "tags": ["dapp", "dev_wallet"]
+  },
+  {
+    "name": "MLabs Dev",
+    "website": "https://github.com/mlabs-haskell/cardano-dev-wallet",
+    "teamGithubURL": "https://github.com/mlabs-haskell/",
+    "repoURL": "https://github.com/mlabs-haskell/cardano-dev-wallet",
+    "tags": ["dapp", "dev_wallet"]
+  },
+  {
+    "name": "P2P Wallet",
+    "website": "https://github.com/fallen-icarus/p2p-wallet",
+    "teamGithubURL": "https://github.com/fallen-icarus/",
+    "repoURL": "https://github.com/fallen-icarus/p2p-wallet",
+    "tags": ["dapp", "dev_wallet"]
+  },
+  {
+    "name": "Mynth CLI",
+    "website": "https://github.com/MynthAI/wallet",
+    "teamGithubURL": "https://github.com/MynthAI/",
+    "repoURL": "https://github.com/MynthAI/wallet",
+    "tags": ["dapp", "dev_wallet"]
+  },
+  {
+    "name": "Stealth",
+    "website": "https://github.com/while0x1/stealthWallet",
+    "teamGithubURL": "https://github.com/while0x1/",
+    "repoURL": "https://github.com/while0x1/stealthWallet",
+    "tags": ["dapp", "dev_wallet"]
+  },
+  {
+    "name": "Blinklabs Bursa",
+    "website": "https://github.com/blinklabs-io/bursa",
+    "teamGithubURL": "https://github.com/blinklabs-io/",
+    "repoURL": "https://github.com/blinklabs-io/bursa",
+    "tags": ["dapp", "dev_wallet"]
+  },
+  {
+    "name": "Seedelf",
+    "website": "https://github.com/logical-mechanism/Seedelf-Wallet",
+    "teamGithubURL": "https://github.com/logical-mechanism/",
+    "repoURL": "https://github.com/logical-mechanism/Seedelf-Wallet",
+    "tags": ["dapp", "dev_wallet"]
+  },
+  {
+    "name": "TxPipe CShell",
+    "website": "https://github.com/txpipe/cshell",
+    "teamGithubURL": "https://github.com/txpipe/",
+    "repoURL": "https://github.com/txpipe/cshell",
+    "tags": ["dapp", "dev_wallet"]
+  },
+  {
+    "name": "Intersect Cardaminal CLI",
+    "website": "https://github.com/IntersectMBO/cardaminal",
+    "teamGithubURL": "https://github.com/IntersectMBO/",
+    "repoURL": "https://github.com/IntersectMBO/cardaminal",
+    "tags": ["dapp", "dev_wallet"]
+  },
+  {
+    "name": "Godot Wallet",
+    "website": "https://mlabs-haskell.github.io/godot-cardano/",
+    "teamGithubURL": "https://github.com/mlabs-haskell/",
+    "repoURL": "https://github.com/mlabs-haskell/godot-cardano",
+    "tags": ["dapp", "specialized_wallet"]
+  },
+  {
+    "name": "Salesforce Wallet",
+    "website": "https://github.com/MuKnSys/ada-wallet-for-salesforce",
+    "teamGithubURL": "https://github.com/MuKnSys/",
+    "repoURL": "https://github.com/MuKnSys/ada-wallet-for-salesforce",
+    "tags": ["dapp", "specialized_wallet"]
+  },
+  {
     "name": "World Mobile",
     "website": "https://worldmobile.io/",
     "teamGithubURL": "https://github.com/worldmobilegroup",
@@ -3535,7 +3843,7 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "Astarter Blog",
     "website": "https://medium.com/@AstarterDefiHub",
     "teamGithubURL": "",
@@ -3547,7 +3855,7 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "Linkage Finance Blog",
     "website": "https://medium.com/@LinkageFinance",
     "teamGithubURL": "",
@@ -3577,97 +3885,97 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "ChainCrib Blog",
     "website": "https://chaincrib.medium.com/",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Landano Blog",
     "website": "https://www.landano.io/blog/",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "AnetaBTC Blog",
     "website": "https://medium.com/@anetaBTC",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Mynth Blog",
     "website": "https://docs.mynth.ai/guide/the-problem",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "VISTA Bridge Blog",
     "website": "https://www.vistabridge.org/blog",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Encoins Blog",
     "website": "https://encoins-crypto.medium.com",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Digital Gold Blog",
     "website": "https://www.digitalgoldecosystem.com/blog",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Shen Blog",
     "website": "https://medium.com/cotinetwork",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "CardanoPress Blog",
     "website": "https://cardanopress.io/blog/",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Ada Handle Blog",
     "website": "https://medium.com/ada-handle",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Empowa Blog",
     "website": "https://empowa-io.medium.com",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "World Mobile Blog",
     "website": "https://worldmobile.io/blog/",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Maestro Blog",
     "website": "https://www.gomaestro.org/blog",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Midnight Blog",
     "website": "https://midnight.network/blog",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Mithril Blog",
     "website": "https://mithril.network/doc/dev-blog",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Worldads Blog",
     "website": "https://worldadsio.medium.com",
     "teamGithubURL": "",
@@ -3685,7 +3993,7 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "Fluidtokens Blog",
     "website": "https://medium.com/@FluidTokens",
     "teamGithubURL": "",
@@ -3937,7 +4245,7 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "WingRiders Blog",
     "website": "https://medium.com/@wingriderscom",
     "teamGithubURL": "",
@@ -3949,13 +4257,13 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "DexHunter Blog",
     "website": "https://dexhunterio.medium.com",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "Moneta Blog",
     "website": "https://medium.com/@USDMOfficial",
     "teamGithubURL": "",
@@ -4033,7 +4341,7 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Adaverse Blog",
     "website": "https://www.adaverse.co/blog",
     "teamGithubURL": "",
@@ -4063,25 +4371,25 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "Nunet Blog",
     "website": "https://medium.com/nunet",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "SingularityDAO Blog",
     "website": "https://medium.com/singularitydao",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "SingularityNET Blog",
     "website": "https://singularitynet.io/updates/blogs/",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "Bodega Market Blog",
     "website": "https://medium.com/@bodegacardano",
     "teamGithubURL": "",
@@ -4099,7 +4407,7 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "MarketRaker Blog",
     "website": "https://marketraker.medium.com/",
     "teamGithubURL": "",
@@ -4111,55 +4419,55 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "Atrium Blog",
     "website": "https://medium.com/atrium-lab",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "Cardexscan Blog",
     "website": "https://medium.com/@cardexscan",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-   {
+  {
     "name": "Chainspect Blog",
     "website": "https://chainspect.app/blog",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "Project Catalyst Blog",
     "website": "https://projectcatalyst.io/blog",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "Clarity Blog",
     "website": "https://medium.com/@Clarity_",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "Cardano Shield Blog",
     "website": "https://docs.cardanoshield.com/",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "CRCI Blog",
     "website": "https://www.crci.review/blog",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "Genius X Blog",
     "website": "https://medium.com/@GeniusXOfficial",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "Pop Up World Token Blog",
     "website": "https://popupworld.org/blog/",
     "teamGithubURL": "",
@@ -4171,7 +4479,7 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "dcSpark Blog",
     "website": "https://blog.dcspark.io/",
     "teamGithubURL": "",
@@ -4183,25 +4491,25 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "Wanchain Blog",
     "website": "https://blog.chainport.io/",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "Blockfrost Blog",
     "website": "https://blog.blockfrost.io",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "Charli3 Blog",
     "website": "https://oraclecharli3.medium.com/",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
-     {
+  {
     "name": "SecurityBot Blog",
     "website": "https://securitybot.info/blog",
     "teamGithubURL": "",
@@ -4225,7 +4533,7 @@
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
- {
+  {
     "name": "Blocktrust Blog",
     "website": "https://www.blocktrust.dev/Blog",
     "teamGithubURL": "",
@@ -5413,7 +5721,7 @@
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
   },
-   {
+  {
     "name": "LATAM Cardano Community",
     "website": "https://www.youtube.com/channel/UCRZKx4HJFifOy8HCeOB8pxw",
     "teamGithubURL": "",
@@ -5722,6 +6030,198 @@
   {
     "name": "Fraction Estate",
     "website": "https://www.youtube.com/@FractionEstate",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Gero Wallet",
+    "website": "https://www.youtube.com/channel/UCtOzEFWEsLKvHALULZvsIFg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Yoroi Wallet",
+    "website": "https://www.youtube.com/channel/UCgFQ0hHuPO1QDcyP6t9KZTQ",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Arculus",
+    "website": "https://www.youtube.com/channel/UCfSNqRVqiS_sEvLBxmOWUvQ",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Atomic Wallet",
+    "website": "https://www.youtube.com/c/AtomicWallet",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Exodus",
+    "website": "https://www.youtube.com/c/exodus",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "GameChanger Wallet",
+    "website": "https://www.youtube.com/@gamechanger.finance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Lace",
+    "website": "https://www.youtube.com/c/Laceio",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Nufi",
+    "website": "https://www.youtube.com/channel/UC50lyApB5r9venIgxdszmWw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Daedalus Wallet",
+    "website": "https://www.youtube.com/c/IohkIo",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Genius Yield",
+    "website": "https://www.youtube.com/channel/UC0Lw_flS1WokWYH9ZHIQv2g",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "WingRiders",
+    "website": "https://www.youtube.com/channel/UC1eo9BYlzkc3sU6F3Zo3sKw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "VyFinance",
+    "website": "https://www.youtube.com/@VyFinance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "iUSD",
+    "website": "https://www.youtube.com/channel/UCZtghAMaSza6v6d1ie9ACIg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "USDM",
+    "website": "https://www.youtube.com/@USDMstablecoin",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "MyUSD",
+    "website": "https://www.youtube.com/@mynthproject",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Lenfi",
+    "website": "https://www.youtube.com/@LenfiOfficial",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Paribus",
+    "website": "https://www.youtube.com/@Paribus_Crypto",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Nexo",
+    "website": "https://www.youtube.com/@NexoFinance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Indigo Protocol",
+    "website": "https://www.youtube.com/channel/UCZtghAMaSza6v6d1ie9ACIg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Astarter",
+    "website": "https://www.youtube.com/c/astartertv",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Maya",
+    "website": "https://www.youtube.com/@mayaprotocol",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "GoKey",
+    "website": "https://www.youtube.com/@gokeyfinance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Reitcircles",
+    "website": "https://www.youtube.com/@rietcircles8955",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Whimsy",
+    "website": "https://www.youtube.com/@whimsy_estates",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Mynth",
+    "website": "https://www.youtube.com/@mynthproject",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Digital Gold",
+    "website": "https://www.youtube.com/channel/UCVnJXnM8DhxL8VpyxmzK-cw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "IBILECOIN",
+    "website": "https://www.youtube.com/@IbileCoinADA/featured",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "iBTC",
+    "website": "https://www.youtube.com/channel/UCZtghAMaSza6v6d1ie9ACIg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "CardanoPress",
+    "website": "https://www.youtube.com/watch?v=rlPzbhKcHC4&list=PL2fWPJCv7fcAS17k-1lQqxpFTqanNaPNT",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Empowa",
+    "website": "https://www.youtube.com/channel/UCfmTyDzMbYfdwUZZC1h9jbw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "World Mobile",
+    "website": "https://www.youtube.com/channel/UCw8cjqZEfYIs1I-bMocfXAg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Midnight",
+    "website": "https://www.youtube.com/@midnight.network",
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
   },

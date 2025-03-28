@@ -1,11 +1,13 @@
 import React from "react";
 import TeamGithubBadge from "@components/badges/TeamGithubBadge";
+import GithubRepoBadge from "@components/badges/GithubRepoBadge";
 import Favicon from "@components/badges/Favicon";
 
 interface Project {
   name: string;
   website: string;
   teamGithubURL?: string;
+  repoURL?: string;
   tags?: string[];
 }
 
@@ -41,16 +43,21 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
     );
   });
 
-  // Sort projects by GitHub presence
+  // Sort projects by GitHub presence and repo URL
   const sortedProjects = filteredProjects.sort((a, b) => {
+    if (a.repoURL && !b.repoURL) return -1;
+    if (!a.repoURL && b.repoURL) return 1;
     if (a.teamGithubURL && !b.teamGithubURL) return -1;
     if (!a.teamGithubURL && b.teamGithubURL) return 1;
     return 0;
   });
 
-  // Check if any project has a GitHub URL
+  // Check if any project has a GitHub URL or repo URL
   const hasAnyProjectWithGithubURL = sortedProjects.some(
     (project) => project.teamGithubURL
+  );
+  const hasAnyProjectWithRepoURL = sortedProjects.some(
+    (project) => project.repoURL
   );
 
   return (
@@ -59,6 +66,7 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
         <thead>
           <tr>
             <th></th>
+            {hasAnyProjectWithRepoURL && <th></th>}
             {hasAnyProjectWithGithubURL && <th></th>}
           </tr>
         </thead>
@@ -85,6 +93,18 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
                   </span>
                 </div>
               </td>
+              {hasAnyProjectWithRepoURL && (
+                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
+                  {project.repoURL ? (
+                    <GithubRepoBadge
+                      repoURL={project.repoURL}
+                      text="Source Code"
+                    />
+                  ) : (
+                    ""
+                  )}
+                </td>
+              )}
               {hasAnyProjectWithGithubURL && (
                 <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
                   {project.teamGithubURL ? (
