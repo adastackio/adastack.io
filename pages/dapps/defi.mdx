@@ -4,15 +4,27 @@ seo_description: Explore top Cardano DeFi DApps! Discover platforms for lending,
 toc: false
 ---
 
-# DeFi
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
 
-This content is being peer reviewed & formally verified. Check back soon!
+# DeFi DApps
 
-In the meantime, explore other Cardano collections:
+### Lending and Borrowing
 
-- [YouTube Channels](/community/youtube)
-- [Development Firms](/development/dev_teams)
-- [Newsletters](/community/newsletters)
-- [News and Blogs](/community/news_and_blogs)
+<DefaultDataTable projects={builders} filterBy="lending_dapp" />
 
-[See the Full Library →](/all_pages)
+### Synthetic Assets
+
+<DefaultDataTable projects={builders} filterBy="lending_dapp" />
+
+### Indexes
+
+<DefaultDataTable projects={builders} filterBy="index_dapp" />
+
+### Yield Farming and Aggregators
+
+<DefaultDataTable projects={builders} filterBy="yield_farming_dapp" />
+
+### Derivatives
+
+<DefaultDataTable projects={builders} filterBy="index_dapp" />

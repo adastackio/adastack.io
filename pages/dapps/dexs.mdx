@@ -4,15 +4,13 @@ seo_description: Discover top decentralized exchanges, DEX aggregators, and cros
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # DEXs
 
-This content is being peer reviewed & formally verified. Check back soon!
+<DefaultDataTable projects={builders} filterBy="dex_dapp" />
 
-In the meantime, explore other Cardano collections:
+### Cross-Chain DEXs
 
-- [YouTube Channels](/community/youtube)
-- [Development Firms](/development/dev_teams)
-- [Newsletters](/community/newsletters)
-- [News and Blogs](/community/news_and_blogs)
-
-[See the Full Library →](/all_pages)
+<DefaultDataTable projects={builders} filterBy="cross_chain_dex_dapp" />
