@@ -100,7 +100,7 @@
     }
   },
   "events_and_ticketing": {
-    "title": "Events & Ticketing  ",
+    "title": "Events & Ticketing",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
