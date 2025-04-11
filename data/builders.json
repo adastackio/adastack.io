@@ -210,6 +210,24 @@
     "tags": ["organization", "stake_pool_alliance"]
   },
   {
+    "name": "Cardano-Scan Stake Pools",
+    "website": "https://cardano-scan.com/pools",
+    "teamGithubURL": "",
+    "tags": ["organization", "stake_pool_alliance", "stake_pool_explorer"]
+  },
+  {
+    "name": "Poolinfo.me",
+    "website": "https://poolinfo.me/",
+    "teamGithubURL": "",
+    "tags": ["organization", "stake_pool_alliance", "stake_pool_explorer"]
+  },
+  {
+    "name": "SPO Yellow Pages",
+    "website": "https://spoyellowpages.com/",
+    "teamGithubURL": "https://github.com/lucifer911",
+    "tags": ["organization", "stake_pool_alliance", "stake_pool_explorer"]
+  },
+   {
     "name": "Mission Driven Pools",
     "website": "https://missiondrivenpools.org",
     "teamGithubURL": "https://github.com/CardanoMDP",
