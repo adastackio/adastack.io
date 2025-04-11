@@ -6916,6 +6916,18 @@
     "tags": ["info", "cardano_full_course"]
   },
   {
+    "name": "Academia Cardan",
+    "website": "https://academiacardano.com/",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_full_course"]
+  },
+   {
+    "name": "Learn Cardano",
+    "website": "https://learncardano.io/courses/",
+    "teamGithubURL": "https://github.com/pbwebdev",
+    "tags": ["info", "cardano_full_course"]
+  }
+  {
     "name": "Kaizen Crypto Cardano 101 Course",
     "website": "https://www.youtube.com/playlist?list=PLrbMFdXZnzoAwfxIVo-SQ_qEBCqbwuU6o",
     "teamGithubURL": "",
