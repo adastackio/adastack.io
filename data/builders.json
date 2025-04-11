@@ -54,6 +54,24 @@
     "tags": ["organization"]
   },
   {
+    "name": "Cardano Development & Ecosystem Cooperative",
+    "website": "https://cdec.site/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano Builder DAO",
+    "website": "(https://buildingoncardano.io/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "BitVMX Force",
+    "website": "(https://bitvmx.org/",
+    "teamGithubURL": "https://github.com/FairgateLabs",
+    "tags": ["organization"]
+  },
+  {
     "name": "Littlefish Foundation",
     "website": "https://littlefish.foundation/",
     "teamGithubURL": "https://github.com/littlefish-foundation",
