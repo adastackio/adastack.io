@@ -3550,6 +3550,24 @@
     "tags": ["tools", "stake_pool_monitoring_tool_additional"]
   },
   {
+    "name": "Core Monitor",
+    "website": "https://github.com/happystaking/core-monitor",
+    "teamGithubURL": "https://github.com/happystaking",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Watchtower Tools",
+    "website": "https://watchtower.tools/",
+    "teamGithubURL": "https://github.com/bkvpool",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  }, 
+  {
+    "name": "CardanoAPI Mempool Check",
+    "website": "https://mempool.cardanoapi.io/",
+    "teamGithubURL": "https://github.com/dQuadrant",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+   {
     "name": "Nview",
     "website": "https://github.com/blinklabs-io/nview",
     "teamGithubURL": "https://github.com/blinklabs-io",
