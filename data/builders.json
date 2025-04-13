@@ -2121,12 +2121,23 @@
     "tags": ["tools"]
   },
   {
+    "name": "Cexplorer Relay Map",
+    "website": "https://cexplorer.io/relays",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "block_explorer", "block_visualizer"]
+  },
+ {
+    "name": "Fiatleak ADA Buys",
+    "website": "https://fiatleak.com/ada",
+    "teamGithubURL": "",
+    "tags": ["tools", "block_explorer", "block_visualizer"]
+  },
+ {
     "name": "Pool.pm",
     "website": "https://pool.pm/",
     "teamGithubURL": "https://github.com/SmaugPool/",
     "tags": ["tools", "block_explorer", "block_visualizer"]
   },
-
   {
     "name": "Berry Pool",
     "website": "https://berrypool.io/",
