@@ -107,6 +107,30 @@
     "teamGithubURL": "https://github.com/gimbalabs",
     "tags": ["organization", "dev_learning_platform"]
   },
+ {
+    "name": "Cardano2vn",
+    "website": "https://lms/cardano2vn.io",
+    "teamGithubURL": "https://github.com/cardano2vn",
+    "tags": ["organization", "dev_learning_platform"]
+  },
+  {
+    "name": "Birble AI",
+    "website": "https://www.birble.win/",
+    "teamGithubURL": "",
+    "tags": ["organization", "dev_learning_platform"]
+  },
+  {
+    "name": "Academia Cardano",
+    "website": "https://academiacardano.com/",
+    "teamGithubURL": "",
+    "tags": ["organization", "dev_learning_platform"]
+  },
+  {
+    "name": "Asteria",
+    "website": "https://asteria.txpipe.io/",
+    "teamGithubURL": "https://github.com/txpipe",
+    "tags": ["organization", "dev_learning_platform"]
+  }, 
   {
     "name": "Cardano Catalyst Circle",
     "website": "https://catalyst-circle.github.io/",
