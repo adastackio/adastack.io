@@ -2398,6 +2398,18 @@
     "tags": ["tools", "mempool_explorer"]
   },
   {
+    "name": "Cardano Open Source Index",
+    "website": "https://github.com/micahkendall/cardano-opensource-index",
+    "teamGithubURL": "https://github.com/micahkendall",
+    "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
+  },
+ {
+    "name": "DappRadar Cardano DApps",
+    "website": "https://dappradar.com/rankings/protocol/cardano",
+    "teamGithubURL": "https://github.com/dappradar",
+    "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
+  },
+{
     "name": "CardanoCube",
     "website": "https://www.cardanocube.com/cardano-ecosystem-interactive-map",
     "teamGithubURL": "",
