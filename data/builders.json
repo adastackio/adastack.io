@@ -691,6 +691,12 @@
     "tags": ["game_studio"]
   },
   {
+    "name": "2B3D",
+    "website": "https://2b3d.com/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  }
+  {
     "name": "RFLXT",
     "website": "https://rflxt.com/",
     "teamGithubURL": "",
@@ -1616,6 +1622,18 @@
     "teamGithubURL": "",
     "tags": ["dapp", "general_game"]
   },
+   {
+    "name": "Kwicverse",
+    "website": "https://kwicverse.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+   {
+    "name": "Sky Dream",
+    "website": "https://skydream.skymon.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
   {
     "name": "Drunken Dragon Games",
     "website": "https://ddu.gg/",
@@ -1944,6 +1962,12 @@
     "name": "Ridotto",
     "website": "https://ridotto.io/",
     "teamGithubURL": "https://github.com/ridotto-io",
+    "tags": ["dapp", "gambling_game", "prediction_game"]
+  },
+  {
+    "name": "cPoker",
+    "website": "https://cpoker.io/",
+    "teamGithubURL": "https://github.com/Cardano-After-Dark",
     "tags": ["dapp", "gambling_game", "prediction_game"]
   },
   {
