@@ -99,8 +99,8 @@
       "pagination": false
     }
   },
-  "events_and_ticketing": {
-    "title": "Events & Ticketing",
+  "ticketing_and_token_gating": {
+    "title": "Ticketing & Token Gating",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
