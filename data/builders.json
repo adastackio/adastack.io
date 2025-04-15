@@ -3052,6 +3052,12 @@
     "tags": ["tools", "transaction_metrics"]
   },
   {
+    "name": "CardexScan Transactions",
+    "website": "https://cardexscan.com/global-trades",
+    "teamGithubURL": "",
+    "tags": ["tools", "transaction_metrics"]
+  }, 
+ {
     "name": "CBI Daily Transactions",
     "website": "https://lookerstudio.google.com/s/r-x_IbY41mY",
     "teamGithubURL": "https://github.com/Cardano-Fans",
@@ -3105,6 +3111,12 @@
     "teamGithubURL": "https://github.com/dexscreener",
     "tags": ["tools", "volume_metrics"]
   },
+   {
+    "name": "Cardano-Scan Assets",
+    "website": "https://cardano-scan.com/assets",
+    "teamGithubURL": "",
+    "tags": ["tools", "volume_metrics"]
+  },
   {
     "name": "Cexplorer Token Volume",
     "website": "https://cexplorer.io/token/top",
@@ -3145,6 +3157,24 @@
     "name": "Danogo DApp TVL Rankings",
     "website": "https://danogo.io/tvl-report",
     "teamGithubURL": "https://github.com/Danogo2023",
+    "tags": ["tools", "dapp_tvl_metrics"]
+  },
+  {
+    "name": "DApp Radar",
+    "website": "https://dappradar.com/rankings/protocol/cardano?sort=totalBalanceInFiat&order=desc",
+    "teamGithubURL": "https://github.com/dappradar",
+    "tags": ["tools", "dapp_tvl_metrics"]
+  },
+ {
+    "name": "Tempo DApp Ranking",
+    "website": "https://tempo.vote/dapp-ranking",
+    "teamGithubURL": "",
+    "tags": ["tools", "dapp_tvl_metrics"]
+  },
+  {
+    "name": "Alethea DApps",
+    "website": "https://alethea.io/dapps/",
+    "teamGithubURL": "https://github.com/alethea-io",
     "tags": ["tools", "dapp_tvl_metrics"]
   },
   {
