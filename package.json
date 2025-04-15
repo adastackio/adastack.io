@@ -28,7 +28,7 @@
     "antd-style": "^3.7.1",
     "javascript-time-ago": "^2.5.11",
     "@octokit/plugin-retry": "^7.1.2",
-    "@octokit/plugin-throttling": "^9.3.2",
+    "@octokit/plugin-throttling": "^10.0.0",
     "@octokit/rest": "^21.0.2"
   },
   "devDependencies": {
