@@ -2134,6 +2134,18 @@
     "tags": ["tools"]
   },
   {
+    "name": "Token Terminal",
+    "website": "https://tokenterminal.com/explorer/projects/cardano/metrics/all",
+    "teamGithubURL": "https://github.com/token-terminal",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Bending.ai",
+    "website": "https://bending.ai/",
+    "teamGithubURL": "",
+    "tags": ["tools", "metric_tracker_site"]
+  }, 
+ {
     "name": "Balance Analytics",
     "website": "https://www.balanceanalytics.io/",
     "teamGithubURL": "https://github.com/Balance-Analytics",
