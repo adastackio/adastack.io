@@ -3448,6 +3448,12 @@
     "tags": ["tools", "mav_metrics"]
   },
   {
+    "name": "Cexplorer.io Nakamoto Coefficient",
+    "website": "https://cexplorer.io/nakamoto",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "mav_metrics"]
+  },
+  {
     "name": "Balance Analytics MAV Donut",
     "website": "https://www.balanceanalytics.io/chartboards/donut_shop",
     "teamGithubURL": "https://github.com/Balance-Analytics",
