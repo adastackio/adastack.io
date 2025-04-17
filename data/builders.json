@@ -2560,6 +2560,18 @@
     "tags": ["tools", "newsletter"]
   },
   {
+    "name": "Essential Cardano Newsletter by IOG",
+    "website": "https://www.essentialcardano.io/",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+ {
+    "name": "Tap in with TapTools",
+    "website": "https://medium.com/@TapInWithTapTools",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  }, 
+  {
     "name": "Cardano Community Digest",
     "website": "https://cardano.org/newsletter",
     "teamGithubURL": "",
