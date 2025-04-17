@@ -2638,6 +2638,18 @@
     "tags": ["tools", "reward_calculator"]
   },
   {
+    "name": "Cardaviz",
+    "website": "https://cardaviz.app",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Ada Calculator",
+    "website": "https://adacalculator.com/cardano-staking-calculator",
+    "teamGithubURL": "https://github.com/cardanoumbrella",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
     "name": "Antipalos Calculator",
     "website": "https://antipalos.github.io/cardano-calculator/#calculator",
     "teamGithubURL": "https://github.com/antipalos",
