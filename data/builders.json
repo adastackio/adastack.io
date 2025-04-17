@@ -3622,6 +3622,18 @@
     "tags": ["news_updates", "cardano_news_website"]
   },
   {
+    "name": "CardanoCube Resources",
+    "website": "https://www.cardanocube.com/resources",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "cardano_news_website"]
+  },
+  {
+    "name": "Tap Tools News",
+    "website": "https://www.taptools.io/news",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "cardano_news_website"]
+  }
+ {
     "name": "Cexplorer Articles",
     "website": "https://cexplorer.io/article",
     "teamGithubURL": "https://github.com/cexplorer",
