@@ -54,6 +54,24 @@
     "tags": ["organization"]
   },
   {
+    "name": "Cardano Development & Ecosystem Cooperative",
+    "website": "https://cdec.site/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano Builder DAO",
+    "website": "(https://buildingoncardano.io/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "BitVMX Force",
+    "website": "(https://bitvmx.org/",
+    "teamGithubURL": "https://github.com/FairgateLabs",
+    "tags": ["organization"]
+  },
+  {
     "name": "Littlefish Foundation",
     "website": "https://littlefish.foundation/",
     "teamGithubURL": "https://github.com/littlefish-foundation",
@@ -6895,6 +6913,18 @@
     "name": "Blockchain Education Program",
     "website": "https://academy.cardanofoundation.org/",
     "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "cardano_full_course"]
+  },
+  {
+    "name": "Academia Cardan",
+    "website": "https://academiacardano.com/",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_full_course"]
+  },
+  {
+    "name": "Learn Cardano",
+    "website": "https://learncardano.io/courses/",
+    "teamGithubURL": "https://github.com/pbwebdev",
     "tags": ["info", "cardano_full_course"]
   },
   {
