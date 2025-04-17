@@ -4852,6 +4852,30 @@
     "tags": ["video_channel", "general_youtube"]
   },
   {
+    "name": "Digital Asset News",
+    "website": "https://www.youtube.com/@DigitalAssetNews",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Cardano News Now",
+    "website": "https://www.youtube.com/@CARDANONEWSNOW/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+ {
+    "name": "Thesis & Dysmorphia",
+    "website": "https://www.youtube.com/@thesisdysmo",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "The Media3 Report",
+    "website": "https://www.youtube.com/c/CardanoHubs",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+ {
     "name": "Nova Cardano Stake Pool",
     "website": "https://www.youtube.com/@NOVApool",
     "teamGithubURL": "",
