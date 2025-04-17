@@ -29,8 +29,8 @@
       "pagination": false
     }
   },
-  "wallet_tools": {
-    "title": "Wallet Tools  ",
+  "portfolio_trackers_and_apps": {
+    "title": "Portfolio Trackers & Apps  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -81,16 +81,6 @@
   },
   "security_tools": {
     "title": "Security Tools  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "portfolio_trackers_and_apps": {
-    "title": "Portfolio Trackers & Apps  ",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
