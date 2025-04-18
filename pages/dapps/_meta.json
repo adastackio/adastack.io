@@ -129,6 +129,16 @@
       "pagination": false
     }
   },
+    "media_and_music": {
+    "title": "Media & Music",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
   "medical_and_health": {
     "title": "Medical & Health",
     "theme": {
@@ -211,16 +221,6 @@
   },
   "supply_chain": {
     "title": "Supply Chain",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "other_dapps": {
-    "title": "Other DApps",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
