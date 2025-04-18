@@ -3286,6 +3286,12 @@
     "tags": ["tools", "nft_market_metrics"]
   },
   {
+    "name": "Riskwise NFT Metrics",
+    "website": "https://riskwisepro.io/nftmarketplace",
+    "teamGithubURL": "https://riskwisepro.io/nftmarketplace ",
+    "tags": ["tools", "nft_market_metrics"]
+  },
+  {
     "name": "Poki Market Pulse",
     "website": "https://www.getpoki.com/live-market",
     "teamGithubURL": "",
@@ -3334,9 +3340,21 @@
     "tags": ["tools", "development_metrics"]
   },
   {
+    "name": "Danogo New Contracts",
+    "website": "https://superset-public.tekodata.com/superset/dashboard/74523bff-9d0b-4965-9f84-a03cdc2d423c/?permalink_key=WV2RGPY09mz&standalone=true#TAB-A8xhZBwbS",
+    "teamGithubURL": "https://github.com/Danogo2023",
+    "tags": ["tools", "development_metrics"]
+  }, 
+ {
     "name": "Cryptometheus Development Stats",
     "website": "https://cryptometheus.com/project/Cardano",
     "teamGithubURL": "",
+    "tags": ["tools", "development_metrics"]
+  },
+   {
+    "name": "[Open Source Committee Monthly Report",
+    "website": "https://opensourcecommittee.docs.intersectmbo.org/about/open-source-office-oso/current-monthly-maturity-report",
+    "teamGithubURL": "https://github.com/IntersectMBO/",
     "tags": ["tools", "development_metrics"]
   },
   {
@@ -3369,6 +3387,12 @@
     "teamGithubURL": "https://github.com/Cardano-Fans",
     "tags": ["tools", "fee_metrics"]
   },
+  {
+    "name": "DefiLlama Chain Fees",
+    "website": "https://defillama.com/chain/Cardano?currency=USD&volume=false&tvl=false&fees=true",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "fee_metrics"]
+  }, 
   {
     "name": "Cexplorer Pool Profitability",
     "website": "https://cexplorer.io/profitability",
