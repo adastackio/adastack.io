@@ -926,6 +926,12 @@
     "tags": ["dapp", "paper_wallet"]
   },
   {
+    "name": "MintMatrix Paper Wallets",
+    "website": "https://mintmatrix.io/paper-wallets",
+    "teamGithubURL": "https://github.com/MintMatrix",
+    "tags": ["dapp", "paper_wallet"]
+  },
+  {
     "name": "BroClan",
     "website": "https://broclan.io/",
     "teamGithubURL": "https://github.com/leo42/",
@@ -968,6 +974,13 @@
     "tags": ["dapp", "identity_wallet"]
   },
   {
+    "name": "Veridian",
+    "website": "https://www.veridian.id/",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "repoURL": "",
+    "tags": ["dapp", "identity_wallet"]
+  },
+  {
     "name": "Socious",
     "website": "https://socious.io/",
     "teamGithubURL": "https://github.com/socious-io/",
@@ -986,6 +999,13 @@
     "website": "https://github.com/SundaeSwap-finance/Sorbet",
     "teamGithubURL": "https://github.com/SundaeSwap-finance/",
     "repoURL": "https://github.com/SundaeSwap-finance/Sorbet",
+    "tags": ["dapp", "dev_wallet"]
+  },
+  {
+    "name": "WingRiders Wallet",
+    "website": "https://github.com/WingRiders/wallet",
+    "teamGithubURL": "https://github.com/WingRiders/",
+    "repoURL": "",
     "tags": ["dapp", "dev_wallet"]
   },
   {
