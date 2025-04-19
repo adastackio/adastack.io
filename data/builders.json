@@ -209,7 +209,13 @@
     "teamGithubURL": "https://github.com/armada-alliance",
     "tags": ["organization", "stake_pool_alliance"]
   },
-   {
+  {
+    "name": "Cardano Bare Metal Alliance",
+    "website": "https://cardanobaremetal.com/",
+    "teamGithubURL": "",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
     "name": "Mission Driven Pools",
     "website": "https://missiondrivenpools.org",
     "teamGithubURL": "https://github.com/CardanoMDP",
