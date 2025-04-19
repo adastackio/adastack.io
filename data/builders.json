@@ -2380,6 +2380,18 @@
     "tags": ["tools", "block_visualizer"]
   },
   {
+    "name": "Blocks Live Explorer",
+    "website": "https://blocks.workwithcardano.com/",
+    "teamGithubURL": "https://github.com/wowica",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "adastats.info",
+    "website": "https://adastats.info",
+    "teamGithubURL": "",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
     "name": "Raw Cardano",
     "website": "https://rawcardano.app/",
     "teamGithubURL": "https://github.com/QuixoteSystems",
