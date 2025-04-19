@@ -275,7 +275,7 @@
     "teamGithubURL": "https://github.com/txpipe",
     "tags": ["dev_company", "audit_company"]
   },
-  {
+   {
     "name": "Anastasia Labs",
     "website": "https://anastasialabs.com/",
     "teamGithubURL": "https://github.com/Anastasia-Labs",
@@ -438,6 +438,24 @@
     "tags": ["dev_company"]
   },
   {
+    "name": "Brick Towers",
+    "website": "https://bricktowers.io/",
+    "teamGithubURL": "https://github.com/bricktowers",
+    "tags": ["dev_company"]
+  },
+  { 
+    "name": "XES Software",
+    "website": "https://xes.software/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Vtechcom",
+    "website": "https://vtechcom.org/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
     "name": "Evolute Software",
     "website": "https://evolute.software/",
     "teamGithubURL": "https://github.com/evolute-software",
@@ -548,6 +566,30 @@
   {
     "name": "Trivolve Tech",
     "website": "https://trivolvetech.com/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Yaad Labs",
+    "website": "https://yaadlabs.io/",
+    "teamGithubURL": "https://github.com/yaadlabs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Entropi Labs",
+    "website": "https://www.entropilabs.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Globant",
+    "website": "https://www.globant.com/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Adaxon",
+    "website": "https://adaxon.io/",
     "teamGithubURL": "",
     "tags": ["dev_company"]
   },
