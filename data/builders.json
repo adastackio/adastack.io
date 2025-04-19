@@ -1991,12 +1991,6 @@
     "tags": ["dapp", "gambling_game", "prediction_game"]
   },
   {
-    "name": "cPoker",
-    "website": "https://cpoker.io/",
-    "teamGithubURL": "https://github.com/Cardano-After-Dark",
-    "tags": ["dapp", "gambling_game"]
-  },
-  {
     "name": "Streaks Game Predictions by CNFT",
     "website": "https://streaks.io/",
     "teamGithubURL": "",
@@ -2018,6 +2012,12 @@
     "name": "Gaming-Snek Raffle",
     "website": "https://gaming-snek.com/raffle",
     "teamGithubURL": "",
+    "tags": ["dapp", "gambling_game"]
+  },
+  {
+    "name": "cPoker",
+    "website": "https://cpoker.io/",
+    "teamGithubURL": "https://github.com/Cardano-After-Dark",
     "tags": ["dapp", "gambling_game"]
   },
   {
