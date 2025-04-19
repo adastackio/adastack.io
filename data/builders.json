@@ -213,9 +213,9 @@
     "name": "Cardano Bare Metal Alliance",
     "website": "https://cardanobaremetal.com/",
     "teamGithubURL": "",
-    "tags": ["organization", "stake_pool_alliance", "stake_pool_explorer"]
+    "tags": ["organization", "stake_pool_alliance"]
   },
- {
+  {
     "name": "Mission Driven Pools",
     "website": "https://missiondrivenpools.org",
     "teamGithubURL": "https://github.com/CardanoMDP",
