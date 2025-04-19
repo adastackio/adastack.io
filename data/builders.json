@@ -745,13 +745,6 @@
     "tags": ["game_studio"]
   },
   {
-    "name": "MintMatrix Paper Wallets",
-    "website": "https://mintmatrix.io/paper-wallets",
-    "teamGithubURL": "https://github.com/MintMatrix",
-    "tags": ["dapp", "browser_wallet", "paper_wallet"]
-  },
-
-  {
     "name": "Lace",
     "website": "https://www.lace.io/",
     "teamGithubURL": "https://github.com/input-output-hk",
@@ -924,6 +917,12 @@
     "website": "https://www.nmkr.io/paper-wallet",
     "teamGithubURL": "https://github.com/nftmakerio",
     "repoURL": "",
+    "tags": ["dapp", "paper_wallet"]
+  },
+  {
+    "name": "MintMatrix Paper Wallets",
+    "website": "https://mintmatrix.io/paper-wallets",
+    "teamGithubURL": "https://github.com/MintMatrix",
     "tags": ["dapp", "paper_wallet"]
   },
   {
