@@ -2121,18 +2121,6 @@
     "tags": ["tools"]
   },
   {
-    "name": "Blocks Live Explorer",
-    "website": "https://blocks.workwithcardano.com/",
-    "teamGithubURL": "https://github.com/wowica/blocks",
-    "tags": ["tools", "block_explorer", "block_visualizer"]
-  },
- {
-    "name": "adastats.info",
-    "website": "https://adastats.info",
-    "teamGithubURL": "",
-    "tags": ["tools", "block_explorer", "block_visualizer"]
-  },
-  {
     "name": "Pool.pm",
     "website": "https://pool.pm/",
     "teamGithubURL": "https://github.com/SmaugPool/",
@@ -2372,6 +2360,18 @@
     "website": "https://www.script-explorer.com/",
     "teamGithubURL": "https://github.com/QSchlegel/",
     "tags": ["tools", "block_visualizer"]
+  },
+  {
+    "name": "Blocks Live Explorer",
+    "website": "https://blocks.workwithcardano.com/",
+    "teamGithubURL": "https://github.com/wowica",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "adastats.info",
+    "website": "https://adastats.info",
+    "teamGithubURL": "",
+    "tags": ["tools", "block_explorer"]
   },
   {
     "name": "Raw Cardano",
