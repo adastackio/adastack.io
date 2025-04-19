@@ -2458,7 +2458,7 @@
     "teamGithubURL": "https://github.com/StricaHQ",
     "tags": ["tools", "mempool_explorer"]
   },
-  {
+{
     "name": "CardanoCube",
     "website": "https://www.cardanocube.com/cardano-ecosystem-interactive-map",
     "teamGithubURL": "",
@@ -2558,6 +2558,18 @@
     "name": "Danogo DApps by TVL",
     "website": "https://danogo.io/tvl-report",
     "teamGithubURL": "https://github.com/Danogo2023",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "Cardano Open Source Index",
+    "website": "https://github.com/micahkendall/cardano-opensource-index",
+    "teamGithubURL": "https://github.com/micahkendall",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "DappRadar Cardano DApps",
+    "website": "https://dappradar.com/rankings/protocol/cardano",
+    "teamGithubURL": "https://github.com/dappradar",
     "tags": ["tools", "dapp_explorer"]
   },
   {
