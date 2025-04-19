@@ -2132,7 +2132,6 @@
     "teamGithubURL": "https://github.com/SmaugPool/",
     "tags": ["tools", "block_explorer", "block_visualizer"]
   },
-
   {
     "name": "Berry Pool",
     "website": "https://berrypool.io/",
@@ -2380,13 +2379,25 @@
     "tags": ["tools", "block_visualizer"]
   },
   {
+    "name": "Cexplorer Relay Map",
+    "website": "https://cexplorer.io/relays",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "block_visualizer"]
+  },
+ {
+    "name": "Fiatleak ADA Purchases",
+    "website": "https://fiatleak.com/ada",
+    "teamGithubURL": "",
+    "tags": ["tools", "block_visualizer"]
+  },
+  {
     "name": "Blocks Live Explorer",
     "website": "https://blocks.workwithcardano.com/",
     "teamGithubURL": "https://github.com/wowica",
     "tags": ["tools", "block_explorer"]
   },
   {
-    "name": "adastats.info",
+    "name": "Adastats.info",
     "website": "https://adastats.info",
     "teamGithubURL": "",
     "tags": ["tools", "block_explorer"]
