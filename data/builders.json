@@ -5146,12 +5146,6 @@
     "tags": ["video_channel", "general_youtube"]
   },
   {
-    "name": "Vtechcom Labs",
-    "website": "https://www.youtube.com/channel/UCvN02BoOACd64X8pDCboDmQ/",
-    "teamGithubURL": "",
-    "tags": ["video_channel", "general_youtube", "development_youtube"]
-  },
-  {
     "name": "Cerkoryn",
     "website": "https://www.youtube.com/@rian222",
     "teamGithubURL": "",
@@ -5352,6 +5346,12 @@
   {
     "name": "Open Source Office at Intersect MBO",
     "website": "https://www.youtube.com/@osointersectmbo",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Vtechcom Labs",
+    "website": "https://www.youtube.com/channel/UCvN02BoOACd64X8pDCboDmQ/",
     "teamGithubURL": "",
     "tags": ["video_channel", "development_youtube"]
   },
