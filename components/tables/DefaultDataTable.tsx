@@ -73,9 +73,9 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
           {sortedProjects.map((project, index) => (
             <tr
               key={index}
-              className="nx-m-0 nx-border-t nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20"
+              className="nx-m-0 nx-border-t nx-border-b nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20"
             >
-              <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-1 dark:nx-border-gray-600 table-cell first-column-cell">
+              <td className="nx-m-0 nx-px-4 nx-py-1 dark:nx-border-gray-600 table-cell first-column-cell nx-border-l nx-border-gray-300 dark:nx-border-l-gray-600 border-r-0">
                 <div className="flex items-center justify-between w-full">
                   <span className="flex items-center">
                     <Favicon url={project.website} />
@@ -93,7 +93,7 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
                 </div>
               </td>
 
-              <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
+              <td className="nx-m-0 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell border-r nx-border-r nx-border-gray-300 dark:nx-border-r-gray-600 border-l-0">
                 <ProjectLinkButtons
                   teamGithubURL={project.teamGithubURL}
                   repoURL={project.repoURL}
