@@ -97,6 +97,7 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
                 <ProjectLinkButtons
                   teamGithubURL={project.teamGithubURL}
                   repoURL={project.repoURL}
+                  website={project.website}
                 />
               </td>
             </tr>

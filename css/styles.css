@@ -623,8 +623,9 @@ html[style*="color-scheme: dark;"] td a {
 }
 
 .badge-button {
-  padding: 15px !important;
-  gap: 3px !important;
+  padding-right: 12px !important;
+  padding-left: 12px !important;
+  gap: 6px !important;
 }
 
 a.nextra-card .nextra-card-title {

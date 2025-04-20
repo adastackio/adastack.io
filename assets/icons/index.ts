@@ -9,4 +9,5 @@ export { default as CopySuccessIcon } from "./copy_success.svg";
 export { default as SingleCommitIcon } from "./single_commit.svg";
 export { default as CardanoIcon } from "./cardano.svg";
 export { default as BlueBullet } from "./bluebullet.svg";
+export { default as OpenLinkIcon } from "./openlink.svg";
 export { default as BlankFallback } from "./blank_fallback.svg";
