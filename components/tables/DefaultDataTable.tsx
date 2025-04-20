@@ -1,6 +1,5 @@
 import React from "react";
-import TeamGithubBadge from "@components/badges/TeamGithubBadge";
-import GithubRepoBadge from "@components/badges/GithubRepoBadge";
+import ProjectLinkButtons from "@components/badges/ProjectLinkButtons";
 import Favicon from "@components/badges/Favicon";
 
 interface Project {
@@ -93,30 +92,13 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
                   </span>
                 </div>
               </td>
-              {hasAnyProjectWithRepoURL && (
-                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
-                  {project.repoURL ? (
-                    <GithubRepoBadge
-                      repoURL={project.repoURL}
-                      text="Source Code"
-                    />
-                  ) : (
-                    ""
-                  )}
-                </td>
-              )}
-              {hasAnyProjectWithGithubURL && (
-                <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
-                  {project.teamGithubURL ? (
-                    <TeamGithubBadge
-                      teamGithubURL={project.teamGithubURL}
-                      text="Team"
-                    />
-                  ) : (
-                    ""
-                  )}
-                </td>
-              )}
+
+              <td className="nx-m-0 nx-border nx-border-gray-300 nx-px-4 nx-py-2 dark:nx-border-gray-600 table-cell">
+                <ProjectLinkButtons
+                  teamGithubURL={project.teamGithubURL}
+                  repoURL={project.repoURL}
+                />
+              </td>
             </tr>
           ))}
         </tbody>
