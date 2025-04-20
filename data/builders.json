@@ -1530,7 +1530,36 @@
     "teamGithubURL": "",
     "tags": ["dapp", "dex_dapp"]
   },
-
+  {
+    "name": "DexHunter",
+    "website": "https://www.dexhunter.io/",
+    "teamGithubURL": "https://github.com/DexHunterIO",
+    "tags": ["dapp", "dex_aggregator_dapp"]
+  },
+  {
+    "name": "CardexScan",
+    "website": "https://cardexscan.com",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dex_aggregator_dapp"]
+  },
+  {
+    "name": "Steelswap",
+    "website": "https://steelswap.io/",
+    "teamGithubURL": "https://github.com/fallen-icarus",
+    "tags": ["dapp", "dex_aggregator_dapp"]
+  },
+  {
+    "name": "Fetch",
+    "website": "https://fetch.hosky.io/",
+    "teamGithubURL": "https://github.com/ADA-Markets",
+    "tags": ["dapp", "dex_aggregator_dapp"]
+  },
+  {
+    "name": "CometDefi",
+    "website": "https://www.comet.trade/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dex_aggregator_dapp"]
+  },
   {
     "name": "AdaHandle",
     "website": "https://handle.me/",
