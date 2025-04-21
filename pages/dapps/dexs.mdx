@@ -1,18 +1,20 @@
 ---
 seo_title: DEXs
-seo_description:
+seo_description: Discover top decentralized exchanges, DEX aggregators, and cross-chain DEXs on Cardano. Find the best platforms for secure, low-fee crypto trading.
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # DEXs
 
-This content is being peer reviewed & formally verified. Check back soon!
+Securely trade Cardano assets.
 
-In the meantime, explore other Cardano collections:
+<DefaultDataTable projects={builders} filterBy="dex_dapp" />
 
-- [YouTube Channels](/community/youtube)
-- [Development Firms](/development/dev_teams)
-- [Newsletters](/community/newsletters)
-- [News and Blogs](/community/news_and_blogs)
+### DEX Aggregators
 
-[See the Full Library →](/all_pages)
+Finds optimal prices across multiple decentralized exchanges.
+
+<DefaultDataTable projects={builders} filterBy="dex_aggregator_dapp" />

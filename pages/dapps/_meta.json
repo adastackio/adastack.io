@@ -20,7 +20,7 @@
     }
   },
   "ai": {
-    "title": "AI  ",
+    "title": "AI",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -30,7 +30,7 @@
     }
   },
   "dapp_analysis_and_risk_rating": {
-    "title": "DApp Analysis & Risk Ratings ",
+    "title": "DApp Analysis & Risk Ratings",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -50,7 +50,7 @@
     }
   },
   "data_storage_and_computing": {
-    "title": "Data Storage & Computing  ",
+    "title": "Data Storage & Computing",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -60,7 +60,7 @@
     }
   },
   "defi": {
-    "title": "DeFi  ",
+    "title": "DeFi",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -70,7 +70,7 @@
     }
   },
   "dexs": {
-    "title": "DEXs  ",
+    "title": "DEXs",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -80,7 +80,7 @@
     }
   },
   "domains_and_handles": {
-    "title": "Domains & Handles  ",
+    "title": "Domains & Handles",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -90,7 +90,7 @@
     }
   },
   "education": {
-    "title": "Education  ",
+    "title": "Education",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -99,8 +99,8 @@
       "pagination": false
     }
   },
-  "events_and_ticketing": {
-    "title": "Events & Ticketing  ",
+  "ticketing_and_token_gating": {
+    "title": "Ticketing & Token Gating",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -110,7 +110,7 @@
     }
   },
   "identity": {
-    "title": "Identity  ",
+    "title": "Identity",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -120,7 +120,17 @@
     }
   },
   "impact_and_environment": {
-    "title": "Impact & Environment  ",
+    "title": "Impact & Environment",
+    "theme": {
+      "breadcrumb": true,
+      "sidebar": true,
+      "toc": true,
+      "footer": true,
+      "pagination": false
+    }
+  },
+    "media_and_music": {
+    "title": "Media & Music",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -130,7 +140,7 @@
     }
   },
   "medical_and_health": {
-    "title": "Medical & Health  ",
+    "title": "Medical & Health",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -140,7 +150,7 @@
     }
   },
   "messaging_and_chat": {
-    "title": "Messaging & Chat  ",
+    "title": "Messaging & Chat",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -150,7 +160,7 @@
     }
   },
   "payments_and_ecommerce": {
-    "title": "Payments & E-Commerce  ",
+    "title": "Payments & E-Commerce",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -160,7 +170,7 @@
     }
   },
   "privacy_and_security": {
-    "title": "Privacy & Security  ",
+    "title": "Privacy & Security",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -170,7 +180,7 @@
     }
   },
   "real_world_assets": {
-    "title": "Real World Assets  ",
+    "title": "Real World Assets",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -180,7 +190,7 @@
     }
   },
   "reward_distribution": {
-    "title": "Reward Distribution  ",
+    "title": "Reward Distribution",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -190,7 +200,7 @@
     }
   },
   "signing_and_verification": {
-    "title": "Signing & Verification  ",
+    "title": "Signing & Verification",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -200,7 +210,7 @@
     }
   },
   "social_media": {
-    "title": "Social Media  ",
+    "title": "Social Media",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
@@ -210,17 +220,7 @@
     }
   },
   "supply_chain": {
-    "title": "Supply Chain  ",
-    "theme": {
-      "breadcrumb": true,
-      "sidebar": true,
-      "toc": true,
-      "footer": true,
-      "pagination": false
-    }
-  },
-  "more_dapps": {
-    "title": "More DApps  ",
+    "title": "Supply Chain",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

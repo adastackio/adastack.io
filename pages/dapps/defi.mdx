@@ -1,18 +1,42 @@
 ---
-seo_title: DeFi
-seo_description:
+seo_title: DeFi DApps
+seo_description: Explore top Cardano DeFi DApps! Discover platforms for lending, borrowing, indexes, synthetics, and derivatives — all on the secure Cardano network.
 toc: false
 ---
 
-# DeFi
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
 
-This content is being peer reviewed & formally verified. Check back soon!
+# DeFi DApps
 
-In the meantime, explore other Cardano collections:
+Smart contract-driven financial services.
 
-- [YouTube Channels](/community/youtube)
-- [Development Firms](/development/dev_teams)
-- [Newsletters](/community/newsletters)
-- [News and Blogs](/community/news_and_blogs)
+### Lending and Borrowing
 
-[See the Full Library →](/all_pages)
+Lend and borrow native assets on Cardano.
+
+<DefaultDataTable projects={builders} filterBy="lending_dapp" />
+
+### Indexes
+
+Diversify your portfolio with a basket of crypto assets.
+
+<DefaultDataTable projects={builders} filterBy="index_dapp" />
+
+### Synthetic Assets
+
+Programmable assets mirroring real-world prices.
+
+<DefaultDataTable projects={builders} filterBy="synthetics_dapp" />
+
+### Derivatives
+
+Financial instruments including options, futures, and perpetual contracts.
+
+<DefaultDataTable projects={builders} filterBy="derivatives_dapp" />
+
+### Mining
+
+Platforms offering shared profits from cryptocurrency mining.
+
+<DefaultDataTable projects={builders} filterBy="mining_dapp" />
