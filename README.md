@@ -64,6 +64,32 @@ Feel free to **star** or **add new projects**. We love PRs :)
     - [Dev Wallets](#dev-wallets)
     - [Specialized Wallets](#specialized-wallets)
 - [DApps](#dapps)
+    - [AI DApps](#ai-dapps)
+    - [DApp Analysis and Risk Rating](#dapp-analysis-and-risk-rating)
+    - [DApp Explorers](#dapp-explorers)
+    - [DEX Aggregators](#dex-aggregators)
+    - [DEXs](#dexs)
+    - [Data Storage and Computing](#data-storage-and-computing)
+    - [Derivatives DApps](#derivatives-dapps)
+    - [Domains and Handles](#domains-and-handles)
+    - [Education DApps](#education-dapps)
+    - [Identity DApps](#identity-dapps)
+    - [Impact and Environment DApps](#impact-and-environment-dapps)
+    - [Index DApps](#index-dapps)
+    - [Lending and Borrowing DApps](#lending-and-borrowing-dapps)
+    - [Media and Music DApps](#media-and-music-dapps)
+    - [Medical and Health DApps](#medical-and-health-dapps)
+    - [Messaging and Chat DApps](#messaging-and-chat-dapps)
+    - [Mining DApps](#mining-dapps)
+    - [Payments and E-Commerce DApps](#payments-and-e-commerce-dapps)
+    - [Privacy DApps](#privacy-dapps)
+    - [Real World Assets](#real-world-assets)
+    - [Reward Distribution DApps](#reward-distribution-dapps)
+    - [Signing and Verification DApps](#signing-and-verification-dapps)
+    - [Social Media DApps](#social-media-dapps)
+    - [Supply Chain DApps](#supply-chain-dapps)
+    - [Synthetic Asset DApps](#synthetic-asset-dapps)
+    - [Ticketing and Token Gating DApps](#ticketing-and-token-gating-dapps)
 - [NFTs](#nfts)
 - [Games](#games)
 - [Governance](#governance)
@@ -90,6 +116,8 @@ Feel free to **star** or **add new projects**. We love PRs :)
 ### Intro Courses
 
 - [Blockchain Education Program](https://academy.cardanofoundation.org/) [![GitHub][GitHub Icon]](https://github.com/cardano-foundation)
+- [Learn Cardano](https://learncardano.io/courses/) [![GitHub][GitHub Icon]](https://github.com/pbwebdev)
+- [Academia Cardan](https://academiacardano.com/)
 - [Kaizen Crypto Cardano 101 Course](https://www.youtube.com/playlist?list=PLrbMFdXZnzoAwfxIVo-SQ_qEBCqbwuU6o)
 
 ### Books
@@ -151,9 +179,12 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Alethea](https://alethea.io/pools) [![GitHub][GitHub Icon]](https://github.com/alethea-io)
 - [PoolTool](https://pooltool.io/pools) [![GitHub][GitHub Icon]](https://github.com/PoolTool-io)
 - [CardanoScan Pools](https://cardanoscan.io/pools) [![GitHub][GitHub Icon]](https://github.com/StricaHQ)
+- [SPO Yellow Pages](https://spoyellowpages.com/) [![GitHub][GitHub Icon]](https://github.com/lucifer911)
 - [Armada Alliance](https://armada-alliance.com) [![GitHub][GitHub Icon]](https://github.com/armada-alliance/)
 - [Stakada](https://stakada.io)
 - [Upstream](https://upstream.org.uk/cardano-stake-pool-explorer)
+- [Cardano-Scan Stake Pools](https://cardano-scan.com/pools)
+- [Poolinfo.me](https://poolinfo.me/)
 
 ### Stake Reward History
 
@@ -165,8 +196,10 @@ Feel free to **star** or **add new projects**. We love PRs :)
 ### Stake Reward Calculators
 
 - [Cardano Staking Calculator](https://cardano.org/calculator) [![GitHub][GitHub Icon]](https://github.com/cardano-foundation/)
+- [Ada Calculator](https://adacalculator.com/cardano-staking-calculator) [![GitHub][GitHub Icon]](https://github.com/cardanoumbrella)
 - [Antipalos Calculator](https://antipalos.github.io/cardano-calculator/#calculator) [![GitHub][GitHub Icon]](https://github.com/antipalos)
 - [Armada Alliance](https://armada-alliance.com) [![GitHub][GitHub Icon]](https://github.com/armada-alliance/)
+- [Cardaviz](https://cardaviz.app)
 - [Cardano with Paul Calculators](https://www.cardanowithpaul.com/calculators)
 
 ### Stake Reward Calendars
@@ -185,6 +218,7 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Canadian Cardano Stake Pool Association (CCSPA)](https://ccspa.ca) [![GitHub][GitHub Icon]](https://github.com/CCSPA)
 - [StakePool Operator Tools Alliance](https://github.com/gitmachtl/StakePool-Operator-Tools-Alliance) [![GitHub][GitHub Icon]](https://github.com/gitmachtl/)
 - [Aldea Latin America DAO](https://aldea-dao.org) [![GitHub][GitHub Icon]](https://github.com/ALDEA-DAO)
+- [Cardano Bare Metal Alliance](https://cardanobaremetal.com/)
 - [Climate Neutral Cardano](https://climateneutralcardano.org)
 
 ### ISPO Explorer
@@ -197,6 +231,9 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Prometheus](https://prometheus.io/) [![GitHub][GitHub Icon]](https://github.com/prometheus)
 - [Grafana](https://grafana.com/) [![GitHub][GitHub Icon]](https://github.com/grafana)
 - [RT View](https://github.com/IntersectMBO/cardano-node/blob/master/cardano-tracer/docs/cardano-rtview.md) [![GitHub][GitHub Icon]](https://github.com/IntersectMBO)
+- [Core Monitor](https://github.com/happystaking/core-monitor) [![GitHub][GitHub Icon]](https://github.com/happystaking)
+- [Watchtower Tools](https://watchtower.tools/) [![GitHub][GitHub Icon]](https://github.com/bkvpool)
+- [CardanoAPI Mempool Check](https://mempool.cardanoapi.io/) [![GitHub][GitHub Icon]](https://github.com/dQuadrant)
 - [Nview](https://github.com/blinklabs-io/nview) [![GitHub][GitHub Icon]](https://github.com/blinklabs-io)
 - [Cardano Light Tools](https://github.com/orpheus-antpool/cardano-light-tools) [![GitHub][GitHub Icon]](https://github.com/orpheus-antpool)
 - [Cardano Node Audit](https://github.com/Kirael12/cardano-node-audit) [![GitHub][GitHub Icon]](https://github.com/Kirael12)
@@ -215,6 +252,7 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Self Driven Foundation](https://selfdriven.foundation/) [![GitHub][GitHub Icon]](https://github.com/selfdriven-foundation)
 - [Single Pool Alliance](https://singlepoolalliance.net/) [![GitHub][GitHub Icon]](https://github.com/SinglePoolAlliance)
 - [NFT Guild](https://www.nft-guild.io/) [![GitHub][GitHub Icon]](https://github.com/NFT-Guild)
+- [BitVMX Force]((https://bitvmx.org/) [![GitHub][GitHub Icon]](https://github.com/FairgateLabs)
 - [Littlefish Foundation](https://littlefish.foundation/) [![GitHub][GitHub Icon]](https://github.com/littlefish-foundation)
 - [Project Catalyst](https://projectcatalyst.io/) [![GitHub][GitHub Icon]](https://github.com/Project-Catalyst)
 - [Cardano Community](https://cardano-community.github.io) [![GitHub][GitHub Icon]](https://github.com/cardano-community)
@@ -240,12 +278,15 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [StakePool Operator Tools Alliance](https://github.com/gitmachtl/StakePool-Operator-Tools-Alliance) [![GitHub][GitHub Icon]](https://github.com/gitmachtl/)
 - [Lovelace Academy](https://lovelace.academy/) [![GitHub][GitHub Icon]](https://github.com/lovelaceacademy)
 - [West Africa Decentralized Alliance (WADA)](https://www.wada.org/)
+- [Cardano Development & Ecosystem Cooperative](https://cdec.site/)
+- [Cardano Builder DAO]((https://buildingoncardano.io/)
 - [Cardano Blockchain Infrastructure Alliance](https://cbia.io/)
 - [The Proof of Stake Alliance](https://www.proofofstakealliance.org/)
 - [Blockchain Game Alliance](https://blockchaingamealliance.net/)
 - [Cardano Confederation](https://www.cardanoconfederation.org/)
 - [UTXO Alliance](https://utxo-alliance.org)
 - [Cardano4Good](https://cardano4good.net/)
+- [Cardano Bare Metal Alliance](https://cardanobaremetal.com/)
 - [Climate Neutral Cardano](https://climateneutralcardano.org)
 
 ### News Websites
@@ -254,6 +295,8 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Cexplorer Articles](https://cexplorer.io/article) [![GitHub][GitHub Icon]](https://github.com/cexplorer)
 - [Cardano Spot](https://cardanospot.io/news-feed) [![GitHub][GitHub Icon]](https://github.com/emurgo)
 - [Adapulse](https://adapulse.io/)
+- [CardanoCube Resources](https://www.cardanocube.com/resources)
+- [Tap Tools News](https://www.taptools.io/news)
 - [Ada Plug](https://adaplug.com/blog/)
 - [Cardano Feed](https://cardanofeed.com/)
 - [r/Cardano Reddit News](https://www.reddit.com/r/cardano/?f=flair_name%3A%22News%22)
@@ -473,6 +516,10 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Digital Fortress](https://www.youtube.com/@DigitalFortress)
 - [Woodland Pools](https://www.youtube.com/@WoodlandPools)
 - [Kaizen Crypto](https://www.youtube.com/@KaizenCrypto)
+- [Digital Asset News](https://www.youtube.com/@DigitalAssetNews)
+- [Cardano News Now](https://www.youtube.com/@CARDANONEWSNOW/)
+- [Thesis & Dysmorphia](https://www.youtube.com/@thesisdysmo)
+- [The Media3 Report](https://www.youtube.com/c/CardanoHubs)
 - [Nova Cardano Stake Pool](https://www.youtube.com/@NOVApool)
 - [ADA North Pool](https://youtube.com/@adanorthpool5123)
 - [Nordic Ada](https://www.youtube.com/@NordicADA)
@@ -551,6 +598,7 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [dcSpark](https://www.youtube.com/@dcSpark)
 - [Satya](https://www.youtube.com/@Satya-tb4we)
 - [Open Source Office at Intersect MBO](https://www.youtube.com/@osointersectmbo)
+- [Vtechcom Labs](https://www.youtube.com/channel/UCvN02BoOACd64X8pDCboDmQ/)
 - [Ars magna](https://www.youtube.com/@ars-magna)
 - [TxBody](https://www.youtube.com/@txbody-ada)
 - [MLabs](https://www.youtube.com/@MlabsUK)
@@ -636,6 +684,8 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Muesliswap](https://www.youtube.com/@muesliswap7512/)
 - [Wingriders](https://youtube.com/@wingriderscom)
 - [Coti](https://www.youtube.com/@COTIGroup)
+- [ZKDID](https://www.youtube.com/@zkdid)
+- [Xray Network](https://www.youtube.com/@xray-network)
 - [Foreon Prediction](https://www.youtube.com/@foreonnetwork)
 - [Sundaeswap](https://www.youtube.com/@sundaeswaplabs)
 - [Genius Yield](https://www.youtube.com/@geniusyield6151)
@@ -783,7 +833,10 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Online Kannada Crypto Talks](https://www.youtube.com/@OnlineKannada): Kannada
 - [Cryptolokam](https://www.youtube.com/@Cryptolokam): Malayalam
 - [Logic Chat](https://www.youtube.com/@LogicChat): Malayalam
+- [Web3EduBrasil](https://youtube.com/@web3edubrasil): Portuguese
+- [BoscoNFT](https://www.youtube.com/@BoscoNFTs): Portuguese
 - [Cardanistas](https://www.youtube.com/@Cardanistas): Portuguese
+- [Charles Hoskinson Brasil](https://www.youtube.com/@charleshoskinsoncryptobrasil): Portuguese
 - [Catalyst School Brasil](https://www.youtube.com/@CatalystBrasil): Portuguese
 - [GovChainLab](https://www.youtube.com/@GovChainLab): Portuguese
 - [Orégano Research](https://www.youtube.com/@oreganoresearch): Portuguese
@@ -836,6 +889,8 @@ Feel free to **star** or **add new projects**. We love PRs :)
 
 - [Intersect Newsletter](https://intersectmbo.org/news)
 - [Cardano Newsletter](https://www.cardanonewsletter.com)
+- [Essential Cardano Newsletter by IOG](https://www.essentialcardano.io/)
+- [Tap in with TapTools](https://medium.com/@TapInWithTapTools)
 - [Cardano Community Digest](https://cardano.org/newsletter)
 - [Catalyst Newsletter](https://projectcatalyst.io/news)
 - [Cardano Spotlight](https://cardanospot.beehiiv.com)
@@ -854,17 +909,21 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Adastat.net](https://adastat.net/) [![GitHub][GitHub Icon]](https://github.com/CardanoExplorer)
 - [Cexplorer.io](https://cexplorer.io/) [![GitHub][GitHub Icon]](https://github.com/cexplorer)
 - [CardanoScan](https://cardanoscan.io/) [![GitHub][GitHub Icon]](https://github.com/StricaHQ/)
+- [Blocks Live Explorer](https://blocks.workwithcardano.com/) [![GitHub][GitHub Icon]](https://github.com/wowica)
 - [Raw Cardano](https://rawcardano.app/) [![GitHub][GitHub Icon]](https://github.com/QuixoteSystems)
 - [Blockchair](https://blockchair.com/cardano) [![GitHub][GitHub Icon]](https://github.com/blockchair)
 - [3xpl](https://3xpl.com/cardano) [![GitHub][GitHub Icon]](https://github.com/3xplcom)
 - [Eutxo.org](https://eutxo.org/)
+- [Adastats.info](https://adastats.info)
 
 ### Blockchain Visualizer
 
 - [Pool.pm](https://pool.pm/) [![GitHub][GitHub Icon]](https://github.com/SmaugPool/)
 - [CGlobe.io](https://cglobe.io/) [![GitHub][GitHub Icon]](https://github.com/cardanotech)
 - [Script Explorer](https://www.script-explorer.com/) [![GitHub][GitHub Icon]](https://github.com/QSchlegel/)
+- [Cexplorer Relay Map](https://cexplorer.io/relays) [![GitHub][GitHub Icon]](https://github.com/cexplorer)
 - [Eutxo.org](https://eutxo.org/)
+- [Fiatleak ADA Purchases](https://fiatleak.com/ada)
 
 ### Mempool Explorer
 
@@ -929,11 +988,13 @@ Feel free to **star** or **add new projects**. We love PRs :)
 
 - [Lace](https://www.lace.io/) [![GitHub][GitHub Icon]](https://github.com/input-output-hk)
 - [NMKR Paper](https://www.nmkr.io/paper-wallet) [![GitHub][GitHub Icon]](https://github.com/nftmakerio)
+- [MintMatrix Paper Wallets](https://mintmatrix.io/paper-wallets) [![GitHub][GitHub Icon]](https://github.com/MintMatrix)
 
 ### Identity Wallets
 
 - [CF Identity](https://identity.cardanofoundation.org/) [![GitHub][GitHub Icon]](https://github.com/cardano-foundation)
 - [BlockTrust](https://blocktrust.dev/identitywallet) [![GitHub][GitHub Icon]](https://github.com/bsandmann)
+- [Veridian](https://www.veridian.id/) [![GitHub][GitHub Icon]](https://github.com/cardano-foundation/)
 - [Socious](https://socious.io/) [![GitHub][GitHub Icon]](https://github.com/socious-io/)
 - [IAMX](https://iamx.id/) [![GitHub][GitHub Icon]](https://github.com/iamxid)
 
@@ -947,6 +1008,7 @@ Feel free to **star** or **add new projects**. We love PRs :)
 ### Dev Wallets
 
 - [Sundae Sorbet](https://github.com/SundaeSwap-finance/Sorbet) [![GitHub][GitHub Icon]](https://github.com/SundaeSwap-finance/)
+- [WingRiders Wallet](https://github.com/WingRiders/wallet) [![GitHub][GitHub Icon]](https://github.com/WingRiders/)
 - [MLabs Dev](https://github.com/mlabs-haskell/cardano-dev-wallet) [![GitHub][GitHub Icon]](https://github.com/mlabs-haskell/)
 - [P2P Wallet](https://github.com/fallen-icarus/p2p-wallet) [![GitHub][GitHub Icon]](https://github.com/fallen-icarus/)
 - [Mynth CLI](https://github.com/MynthAI/wallet) [![GitHub][GitHub Icon]](https://github.com/MynthAI/)
@@ -962,6 +1024,276 @@ Feel free to **star** or **add new projects**. We love PRs :)
 - [Salesforce Wallet](https://github.com/MuKnSys/ada-wallet-for-salesforce) [![GitHub][GitHub Icon]](https://github.com/MuKnSys/)
 
 # DApps
+
+### AI DApps
+
+- [Masumi Network](https://www.masumi.network/) [![GitHub][GitHub Icon]](https://github.com/masumi-network)
+- [SingularityNET](https://singularitynet.io/) [![GitHub][GitHub Icon]](https://github.com/singnet)
+- [Quorina](https://quorina.com/) [![GitHub][GitHub Icon]](https://github.com/inimrod)
+- [Hey Octo](https://heyocto.ai/) [![GitHub][GitHub Icon]](https://github.com/selfdriven-foundation)
+- [Quatern.ai](https://quatern.ai/) [![GitHub][GitHub Icon]](https://github.com/quatern-ai)
+- [CardanoGPT](https://cardanogpt.ai/) [![GitHub][GitHub Icon]](https://github.com/cardanogpt)
+- [Nunet](https://www.nunet.io/) [![GitHub][GitHub Icon]](https://gitlab.com/nunet)
+- [Market Raker](https://raker.market/) [![GitHub][GitHub Icon]](https://github.com/marketraker)
+- [RejuveAI](https://www.rejuve.ai/) [![GitHub][GitHub Icon]](https://github.com/Rejuve)
+- [Artificial Superintelligence Alliance](https://superintelligence.io/)
+- [Sync AI](https://www.syncai.network/)
+- [Farmroll](https://farmroll.io/)
+- [Chakra Agents](https://chakra-ai.io/)
+- [Catsky AI](https://catsky.io/)
+- [Dedium](https://dedium.io/)
+
+### DApp Analysis and Risk Rating
+
+- [Xerberus](https://xerberus.io/) [![GitHub][GitHub Icon]](https://github.com/XerberusTeam)
+- [Audit Ocean](https://auditocean.com/projects) [![GitHub][GitHub Icon]](https://github.com/SCATDAO)
+- [DYOR Tool](https://dyortool.io/) [![GitHub][GitHub Icon]](https://github.com/SCATDAO)
+- [SCAT DAO](https://www.scatdao.com/) [![GitHub][GitHub Icon]](https://github.com/SCATDAO)
+- [Tempo DApp Ranking](https://tempo.vote/dapp-ranking)
+- [Crowdtrendz](https://crowdtrendz.io/dapp-analytics/)
+- [CRCI Review](https://www.crci.review/)
+
+### DApp Explorers
+
+- [Cardano.org Showcase](https://developers.cardano.org/showcase) [![GitHub][GitHub Icon]](https://github.com/cardano-foundation)
+- [Alethea DApps](https://alethea.io/dapps) [![GitHub][GitHub Icon]](https://github.com/alethea-io)
+- [DefiLlama Cardano](https://defillama.com/chain/Cardano) [![GitHub][GitHub Icon]](https://github.com/DefiLlama)
+- [DApp Radar](https://dappradar.com/rankings/protocol/cardano) [![GitHub][GitHub Icon]](https://github.com/dappradar)
+- [Cexplorer Scripts](https://cexplorer.io/dapps) [![GitHub][GitHub Icon]](https://github.com/cexplorer)
+- [Danogo DApps by TVL](https://danogo.io/tvl-report) [![GitHub][GitHub Icon]](https://github.com/Danogo2023)
+- [Cardano Open Source Index](https://github.com/micahkendall/cardano-opensource-index) [![GitHub][GitHub Icon]](https://github.com/micahkendall)
+- [DappRadar Cardano DApps](https://dappradar.com/rankings/protocol/cardano) [![GitHub][GitHub Icon]](https://github.com/dappradar)
+- [DC One Crypto](https://dconecrypto.finance/) [![GitHub][GitHub Icon]](https://github.com/DCOneCrypto)
+- [CardanoCube](https://www.cardanocube.com/cardano-ecosystem-interactive-map)
+- [Built on Cardano](https://builtoncardano.com)
+- [Taptools](https://www.taptools.io)
+
+### DEX Aggregators
+
+- [DexHunter](https://www.dexhunter.io/) [![GitHub][GitHub Icon]](https://github.com/DexHunterIO)
+- [Steelswap](https://steelswap.io/) [![GitHub][GitHub Icon]](https://github.com/fallen-icarus)
+- [Fetch](https://fetch.hosky.io/) [![GitHub][GitHub Icon]](https://github.com/ADA-Markets)
+- [CardexScan](https://cardexscan.com)
+- [CometDefi](https://www.comet.trade/)
+
+### DEXs
+
+- [Minswap](https://minswap.org/) [![GitHub][GitHub Icon]](https://github.com/minswap)
+- [SundaeSwap](https://sundae.fi/) [![GitHub][GitHub Icon]](https://github.com/SundaeSwap-finance)
+- [MuesliSwap](https://muesliswap.com/) [![GitHub][GitHub Icon]](https://github.com/MuesliSwapTeam)
+- [Splash protocol](https://www.splash.trade/) [![GitHub][GitHub Icon]](https://github.com/splashprotocol)
+- [Wingriders](https://www.wingriders.com/) [![GitHub][GitHub Icon]](https://github.com/WingRiders)
+- [Genius Yield](https://www.geniusyield.co/) [![GitHub][GitHub Icon]](https://github.com/geniusyield)
+- [VyFi](https://vyfi.io/) [![GitHub][GitHub Icon]](https://github.com/vyfi)
+- [CSwap](https://www.cswap.info/) [![GitHub][GitHub Icon]](https://github.com/cswapsystems)
+- [Delta DeFi](https://deltadefi.io) [![GitHub][GitHub Icon]](https://github.com/deltadefi-protocol)
+- [Saturn Swap](https://saturnswap.io/) [![GitHub][GitHub Icon]](https://github.com/Orion-Crypto)
+- [Nikeswap](https://nikeswap.io/)
+- [Adaex](https://adaex.app/)
+
+### Data Storage and Computing
+
+- [Iagon](https://iagon.com/) [![GitHub][GitHub Icon]](https://github.com/iagonorg)
+- [Nuvola Digital](https://www.nuvoladigital.io/) [![GitHub][GitHub Icon]](https://github.com/Nuvola-Digital)
+- [Nunet](https://www.nunet.io/) [![GitHub][GitHub Icon]](https://gitlab.com/nunet)
+- [ReCheck Vault](https://recheck.io/) [![GitHub][GitHub Icon]](https://github.com/ReCheck-io/)
+- [Dedium](https://dedium.io/)
+- [Vault 3](https://vault3.io/)
+
+### Derivatives DApps
+
+- [Strike Finance](https://strikefinance.org/) [![GitHub][GitHub Icon]](https://github.com/strike-finance)
+- [Optionflow](https://optionflow.finance/)
+
+### Domains and Handles
+
+- [AdaHandle](https://handle.me/) [![GitHub][GitHub Icon]](https://github.com/koralabs)
+- [Adamail](https://www.adamail.me/) [![GitHub][GitHub Icon]](https://github.com/nftmakerio)
+- [Digitalis Domains](https://www.digitalis.domains/) [![GitHub][GitHub Icon]](https://github.com/digitalis-domains)
+- [Cardano DNS](https://github.com/blinklabs-io/cardano-dns) [![GitHub][GitHub Icon]](https://github.com/blinklabs-io/)
+- [Bgin.id](https://begin.is/) [![GitHub][GitHub Icon]](https://github.com/B58-Finance)
+- [Kliq from Iagon](https://kliq.iagon.com/) [![GitHub][GitHub Icon]](https://github.com/iagonorg)
+- [Adadomains](https://www.adadomains.io/) [![GitHub][GitHub Icon]](https://github.com/adadomains)
+- [SyncID from SyncAI](https://docs.syncai.network/features/syncid)
+- [.ZKDID](https://www.zkd.id/)
+
+### Education DApps
+
+- [Andiamo Platform](https://www.andamio.io/) [![GitHub][GitHub Icon]](https://github.com/gimbalabs)
+- [Wisdom Courses](https://wisdom.courses/) [![GitHub][GitHub Icon]](https://github.com/The-Working-Dead)
+- [Olympus Insights](https://olympusinsights.io/)
+- [DirectEd Development](https://www.directed.dev/)
+
+### Identity DApps
+
+- [Hyperledger Identus](https://github.com/hyperledger-identus) [![GitHub][GitHub Icon]](https://github.com/hyperledger-identus)
+- [IAMX](https://iamx.id/) [![GitHub][GitHub Icon]](https://github.com/iamxid)
+- [Veridian](https://www.veridian.id/) [![GitHub][GitHub Icon]](https://github.com/cardano-foundation)
+- [SelfDriven Identity](https://selfdriven.id/) [![GitHub][GitHub Icon]](https://github.com/selfdriven-foundation)
+- [Iagon Statur](https://docs.iagon.com/overview/products/statur) [![GitHub][GitHub Icon]](https://github.com/iagonorg)
+- [Trust Level](https://www.trustlevel.io/) [![GitHub][GitHub Icon]](https://github.com/TrustLevel)
+- [Blocktrust](https://blocktrust.dev/) [![GitHub][GitHub Icon]](https://github.com/bsandmann)
+- [RootsID](https://rootsid.com/) [![GitHub][GitHub Icon]](https://github.com/roots-id)
+- [ShinID](https://shinid.com/) [![GitHub][GitHub Icon]](https://github.com/socious-io)
+- [Proof of Space](https://www.proofspace.id/) [![GitHub][GitHub Icon]](https://github.com/zakaio)
+- [Adasouls](https://www.adasouls.io/) [![GitHub][GitHub Icon]](https://github.com/AdaSouls)
+- [ZKDID](https://www.zkd.id/)
+- [Fairway Global](https://fairway.global)
+
+### Impact and Environment DApps
+
+- [Empowa](https://empowa.io/) [![GitHub][GitHub Icon]](https://github.com/empowa-io)
+- [Plastiks](https://www.plastiks.io/) [![GitHub][GitHub Icon]](https://github.com/Plastiks-io)
+- [Open Litter Map](https://openlittermap.com/) [![GitHub][GitHub Icon]](https://github.com/OpenLitterMap)
+- [Veritree](https://www.veritree.com/)
+- [Cardano4Good](https://cardano4good.net/)
+- [Aquara](https://www.aquara.io/)
+- [UNHCR](https://unrefugees.ch/en/blockchain-refugees)
+- [Crypto for Life](https://cryptoforlife.org/)
+- [Commonlands](https://www.commonlands.org/)
+- [Eon Power](https://eonpower.energy/)
+- [DirectEd Development](https://www.directed.dev/)
+
+### Index DApps
+
+- [Metera](https://www.metera.io/) [![GitHub][GitHub Icon]](https://github.com/MeteraLabs)
+- [Mayz](https://mayz.io/) [![GitHub][GitHub Icon]](https://github.com/MAYZGitHub/)
+- [Xerberus Index Vaults](https://app.xerberus.io/index/vaults) [![GitHub][GitHub Icon]](https://github.com/XerberusTeam)
+- [Linkage Finance](https://linkage.finance/)
+- [Apex Index](https://apexindex.io/)
+- [PBG Token](https://www.pbg.io/)
+
+### Lending and Borrowing DApps
+
+- [Liqwid Finance](https://liqwid.finance/) [![GitHub][GitHub Icon]](https://github.com/liqwid-labs)
+- [Lenfi](https://lenfi.io/) [![GitHub][GitHub Icon]](https://github.com/lenfiLabs)
+- [Fluid Tokens](https://fluidtokens.com/) [![GitHub][GitHub Icon]](https://github.com/fluidtokens)
+- [Optim Finance](https://www.optim.finance/) [![GitHub][GitHub Icon]](https://github.com/OptimFinance)
+- [Yamfore](https://yamfore.com/) [![GitHub][GitHub Icon]](https://github.com/BigBlymp)
+- [Danogo](https://danogo.io/) [![GitHub][GitHub Icon]](https://github.com/Danogo2023/)
+- [Cerra.io](https://cerra.io/) [![GitHub][GitHub Icon]](https://github.com/cerraio)
+- [Nova Finance](https://www.novafinance.io/) [![GitHub][GitHub Icon]](https://github.com/Nova-Finance)
+- [Pondora](https://pondora.org/)
+- [Levvy.fi](https://levvy.fi/)
+
+### Media and Music DApps
+
+- [Book.io](https://book.io/) [![GitHub][GitHub Icon]](https://github.com/book-io)
+- [NEWM](https://newm.io/) [![GitHub][GitHub Icon]](https://github.com/projectNEWM)
+- [Nucast](https://www.nucast.io/) [![GitHub][GitHub Icon]](https://github.com/Nucastio)
+- [Stuff.io](https://stuff.io/) [![GitHub][GitHub Icon]](https://github.com/book-io)
+- [Sync.Land](https://www.sync.land/) [![GitHub][GitHub Icon]](https://github.com/Awen-online)
+- [Cardano Sounds](https://app.cardanosounds.com/) [![GitHub][GitHub Icon]](https://github.com/cardanosounds)
+- [Demu Jukebox](https://www.demu.pro/)
+- [Sick City](SickCity.xyz)
+- [SongMarketCap](https://www.songmarketcap.com/)
+- [SoundRig](https://soundrig.io/)
+- [Psyence Lab](https://www.psyencelab.media/)
+
+### Medical and Health DApps
+
+- [Rejuve](https://www.rejuve.ai/) [![GitHub][GitHub Icon]](https://github.com/Rejuve)
+- [Larissa Health](https://larissa.health/) [![GitHub][GitHub Icon]](https://github.com/Larissa-Health)
+- [BeHub](https://behub.com.au/)
+- [Biotalife](https://biotalifeskin.com/)
+
+### Messaging and Chat DApps
+
+- [Adamail](https://www.adamail.me/) [![GitHub][GitHub Icon]](https://github.com/nftmakerio)
+- [Reach your People](https://www.ryp.io/) [![GitHub][GitHub Icon]](https://github.com/nilscodes/)
+- [Selfdriven Social](https://github.com/selfdriven-foundation/selfdriven-social) [![GitHub][GitHub Icon]](https://github.com/selfdriven-foundation)
+- [Sync AI](https://www.syncai.network/)
+- [Callers](https://www.callers.trade/)
+- [Joiz](https://joiz.io/)
+
+### Mining DApps
+
+- [Cardania Ultra Nexus Miners](https://cardania.com/) [![GitHub][GitHub Icon]](https://github.com/cardania)
+- [Goofy Gophers Mining Club](https://www.ggmc.io/)
+- [House of Titans](https://houseoftitans.io/)
+- [Bank](https://www.bankerlabs.io/)
+- [Snekkies](https://snekkies.com/)
+- [Frogs on Cardano](https://linktr.ee/frogsoncardano)
+
+### Payments and E-Commerce DApps
+
+- [NMKR Pay](https://docs.nmkr.io/nmkr-studio/set-up-sales/nmkr-pay) [![GitHub][GitHub Icon]](https://github.com/nftmakerio)
+- [LedgerFlow from Iagon](https://docs.iagon.com/overview/products/ledgerflow) [![GitHub][GitHub Icon]](https://github.com/iagonorg)
+- [Ada Pay](https://adapay.finance/) [![GitHub][GitHub Icon]](https://github.com/coti-io)
+- [Veralidity](https://veralidity.com/) [![GitHub][GitHub Icon]](https://github.com/veralidity)
+- [Mugraph](https://mugraph.dev/) [![GitHub][GitHub Icon]](https://github.com/mugraph-payments)
+- [Reeve](https://www.cardanofoundation.org/reeve) [![GitHub][GitHub Icon]](github.com/cardano-foundation/)
+- [Ekival](https://ekival.com/) [![GitHub][GitHub Icon]](https://github.com/ekival-labs)
+- [Ada Payment Link](https://github.com/adalicious/payment-link) [![GitHub][GitHub Icon]](https://github.com/adalicious/payment-link)
+
+### Privacy DApps
+
+- [Encoins](https://www.encoins.io/) [![GitHub][GitHub Icon]](https://github.com/encryptedcoins)
+- [Mugraph](https://mugraph.dev/) [![GitHub][GitHub Icon]](https://github.com/mugraph-payments)
+- [Turn Network](https://www.turnprivacy.org/)
+- [Cardano Mix](https://cardanomix.com)
+
+### Real World Assets
+
+- [Palmyra](https://palmyra.app/) [![GitHub][GitHub Icon]](https://github.com/zenGate-Global)
+- [Zengate](https://www.zengate.global/) [![GitHub][GitHub Icon]](https://github.com/zenGate-Global)
+- [CSwap](https://www.cswap.fi/) [![GitHub][GitHub Icon]](https://github.com/cswapsystems)
+- [Cogito Protocol](https://www.cogitoprotocol.com/) [![GitHub][GitHub Icon]](https://github.com/cogito-finance)
+- [Finest Investments](https://www.finest.investments/)
+- [Tvvin](https://tvvin.com/)
+- [Kinka Gold](https://kinka-gold.com/)
+- [PBG Token](https://www.pbg.io/)
+- [Atomico3](https://www.atomico3.io/)
+
+### Reward Distribution DApps
+
+- [DripDropz](https://dripdropz.io/) [![GitHub][GitHub Icon]](https://github.com/DripDropz)
+- [Tosidrop](https://tosidrop.io/) [![GitHub][GitHub Icon]](https://github.com/TosiDrop)
+- [AdaDrops](https://adadrop.app/) [![GitHub][GitHub Icon]](https://github.com/BenElferink)
+- [Sundae Rewards](https://sundae.fi/products/rewards) [![GitHub][GitHub Icon]](https://github.com/SundaeSwap-finance)
+- [Adamatic](https://adamatic.xyz/) [![GitHub][GitHub Icon]](https://github.com/easy1staking-com)
+- [Onboard Ninja](https://www.onboard.ninja/)
+- [Poolperks](https://poolperks.io/)
+- [AdaSeal Vending Machine](https://vm.adaseal.eu/)
+
+### Signing and Verification DApps
+
+- [Cardano Wall](https://cardanowall.com/)
+- [Docufi3d](https://docufi3d.com/)
+- [CSign](https://csign.io/)
+
+### Social Media DApps
+
+- [Littlefish Foundation](https://littlefish.foundation) [![GitHub][GitHub Icon]](https://github.com/littlefish-foundation)
+- [CardanoSpot Community](https://cardanospot.io/community-feed/all) [![GitHub][GitHub Icon]](https://github.com/emurgo)
+- [Vyra.io](https://vyra.io/) [![GitHub][GitHub Icon]](https://github.com/vyraio)
+- [Mindplex](https://social.mindplex.ai/) [![GitHub][GitHub Icon]](https://github.com/singnet)
+- [HeyGM](https://www.heygm.com/) [![GitHub][GitHub Icon]](https://github.com/stacktiger)
+- [Smart places](https://www.smart-places.io/)
+- [Cardano24](https://cardano24.social)
+
+### Supply Chain DApps
+
+- [Palmyra](https://palmyra.app) [![GitHub][GitHub Icon]](https://github.com/zenGate-Global)
+- [Tracecork](https://tracecork.com) [![GitHub][GitHub Icon]](https://github.com/blazarlabs-io)
+- [Plastiks](https://www.plastiks.io/) [![GitHub][GitHub Icon]](https://github.com/Plastiks-io)
+- [Veritree](https://www.veritree.com/) [![GitHub][GitHub Icon]](https://github.com/tentree-org)
+- [Open Food Chain](https://www.openfoodchain.com/) [![GitHub][GitHub Icon]](https://github.com/Open-Food-Chain)
+- [Crop Connect](https://www.cropconnect.xyz/) [![GitHub][GitHub Icon]](https://github.com/Agrow-Labs)
+- [AgrotCardano](https://agrotcardano.com/)
+
+### Synthetic Asset DApps
+
+- [Indigo Protocol](https://indigoprotocol.io/) [![GitHub][GitHub Icon]](https://github.com/IndigoProtocol)
+- [Butane](https://butane.dev/) [![GitHub][GitHub Icon]](https://github.com/butaneprotocol)
+
+### Ticketing and Token Gating DApps
+
+- [Tikit](http://tikit.live/) [![GitHub][GitHub Icon]](https://github.com/Awen-online)
+- [CardanoPress](https://cardanopress.io/) [![GitHub][GitHub Icon]](https://github.com/cardanopress)
+- [GateKeeper](https://github.com/CardanoGateKeeper/Core) [![GitHub][GitHub Icon]](https://github.com/CardanoGateKeeper)
+- [NFT Gater](https://nftgater.com/)
+- [Vault3](https://vault3.io/)
 
 # NFTs
 

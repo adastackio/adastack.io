@@ -276,6 +276,137 @@ const categoryConfig = [
     level: 2,
   },
   { name: "DApps", tag: "", level: 1 },
+  {
+    name: "AI DApps",
+    tag: "ai_dapp",
+    level: 2,
+  },
+  {
+    name: "DApp Analysis and Risk Rating",
+    tag: "risk_rating_dapp",
+    level: 2,
+  },
+  {
+    name: "DApp Explorers",
+    tag: "dapp_explorer",
+    level: 2,
+  },
+  {
+    name: "DEX Aggregators",
+    tag: "dex_aggregator_dapp",
+    level: 2,
+  },
+  {
+    name: "DEXs",
+    tag: "dex_dapp",
+    level: 2,
+  },
+  {
+    name: "Data Storage and Computing",
+    tag: "storage_dapp",
+    level: 2,
+  },
+  {
+    name: "Derivatives DApps",
+    tag: "derivatives_dapp",
+    level: 2,
+  },
+  {
+    name: "Domains and Handles",
+    tag: "handle_dapp",
+    level: 2,
+  },
+  {
+    name: "Education DApps",
+    tag: "education_dapp",
+    level: 2,
+  },
+  {
+    name: "Identity DApps",
+    tag: "identity_dapp",
+    level: 2,
+  },
+  {
+    name: "Impact and Environment DApps",
+    tag: "impact_dapp",
+    level: 2,
+  },
+  {
+    name: "Index DApps",
+    tag: "index_dapp",
+    level: 2,
+  },
+  {
+    name: "Lending and Borrowing DApps",
+    tag: "lending_dapp",
+    level: 2,
+  },
+  {
+    name: "Media and Music DApps",
+    tag: "media_dapp",
+    level: 2,
+  },
+  {
+    name: "Medical and Health DApps",
+    tag: "medical_dapp",
+    level: 2,
+  },
+  {
+    name: "Messaging and Chat DApps",
+    tag: "messaging_dapp",
+    level: 2,
+  },
+  {
+    name: "Mining DApps",
+    tag: "mining_dapp",
+    level: 2,
+  },
+  {
+    name: "Payments and E-Commerce DApps",
+    tag: "payment_dapp",
+    level: 2,
+  },
+  {
+    name: "Privacy DApps",
+    tag: "privacy_dapp",
+    level: 2,
+  },
+  {
+    name: "Real World Assets",
+    tag: "real_world_asset_dapp",
+    level: 2,
+  },
+  {
+    name: "Reward Distribution DApps",
+    tag: "reward_distribution_dapp",
+    level: 2,
+  },
+  {
+    name: "Signing and Verification DApps",
+    tag: "signing_dapp",
+    level: 2,
+  },
+  {
+    name: "Social Media DApps",
+    tag: "social_dapp",
+    level: 2,
+  },
+  {
+    name: "Supply Chain DApps",
+    tag: "supply_chain_dapp",
+    level: 2,
+  },
+  {
+    name: "Synthetic Asset DApps",
+    tag: "synthetics_dapp",
+    level: 2,
+  },
+  {
+    name: "Ticketing and Token Gating DApps",
+    tag: "ticketing_dapp",
+    level: 2,
+  },
+
   { name: "NFTs", tag: "", level: 1 },
   { name: "Games", tag: "", level: 1 },
   { name: "Governance", tag: "", level: 1 },
