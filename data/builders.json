@@ -61,13 +61,13 @@
   },
   {
     "name": "Cardano Builder DAO",
-    "website": "(https://buildingoncardano.io/",
+    "website": "https://buildingoncardano.io/",
     "teamGithubURL": "",
     "tags": ["organization"]
   },
   {
     "name": "BitVMX Force",
-    "website": "(https://bitvmx.org/",
+    "website": "https://bitvmx.org/",
     "teamGithubURL": "https://github.com/FairgateLabs",
     "tags": ["organization"]
   },
@@ -1616,7 +1616,7 @@
   },
 
   {
-    "name": "Andiamo Platform",
+    "name": "Andamio Platform",
     "website": "https://www.andamio.io/",
     "teamGithubURL": "https://github.com/gimbalabs",
     "tags": ["dapp", "education_dapp"]
@@ -6856,7 +6856,7 @@
   },
   {
     "name": "Ensuro",
-    "website": "ttps://www.youtube.com/@Ensuro-co",
+    "website": "https://www.youtube.com/@Ensuro-co",
     "teamGithubURL": "",
     "tags": ["video_channel", "project_youtube"]
   },
@@ -7941,7 +7941,7 @@
     "tags": ["info", "cardano_full_course"]
   },
   {
-    "name": "Academia Cardan",
+    "name": "Academia Cardano",
     "website": "https://academiacardano.com/",
     "teamGithubURL": "",
     "tags": ["info", "cardano_full_course"]
