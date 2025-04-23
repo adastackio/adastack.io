@@ -622,9 +622,10 @@ html[style*="color-scheme: dark;"] td a {
   color: #e2e8f0;
 }
 
-.badge-button.github-repo-badge-content {
-  padding-left: 5px;
-  gap: 3px;
+.badge-button {
+  padding-right: 12px !important;
+  padding-left: 12px !important;
+  gap: 6px !important;
 }
 
 a.nextra-card .nextra-card-title {

@@ -1,0 +1,12 @@
+<svg 
+xmlns="http://www.w3.org/2000/svg"   
+width="17px" 
+height="17px" 
+viewBox="0 0 24 24"  
+stroke-width=".06" vector-effect="non-scaling-stroke"
+stroke="currentColor"
+aria-hidden="true"
+data-slot="icon"
+className="inline-block h-4 w-4 align-text-bottom svg-icon">
+<path d="M7 17L17 7M17 7H8M17 7V16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
