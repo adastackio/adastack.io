@@ -2063,6 +2063,66 @@
     "tags": ["dapp", "real_world_asset_dapp"]
   },
   {
+    "name": "Empowa",
+    "website": "https://empowa.io/",
+    "teamGithubURL": "https://github.com/empowa-io",
+    "tags": ["dapp", "real_world_asset_dapp"]
+  },
+  {
+    "name": "Reit Circles",
+    "website": "https://reitcircles.com/",
+    "teamGithubURL": "https://github.com/reitcircles",
+    "tags": ["dapp", "real_world_asset_dapp"]
+  },
+  {
+    "name": "Fraction Estate",
+    "website": "https://fraction.estate/",
+    "teamGithubURL": "https://github.com/FractionEstate",
+    "tags": ["dapp", "real_world_asset_dapp"]
+  },
+  {
+    "name": "Re-Twin",
+    "website": "https://re-twin.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "real_world_asset_dapp"]
+  },
+  {
+    "name": "Rull Estate",
+    "website": "https://rull.estate/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "real_world_asset_dapp"]
+  },
+  {
+    "name": "Chain Crib",
+    "website": "https://chaincrib.com/",
+    "teamGithubURL": "https://github.com/chaincrib",
+    "tags": ["dapp", "real_world_asset_dapp"]
+  },
+  {
+    "name": "Real Toro",
+    "website": "https://realtoro.org/",
+    "teamGithubURL": "https://github.com/MintMatrix",
+    "tags": ["dapp", "real_world_asset_dapp"]
+  },
+  {
+    "name": "Haus",
+    "website": "https://www.haus.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "real_world_asset_dapp"]
+  },
+  {
+    "name": "Landano.io",
+    "website": "https://www.landano.io/",
+    "teamGithubURL": "https://github.com/landano",
+    "tags": ["dapp", "real_world_asset_dapp"]
+  },
+  {
+    "name": "Ango",
+    "website": "https://ango.jp/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "real_world_asset_dapp"]
+  },
+  {
     "name": "Cogito Protocol",
     "website": "https://www.cogitoprotocol.com/",
     "teamGithubURL": "https://github.com/cogito-finance",
@@ -2074,7 +2134,6 @@
     "teamGithubURL": "",
     "tags": ["dapp", "real_world_asset_dapp"]
   },
-
   {
     "name": "DripDropz",
     "website": "https://dripdropz.io/",
@@ -2185,7 +2244,6 @@
     "teamGithubURL": "https://github.com/stacktiger",
     "tags": ["dapp", "social_dapp"]
   },
-
   {
     "name": "Palmyra",
     "website": "https://palmyra.app",
