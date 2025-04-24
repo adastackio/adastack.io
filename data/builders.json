@@ -108,6 +108,114 @@
     "tags": ["info", "cardano_guide"]
   },
   {
+    "name": "Digital Defense Open-Source Checklist",
+    "website": "https://digital-defense.io/",
+    "teamGithubURL": "https://github.com/lissy93",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "Cardano Ninja",
+    "website": "https://cardano.ninja/",
+    "teamGithubURL": "https://github.com/selfdriven-foundation",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "Getting Started: Basic Personal Cybersecurity for Everyone",
+    "website": "https://avoidthehack.com/getting-started-cybersecurity",
+    "teamGithubURL": "",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "Secure Your Crypto Life, Avoid Scams & Protect Your Crypto Assets Video",
+    "website": "https://www.youtube.com/watch?v=W2YeB5clm0k",
+    "teamGithubURL": "https://github.com/pbwebdev",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "Blockchain & Argentina: Past & present",
+    "website": "https://www.youtube.com/watch?v=SkixwjCzQ9c",
+    "teamGithubURL": "https://github.com/charleshoskinson",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
+    "name": "Getting Started Guide to Cardano ADA",
+    "website": "https://www.youtube.com/watch?v=vOqjHEnoRWU",
+    "teamGithubURL": "https://github.com/pbwebdev",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
+    "name": "Charles Hoskinson 2017 Whiteboard",
+    "website": "https://www.youtube.com/watch?v=Ja9D0kpksxw",
+    "teamGithubURL": "https://github.com/charleshoskinson",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
+    "name": "The Next Evolution of Cardano",
+    "website": "https://www.youtube.com/watch?v=_s4OauGIzNg",
+    "teamGithubURL": "https://github.com/charleshoskinson",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
+    "name": "Cardano Glossary",
+    "website": "https://cardanobook.com/glossary/",
+    "teamGithubURL": "https://github.com/johnnygreeney",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Web3 Glossary",
+    "website": "https://cardanowomen.io/web3-glossary",
+    "teamGithubURL": "",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "DeFi Glossary",
+    "website": "https://wiki.axo.trade/axo-defi-glossary",
+    "teamGithubURL": "",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Governance Glossary",
+    "website": "https://docs.intersectmbo.org/glossary/general-glossary",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Cardano Vocab",
+    "website": "https://www.adastack.io/intro_to_cardano/cardano_vocab",
+    "teamGithubURL": "https://github.com/adastackio",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Intersect Open Source Glossary",
+    "website": "https://docs.intersectmbo.org/legal/policies-and-conditions/intersect-open-source-glossary",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "Cardano Spot Vocabulary",
+    "website": "https://cardanospot.io/wiki/vocabulary/a",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "NMKR Glossary",
+    "website": "https://www.nmkr.io/glossary",
+    "teamGithubURL": "https://github.com/nftmakerio",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "Wolfram Blockchain Labs Glossary",
+    "website": "https://www.wolframblockchainlabs.com/dashboard/resources/glossary",
+    "teamGithubURL": "https://github.com/WolframBlockchainLabs",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "Essential Cardano Glossary",
+    "website": "https://www.essentialcardano.io/glossary?sort=alphabetical",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
     "name": "Intersect MBO",
     "website": "https://www.intersectmbo.org/",
     "teamGithubURL": "https://github.com/intersectmbo",
@@ -8147,54 +8255,6 @@
     "tags": ["info", "cardano_guide_additional"]
   },
   {
-    "name": "Digital Defense Open-Source Checklist",
-    "website": "https://digital-defense.io/",
-    "teamGithubURL": "https://github.com/lissy93",
-    "tags": ["info", "security_guide"]
-  },
-  {
-    "name": "Cardano Ninja",
-    "website": "https://cardano.ninja/",
-    "teamGithubURL": "https://github.com/selfdriven-foundation",
-    "tags": ["info", "security_guide"]
-  },
-  {
-    "name": "Getting Started: Basic Personal Cybersecurity for Everyone",
-    "website": "https://avoidthehack.com/getting-started-cybersecurity",
-    "teamGithubURL": "",
-    "tags": ["info", "security_guide"]
-  },
-  {
-    "name": "Secure Your Crypto Life, Avoid Scams & Protect Your Crypto Assets Video",
-    "website": "https://www.youtube.com/watch?v=W2YeB5clm0k",
-    "teamGithubURL": "https://github.com/pbwebdev",
-    "tags": ["info", "security_guide"]
-  },
-  {
-    "name": "Blockchain & Argentina: Past & present",
-    "website": "https://www.youtube.com/watch?v=SkixwjCzQ9c",
-    "teamGithubURL": "https://github.com/charleshoskinson",
-    "tags": ["info", "cardano_intro_video"]
-  },
-  {
-    "name": "Getting Started Guide to Cardano ADA",
-    "website": "https://www.youtube.com/watch?v=vOqjHEnoRWU",
-    "teamGithubURL": "https://github.com/pbwebdev",
-    "tags": ["info", "cardano_intro_video"]
-  },
-  {
-    "name": "Charles Hoskinson 2017 Whiteboard",
-    "website": "https://www.youtube.com/watch?v=Ja9D0kpksxw",
-    "teamGithubURL": "https://github.com/charleshoskinson",
-    "tags": ["info", "cardano_intro_video"]
-  },
-  {
-    "name": "The Next Evolution of Cardano",
-    "website": "https://www.youtube.com/watch?v=_s4OauGIzNg",
-    "teamGithubURL": "https://github.com/charleshoskinson",
-    "tags": ["info", "cardano_intro_video"]
-  },
-  {
     "name": "Littlefish Foundation ISPO Guide",
     "website": "https://vault.littlefish.foundation/F.+Cardano/ISPO+-+What%2C+Why%2C+How%3F",
     "teamGithubURL": "https://github.com/littlefish-foundation",
@@ -8319,65 +8379,5 @@
     "website": "https://cardano-community.github.io/guild-operators/build/",
     "teamGithubURL": "https://github.com/cardano-community",
     "tags": ["info", "pool_monitoring_info"]
-  },
-  {
-    "name": "Cardano Glossary",
-    "website": "https://cardanobook.com/glossary/",
-    "teamGithubURL": "https://github.com/johnnygreeney",
-    "tags": ["info", "glossary_top"]
-  },
-  {
-    "name": "Web3 Glossary",
-    "website": "https://cardanowomen.io/web3-glossary",
-    "teamGithubURL": "",
-    "tags": ["info", "glossary_top"]
-  },
-  {
-    "name": "DeFi Glossary",
-    "website": "https://wiki.axo.trade/axo-defi-glossary",
-    "teamGithubURL": "",
-    "tags": ["info", "glossary_top"]
-  },
-  {
-    "name": "Governance Glossary",
-    "website": "https://docs.intersectmbo.org/glossary/general-glossary",
-    "teamGithubURL": "https://github.com/IntersectMBO",
-    "tags": ["info", "glossary_top"]
-  },
-  {
-    "name": "Cardano Vocab",
-    "website": "https://www.adastack.io/intro_to_cardano/cardano_vocab",
-    "teamGithubURL": "https://github.com/adastackio",
-    "tags": ["info", "glossary_top"]
-  },
-  {
-    "name": "Intersect Open Source Glossary",
-    "website": "https://docs.intersectmbo.org/legal/policies-and-conditions/intersect-open-source-glossary",
-    "teamGithubURL": "https://github.com/IntersectMBO",
-    "tags": ["info", "glossary_additional"]
-  },
-  {
-    "name": "Cardano Spot Vocabulary",
-    "website": "https://cardanospot.io/wiki/vocabulary/a",
-    "teamGithubURL": "https://github.com/emurgo",
-    "tags": ["info", "glossary_additional"]
-  },
-  {
-    "name": "NMKR Glossary",
-    "website": "https://www.nmkr.io/glossary",
-    "teamGithubURL": "https://github.com/nftmakerio",
-    "tags": ["info", "glossary_additional"]
-  },
-  {
-    "name": "Wolfram Blockchain Labs Glossary",
-    "website": "https://www.wolframblockchainlabs.com/dashboard/resources/glossary",
-    "teamGithubURL": "https://github.com/WolframBlockchainLabs",
-    "tags": ["info", "glossary_additional"]
-  },
-  {
-    "name": "Essential Cardano Glossary",
-    "website": "https://www.essentialcardano.io/glossary?sort=alphabetical",
-    "teamGithubURL": "https://github.com/cardano-foundation/",
-    "tags": ["info", "glossary_additional"]
   }
 ]
