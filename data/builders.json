@@ -895,18 +895,18 @@
     "tags": ["dapp", "mobile_wallet"]
   },
   {
-    "name": "NuFi",
-    "website": "https://nu.fi",
-    "teamGithubURL": "https://github.com/nufi-official/",
-    "repoURL": "https://github.com/nufi-official/nufi/",
-    "tags": ["dapp", "browser_wallet", "web_wallet"]
-  },
-  {
     "name": "Lace",
     "website": "https://www.lace.io/",
     "teamGithubURL": "https://github.com/input-output-hk",
     "repoURL": "https://github.com/input-output-hk/lace",
-    "tags": ["dapp", "browser_wallet", "paper_wallet"]
+    "tags": ["dapp", "browser_wallet"]
+  },
+  {
+    "name": "NuFi",
+    "website": "https://nu.fi",
+    "teamGithubURL": "https://github.com/nufi-official/",
+    "repoURL": "https://github.com/nufi-official/nufi/",
+    "tags": ["dapp", "browser_wallet"]
   },
   {
     "name": "Yoroi",
@@ -927,7 +927,7 @@
     "website": "https://eternl.io/",
     "teamGithubURL": "https://github.com/Tastenkunst",
     "repoURL": "",
-    "tags": ["dapp", "browser_wallet", "web_wallet"]
+    "tags": ["dapp", "browser_wallet"]
   },
   {
     "name": "Nami",
@@ -949,20 +949,6 @@
     "teamGithubURL": "https://github.com/vespr-wallet",
     "repoURL": "",
     "tags": ["dapp", "browser_wallet"]
-  },
-  {
-    "name": "Adalite",
-    "website": "https://adalite.io/",
-    "teamGithubURL": "https://github.com/vacuumlabs/",
-    "repoURL": "https://github.com/vacuumlabs/adalite",
-    "tags": ["dapp", "web_wallet"]
-  },
-  {
-    "name": "GameChanger",
-    "website": "https://gamechanger.finance/",
-    "teamGithubURL": "https://github.com/GameChangerFinance/",
-    "repoURL": "https://github.com/GameChangerFinance/gamechanger.wallet",
-    "tags": ["dapp", "web_wallet"]
   },
   {
     "name": "Metamask (NuFi Cardano Snap)",
@@ -1035,6 +1021,41 @@
     "tags": ["dapp", "hardware_wallet"]
   },
   {
+    "name": "NuFi",
+    "website": "https://nu.fi",
+    "teamGithubURL": "https://github.com/nufi-official/",
+    "repoURL": "https://github.com/nufi-official/nufi/",
+    "tags": ["dapp", "web_wallet"]
+  },
+  {
+    "name": "Eternl",
+    "website": "https://eternl.io/",
+    "teamGithubURL": "https://github.com/Tastenkunst",
+    "repoURL": "",
+    "tags": ["dapp", "web_wallet"]
+  },
+  {
+    "name": "Adalite",
+    "website": "https://adalite.io/",
+    "teamGithubURL": "https://github.com/vacuumlabs/",
+    "repoURL": "https://github.com/vacuumlabs/adalite",
+    "tags": ["dapp", "web_wallet"]
+  },
+  {
+    "name": "GameChanger",
+    "website": "https://gamechanger.finance/",
+    "teamGithubURL": "https://github.com/GameChangerFinance/",
+    "repoURL": "https://github.com/GameChangerFinance/gamechanger.wallet",
+    "tags": ["dapp", "web_wallet"]
+  },
+  {
+    "name": "Lace",
+    "website": "https://www.lace.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "repoURL": "https://github.com/input-output-hk/lace",
+    "tags": ["dapp", "paper_wallet"]
+  },
+  {
     "name": "NMKR Paper",
     "website": "https://www.nmkr.io/paper-wallet",
     "teamGithubURL": "https://github.com/nftmakerio",
@@ -1046,34 +1067,6 @@
     "website": "https://mintmatrix.io/paper-wallets",
     "teamGithubURL": "https://github.com/MintMatrix",
     "tags": ["dapp", "paper_wallet"]
-  },
-  {
-    "name": "BroClan",
-    "website": "https://broclan.io/",
-    "teamGithubURL": "https://github.com/leo42/",
-    "repoURL": "https://github.com/leo42/BroClanWallet",
-    "tags": ["dapp", "multisig_wallet"]
-  },
-  {
-    "name": "ADAO Round Table",
-    "website": "https://round-table.vercel.app",
-    "teamGithubURL": "https://github.com/ADAOcommunity",
-    "repoURL": "https://github.com/ADAOcommunity/round-table",
-    "tags": ["dapp", "multisig_wallet"]
-  },
-  {
-    "name": "Iagon LedgerFlow",
-    "website": "https://docs.iagon.com/overview/products/ledgerflow",
-    "teamGithubURL": "https://github.com/iagonorg",
-    "repoURL": "",
-    "tags": ["dapp", "multisig_wallet"]
-  },
-  {
-    "name": "Mesh Multisig",
-    "website": "https://multisig.meshjs.dev/",
-    "teamGithubURL": "https://github.com/MeshJS",
-    "repoURL": "",
-    "tags": ["dapp", "multisig_wallet"]
   },
   {
     "name": "CF Identity",
@@ -1109,6 +1102,34 @@
     "teamGithubURL": "https://github.com/iamxid",
     "repoURL": "",
     "tags": ["dapp", "identity_wallet"]
+  },
+  {
+    "name": "BroClan",
+    "website": "https://broclan.io/",
+    "teamGithubURL": "https://github.com/leo42/",
+    "repoURL": "https://github.com/leo42/BroClanWallet",
+    "tags": ["dapp", "multisig_wallet"]
+  },
+  {
+    "name": "ADAO Round Table",
+    "website": "https://round-table.vercel.app",
+    "teamGithubURL": "https://github.com/ADAOcommunity",
+    "repoURL": "https://github.com/ADAOcommunity/round-table",
+    "tags": ["dapp", "multisig_wallet"]
+  },
+  {
+    "name": "Iagon LedgerFlow",
+    "website": "https://docs.iagon.com/overview/products/ledgerflow",
+    "teamGithubURL": "https://github.com/iagonorg",
+    "repoURL": "",
+    "tags": ["dapp", "multisig_wallet"]
+  },
+  {
+    "name": "Mesh Multisig",
+    "website": "https://multisig.meshjs.dev/",
+    "teamGithubURL": "https://github.com/MeshJS",
+    "repoURL": "",
+    "tags": ["dapp", "multisig_wallet"]
   },
   {
     "name": "Sundae Sorbet",
@@ -2250,7 +2271,6 @@
     "teamGithubURL": "https://github.com/easy1staking-com",
     "tags": ["dapp", "reward_distribution_dapp"]
   },
-
   {
     "name": "Cardano Wall",
     "website": "https://cardanowall.com/",
@@ -2269,7 +2289,6 @@
     "teamGithubURL": "",
     "tags": ["dapp", "signing_dapp"]
   },
-
   {
     "name": "Smart places",
     "website": "https://www.smart-places.io/",
@@ -2383,12 +2402,6 @@
     "website": "https://gimbalabs.com/",
     "teamGithubURL": "https://github.com/gimbalabs",
     "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
-    "name": "Lovelace Academy",
-    "website": "https://lovelace.academy/",
-    "teamGithubURL": "https://github.com/lovelaceacademy",
-    "tags": ["dev_learning_platform", "dev_documentation"]
   },
   {
     "name": "Cardano2vn",
@@ -3834,6 +3847,12 @@
     "name": "Cardano.org Developer Portal",
     "website": "https://developers.cardano.org",
     "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "dev_documentation"]
+  },
+  {
+    "name": "Lovelace Academy",
+    "website": "https://lovelace.academy/",
+    "teamGithubURL": "https://github.com/lovelaceacademy",
     "tags": ["tools", "dev_documentation"]
   },
   {
