@@ -264,12 +264,6 @@
     "tags": ["organization"]
   },
   {
-    "name": "Input Output",
-    "website": "https://iohk.io/",
-    "teamGithubURL": "https://github.com/input-output-hk",
-    "tags": ["dev_company"]
-  },
-  {
     "name": "TxPipe",
     "website": "https://txpipe.io/",
     "teamGithubURL": "https://github.com/txpipe",
@@ -351,6 +345,12 @@
     "name": "Blink Labs",
     "website": "https://blinklabs.io/",
     "teamGithubURL": "https://github.com/blinklabs-io",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Input Output",
+    "website": "https://iohk.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
     "tags": ["dev_company"]
   },
   {
@@ -1496,7 +1496,6 @@
     "teamGithubURL": "https://github.com/butaneprotocol",
     "tags": ["dapp", "synthetics_dapp"]
   },
-
   {
     "name": "Optionflow",
     "website": "https://optionflow.finance/",
@@ -1546,7 +1545,6 @@
     "teamGithubURL": "",
     "tags": ["dapp", "mining_dapp"]
   },
-
   {
     "name": "Minswap",
     "website": "https://minswap.org/",
@@ -1838,7 +1836,6 @@
     "teamGithubURL": "https://github.com/AdaSouls",
     "tags": ["dapp", "identity_dapp"]
   },
-
   {
     "name": "Empowa",
     "website": "https://empowa.io/",
@@ -1972,7 +1969,6 @@
     "teamGithubURL": "",
     "tags": ["dapp", "media_dapp"]
   },
-
   {
     "name": "Rejuve",
     "website": "https://www.rejuve.ai/",
@@ -1997,7 +1993,6 @@
     "teamGithubURL": "",
     "tags": ["dapp", "medical_dapp"]
   },
-
   {
     "name": "Adamail",
     "website": "https://www.adamail.me/",
@@ -2034,7 +2029,6 @@
     "teamGithubURL": "https://github.com/selfdriven-foundation",
     "tags": ["dapp", "messaging_dapp"]
   },
-
   {
     "name": "NMKR Pay",
     "website": "https://docs.nmkr.io/nmkr-studio/set-up-sales/nmkr-pay",
@@ -2108,7 +2102,6 @@
     "teamGithubURL": "https://github.com/mugraph-payments",
     "tags": ["dapp", "privacy_dapp"]
   },
-
   {
     "name": "Palmyra",
     "website": "https://palmyra.app/",
@@ -2374,12 +2367,6 @@
     "tags": ["dapp", "supply_chain_dapp"]
   },
   {
-    "name": "Summon Platform",
-    "website": "https://summonplatform.io/",
-    "teamGithubURL": "https://github.com/ADAO-Summon",
-    "tags": ["dapp", "dao_explorer", "dao_management_software"]
-  },
-  {
     "name": "Andamio",
     "website": "https://www.andamio.io/",
     "teamGithubURL": "https://github.com/Andamio-Platform",
@@ -2426,12 +2413,6 @@
     "website": "https://asteria.txpipe.io/",
     "teamGithubURL": "https://github.com/txpipe",
     "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
-    "name": "Clarity",
-    "website": "https://www.clarity.vote/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "dao_explorer", "dao_management_software"]
   },
   {
     "name": "Kreate Art",
@@ -2486,18 +2467,6 @@
     "website": "https://atomic-swap.io/",
     "teamGithubURL": "https://github.com/honungsburk",
     "tags": ["dapp", "nft_p2p_trading"]
-  },
-  {
-    "name": "Reach your People",
-    "website": "https://www.ryp.io/",
-    "teamGithubURL": "https://github.com/nilscodes/",
-    "tags": ["dapp", "dao_explorer"]
-  },
-  {
-    "name": "BuiltOnCardano DAO Explorer",
-    "website": "https://builtoncardano.com/ecosystem/dao",
-    "teamGithubURL": "",
-    "tags": ["dapp", "dao_explorer"]
   },
   {
     "name": "Crashr",
@@ -3196,12 +3165,6 @@
     "tags": ["tools"]
   },
   {
-    "name": "Paideia",
-    "website": "https://www.paideia.im/",
-    "teamGithubURL": "https://github.com/paideiadao/",
-    "tags": ["tools", "dao_management_software"]
-  },
-  {
     "name": "Adastack",
     "website": "https://www.adastack.io",
     "teamGithubURL": "https://github.com/adastackio/",
@@ -3376,46 +3339,88 @@
     "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
   },
   {
+    "name": "Clarity",
+    "website": "https://www.clarity.vote/",
+    "teamGithubURL": "",
+    "tags": ["tools", "dao_explorer"]
+  },
+  {
+    "name": "Summon Platform",
+    "website": "https://summonplatform.io/",
+    "teamGithubURL": "https://github.com/ADAO-Summon",
+    "tags": ["tools", "dao_explorer"]
+  },
+  {
+    "name": "Reach your People",
+    "website": "https://www.ryp.io/",
+    "teamGithubURL": "https://github.com/nilscodes/",
+    "tags": ["tools", "dao_explorer"]
+  },
+  {
+    "name": "BuiltOnCardano DAO Explorer",
+    "website": "https://builtoncardano.com/ecosystem/dao",
+    "teamGithubURL": "",
+    "tags": ["tools", "dao_explorer"]
+  },
+  {
+    "name": "Clarity",
+    "website": "https://www.clarity.vote/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dao_management_software"]
+  },
+  {
     "name": "Tempo",
     "website": "https://tempo.vote",
     "teamGithubURL": "",
-    "tags": ["tools", "dao_management_software"]
+    "tags": ["dapp", "dao_management_software"]
+  },
+  {
+    "name": "Summon Platform",
+    "website": "https://summonplatform.io/",
+    "teamGithubURL": "https://github.com/ADAO-Summon",
+    "tags": ["dapp", "dao_management_software"]
+  },
+  {
+    "name": "Paideia",
+    "website": "https://www.paideia.im/",
+    "teamGithubURL": "https://github.com/paideiadao/",
+    "tags": ["dapp", "dao_management_software"]
   },
   {
     "name": "ADAO",
     "website": "https://adao.arweave.dev/",
     "teamGithubURL": "https://github.com/ADAOcommunity",
-    "tags": ["tools", "dao_management_software"]
+    "tags": ["dapp", "dao_management_software"]
   },
   {
     "name": "Agora",
     "website": "https://github.com/Liqwid-Labs/agora",
     "teamGithubURL": "https://github.com/Liqwid-Labs/",
-    "tags": ["tools", "dao_management_software"]
+    "tags": ["dapp", "dao_management_software"]
   },
   {
     "name": "SundaeSwap Governance",
     "website": "https://services.sundaeswap.finance/",
     "teamGithubURL": "https://github.com/SundaeSwap-finance",
-    "tags": ["tools", "dao_management_software"]
+    "tags": ["dapp", "dao_management_software"]
   },
   {
     "name": "CF Cardano Ballot",
     "website": "https://github.com/cardano-foundation/cf-cardano-ballot",
     "teamGithubURL": "https://github.com/cardano-foundation/",
-    "tags": ["tools", "dao_management_software"]
+    "tags": ["dapp", "dao_management_software"]
   },
   {
     "name": "CardanoPress Governance",
     "website": "https://cardanopress.io/products/governance/",
     "teamGithubURL": "https://github.com/cardanopress",
-    "tags": ["tools", "dao_management_software"]
+    "tags": ["dapp", "dao_management_software"]
   },
   {
     "name": "Wing Riders DAO Framework",
     "website": "https://github.com/WingRiders/on-chain-dao-governance",
     "teamGithubURL": "https://github.com/WingRiders/",
-    "tags": ["tools", "dao_management_software"]
+    "tags": ["dapp", "dao_management_software"]
   },
   {
     "name": "Built on Cardano",
