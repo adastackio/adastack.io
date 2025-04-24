@@ -216,6 +216,30 @@
     "tags": ["info", "glossary_additional"]
   },
   {
+    "name": "CardanoPick",
+    "website": "https://cardanopick.com/",
+    "teamGithubURL": "https://github.com/nilscodes",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "Getting On Chain Guide by SelfDriven",
+    "website": "https://buildingoncardano.dev/getting-on-chain",
+    "teamGithubURL": "https://github.com/selfdriven-foundation",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "Your Cardano Onboarding Guide by Essential Cardano",
+    "website": "https://www.essentialcardano.io/article/your-cardano-onboarding-guide",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "Cardano Nexus",
+    "website": "https://www.cardanonexus.org/",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
     "name": "Intersect MBO",
     "website": "https://www.intersectmbo.org/",
     "teamGithubURL": "https://github.com/intersectmbo",
@@ -8229,30 +8253,6 @@
     "website": "https://www.youtube.com/@MeetCardano",
     "teamGithubURL": "",
     "tags": ["video_channel", "inactive_youtube"]
-  },
-  {
-    "name": "CardanoPick",
-    "website": "https://cardanopick.com/",
-    "teamGithubURL": "https://github.com/nilscodes",
-    "tags": ["info", "cardano_guide_additional"]
-  },
-  {
-    "name": "Getting On Chain Guide by SelfDriven",
-    "website": "https://buildingoncardano.dev/getting-on-chain",
-    "teamGithubURL": "https://github.com/selfdriven-foundation",
-    "tags": ["info", "cardano_guide_additional"]
-  },
-  {
-    "name": "Your Cardano Onboarding Guide by Essential Cardano",
-    "website": "https://www.essentialcardano.io/article/your-cardano-onboarding-guide",
-    "teamGithubURL": "https://github.com/input-output-hk",
-    "tags": ["info", "cardano_guide_additional"]
-  },
-  {
-    "name": "Cardano Nexus",
-    "website": "https://www.cardanonexus.org/",
-    "teamGithubURL": "",
-    "tags": ["info", "cardano_guide_additional"]
   },
   {
     "name": "Littlefish Foundation ISPO Guide",
