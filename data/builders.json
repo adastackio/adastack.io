@@ -273,13 +273,73 @@
     "name": "TxPipe",
     "website": "https://txpipe.io/",
     "teamGithubURL": "https://github.com/txpipe",
-    "tags": ["dev_company", "audit_company"]
+    "tags": ["audit_company"]
   },
   {
     "name": "Anastasia Labs",
     "website": "https://anastasialabs.com/",
     "teamGithubURL": "https://github.com/Anastasia-Labs",
-    "tags": ["dev_company", "audit_company"]
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "Vacuumlabs",
+    "website": "https://vacuumlabs.com/",
+    "teamGithubURL": "https://github.com/vacuumlabs",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "Sundae Labs",
+    "website": "https://sundae.fi/",
+    "teamGithubURL": "https://github.com/SundaeSwap-finance",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "Mlabs",
+    "website": "https://mlabs.city/",
+    "teamGithubURL": "https://github.com/mlabs-haskell",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "Tweag",
+    "website": "https://www.tweag.io/",
+    "teamGithubURL": "https://github.com/tweag",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "Obsidian Systems",
+    "website": "https://obsidian.systems/",
+    "teamGithubURL": "https://github.com/obsidiansystems",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "Ikigai Tech",
+    "website": "https://ikigaitech.org/",
+    "teamGithubURL": "https://github.com/ikigai-github",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "Runtime Verification",
+    "website": "https://runtimeverification.com/",
+    "teamGithubURL": "https://github.com/runtimeverification/",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "CertiK",
+    "website": "http://certik.com",
+    "teamGithubURL": "https://github.com/CertiKProject",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "TxPipe",
+    "website": "https://txpipe.io/",
+    "teamGithubURL": "https://github.com/txpipe",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Anastasia Labs",
+    "website": "https://anastasialabs.com/",
+    "teamGithubURL": "https://github.com/Anastasia-Labs",
+    "tags": ["dev_company"]
   },
   {
     "name": "Strica",
@@ -309,13 +369,13 @@
     "name": "Vacuumlabs",
     "website": "https://vacuumlabs.com/",
     "teamGithubURL": "https://github.com/vacuumlabs",
-    "tags": ["dev_company", "audit_company"]
+    "tags": ["dev_company"]
   },
   {
     "name": "Sundae Labs",
     "website": "https://sundae.fi/",
     "teamGithubURL": "https://github.com/SundaeSwap-finance",
-    "tags": ["dev_company", "audit_company"]
+    "tags": ["dev_company"]
   },
   {
     "name": "Dquadrant",
@@ -333,7 +393,7 @@
     "name": "Mlabs",
     "website": "https://mlabs.city/",
     "teamGithubURL": "https://github.com/mlabs-haskell",
-    "tags": ["dev_company", "audit_company"]
+    "tags": ["dev_company"]
   },
   {
     "name": "Five Binaries",
@@ -345,7 +405,7 @@
     "name": "Tweag",
     "website": "https://www.tweag.io/",
     "teamGithubURL": "https://github.com/tweag",
-    "tags": ["dev_company", "audit_company"]
+    "tags": ["dev_company"]
   },
   {
     "name": "Galois",
@@ -369,7 +429,7 @@
     "name": "Obsidian Systems",
     "website": "https://obsidian.systems/",
     "teamGithubURL": "https://github.com/obsidiansystems",
-    "tags": ["dev_company", "audit_company"]
+    "tags": ["dev_company"]
   },
   {
     "name": "Dynamic Strategies",
@@ -423,7 +483,7 @@
     "name": "Ikigai Tech",
     "website": "https://ikigaitech.org/",
     "teamGithubURL": "https://github.com/ikigai-github",
-    "tags": ["dev_company", "audit_company"]
+    "tags": ["dev_company"]
   },
   {
     "name": "Plank",
@@ -617,7 +677,6 @@
     "teamGithubURL": "",
     "tags": ["dev_company"]
   },
-
   {
     "name": "Antier Solutions",
     "website": "https://www.antiersolutions.com/",
@@ -709,18 +768,6 @@
     "tags": ["dev_company"]
   },
   {
-    "name": "Runtime Verification",
-    "website": "https://runtimeverification.com/",
-    "teamGithubURL": "https://github.com/runtimeverification/",
-    "tags": ["audit_company"]
-  },
-  {
-    "name": "CertiK",
-    "website": "http://certik.com",
-    "teamGithubURL": "https://github.com/CertiKProject",
-    "tags": ["audit_company"]
-  },
-  {
     "name": "Flux Point Studio",
     "website": "https://fluxpointstudios.com/",
     "teamGithubURL": "https://github.com/Flux-Point-Studios",
@@ -799,18 +846,11 @@
     "tags": ["game_studio"]
   },
   {
-    "name": "Lace",
-    "website": "https://www.lace.io/",
-    "teamGithubURL": "https://github.com/input-output-hk",
-    "repoURL": "https://github.com/input-output-hk/lace",
-    "tags": ["dapp", "browser_wallet", "paper_wallet"]
-  },
-  {
     "name": "Vespr",
     "website": "https://www.vespr.xyz/",
     "teamGithubURL": "https://github.com/vespr-wallet",
     "repoURL": "",
-    "tags": ["dapp", "mobile_wallet", "browser_wallet"]
+    "tags": ["dapp", "mobile_wallet"]
   },
   {
     "name": "Begin",
@@ -834,11 +874,18 @@
     "tags": ["dapp", "mobile_wallet"]
   },
   {
+    "name": "Yoroi",
+    "website": "https://yoroi-wallet.com",
+    "teamGithubURL": "https://github.com/emurgo",
+    "repoURL": "https://github.com/Emurgo/yoroi",
+    "tags": ["dapp", "mobile_wallet"]
+  },
+  {
     "name": "Eternl",
     "website": "https://eternl.io/",
     "teamGithubURL": "https://github.com/Tastenkunst",
     "repoURL": "",
-    "tags": ["dapp", "browser_wallet", "mobile_wallet", "web_wallet"]
+    "tags": ["dapp", "mobile_wallet"]
   },
   {
     "name": "Trust",
@@ -855,11 +902,18 @@
     "tags": ["dapp", "browser_wallet", "web_wallet"]
   },
   {
+    "name": "Lace",
+    "website": "https://www.lace.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "repoURL": "https://github.com/input-output-hk/lace",
+    "tags": ["dapp", "browser_wallet", "paper_wallet"]
+  },
+  {
     "name": "Yoroi",
     "website": "https://yoroi-wallet.com",
     "teamGithubURL": "https://github.com/emurgo",
     "repoURL": "https://github.com/Emurgo/yoroi",
-    "tags": ["dapp", "browser_wallet", "mobile_wallet"]
+    "tags": ["dapp", "browser_wallet"]
   },
   {
     "name": "Typhon",
@@ -867,6 +921,13 @@
     "teamGithubURL": "https://github.com/StricaHQ",
     "repoURL": "",
     "tags": ["dapp", "browser_wallet"]
+  },
+  {
+    "name": "Eternl",
+    "website": "https://eternl.io/",
+    "teamGithubURL": "https://github.com/Tastenkunst",
+    "repoURL": "",
+    "tags": ["dapp", "browser_wallet", "web_wallet"]
   },
   {
     "name": "Nami",
@@ -879,6 +940,13 @@
     "name": "Gero",
     "website": "https://gerowallet.io/",
     "teamGithubURL": "",
+    "repoURL": "",
+    "tags": ["dapp", "browser_wallet"]
+  },
+  {
+    "name": "Vespr",
+    "website": "https://www.vespr.xyz/",
+    "teamGithubURL": "https://github.com/vespr-wallet",
     "repoURL": "",
     "tags": ["dapp", "browser_wallet"]
   },
