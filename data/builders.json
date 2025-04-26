@@ -264,6 +264,426 @@
     "tags": ["info", "staking_guide"]
   },
   {
+    "name": "Cexplorer Stake Pools",
+    "website": "https://cexplorer.io/pool",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "AdaStat",
+    "website": "https://adastat.net/pools",
+    "teamGithubURL": "https://github.com/CardanoExplorer",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Alethea Pools",
+    "website": "https://alethea.io/pools",
+    "teamGithubURL": "https://github.com/alethea-io",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "PoolTool",
+    "website": "https://pooltool.io/pools",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "CardanoScan Pools",
+    "website": "https://cardanoscan.io/pools",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Stakada",
+    "website": "https://stakada.io",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Upstream",
+    "website": "https://upstream.org.uk/cardano-stake-pool-explorer",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Cardano-Scan Stake Pools",
+    "website": "https://cardano-scan.com/pools",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Poolinfo.me",
+    "website": "https://poolinfo.me/",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "SPO Yellow Pages",
+    "website": "https://spoyellowpages.com/",
+    "teamGithubURL": "https://github.com/lucifer911",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Armada Alliance",
+    "website": "https://armada-alliance.com",
+    "teamGithubURL": "https://github.com/armada-alliance/",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Mission Driven Pools",
+    "website": "https://missiondrivenpools.org",
+    "teamGithubURL": "https://github.com/CardanoMDP",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "xSPO Alliance",
+    "website": "https://www.xspo-alliance.org",
+    "teamGithubURL": "https://github.com/xSPO-Alliance",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Cexplorer Rewards",
+    "website": "https://cexplorer.io/rewards",
+    "teamGithubURL": "https://github.com/cexplorer/",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "WhenAda",
+    "website": "https://www.whenada.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "Cardano Countdown",
+    "website": "https://cardanocountdown.com/Rewards",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "CardanoScan",
+    "website": "https://cardanoscan.io",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "Cardano Staking Calculator",
+    "website": "https://cardano.org/calculator",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Cardaviz",
+    "website": "https://cardaviz.app",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Ada Calculator",
+    "website": "https://adacalculator.com/cardano-staking-calculator",
+    "teamGithubURL": "https://github.com/cardanoumbrella",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Antipalos Calculator",
+    "website": "https://antipalos.github.io/cardano-calculator/#calculator",
+    "teamGithubURL": "https://github.com/antipalos",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Armada Alliance",
+    "website": "https://armada-alliance.com",
+    "teamGithubURL": "https://github.com/armada-alliance/",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Cardano with Paul Calculators",
+    "website": "https://www.cardanowithpaul.com/calculators",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Cexplorer Calendar",
+    "website": "https://cexplorer.io/calendar",
+    "teamGithubURL": "https://github.com/cexplorer/",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Azure ADA Calendar",
+    "website": "https://azureada.com/epoch-calendar",
+    "teamGithubURL": "https://github.com/AzureADA",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Hype Staking",
+    "website": "https://hype-staking.com/home",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Mission Driven Pools",
+    "website": "https://missiondrivenpools.org",
+    "teamGithubURL": "https://github.com/CardanoMDP",
+    "tags": ["info", "stake_pool_alliance"]
+  },
+  {
+    "name": "Armada Alliance — Energy Efficient Pools",
+    "website": "https://armada-alliance.com",
+    "teamGithubURL": "https://github.com/armada-alliance",
+    "tags": ["info", "stake_pool_alliance"]
+  },
+  {
+    "name": "Cardano Bare Metal Alliance",
+    "website": "https://cardanobaremetal.com/",
+    "teamGithubURL": "",
+    "tags": ["info", "stake_pool_alliance"]
+  },
+  {
+    "name": "xSPO Alliance",
+    "website": "https://www.xspo-alliance.org",
+    "teamGithubURL": "https://github.com/xSPO-Alliance",
+    "tags": ["info", "stake_pool_alliance"]
+  },
+  {
+    "name": "Single Pool Alliance",
+    "website": "https://singlepoolalliance.net",
+    "teamGithubURL": "https://github.com/SinglePoolAlliance",
+    "tags": ["info", "stake_pool_alliance"]
+  },
+  {
+    "name": "Climate Neutral Cardano",
+    "website": "https://climateneutralcardano.org",
+    "teamGithubURL": "",
+    "tags": ["info", "stake_pool_alliance"]
+  },
+  {
+    "name": "StakePool Operator Tools Alliance",
+    "website": "https://github.com/gitmachtl/StakePool-Operator-Tools-Alliance",
+    "teamGithubURL": "https://github.com/gitmachtl/",
+    "tags": ["info", "stake_pool_alliance"]
+  },
+  {
+    "name": "SPO Japan Guild",
+    "website": "https://spojapanguild.net",
+    "teamGithubURL": "https://github.com/btbf/",
+    "tags": ["info", "stake_pool_alliance"]
+  },
+  {
+    "name": "Aldea Latin America DAO",
+    "website": "https://aldea-dao.org",
+    "teamGithubURL": "https://github.com/ALDEA-DAO",
+    "tags": ["info", "stake_pool_alliance"]
+  },
+  {
+    "name": "Canadian Cardano Stake Pool Association (CCSPA)",
+    "website": "https://ccspa.ca",
+    "teamGithubURL": "https://github.com/CCSPA",
+    "tags": ["info", "stake_pool_alliance"]
+  },
+  {
+    "name": "Littlefish Foundation ISPO Guide",
+    "website": "https://vault.littlefish.foundation/F.+Cardano/ISPO+-+What%2C+Why%2C+How%3F",
+    "teamGithubURL": "https://github.com/littlefish-foundation",
+    "tags": ["info", "what_is_an_ispo"]
+  },
+  {
+    "name": "CardanoSpot ISPO Guide",
+    "website": "https://cardanospot.io/news/initial-stake-pool-offering-ispo-on-cardano-ecosystem-0",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["info", "what_is_an_ispo"]
+  },
+  {
+    "name": "Cointelegraph ISPO 101",
+    "website": "https://cointelegraph.com/learn/ispo-101-a-beginners-guide-on-initial-stake-pool-offerings",
+    "teamGithubURL": "",
+    "tags": ["info", "what_is_an_ispo"]
+  },
+  {
+    "name": "Maestro Marketplace",
+    "website": "https://www.gomaestro.org/marketplace",
+    "teamGithubURL": "https://github.com/maestro-org",
+    "tags": ["tools", "ispo_explorer"]
+  },
+  {
+    "name": "CardanoCube ISPOs",
+    "website": "https://www.cardanocube.com/categories/ispo",
+    "teamGithubURL": "",
+    "tags": ["tools", "ispo_explorer"]
+  },
+  {
+    "name": "Prometheus",
+    "website": "https://prometheus.io/",
+    "teamGithubURL": "https://github.com/prometheus",
+    "tags": ["tools", "stake_pool_monitoring_tool_top"]
+  },
+  {
+    "name": "Grafana",
+    "website": "https://grafana.com/",
+    "teamGithubURL": "https://github.com/grafana",
+    "tags": ["tools", "stake_pool_monitoring_tool_top"]
+  },
+  {
+    "name": "Getting started with Prometheus",
+    "website": "https://prometheus.io/docs/prometheus/latest/getting_started/",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_prometheus"]
+  },
+  {
+    "name": "Installing Prometheus for Cardano",
+    "website": "https://cardano-course.gitbook.io/cardano-course/handbook/monitoring-our-nodes",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_prometheus"]
+  },
+  {
+    "name": "Prometheus Grafana Support",
+    "website": "https://prometheus.io/docs/visualization/grafana/",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_prometheus"]
+  },
+  {
+    "name": "Install Grafana Locally",
+    "website": "https://grafana.com/get/?plcmt=top-nav&cta=downloads&tab=self-managed",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_grafana"]
+  },
+  {
+    "name": "Use Grafana from the Cloud",
+    "website": "https://grafana.com/get/?plcmt=top-nav&cta=downloads",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_grafana"]
+  },
+  {
+    "name": "Improve Grafana Security for Cardano",
+    "website": "https://developers.cardano.org/docs/operate-a-stake-pool/improve-grafana-security/",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_grafana"]
+  },
+  {
+    "name": "CoinCashew Installing Prometheus and Grafana",
+    "website": "https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/part-iii-operation/setting-up-dashboards",
+    "teamGithubURL": "",
+    "tags": ["info", "prometheus_grafana_full_setup_guide"]
+  },
+  {
+    "name": "Guild Operators Monitoring Guide",
+    "website": "https://cardano-community.github.io/guild-operators/Appendix/monitoring/",
+    "teamGithubURL": "",
+    "tags": ["info", "prometheus_grafana_full_setup_guide"]
+  },
+  {
+    "name": "Cardano Dev Docs: Grafana Tutorial",
+    "website": "https://developers.cardano.org/docs/operate-a-stake-pool/grafana-dashboard-tutorial/",
+    "teamGithubURL": "",
+    "tags": ["info", "prometheus_grafana_full_setup_guide"]
+  },
+  {
+    "name": "EDEN Prometheus and Grafana Video Tutorial",
+    "website": "https://youtu.be/oImqk-eubfs",
+    "teamGithubURL": "",
+    "tags": ["info", "prometheus_grafana_full_setup_guide"]
+  },
+  {
+    "name": "CodiLime Monitoring Node with Prometheus and Grafana Video",
+    "website": "https://www.youtube.com/watch?v=opSlGGa6lLg",
+    "teamGithubURL": "",
+    "tags": ["info", "prometheus_grafana_full_setup_guide"]
+  },
+  {
+    "name": "Armada Alliance Grafana Dashboards",
+    "website": "https://github.com/armada-alliance/dashboards",
+    "teamGithubURL": "https://github.com/armada-alliance",
+    "tags": ["info", "custom_grafana_dashboard"]
+  },
+  {
+    "name": "Kirael Grafana Dashboard",
+    "website": "https://github.com/Kirael12/Cardano-Grafana-Dashboards",
+    "teamGithubURL": "https://github.com/Kirael12",
+    "tags": ["info", "custom_grafana_dashboard"]
+  },
+  {
+    "name": "Carpool Grafana Dashboard",
+    "website": "https://github.com/CardenPool/Cardano-Stake-Pool-Grafana-Dashboard",
+    "teamGithubURL": "https://github.com/CardenPool",
+    "tags": ["info", "custom_grafana_dashboard"]
+  },
+  {
+    "name": "RT View",
+    "website": "https://github.com/IntersectMBO/cardano-node/blob/master/cardano-tracer/docs/cardano-rtview.md",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Core Monitor",
+    "website": "https://github.com/happystaking/core-monitor",
+    "teamGithubURL": "https://github.com/happystaking",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Watchtower Tools",
+    "website": "https://watchtower.tools/",
+    "teamGithubURL": "https://github.com/bkvpool",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "CardanoAPI Mempool Check",
+    "website": "https://mempool.cardanoapi.io/",
+    "teamGithubURL": "https://github.com/dQuadrant",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Nview",
+    "website": "https://github.com/blinklabs-io/nview",
+    "teamGithubURL": "https://github.com/blinklabs-io",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Koios gLiveView",
+    "website": "https://developers.cardano.org/docs/operate-a-stake-pool/monitoring-gliveview/",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Cardano Light Tools",
+    "website": "https://github.com/orpheus-antpool/cardano-light-tools",
+    "teamGithubURL": "https://github.com/orpheus-antpool",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Cardano Node Audit",
+    "website": "https://github.com/Kirael12/cardano-node-audit",
+    "teamGithubURL": "https://github.com/Kirael12",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Pool.vet",
+    "website": "https://pool.vet/",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Cardano Spot Check Guide",
+    "website": "https://blockchainlens.gitbook.io/cardano-spot-check/basic-checks/advanced",
+    "teamGithubURL": "https://github.com/adacapital",
+    "tags": ["info", "pool_monitoring_info"]
+  },
+  {
+    "name": "Cardano Docs: Stake Pool Monitoring",
+    "website": "https://docs.cardano.org/stake-pool-operators/monitoring/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["info", "pool_monitoring_info"]
+  },
+  {
+    "name": "Cardano Developer Docs: Operator Tools",
+    "website": "https://github.com/cardano-foundation/developer-portal",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "pool_monitoring_info"]
+  },
+  {
+    "name": "Guild Operators Tools",
+    "website": "https://cardano-community.github.io/guild-operators/build/",
+    "teamGithubURL": "https://github.com/cardano-community",
+    "tags": ["info", "pool_monitoring_info"]
+  },
+  {
     "name": "Intersect MBO",
     "website": "https://www.intersectmbo.org/",
     "teamGithubURL": "https://github.com/intersectmbo",
@@ -3755,66 +4175,6 @@
     "tags": ["tools", "dapp_explorer"]
   },
   {
-    "name": "Cexplorer Stake Pools",
-    "website": "https://cexplorer.io/pool",
-    "teamGithubURL": "https://github.com/cexplorer",
-    "tags": ["tools", "stake_pool_explorer"]
-  },
-  {
-    "name": "AdaStat",
-    "website": "https://adastat.net/pools",
-    "teamGithubURL": "https://github.com/CardanoExplorer",
-    "tags": ["tools", "stake_pool_explorer"]
-  },
-  {
-    "name": "Alethea",
-    "website": "https://alethea.io/pools",
-    "teamGithubURL": "https://github.com/alethea-io",
-    "tags": ["tools", "stake_pool_explorer"]
-  },
-  {
-    "name": "PoolTool",
-    "website": "https://pooltool.io/pools",
-    "teamGithubURL": "https://github.com/PoolTool-io",
-    "tags": ["tools", "stake_pool_explorer"]
-  },
-  {
-    "name": "CardanoScan Pools",
-    "website": "https://cardanoscan.io/pools",
-    "teamGithubURL": "https://github.com/StricaHQ",
-    "tags": ["tools", "stake_pool_explorer"]
-  },
-  {
-    "name": "Stakada",
-    "website": "https://stakada.io",
-    "teamGithubURL": "",
-    "tags": ["tools", "stake_pool_explorer"]
-  },
-  {
-    "name": "Upstream",
-    "website": "https://upstream.org.uk/cardano-stake-pool-explorer",
-    "teamGithubURL": "",
-    "tags": ["tools", "stake_pool_explorer"]
-  },
-  {
-    "name": "Cardano-Scan Stake Pools",
-    "website": "https://cardano-scan.com/pools",
-    "teamGithubURL": "",
-    "tags": ["tools", "stake_pool_explorer"]
-  },
-  {
-    "name": "Poolinfo.me",
-    "website": "https://poolinfo.me/",
-    "teamGithubURL": "",
-    "tags": ["tools", "stake_pool_explorer"]
-  },
-  {
-    "name": "SPO Yellow Pages",
-    "website": "https://spoyellowpages.com/",
-    "teamGithubURL": "https://github.com/lucifer911",
-    "tags": ["tools", "stake_pool_explorer"]
-  },
-  {
     "name": "Intersect Newsletter",
     "website": "https://intersectmbo.org/news",
     "teamGithubURL": "",
@@ -3885,144 +4245,6 @@
     "website": "https://cardano.beehiiv.com",
     "teamGithubURL": "",
     "tags": ["tools", "newsletter"]
-  },
-  {
-    "name": "Cexplorer Rewards",
-    "website": "https://cexplorer.io/rewards",
-    "teamGithubURL": "https://github.com/cexplorer/",
-    "tags": ["tools", "reward_tracker"]
-  },
-  {
-    "name": "WhenAda",
-    "website": "https://www.whenada.com",
-    "teamGithubURL": "",
-    "tags": ["tools", "reward_tracker"]
-  },
-  {
-    "name": "Cardano Countdown",
-    "website": "https://cardanocountdown.com/Rewards",
-    "teamGithubURL": "",
-    "tags": ["tools", "reward_tracker"]
-  },
-  {
-    "name": "CardanoScan",
-    "website": "https://cardanoscan.io",
-    "teamGithubURL": "https://github.com/StricaHQ",
-    "tags": ["tools", "reward_tracker"]
-  },
-  {
-    "name": "Cardano Staking Calculator",
-    "website": "https://cardano.org/calculator",
-    "teamGithubURL": "https://github.com/cardano-foundation/",
-    "tags": ["tools", "reward_calculator"]
-  },
-  {
-    "name": "Cardaviz",
-    "website": "https://cardaviz.app",
-    "teamGithubURL": "",
-    "tags": ["tools", "reward_calculator"]
-  },
-  {
-    "name": "Ada Calculator",
-    "website": "https://adacalculator.com/cardano-staking-calculator",
-    "teamGithubURL": "https://github.com/cardanoumbrella",
-    "tags": ["tools", "reward_calculator"]
-  },
-  {
-    "name": "Antipalos Calculator",
-    "website": "https://antipalos.github.io/cardano-calculator/#calculator",
-    "teamGithubURL": "https://github.com/antipalos",
-    "tags": ["tools", "reward_calculator"]
-  },
-  {
-    "name": "Armada Alliance",
-    "website": "https://armada-alliance.com",
-    "teamGithubURL": "https://github.com/armada-alliance/",
-    "tags": ["tools", "reward_calculator", "stake_pool_explorer"]
-  },
-  {
-    "name": "Cardano with Paul Calculators",
-    "website": "https://www.cardanowithpaul.com/calculators",
-    "teamGithubURL": "",
-    "tags": ["tools", "reward_calculator"]
-  },
-  {
-    "name": "Cexplorer Calendar",
-    "website": "https://cexplorer.io/calendar",
-    "teamGithubURL": "https://github.com/cexplorer/",
-    "tags": ["tools", "reward_calendar"]
-  },
-  {
-    "name": "Azure ADA Calendar",
-    "website": "https://azureada.com/epoch-calendar",
-    "teamGithubURL": "https://github.com/AzureADA",
-    "tags": ["tools", "reward_calendar"]
-  },
-  {
-    "name": "Hype Staking",
-    "website": "https://hype-staking.com/home",
-    "teamGithubURL": "",
-    "tags": ["tools", "reward_calendar"]
-  },
-  {
-    "name": "Mission Driven Pools",
-    "website": "https://missiondrivenpools.org",
-    "teamGithubURL": "https://github.com/CardanoMDP",
-    "tags": ["stake_pool_alliance", "stake_pool_explorer"]
-  },
-  {
-    "name": "Armada Alliance — Energy Efficient Pools",
-    "website": "https://armada-alliance.com",
-    "teamGithubURL": "https://github.com/armada-alliance",
-    "tags": ["stake_pool_alliance"]
-  },
-  {
-    "name": "Cardano Bare Metal Alliance",
-    "website": "https://cardanobaremetal.com/",
-    "teamGithubURL": "",
-    "tags": ["stake_pool_alliance"]
-  },
-  {
-    "name": "xSPO Alliance",
-    "website": "https://www.xspo-alliance.org",
-    "teamGithubURL": "https://github.com/xSPO-Alliance",
-    "tags": ["stake_pool_alliance", "stake_pool_explorer"]
-  },
-  {
-    "name": "Single Pool Alliance",
-    "website": "https://singlepoolalliance.net",
-    "teamGithubURL": "https://github.com/SinglePoolAlliance",
-    "tags": ["stake_pool_alliance"]
-  },
-  {
-    "name": "Climate Neutral Cardano",
-    "website": "https://climateneutralcardano.org",
-    "teamGithubURL": "",
-    "tags": ["stake_pool_alliance"]
-  },
-  {
-    "name": "StakePool Operator Tools Alliance",
-    "website": "https://github.com/gitmachtl/StakePool-Operator-Tools-Alliance",
-    "teamGithubURL": "https://github.com/gitmachtl/",
-    "tags": ["stake_pool_alliance"]
-  },
-  {
-    "name": "SPO Japan Guild",
-    "website": "https://spojapanguild.net",
-    "teamGithubURL": "https://github.com/btbf/",
-    "tags": ["stake_pool_alliance"]
-  },
-  {
-    "name": "Aldea Latin America DAO",
-    "website": "https://aldea-dao.org",
-    "teamGithubURL": "https://github.com/ALDEA-DAO",
-    "tags": ["stake_pool_alliance"]
-  },
-  {
-    "name": "Canadian Cardano Stake Pool Association (CCSPA)",
-    "website": "https://ccspa.ca",
-    "teamGithubURL": "https://github.com/CCSPA",
-    "tags": ["stake_pool_alliance"]
   },
   {
     "name": "Cardano Blockchain Insights",
@@ -4929,84 +5151,6 @@
     "website": "https://pooltool.io/networkhealth",
     "teamGithubURL": "https://github.com/PoolTool-io",
     "tags": ["tools", "block_propagation_metrics"]
-  },
-  {
-    "name": "Maestro Marketplace",
-    "website": "https://www.gomaestro.org/marketplace",
-    "teamGithubURL": "https://github.com/maestro-org",
-    "tags": ["tools", "ispo_explorer"]
-  },
-  {
-    "name": "CardanoCube ISPOs",
-    "website": "https://www.cardanocube.com/categories/ispo",
-    "teamGithubURL": "",
-    "tags": ["tools", "ispo_explorer"]
-  },
-  {
-    "name": "Prometheus",
-    "website": "https://prometheus.io/",
-    "teamGithubURL": "https://github.com/prometheus",
-    "tags": ["tools", "stake_pool_monitoring_tool_top"]
-  },
-  {
-    "name": "Grafana",
-    "website": "https://grafana.com/",
-    "teamGithubURL": "https://github.com/grafana",
-    "tags": ["tools", "stake_pool_monitoring_tool_top"]
-  },
-  {
-    "name": "RT View",
-    "website": "https://github.com/IntersectMBO/cardano-node/blob/master/cardano-tracer/docs/cardano-rtview.md",
-    "teamGithubURL": "https://github.com/IntersectMBO",
-    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
-  },
-  {
-    "name": "Core Monitor",
-    "website": "https://github.com/happystaking/core-monitor",
-    "teamGithubURL": "https://github.com/happystaking",
-    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
-  },
-  {
-    "name": "Watchtower Tools",
-    "website": "https://watchtower.tools/",
-    "teamGithubURL": "https://github.com/bkvpool",
-    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
-  },
-  {
-    "name": "CardanoAPI Mempool Check",
-    "website": "https://mempool.cardanoapi.io/",
-    "teamGithubURL": "https://github.com/dQuadrant",
-    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
-  },
-  {
-    "name": "Nview",
-    "website": "https://github.com/blinklabs-io/nview",
-    "teamGithubURL": "https://github.com/blinklabs-io",
-    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
-  },
-  {
-    "name": "Koios gLiveView",
-    "website": "https://developers.cardano.org/docs/operate-a-stake-pool/monitoring-gliveview/",
-    "teamGithubURL": "",
-    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
-  },
-  {
-    "name": "Cardano Light Tools",
-    "website": "https://github.com/orpheus-antpool/cardano-light-tools",
-    "teamGithubURL": "https://github.com/orpheus-antpool",
-    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
-  },
-  {
-    "name": "Cardano Node Audit",
-    "website": "https://github.com/Kirael12/cardano-node-audit",
-    "teamGithubURL": "https://github.com/Kirael12",
-    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
-  },
-  {
-    "name": "Pool.vet",
-    "website": "https://pool.vet/",
-    "teamGithubURL": "",
-    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
   },
   {
     "name": "Adapulse",
@@ -8277,131 +8421,5 @@
     "website": "https://www.youtube.com/@MeetCardano",
     "teamGithubURL": "",
     "tags": ["video_channel", "inactive_youtube"]
-  },
-  {
-    "name": "Littlefish Foundation ISPO Guide",
-    "website": "https://vault.littlefish.foundation/F.+Cardano/ISPO+-+What%2C+Why%2C+How%3F",
-    "teamGithubURL": "https://github.com/littlefish-foundation",
-    "tags": ["info", "what_is_an_ispo"]
-  },
-  {
-    "name": "CardanoSpot ISPO Guide",
-    "website": "https://cardanospot.io/news/initial-stake-pool-offering-ispo-on-cardano-ecosystem-0",
-    "teamGithubURL": "https://github.com/emurgo",
-    "tags": ["info", "what_is_an_ispo"]
-  },
-  {
-    "name": "Cointelegraph ISPO 101",
-    "website": "https://cointelegraph.com/learn/ispo-101-a-beginners-guide-on-initial-stake-pool-offerings",
-    "teamGithubURL": "",
-    "tags": ["info", "what_is_an_ispo"]
-  },
-  {
-    "name": "Getting started with Prometheus",
-    "website": "https://prometheus.io/docs/prometheus/latest/getting_started/",
-    "teamGithubURL": "",
-    "tags": ["info", "get_started_with_prometheus"]
-  },
-  {
-    "name": "Installing Prometheus for Cardano",
-    "website": "https://cardano-course.gitbook.io/cardano-course/handbook/monitoring-our-nodes",
-    "teamGithubURL": "",
-    "tags": ["info", "get_started_with_prometheus"]
-  },
-  {
-    "name": "Prometheus Grafana Support",
-    "website": "https://prometheus.io/docs/visualization/grafana/",
-    "teamGithubURL": "",
-    "tags": ["info", "get_started_with_prometheus"]
-  },
-  {
-    "name": "Install Grafana Locally",
-    "website": "https://grafana.com/get/?plcmt=top-nav&cta=downloads&tab=self-managed",
-    "teamGithubURL": "",
-    "tags": ["info", "get_started_with_grafana"]
-  },
-  {
-    "name": "Use Grafana from the Cloud",
-    "website": "https://grafana.com/get/?plcmt=top-nav&cta=downloads",
-    "teamGithubURL": "",
-    "tags": ["info", "get_started_with_grafana"]
-  },
-  {
-    "name": "Improve Grafana Security for Cardano",
-    "website": "https://developers.cardano.org/docs/operate-a-stake-pool/improve-grafana-security/",
-    "teamGithubURL": "",
-    "tags": ["info", "get_started_with_grafana"]
-  },
-  {
-    "name": "CoinCashew Installing Prometheus and Grafana",
-    "website": "https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/part-iii-operation/setting-up-dashboards",
-    "teamGithubURL": "",
-    "tags": ["info", "prometheus_grafana_full_setup_guide"]
-  },
-  {
-    "name": "Guild Operators Monitoring Guide",
-    "website": "https://cardano-community.github.io/guild-operators/Appendix/monitoring/",
-    "teamGithubURL": "",
-    "tags": ["info", "prometheus_grafana_full_setup_guide"]
-  },
-  {
-    "name": "Cardano Dev Docs: Grafana Tutorial",
-    "website": "https://developers.cardano.org/docs/operate-a-stake-pool/grafana-dashboard-tutorial/",
-    "teamGithubURL": "",
-    "tags": ["info", "prometheus_grafana_full_setup_guide"]
-  },
-  {
-    "name": "EDEN Prometheus and Grafana Video Tutorial",
-    "website": "https://youtu.be/oImqk-eubfs",
-    "teamGithubURL": "",
-    "tags": ["info", "prometheus_grafana_full_setup_guide"]
-  },
-  {
-    "name": "CodiLime Monitoring Node with Prometheus and Grafana Video",
-    "website": "https://www.youtube.com/watch?v=opSlGGa6lLg",
-    "teamGithubURL": "",
-    "tags": ["info", "prometheus_grafana_full_setup_guide"]
-  },
-  {
-    "name": "Armada Alliance Grafana Dashboards",
-    "website": "https://github.com/armada-alliance/dashboards",
-    "teamGithubURL": "https://github.com/armada-alliance",
-    "tags": ["info", "custom_grafana_dashboard"]
-  },
-  {
-    "name": "Kirael Grafana Dashboard",
-    "website": "https://github.com/Kirael12/Cardano-Grafana-Dashboards",
-    "teamGithubURL": "https://github.com/Kirael12",
-    "tags": ["info", "custom_grafana_dashboard"]
-  },
-  {
-    "name": "Carpool Grafana Dashboard",
-    "website": "https://github.com/CardenPool/Cardano-Stake-Pool-Grafana-Dashboard",
-    "teamGithubURL": "https://github.com/CardenPool",
-    "tags": ["info", "custom_grafana_dashboard"]
-  },
-  {
-    "name": "Cardano Spot Check Guide",
-    "website": "https://blockchainlens.gitbook.io/cardano-spot-check/basic-checks/advanced",
-    "teamGithubURL": "https://github.com/adacapital",
-    "tags": ["info", "pool_monitoring_info"]
-  },
-  {
-    "name": "Cardano Docs: Stake Pool Monitoring",
-    "website": "https://docs.cardano.org/stake-pool-operators/monitoring/",
-    "teamGithubURL": "https://github.com/input-output-hk",
-    "tags": ["info", "pool_monitoring_info"]
-  },
-  {
-    "name": "Cardano Developer Docs: Operator Tools",
-    "website": "https://github.com/cardano-foundation/developer-portal",
-    "teamGithubURL": "https://github.com/cardano-foundation",
-    "tags": ["info", "pool_monitoring_info"]
-  },
-  {
-    "name": "Guild Operators Tools",
-    "website": "https://cardano-community.github.io/guild-operators/build/",
-    "teamGithubURL": "https://github.com/cardano-community",
-    "tags": ["info", "pool_monitoring_info"]
   }
 ]
