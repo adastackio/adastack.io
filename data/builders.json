@@ -230,7 +230,7 @@
   {
     "name": "Your Cardano Onboarding Guide by Essential Cardano",
     "website": "https://www.essentialcardano.io/article/your-cardano-onboarding-guide",
-    "teamGithubURL": "https://github.com/input-output-hk",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
     "tags": ["info", "cardano_guide_additional"]
   },
   {
@@ -238,6 +238,30 @@
     "website": "https://www.cardanonexus.org/",
     "teamGithubURL": "",
     "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "Cardano Nexus",
+    "website": "https://www.cardanonexus.org/",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "Cardano.org Staking Guide",
+    "website": "https://cardano.org/stake-pool-delegation/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "staking_guide"]
+  },
+  {
+    "name": "Essential Cardano Staking Infographic",
+    "website": "https://www.essentialcardano.io/infographic/how-to-stake-your-ada",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["info", "staking_guide"]
+  },
+  {
+    "name": "Pudgycat Cardano Staking Guide",
+    "website": "https://pudgycat.io/cardano-staking-securing-network-earning-rewards/",
+    "teamGithubURL": "",
+    "tags": ["info", "staking_guide"]
   },
   {
     "name": "Intersect MBO",
@@ -3805,7 +3829,7 @@
   {
     "name": "Essential Cardano Newsletter by IOG",
     "website": "https://www.essentialcardano.io/",
-    "teamGithubURL": "",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
     "tags": ["tools", "newsletter"]
   },
   {

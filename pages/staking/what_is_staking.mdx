@@ -4,6 +4,9 @@ seo_description: Understand staking on Cardano, why this benefits the network, a
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # What is Staking?
 
 Staking is a key element to the operation of proof-of-stake networks like Cardano. It aligns incentives to ensure Cardano's security.
@@ -16,12 +19,4 @@ Cardano's staking mechanism is one of the simplest and safest in cryptocurrency.
 
 ## Staking Guides
 
-- [Cardano.org Staking Guide](https://cardano.org/stake-pool-delegation/)
-- [How to Stake your ADA](https://medium.com/@wonge/how-to-stake-your-ada-cardano-3c56b020f91d)
-- [Staking Infographic by Essential Cardano](https://www.essentialcardano.io/infographic/how-to-stake-your-ada)
-
-## Staking Video Walkthroughs
-
-- [Maximizing your Staking Rewards](https://www.youtube.com/watch?v=Nf6D1D5DKKk)
-- [How to Stake ADA: The Ultimate Guide by Learn Cardano](https://learncardano.io/how-to-easily-stake-ada-cardano-stake-pool/)
-- [How to Stake ADA Tutorial Video with Crypto Moose](https://www.youtube.com/watch?v=lbsFlyxUE8A)
+<DefaultDataTable projects={builders} filterBy="staking_guide" />
