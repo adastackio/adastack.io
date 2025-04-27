@@ -1770,12 +1770,6 @@
     "tags": ["news_updates", "project_blog"]
   },
   {
-    "name": "Bodega Market Blog",
-    "website": "https://medium.com/@bodegacardano",
-    "teamGithubURL": "",
-    "tags": ["news_updates", "project_blog"]
-  },
-  {
     "name": "CardanoGPT Blog",
     "website": "https://medium.com/@cardanogpt",
     "teamGithubURL": "",
@@ -5927,54 +5921,6 @@
     "tags": ["dapp", "supply_chain_dapp"]
   },
   {
-    "name": "Andamio",
-    "website": "https://www.andamio.io/",
-    "teamGithubURL": "https://github.com/Andamio-Platform",
-    "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
-    "name": "Wisdom Courses",
-    "website": "https://wisdom.courses",
-    "teamGithubURL": "https://github.com/The-Working-Dead",
-    "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
-    "name": "Olympus Insights",
-    "website": "https://olympusinsights.io",
-    "teamGithubURL": "",
-    "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
-    "name": "Gimbalabs",
-    "website": "https://gimbalabs.com/",
-    "teamGithubURL": "https://github.com/gimbalabs",
-    "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
-    "name": "Cardano2vn",
-    "website": "https://lms/cardano2vn.io",
-    "teamGithubURL": "https://github.com/cardano2vn",
-    "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
-    "name": "Birble AI",
-    "website": "https://www.birble.win/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
-    "name": "Academia Cardano",
-    "website": "https://academiacardano.com/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
-    "name": "Asteria",
-    "website": "https://asteria.txpipe.io/",
-    "teamGithubURL": "https://github.com/txpipe",
-    "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
     "name": "Kreate Art",
     "website": "https://kreate.community/",
     "teamGithubURL": "https://github.com/kreate-art",
@@ -6017,18 +5963,6 @@
     "tags": ["dapp", "nft_marketplace"]
   },
   {
-    "name": "Trading Tent",
-    "website": "https://www.tradingtent.io/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "nft_p2p_trading"]
-  },
-  {
-    "name": "Atomic Swap",
-    "website": "https://atomic-swap.io/",
-    "teamGithubURL": "https://github.com/honungsburk",
-    "tags": ["dapp", "nft_p2p_trading"]
-  },
-  {
     "name": "Crashr",
     "website": "https://www.crashr.io/",
     "teamGithubURL": "https://github.com/Crashr-io",
@@ -6057,6 +5991,18 @@
     "website": "https://www.arkhouse.io/",
     "teamGithubURL": "",
     "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Trading Tent",
+    "website": "https://www.tradingtent.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_p2p_trading"]
+  },
+  {
+    "name": "Atomic Swap",
+    "website": "https://atomic-swap.io/",
+    "teamGithubURL": "https://github.com/honungsburk",
+    "tags": ["dapp", "nft_p2p_trading"]
   },
   {
     "name": "Chains of War",
@@ -6401,52 +6347,220 @@
     "tags": ["dapp", "general_game"]
   },
   {
+    "name": "Bodega Market",
+    "website": "https://www.bodegamarket.xyz/",
+    "teamGithubURL": "https://github.com/bodega-market",
+    "tags": ["dapp", "prediction_or_gambling_game"]
+  },
+  {
+    "name": "Foreon",
+    "website": "https://foreon.network/",
+    "teamGithubURL": "https://github.com/Foreon-Network",
+    "tags": ["dapp", "prediction_or_gambling_game"]
+  },
+  {
     "name": "Ridotto",
     "website": "https://ridotto.io/",
     "teamGithubURL": "https://github.com/ridotto-io",
-    "tags": ["dapp", "gambling_game", "prediction_game"]
+    "tags": ["dapp", "prediction_or_gambling_game"]
   },
   {
     "name": "Streaks Game Predictions by CNFT",
     "website": "https://streaks.io/",
     "teamGithubURL": "",
-    "tags": ["dapp", "prediction_game"]
+    "tags": ["dapp", "prediction_or_gambling_game"]
   },
   {
     "name": "Bettting ADA",
     "website": "https://betttingada.com/",
     "teamGithubURL": "",
-    "tags": ["dapp", "prediction_game"]
+    "tags": ["dapp", "prediction_or_gambling_game"]
   },
   {
     "name": "Danzo casino",
     "website": "https://www.danzo.gg/#/",
     "teamGithubURL": "",
-    "tags": ["dapp", "gambling_game"]
+    "tags": ["dapp", "prediction_or_gambling_game"]
   },
   {
     "name": "Gaming-Snek Raffle",
     "website": "https://gaming-snek.com/raffle",
     "teamGithubURL": "",
-    "tags": ["dapp", "gambling_game"]
+    "tags": ["dapp", "prediction_or_gambling_game"]
   },
   {
     "name": "cPoker",
     "website": "https://cpoker.io/",
     "teamGithubURL": "https://github.com/Cardano-After-Dark",
-    "tags": ["dapp", "gambling_game"]
+    "tags": ["dapp", "prediction_or_gambling_game"]
   },
   {
     "name": "VyFi Lottery",
     "website": "https://app.vyfi.io/lottery",
     "teamGithubURL": "https://github.com/vyfi",
-    "tags": ["dapp", "gambling_game"]
+    "tags": ["dapp", "prediction_or_gambling_game"]
   },
   {
     "name": "Mutant NFTs Raffle",
     "website": "https://labs.mutant-nft.com/raffles",
     "teamGithubURL": "https://github.com/MutantNFTs",
-    "tags": ["dapp", "gambling_game"]
+    "tags": ["dapp", "prediction_or_gambling_game"]
+  },
+  {
+    "name": "BuiltOnCardano Games",
+    "website": "https://builtoncardano.com/ecosystem/games-and-gaming",
+    "teamGithubURL": "",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "Playtoearn.com Cardano",
+    "website": "https://playtoearn.com/blockchaingames/Cardano/All-Genre/All-Status/All-Device/All-NFT/All-PlayToEarn/All-FreeToPlay",
+    "teamGithubURL": "",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "Cardano.org Game Showcase",
+    "website": "https://developers.cardano.org/showcase/?tags=game",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "CardanoSpot Gaming Projects",
+    "website": "https://cardanospot.io/project-library/Gaming",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "DAppRadar Games",
+    "website": "https://dappradar.com/rankings/protocol/cardano/category/games",
+    "teamGithubURL": "https://github.com/dappradar",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "Flux Point Studio",
+    "website": "https://fluxpointstudios.com/",
+    "teamGithubURL": "https://github.com/Flux-Point-Studios",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Banana Clip Studios",
+    "website": "https://www.bananaclip.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Paima Studios",
+    "website": "https://www.paimastudios.com/",
+    "teamGithubURL": "https://github.com/PaimaStudios",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "2B3D",
+    "website": "https://2b3d.com/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "RFLXT",
+    "website": "https://rflxt.com/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Dega",
+    "website": "https://www.dega.org/",
+    "teamGithubURL": "https://github.com/DEGAorg",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "WAGMI Games",
+    "website": "https://www.wagmigame.io/",
+    "teamGithubURL": "https://github.com/wagmigame",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Pixel Cab Games",
+    "website": "https://pixelcabgames.com/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "WildSnake Software",
+    "website": "https://www.wildsnake.com/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Risk Gaming",
+    "website": "https://riskgaming.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Tavern Squad Studios",
+    "website": "https://tavernsquad.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "SuraLabs Gaming",
+    "website": "https://suralabs.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Battle Alliance",
+    "website": "https://battlealliance.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Andamio",
+    "website": "https://www.andamio.io/",
+    "teamGithubURL": "https://github.com/Andamio-Platform",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Wisdom Courses",
+    "website": "https://wisdom.courses",
+    "teamGithubURL": "https://github.com/The-Working-Dead",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Olympus Insights",
+    "website": "https://olympusinsights.io",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Gimbalabs",
+    "website": "https://gimbalabs.com/",
+    "teamGithubURL": "https://github.com/gimbalabs",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Cardano2vn",
+    "website": "https://lms/cardano2vn.io",
+    "teamGithubURL": "https://github.com/cardano2vn",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Birble AI",
+    "website": "https://www.birble.win/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Academia Cardano",
+    "website": "https://academiacardano.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Asteria",
+    "website": "https://asteria.txpipe.io/",
+    "teamGithubURL": "https://github.com/txpipe",
+    "tags": ["dapp", "dev_learning_platform"]
   },
   {
     "name": "TxPipe",
@@ -6953,84 +7067,6 @@
     "tags": ["dev_company"]
   },
   {
-    "name": "Flux Point Studio",
-    "website": "https://fluxpointstudios.com/",
-    "teamGithubURL": "https://github.com/Flux-Point-Studios",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "Banana Clip Studios",
-    "website": "https://www.bananaclip.io/",
-    "teamGithubURL": "",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "Paima Studios",
-    "website": "https://www.paimastudios.com/",
-    "teamGithubURL": "https://github.com/PaimaStudios",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "2B3D",
-    "website": "https://2b3d.com/",
-    "teamGithubURL": "",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "RFLXT",
-    "website": "https://rflxt.com/",
-    "teamGithubURL": "",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "Dega",
-    "website": "https://www.dega.org/",
-    "teamGithubURL": "https://github.com/DEGAorg",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "WAGMI Games",
-    "website": "https://www.wagmigame.io/",
-    "teamGithubURL": "https://github.com/wagmigame",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "Pixel Cab Games",
-    "website": "https://pixelcabgames.com/",
-    "teamGithubURL": "",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "WildSnake Software",
-    "website": "https://www.wildsnake.com/",
-    "teamGithubURL": "",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "Risk Gaming",
-    "website": "https://riskgaming.io/",
-    "teamGithubURL": "",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "Tavern Squad Studios",
-    "website": "https://tavernsquad.io/",
-    "teamGithubURL": "",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "SuraLabs Gaming",
-    "website": "https://suralabs.io/",
-    "teamGithubURL": "",
-    "tags": ["game_studio"]
-  },
-  {
-    "name": "Battle Alliance",
-    "website": "https://battlealliance.io/",
-    "teamGithubURL": "",
-    "tags": ["game_studio"]
-  },
-  {
     "name": "Eternl Wallet",
     "website": "https://eternl.io/",
     "teamGithubURL": "https://github.com/Tastenkunst",
@@ -7233,36 +7269,6 @@
     "website": "https://pooltool.io/",
     "teamGithubURL": "https://github.com/PoolTool-io",
     "tags": ["tools"]
-  },
-  {
-    "name": "BuiltOnCardano Games",
-    "website": "https://builtoncardano.com/ecosystem/games-and-gaming",
-    "teamGithubURL": "",
-    "tags": ["tools", "game_explorer"]
-  },
-  {
-    "name": "Playtoearn.com Cardano",
-    "website": "https://playtoearn.com/blockchaingames/Cardano/All-Genre/All-Status/All-Device/All-NFT/All-PlayToEarn/All-FreeToPlay",
-    "teamGithubURL": "",
-    "tags": ["tools", "game_explorer"]
-  },
-  {
-    "name": "Cardano.org Game Showcase",
-    "website": "https://developers.cardano.org/showcase/?tags=game",
-    "teamGithubURL": "https://github.com/cardano-foundation",
-    "tags": ["tools", "game_explorer"]
-  },
-  {
-    "name": "CardanoSpot Gaming Projects",
-    "website": "https://cardanospot.io/project-library/Gaming",
-    "teamGithubURL": "https://github.com/emurgo",
-    "tags": ["tools", "game_explorer"]
-  },
-  {
-    "name": "DAppRadar Games",
-    "website": "https://dappradar.com/rankings/protocol/cardano/category/games",
-    "teamGithubURL": "https://github.com/dappradar",
-    "tags": ["tools", "game_explorer"]
   },
   {
     "name": "Lido Nation",
