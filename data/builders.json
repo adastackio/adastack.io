@@ -1,5 +1,23 @@
 [
   {
+    "name": "Cardano Foundation Blockchain Basics",
+    "website": "https://cardanofoundation.org/blog/blockchain-basics-simple-guide-beginners",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "blockchain_guide"]
+  },
+  {
+    "name": "Kraken What is Blockchain Technology",
+    "website": "https://www.kraken.com/learn/what-is-blockchain-technology",
+    "teamGithubURL": "https://github.com/krakenfx",
+    "tags": ["info", "blockchain_guide"]
+  },
+  {
+    "name": "Investopedia Blockchain Facts",
+    "website": "https://www.investopedia.com/terms/b/blockchain.asp",
+    "teamGithubURL": "",
+    "tags": ["info", "blockchain_guide"]
+  },
+  {
     "name": "Cardano.org",
     "website": "https://cardano.org/",
     "teamGithubURL": "https://github.com/cardano-foundation",
