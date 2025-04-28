@@ -5939,6 +5939,24 @@
     "tags": ["dapp", "supply_chain_dapp"]
   },
   {
+    "name": "Cardano NFT Guild",
+    "website": "https://www.nft-guild.io/cardano-nft-guides",
+    "teamGithubURL": "https://github.com/NFT-Guild",
+    "tags": ["info", "nft_guide"]
+  },
+  {
+    "name": "Genius Academy NFT Guide",
+    "website": "https://academy.geniusyield.co/guides/nft",
+    "teamGithubURL": "https://github.com/geniusyield",
+    "tags": ["info", "nft_guide"]
+  },
+  {
+    "name": "JamOnBread Guide to Navigatge NFTs",
+    "website": "https://blog.jamonbread.io/en/guide-to-navigating-the-cardano-nft-ecosystem",
+    "teamGithubURL": "https://github.com/JamOnBread",
+    "tags": ["info", "nft_guide"]
+  },
+  {
     "name": "Kreate Art",
     "website": "https://kreate.community/",
     "teamGithubURL": "https://github.com/kreate-art",
