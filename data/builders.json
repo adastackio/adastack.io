@@ -7109,306 +7109,6 @@
     "tags": ["dapp", "dev_learning_platform"]
   },
   {
-    "name": "Eternl Wallet",
-    "website": "https://eternl.io/",
-    "teamGithubURL": "https://github.com/Tastenkunst",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Gamechanger Wallet",
-    "website": "https://gamechanger.finance",
-    "teamGithubURL": "https://github.com/GameChangerFinance/",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Begin Wallet",
-    "website": "https://begin.is/",
-    "teamGithubURL": "https://github.com/BeginWallet",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Tokeo Wallet",
-    "website": "https://tokeopay.io/",
-    "teamGithubURL": "https://github.com/TokeoPay",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Vespr Wallet",
-    "website": "https://www.vespr.xyz/",
-    "teamGithubURL": "https://github.com/vespr-wallet",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Endubis Wallet",
-    "website": "https://endubis-wallet.vercel.app/",
-    "teamGithubURL": "https://github.com/Endubis-Solutions",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Nufi Wallet",
-    "website": "https://nu.fi/",
-    "teamGithubURL": "https://github.com/nufi-official",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Bro Clan Wallet",
-    "website": "https://broclan.io/",
-    "teamGithubURL": "https://github.com/leo42",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Ledger Wallet",
-    "website": "https://www.ledger.com/",
-    "teamGithubURL": "https://github.com/ledgerhq",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Trezor Wallet",
-    "website": "https://trezor.io/",
-    "teamGithubURL": "https://github.com/trezor",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Tangem Wallet",
-    "website": "https://tangem.com/",
-    "teamGithubURL": "https://github.com/tangem",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Keystone Wallet",
-    "website": "https://keyst.one/",
-    "teamGithubURL": "https://github.com/keystoneHQ",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Proof of Space",
-    "website": "https://www.proofspace.id/",
-    "teamGithubURL": "https://github.com/zakaio",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Blocktrust",
-    "website": "https://blocktrust.dev/",
-    "teamGithubURL": "https://github.com/bsandmann",
-    "tags": ["tools"]
-  },
-  {
-    "name": "CardanoPress",
-    "website": "https://cardanopress.io/",
-    "teamGithubURL": "https://github.com/CardanoPress",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Work with Cardano",
-    "website": "https://workwithcardano.com/",
-    "teamGithubURL": "https://github.com/wowica",
-    "tags": ["tools"]
-  },
-  {
-    "name": "SecurityBot",
-    "website": "https://securitybot.info/",
-    "teamGithubURL": "https://github.com/yHSJ",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Yepple",
-    "website": "https://yepple.io/",
-    "teamGithubURL": "https://github.com/YeppleInc",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Bakrypt",
-    "website": "https://bakrypt.io/",
-    "teamGithubURL": "https://github.com/Wolfy18",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Tangocrypto",
-    "website": "https://www.tangocrypto.com/",
-    "teamGithubURL": "https://github.com/tango-crypto",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Watchtower tools",
-    "website": "https://watchtower.tools/",
-    "teamGithubURL": "https://github.com/bkvpool",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Tapdano",
-    "website": "https://tapdano.com/",
-    "teamGithubURL": "https://github.com/tapdano",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Cardano Spot Check",
-    "website": "https://blockchainlens.gitbook.io/",
-    "teamGithubURL": "https://github.com/bclens",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Berry Pool",
-    "website": "https://berrypool.io/",
-    "teamGithubURL": "https://github.com/berry-pool",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Token Terminal",
-    "website": "https://tokenterminal.com/explorer/projects/cardano/metrics/all",
-    "teamGithubURL": "https://github.com/token-terminal",
-    "tags": ["tools", "metric_tracker_site"]
-  },
-  {
-    "name": "Bending.ai",
-    "website": "https://bending.ai/",
-    "teamGithubURL": "",
-    "tags": ["tools", "metric_tracker_site"]
-  },
-  {
-    "name": "Balance Analytics",
-    "website": "https://www.balanceanalytics.io/",
-    "teamGithubURL": "https://github.com/Balance-Analytics",
-    "tags": ["tools", "metric_tracker_site"]
-  },
-  {
-    "name": "Zarqa AI",
-    "website": "https://www.zarqa.ai/",
-    "teamGithubURL": "https://github.com/zarqa-ai",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Aiken",
-    "website": "https://aiken-lang.org/",
-    "teamGithubURL": "https://github.com/aiken-lang",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Mesh",
-    "website": "https://meshjs.dev/",
-    "teamGithubURL": "https://github.com/MeshJS",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Maestro",
-    "website": "https://www.gomaestro.org/",
-    "teamGithubURL": "https://github.com/maestro-org",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Free Honey",
-    "website": "https://github.com/free-honey",
-    "teamGithubURL": "https://github.com/free-honey",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Adabox.io",
-    "website": "https://adabox.io",
-    "teamGithubURL": "https://github.com/adabox-aio",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Pooltool.io",
-    "website": "https://pooltool.io/",
-    "teamGithubURL": "https://github.com/PoolTool-io",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Lido Nation",
-    "website": "https://www.lidonation.com/",
-    "teamGithubURL": "https://github.com/lidonation",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Wolfram Blockchain Labs",
-    "website": "https://www.wolframblockchainlabs.com/",
-    "teamGithubURL": "https://github.com/WolframBlockchainLabs",
-    "tags": ["tools"]
-  },
-  {
-    "name": "RootsID",
-    "website": "https://rootsid.com/",
-    "teamGithubURL": "https://github.com/roots-id",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Adastack",
-    "website": "https://www.adastack.io",
-    "teamGithubURL": "https://github.com/adastackio/",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Veralidity",
-    "website": "https://veralidity.com/",
-    "teamGithubURL": "https://github.com/veralidity",
-    "tags": ["tools"]
-  },
-  {
-    "name": "UpToDate Developers",
-    "website": "https://uptodatedevelopers.com/",
-    "teamGithubURL": "https://github.com/UPTODATE-DEV",
-    "tags": ["tools"]
-  },
-  {
-    "name": "PyCardano",
-    "website": "https://pycardano.readthedocs.io/en/latest/",
-    "teamGithubURL": "https://github.com/Python-Cardano",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Plutonomicon",
-    "website": "https://github.com/Plutonomicon/plutonomicon/blob/main/README.md",
-    "teamGithubURL": "https://github.com/Plutonomicon",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Helios",
-    "website": "https://helios-lang.io/",
-    "teamGithubURL": "https://github.com/HeliosLang",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Scalus",
-    "website": "https://scalus.org/",
-    "teamGithubURL": "https://github.com/nau",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Orcfax",
-    "website": "https://orcfax.io/",
-    "teamGithubURL": "https://github.com/orcfax",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Charli3",
-    "website": "https://charli3.io/",
-    "teamGithubURL": "https://github.com/Charli3-Official",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Marlowe",
-    "website": "https://marlowe.iohk.io/",
-    "teamGithubURL": "https://github.com/marlowe-lang",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Cardano for the Masses",
-    "website": "https://cardanobook.com/",
-    "teamGithubURL": "https://github.com/johnnygreeney",
-    "tags": ["tools"]
-  },
-  {
-    "name": "Coincashew",
-    "website": "https://www.coincashew.com",
-    "teamGithubURL": "https://github.com/coincashew",
-    "tags": ["tools"]
-  },
-  {
-    "name": "ATADA",
-    "website": "http://stakepool.at/",
-    "teamGithubURL": "https://github.com/gitmachtl",
-    "tags": ["tools"]
-  },
-  {
     "name": "CardanoCube",
     "website": "https://www.cardanocube.com/cardano-ecosystem-interactive-map",
     "teamGithubURL": "",
@@ -7479,54 +7179,6 @@
     "website": "https://dconecrypto.finance/",
     "teamGithubURL": "https://github.com/DCOneCrypto",
     "tags": ["tools", "dapp_explorer"]
-  },
-  {
-    "name": "DefiLlama Cardano",
-    "website": "https://defillama.com/chain/Cardano",
-    "teamGithubURL": "https://github.com/DefiLlama",
-    "tags": ["tools", "metric_tracker_site"]
-  },
-  {
-    "name": "Cardano Blockchain Insights",
-    "website": "https://lookerstudio.google.com/s/huXqeQmi9qA",
-    "teamGithubURL": "https://github.com/Cardano-Fans",
-    "tags": ["tools", "metric_tracker_site"]
-  },
-  {
-    "name": "Edinburgh Decentralization Index",
-    "website": "http://blockchainlab.inf.ed.ac.uk/edi-dashboard",
-    "teamGithubURL": "https://github.com/Blockchain-Technology-Lab",
-    "tags": ["tools", "metric_tracker_site", "decentralization_index"]
-  },
-  {
-    "name": "Pooltool Network Health",
-    "website": "https://pooltool.io/networkhealth",
-    "teamGithubURL": "https://github.com/PoolTool-io",
-    "tags": ["tools", "metric_tracker_site"]
-  },
-  {
-    "name": "Cexplorer Insights",
-    "website": "https://cexplorer.io/insights",
-    "teamGithubURL": "https://github.com/cexplorer",
-    "tags": ["tools", "metric_tracker_site"]
-  },
-  {
-    "name": "CardanoScan Analytics",
-    "website": "https://cardanoscan.io/analytics",
-    "teamGithubURL": "https://github.com/StricaHQ",
-    "tags": ["tools", "metric_tracker_site"]
-  },
-  {
-    "name": "DApps on Cardano Network Stats",
-    "website": "https://dappsoncardano.com/analytics/globalstats",
-    "teamGithubURL": "https://github.com/Cardano-Fans",
-    "tags": ["tools", "metric_tracker_site"]
-  },
-  {
-    "name": "Adastats Dashboard",
-    "website": "https://adastats.info/dashboard",
-    "teamGithubURL": "",
-    "tags": ["tools", "metric_tracker_site"]
   },
   {
     "name": "Cardano Foundation Academy",
@@ -7913,6 +7565,72 @@
     "tags": ["audit_company"]
   },
   {
+    "name": "Token Terminal",
+    "website": "https://tokenterminal.com/explorer/projects/cardano/metrics/all",
+    "teamGithubURL": "https://github.com/token-terminal",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Bending.ai",
+    "website": "https://bending.ai/",
+    "teamGithubURL": "",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Balance Analytics",
+    "website": "https://www.balanceanalytics.io/",
+    "teamGithubURL": "https://github.com/Balance-Analytics",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "DefiLlama Cardano",
+    "website": "https://defillama.com/chain/Cardano",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Cardano Blockchain Insights",
+    "website": "https://lookerstudio.google.com/s/huXqeQmi9qA",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Edinburgh Decentralization Index",
+    "website": "http://blockchainlab.inf.ed.ac.uk/edi-dashboard",
+    "teamGithubURL": "https://github.com/Blockchain-Technology-Lab",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Pooltool Network Health",
+    "website": "https://pooltool.io/networkhealth",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Cexplorer Insights",
+    "website": "https://cexplorer.io/insights",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "CardanoScan Analytics",
+    "website": "https://cardanoscan.io/analytics",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "DApps on Cardano Network Stats",
+    "website": "https://dappsoncardano.com/analytics/globalstats",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Adastats Dashboard",
+    "website": "https://adastats.info/dashboard",
+    "teamGithubURL": "",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
     "name": "CardanoScan Daily Transactions",
     "website": "https://cardanoscan.io/analytics/dailyTxCountAndFees",
     "teamGithubURL": "https://github.com/StricaHQ",
@@ -8060,31 +7778,31 @@
     "name": "CoinMarketCap Rankings",
     "website": "https://coinmarketcap.com/",
     "teamGithubURL": "",
-    "tags": ["tools", "market_metrics"]
+    "tags": ["tools", "marketcap_metrics"]
   },
   {
     "name": "CoinGecko Rankings",
     "website": "https://www.coingecko.com/",
     "teamGithubURL": "https://github.com/coingecko",
-    "tags": ["tools", "market_metrics"]
+    "tags": ["tools", "marketcap_metrics"]
   },
   {
     "name": "MarketCapOf Comparison",
     "website": "https://marketcapof.com/crypto/cardano/",
     "teamGithubURL": "",
-    "tags": ["tools", "market_metrics"]
+    "tags": ["tools", "marketcap_metrics"]
   },
   {
     "name": "TapTools Token Rankings",
     "website": "https://www.taptools.io/?rankBy=mcap&order=desc&minLiq=10000&minHolders=100&mcapCustomFilters=true",
     "teamGithubURL": "",
-    "tags": ["tools", "dapp_market_metrics"]
+    "tags": ["tools", "dapp_marketcap_metrics"]
   },
   {
     "name": "CoinGecko Token Rankings",
     "website": "https://www.coingecko.com/en/categories/cardano-ecosystem",
     "teamGithubURL": "https://github.com/coingecko",
-    "tags": ["tools", "dapp_market_metrics"]
+    "tags": ["tools", "dapp_marketcap_metrics"]
   },
   {
     "name": "Danogo Active Wallets",
@@ -8295,6 +8013,12 @@
     "website": "https://app.santiment.net/labs/trends/explore/cardano",
     "teamGithubURL": "https://github.com/santiment",
     "tags": ["tools", "social_metrics"]
+  },
+  {
+    "name": "Edinburgh Decentralization Index",
+    "website": "http://blockchainlab.inf.ed.ac.uk/edi-dashboard",
+    "teamGithubURL": "https://github.com/Blockchain-Technology-Lab",
+    "tags": ["tools", "decentralization_index"]
   },
   {
     "name": "Cexplorer Node Distribution",
