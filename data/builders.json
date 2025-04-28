@@ -6533,112 +6533,88 @@
     "tags": ["game_studio"]
   },
   {
-    "name": "Andamio",
-    "website": "https://www.andamio.io/",
-    "teamGithubURL": "https://github.com/Andamio-Platform",
-    "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
-    "name": "Wisdom Courses",
-    "website": "https://wisdom.courses",
-    "teamGithubURL": "https://github.com/The-Working-Dead",
-    "tags": ["dapp", "dev_learning_platform"]
-  },
-  {
-    "name": "Olympus Insights",
-    "website": "https://olympusinsights.io",
+    "name": "Clarity",
+    "website": "https://www.clarity.vote/",
     "teamGithubURL": "",
-    "tags": ["dapp", "dev_learning_platform"]
+    "tags": ["tools", "dao_explorer"]
   },
   {
-    "name": "Gimbalabs",
-    "website": "https://gimbalabs.com/",
-    "teamGithubURL": "https://github.com/gimbalabs",
-    "tags": ["dapp", "dev_learning_platform"]
+    "name": "Summon Platform",
+    "website": "https://summonplatform.io/",
+    "teamGithubURL": "https://github.com/ADAO-Summon",
+    "tags": ["tools", "dao_explorer"]
   },
   {
-    "name": "Cardano2vn",
-    "website": "https://lms/cardano2vn.io",
-    "teamGithubURL": "https://github.com/cardano2vn",
-    "tags": ["dapp", "dev_learning_platform"]
+    "name": "Reach your People",
+    "website": "https://www.ryp.io/",
+    "teamGithubURL": "https://github.com/nilscodes/",
+    "tags": ["tools", "dao_explorer"]
   },
   {
-    "name": "Birble AI",
-    "website": "https://www.birble.win/",
+    "name": "BuiltOnCardano DAO Explorer",
+    "website": "https://builtoncardano.com/ecosystem/dao",
     "teamGithubURL": "",
-    "tags": ["dapp", "dev_learning_platform"]
+    "tags": ["tools", "dao_explorer"]
   },
   {
-    "name": "Academia Cardano",
-    "website": "https://academiacardano.com/",
+    "name": "Clarity",
+    "website": "https://www.clarity.vote/",
     "teamGithubURL": "",
-    "tags": ["dapp", "dev_learning_platform"]
+    "tags": ["dapp", "dao_management_software"]
   },
   {
-    "name": "Asteria",
-    "website": "https://asteria.txpipe.io/",
-    "teamGithubURL": "https://github.com/txpipe",
-    "tags": ["dapp", "dev_learning_platform"]
+    "name": "Tempo",
+    "website": "https://tempo.vote",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dao_management_software"]
   },
   {
-    "name": "TxPipe",
-    "website": "https://txpipe.io/",
-    "teamGithubURL": "https://github.com/txpipe",
-    "tags": ["audit_company"]
+    "name": "Summon Platform",
+    "website": "https://summonplatform.io/",
+    "teamGithubURL": "https://github.com/ADAO-Summon",
+    "tags": ["dapp", "dao_management_software"]
   },
   {
-    "name": "Anastasia Labs",
-    "website": "https://anastasialabs.com/",
-    "teamGithubURL": "https://github.com/Anastasia-Labs",
-    "tags": ["audit_company"]
+    "name": "Paideia",
+    "website": "https://www.paideia.im/",
+    "teamGithubURL": "https://github.com/paideiadao/",
+    "tags": ["dapp", "dao_management_software"]
   },
   {
-    "name": "Vacuumlabs",
-    "website": "https://vacuumlabs.com/",
-    "teamGithubURL": "https://github.com/vacuumlabs",
-    "tags": ["audit_company"]
+    "name": "ADAO",
+    "website": "https://adao.arweave.dev/",
+    "teamGithubURL": "https://github.com/ADAOcommunity",
+    "tags": ["dapp", "dao_management_software"]
   },
   {
-    "name": "Sundae Labs",
-    "website": "https://sundae.fi/",
+    "name": "Agora",
+    "website": "https://github.com/Liqwid-Labs/agora",
+    "teamGithubURL": "https://github.com/Liqwid-Labs/",
+    "tags": ["dapp", "dao_management_software"]
+  },
+  {
+    "name": "SundaeSwap Governance",
+    "website": "https://services.sundaeswap.finance/",
     "teamGithubURL": "https://github.com/SundaeSwap-finance",
-    "tags": ["audit_company"]
+    "tags": ["dapp", "dao_management_software"]
   },
   {
-    "name": "Mlabs",
-    "website": "https://mlabs.city/",
-    "teamGithubURL": "https://github.com/mlabs-haskell",
-    "tags": ["audit_company"]
+    "name": "CF Cardano Ballot",
+    "website": "https://github.com/cardano-foundation/cf-cardano-ballot",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["dapp", "dao_management_software"]
   },
   {
-    "name": "Tweag",
-    "website": "https://www.tweag.io/",
-    "teamGithubURL": "https://github.com/tweag",
-    "tags": ["audit_company"]
+    "name": "CardanoPress Governance",
+    "website": "https://cardanopress.io/products/governance/",
+    "teamGithubURL": "https://github.com/cardanopress",
+    "tags": ["dapp", "dao_management_software"]
   },
   {
-    "name": "Obsidian Systems",
-    "website": "https://obsidian.systems/",
-    "teamGithubURL": "https://github.com/obsidiansystems",
-    "tags": ["audit_company"]
-  },
-  {
-    "name": "Ikigai Tech",
-    "website": "https://ikigaitech.org/",
-    "teamGithubURL": "https://github.com/ikigai-github",
-    "tags": ["audit_company"]
-  },
-  {
-    "name": "Runtime Verification",
-    "website": "https://runtimeverification.com/",
-    "teamGithubURL": "https://github.com/runtimeverification/",
-    "tags": ["audit_company"]
-  },
-  {
-    "name": "CertiK",
-    "website": "http://certik.com",
-    "teamGithubURL": "https://github.com/CertiKProject",
-    "tags": ["audit_company"]
+    "name": "Wing Riders DAO Framework",
+    "website": "https://github.com/WingRiders/on-chain-dao-governance",
+    "teamGithubURL": "https://github.com/WingRiders/",
+    "tags": ["dapp", "dao_management_software"]
   },
   {
     "name": "TxPipe",
@@ -7085,6 +7061,54 @@
     "tags": ["dev_company"]
   },
   {
+    "name": "Andamio",
+    "website": "https://www.andamio.io/",
+    "teamGithubURL": "https://github.com/Andamio-Platform",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Wisdom Courses",
+    "website": "https://wisdom.courses",
+    "teamGithubURL": "https://github.com/The-Working-Dead",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Olympus Insights",
+    "website": "https://olympusinsights.io",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Gimbalabs",
+    "website": "https://gimbalabs.com/",
+    "teamGithubURL": "https://github.com/gimbalabs",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Cardano2vn",
+    "website": "https://lms/cardano2vn.io",
+    "teamGithubURL": "https://github.com/cardano2vn",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Birble AI",
+    "website": "https://www.birble.win/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Academia Cardano",
+    "website": "https://academiacardano.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Asteria",
+    "website": "https://asteria.txpipe.io/",
+    "teamGithubURL": "https://github.com/txpipe",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
     "name": "Eternl Wallet",
     "website": "https://eternl.io/",
     "teamGithubURL": "https://github.com/Tastenkunst",
@@ -7385,90 +7409,6 @@
     "tags": ["tools"]
   },
   {
-    "name": "Clarity",
-    "website": "https://www.clarity.vote/",
-    "teamGithubURL": "",
-    "tags": ["tools", "dao_explorer"]
-  },
-  {
-    "name": "Summon Platform",
-    "website": "https://summonplatform.io/",
-    "teamGithubURL": "https://github.com/ADAO-Summon",
-    "tags": ["tools", "dao_explorer"]
-  },
-  {
-    "name": "Reach your People",
-    "website": "https://www.ryp.io/",
-    "teamGithubURL": "https://github.com/nilscodes/",
-    "tags": ["tools", "dao_explorer"]
-  },
-  {
-    "name": "BuiltOnCardano DAO Explorer",
-    "website": "https://builtoncardano.com/ecosystem/dao",
-    "teamGithubURL": "",
-    "tags": ["tools", "dao_explorer"]
-  },
-  {
-    "name": "Clarity",
-    "website": "https://www.clarity.vote/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "dao_management_software"]
-  },
-  {
-    "name": "Tempo",
-    "website": "https://tempo.vote",
-    "teamGithubURL": "",
-    "tags": ["dapp", "dao_management_software"]
-  },
-  {
-    "name": "Summon Platform",
-    "website": "https://summonplatform.io/",
-    "teamGithubURL": "https://github.com/ADAO-Summon",
-    "tags": ["dapp", "dao_management_software"]
-  },
-  {
-    "name": "Paideia",
-    "website": "https://www.paideia.im/",
-    "teamGithubURL": "https://github.com/paideiadao/",
-    "tags": ["dapp", "dao_management_software"]
-  },
-  {
-    "name": "ADAO",
-    "website": "https://adao.arweave.dev/",
-    "teamGithubURL": "https://github.com/ADAOcommunity",
-    "tags": ["dapp", "dao_management_software"]
-  },
-  {
-    "name": "Agora",
-    "website": "https://github.com/Liqwid-Labs/agora",
-    "teamGithubURL": "https://github.com/Liqwid-Labs/",
-    "tags": ["dapp", "dao_management_software"]
-  },
-  {
-    "name": "SundaeSwap Governance",
-    "website": "https://services.sundaeswap.finance/",
-    "teamGithubURL": "https://github.com/SundaeSwap-finance",
-    "tags": ["dapp", "dao_management_software"]
-  },
-  {
-    "name": "CF Cardano Ballot",
-    "website": "https://github.com/cardano-foundation/cf-cardano-ballot",
-    "teamGithubURL": "https://github.com/cardano-foundation/",
-    "tags": ["dapp", "dao_management_software"]
-  },
-  {
-    "name": "CardanoPress Governance",
-    "website": "https://cardanopress.io/products/governance/",
-    "teamGithubURL": "https://github.com/cardanopress",
-    "tags": ["dapp", "dao_management_software"]
-  },
-  {
-    "name": "Wing Riders DAO Framework",
-    "website": "https://github.com/WingRiders/on-chain-dao-governance",
-    "teamGithubURL": "https://github.com/WingRiders/",
-    "tags": ["dapp", "dao_management_software"]
-  },
-  {
     "name": "CardanoCube",
     "website": "https://www.cardanocube.com/cardano-ecosystem-interactive-map",
     "teamGithubURL": "",
@@ -7685,6 +7625,42 @@
     "tags": ["tools", "developer_forum"]
   },
   {
+    "name": "Cardano Announcements",
+    "website": "https://t.me/CardanoAnnouncements",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "IOG Dev Announcements",
+    "website": "https://t.me/IOdevannouncements",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Cardano Developers Official",
+    "website": "https://t.me/CardanoDevelopersOfficial",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Marlowe Official",
+    "website": "https://t.me/IOHK_Marlowe",
+    "teamGithubURL": "https://github.com/marlowe-lang",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Developer Ecosystem",
+    "website": "https://t.me/DeveloperEcosystem",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Desarrollo Cardano",
+    "website": "https://t.me/DesarrolloCardano",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
     "name": "Input Output Technical",
     "website": "https://discord.com/invite/inputoutput",
     "teamGithubURL": "https://github.com/input-output-hk/",
@@ -7877,40 +7853,64 @@
     "tags": ["tools", "developer_discord"]
   },
   {
-    "name": "Cardano Announcements",
-    "website": "https://t.me/CardanoAnnouncements",
-    "teamGithubURL": "https://github.com/input-output-hk",
-    "tags": ["tools", "developer_telegram"]
+    "name": "TxPipe",
+    "website": "https://txpipe.io/",
+    "teamGithubURL": "https://github.com/txpipe",
+    "tags": ["audit_company"]
   },
   {
-    "name": "IOG Dev Announcements",
-    "website": "https://t.me/IOdevannouncements",
-    "teamGithubURL": "https://github.com/input-output-hk",
-    "tags": ["tools", "developer_telegram"]
+    "name": "Anastasia Labs",
+    "website": "https://anastasialabs.com/",
+    "teamGithubURL": "https://github.com/Anastasia-Labs",
+    "tags": ["audit_company"]
   },
   {
-    "name": "Cardano Developers Official",
-    "website": "https://t.me/CardanoDevelopersOfficial",
-    "teamGithubURL": "https://github.com/cardano-foundation",
-    "tags": ["tools", "developer_telegram"]
+    "name": "Vacuumlabs",
+    "website": "https://vacuumlabs.com/",
+    "teamGithubURL": "https://github.com/vacuumlabs",
+    "tags": ["audit_company"]
   },
   {
-    "name": "Marlowe Official",
-    "website": "https://t.me/IOHK_Marlowe",
-    "teamGithubURL": "https://github.com/marlowe-lang",
-    "tags": ["tools", "developer_telegram"]
+    "name": "Sundae Labs",
+    "website": "https://sundae.fi/",
+    "teamGithubURL": "https://github.com/SundaeSwap-finance",
+    "tags": ["audit_company"]
   },
   {
-    "name": "Developer Ecosystem",
-    "website": "https://t.me/DeveloperEcosystem",
-    "teamGithubURL": "",
-    "tags": ["tools", "developer_telegram"]
+    "name": "Mlabs",
+    "website": "https://mlabs.city/",
+    "teamGithubURL": "https://github.com/mlabs-haskell",
+    "tags": ["audit_company"]
   },
   {
-    "name": "Desarrollo Cardano",
-    "website": "https://t.me/DesarrolloCardano",
-    "teamGithubURL": "",
-    "tags": ["tools", "developer_telegram"]
+    "name": "Tweag",
+    "website": "https://www.tweag.io/",
+    "teamGithubURL": "https://github.com/tweag",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "Obsidian Systems",
+    "website": "https://obsidian.systems/",
+    "teamGithubURL": "https://github.com/obsidiansystems",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "Ikigai Tech",
+    "website": "https://ikigaitech.org/",
+    "teamGithubURL": "https://github.com/ikigai-github",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "Runtime Verification",
+    "website": "https://runtimeverification.com/",
+    "teamGithubURL": "https://github.com/runtimeverification/",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "CertiK",
+    "website": "http://certik.com",
+    "teamGithubURL": "https://github.com/CertiKProject",
+    "tags": ["audit_company"]
   },
   {
     "name": "CardanoScan Daily Transactions",
