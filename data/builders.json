@@ -6593,6 +6593,24 @@
     "tags": ["info", "governance_guide"]
   },
   {
+    "name": "Project Catalyst Official Website",
+    "website": "https://github.com/Project-Catalyst",
+    "teamGithubURL": "https://github.com/Project-Catalyst",
+    "tags": ["info", "catalyst_guide"]
+  },
+  {
+    "name": "Cardano Developer Portal — Catalyst Guide",
+    "website": "https://developers.cardano.org/docs/governance/project-catalyst/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "catalyst_guide"]
+  },
+  {
+    "name": "Catalyst Contributors Community Docs",
+    "website": "https://docs.catalystcontributors.org/project-catalyst",
+    "teamGithubURL": "",
+    "tags": ["info", "catalyst_guide"]
+  },
+  {
     "name": "Clarity",
     "website": "https://www.clarity.vote/",
     "teamGithubURL": "",
