@@ -6569,6 +6569,30 @@
     "tags": ["game_studio"]
   },
   {
+    "name": "Cardano Foundation Governace",
+    "website": "https://cardanofoundation.org/governance",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "governance_guide"]
+  },
+  {
+    "name": "Cardano.org Governance",
+    "website": "https://cardano.org/governance/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "governance_guide"]
+  },
+  {
+    "name": "Intersect Governance Documentation",
+    "website": "https://docs.intersectmbo.org/cardano/cardano-governance",
+    "teamGithubURL": "https://github.com/IntersectMBO/",
+    "tags": ["info", "governance_guide"]
+  },
+  {
+    "name": "Cardano Developer Portal Governance Guide",
+    "website": "https://developers.cardano.org/docs/governance/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "governance_guide"]
+  },
+  {
     "name": "Clarity",
     "website": "https://www.clarity.vote/",
     "teamGithubURL": "",
