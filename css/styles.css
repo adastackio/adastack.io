@@ -206,6 +206,11 @@ html[style*="color-scheme: light;"]
   background-color: #f7f7f7;
 }
 
+/* Hide show/hide sidebar button */
+.nx-sticky button.max-md\:nx-hidden.nx-h-7.nx-rounded-md.nx-transition-colors.nx-text-gray-600.dark\:nx-text-gray-400.nx-px-2.hover\:nx-bg-gray-100.hover\:nx-text-gray-900.dark\:hover\:nx-bg-primary-100\/5.dark\:hover\:nx-text-gray-50 {
+  display: none;
+}
+
 /* Styles for the surroundings of the sidebar */
 ul.nextra-menu-mobile li,
 ul.nextra-menu-desktop li {
