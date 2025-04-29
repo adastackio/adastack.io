@@ -6041,6 +6041,24 @@
     "tags": ["dapp", "nft_p2p_trading"]
   },
   {
+    "name": "Ledger What is Blockchain Gaming",
+    "website": "https://www.ledger.com/academy/nft-gaming-and-play-to-earn-explained",
+    "teamGithubURL": "https://github.com/ledgerhq",
+    "tags": ["info", "web3_game_guide"]
+  },
+  {
+    "name": "Crossmint Beginner’s Guide to Web3 Gaming",
+    "website": "https://crossmint.medium.com/a-beginners-guide-to-web3-gaming-54660c519dee",
+    "teamGithubURL": "https://github.com/crossmint",
+    "tags": ["info", "web3_game_guide"]
+  },
+  {
+    "name": "Web3earners Guide to Blockchain Games",
+    "website": "https://web3earner.com/blog/master-blockchain-games-beginners-guide/",
+    "teamGithubURL": "",
+    "tags": ["info", "web3_game_guide"]
+  },
+  {
     "name": "Chains of War",
     "website": "https://www.chainsofwar.io/",
     "teamGithubURL": "",
