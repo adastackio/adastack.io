@@ -6614,19 +6614,19 @@
     "name": "Clarity The DAO Playbook",
     "website": "https://medium.com/@Clarity_/the-dao-playbook-9-phases-to-transform-your-organization-2bf543979c5d",
     "teamGithubURL": "",
-    "tags": ["tools", "dao_guide"]
+    "tags": ["info", "dao_guide"]
   },
   {
     "name": "Investopedia What is a DAO",
     "website": "https://www.investopedia.com/tech/what-dao/",
     "teamGithubURL": "",
-    "tags": ["tools", "dao_guide"]
+    "tags": ["info", "dao_guide"]
   },
   {
     "name": "CardanoSpot The Future of Collaborative Organizations",
     "website": "https://cardanospot.io/news/exploring-daos-the-future-of-collaborative-organizations-Hh9hRAytHP2Kk8Oj",
     "teamGithubURL": "https://github.com/emurgo",
-    "tags": ["tools", "dao_guide"]
+    "tags": ["info", "dao_guide"]
   },
   {
     "name": "Clarity",
@@ -6711,6 +6711,36 @@
     "website": "https://github.com/WingRiders/on-chain-dao-governance",
     "teamGithubURL": "https://github.com/WingRiders/",
     "tags": ["dapp", "dao_management_software"]
+  },
+  {
+    "name": "Cardano.build",
+    "website": "https://cardano.build/",
+    "teamGithubURL": "https://github.com/selfdriven-foundation",
+    "tags": ["info", "development_guide"]
+  },
+  {
+    "name": "Cardano Developer Portal",
+    "website": "https://developers.cardano.org/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "development_guide"]
+  },
+  {
+    "name": "Builder Tools",
+    "website": "https://developers.cardano.org/tools/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "development_guide"]
+  },
+  {
+    "name": "eUTxO Fundamentals Handbook",
+    "website": "https://github.com/elRaulito/eUTxO-Fundamentals-Building-Cardano-Smart-Contracts/tree/rendered",
+    "teamGithubURL": "https://github.com/elRaulito",
+    "tags": ["info", "development_guide"]
+  },
+  {
+    "name": "eUTxO Handbook",
+    "website": "https://ucarecdn.com/3da33f2f-73ac-4c9b-844b-f215dcce0628/EUTXOhandbook_for_EC.pdf",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["info", "development_guide"]
   },
   {
     "name": "TxPipe",
@@ -7337,7 +7367,7 @@
     "tags": ["tools", "dev_book"]
   },
   {
-    "name": "EUTXO Handbook",
+    "name": "eUTxO Handbook",
     "website": "https://ucarecdn.com/3da33f2f-73ac-4c9b-844b-f215dcce0628/EUTXOhandbook_for_EC.pdf",
     "teamGithubURL": "https://github.com/input-output-hk",
     "tags": ["tools", "dev_book"]
