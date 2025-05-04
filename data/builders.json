@@ -212,7 +212,7 @@
   {
     "name": "Cardano Spot Vocabulary",
     "website": "https://cardanospot.io/wiki/vocabulary/a",
-    "teamGithubURL": "https://github.com/emurgo",
+    "teamGithubURL": " ",
     "tags": ["info", "glossary_additional"]
   },
   {
@@ -8301,5 +8301,29 @@
     "website": "https://pooltool.io/networkhealth",
     "teamGithubURL": "https://github.com/PoolTool-io",
     "tags": ["tools", "block_propagation_metrics"]
+  },
+  {
+    "name": "Partnerchains are coming to Cardano",
+    "website": "https://iohk.io/en/blog/posts/2023/11/03/partner-chains-are-coming-to-cardano/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["info", "partnerchain_guide"]
+  }, 
+  {
+    "name": "Cardano Sidechains Explained",
+    "website": "https://academy.geniusyield.co/articles/cardano-side-chains-explained-midnight",
+    "teamGithubURL": "https://github.com/geniusyield",
+    "tags": ["info", "partnerchain_guide"]
+  }, 
+  {
+    "name": "Understanding Cardano Sidechains",
+    "website": "https://medium.com/coinmonks/understanding-cardano-sidechains-1d5197e923a3",
+    "teamGithubURL": "",
+    "tags": ["info", "partnerchain_guide"]
+  }, 
+  {
+    "name": "Sidechains: Enhancing the Capabilities of Cardano",
+    "website": "https://cardanospot.io/news/sidechains-enhancing-the-capabilities-of-cardano-0",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["info", "partnerchain_guide"]
   }
 ]
