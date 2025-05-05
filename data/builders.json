@@ -8325,5 +8325,23 @@
     "website": "https://cardanospot.io/news/sidechains-enhancing-the-capabilities-of-cardano-0",
     "teamGithubURL": "https://github.com/emurgo",
     "tags": ["info", "partnerchain_guide"]
+  },
+  {
+    "name": "Exploring Cardano Layer-2 Solutions",
+    "website": "https://academy.geniusyield.co/articles/exploring-cardano-layer-2-scaling-solutions-sidechains-hydra-mithril-and-off-chain-computing",
+    "teamGithubURL": "https://github.com/geniusyield",
+    "tags": ["info", "layer_2_guide"]
+  },
+  {
+    "name": "Layer 1 and Layer 2: What to Know",
+    "website": "https://www.essentialcardano.io/article/layer-1-and-layer-2-all-you-need-to-know",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["info", "layer_2_guide"]
+  },
+  {
+    "name": "Exploring Layer 2 Solutions on Cardano",
+    "website": "https://www.var-meta.com/blog/exploring-layer-2-solutions-on-cardano#bitcoinos-integration-expanding-cardano-s-defi-capabilities",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["info", "layer_2_guide"]
   }
 ]
