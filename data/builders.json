@@ -72,20 +72,14 @@
     "tags": ["info", "cardano_book"]
   },
   {
-    "name": "Ultimate Cardano Smart Contracts: Develop Real-World Web 3.0 Projects",
-    "website": "https://www.amazon.com/Ultimate-Cardano-Smart-Contracts-Development/dp/8197396531/",
-    "teamGithubURL": "https://github.com/lley154",
-    "tags": ["info", "cardano_book"]
-  },
-  {
     "name": "Blockchain Education Program",
     "website": "https://academy.cardanofoundation.org/",
     "teamGithubURL": "https://github.com/cardano-foundation",
     "tags": ["info", "cardano_full_course"]
   },
   {
-    "name": "Academia Cardano",
-    "website": "https://academiacardano.com/",
+    "name": "Kaizen Crypto Cardano 101 Course",
+    "website": "https://www.youtube.com/playlist?list=PLrbMFdXZnzoAwfxIVo-SQ_qEBCqbwuU6o",
     "teamGithubURL": "",
     "tags": ["info", "cardano_full_course"]
   },
@@ -96,8 +90,8 @@
     "tags": ["info", "cardano_full_course"]
   },
   {
-    "name": "Kaizen Crypto Cardano 101 Course",
-    "website": "https://www.youtube.com/playlist?list=PLrbMFdXZnzoAwfxIVo-SQ_qEBCqbwuU6o",
+    "name": "Academia Cardano",
+    "website": "https://academiacardano.com/",
     "teamGithubURL": "",
     "tags": ["info", "cardano_full_course"]
   },
@@ -144,12 +138,6 @@
     "tags": ["info", "security_guide"]
   },
   {
-    "name": "Secure Your Crypto Life, Avoid Scams & Protect Your Crypto Assets Video",
-    "website": "https://www.youtube.com/watch?v=W2YeB5clm0k",
-    "teamGithubURL": "https://github.com/pbwebdev",
-    "tags": ["info", "security_guide"]
-  },
-  {
     "name": "Blockchain & Argentina: Past & present",
     "website": "https://www.youtube.com/watch?v=SkixwjCzQ9c",
     "teamGithubURL": "https://github.com/charleshoskinson",
@@ -182,12 +170,6 @@
   {
     "name": "Web3 Glossary",
     "website": "https://cardanowomen.io/web3-glossary",
-    "teamGithubURL": "",
-    "tags": ["info", "glossary_top"]
-  },
-  {
-    "name": "DeFi Glossary",
-    "website": "https://wiki.axo.trade/axo-defi-glossary",
     "teamGithubURL": "",
     "tags": ["info", "glossary_top"]
   },
@@ -249,12 +231,6 @@
     "name": "Your Cardano Onboarding Guide by Essential Cardano",
     "website": "https://www.essentialcardano.io/article/your-cardano-onboarding-guide",
     "teamGithubURL": "https://github.com/cardano-foundation/",
-    "tags": ["info", "cardano_guide_additional"]
-  },
-  {
-    "name": "Cardano Nexus",
-    "website": "https://www.cardanonexus.org/",
-    "teamGithubURL": "",
     "tags": ["info", "cardano_guide_additional"]
   },
   {
@@ -1520,12 +1496,6 @@
   {
     "name": "Charli3 Blog",
     "website": "https://oraclecharli3.medium.com/",
-    "teamGithubURL": "",
-    "tags": ["news_updates", "project_blog"]
-  },
-  {
-    "name": "Axo Blog",
-    "website": "https://www.axo.trade/newsroom/categories/news",
     "teamGithubURL": "",
     "tags": ["news_updates", "project_blog"]
   },
@@ -7223,7 +7193,7 @@
     "tags": ["dapp", "dev_learning_platform"]
   },
   {
-    "name": "Academia Cardano",
+    "name": "Academia Cardano (Spanish)",
     "website": "https://academiacardano.com/",
     "teamGithubURL": "",
     "tags": ["dapp", "dev_learning_platform"]
@@ -7355,7 +7325,7 @@
     "tags": ["tools", "dev_documentation"]
   },
   {
-    "name": "Ultimate Cardano Smart Contracts",
+    "name": "Ultimate Cardano Smart Contracts: Develop Real-World Web 3.0 Projects",
     "website": "https://www.amazon.com/Ultimate-Cardano-Smart-Contracts-Development/dp/8197396531",
     "teamGithubURL": "https://github.com/lley154",
     "tags": ["tools", "dev_book"]
