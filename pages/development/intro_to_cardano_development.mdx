@@ -4,11 +4,14 @@ seo_description: Looking to get started with Cardano development? Explore key to
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # Intro to Cardano Development
 
 Cardano development is the process of writing code that interacts with the Cardano blockchain. Cardano supports development in multiple programming languages like Haskell, Plutus, Aiken and JavaScript/TypeScript, enabling creation of smart contracts, decentralized applications, infrastructure tools and more to advance the Cardano blockchain.
 
-### Areas of Focus in Cardano Development
+## Areas of Focus in Cardano Development
 
 - **Smart Contract Development**: Using languages like Plutus and Marlowe, developers can create smart contracts for decentralized applications (DApps) and automate transactions and agreements on the Cardano blockchain.
 
@@ -19,3 +22,9 @@ Cardano development is the process of writing code that interacts with the Carda
 - **Infrastructure and Tools Development**: Creating infrastructure and tools such as blockchain explorers, metrics dashboards, ecosystem explorers, and developer tools that facilitate interaction with the Cardano blockchain.
 
 - **Protocol Development**: Cardano is an open-source project, and developers can contribute to its core protocol by proposing and implementing improvements, new features, and enhancements.
+
+## Development Guides
+
+Guides to understand and start writing code on Cardano.
+
+<DefaultDataTable projects={builders} filterBy="development_guide" />

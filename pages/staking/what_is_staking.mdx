@@ -4,6 +4,9 @@ seo_description: Understand staking on Cardano, why this benefits the network, a
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # What is Staking?
 
 Staking is a key element to the operation of proof-of-stake networks like Cardano. It aligns incentives to ensure Cardano's security.
@@ -12,16 +15,8 @@ Users enjoy staking on Cardano because they receive recurring ADA rewards. To st
 
 Staking is like a vote of confidence for a stake pool that you trust to operate well and make good decisions for the Cardano network. The more ADA that is delegated to a stake pool, the more frequently they can produce blocks. When a stake pool produces a new block they receive an ADA block reward that is automatically distributed between them and the people that delegate to them.
 
-Cardano's staking mechanism is one of the simplest and safest in cryptocurrency. It has been thoroughly researched and tested to ensure high security and 24/7 network operations. You can read more about [staking on Cardano here](https://docs.cardano.org/new-to-cardano/proof-of-stake)<OS url="https://github.com/input-output-hk/cardano-documentation" />.
+Cardano's staking mechanism is one of the simplest and safest in cryptocurrency. It has been thoroughly researched and tested to ensure high security and 24/7 network operations. You can read more about [staking on Cardano here](https://docs.cardano.org/new-to-cardano/proof-of-stake).
 
 ## Staking Guides
 
-- [Cardano.org Staking Guide](https://cardano.org/stake-pool-delegation/)<OS url="https://github.com/cardano-foundation/cardano-org" />
-- [How to Stake your ADA](https://medium.com/@wonge/how-to-stake-your-ada-cardano-3c56b020f91d)
-- [Staking Infographic by Essential Cardano](https://www.essentialcardano.io/infographic/how-to-stake-your-ada)
-
-## Staking Video Walkthroughs
-
-- [Maximizing your Staking Rewards](https://www.youtube.com/watch?v=Nf6D1D5DKKk)
-- [How to Stake ADA: The Ultimate Guide by Learn Cardano](https://learncardano.io/how-to-easily-stake-ada-cardano-stake-pool/)
-- [How to Stake ADA Tutorial Video with Crypto Moose](https://www.youtube.com/watch?v=lbsFlyxUE8A)
+<DefaultDataTable projects={builders} filterBy="staking_guide" />

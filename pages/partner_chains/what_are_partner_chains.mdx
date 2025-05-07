@@ -4,11 +4,14 @@ seo_description: Partner chains are separate blockchains that connect to Cardano
 toc: false
 ---
 
+import builders from "../../data/builders.json";
+import DefaultDataTable from "../../components/tables/DefaultDataTable";
+
 # What are Partner Chains?
 
 Partner chains are separate blockchains that connect with Cardano. Users can transfer digital assets securely between these linked networks.
 
-### What are the Benefits of Partner Chains?
+## What are the Benefits of Partner Chains?
 
 1. Scalability: Partner chains help process some transactions instead of the main Cardano chain. This helps ensure users can get transactions through quickly and cheaply.
 
@@ -17,3 +20,9 @@ Partner chains are separate blockchains that connect with Cardano. Users can tra
 3. Security: Partner chains can leverage the security and decentralization of existing Cardano nodes. This allows them to bootstrap their networks with a secure foundation. Over time they can transition to more independence.
 
 4. Interoperability: Partner chains allow users to transfer their assets between blockchain networks. This means users can move to the ideal blockchain system for their needs. Asset movement is secured using a secure and carefully-designed 2-way peg mechanism.
+
+## Partnerchain Guides
+
+Guides to understand partnerchains and sidechains on cardano.
+
+<DefaultDataTable projects={builders} filterBy="partnerchain_guide" />

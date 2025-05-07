@@ -9,7 +9,7 @@ const DocsShieldIo = ({ docsURL }: DocsShieldIoProps) => {
     <a
       className="inline-block"
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener"
       href={docsURL}
     >
       <img

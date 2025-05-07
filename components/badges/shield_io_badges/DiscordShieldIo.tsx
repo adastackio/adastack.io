@@ -21,7 +21,7 @@ const DiscordShieldIo: React.FC<DiscordShieldIoProps> = ({
       href={discordInviteURL}
       className="inline-block"
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener"
     >
       <img
         className="shield_io_badge badge-io-custom-shading shields_io_repo_badge"

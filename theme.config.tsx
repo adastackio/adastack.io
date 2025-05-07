@@ -7,7 +7,6 @@ import {
 } from "./assets/logos";
 import { useConfig } from "nextra-theme-docs";
 import { useRouter } from "next/router";
-import OS from "./components/badges/OS";
 
 const default_seo_description =
   "Explore the Cardano ecosystem: Apps, Games, NFTs, Staking, Community, DAOs, Layer 2s, Sidechains, Metrics & ADA price. Your guide to Cardano.";
@@ -128,9 +127,6 @@ const config: DocsThemeConfig = {
     useLink() {
       return "https://github.com/adastackio/adastack.io/issues";
     },
-  },
-  components: {
-    OS: OS,
   },
   docsRepositoryBase: "https://github.com/adastackio/adastack.io/blob/main/",
   footer: {

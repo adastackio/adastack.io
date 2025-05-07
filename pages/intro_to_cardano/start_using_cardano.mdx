@@ -6,78 +6,75 @@ toc: false
 
 import builders from "../../data/builders.json";
 import DefaultDataTable from "../../components/tables/DefaultDataTable";
+import { handleClickOpenMenu } from "../../scripts/handleClickOpenMenu";
 
 # Start Using Cardano
 
 Once you have a Cardano wallet ready there are many options to use the network. Here are some ideas to get started:
 
-### Stake Your ADA
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "Staking")}>Stake Your ADA</h2>
 
 - Earn regular rewards to help secure the Cardano network.
 - Staked ADA remains in your wallet and under your control.
 
-### Engage with the Community
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "Community")}>Engage with the Community</h2>
 
 - Join the vibrant conversation.
 - Help shape the future of Cardano.
 
-### Explore the Ecosystem
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "Ecosystem")}>Explore the Ecosystem</h2>
 
 - Find essential tools like wallets and block explorers.
 - See organizations active in Cardano.
 
-### Use a Cardano App (DApp)
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "DApps")}>Use a Cardano App (DApp)</h2>
 
-- Find applications built with Cardano smart contracts.
-- Explore categories such as decentralized finance (DeFi).
+- Swap tokens on a decentralized exchange (DEX).
+- Earn revenue using decentralized finance (DeFi).
 
-### Trade on an Exchange
 
-- Swap tokens on a decentralized exchange (DEX)
-- Provide liquidity to earn regular income.
-
-### Buy a Digital Asset or NFT
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "NFTs")}>Buy a Digital Asset or NFT</h2>
 
 - NFTs represent art, utility, tickets, and more.
 - Some act as a key to use an application or service.
 
-### Play Games
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "Games")}>Play Games</h2>
 
 - Play games where in-game assets are secured on Cardano.
 - Play, predict, and bet for real value.
 
-### Participate in Cardano Governance
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "Governance")}>Participate in Cardano Governance</h2>
 
 - Understand the 3 branches of Cardano government.
 - Vote to help shape the future of the blockchain.
 
-### Vote in Project Catalyst
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "Catalyst")}>Vote in Project Catalyst</h2>
 
 - Support innovative projects building on Cardano.
 - Earn rewards for participating in voting rounds.
 
-### Get Involved with a DAO
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "DAOs")}>Get Involved with a DAO</h2>
 
 - DAOs allow new kinds of collaboration.
 - Participate in collective decision-making.
 
-### Build on Cardano
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "Development")}>Build on Cardano</h2>
 
 - Create native tokens and NFTs.
 - Develop smart contracts and applications.
 
-### See Live Cardano Metrics
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "On-Chain Metrics")}>See Live Cardano Metrics</h2>
 
 - Track network performance and statistics.
 - See what makes Cardano highly decentralized.
 
-### Explore Connected Blockchains
+<h2 className="nx-font-semibold nx-tracking-tight nx-text-slate-900 dark:nx-text-slate-100 nx-mt-8 nx-text-2xl cursor-pointer hover:underline" onClick={() => handleClickOpenMenu(event, "Partner Chains")}>Explore Connected Blockchains</h2>
 
 - See blockchains connected to Cardano.
 - Transfer assets between blockchains.
 
-### Additional Guides to Get Started
+## Additional Guides to Get Started
 
-Guides from the community to get started with Cardano:
+Guides from the community to get started with Cardano.
 
 <DefaultDataTable projects={builders} filterBy="cardano_guide_additional" />

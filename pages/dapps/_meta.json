@@ -11,6 +11,7 @@
   },
   "all_dapps": {
     "title": "All DApps",
+    "display": "hidden",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,

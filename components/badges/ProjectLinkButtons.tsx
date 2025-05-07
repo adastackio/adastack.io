@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "antd";
+import { Tooltip, Button } from "antd";
 import { GithubIcon, OSIcon, OpenLinkIcon } from "../../assets/icons";
 
 interface ProjectLinkButtonsProps {
@@ -19,7 +19,7 @@ const ProjectLinkButtons: React.FC<ProjectLinkButtonsProps> = React.memo(
       <div className="flex items-center space-x-1.5">
         {/* OS Repo link, re add this once OS repo data is added */}
         {/* {repoURL && (
-          <a href={repoURL} target="_blank" rel="noopener noreferrer">
+          <a href={repoURL} target="_blank" rel="noopener">
             <div className="badge-container inline-flex items-center">
               <Button
                 icon={<OSIcon />}
@@ -30,25 +30,28 @@ const ProjectLinkButtons: React.FC<ProjectLinkButtonsProps> = React.memo(
         )} */}
 
         {website && (
-          <a href={website} target="_blank" rel="noopener noreferrer">
+          <a href={website} target="_blank" rel="noopener">
             <div className="badge-container inline-flex items-center">
+            <Tooltip title="Open Website">
               <Button
                 icon={<OpenLinkIcon />}
                 className="badge-button text-xs h-auto min-h-0"
               ></Button>
+              </Tooltip>
             </div>
           </a>
         )}
 
         {teamGithubURL && (
-          <a href={teamGithubURL} target="_blank" rel="noopener noreferrer">
+          <a href={teamGithubURL} target="_blank" rel="noopener">
             <div className="badge-container inline-flex items-center">
+            <Tooltip title="GitHub Team">
               <Button
                 icon={<GithubIcon />}
                 className="badge-button text-xs h-auto min-h-0"
               >
-                Team
               </Button>
+              </Tooltip>
             </div>
           </a>
         )}

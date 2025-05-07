@@ -43,19 +43,19 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
   });
 
   // Sort projects by GitHub presence and repo URL
-  const sortedProjects = filteredProjects.sort((a, b) => {
-    if (a.repoURL && !b.repoURL) return -1;
-    if (!a.repoURL && b.repoURL) return 1;
-    if (a.teamGithubURL && !b.teamGithubURL) return -1;
-    if (!a.teamGithubURL && b.teamGithubURL) return 1;
-    return 0;
-  });
+  // const sortedProjects = filteredProjects.sort((a, b) => {
+  //   if (a.repoURL && !b.repoURL) return -1;
+  //   if (!a.repoURL && b.repoURL) return 1;
+  //   if (a.teamGithubURL && !b.teamGithubURL) return -1;
+  //   if (!a.teamGithubURL && b.teamGithubURL) return 1;
+  //   return 0;
+  // });
 
   // Check if any project has a GitHub URL or repo URL
-  const hasAnyProjectWithGithubURL = sortedProjects.some(
+  const hasAnyProjectWithGithubURL = filteredProjects.some(
     (project) => project.teamGithubURL
   );
-  const hasAnyProjectWithRepoURL = sortedProjects.some(
+  const hasAnyProjectWithRepoURL = filteredProjects.some(
     (project) => project.repoURL
   );
 
@@ -70,7 +70,7 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
           </tr>
         </thead>
         <tbody>
-          {sortedProjects.map((project, index) => (
+          {filteredProjects.map((project, index) => (
             <tr
               key={index}
               className="nx-m-0 nx-border-t nx-border-b nx-border-gray-300 nx-p-0 dark:nx-border-gray-600 even:nx-bg-gray-100 even:dark:nx-bg-gray-600/20"
@@ -82,7 +82,7 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
                     <a
                       className="py-2 px-2"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener"
                       href={project.website}
                     >
                       <span className="team_table_name_container">

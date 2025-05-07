@@ -224,7 +224,7 @@ const OpenSourceBuildersTable = ({ data }) => {
             as="a"
             href={record.reposOnGithub}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener"
             aria-label={`${displayValue} GitHub stars`}
             className="badge-button stars-across-all-repos-badge-content"
             icon={<StarIcon aria-hidden="true" />}
@@ -251,10 +251,7 @@ const OpenSourceBuildersTable = ({ data }) => {
           <div className="flex items-center">
             <TeamGithubTooltip record={record}>
               <span>
-                <TeamGithubBadge
-                  teamGithubURL={teamGithubURL}
-                  text="Team"
-                />
+                <TeamGithubBadge teamGithubURL={teamGithubURL} text="Team" />
               </span>
             </TeamGithubTooltip>
             <div onClick={(e) => e.stopPropagation()}>

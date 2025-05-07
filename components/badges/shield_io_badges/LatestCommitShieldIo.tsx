@@ -24,7 +24,7 @@ const LatestCommitShieldIo = ({ repoURL }: LatestCommitShieldIoProps) => {
     <a
       className="inline-block"
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener"
       href={latestURL}
     >
       <img

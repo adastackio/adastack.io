@@ -16,7 +16,7 @@ const MostStarredRepoBadge = ({ repoURL, repoStarCount }) => {
         className="inline-block w-fit"
         href={repoURL}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
       >
         <Button
           style={{
