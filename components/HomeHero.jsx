@@ -38,7 +38,7 @@ const HomeHero = () => {
 
         <Link
           href="/all_pages"
-          className="homehero-button inline-flex px-4 py-2 bg-[#4363ee] text-white rounded border-2 border-[#5c78e8] hover:bg-[#0c1123] transition-colors"
+          className="homehero-button inline-flex px-4 py-2 bg-[#4363ee] text-white rounded border-2 border-[#5c78e8] hover:bg-[#0c1123] transition-colors !no-underline"
         >
           <span>Explore All Pages</span>
         </Link>
