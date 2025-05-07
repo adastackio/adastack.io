@@ -50,7 +50,8 @@ html[style*="color-scheme: dark;"] a {
   color: #9eb1ff;
 }
 
-html[style*="color-scheme: dark;"] a:not(.nextra-sidebar-container a):hover {
+/* Set link color and add a hover underline to everything except sidebar container links and # anchor links  */
+html[style*="color-scheme: dark;"] a:not(.nextra-sidebar-container a):not(.subheading-anchor):hover {
   color: #94a8ff;
   text-decoration: underline !important;
 }
