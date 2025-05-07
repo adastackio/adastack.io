@@ -5,8 +5,6 @@ function handleClickOpenMenu(event, sidebarText) {
     event.stopPropagation();
   }
 
-  console.log(`Looking for sidebar with text: ${sidebarText}`);
-
   // Get all sidebar menu items
   const sidebarElements = document.querySelectorAll(".sidebar-menu-item");
 
@@ -19,7 +17,6 @@ function handleClickOpenMenu(event, sidebarText) {
     hamburgerInner &&
     !hamburgerInner.classList.contains("open")
   ) {
-    console.log("Opening hamburger menu");
     // hamburgerMenu.click();
 
     // Double-click failsafe for mobile
@@ -43,23 +40,15 @@ function handleClickOpenMenu(event, sidebarText) {
         foundMatch = true;
         console.log(`Found matching sidebar: ${currentSidebarText}`);
 
-        // Open this sidebar if it's closed
-        if (!sidebarElement.parentNode.parentNode.classList.contains("open")) {
-          console.log("Opening matching sidebar");
-          sidebarElement.click();
-        }
+        // Toggle this sidebar (clicking will open if closed, close if open)
+        sidebarElement.click();
       } else {
         // Close any other open sidebars
         if (sidebarElement.parentNode.parentNode.classList.contains("open")) {
-          console.log(`Closing non-matching sidebar: ${currentSidebarText}`);
           sidebarElement.click();
         }
       }
     });
-
-    if (!foundMatch) {
-      console.log(`No sidebar found matching: ${sidebarText}`);
-    }
   }, 200);
 }
 
