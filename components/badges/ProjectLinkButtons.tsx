@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "antd";
+import { Tooltip, Button } from "antd";
 import { GithubIcon, OSIcon, OpenLinkIcon } from "../../assets/icons";
 
 interface ProjectLinkButtonsProps {
@@ -32,10 +32,12 @@ const ProjectLinkButtons: React.FC<ProjectLinkButtonsProps> = React.memo(
         {website && (
           <a href={website} target="_blank" rel="noopener">
             <div className="badge-container inline-flex items-center">
+            <Tooltip title="Open Website">
               <Button
                 icon={<OpenLinkIcon />}
                 className="badge-button text-xs h-auto min-h-0"
               ></Button>
+              </Tooltip>
             </div>
           </a>
         )}
@@ -43,12 +45,13 @@ const ProjectLinkButtons: React.FC<ProjectLinkButtonsProps> = React.memo(
         {teamGithubURL && (
           <a href={teamGithubURL} target="_blank" rel="noopener">
             <div className="badge-container inline-flex items-center">
+            <Tooltip title="GitHub Team">
               <Button
                 icon={<GithubIcon />}
                 className="badge-button text-xs h-auto min-h-0"
               >
-                Team
               </Button>
+              </Tooltip>
             </div>
           </a>
         )}
