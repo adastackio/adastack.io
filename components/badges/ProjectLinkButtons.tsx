@@ -19,7 +19,7 @@ const ProjectLinkButtons: React.FC<ProjectLinkButtonsProps> = React.memo(
       <div className="flex items-center space-x-1.5">
         {/* OS Repo link, re add this once OS repo data is added */}
         {/* {repoURL && (
-          <a href={repoURL} target="_blank" rel="noopener noreferrer">
+          <a href={repoURL} target="_blank" rel="noopener">
             <div className="badge-container inline-flex items-center">
               <Button
                 icon={<OSIcon />}
@@ -30,7 +30,7 @@ const ProjectLinkButtons: React.FC<ProjectLinkButtonsProps> = React.memo(
         )} */}
 
         {website && (
-          <a href={website} target="_blank" rel="noopener noreferrer">
+          <a href={website} target="_blank" rel="noopener">
             <div className="badge-container inline-flex items-center">
               <Button
                 icon={<OpenLinkIcon />}
@@ -41,7 +41,7 @@ const ProjectLinkButtons: React.FC<ProjectLinkButtonsProps> = React.memo(
         )}
 
         {teamGithubURL && (
-          <a href={teamGithubURL} target="_blank" rel="noopener noreferrer">
+          <a href={teamGithubURL} target="_blank" rel="noopener">
             <div className="badge-container inline-flex items-center">
               <Button
                 icon={<GithubIcon />}

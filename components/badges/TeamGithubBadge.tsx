@@ -14,7 +14,7 @@ const TeamGithubBadge: React.FC<TeamGithubBadgeProps> = React.memo(
     }
 
     return (
-      <a href={teamGithubURL} target="_blank" rel="noopener noreferrer">
+      <a href={teamGithubURL} target="_blank" rel="noopener">
         <div className="badge-container team-github-badge-container inline-flex items-center">
           <Button
             icon={<GithubIcon />}

@@ -82,7 +82,7 @@ const DefaultDataTable: React.FC<DefaultDataTableProps> = ({
                     <a
                       className="py-2 px-2"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="noopener"
                       href={project.website}
                     >
                       <span className="team_table_name_container">
