@@ -5490,7 +5490,7 @@
   },
   {
     "name": "Sick City",
-    "website": "SickCity.xyz",
+    "website": "https://sickcityxyz.wordpress.com/",
     "teamGithubURL": "",
     "tags": ["dapp", "media_dapp"]
   },
@@ -5945,12 +5945,6 @@
     "tags": ["dapp", "nft_marketplace"]
   },
   {
-    "name": "Flipr",
-    "website": "https://flipr.io/",
-    "teamGithubURL": "",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
     "name": "Saturn NFT",
     "website": "https://saturnnft.io/",
     "teamGithubURL": "https://github.com/Orion-Crypto",
@@ -5960,12 +5954,6 @@
     "name": "WayUp",
     "website": "https://www.wayup.io/",
     "teamGithubURL": "https://github.com/Cardano-Forge",
-    "tags": ["dapp", "nft_marketplace"]
-  },
-  {
-    "name": "Token Riot",
-    "website": "https://tokenriot.io/",
-    "teamGithubURL": "https://github.com/TokenRiot",
     "tags": ["dapp", "nft_marketplace"]
   },
   {
@@ -7182,7 +7170,7 @@
   },
   {
     "name": "Cardano2vn",
-    "website": "https://lms/cardano2vn.io",
+    "website": "https://www.cardano2vn.io/",
     "teamGithubURL": "https://github.com/cardano2vn",
     "tags": ["dapp", "dev_learning_platform"]
   },
