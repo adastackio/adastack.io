@@ -1,4 +1,4 @@
-<img width="1328" alt="adastack banner" src="https://github.com/user-attachments/assets/f30c161f-6362-40ea-8ff7-02ed1f54f610">
+<img width="1328" alt="adastack banner" src="https://github.com/user-attachments/assets/df2be1f9-aa00-49f3-a40d-b01629f097a8">
 
 # Adastack Cardano Explorer
 
