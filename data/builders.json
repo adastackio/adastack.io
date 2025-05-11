@@ -7775,6 +7775,12 @@
     "tags": ["tools", "blockspace_metrics"]
   },
   {
+    "name": "Cardano-Scan Assets",
+    "website": "https://cardano-scan.com/assets",
+    "teamGithubURL": "",
+    "tags": ["tools", "volume_metrics"]
+  },
+   {
     "name": "TapTools Token Volume",
     "website": "https://www.taptools.io/?rankBy=volume&order=desc&assetType=Tokens",
     "teamGithubURL": "",
