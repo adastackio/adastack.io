@@ -29,10 +29,7 @@ const HomeHero = () => {
             className="flex items-center gap-2 text-[17px]"
             style={{ maxWidth: "355px" }}
           >
-            <span>
-              Adastack is your comprehensive guide to the Cardano ecosystem.
-              Open-source knowledge, curated by the Cardano community.
-            </span>
+            <span>Your guide to the latest DApps and tools on Cardano.</span>
           </div>
         </div>
 

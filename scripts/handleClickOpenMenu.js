@@ -38,7 +38,6 @@ function handleClickOpenMenu(event, sidebarText) {
 
       if (isMatch) {
         foundMatch = true;
-        console.log(`Found matching sidebar: ${currentSidebarText}`);
 
         // Toggle this sidebar (clicking will open if closed, close if open)
         sidebarElement.click();

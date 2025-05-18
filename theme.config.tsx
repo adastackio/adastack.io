@@ -70,10 +70,6 @@ const config: DocsThemeConfig = {
     link: "https://x.com/adastackio",
     icon: <XIcon />,
   },
-  project: {
-    link: "https://github.com/adastackio",
-    icon: <GithubNavIcon />,
-  },
   themeSwitch: {
     useOptions() {
       return {
@@ -128,7 +124,7 @@ const config: DocsThemeConfig = {
       return "https://github.com/adastackio/adastack.io/issues";
     },
   },
-  docsRepositoryBase: "https://github.com/adastackio/adastack.io/blob/main/",
+  docsRepositoryBase: null,
   footer: {
     text: null,
   },
