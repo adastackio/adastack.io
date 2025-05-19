@@ -11,6 +11,7 @@
   },
   "why_cardano": {
     "title": "Why Cardano?",
+    "display": "hidden",
     "theme": {
       "breadcrumb": true,
       "sidebar": true,
