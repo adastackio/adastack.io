@@ -11,6 +11,7 @@ module.exports = withNextra({
     ignoreDuringBuilds: false,
   },
   images: {
+    unoptimized: true,
     domains: ["www.google.com"],
   },
   async redirects() {
