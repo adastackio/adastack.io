@@ -38,7 +38,7 @@ export const getStaticProps = async () => {
 
     return {
       props: { sortedOSBuilderData },
-      revalidate: 300, // Reduced to 5 minutes for faster recovery
+      revalidate: 7200, // 2 hours for production stability
     };
 
 } catch (error) {
