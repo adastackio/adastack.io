@@ -1,0 +1,6400 @@
+[
+  {
+    "name": "Intersect MBO",
+    "website": "https://www.intersectmbo.org/",
+    "teamGithubURL": "https://github.com/intersectmbo",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano Foundation",
+    "website": "https://cardanofoundation.org/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Emurgo",
+    "website": "https://emurgo.io/",
+    "teamGithubURL": "https://github.com/Emurgo",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Pragma",
+    "website": "https://pragma.io/",
+    "teamGithubURL": "https://github.com/pragma-org",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano Scaling",
+    "website": "https://cardano-scaling.org/",
+    "teamGithubURL": "https://github.com/cardano-scaling",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Self Driven Foundation",
+    "website": "https://selfdriven.foundation/",
+    "teamGithubURL": "https://github.com/selfdriven-foundation",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Single Pool Alliance",
+    "website": "https://singlepoolalliance.net/",
+    "teamGithubURL": "https://github.com/SinglePoolAlliance",
+    "tags": ["organization"]
+  },
+  {
+    "name": "West Africa Decentralized Alliance (WADA)",
+    "website": "https://www.wada.org/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "NFT Guild",
+    "website": "https://www.nft-guild.io/",
+    "teamGithubURL": "https://github.com/NFT-Guild",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Littlefish Foundation",
+    "website": "https://littlefish.foundation/",
+    "teamGithubURL": "https://github.com/littlefish-foundation",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano Blockchain Infrastructure Alliance",
+    "website": "https://cbia.io/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Project Catalyst",
+    "website": "https://projectcatalyst.io/",
+    "teamGithubURL": "https://github.com/Project-Catalyst",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano Community",
+    "website": "https://cardano-community.github.io",
+    "teamGithubURL": "https://github.com/cardano-community",
+    "tags": ["organization"]
+  },
+  {
+    "name": "ADAO",
+    "website": "https://adao.arweave.dev/",
+    "teamGithubURL": "https://github.com/ADAOcommunity",
+    "tags": ["organization", "dao_management_software"]
+  },
+  {
+    "name": "Gimbalabs",
+    "website": "https://gimbalabs.com/",
+    "teamGithubURL": "https://github.com/gimbalabs",
+    "tags": ["organization", "dev_learning_platform"]
+  },
+  {
+    "name": "Cardano Catalyst Circle",
+    "website": "https://catalyst-circle.github.io/",
+    "teamGithubURL": "https://github.com/catalyst-circle",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Derec Alliance",
+    "website": "https://derecalliance.org/",
+    "teamGithubURL": "https://github.com/derecalliance",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano BSD Alliance",
+    "website": "https://cardanobsd.org/",
+    "teamGithubURL": "https://github.com/cardano-bsd-alliance",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Quality Assurance",
+    "website": "https://quality-assurance-dao.github.io/",
+    "teamGithubURL": "https://github.com/Quality-Assurance-DAO",
+    "tags": ["organization"]
+  },
+  {
+    "name": "ODIN Network",
+    "website": "https://www.odin.eco/",
+    "teamGithubURL": "https://github.com/ODIN-Initiative",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Token Engineering Lab",
+    "website": "https://thetokenlab.xyz/",
+    "teamGithubURL": "https://github.com/Cardano-Token-Engineering-Lab",
+    "tags": ["organization"]
+  },
+  {
+    "name": "The Proof of Stake Alliance",
+    "website": "https://www.proofofstakealliance.org/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Catalyst Network",
+    "website": "https://docs.projectcatalyst.io/current-fund/general-information/catalyst-network",
+    "teamGithubURL": "https://github.com/Project-Catalyst",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Blockchain Game Alliance",
+    "website": "https://blockchaingamealliance.net/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Hyperledger Foundation",
+    "website": "https://www.hyperledger.org/",
+    "teamGithubURL": "https://github.com/hyperledger",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano Confederation",
+    "website": "https://www.cardanoconfederation.org/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "WIMs",
+    "website": "https://cardano.wims.io/",
+    "teamGithubURL": "https://github.com/wimsio",
+    "tags": ["organization"]
+  },
+  {
+    "name": "UTXO Alliance",
+    "website": "https://utxo-alliance.org",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "LATAM Cardano",
+    "website": "https://catalyst-swarm.gitbook.io/latam-cardano-community",
+    "teamGithubURL": "https://github.com/latamcardano",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano Atlantic Council",
+    "website": "https://atlanticcouncil.cc/",
+    "teamGithubURL": "https://github.com/Cardano-Atlantic-Council",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Cardano4Good",
+    "website": "https://cardano4good.net/",
+    "teamGithubURL": "",
+    "tags": ["organization"]
+  },
+  {
+    "name": "Armada Alliance — Energy Efficient Pools",
+    "website": "https://armada-alliance.com",
+    "teamGithubURL": "https://github.com/armada-alliance",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "Mission Driven Pools",
+    "website": "https://missiondrivenpools.org",
+    "teamGithubURL": "https://github.com/CardanoMDP",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "xSPO Alliance",
+    "website": "https://www.xspo-alliance.org",
+    "teamGithubURL": "https://github.com/xSPO-Alliance",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "Single Pool Alliance",
+    "website": "https://singlepoolalliance.net",
+    "teamGithubURL": "https://github.com/SinglePoolAlliance",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "SPO Japan Guild",
+    "website": "https://spojapanguild.net",
+    "teamGithubURL": "https://github.com/btbf/",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "Canadian Cardano Stake Pool Association (CCSPA)",
+    "website": "https://ccspa.ca",
+    "teamGithubURL": "https://github.com/CCSPA",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "StakePool Operator Tools Alliance",
+    "website": "https://github.com/gitmachtl/StakePool-Operator-Tools-Alliance",
+    "teamGithubURL": "https://github.com/gitmachtl/",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "Climate Neutral Cardano",
+    "website": "https://climateneutralcardano.org",
+    "teamGithubURL": "",
+    "tags": ["organization", "stake_pool_alliance"]
+  },
+  {
+    "name": "Lovelace Academy",
+    "website": "https://lovelace.academy/",
+    "teamGithubURL": "https://github.com/lovelaceacademy",
+    "tags": ["organization", "dev_learning_platform", "dev_documentation"]
+  },
+  {
+    "name": "Input Output",
+    "website": "https://iohk.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "TxPipe",
+    "website": "https://txpipe.io/",
+    "teamGithubURL": "https://github.com/txpipe",
+    "tags": ["dev_company", "audit_company"]
+  },
+  {
+    "name": "Anastasia Labs",
+    "website": "https://anastasialabs.com/",
+    "teamGithubURL": "https://github.com/Anastasia-Labs",
+    "tags": ["dev_company", "audit_company"]
+  },
+  {
+    "name": "Strica",
+    "website": "https://strica.io/",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Blink Labs",
+    "website": "https://blinklabs.io/",
+    "teamGithubURL": "https://github.com/blinklabs-io",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Well Typed",
+    "website": "https://www.well-typed.com/",
+    "teamGithubURL": "https://github.com/well-typed",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Harmonic Labs",
+    "website": "https://www.harmoniclabs.tech/",
+    "teamGithubURL": "https://github.com/harmoniclabs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Vacuumlabs",
+    "website": "https://vacuumlabs.com/",
+    "teamGithubURL": "https://github.com/vacuumlabs",
+    "tags": ["dev_company", "audit_company"]
+  },
+  {
+    "name": "Sundae Labs",
+    "website": "https://sundae.fi/",
+    "teamGithubURL": "https://github.com/SundaeSwap-finance",
+    "tags": ["dev_company", "audit_company"]
+  },
+  {
+    "name": "Dquadrant",
+    "website": "https://dquadrant.com/",
+    "teamGithubURL": "https://github.com/dQuadrant",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "DC Spark",
+    "website": "https://www.dcspark.io/",
+    "teamGithubURL": "https://github.com/dcSpark",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Mlabs",
+    "website": "https://mlabs.city/",
+    "teamGithubURL": "https://github.com/mlabs-haskell",
+    "tags": ["dev_company", "audit_company"]
+  },
+  {
+    "name": "Five Binaries",
+    "website": "https://fivebinaries.com/",
+    "teamGithubURL": "https://github.com/fivebinaries",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Tweag",
+    "website": "https://www.tweag.io/",
+    "teamGithubURL": "https://github.com/tweag",
+    "tags": ["dev_company", "audit_company"]
+  },
+  {
+    "name": "Galois",
+    "website": "https://galois.com/",
+    "teamGithubURL": "https://github.com/GaloisInc",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Protofire",
+    "website": "https://protofire.io/",
+    "teamGithubURL": "https://github.com/protofire",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Metalamp",
+    "website": "https://metalamp.io/",
+    "teamGithubURL": "https://github.com/fullstack-development",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Obsidian Systems",
+    "website": "https://obsidian.systems/",
+    "teamGithubURL": "https://github.com/obsidiansystems",
+    "tags": ["dev_company", "audit_company"]
+  },
+  {
+    "name": "Dynamic Strategies",
+    "website": "https://dynamicstrategies.io/",
+    "teamGithubURL": "https://github.com/dynamicstrategies",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Zw3rk Tech",
+    "website": "https://zw3rk.com/",
+    "teamGithubURL": "https://github.com/zw3rk",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Mutual Knowledge",
+    "website": "https://mukn.com/",
+    "teamGithubURL": "https://github.com/MuKnSys",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Studio Webux",
+    "website": "https://webuxlab.com/",
+    "teamGithubURL": "https://github.com/studiowebux",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Sidan",
+    "website": "https://sidan.io/",
+    "teamGithubURL": "https://github.com/sidan-lab",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Logical Mechanism",
+    "website": "https://logicalmechanism.io/",
+    "teamGithubURL": "https://github.com/logical-mechanism",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "ADA Anvil",
+    "website": "https://ada-anvil.io/",
+    "teamGithubURL": "https://github.com/Cardano-Forge",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Biglup Labs",
+    "website": "https://biglup.io/",
+    "teamGithubURL": "https://github.com/Biglup",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Ikigai Tech",
+    "website": "https://ikigaitech.org/",
+    "teamGithubURL": "https://github.com/ikigai-github",
+    "tags": ["dev_company", "audit_company"]
+  },
+  {
+    "name": "Plank",
+    "website": "https://www.joinplank.com/",
+    "teamGithubURL": "https://github.com/joinplank",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Saib",
+    "website": "https://saib.dev/",
+    "teamGithubURL": "https://github.com/SAIB-Inc",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Evolute Software",
+    "website": "https://evolute.software/",
+    "teamGithubURL": "https://github.com/evolute-software",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Nucast Labs",
+    "website": "https://www.nucastlabs.xyz/",
+    "teamGithubURL": "https://github.com/Nucastio",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Saturn Labs",
+    "website": "https://saturnlabs.org/",
+    "teamGithubURL": "https://github.com/SaturnLabs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Bloxico",
+    "website": "https://bloxico.com/",
+    "teamGithubURL": "https://github.com/Bloxico",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Thespian",
+    "website": "https://thespian.eu/",
+    "teamGithubURL": "https://github.com/Thespian-Agency",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Big Blymp",
+    "website": "http://www.bigblymp.com/",
+    "teamGithubURL": "https://github.com/BigBlymp",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Awen Online",
+    "website": "https://awen.online/",
+    "teamGithubURL": "https://github.com/Awen-online",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "M2Tec",
+    "website": "https://www.m2tec.nl",
+    "teamGithubURL": "https://github.com/M2tec",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Hachi Security",
+    "website": "https://hachi.one/",
+    "teamGithubURL": "https://github.com/HachiSecurity",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Kora Labs",
+    "website": "https://koralabs.io/",
+    "teamGithubURL": "https://github.com/koralabs/",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Agrow Labs",
+    "website": "https://www.agrowlabs.co/",
+    "teamGithubURL": "https://github.com/Agrow-Labs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "MigaMake",
+    "website": "https://migamake.com/",
+    "teamGithubURL": "https://github.com/migamake",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Flux Point Studios",
+    "website": "https://fluxpointstudios.com/",
+    "teamGithubURL": "https://github.com/Flux-Point-Studios",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Platonic Systems",
+    "website": "https://platonic.systems/",
+    "teamGithubURL": "https://gitlab.com/platonic",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Paima Studios",
+    "website": "https://www.paimastudios.com/",
+    "teamGithubURL": "https://github.com/PaimaStudios",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Lantr.io",
+    "website": "https://lantr.io/",
+    "teamGithubURL": "https://github.com/lantr-io",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Modulo-P",
+    "website": "https://modulo-p.io/",
+    "teamGithubURL": "https://github.com/modulo-p",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Filabs",
+    "website": "https://www.filabs.dev/",
+    "teamGithubURL": "https://github.com/filabs-dev",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Edda Labs",
+    "website": "https://www.eddalabs.io/",
+    "teamGithubURL": "https://github.com/ErickRomeroDev",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Trivolve Tech",
+    "website": "https://trivolvetech.com/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Gen Lambda",
+    "website": "https://www.genlambda.com/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "We Deliver",
+    "website": "https://we-deliver.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Crystal Software",
+    "website": "http://www.crystal.infinityfreeapp.com",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Pendulumdev",
+    "website": "https://pendulumdev.co.uk/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Adaxon",
+    "website": "https://adaxon.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Antier Solutions",
+    "website": "https://www.antiersolutions.com/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Kompact",
+    "website": "https://kompact.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Inversion",
+    "website": "https://inversion.dev/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Clear Contracts",
+    "website": "https://www.clearcontracts.io/",
+    "teamGithubURL": "https://github.com/ClearContracts",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Sireto",
+    "website": "https://sireto.io/",
+    "teamGithubURL": "https://github.com/sireto",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "MigaMake",
+    "website": "https://migamake.com/",
+    "teamGithubURL": "https://github.com/migamake",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Akyo Labs",
+    "website": "https://akyolabs.com/",
+    "teamGithubURL": "https://github.com/Akyo-Labs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Ethernal Tech",
+    "website": "https://ethernal.tech/",
+    "teamGithubURL": "https://github.com/Ethernal-Tech",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Exura Labs",
+    "website": "https://www.exura.org/",
+    "teamGithubURL": "https://github.com/exuralabs",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Rush Labs",
+    "website": "https://www.rushlabs.io/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Vaka Consulting",
+    "website": "https://www.vakaconsulting.io/",
+    "teamGithubURL": "https://github.com/Vaka-Consulting",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Bloxbean",
+    "website": "https://www.bloxbean.com/",
+    "teamGithubURL": "https://github.com/bloxbean",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Jigsaw Kloud",
+    "website": "https://jigsawkloud.design/",
+    "teamGithubURL": "",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Yepple",
+    "website": "https://blockchain.yepple.io/",
+    "teamGithubURL": "https://github.com/YeppleInc",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "PaskLab Technologies",
+    "website": "http://pasklab.com",
+    "teamGithubURL": "https://github.com/PaskLab",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Baires Dev",
+    "website": "https://www.bairesdev.com/",
+    "teamGithubURL": "https://github.com/bairesdev",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "IntelliSoftAlpin",
+    "website": "https://intellisoftalpin.com/",
+    "teamGithubURL": "https://github.com/intellisoftalpin",
+    "tags": ["dev_company"]
+  },
+  {
+    "name": "Runtime Verification",
+    "website": "https://runtimeverification.com/",
+    "teamGithubURL": "https://github.com/runtimeverification/",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "CertiK",
+    "website": "http://certik.com",
+    "teamGithubURL": "https://github.com/CertiKProject",
+    "tags": ["audit_company"]
+  },
+  {
+    "name": "Flux Point Studio",
+    "website": "https://fluxpointstudios.com/",
+    "teamGithubURL": "https://github.com/Flux-Point-Studios",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Banana Clip Studios",
+    "website": "https://www.bananaclip.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Paima Studios",
+    "website": "https://www.paimastudios.com/",
+    "teamGithubURL": "https://github.com/PaimaStudios",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "RFLXT",
+    "website": "https://rflxt.com/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Dega",
+    "website": "https://www.dega.org/",
+    "teamGithubURL": "https://github.com/DEGAorg",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "WAGMI Games",
+    "website": "https://www.wagmigame.io/",
+    "teamGithubURL": "https://github.com/wagmigame",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Pixel Cab Games",
+    "website": "https://pixelcabgames.com/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "WildSnake Software",
+    "website": "https://www.wildsnake.com/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Risk Gaming",
+    "website": "https://riskgaming.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Tavern Squad Studios",
+    "website": "https://tavernsquad.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "SuraLabs Gaming",
+    "website": "https://suralabs.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "Battle Alliance",
+    "website": "https://battlealliance.io/",
+    "teamGithubURL": "",
+    "tags": ["game_studio"]
+  },
+  {
+    "name": "World Mobile",
+    "website": "https://worldmobile.io/",
+    "teamGithubURL": "https://github.com/worldmobilegroup",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "SingularityNET",
+    "website": "https://singularitynet.io/",
+    "teamGithubURL": "https://github.com/singnet",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Iagon",
+    "website": "https://iagon.com/",
+    "teamGithubURL": "https://github.com/iagonorg",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Liqwid Finance",
+    "website": "https://liqwid.finance/",
+    "teamGithubURL": "https://github.com/liqwid-labs",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Minswap",
+    "website": "https://app.minswap.org/",
+    "teamGithubURL": "https://github.com/minswap",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Lenfi",
+    "website": "https://lenfi.io/",
+    "teamGithubURL": "https://github.com/lenfiLabs",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Indigo Protocol",
+    "website": "https://indigoprotocol.io/",
+    "teamGithubURL": "https://github.com/IndigoProtocol",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Book.io",
+    "website": "https://book.io/",
+    "teamGithubURL": "https://github.com/book-io",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Cornucopias",
+    "website": "https://www.cornucopias.io/",
+    "teamGithubURL": "https://github.com/Cornucopias",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Nunet",
+    "website": "https://www.nunet.io/",
+    "teamGithubURL": "https://gitlab.com/nunet",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Nuvola Digital",
+    "website": "https://www.nuvoladigital.io",
+    "teamGithubURL": "",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "NMKR",
+    "website": "https://nmkr.io/",
+    "teamGithubURL": "https://github.com/nftmakerio",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "DexHunter",
+    "website": "https://www.dexhunter.io/",
+    "teamGithubURL": "https://github.com/DexHunterIO",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Butane",
+    "website": "https://butane.dev/",
+    "teamGithubURL": "https://github.com/butaneprotocol",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Fluid Tokens",
+    "website": "https://fluidtokens.com/",
+    "teamGithubURL": "https://github.com/fluidtokens",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "SundaeSwap",
+    "website": "https://app.sundae.fi/",
+    "teamGithubURL": "https://github.com/SundaeSwap-finance",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Splash Protocol",
+    "website": "https://www.splash.trade/",
+    "teamGithubURL": "https://github.com/splashprotocol",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Moneta",
+    "website": "https://moneta.global/",
+    "teamGithubURL": "",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Rejuve AI",
+    "website": " https://www.rejuve.ai/",
+    "teamGithubURL": "https://github.com/Rejuve",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Optim Finance",
+    "website": "https://www.optim.finance/",
+    "teamGithubURL": "https://github.com/OptimFinance",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Mynth.ai",
+    "website": "https://mynth.ai",
+    "teamGithubURL": "https://github.com/MynthAI",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "MuesliSwap",
+    "website": "https://muesliswap.com/",
+    "teamGithubURL": "https://github.com/MuesliSwapTeam",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Axo",
+    "website": "https://www.axo.trade/",
+    "teamGithubURL": "",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Coti",
+    "website": "https://coti.io/",
+    "teamGithubURL": "https://github.com/coti-io",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Bodega Market",
+    "website": "https://bodegamarket.xyz/",
+    "teamGithubURL": "https://github.com/bodega-market",
+    "tags": ["dapp", "prediction_game"]
+  },
+  {
+    "name": "Dedium",
+    "website": "https://dedium.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Strike Finance",
+    "website": "https://strikefinance.org/",
+    "teamGithubURL": "https://github.com/strike-finance",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Yamfore",
+    "website": "https://www.yamfore.com/",
+    "teamGithubURL": "https://github.com/BigBlymp",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "JPG Store",
+    "website": "https://www.jpg.store/",
+    "teamGithubURL": "https://github.com/jpg-store",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "VyFi",
+    "website": "https://app.vyfi.io/dex",
+    "teamGithubURL": "https://github.com/vyfi",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "NEWM",
+    "website": "https://newm.io/",
+    "teamGithubURL": "https://github.com/projectNEWM",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Metera",
+    "website": "https://www.meteraprotocol.io/",
+    "teamGithubURL": "https://github.com/MeteraLabs",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Foreon Network",
+    "website": "https://foreon.network/",
+    "teamGithubURL": "https://github.com/Foreon-Network",
+    "tags": ["dapp", "prediction_game"]
+  },
+  {
+    "name": "Xerberus",
+    "website": "https://xerberus.io/",
+    "teamGithubURL": "https://github.com/XerberusTeam",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Genius Yield",
+    "website": "https://www.geniusyield.co/",
+    "teamGithubURL": "https://github.com/geniusyield",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Summon Platform",
+    "website": "https://summonplatform.io/",
+    "teamGithubURL": "https://github.com/ADAO-Summon",
+    "tags": ["dapp", "dao_explorer", "dao_management_software"]
+  },
+  {
+    "name": "Andamio",
+    "website": "https://www.andamio.io/",
+    "teamGithubURL": "https://github.com/Andamio-Platform",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Work Courses",
+    "website": "https://work.courses",
+    "teamGithubURL": "https://github.com/The-Working-Dead",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Olympus Insights",
+    "website": "https://olympusinsights.io",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dev_learning_platform"]
+  },
+  {
+    "name": "Clarity",
+    "website": "https://www.clarity.vote/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dao_explorer", "dao_management_software"]
+  },
+  {
+    "name": "Spectrum Finance",
+    "website": "https://spectrum.fi/",
+    "teamGithubURL": "https://github.com/spectrum-finance",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Wingriders",
+    "website": "https://www.wingriders.com/",
+    "teamGithubURL": "https://github.com/WingRiders",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "DripDropz",
+    "website": "https://dripdropz.io",
+    "teamGithubURL": "https://github.com/DripDropz",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Blockfrost.io",
+    "website": "https://blockfrost.io/",
+    "teamGithubURL": "https://github.com/blockfrost",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Kreate Art",
+    "website": "https://kreate.community/",
+    "teamGithubURL": "https://github.com/kreate-art",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Jam on Bread",
+    "website": "https://jamonbread.io/",
+    "teamGithubURL": "https://github.com/JamOnBread",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Empowa",
+    "website": "https://empowa.io/",
+    "teamGithubURL": "https://github.com/empowa-io",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Stuff.io",
+    "website": "https://stuff.io/",
+    "teamGithubURL": "https://github.com/book-io",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "CSwap DEX",
+    "website": "https://app.cswap.fi/",
+    "teamGithubURL": "https://github.com/cswapsystems",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Walkers",
+    "website": "https://walkerscardano.xyz/",
+    "teamGithubURL": "",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Danogo",
+    "website": "https://danogo.io/",
+    "teamGithubURL": "https://github.com/Danogo2023",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Cerra.io",
+    "website": "https://cerra.io/",
+    "teamGithubURL": "https://github.com/cerraio",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Profila",
+    "website": "https://profila.com/",
+    "teamGithubURL": "https://github.com/Profila",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Encoins",
+    "website": "https://encoins.io/",
+    "teamGithubURL": "https://github.com/encryptedcoins/",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Paribus",
+    "website": "https://paribus.io/",
+    "teamGithubURL": "https://github.com/paribus",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Teddyswap",
+    "website": "https://app.teddyswap.org/",
+    "teamGithubURL": "https://github.com/teddy-swap",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Blueshift",
+    "website": "https://blueshift.fi",
+    "teamGithubURL": "https://github.com/blueshift-fi",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Mayz",
+    "website": "https://mayz.io/",
+    "teamGithubURL": "https://github.com/MAYZGitHub/",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Delta Defi",
+    "website": "https://www.deltadefi.io/",
+    "teamGithubURL": "https://github.com/deltadefi-protocol",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "ADA Markets",
+    "website": "https://ada.markets/",
+    "teamGithubURL": "https://github.com/ADA-Markets",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Nova Finance",
+    "website": "https://www.novafinance.io/",
+    "teamGithubURL": "https://github.com/Nova-Finance",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Stargazer Finance",
+    "website": "https://www.stargazer.finance/",
+    "teamGithubURL": "https://github.com/StargazerLabs",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Supra Payments",
+    "website": "https://suprapayments.io/",
+    "teamGithubURL": "https://github.com/suprapayments",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Flipr",
+    "website": "https://flipr.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Dropspot",
+    "website": "https://dropspot.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Saturn NFT",
+    "website": "https://saturnnft.io/",
+    "teamGithubURL": "https://github.com/Orion-Crypto",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "SaturnSwap",
+    "website": "https://saturnswap.io/",
+    "teamGithubURL": "https://github.com/Orion-Crypto",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "WayUp",
+    "website": "https://www.wayup.io/",
+    "teamGithubURL": "https://github.com/Cardano-Forge",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Token Riot",
+    "website": "https://tokenriot.io/",
+    "teamGithubURL": "https://github.com/TokenRiot",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Trading Tent",
+    "website": "https://www.tradingtent.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_p2p_trading"]
+  },
+  {
+    "name": "Atomic Swap",
+    "website": "https://atomic-swap.io/",
+    "teamGithubURL": "https://github.com/honungsburk",
+    "tags": ["dapp", "nft_p2p_trading"]
+  },
+  {
+    "name": "Cardano Lightning",
+    "website": "https://cardano-lightning.org/",
+    "teamGithubURL": "https://github.com/cardano-lightning",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Aneta BTC",
+    "website": "https://anetabtc.io/",
+    "teamGithubURL": "https://github.com/anetaBTC",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "CardanoGPT",
+    "website": "https://cardanogpt.ai/",
+    "teamGithubURL": "https://github.com/cardanogpt",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Meld",
+    "website": "https://www.meld.com/",
+    "teamGithubURL": "https://github.com/MELD-labs",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Ray Network",
+    "website": "https://raynetwork.io/",
+    "teamGithubURL": "https://github.com/xray-network",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Mint Matrix",
+    "website": "https://mintmatrix.io/",
+    "teamGithubURL": "https://github.com/MintMatrix",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "IAMX",
+    "website": "https://iamx.id/",
+    "teamGithubURL": "https://github.com/iamxid",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Rosen Bridge",
+    "website": "https://rosen.tech/",
+    "teamGithubURL": "https://github.com/rosen-bridge",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Maya Protocol",
+    "website": "https://www.mayaprotocol.com/",
+    "teamGithubURL": "https://github.com/Maya-Protocol",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "BitcoinOS",
+    "website": "https://www.bitcoinos.build/",
+    "teamGithubURL": "https://github.com/bitsnark",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Vista Bridge",
+    "website": "https://www.vistabridge.org/",
+    "teamGithubURL": "https://github.com/vista-foundation",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Coinecta",
+    "website": "https://coinecta.fi/",
+    "teamGithubURL": "https://github.com/coinecta",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "AdaSouls",
+    "website": "https://www.adasouls.io/",
+    "teamGithubURL": "https://github.com/AdaSouls",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Reach your People",
+    "website": "https://www.ryp.io/",
+    "teamGithubURL": "https://github.com/nilscodes/",
+    "tags": ["dapp", "dao_explorer"]
+  },
+  {
+    "name": "Trustlevel",
+    "website": "https://www.trustlevel.io/",
+    "teamGithubURL": "https://github.com/TrustLevel",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Socious.io",
+    "website": "https://socious.io/",
+    "teamGithubURL": "https://github.com/socious-io",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "ZenGate",
+    "website": "https://www.zengate.global/",
+    "teamGithubURL": "https://github.com/zenGate-Global",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Wanchain",
+    "website": "https://www.wanchain.org/",
+    "teamGithubURL": "https://github.com/wanchain",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "TosiDrop",
+    "website": "https://tosidrop.io/",
+    "teamGithubURL": "https://github.com/TosiDrop",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Fida Finance",
+    "website": "https://fida.finance/",
+    "teamGithubURL": "https://github.com/fida-services",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "CNS Space",
+    "website": "https://cns.space/",
+    "teamGithubURL": "https://github.com/cns-space",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Digitalis Domains",
+    "website": "https://www.digitalis.domains/",
+    "teamGithubURL": "https://github.com/digitalis-domains",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Adadomains.io",
+    "website": "https://www.adadomains.io/",
+    "teamGithubURL": "https://github.com/adadomains",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Fortuna",
+    "website": "https://minefortuna.com/",
+    "teamGithubURL": "https://github.com/cardano-miners",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Cardano Mercury",
+    "website": "https://cardano-mercury.com/",
+    "teamGithubURL": "https://github.com/cardano-mercury",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "BuiltOnCardano DAO Explorer",
+    "website": "https://builtoncardano.com/ecosystem/dao",
+    "teamGithubURL": "",
+    "tags": ["dapp", "dao_explorer"]
+  },
+  {
+    "name": "Crashr",
+    "website": "https://www.crashr.io/",
+    "teamGithubURL": "https://github.com/Crashr-io",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Blockgen Art",
+    "website": "https://www.blockgen.art/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Grabbit Market",
+    "website": "https://grabbit.market/",
+    "teamGithubURL": "https://github.com/ikigai-github",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Cardahub",
+    "website": "https://cardahub.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Arkhouse Gallery",
+    "website": "https://www.arkhouse.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Artano",
+    "website": "https://artano.io",
+    "teamGithubURL": "https://github.com/artano-io",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Chains of War",
+    "website": "https://www.chainsofwar.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Drunken Dragon Games",
+    "website": "https://ddu.gg/",
+    "teamGithubURL": "https://github.com/Drunken-Dragon-Games",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Fluxpoint PFP Pit Brawl",
+    "website": "https://fluxpointstudios.com/games/pitbrawl",
+    "teamGithubURL": "https://github.com/Flux-Point-Studios",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Chronoshot",
+    "website": "https://rflxt.com/game-sites/chronoshot",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "RFLXT Voyager Ascension",
+    "website": "https://rflxt.com/game-sites/voyager",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Mocossi",
+    "website": "https://mocossi.com/",
+    "teamGithubURL": "https://github.com/officialmocossi",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Pxlwars",
+    "website": "https://www.pxlwars.com/",
+    "teamGithubURL": "https://github.com/DEADPXLZ",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Ascent Rivals",
+    "website": "https://www.ascentrivals.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Eternals: Rise of the Overworld",
+    "website": "https://eternalsgame.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Virtua",
+    "website": "https://virtua.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Claymates",
+    "website": "https://www.claynation.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "FutureFest",
+    "website": "https://www.futurefest.io/",
+    "teamGithubURL": "https://github.com/FutureFest",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Sophiaverse",
+    "website": "https://www.sophiaverse.ai/",
+    "teamGithubURL": "https://github.com/singnet",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Enter the Mandala",
+    "website": "https://enterthemandala.app/",
+    "teamGithubURL": "https://github.com/mandalaverse",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Boss Planet",
+    "website": "https://bossplanet.games/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "The Cardanoverse",
+    "website": "http://thecardanoverse.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Miverse",
+    "website": "https://miverse.io/",
+    "teamGithubURL": "https://github.com/MiverseGame",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Goombles",
+    "website": "https://www.goombles.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Tavern Squad",
+    "website": "https://tavernsquad.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Cardano Warriors",
+    "website": "https://cardanowarriors.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Carda Station",
+    "website": "https://www.cardastation.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Mad Dog Car Club",
+    "website": "https://maddogcarclub.io",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Battle Alliance",
+    "website": "https://battlealliance.io",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Realm of Titans",
+    "website": "https://www.rotitans.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Stellar Hood",
+    "website": "https://stellarhood.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Tetrano",
+    "website": "https://www.tetrano.net/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Machiavellic",
+    "website": "https://machiavellic.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Cardano Crocs Club",
+    "website": "https://cportal.io/croc-store/all-categories",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Slap Ventures",
+    "website": "https://slapventures.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "PlayerMint",
+    "website": "https://www.playermint.com",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Hell Hyena Motorcycle Club",
+    "website": "https://hhmc.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Rookiez",
+    "website": "https://rookiez.org",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Equine",
+    "website": "https://www.equine.gg/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "CryptoRaggies",
+    "website": "https://cryptoraggies.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Star Atlas",
+    "website": "https://staratlas.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Cyberverse",
+    "website": "https://playcyberverse.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Goldmine Arcade",
+    "website": "https://www.digitalgoldecosystem.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "SpeedThrone",
+    "website": "https://speedthrone.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Khaos Factions",
+    "website": "https://factions.worldswithin.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Cardano Lands",
+    "website": "https://cardanolands.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Tarochi",
+    "website": "https://tarochi.paimastudios.com/",
+    "teamGithubURL": "https://github.com/PaimaStudios",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Lovelace Saga",
+    "website": "https://lovelacesaga.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "ADA Quest",
+    "website": "https://www.ada-quest.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Snek Game",
+    "website": "https://gaming-snek.com/snek-game",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Virtua Jetpack League",
+    "website": "https://play.virtua.com/jetpack",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Chibidango Heroes",
+    "website": "https://chibidangoheroes.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Cardano Racers",
+    "website": "https://www.cardanoracers.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Bankopoly",
+    "website": "https://bankopoly.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Quest",
+    "website": "https://www.questgold.online/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Cardania",
+    "website": "https://cardania.com/",
+    "teamGithubURL": "https://github.com/cardania",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Adania",
+    "website": "https://adania.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Wolves of Rome",
+    "website": "https://wolvesofrome.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Psychoz",
+    "website": "https://psychoz.cards/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Astraeus Cards",
+    "website": "https://astraeus.cards/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Wargrum",
+    "website": "https://www.wargrum.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Tier One Combat",
+    "website": "https://tieronecombat.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "general_game"]
+  },
+  {
+    "name": "Ridotto",
+    "website": "https://ridotto.io/",
+    "teamGithubURL": "https://github.com/ridotto-io",
+    "tags": ["dapp", "gambling_game", "prediction_game"]
+  },
+  {
+    "name": "Streaks Game Predictions by CNFT",
+    "website": "https://streaks.io/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "prediction_game"]
+  },
+  {
+    "name": "Bettting ADA",
+    "website": "https://betttingada.com/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "prediction_game"]
+  },
+  {
+    "name": "Danzo casino",
+    "website": "https://www.danzo.gg/#/",
+    "teamGithubURL": "",
+    "tags": ["dapp", "gambling_game"]
+  },
+  {
+    "name": "Cardanocasino.vip",
+    "website": "https://cardanocasino.vip/",
+    "teamGithubURL": "https://github.com/cardanocasinovip",
+    "tags": ["dapp", "gambling_game"]
+  },
+  {
+    "name": "Gaming-Snek Raffle",
+    "website": "https://gaming-snek.com/raffle",
+    "teamGithubURL": "",
+    "tags": ["dapp", "gambling_game"]
+  },
+  {
+    "name": "VyFi Lottery",
+    "website": "https://app.vyfi.io/lottery",
+    "teamGithubURL": "https://github.com/vyfi",
+    "tags": ["dapp", "gambling_game"]
+  },
+  {
+    "name": "Mutant NFTs Raffle",
+    "website": "https://labs.mutant-nft.com/raffles",
+    "teamGithubURL": "https://github.com/MutantNFTs",
+    "tags": ["dapp", "gambling_game"]
+  },
+  {
+    "name": "Eternl Wallet",
+    "website": "https://eternl.io/",
+    "teamGithubURL": "https://github.com/Tastenkunst",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Gamechanger Wallet",
+    "website": "https://gamechanger.finance",
+    "teamGithubURL": "https://github.com/GameChangerFinance/",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Begin Wallet",
+    "website": "https://begin.is/",
+    "teamGithubURL": "https://github.com/BeginWallet",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Tokeo Wallet",
+    "website": "https://tokeopay.io/",
+    "teamGithubURL": "https://github.com/TokeoPay",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Vespr Wallet",
+    "website": "https://www.vespr.xyz/",
+    "teamGithubURL": "https://github.com/vespr-wallet",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Endubis Wallet",
+    "website": "https://endubis-wallet.vercel.app/",
+    "teamGithubURL": "https://github.com/Endubis-Solutions",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Nufi Wallet",
+    "website": "https://nu.fi/",
+    "teamGithubURL": "https://github.com/nufi-official",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Bro Clan Wallet",
+    "website": "https://broclan.io/",
+    "teamGithubURL": "https://github.com/leo42",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Ledger Wallet",
+    "website": "https://www.ledger.com/",
+    "teamGithubURL": "https://github.com/ledgerhq",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Trezor Wallet",
+    "website": "https://trezor.io/",
+    "teamGithubURL": "https://github.com/trezor",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Tangem Wallet",
+    "website": "https://tangem.com/",
+    "teamGithubURL": "https://github.com/tangem",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Keystone Wallet",
+    "website": "https://keyst.one/",
+    "teamGithubURL": "https://github.com/keystoneHQ",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Proof of Space",
+    "website": "https://www.proofspace.id/",
+    "teamGithubURL": "https://github.com/zakaio",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Blocktrust",
+    "website": "https://blocktrust.dev/",
+    "teamGithubURL": "https://github.com/bsandmann",
+    "tags": ["tools"]
+  },
+  {
+    "name": "CardanoPress",
+    "website": "https://cardanopress.io/",
+    "teamGithubURL": "https://github.com/CardanoPress",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Work with Cardano",
+    "website": "https://workwithcardano.com/",
+    "teamGithubURL": "https://github.com/wowica",
+    "tags": ["tools"]
+  },
+  {
+    "name": "SecurityBot",
+    "website": "https://securitybot.info/",
+    "teamGithubURL": "https://github.com/yHSJ",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Yepple",
+    "website": "https://yepple.io/",
+    "teamGithubURL": "https://github.com/YeppleInc",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Bakrypt",
+    "website": "https://bakrypt.io/",
+    "teamGithubURL": "https://github.com/Wolfy18",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Tangocrypto",
+    "website": "https://www.tangocrypto.com/",
+    "teamGithubURL": "https://github.com/tango-crypto",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Watchtower tools",
+    "website": "https://watchtower.tools/",
+    "teamGithubURL": "https://github.com/bkvpool",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Tapdano",
+    "website": "https://tapdano.com/",
+    "teamGithubURL": "https://github.com/tapdano",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Cardano Spot Check",
+    "website": "https://blockchainlens.gitbook.io/",
+    "teamGithubURL": "https://github.com/bclens",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Pool.pm",
+    "website": "https://pool.pm/",
+    "teamGithubURL": "https://github.com/SmaugPool/",
+    "tags": ["tools", "block_explorer", "block_visualizer"]
+  },
+
+  {
+    "name": "Berry Pool",
+    "website": "https://berrypool.io/",
+    "teamGithubURL": "https://github.com/berry-pool",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Balance Analytics",
+    "website": "https://www.balanceanalytics.io/",
+    "teamGithubURL": "https://github.com/Balance-Analytics",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Zarqa AI",
+    "website": "https://www.zarqa.ai/",
+    "teamGithubURL": "https://github.com/zarqa-ai",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Aiken",
+    "website": "https://aiken-lang.org/",
+    "teamGithubURL": "https://github.com/aiken-lang",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Mesh",
+    "website": "https://meshjs.dev/",
+    "teamGithubURL": "https://github.com/MeshJS",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Maestro",
+    "website": "https://www.gomaestro.org/",
+    "teamGithubURL": "https://github.com/maestro-org",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Alethea.io",
+    "website": "https://alethea.io/",
+    "teamGithubURL": "https://github.com/alethea-io",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "Free Honey",
+    "website": "https://github.com/free-honey",
+    "teamGithubURL": "https://github.com/free-honey",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Adabox.io",
+    "website": "https://adabox.io",
+    "teamGithubURL": "https://github.com/adabox-aio",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Adastat.net",
+    "website": "https://adastat.net/",
+    "teamGithubURL": "https://github.com/CardanoExplorer",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "Pooltool.io",
+    "website": "https://pooltool.io/",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools"]
+  },
+  {
+    "name": "BuiltOnCardano Games",
+    "website": "https://builtoncardano.com/ecosystem/games-and-gaming",
+    "teamGithubURL": "",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "Playtoearn.com Cardano",
+    "website": "https://playtoearn.com/blockchaingames/Cardano/All-Genre/All-Status/All-Device/All-NFT/All-PlayToEarn/All-FreeToPlay",
+    "teamGithubURL": "",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "Cardano.org Game Showcase",
+    "website": "https://developers.cardano.org/showcase/?tags=game",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "CardanoSpot Gaming Projects",
+    "website": "https://cardanospot.io/project-library/Gaming",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "DappRadar Games",
+    "website": "https://dappradar.com/rankings/protocol/cardano/category/games",
+    "teamGithubURL": "https://github.com/dappradar",
+    "tags": ["tools", "game_explorer"]
+  },
+  {
+    "name": "Dapps on Cardano",
+    "website": "https://dappsoncardano.com/",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "ecosystem_directory"]
+  },
+  {
+    "name": "Lido Nation",
+    "website": "https://www.lidonation.com/",
+    "teamGithubURL": "https://github.com/lidonation",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Wolfram Blockchain Labs",
+    "website": "https://www.wolframblockchainlabs.com/",
+    "teamGithubURL": "https://github.com/WolframBlockchainLabs",
+    "tags": ["tools"]
+  },
+  {
+    "name": "RootsID",
+    "website": "https://rootsid.com/",
+    "teamGithubURL": "https://github.com/roots-id",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Paideia",
+    "website": "https://www.paideia.im/",
+    "teamGithubURL": "https://github.com/paideiadao/",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "Adastack",
+    "website": "https://www.adastack.io",
+    "teamGithubURL": "https://github.com/adastackio/",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Veralidity",
+    "website": "https://veralidity.com/",
+    "teamGithubURL": "https://github.com/veralidity",
+    "tags": ["tools"]
+  },
+  {
+    "name": "UpToDate Developers",
+    "website": "https://uptodatedevelopers.com/",
+    "teamGithubURL": "https://github.com/UPTODATE-DEV",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Cexplorer.io",
+    "website": "https://cexplorer.io/",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "CardanoScan",
+    "website": "https://cardanoscan.io/",
+    "teamGithubURL": "https://github.com/StricaHQ/",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "PyCardano",
+    "website": "https://pycardano.readthedocs.io/en/latest/",
+    "teamGithubURL": "https://github.com/Python-Cardano",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Plutonomicon",
+    "website": "https://github.com/Plutonomicon/plutonomicon/blob/main/README.md",
+    "teamGithubURL": "https://github.com/Plutonomicon",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Helios",
+    "website": "https://helios-lang.io/",
+    "teamGithubURL": "https://github.com/HeliosLang",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Scalus",
+    "website": "https://scalus.org/",
+    "teamGithubURL": "https://github.com/nau",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Orcfax",
+    "website": "https://orcfax.io/",
+    "teamGithubURL": "https://github.com/orcfax",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Charli3",
+    "website": "https://charli3.io/",
+    "teamGithubURL": "https://github.com/Charli3-Official",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Marlowe",
+    "website": "https://marlowe.iohk.io/",
+    "teamGithubURL": "https://github.com/marlowe-lang",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Cardano for the Masses",
+    "website": "https://cardanobook.com/",
+    "teamGithubURL": "https://github.com/johnnygreeney",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Coincashew",
+    "website": "https://www.coincashew.com",
+    "teamGithubURL": "https://github.com/coincashew",
+    "tags": ["tools"]
+  },
+  {
+    "name": "ATADA",
+    "website": "http://stakepool.at/",
+    "teamGithubURL": "https://github.com/gitmachtl",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Eutxo.org",
+    "website": "https://eutxo.org/",
+    "teamGithubURL": "",
+    "tags": ["tools", "block_explorer", "block_visualizer"]
+  },
+  {
+    "name": "CGlobe.io",
+    "website": "https://cglobe.io/",
+    "teamGithubURL": "https://github.com/cardanotech",
+    "tags": ["tools", "block_visualizer"]
+  },
+  {
+    "name": "CF Explorer",
+    "website": "https://beta.explorer.cardano.org/en/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "Script Explorer",
+    "website": "https://www.script-explorer.com/",
+    "teamGithubURL": "https://github.com/QSchlegel/",
+    "tags": ["tools", "block_visualizer"]
+  },
+  {
+    "name": "Raw Cardano",
+    "website": "https://rawcardano.app/",
+    "teamGithubURL": "https://github.com/QuixoteSystems",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "Blockchair",
+    "website": "https://blockchair.com/cardano",
+    "teamGithubURL": "https://github.com/blockchair",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "3xpl",
+    "website": "https://3xpl.com/cardano",
+    "teamGithubURL": "https://github.com/3xplcom",
+    "tags": ["tools", "block_explorer"]
+  },
+  {
+    "name": "Eutxo.org Mempool",
+    "website": "https://eutxo.org/mempool/live",
+    "teamGithubURL": "",
+    "tags": ["tools", "mempool_explorer"]
+  },
+  {
+    "name": "CardanoAPI",
+    "website": "https://mempool.cardanoapi.io/mempool",
+    "teamGithubURL": "https://github.com/cardanoapi",
+    "tags": ["tools", "mempool_explorer"]
+  },
+  {
+    "name": "Cardanoscan Mempool",
+    "website": "https://cardanoscan.io/mempoolTransactions",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "mempool_explorer"]
+  },
+  {
+    "name": "CardanoCube",
+    "website": "https://www.cardanocube.com/cardano-ecosystem-interactive-map",
+    "teamGithubURL": "",
+    "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
+  },
+  {
+    "name": "Tempo",
+    "website": "https://tempo.vote/dao",
+    "teamGithubURL": "",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "Agora",
+    "website": "https://github.com/Liqwid-Labs/agora",
+    "teamGithubURL": "https://github.com/Liqwid-Labs/",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "SundaeSwap Governance",
+    "website": "https://services.sundaeswap.finance/",
+    "teamGithubURL": "https://github.com/SundaeSwap-finance",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "CF Cardano Ballot",
+    "website": "https://github.com/cardano-foundation/cf-cardano-ballot",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "CardanoPress Governance",
+    "website": "https://cardanopress.io/products/governance/",
+    "teamGithubURL": "https://github.com/cardanopress",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "Wing Riders DAO Framework",
+    "website": "https://github.com/WingRiders/on-chain-dao-governance",
+    "teamGithubURL": "https://github.com/WingRiders/",
+    "tags": ["tools", "dao_management_software"]
+  },
+  {
+    "name": "Built on Cardano",
+    "website": "https://builtoncardano.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
+  },
+  {
+    "name": "Cardano.org Showcase",
+    "website": "https://developers.cardano.org/showcase",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "ecosystem_directory", "dapp_explorer"]
+  },
+  {
+    "name": "CardanoDegen Resource Directory",
+    "website": "https://cardanodegen.shop/cardano-links",
+    "teamGithubURL": "https://github.com/ensured",
+    "tags": ["tools", "ecosystem_directory"]
+  },
+  {
+    "name": "dSociety Real World Projects",
+    "website": "https://dsociety.io/least-harmful",
+    "teamGithubURL": "https://github.com/selfdriven-foundation",
+    "tags": ["tools", "ecosystem_directory"]
+  },
+  {
+    "name": "CardanoLink.net",
+    "website": "https://www.cardanolink.net/Cardanolink/Eng.html",
+    "teamGithubURL": "https://github.com/NotMick3",
+    "tags": ["tools", "ecosystem_directory"]
+  },
+  {
+    "name": "Taptools",
+    "website": "https://www.taptools.io",
+    "teamGithubURL": "",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "Alethea Dapps",
+    "website": "https://alethea.io/dapps",
+    "teamGithubURL": "https://github.com/alethea-io",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "DefiLlama Cardano",
+    "website": "https://defillama.com/chain/Cardano",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "dapp_explorer", "metric_tracker_site"]
+  },
+  {
+    "name": "Dapp Radar",
+    "website": "https://dappradar.com/rankings/protocol/cardano",
+    "teamGithubURL": "https://github.com/dappradar",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "Cexplorer Scripts",
+    "website": "https://cexplorer.io/dapps",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "Danogo Dapps by TVL",
+    "website": "https://danogo.io/tvl-report",
+    "teamGithubURL": "https://github.com/Danogo2023",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "DC One Crypto",
+    "website": "https://dconecrypto.finance/",
+    "teamGithubURL": "https://github.com/DCOneCrypto",
+    "tags": ["tools", "dapp_explorer"]
+  },
+  {
+    "name": "Cexplorer Stake Pools",
+    "website": "https://cexplorer.io/pool",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "AdaStat",
+    "website": "https://adastat.net/pools",
+    "teamGithubURL": "https://github.com/CardanoExplorer",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Alethea",
+    "website": "https://alethea.io/pools",
+    "teamGithubURL": "https://github.com/alethea-io",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "PoolTool",
+    "website": "https://pooltool.io/pools",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "CardanoScan Pools",
+    "website": "https://cardanoscan.io/pools",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Stakada",
+    "website": "https://stakada.io",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Upstream",
+    "website": "https://upstream.org.uk/cardano-stake-pool-explorer",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_explorer"]
+  },
+  {
+    "name": "Intersect Newsletter",
+    "website": "https://intersectmbo.org/news",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Cardano Newsletter",
+    "website": "https://www.cardanonewsletter.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Cardano Community Digest",
+    "website": "https://cardano.org/newsletter",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Catalyst Newsletter",
+    "website": "https://projectcatalyst.io/news",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Cardano Spotlight",
+    "website": "https://cardanospot.beehiiv.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Interviewing Cardano",
+    "website": "https://medium.com/@patryk_karter",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "ThinkGrowCrypto Media",
+    "website": "https://tgcmedia.beehiiv.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "LibεʁLiøη newsletter",
+    "website": "https://liberlion.medium.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Frontier Letter",
+    "website": "https://www.frontierletter.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Cardano Daily Digest",
+    "website": "https://cardano.beehiiv.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "newsletter"]
+  },
+  {
+    "name": "Cexplorer Rewards",
+    "website": "https://cexplorer.io/rewards",
+    "teamGithubURL": "https://github.com/cexplorer/",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "WhenAda",
+    "website": "https://www.whenada.com",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "Cardano Countdown",
+    "website": "https://cardanocountdown.com/Rewards",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "Cardano Explorer",
+    "website": "https://beta.explorer.cardano.org/staking-lifecycle",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "CardanoScan",
+    "website": "https://cardanoscan.io",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "reward_tracker"]
+  },
+  {
+    "name": "Antipalos Calculator",
+    "website": "https://antipalos.github.io/cardano-calculator/#calculator",
+    "teamGithubURL": "https://github.com/antipalos",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Armada Alliance",
+    "website": "https://armada-alliance.com",
+    "teamGithubURL": "https://github.com/armada-alliance/",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Cardano with Paul Calculators",
+    "website": "https://www.cardanowithpaul.com/calculators",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calculator"]
+  },
+  {
+    "name": "Cardano Date",
+    "website": "https://cardano.date",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Cardano Calendar",
+    "website": "https://cardano-calendar.com/month",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Pool Peek Calendar",
+    "website": "https://poolpeek.com/epochcalendar",
+    "teamGithubURL": "https://github.com/ShamrockPool/",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Cexplorer Calendar",
+    "website": "https://cexplorer.io/calendar",
+    "teamGithubURL": "https://github.com/cexplorer/",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Azure ADA Calendar",
+    "website": "https://azureada.com/epoch-calendar",
+    "teamGithubURL": "https://github.com/AzureADA",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Hype Staking",
+    "website": "https://hype-staking.com/home",
+    "teamGithubURL": "",
+    "tags": ["tools", "reward_calendar"]
+  },
+  {
+    "name": "Aldea Latin America DAO",
+    "website": "https://aldea-dao.org",
+    "teamGithubURL": "https://github.com/ALDEA-DAO",
+    "tags": ["stake_pool_alliance"]
+  },
+  {
+    "name": "Cardano Blockchain Insights",
+    "website": "https://lookerstudio.google.com/s/huXqeQmi9qA",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Edinburgh Decentralization Index",
+    "website": "http://blockchainlab.inf.ed.ac.uk/edi-dashboard",
+    "teamGithubURL": "https://github.com/Blockchain-Technology-Lab",
+    "tags": ["tools", "metric_tracker_site", "decentralization_index"]
+  },
+  {
+    "name": "Pooltool Network Health",
+    "website": "https://pooltool.io/networkhealth",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Cexplorer Insights",
+    "website": "https://cexplorer.io/insights",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "CardanoScan Analytics",
+    "website": "https://cardanoscan.io/analytics",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Dapps on Cardano Network Stats",
+    "website": "https://dappsoncardano.com/analytics/globalstats",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Adastats Dashboard",
+    "website": "https://adastats.info/dashboard",
+    "teamGithubURL": "",
+    "tags": ["tools", "metric_tracker_site"]
+  },
+  {
+    "name": "Cardano Foundation Academy",
+    "website": "https://education.cardanofoundation.org",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "dev_learning_platform"]
+  },
+  {
+    "name": "Emurgo Academy",
+    "website": "https://education.emurgo.io",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["tools", "dev_learning_platform"]
+  },
+  {
+    "name": "Mesh JS Guides",
+    "website": "https://meshjs.dev/guides",
+    "teamGithubURL": "https://github.com/meshjs",
+    "tags": ["tools", "dev_learning_platform"]
+  },
+  {
+    "name": "Danolearn",
+    "website": "https://danolearn.com/course",
+    "teamGithubURL": "",
+    "tags": ["tools", "dev_learning_platform"]
+  },
+  {
+    "name": "Plutus Pioneers",
+    "website": "https://github.com/input-output-hk/plutus-pioneer-program",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "dev_learning_platform"]
+  },
+  {
+    "name": "Cardano.org Docs",
+    "website": "https://docs.cardano.org",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "dev_documentation"]
+  },
+  {
+    "name": "Cardano.org Developer Portal",
+    "website": "https://developers.cardano.org",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "dev_documentation"]
+  },
+  {
+    "name": "Ultimate Cardano Smart Contracts",
+    "website": "https://www.amazon.com/Ultimate-Cardano-Smart-Contracts-Development/dp/8197396531",
+    "teamGithubURL": "https://github.com/lley154",
+    "tags": ["tools", "dev_book"]
+  },
+  {
+    "name": "eUTxO Fundamentals",
+    "website": "https://github.com/elRaulito/eUTxO-Fundamentals-Building-Cardano-Smart-Contracts",
+    "teamGithubURL": "https://github.com/elRaulito",
+    "tags": ["tools", "dev_book"]
+  },
+  {
+    "name": "EUTXO Handbook",
+    "website": "https://ucarecdn.com/3da33f2f-73ac-4c9b-844b-f215dcce0628/EUTXOhandbook_for_EC.pdf",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "dev_book"]
+  },
+  {
+    "name": "Cardano Stack Exchange",
+    "website": "https://cardano.stackexchange.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_forum"]
+  },
+  {
+    "name": "Cardano Reddit",
+    "website": "https://www.reddit.com/r/Cardano/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_forum"]
+  },
+  {
+    "name": "Cardano Developers Reddit",
+    "website": "https://www.reddit.com/r/CardanoDevelopers/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_forum"]
+  },
+  {
+    "name": "Cardano Forum",
+    "website": "https://forum.cardano.org/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_forum"]
+  },
+  {
+    "name": "UpToDev Community",
+    "website": "https://updevcommunity.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_forum"]
+  },
+  {
+    "name": "Input Output Technical",
+    "website": "https://discord.com/invite/inputoutput",
+    "teamGithubURL": "https://github.com/input-output-hk/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "TxPipe",
+    "website": "https://discord.com/invite/ZTHcHUy5HY",
+    "teamGithubURL": "https://github.com/txpipe/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "MeshJS",
+    "website": "https://discord.com/invite/WvnCNqmAxy",
+    "teamGithubURL": "https://github.com/MeshJS/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Blink Labs",
+    "website": "https://discord.com/invite/5fPRZnX4qW",
+    "teamGithubURL": "https://github.com/blinklabs-io/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "SpaceBudz",
+    "website": "https://discord.com/invite/vtmm6RG2Bv",
+    "teamGithubURL": "https://github.com/spacebudz/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Harmonic Labs",
+    "website": "https://discord.com/invite/CGKNcG7ade",
+    "teamGithubURL": "https://github.com/harmoniclabs",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Gimbalabs",
+    "website": "https://discord.com/invite/Va7DXqSSn8",
+    "teamGithubURL": "https://github.com/gimbalabs",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Pragma",
+    "website": "https://discord.com/invite/Zbbumu9NMz",
+    "teamGithubURL": "https://github.com/pragma-org",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "PyCardano",
+    "website": "https://discord.com/invite/qT9Mn9xjgz",
+    "teamGithubURL": "https://github.com/Python-Cardano/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "OpShin",
+    "website": "https://discord.com/invite/umR3A2g4uw",
+    "teamGithubURL": "https://github.com/OpShin",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Emurgo Community",
+    "website": "https://discord.com/invite/AWEp2SG437",
+    "teamGithubURL": "https://github.com/Emurgo",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Emurgo Academy Community",
+    "website": "https://discord.com/invite/beTSe5Sky4",
+    "teamGithubURL": "https://github.com/Emurgo",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "BuildingOnCardano.Dev",
+    "website": "https://discord.com/invite/ze5xh884ta",
+    "teamGithubURL": "https://github.com/selfdriven-foundation",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Plutonomicon",
+    "website": "https://discord.gg/JhbexnV9Pc",
+    "teamGithubURL": "https://github.com/Plutonomicon",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Roasted Bean Alliance",
+    "website": "https://discord.com/invite/JtQ54MSw6p",
+    "teamGithubURL": "https://github.com/bloxbean",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Anastasia Labs",
+    "website": "https://discord.com/invite/s89P9gpEff",
+    "teamGithubURL": "github.com/anastasia-labs/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Sidan Labs",
+    "website": "https://discord.com/invite/b3H2Jhq5Wq",
+    "teamGithubURL": "https://github.com/sidan-lab",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Cardano Open Source",
+    "website": "https://discord.gg/VvraErKX7p",
+    "teamGithubURL": "https://github.com/wimsio",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Lovelace Academy",
+    "website": "https://discord.com/invite/cqQBvBpXzR",
+    "teamGithubURL": "https://github.com/lovelaceacademy",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "dcSpark",
+    "website": "https://discord.com/invite/6zY6sybPEk",
+    "teamGithubURL": "https://github.com/dcSpark",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Maestro",
+    "website": "https://discord.com/invite/ES2rDhBJt3",
+    "teamGithubURL": "https://github.com/maestro-org",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "CardanoSharp",
+    "website": "https://discord.com/invite/WRAySDD2Kk",
+    "teamGithubURL": "https://github.com/CardanoSharp",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Helios",
+    "website": "https://discord.com/invite/XTwPrvB25q",
+    "teamGithubURL": "https://github.com/HeliosLang",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Kuber",
+    "website": "https://discord.com/invite/xtbqzBTXFf",
+    "teamGithubURL": "github.com/dquadrant/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Scalus",
+    "website": "https://discord.com/invite/ygwtuBybsy",
+    "teamGithubURL": "https://github.com/nau",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Orcfax",
+    "website": "https://discord.com/invite/UbAeRuNzDu",
+    "teamGithubURL": "https://github.com/orcfax",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Charli3",
+    "website": "https://discord.com/invite/kQmTxJBFp3",
+    "teamGithubURL": "https://github.com/Charli3-Official",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Cardano BSD Alliance",
+    "website": "https://discord.com/invite/t9Nshe7MJb",
+    "teamGithubURL": "https://github.com/cardano-bsd-alliance",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Cardano Improvement Proposals",
+    "website": "https://discord.com/invite/J8sGdCuKhs",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Cardano Community",
+    "website": "https://discord.gg/v5AEnHJ6Nx",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Saturn Swap",
+    "website": "https://discord.com/invite/QJ6nnFaByV",
+    "teamGithubURL": "https://github.com/Orion-Crypto",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Wild Tangz",
+    "website": "https://discord.com/invite/wildtangz",
+    "teamGithubURL": "https://github.com/thaddeusdiamond",
+    "tags": ["tools", "developer_discord"]
+  },
+  {
+    "name": "Cardano Announcements",
+    "website": "https://t.me/CardanoAnnouncements",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "IOG Dev Announcements",
+    "website": "https://t.me/IOdevannouncements",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Cardano Developers Official",
+    "website": "https://t.me/CardanoDevelopersOfficial",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Marlowe Official",
+    "website": "https://t.me/IOHK_Marlowe",
+    "teamGithubURL": "https://github.com/marlowe-lang",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Developer Ecosystem",
+    "website": "https://t.me/DeveloperEcosystem",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "Desarrollo Cardano",
+    "website": "https://t.me/DesarrolloCardano",
+    "teamGithubURL": "",
+    "tags": ["tools", "developer_telegram"]
+  },
+  {
+    "name": "CardanoScan Daily Transactions",
+    "website": "https://cardanoscan.io/analytics/dailyTxCountAndFees",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "CardanoScan Absolute Transactions",
+    "website": "https://cardanoscan.io/analytics/absoluteTxCount",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "CBI Daily Transactions",
+    "website": "https://lookerstudio.google.com/s/r-x_IbY41mY",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "CBI Epoch Transactions 1",
+    "website": "https://lookerstudio.google.com/s/i1ovIilH5gY",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "CBI Epoch Transactions 2",
+    "website": "https://lookerstudio.google.com/s/pw0_jGTWlcs",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "CBI Epoch Transactions 3",
+    "website": "https://lookerstudio.google.com/s/l-enmJx8O8c",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "transaction_metrics"]
+  },
+  {
+    "name": "CBI Block Saturation Metrics",
+    "website": "https://lookerstudio.google.com/s/sVOfkq0gl1o",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "blockspace_metrics"]
+  },
+  {
+    "name": "CardanoScan Block Size",
+    "website": "https://cardanoscan.io/analytics/blockSize",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "blockspace_metrics"]
+  },
+  {
+    "name": "Cexplorer Block Usage",
+    "website": "https://cexplorer.io/usage",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "blockspace_metrics"]
+  },
+  {
+    "name": "TapTools Token Volume",
+    "website": "https://www.taptools.io/?rankBy=volume&order=desc&assetType=Tokens",
+    "teamGithubURL": "",
+    "tags": ["tools", "volume_metrics"]
+  },
+  {
+    "name": "DexScreener Token Volume",
+    "website": "https://dexscreener.com/cardano?rankBy=trendingScoreH24&order=desc",
+    "teamGithubURL": "https://github.com/dexscreener",
+    "tags": ["tools", "volume_metrics"]
+  },
+  {
+    "name": "Cexplorer Token Volume",
+    "website": "https://cexplorer.io/token/top",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "volume_metrics"]
+  },
+  {
+    "name": "DefiLlama Volume Metrics",
+    "website": "https://defillama.com/chain/Cardano?currency=USD&volume=true&tvl=false",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "volume_metrics"]
+  },
+  {
+    "name": "TapTools Volume Rankings",
+    "website": "https://www.taptools.io/market-overview",
+    "teamGithubURL": "",
+    "tags": ["tools", "dapp_volume_metrics"]
+  },
+  {
+    "name": "DappRadar Volume Rankings",
+    "website": "https://dappradar.com/rankings/protocol/cardano?sort=totalVolumeInFiat&order=desc",
+    "teamGithubURL": "https://github.com/dappradar",
+    "tags": ["tools", "dapp_volume_metrics"]
+  },
+  {
+    "name": "Cexplorer TVL Chart",
+    "website": "https://cexplorer.io/defi/tvl",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "tvl_metrics"]
+  },
+  {
+    "name": "DefiLlama TVL Chart",
+    "website": "https://defillama.com/chain/Cardano?currency=USD&tvl=tvl",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "tvl_metrics"]
+  },
+  {
+    "name": "Danogo dApp TVL Rankings",
+    "website": "https://danogo.io/tvl-report",
+    "teamGithubURL": "https://github.com/Danogo2023",
+    "tags": ["tools", "dapp_tvl_metrics"]
+  },
+  {
+    "name": "CBI Cardano dApp TVL Rankings",
+    "website": "https://lookerstudio.google.com/s/kpmEIAO1Qiw",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "dapp_tvl_metrics"]
+  },
+  {
+    "name": "CoinMarketCap Rankings",
+    "website": "https://coinmarketcap.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "market_metrics"]
+  },
+  {
+    "name": "CoinGecko Rankings",
+    "website": "https://www.coingecko.com/",
+    "teamGithubURL": "https://github.com/coingecko",
+    "tags": ["tools", "market_metrics"]
+  },
+  {
+    "name": "MarketCapOf Comparison",
+    "website": "https://marketcapof.com/crypto/cardano/",
+    "teamGithubURL": "",
+    "tags": ["tools", "market_metrics"]
+  },
+  {
+    "name": "TapTools Token Rankings",
+    "website": "https://www.taptools.io/?rankBy=mcap&order=desc&minLiq=10000&minHolders=100&mcapCustomFilters=true",
+    "teamGithubURL": "",
+    "tags": ["tools", "dapp_market_metrics"]
+  },
+  {
+    "name": "CoinGecko Token Rankings",
+    "website": "https://www.coingecko.com/en/categories/cardano-ecosystem",
+    "teamGithubURL": "https://github.com/coingecko",
+    "tags": ["tools", "dapp_market_metrics"]
+  },
+  {
+    "name": "Danogo Active Wallets",
+    "website": "https://danogo.io/active-wallet-report",
+    "teamGithubURL": "https://github.com/Danogo2023",
+    "tags": ["tools", "address_metrics"]
+  },
+  {
+    "name": "Adastats Address Overview",
+    "website": "https://adastats.info/addresses",
+    "teamGithubURL": "",
+    "tags": ["tools", "address_metrics"]
+  },
+  {
+    "name": "Cexplorer Wallet Activity",
+    "website": "https://cexplorer.io/wallets",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "address_metrics"]
+  },
+  {
+    "name": "DefiLlama Address Activity",
+    "website": "https://defillama.com/chain/Cardano?addresses=true&tvl=false",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "address_metrics"]
+  },
+  {
+    "name": "Frigid Top NFT Sales",
+    "website": "https://frigid.ai/",
+    "teamGithubURL": "",
+    "tags": ["tools", "nft_market_metrics"]
+  },
+  {
+    "name": "CNFT Tools Volume",
+    "website": "https://cnft.tools/",
+    "teamGithubURL": "",
+    "tags": ["tools", "nft_market_metrics"]
+  },
+  {
+    "name": "Poki Market Pulse",
+    "website": "https://www.getpoki.com/live-market",
+    "teamGithubURL": "",
+    "tags": ["tools", "nft_market_metrics"]
+  },
+  {
+    "name": "Cexplorer NFT Collections",
+    "website": "https://cexplorer.io/collection",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "nft_market_metrics"]
+  },
+  {
+    "name": "Adalive NFT Stats",
+    "website": "https://www.adalive.io/stats",
+    "teamGithubURL": "",
+    "tags": ["tools", "nft_market_metrics"]
+  },
+  {
+    "name": "Cexplorer TPS Chart",
+    "website": "https://cexplorer.io/tps",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "tps_metrics"]
+  },
+  {
+    "name": "Eutxo.org Live TPS Viewer",
+    "website": "https://eutxo.org/",
+    "teamGithubURL": "",
+    "tags": ["tools", "tps_metrics"]
+  },
+  {
+    "name": "Chainspect TPS Analysis",
+    "website": "https://chainspect.app/chain/cardano",
+    "teamGithubURL": "https://github.com/fromaline/",
+    "tags": ["tools", "tps_metrics"]
+  },
+  {
+    "name": "Electric Capital Developer Report",
+    "website": "https://www.developerreport.com/ecosystems/cardano",
+    "teamGithubURL": "https://github.com/electric-capital/",
+    "tags": ["tools", "development_metrics"]
+  },
+  {
+    "name": "Essential Cardano Development Updates",
+    "website": "https://www.essentialcardano.io/development-update",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "development_metrics"]
+  },
+  {
+    "name": "Cryptometheus Development Stats",
+    "website": "https://cryptometheus.com/project/Cardano",
+    "teamGithubURL": "",
+    "tags": ["tools", "development_metrics"]
+  },
+  {
+    "name": "DefiLlama Developer Activity",
+    "website": "https://defillama.com/chain/Cardano?currency=USD&volume=false&tvl=false&price=false&addresses=false&stables=false&developers=false&devsCommits=true",
+    "teamGithubURL": "https://github.com/DefiLlama",
+    "tags": ["tools", "development_metrics"]
+  },
+  {
+    "name": "Santiment Developer Activity",
+    "website": "https://app.santiment.net/s/_e1ROYfa",
+    "teamGithubURL": "https://github.com/santiment",
+    "tags": ["tools", "development_metrics"]
+  },
+  {
+    "name": "Cardano Smart Contract Explorer",
+    "website": "https://beta.explorer.cardano.org/en/native-scripts-sc/smart-contracts",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "smart_contract_metrics"]
+  },
+  {
+    "name": "CBI New Smart Contracts",
+    "website": "https://lookerstudio.google.com/s/v2mPjKyMK00",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "smart_contract_metrics"]
+  },
+  {
+    "name": "CardanoScan Fee Analysis",
+    "website": "https://cardanoscan.io/analytics/epochFees",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "fee_metrics"]
+  },
+  {
+    "name": "CBI Network Fees",
+    "website": "https://lookerstudio.google.com/s/gx8f-az2E9o",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "fee_metrics"]
+  },
+  {
+    "name": "Cexplorer Pool Profitability",
+    "website": "https://cexplorer.io/profitability",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "fee_metrics"]
+  },
+  {
+    "name": "CBI Pool Fees and ROI",
+    "website": "https://lookerstudio.google.com/s/lFEdCKh30Kk",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "fee_metrics"]
+  },
+  {
+    "name": "CardexScan Live Trading",
+    "website": "https://cardexscan.com/global-trades",
+    "teamGithubURL": "",
+    "tags": ["tools", "live_metrics"]
+  },
+  {
+    "name": "Adalive NFT Market",
+    "website": "https://www.adalive.io/",
+    "teamGithubURL": "",
+    "tags": ["tools", "live_metrics"]
+  },
+  {
+    "name": "Eutxo Block Explorer",
+    "website": "https://eutxo.org/",
+    "teamGithubURL": "",
+    "tags": ["tools", "live_metrics"]
+  },
+  {
+    "name": "Fiatleak ADA Purchases",
+    "website": "https://fiatleak.com/ada",
+    "teamGithubURL": "",
+    "tags": ["tools", "live_metrics"]
+  },
+  {
+    "name": "Cexplorer Energy Usage",
+    "website": "https://cexplorer.io/energy",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "energy_metrics"]
+  },
+  {
+    "name": "CBI Energy Analysis",
+    "website": "https://lookerstudio.google.com/s/nFWDaZS8yWU",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "energy_metrics"]
+  },
+  {
+    "name": "Cardano Sustainability Metrics",
+    "website": "https://beta.explorer.cardano.org/en/micar",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "energy_metrics"]
+  },
+  {
+    "name": "Messari Social Analysis",
+    "website": "https://messari.io/project/cardano/charts/social",
+    "teamGithubURL": "https://github.com/messari",
+    "tags": ["tools", "social_metrics"]
+  },
+  {
+    "name": "CBI Cardano Social Activity",
+    "website": "https://lookerstudio.google.com/s/kSD1cN_TrrA",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "social_metrics"]
+  },
+  {
+    "name": "Santiment Sentiment Analysis",
+    "website": "https://app.santiment.net/labs/trends/explore/cardano",
+    "teamGithubURL": "https://github.com/santiment",
+    "tags": ["tools", "social_metrics"]
+  },
+  {
+    "name": "Cexplorer Node Distribution",
+    "website": "https://cexplorer.io/relays",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "node_distribution_metrics"]
+  },
+  {
+    "name": "CBI Geographic Distribution",
+    "website": "https://lookerstudio.google.com/s/m24jHTNX1DM",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "node_distribution_metrics"]
+  },
+  {
+    "name": "MonadPool Relay Map",
+    "website": "https://monadpool.com/cardano.html",
+    "teamGithubURL": "",
+    "tags": ["tools", "node_distribution_metrics"]
+  },
+  {
+    "name": "Relay Geolocation Map",
+    "website": "https://relaygeolocatio.netlify.app/",
+    "teamGithubURL": "",
+    "tags": ["tools", "node_distribution_metrics"]
+  },
+  {
+    "name": "Cardano Node Distribution",
+    "website": "https://beta.explorer.cardano.org/en/micar",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "node_distribution_metrics"]
+  },
+  {
+    "name": "Cexplorer ISP Distribution",
+    "website": "https://cexplorer.io/relays",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "isp_diversity_metrics"]
+  },
+  {
+    "name": "CBI ISP Distribution",
+    "website": "https://lookerstudio.google.com/s/m24jHTNX1DM",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "isp_diversity_metrics"]
+  },
+  {
+    "name": "Pooltool Network Health",
+    "website": "https://pooltool.io/networkhealth",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "isp_diversity_metrics"]
+  },
+  {
+    "name": "Cexplorer Node Versions",
+    "website": "https://cexplorer.io/versions",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "node_version_metrics"]
+  },
+  {
+    "name": "Pooltool Node Distribution",
+    "website": "https://pooltool.io/networkhealth",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "node_version_metrics"]
+  },
+  {
+    "name": "CBI Version Distribution",
+    "website": "https://lookerstudio.google.com/s/ptQ2TyzLyog",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "node_version_metrics"]
+  },
+  {
+    "name": "Cexplorer Total Storage in MB",
+    "website": "https://cexplorer.io/storage",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "node_storage_metrics"]
+  },
+  {
+    "name": "CBI Ledger Size in Bytes",
+    "website": "https://lookerstudio.google.com/s/rkbL4boJKeY",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "node_storage_metrics"]
+  },
+  {
+    "name": "Cexplorer MAV Analysis",
+    "website": "https://cexplorer.io/groups",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "mav_metrics"]
+  },
+  {
+    "name": "Balance Analytics MAV Donut",
+    "website": "https://www.balanceanalytics.io/chartboards/donut_shop",
+    "teamGithubURL": "https://github.com/Balance-Analytics",
+    "tags": ["tools", "mav_metrics"]
+  },
+  {
+    "name": "Balance Analytics MAV Chart",
+    "website": "https://www.balanceanalytics.io/chartboards/decentralization",
+    "teamGithubURL": "https://github.com/Balance-Analytics",
+    "tags": ["tools", "mav_metrics"]
+  },
+  {
+    "name": "Balance Analytics UTXO Distribution",
+    "website": "https://www.balanceanalytics.io/chartboards/utxo_allocation",
+    "teamGithubURL": "https://github.com/Balance-Analytics",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "CardanoScan Rewards",
+    "website": "https://cardanoscan.io/analytics/epochRewardDistribution",
+    "teamGithubURL": "https://github.com/StricaHQ",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "CBI Daily Staking",
+    "website": "https://lookerstudio.google.com/s/ngjdnF7UcC0",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "CBI Epoch Staking",
+    "website": "https://lookerstudio.google.com/s/jPLgGGDCuww",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "CBI Epoch Pool Stats 1",
+    "website": "https://lookerstudio.google.com/s/tfLPyoVjJG0",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "CBI Epoch Pool Stats 2",
+    "website": "https://lookerstudio.google.com/s/lFEdCKh30Kk",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "staking_metrics"]
+  },
+  {
+    "name": "Cexplorer Block Production",
+    "website": "https://cexplorer.io/producers",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["tools", "block_production_metrics"]
+  },
+  {
+    "name": "CBI Block Analysis",
+    "website": "https://lookerstudio.google.com/s/nwBRCIaRdRQ",
+    "teamGithubURL": "https://github.com/Cardano-Fans",
+    "tags": ["tools", "block_production_metrics"]
+  },
+  {
+    "name": "Cardano.org Block Propagation",
+    "website": "https://beta.explorer.cardano.org/en/network-monitoring",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "block_propagation_metrics"]
+  },
+  {
+    "name": "Pooltool Block Propagation",
+    "website": "https://pooltool.io/networkhealth",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "block_propagation_metrics"]
+  },
+  {
+    "name": "Maestro Marketplace",
+    "website": "https://www.gomaestro.org/marketplace",
+    "teamGithubURL": "https://github.com/maestro-org",
+    "tags": ["tools", "ispo_explorer"]
+  },
+  {
+    "name": "CardanoCube ISPOs",
+    "website": "https://www.cardanocube.com/categories/ispo",
+    "teamGithubURL": "",
+    "tags": ["tools", "ispo_explorer"]
+  },
+  {
+    "name": "Prometheus",
+    "website": "https://prometheus.io/",
+    "teamGithubURL": "https://github.com/prometheus",
+    "tags": ["tools", "stake_pool_monitoring_tool_top"]
+  },
+  {
+    "name": "Grafana",
+    "website": "https://grafana.com/",
+    "teamGithubURL": "https://github.com/grafana",
+    "tags": ["tools", "stake_pool_monitoring_tool_top"]
+  },
+  {
+    "name": "RT View",
+    "website": "https://github.com/IntersectMBO/cardano-node/blob/master/cardano-tracer/docs/cardano-rtview.md",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Nview",
+    "website": "https://github.com/blinklabs-io/nview",
+    "teamGithubURL": "https://github.com/blinklabs-io",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Koios gLiveView",
+    "website": "https://developers.cardano.org/docs/operate-a-stake-pool/monitoring-gliveview/",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Cardano Light Tools",
+    "website": "https://github.com/orpheus-antpool/cardano-light-tools",
+    "teamGithubURL": "https://github.com/orpheus-antpool",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Cardano Node Audit",
+    "website": "https://github.com/Kirael12/cardano-node-audit",
+    "teamGithubURL": "https://github.com/Kirael12",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Pool.vet",
+    "website": "https://pool.vet/",
+    "teamGithubURL": "",
+    "tags": ["tools", "stake_pool_monitoring_tool_additional"]
+  },
+  {
+    "name": "Cardano Reddit",
+    "website": "https://www.reddit.com/r/cardano/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano ELI5 Reddit",
+    "website": "https://www.reddit.com/r/Cardano_ELI5/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano NFTs Reddit",
+    "website": "https://www.reddit.com/r/CardanoNFTs/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano Stake Pools Reddit",
+    "website": "https://www.reddit.com/r/CardanoStakePools/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano Developers Reddit",
+    "website": "https://www.reddit.com/r/CardanoDevelopers/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano Forum",
+    "website": "https://forum.cardano.org/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano Stack Exchange",
+    "website": "https://cardano.stackexchange.com/",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Facebook Cardano Community",
+    "website": "https://www.facebook.com/groups/CardanoCommunity",
+    "teamGithubURL": "",
+    "tags": ["tools", "cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Spanish",
+    "website": "https://forum.cardano.org/c/espanol/126",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Chinese",
+    "website": "https://forum.cardano.org/c/chinese/39",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Germany",
+    "website": "https://forum.cardano.org/c/deutsch/112",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Japanese",
+    "website": "https://forum.cardano.org/c/japanese/19",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Korean",
+    "website": "https://forum.cardano.org/c/korean/52",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Portuguese",
+    "website": "https://forum.cardano.org/c/portugues/134",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Italian",
+    "website": "https://forum.cardano.org/c/italiano/165",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum French",
+    "website": "https://forum.cardano.org/c/francais/174",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Cardano.org Forum Bahasa Indonesian",
+    "website": "https://forum.cardano.org/c/bahasa-indonesia/179",
+    "teamGithubURL": "",
+    "tags": ["tools", "international_cardano_forum"]
+  },
+  {
+    "name": "Aiken Website and Documentation",
+    "website": "https://aiken-lang.org/",
+    "teamGithubURL": "https://github.com/aiken-lang/",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Aiken GitHub Repo",
+    "website": "https://github.com/aiken-lang/aiken",
+    "teamGithubURL": "https://github.com/aiken-lang/",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Awesome Aiken",
+    "website": "https://github.com/aiken-lang/awesome-aiken",
+    "teamGithubURL": "https://github.com/aiken-lang/",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Aiken Playground",
+    "website": "https://play.aiken-lang.org/",
+    "teamGithubURL": "https://github.com/aiken-lang/",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Cardano Stack Exchange Aiken",
+    "website": "https://cardano.stackexchange.com/questions/tagged/aiken",
+    "teamGithubURL": "https://github.com/StackExchange",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Cardano Developer Portal Aiken",
+    "website": "https://developers.cardano.org/docs/smart-contracts/aiken/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Aiken VS Code Extension",
+    "website": "https://marketplace.visualstudio.com/items?itemName=TxPipe.aiken",
+    "teamGithubURL": "https://github.com/aiken-lang/",
+    "tags": ["tools", "aiken_link"]
+  },
+  {
+    "name": "Plutus Documentation",
+    "website": "https://plutus.cardano.intersectmbo.org/docs/",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["tools", "plutus_link"]
+  },
+  {
+    "name": "Plutus GitHub Repo",
+    "website": "https://github.com/IntersectMBO/plutus",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["tools", "plutus_link"]
+  },
+  {
+    "name": "Awesome Plutus",
+    "website": "https://github.com/mlabs-haskell/awesome-plutus",
+    "teamGithubURL": "https://github.com/mlabs-haskell/",
+    "tags": ["tools", "plutus_link"]
+  },
+  {
+    "name": "Cardano Developer Portal Plutus",
+    "website": "https://developers.cardano.org/docs/smart-contracts/plutus/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "plutus_link"]
+  },
+  {
+    "name": "Cardano Stack Exchange Plutus",
+    "website": "https://cardano.stackexchange.com/questions/tagged/plutus",
+    "teamGithubURL": "https://github.com/StackExchange",
+    "tags": ["tools", "plutus_link"]
+  },
+  {
+    "name": "OpShin Website",
+    "website": "https://opshin.dev/",
+    "teamGithubURL": "https://github.com/OpShin/",
+    "tags": ["tools", "opshin_link"]
+  },
+  {
+    "name": "OpShin Documentation",
+    "website": "https://book.opshin.dev/",
+    "teamGithubURL": "https://github.com/OpShin/",
+    "tags": ["tools", "opshin_link"]
+  },
+  {
+    "name": "OpShin GitHub Repo",
+    "website": "https://github.com/OpShin/opshin",
+    "teamGithubURL": "https://github.com/OpShin/",
+    "tags": ["tools", "opshin_link"]
+  },
+  {
+    "name": "Awesome OpShin",
+    "website": "https://github.com/OpShin/awesome-opshin",
+    "teamGithubURL": "https://github.com/OpShin/",
+    "tags": ["tools", "opshin_link"]
+  },
+  {
+    "name": "Cardano Developer Portal OpShin",
+    "website": "https://developers.cardano.org/docs/smart-contracts/opshin",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["tools", "opshin_link"]
+  },
+  {
+    "name": "Plu-ts Website and Documentation",
+    "website": "https://pluts.harmoniclabs.tech/",
+    "teamGithubURL": "https://github.com/HarmonicLabs",
+    "tags": ["tools", "plu_ts_link"]
+  },
+  {
+    "name": "Plu-ts Repo GitHub",
+    "website": "https://github.com/HarmonicLabs/plu-ts",
+    "teamGithubURL": "https://github.com/HarmonicLabs",
+    "tags": ["tools", "plu_ts_link"]
+  },
+  {
+    "name": "Cardano Developer Portal Plu-ts",
+    "website": "https://developers.cardano.org/docs/smart-contracts/plu-ts/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "plu_ts_link"]
+  },
+  {
+    "name": "Cardano Stack Exchange Plu-Ts",
+    "website": "https://cardano.stackexchange.com/questions/tagged/plu-ts",
+    "teamGithubURL": "https://github.com/StackExchange",
+    "tags": ["tools", "plu_ts_link"]
+  },
+  {
+    "name": "Marlowe Website",
+    "website": "https://marlowe.iohk.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Marlowe Documentation",
+    "website": "https://docs.marlowe.iohk.io/",
+    "teamGithubURL": "https://github.com/marlowe-lang",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Marlowe GitHub Repo",
+    "website": "https://github.com/input-output-hk/marlowe",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Awesome Marlowe",
+    "website": "https://github.com/input-output-hk/awesome-marlowe",
+    "teamGithubURL": "https://github.com/input-output-hk/",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Marlowehub Smart Contract Explorer",
+    "website": "https://www.marlowehub.io/",
+    "teamGithubURL": "https://github.com/PoolTool-io",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Cardano Developer Portal Marlowe",
+    "website": "https://developers.cardano.org/docs/smart-contracts/marlowe/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Cardano Stack Exchange Marlowe",
+    "website": "https://cardano.stackexchange.com/questions/tagged/marlowe",
+    "teamGithubURL": "https://github.com/StackExchange",
+    "tags": ["tools", "marlowe_link"]
+  },
+  {
+    "name": "Helios Website",
+    "website": "https://www.helios-lang.io/",
+    "teamGithubURL": "https://github.com/Hyperion-BT/",
+    "tags": ["tools", "helios_link"]
+  },
+  {
+    "name": "Helios GitHub",
+    "website": "https://github.com/Hyperion-BT/Helios",
+    "teamGithubURL": "https://github.com/Hyperion-BT/",
+    "tags": ["tools", "helios_link"]
+  },
+  {
+    "name": "Helios Documentation",
+    "website": "https://www.hyperion-bt.org/helios-book/",
+    "teamGithubURL": "https://github.com/Hyperion-BT/",
+    "tags": ["tools", "helios_link"]
+  },
+  {
+    "name": "Helios Playground",
+    "website": "https://www.hyperion-bt.org/helios-playground/",
+    "teamGithubURL": "https://github.com/Hyperion-BT/",
+    "tags": ["tools", "helios_link"]
+  },
+  {
+    "name": "Helios Discord",
+    "website": "https://discord.com/invite/XTwPrvB25q",
+    "teamGithubURL": "",
+    "tags": ["tools", "helios_link"]
+  },
+  {
+    "name": "Plutarch Website",
+    "website": "https://plutonomicon.github.io/plutarch-plutus/",
+    "teamGithubURL": "https://github.com/Plutonomicon",
+    "tags": ["tools", "plutarch_link"]
+  },
+  {
+    "name": "Plutarch GitHub",
+    "website": "https://github.com/Plutonomicon/plutarch-plutus",
+    "teamGithubURL": "https://github.com/Plutonomicon",
+    "tags": ["tools", "plutarch_link"]
+  },
+  {
+    "name": "Plutarch Discord",
+    "website": "https://discord.com/invite/722KnTC8jF",
+    "teamGithubURL": "https://github.com/Plutonomicon",
+    "tags": ["tools", "plutarch_link"]
+  },
+  {
+    "name": "Adapulse",
+    "website": "https://adapulse.io/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "cardano_news_website"]
+  },
+  {
+    "name": "Essential Cardano",
+    "website": "https://www.essentialcardano.io/content",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["news_updates", "cardano_news_website"]
+  },
+  {
+    "name": "Cexplorer Articles",
+    "website": "https://cexplorer.io/article",
+    "teamGithubURL": "https://github.com/cexplorer",
+    "tags": ["news_updates", "cardano_news_website"]
+  },
+  {
+    "name": "Cardano Spot",
+    "website": "https://cardanospot.io/news-feed",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["news_updates", "cardano_news_website"]
+  },
+  {
+    "name": "Ada Plug",
+    "website": "https://adaplug.com/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "cardano_news_website"]
+  },
+  {
+    "name": "Cardano Feed",
+    "website": "https://cardanofeed.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "cardano_news_website"]
+  },
+  {
+    "name": "r/Cardano Reddit News",
+    "website": "https://www.reddit.com/r/cardano/?f=flair_name%3A%22News%22",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "cardano_news_website"]
+  },
+  {
+    "name": "Intersect News",
+    "website": "https://www.intersectmbo.org/news",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["news_updates", "organization_news"]
+  },
+  {
+    "name": "IOHK Blog",
+    "website": "https://iohk.io/en/blog/posts/page-1/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["news_updates", "organization_news"]
+  },
+  {
+    "name": "Cardano Foundation News",
+    "website": "https://cardanofoundation.org/en/news/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["news_updates", "organization_news"]
+  },
+  {
+    "name": "Emurgo News",
+    "website": "https://www.emurgo.io/press-news/",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["news_updates", "organization_news"]
+  },
+  {
+    "name": "Cardano.org News",
+    "website": "https://cardano.org/news/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["news_updates", "organization_news"]
+  },
+  {
+    "name": "Project Catalyst Blog",
+    "website": "https://projectcatalyst.io/blog",
+    "teamGithubURL": "https://github.com/Project-Catalyst",
+    "tags": ["news_updates", "organization_news"]
+  },
+  {
+    "name": "GM Cardano",
+    "website": "https://gmcardano.com/",
+    "teamGithubURL": "https://github.com/LloydDuhon",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Reddspark",
+    "website": "https://reddspark.blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Adavault",
+    "website": "https://adavault.com/index.php/cardano-and-crypto-news-blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Cardano.org Developer Blog",
+    "website": "https://developers.cardano.org/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "ADA Crunch",
+    "website": "https://adacrunch.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Liberlion",
+    "website": "https://liberlion.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Nick Hiams",
+    "website": "https://oleum-stakepool.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Cardano with Paul",
+    "website": "https://www.cardanowithpaul.com/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Rudy's Hangout",
+    "website": "https://medium.com/@roymavila",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Mike Borman",
+    "website": "https://medium.com/@mikeborman",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Cardano Times",
+    "website": "https://thecardanotimes.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Built on Cardano",
+    "website": "https://builtoncardano.com/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Flantoshi",
+    "website": "https://medium.com/@flantoshi",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Ada Crunch",
+    "website": "https://adacrunch.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Cardano-Fans",
+    "website": "https://cardano-fans.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Cardanians.io",
+    "website": "https://cardanians.io/en/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Charles Hoskinson Blog",
+    "website": "https://hoskinsoncharles.blogspot.com/?m=1",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Community Led Growth",
+    "website": "https://communityledgrowth.substack.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "community_blog"]
+  },
+  {
+    "name": "Bill Clark",
+    "website": "https://billclark.beehiiv.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "developer_blog"]
+  },
+  {
+    "name": "Cardano Developer Diaries",
+    "website": "https://blocksplained.substack.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "developer_blog"]
+  },
+  {
+    "name": "Alessio Dev",
+    "website": "https://medium.com/@alessio.dev",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "developer_blog"]
+  },
+  {
+    "name": "50x50",
+    "website": "https://medium.com/@alexeusgr",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "developer_blog"]
+  },
+  {
+    "name": "Mesh.js Blog",
+    "website": "https://meshjs.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "developer_blog"]
+  },
+  {
+    "name": "Cardano Scaling Updates",
+    "website": "https://cardano-scaling.org/monthly/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "developer_blog"]
+  },
+  {
+    "name": "Pi Lanningham",
+    "website": "https://www.314pool.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "developer_blog"]
+  },
+  {
+    "name": "Sarmaad",
+    "website": "https://sarmaad.com/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "developer_blog"]
+  },
+  {
+    "name": "SingularityNET Blog",
+    "website": "https://blog.singularitynet.io/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "World Mobile Blog",
+    "website": "https://worldmobile.io/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Cornucopias Blog",
+    "website": "https://cornucopias.io/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Iagon Blog",
+    "website": "https://blog.iagon.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Nunet Blog",
+    "website": "https://medium.com/nunet",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Minswap Labs Blog",
+    "website": "https://minswap-labs.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Liqwid Finance Blog",
+    "website": "https://liqwidfinance.substack.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Coti Blog",
+    "website": "https://medium.com/cotinetwork",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Moneta Blog",
+    "website": "https://medium.com/@MehenOfficial",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "DexHunter Blog",
+    "website": "https://dexhunterio.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Lenfi Blog",
+    "website": "https://medium.com/@lenfi",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Indigo Protocol Blog",
+    "website": "https://indigoprotocol1.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "SundaeSwap Blog",
+    "website": "https://sundaeswap-finance.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Rejuve Blog",
+    "website": "https://www.rejuve.ai/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Optim Finance Blog",
+    "website": "https://optim-labs.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "MuesliSwap Blog",
+    "website": "https://medium.com/@muesliswap",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Clarity Blog",
+    "website": "https://medium.com/@Clarity_",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Orcfax Blog",
+    "website": "https://medium.com/@orcfax",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "NMKR Blog",
+    "website": "https://www.nmkr.io/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Fluid Tokens Blog",
+    "website": "https://medium.com/@FluidTokens",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Encoins Blog",
+    "website": "https://encoins-crypto.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Yamfore Blog",
+    "website": "https://bigblymp.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Empowa Blog",
+    "website": "https://empowa-io.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Charli3 Blog",
+    "website": "https://oraclecharli3.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Axo Blog",
+    "website": "https://www.axo.trade/newsroom/categories/news",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Jpg Store Blog",
+    "website": "https://blog.jpg.store/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "VyFinance Blog",
+    "website": "https://vyfinance.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Smart Places Blog",
+    "website": "https://smartplacesprotocol.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Xray Network Blog",
+    "website": "https://xray-network.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Gero Wallet Blog",
+    "website": "https://www.gerowallet.io/blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Genius Yield Blog",
+    "website": "https://academy.geniusyield.co/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Sky Protocol Blog",
+    "website": "https://medium.com/@skyprotocol",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Linkage Finance Blog",
+    "website": "https://medium.com/@LinkageFinance",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "CSwap DEX Blog",
+    "website": "https://medium.com/@cswapdex",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Aneta Blog",
+    "website": "https://medium.com/@anetaBTC",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "CardanoGPT Blog",
+    "website": "https://medium.com/@cardanogpt",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Cerra Blog",
+    "website": "https://medium.com/@cerra_io",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Mayz Blog",
+    "website": "https://medium.com/@MAYZ.io",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Tap in with Tap Tools Blog",
+    "website": "https://medium.com/@TapInWithTapTools",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Jam on Bread Blog",
+    "website": "https://blog.jamonbread.io/en",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Rare Evo Blog",
+    "website": "https://rareevo.io/rare-network-blog",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Wingriders Blog",
+    "website": "https://medium.com/@wingriderscom",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Meld DeFi Blog",
+    "website": "https://medium.com/meld-defi",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Milkomeda Blog",
+    "website": "https://medium.com/@milkomedafoundation",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Spectrum Network Blog",
+    "website": "https://spectrumxnet.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Summon Platform Blog",
+    "website": "https://summonplatform.io/blog/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Metera Blog",
+    "website": "https://meteraprotocol.medium.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Bodega Market Blog",
+    "website": "https://medium.com/@bodegacardano",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "project_blog"]
+  },
+  {
+    "name": "Purchains Blog",
+    "website": "https://news.purchains.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "mandarin_lang_blog"]
+  },
+  {
+    "name": "Carnada Revista Blog",
+    "website": "https://issuu.com/carnadarevista",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "spanish_lang_blog"]
+  },
+  {
+    "name": "Cardanologie Blog",
+    "website": "https://cardanologie.fr/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "french_lang_blog"]
+  },
+  {
+    "name": "Odyc Blog",
+    "website": "https://odyc.gr/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "greek_lang_blog"]
+  },
+  {
+    "name": "ADA Bamboo Blog",
+    "website": "https://ada-bamboo.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "vietnamese_lang_blog"]
+  },
+  {
+    "name": "Cardano Library Blog",
+    "website": "https://cardanolibrary.net/category/news/cardano-news/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "vietnamese_lang_blog"]
+  },
+  {
+    "name": "Cardano Nederland Blog",
+    "website": "https://cardanonederland.nl/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "dutch_lang_blog"]
+  },
+  {
+    "name": "bitgetapps",
+    "website": "https://www.bitgetapps.com/zh-CN/price/cardano/news",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "mandarin_lang_blog"]
+  },
+  {
+    "name": "cardano vn",
+    "website": "https://cardano.vn/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "vietnamese_lang_blog"]
+  },
+  {
+    "name": "Bitpinas",
+    "website": "https://bitpinas.com/?s=cardano",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "tagalog_lang_blog"]
+  },
+  {
+    "name": "Kriptomat",
+    "website": "https://kriptomat.io/tr/kripto-para-fiyatlari/cardano-ada-fiyati/nedir/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "turkish_lang_blog"]
+  },
+  {
+    "name": "Comunidad Cardano",
+    "website": "https://www.comunidadcardano.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "spanish_lang_blog"]
+  },
+  {
+    "name": "Cassandra Lab Blog",
+    "website": "https://blog.cassandralab.ai/cardano/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "spanish_lang_blog"]
+  },
+  {
+    "name": "Einvestidor",
+    "website": "https://einvestidor.estadao.com.br/?s=Cardano",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "portuguese_lang_blog"]
+  },
+  {
+    "name": "Coin Lore",
+    "website": "https://www.coinlore.com/ru/coin/cardano/news",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "russian_lang_blog"]
+  },
+  {
+    "name": "Stake Pool",
+    "website": "https://stakepool.fr/actu",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "french_lang_blog"]
+  },
+  {
+    "name": "Journal Du Coin",
+    "website": "https://journalducoin.com/tag/cardano-ada/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "french_lang_blog"]
+  },
+  {
+    "name": "Coincierge",
+    "website": "https://coincierge.de/category/cardano/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "german_lang_blog"]
+  },
+  {
+    "name": "Newsbit",
+    "website": "https://newsbit.de/cardano-news/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "german_lang_blog"]
+  },
+  {
+    "name": "Casa Cardano",
+    "website": "https://casacardano.it/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "italian_lang_blog"]
+  },
+  {
+    "name": "Crypto Voice",
+    "website": "https://cryptovoice.gr/?s=cardano",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "greek_lang_blog"]
+  },
+  {
+    "name": "NBX",
+    "website": "https://nbx.com/sv/blogg",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "swedish_lang_blog"]
+  },
+  {
+    "name": "Kaaosteoria",
+    "website": "https://kaaosteoria.fi/cardano-ada-esittely-opas-skaalautuvaan-ekosysteemiin/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "finnish_lang_blog"]
+  },
+  {
+    "name": "Cardano SE",
+    "website": "https://cardano.se/nyheter/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "swedish_lang_blog"]
+  },
+  {
+    "name": "Cardanoism",
+    "website": "https://cardanoism.com/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "japanese_lang_blog"]
+  },
+  {
+    "name": "Intersec Jp",
+    "website": "https://intersectmbo.jp/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "japanese_lang_blog"]
+  },
+  {
+    "name": "Sip Tokyo",
+    "website": "https://sipo.tokyo/",
+    "teamGithubURL": "",
+    "tags": ["news_updates", "japanese_lang_blog"]
+  },
+  {
+    "name": "Dapp Central",
+    "website": "https://www.youtube.com/@DappCentral",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Learn Cardano",
+    "website": "https://www.youtube.com/@LearnCardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Cardano with Paul",
+    "website": "https://www.youtube.com/@CardanoWithPaul",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Charles Hoskinson",
+    "website": "https://www.youtube.com/c/charleshoskinsoncrypto",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Crypto Crow",
+    "website": "https://www.youtube.com/@CryptoCrowOfficial",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Army of Spies",
+    "website": "https://www.youtube.com/@ArmyofSpies",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Crypto Capital Venture",
+    "website": "https://www.youtube.com/@CryptoCapitalVenture",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Cardano Sapien",
+    "website": "https://www.youtube.com/@S-PIEN",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Convincing Crypto",
+    "website": "https://www.youtube.com/@ConvincingCrypto",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Decentralized Nation",
+    "website": "https://www.youtube.com/@decentralizednation",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Dawson Allen",
+    "website": "https://www.youtube.com/@dawsonallen",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Cattle Daddy Media",
+    "website": "https://www.youtube.com/@itscattledaddy",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Crypto Moose",
+    "website": "https://www.youtube.com/@cryptomoose",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Linda CryptoFly",
+    "website": "https://www.youtube.com/@lindacryptofly9182",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Adapulse",
+    "website": "https://www.youtube.com/@AdaPulse",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Angry Crypto Show",
+    "website": "https://www.youtube.com/@AngryCryptoShow",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "ThinkGrowCrypto",
+    "website": "https://www.youtube.com/@ThinkGrowCrypto",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "top_youtube"]
+  },
+  {
+    "name": "Digital Fortress",
+    "website": "https://www.youtube.com/@DigitalFortress",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Woodland Pools",
+    "website": "https://www.youtube.com/@WoodlandPools",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Kaizen Crypto",
+    "website": "https://www.youtube.com/@KaizenCrypto",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Nova Cardano Stake Pool",
+    "website": "https://www.youtube.com/@NOVApool",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "ADA North Pool",
+    "website": "https://youtube.com/@adanorthpool5123",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Nordic Ada",
+    "website": "https://www.youtube.com/@NordicADA",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Big Pey",
+    "website": "https://www.youtube.com/@bigpey",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Stake with Robot",
+    "website": "https://www.youtube.com/@stakewithrobot",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Cryptofluency",
+    "website": "https://www.youtube.com/@cryptofluencyio",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Cardano Community",
+    "website": "https://www.youtube.com/@CardanoCommunity",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Cardano over Coffee",
+    "website": "https://www.youtube.com/@cardanoovercoffee",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "WEQNT Stake Pool",
+    "website": "https://www.youtube.com/@TheCardanoCommunityPodcast",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "The Cardano Convo",
+    "website": "https://www.youtube.com/@TheCardanoConvo",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "The Media3 Report",
+    "website": "https://www.youtube.com/@themedia3-report",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Azure ADA",
+    "website": "https://www.youtube.com/@AzureADA",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Amsterdam Node",
+    "website": "https://www.youtube.com/@amsterdamnode3691",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "European Cardano Community",
+    "website": "https://www.youtube.com/@eucardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Cardano Curation",
+    "website": "https://www.youtube.com/@CardanoCuration",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Brody Stringer",
+    "website": "https://www.youtube.com/@brodystringer1330",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Stake with Nerd",
+    "website": "https://www.youtube.com/@Stakewithnerd",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Learn Cardano Tutorials",
+    "website": "https://youtube.com/@learncardano-tutorials",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Crypto Bamba",
+    "website": "https://www.youtube.com/@CryptoBamba/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Arash Sharif",
+    "website": "https://www.youtube.com/@CryptoBuff",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Late Game Crypto",
+    "website": "https://www.youtube.com/@LateGameCrypto",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Will Norris",
+    "website": "https://www.youtube.com/@WillNorrisCardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Whiteboard Cardano",
+    "website": "https://www.youtube.com/@WhiteboardCardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "The Rare Network",
+    "website": "https://www.youtube.com/@RareNetworkMedia",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Cardano Spot",
+    "website": "https://www.youtube.com/@cardanospot5022",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "The Cardano Chronicle",
+    "website": "https://www.youtube.com/@thecardanochronicle",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Cardano Assist",
+    "website": "https://www.youtube.com/@ca-assist",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Black Star Crypto",
+    "website": "https://www.youtube.com/@blackstarcrypto1662",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Cerkoryn",
+    "website": "https://www.youtube.com/@rian222",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube", "development_youtube"]
+  },
+  {
+    "name": "Cardano Ark",
+    "website": "https://www.youtube.com/@cardanoark",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "ADA Ace",
+    "website": "https://www.youtube.com/@ADA_ACE",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Cardano Ghana Community",
+    "website": "https://www.youtube.com/@CardanoGhana",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Sheldon's Spotlight",
+    "website": "https://youtube.com/@SheldonsSpotlight",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "CardanoForTheM₳sses",
+    "website": "https://www.youtube.com/@CardanoBook",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "WIMS-Cardano",
+    "website": "https://www.youtube.com/@WIMS-Cardano-ud5rw/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Cardano University",
+    "website": "https://www.youtube.com/@cardanouniversity/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Casually Cardano",
+    "website": "https://www.youtube.com/@CasuallyCardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "BVK Pool",
+    "website": "https://www.youtube.com/@bkvpool",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Cardano Daily",
+    "website": "https://www.youtube.com/@CardanoDaily",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Jack Fricks",
+    "website": "https://www.youtube.com/@cryptojackfriks",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "The Spicy Dumpling Show",
+    "website": "https://www.youtube.com/@spicydumplingshow1856",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Fluid7",
+    "website": "https://www.youtube.com/@fluid7",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Chilled Cardano",
+    "website": "https://www.youtube.com/@ChilledCardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Queen's Cardano",
+    "website": "https://www.youtube.com/@CardanoQU",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Mutual Knowledge",
+    "website": "https://youtube.com/@mutual-knowledge",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Ken Adams",
+    "website": "https://www.youtube.com/@KEWW-ADA",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Argyros Crypto",
+    "website": "https://www.youtube.com/@ArgyrosCrypto",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Philpa",
+    "website": "https://youtube.com/@philpa6",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "Ctiel Blockchain Academy",
+    "website": "https://www.youtube.com/@cteilblockchainacademy7328",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "general_youtube"]
+  },
+  {
+    "name": "IOG Academy",
+    "website": "https://www.youtube.com/@iogacademy",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Emurgo Academy",
+    "website": "https://www.youtube.com/@emurgoacademy3838",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Andrew Westberg",
+    "website": "https://www.youtube.com/@AndrewWestberg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Gimbalabs",
+    "website": "https://www.youtube.com/@gimbalabs",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Lovelace Academy",
+    "website": "https://www.youtube.com/@LovelaceAcademy",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Reddspark",
+    "website": "https://www.youtube.com/@ReddSpark",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Lars Brünjes",
+    "website": "https://www.youtube.com/@larsbrunjes37",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Stoic Pool",
+    "website": "https://www.youtube.com/@StoicPool",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Michele Harmonic",
+    "website": "https://www.youtube.com/@michele_harmonic",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Sebastien Guillemot",
+    "website": "https://www.youtube.com/@SebastienGuillemot",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "dcSpark",
+    "website": "https://www.youtube.com/@dcSpark",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Satya",
+    "website": "https://www.youtube.com/@Satya-tb4we",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Open Source Office at Intersect MBO",
+    "website": "https://www.youtube.com/@osointersectmbo",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Ars magna",
+    "website": "https://www.youtube.com/@ars-magna",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "TxBody",
+    "website": "https://www.youtube.com/@txbody-ada",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "MLabs",
+    "website": "https://www.youtube.com/@MlabsUK",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Fallen Icarus",
+    "website": "https://www.youtube.com/@fallen-icarus-ada",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Lambdac",
+    "website": "https://www.youtube.com/@lambdacdev",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Juan Salvador Magán Valero",
+    "website": "https://www.youtube.com/@JuanTxuThreeFour",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Coxygen",
+    "website": "https://www.youtube.com/@Coxygen",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Work With Cardano",
+    "website": "https://www.youtube.com/@workwithcardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "EDEN Garden Pool",
+    "website": "https://www.youtube.com/channel/UCZvLM73pSD3aSJv6_Egf8Fg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Blink Labs",
+    "website": "https://www.youtube.com/@BlinkLabs_io",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Cardano Blockchain Infrastructure Alliance",
+    "website": "https://www.youtube.com/@CardanoBlockchainInfraAlliance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Yümi & AI",
+    "website": "https://www.youtube.com/@yumiai3059",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Workshop Maybe",
+    "website": "https://www.youtube.com/@WorkshopMaybe",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Lawrence Ley",
+    "website": "https://www.youtube.com/@lawrenceley8530/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Gamechanger Finance",
+    "website": "https://www.youtube.com/@gamechanger.finance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "PG Blockchain Dev",
+    "website": "https://www.youtube.com/@PGWAD",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "The Viper Staking Team",
+    "website": "https://www.youtube.com/@viperstakepool",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Easy1 Stakepool",
+    "website": "https://www.youtube.com/@cardanoeasy1stakepoo674",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Armada Alliance",
+    "website": "https://www.youtube.com/@armada_alliance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Ikigai Technologies",
+    "website": "https://youtube.com/@ikigaitech",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "ADA MakerSpace",
+    "website": "https://www.youtube.com/@ADAMakerSpace",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Quirin Schlegel",
+    "website": "https://www.youtube.com/@--QS--",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Disruptive IT Cameroon",
+    "website": "https://youtube.com/@disruptiveitcameroon6365",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Jaiyeola Demilade",
+    "website": "https://www.youtube.com/@jaiyeolademilade5002",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Larrimar Tia",
+    "website": "https://www.youtube.com/@larrimar/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "development_youtube"]
+  },
+  {
+    "name": "Intersect",
+    "website": "https://www.youtube.com/@Intersectmbo",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "organization_youtube"]
+  },
+  {
+    "name": "Coin Ceylon",
+    "website": "https://www.youtube.com/@coinceylon",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "organization_youtube"]
+  },
+  {
+    "name": "West Africa Decentralized Alliance (WADA)",
+    "website": "https://www.youtube.com/c/Wada_org",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "organization_youtube"]
+  },
+  {
+    "name": "Input Output Global",
+    "website": "https://www.youtube.com/c/IohkIo",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "organization_youtube"]
+  },
+  {
+    "name": "IOG Academy",
+    "website": "https://www.youtube.com/@iogacademy",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "organization_youtube"]
+  },
+  {
+    "name": "Emurgo",
+    "website": "https://www.youtube.com/c/EMURGO",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "organization_youtube"]
+  },
+  {
+    "name": "Emurgo Academy",
+    "website": "https://www.youtube.com/@emurgoacademy3838",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "organization_youtube"]
+  },
+  {
+    "name": "Cardano Foundation",
+    "website": "https://www.youtube.com/@CardanoFoundation",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "organization_youtube"]
+  },
+  {
+    "name": "Cardano Blockchain Infrastructure Alliance",
+    "website": "https://www.youtube.com/@CardanoBlockchainInfraAlliance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "organization_youtube"]
+  },
+  {
+    "name": "NFT Guild",
+    "website": "https://www.youtube.com/channel/UC4aKv2_v4Zm8YFJS3VJLuOw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "organization_youtube"]
+  },
+  {
+    "name": "GM Cardano",
+    "website": "https://www.youtube.com/@gmcardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "governance_youtube"]
+  },
+  {
+    "name": "Nicolas Cerny",
+    "website": "https://www.youtube.com/@NicolasC3rny",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "governance_youtube"]
+  },
+  {
+    "name": "Odin Initiative",
+    "website": "https://www.youtube.com/@odininitiative",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "governance_youtube"]
+  },
+  {
+    "name": "Bridge Builders",
+    "website": "https://www.youtube.com/@bridgebuildersint",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "governance_youtube"]
+  },
+  {
+    "name": "Project Catalyst Official Playlist",
+    "website": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "catalyst_youtube"]
+  },
+  {
+    "name": "Catalyst Africa Town Hall",
+    "website": "https://www.youtube.com/@catalystafricatownhall1239",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "catalyst_youtube"]
+  },
+  {
+    "name": "Catalyst Eastern Town Hall",
+    "website": "https://www.youtube.com/@easterntownhall",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "catalyst_youtube"]
+  },
+  {
+    "name": "The Catalyst School",
+    "website": "https://www.youtube.com/@TheCatalystSchool",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "catalyst_youtube"]
+  },
+  {
+    "name": "Quality Assurance DAO",
+    "website": "https://www.youtube.com/@qadao",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "catalyst_youtube"]
+  },
+  {
+    "name": "Viet Core Team",
+    "website": "https://www.youtube.com/@vietcoreteam/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "catalyst_youtube"]
+  },
+  {
+    "name": "Cardano Catalyst TV",
+    "website": "https://www.youtube.com/@cardanocatalysttv5717",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "catalyst_youtube"]
+  },
+  {
+    "name": "Catalyst Swarm",
+    "website": "https://www.youtube.com/@THE-SWARM",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "catalyst_youtube"]
+  },
+  {
+    "name": "Cabaret Voltaire",
+    "website": "https://www.youtube.com/@cabaretVoltaire",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "catalyst_youtube"]
+  },
+  {
+    "name": "CardanoThor",
+    "website": "https://www.youtube.com/@CardanoThor",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "BlakeCNFT",
+    "website": "https://www.youtube.com/c/blakeCNFT",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "NFT Guild",
+    "website": "https://www.youtube.com/@nftguild",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "Aerokrator",
+    "website": "https://www.youtube.com/@aerokrator_",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "Freedom35ers",
+    "website": "https://youtube.com/@Freedom35ers",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "WenMint",
+    "website": "https://www.youtube.com/@WenMintPodcast",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "Ultimate CNFT",
+    "website": "https://www.youtube.com/@ultimatecnft",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "Atlanick",
+    "website": "https://www.youtube.com/@Atlanick",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "CNFT News",
+    "website": "https://www.youtube.com/@cnftnews",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "The Art Bank",
+    "website": "https://www.youtube.com/@theartbank",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "Daily ChroniCles",
+    "website": "https://www.youtube.com/@dailychronicles1669",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "CJ Lovelace",
+    "website": "https://www.youtube.com/@CJLovelaceCrypto",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "nft_youtube"]
+  },
+  {
+    "name": "SingularityNet",
+    "website": "https://www.youtube.com/@SingularityNET",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "World Mobile",
+    "website": "https://www.youtube.com/@WorldMobileTeam",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Lenfi",
+    "website": "https://www.youtube.com/@LenfiOfficial",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Cornucopias Game",
+    "website": "https://www.youtube.com/@CornucopiasGame",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Nunet",
+    "website": "https://www.youtube.com/@nunet_global",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Iagon",
+    "website": "https://www.youtube.com/channel/UCpIUqQSMK5cE4QncanEUpKg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Minswap",
+    "website": "https://www.youtube.com/@MinswapDEX",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Muesliswap",
+    "website": "https://www.youtube.com/@muesliswap7512/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Wingriders",
+    "website": "https://youtube.com/@wingriderscom",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Coti",
+    "website": "https://www.youtube.com/@COTIGroup",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Foreon Prediction",
+    "website": "https://www.youtube.com/@foreonnetwork",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Sundaeswap",
+    "website": "https://www.youtube.com/@sundaeswaplabs",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Genius Yield",
+    "website": "https://www.youtube.com/@geniusyield6151",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Genius X",
+    "website": "https://www.youtube.com/@GeniusXOfficial",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Encoins",
+    "website": "https://www.youtube.com/@encoins",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "VyFinance",
+    "website": "https://www.youtube.com/@VyFinance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Rejuve AI",
+    "website": "https://www.youtube.com/@RejuveAI",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+
+  {
+    "name": "NEWM",
+    "website": "https://www.youtube.com/@projectNEWM",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Pavia Metaverse",
+    "website": "https://www.youtube.com/@Pavia_io",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Clay Nation",
+    "website": "https://www.youtube.com/@claymates",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "zenGate Global",
+    "website": "https://www.youtube.com/@zenGateGlobal",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Empowa",
+    "website": "https://www.youtube.com/@empowa_io",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "NMKR",
+    "website": "https://www.youtube.com/@nmkr_io",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Book.io",
+    "website": "https://www.youtube.com/@book_io",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Andiamo",
+    "website": " https://youtube.com/@andamio",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Atrium Labs",
+    "website": "https://www.youtube.com/@AtriumLab",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "ADA Anvil",
+    "website": "https://www.youtube.com/@ada-anvil",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "CTimelines",
+    "website": "https://www.youtube.com/channel/UCp4RuX6EgQQ8MsVVM0PLJDw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "RFLXT",
+    "website": "https://www.youtube.com/@RFLXT",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Clarity",
+    "website": "https://www.youtube.com/@ClarityProtocol",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "The CardanoVerse",
+    "website": "https://www.youtube.com/@cardanoverse/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Cardania",
+    "website": "https://www.youtube.com/@cardaniaHQ",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Cardano Lands",
+    "website": "https://www.youtube.com/@CardanoLandsOfficial",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Metera Protocol",
+    "website": "https://www.youtube.com/@meteraprotocol",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Charli3 Oracle",
+    "website": "https://www.youtube.com/@charli3oracles40",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "GoKey",
+    "website": "https://www.youtube.com/@GoKeyFinance",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Tangocrypto",
+    "website": "https://www.youtube.com/channel/UCmBDcgWgk3SOQA91s-rAFZg",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Xerberus",
+    "website": "https://www.youtube.com/@xerberus_news",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Fraction Estate",
+    "website": "https://www.youtube.com/@FractionEstate",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Begin Wallet",
+    "website": "https://www.youtube.com/@beginwallet",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "WADA",
+    "website": "https://www.youtube.com/@Wada_org",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Blueshift",
+    "website": "https://www.youtube.com/@blueshiftfi",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "ADAO",
+    "website": "https://www.youtube.com/@ADAOcommunity",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Adaverse Accelerator",
+    "website": "https://www.youtube.com/@adaverseaccelerator8015",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "DEADPXLZ",
+    "website": "https://youtube.com/@deadpxlz",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "AdaStat",
+    "website": "https://www.youtube.com/@CardanoExplorer",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "project_youtube"]
+  },
+  {
+    "name": "Cardano Media Taiwan",
+    "website": "https://www.youtube.com/@cardanomediataiwan",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "mandarin_lang_youtube"]
+  },
+  {
+    "name": "Bullish Dumpling",
+    "website": "https://www.youtube.com/@BullishDumpling",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "mandarin_lang_youtube"]
+  },
+  {
+    "name": "Cardano 鬼鏈之聲",
+    "website": "http://www.youtube.com/@Cardano-%E9%AC%BC%E9%8F%88%E4%B9%8B%E8%81%B2",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "mandarin_lang_youtube"]
+  },
+  {
+    "name": "Big Lazy Cat",
+    "website": "https://www.youtube.com/@biglazycat",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "mandarin_lang_youtube"]
+  },
+  {
+    "name": "Blockchain Daily",
+    "website": "https://www.youtube.com/@blockchaindailynews",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "mandarin_lang_youtube"]
+  },
+  {
+    "name": "直男說 Men's talk",
+    "website": "https://www.youtube.com/@mens.talk.tw.official",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "mandarin_lang_youtube"]
+  },
+  {
+    "name": "Individuo Digital",
+    "website": "https://www.youtube.com/@IndividuoDigital",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "Cardano Castellano",
+    "website": "https://www.youtube.com/@CardanoCastellano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "Hermanos en Crypto",
+    "website": "https://www.youtube.com/@hermanosencrypto",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "LATAM Cardano Community",
+    "website": "https://www.youtube.com/@LATAMCardanoCommunity",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "Cardisa Latina",
+    "website": "https://youtube.com/@cardisalatina",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "Aldea DAO",
+    "website": "https://www.youtube.com/@aldeadao4287",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "Cardano Latino",
+    "website": "https://www.youtube.com/@CardanoLatino",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "Cardano Stake Pool ONE1",
+    "website": "https://www.youtube.com/@cardanostakepoolone1432/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "Crypto Latinoamérica",
+    "website": "https://youtube.com/@cryptolatinoamerica9459",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "Quixote Dream Pool",
+    "website": "https://www.youtube.com/@QuixoteDreamPool",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "Alex Pestchanker",
+    "website": "https://www.youtube.com/@alexpestchanker9356",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube", "general_youtube"]
+  },
+  {
+    "name": "Juan Sierra",
+    "website": "https://www.youtube.com/@JuanTheOne",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube", "general_youtube"]
+  },
+  {
+    "name": "Cardano Hispano",
+    "website": "https://www.youtube.com/@CardanoHispano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "CAPO Cardano",
+    "website": "https://www.youtube.com/@capocardapoolstake6145",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "spanish_lang_youtube"]
+  },
+  {
+    "name": "Mayank Kharayat",
+    "website": "https://www.youtube.com/@Mayankkharayat",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "hindi_lang_youtube"]
+  },
+  {
+    "name": "Crypto India Cardano",
+    "website": "https://www.youtube.com/@cryptoindiacardano3478",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "hindi_lang_youtube"]
+  },
+  {
+    "name": "Block Tech",
+    "website": "https://www.youtube.com/channel/UCR0naW7kjpcripfuDXgZqzw",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "hindi_lang_youtube"]
+  },
+  {
+    "name": "Crypto Bangla",
+    "website": "https://www.youtube.com/@cryptobangla5163",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "bengali_lang_youtube"]
+  },
+  {
+    "name": "Crypto Tamil",
+    "website": "https://www.youtube.com/@CryptoTamil",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "tamil_lang_youtube"]
+  },
+  {
+    "name": "Mana Cardano",
+    "website": "https://www.youtube.com/@manacardano9426",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "telugu_lang_youtube"]
+  },
+  {
+    "name": "Crypto Kranti | क्रिप्टो क्रांती ",
+    "website": "https://www.youtube.com/@CryptoKranti",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "marathi_lang_youtube"]
+  },
+  {
+    "name": "Crypto Ventures in Kannada",
+    "website": "https://www.youtube.com/@CryptoVentures7723/videos",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "kannada_lang_youtube"]
+  },
+  {
+    "name": "Online Kannada Crypto Talks",
+    "website": "https://www.youtube.com/@OnlineKannada",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "kannada_lang_youtube"]
+  },
+  {
+    "name": "Cryptolokam",
+    "website": "https://www.youtube.com/@Cryptolokam",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "malayalam_lang_youtube"]
+  },
+  {
+    "name": "Logic Chat",
+    "website": "https://www.youtube.com/@LogicChat",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "malayalam_lang_youtube"]
+  },
+  {
+    "name": "Cardanistas",
+    "website": "https://www.youtube.com/@Cardanistas",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "portuguese_lang_youtube"]
+  },
+  {
+    "name": "Catalyst School Brasil",
+    "website": "https://www.youtube.com/@CatalystBrasil",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "portuguese_lang_youtube"]
+  },
+  {
+    "name": "GovChainLab",
+    "website": "https://www.youtube.com/@GovChainLab",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "portuguese_lang_youtube"]
+  },
+  {
+    "name": "Orégano Research",
+    "website": "https://www.youtube.com/@oreganoresearch",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "portuguese_lang_youtube"]
+  },
+  {
+    "name": "Skywalker",
+    "website": "https://www.youtube.com/@SkyWalker.45B",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "portuguese_lang_youtube", "general_youtube"]
+  },
+  {
+    "name": "Maria Carmo",
+    "website": "https://www.youtube.com/@mariacarmo369",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "portuguese_lang_youtube", "general_youtube"]
+  },
+  {
+    "name": "Ouros Tech",
+    "website": "https://www.youtube.com/@OurosTech",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "portuguese_lang_youtube"]
+  },
+  {
+    "name": "Anastasia Pro",
+    "website": "https://www.youtube.com/@anastasia.pro_blockchain",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "russian_lang_youtube"]
+  },
+  {
+    "name": "Sasa Stake Pool",
+    "website": "https://www.youtube.com/@sasastakepool",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "japanese_lang_youtube"]
+  },
+  {
+    "name": "渡辺水華",
+    "website": "https://www.youtube.com/@adauser-mizca",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "japanese_lang_youtube"]
+  },
+  {
+    "name": "Cardano Asia",
+    "website": "https://www.youtube.com/@cardano.adalovelaces",
+    "teamGithubURL": "",
+    "tags": [
+      "video_channel",
+      "japanese_lang_youtube",
+      "korean_lang_youtube",
+      "vietnamese_lang_youtube",
+      "general_youtube"
+    ]
+  },
+  {
+    "name": "코리아풀",
+    "website": "https://www.youtube.com/@KoreaPool",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "korean_lang_youtube"]
+  },
+  {
+    "name": "Pan-chan",
+    "website": "https://www.youtube.com/@jgsp_cardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "japanese_lang_youtube", "general_youtube"]
+  },
+  {
+    "name": "Mang Cardano về Việt Nam",
+    "website": "https://www.youtube.com/@cardano2vn",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "vietnamese_lang_youtube"]
+  },
+  {
+    "name": "Tài Chính - Tâm An",
+    "website": "https://www.youtube.com/@taichinh-taman5516/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "vietnamese_lang_youtube"]
+  },
+  {
+    "name": "Tiger View",
+    "website": "https://www.youtube.com/@TIGERView/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "vietnamese_lang_youtube"]
+  },
+  {
+    "name": "Logauit",
+    "website": "https://www.youtube.com/@logauit",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "vietnamese_lang_youtube"]
+  },
+  {
+    "name": "Blockchain Cardano",
+    "website": "https://www.youtube.com/@blockchain_cardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "vietnamese_lang_youtube"]
+  },
+  {
+    "name": "Vcoincheck",
+    "website": "https://youtube.com/@vcoincheck",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "vietnamese_lang_youtube"]
+  },
+  {
+    "name": "Ada Bamboo",
+    "website": "https://youtube.com/@ADA-Bamboo",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "vietnamese_lang_youtube"]
+  },
+  {
+    "name": "Blockchain MKT HongMinh",
+    "website": "https://youtube.com/@HongminhMKT",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "vietnamese_lang_youtube"]
+  },
+  {
+    "name": "Cardano Ecosystem Hub in Vietnam",
+    "website": "https://youtube.com/@CeviHub",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "vietnamese_lang_youtube"]
+  },
+  {
+    "name": "Cardano Vietnam",
+    "website": "https://www.youtube.com/@cardanovietnam",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "vietnamese_lang_youtube"]
+  },
+  {
+    "name": "Cardano bel 3arabi",
+    "website": "https://www.youtube.com/@cardanati",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "standard_arabic_lang_youtube", "general_youtube"]
+  },
+  {
+    "name": " خانه ترید -  آموزش ارز دیجیتال",
+    "website": "https://www.youtube.com/@khanetrade",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "persian_lang_youtube"]
+  },
+  {
+    "name": "Alper Baran ESİN",
+    "website": "https://www.youtube.com/c/AlperBaranES%C4%B0N",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "turkish_lang_youtube"]
+  },
+  {
+    "name": "Nova Cardano Stake Pool",
+    "website": "https://www.youtube.com/@NOVApool",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "german_lang_youtube", "general_youtube"]
+  },
+  {
+    "name": "Decentralized Finance Hungary",
+    "website": "https://www.youtube.com/@DecentralizedFinanceHungary",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "hungarian_lang_youtube"]
+  },
+  {
+    "name": "Inkuba",
+    "website": "https://www.youtube.com/@inkuba790",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "french_lang_youtube"]
+  },
+  {
+    "name": "Cardano FR for Students",
+    "website": "https://www.youtube.com/@CardanoFRforstudents",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "french_lang_youtube"]
+  },
+  {
+    "name": "Uptodate Developers",
+    "website": "https://youtube.com/@uptodatedevelopers2554",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "french_lang_youtube"]
+  },
+  {
+    "name": "Podcast Cardano FR",
+    "website": "https://www.youtube.com/@podcastcardanofr4086",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "french_lang_youtube"]
+  },
+  {
+    "name": "Mike Hornan",
+    "website": "https://www.youtube.com/@hancoeur",
+    "teamGithubURL": "",
+    "tags": [
+      "video_channel",
+      "french_lang_youtube",
+      "general_youtube",
+      "development_youtube",
+      "governance_youtube"
+    ]
+  },
+  {
+    "name": "Skathy",
+    "website": "https://www.youtube.com/@SKATHYUnderstandCardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "french_lang_youtube", "general_youtube"]
+  },
+  {
+    "name": "Goma Stake Pool",
+    "website": "https://www.youtube.com/@gomastakepool5102",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "french_lang_youtube", "general_youtube"]
+  },
+  {
+    "name": "Disruptive IT Cameroon",
+    "website": "https://youtube.com/@disruptiveitcameroon6365",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "french_lang_youtube", "general_youtube"]
+  },
+  {
+    "name": "Easy1 Stake Pool",
+    "website": "https://www.youtube.com/@giannigargiulo",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "italian_lang_youtube"]
+  },
+  {
+    "name": "Dev Stake Pool",
+    "website": "https://www.youtube.com/@DEVStakePoolCardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "italian_lang_youtube", "general_youtube"]
+  },
+  {
+    "name": "Paman Kripto",
+    "website": "https://www.youtube.com/@PamanKripto",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "javanese_lang_youtube"]
+  },
+  {
+    "name": "Komunitas Cardano Indonesia",
+    "website": "https://www.youtube.com/@cardanoindonesia",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "javanese_lang_youtube"]
+  },
+  {
+    "name": "Cardano Women Indonesia",
+    "website": "https://www.youtube.com/@CardanoWomanIndonesia",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "javanese_lang_youtube"]
+  },
+  {
+    "name": "Pinoy Crypto Trader",
+    "website": "https://www.youtube.com/@pinoycryptotrader",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "tagalog_lang_youtube"]
+  },
+  {
+    "name": "Codanar",
+    "website": "https://www.youtube.com/@codanar",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "thai_lang_youtube"]
+  },
+  {
+    "name": "Cardano Nederland",
+    "website": "https://www.youtube.com/@cardanonederland",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "dutch_lang_youtube"]
+  },
+  {
+    "name": "Bitterbal Pool",
+    "website": "https://www.youtube.com/@bitterbalpool",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "dutch_lang_youtube"]
+  },
+  {
+    "name": "Varavas",
+    "website": "https://www.youtube.com/@Varavas/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "greek_lang_youtube"]
+  },
+  {
+    "name": "CardanoChefTalk",
+    "website": "https://www.youtube.com/@cardanocheftalk4779",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "greek_lang_youtube"]
+  },
+  {
+    "name": "Kersoras Monad EVM Greek Channel",
+    "website": "https://www.youtube.com/@sapiopoolgreekcardanocommu8889",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "greek_lang_youtube"]
+  },
+  {
+    "name": "The Cardano Effect",
+    "website": "https://www.youtube.com/@TheCardanoEffect/",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "inactive_youtube"]
+  },
+  {
+    "name": "Nils Codes",
+    "website": "https://www.youtube.com/@NilsCodes",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "inactive_youtube"]
+  },
+  {
+    "name": "Ada 180",
+    "website": "https://www.youtube.com/@ADA180",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "inactive_youtube"]
+  },
+  {
+    "name": "That Cardano Guy",
+    "website": "https://www.youtube.com/@ThatCardanoGuy",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "inactive_youtube"]
+  },
+  {
+    "name": "Meet Cardano",
+    "website": "https://www.youtube.com/@MeetCardano",
+    "teamGithubURL": "",
+    "tags": ["video_channel", "inactive_youtube"]
+  },
+  {
+    "name": "Cardano.org",
+    "website": "https://cardano.org/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "Intersect",
+    "website": "https://www.intersectmbo.org/",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "Input Output Global (IOG)",
+    "website": "https://iohk.io/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "The Cardano Foundation",
+    "website": "https://cardanofoundation.org/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "Cardano Roadmap",
+    "website": "https://roadmap.cardano.org/en/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "Research Library",
+    "website": "https://iohk.io/en/research/library/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["info", "official_link"]
+  },
+  {
+    "name": "Cardano for the M₳sses: A Financial OS for People Who Don't Have One",
+    "website": "https://www.amazon.com/dp/B0B912X5G6",
+    "teamGithubURL": "https://github.com/johnnygreeney",
+    "tags": ["info", "cardano_book"]
+  },
+  {
+    "name": "Cardano: The Essential Guide",
+    "website": "https://www.amazon.com/dp/B0B1DSTS3X",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_book"]
+  },
+  {
+    "name": "Cardano 101: Understanding Cardano and its Financial Opportunities",
+    "website": "https://www.amazon.com/dp/B0C524H491",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_book"]
+  },
+  {
+    "name": "Ultimate Cardano Smart Contracts: Develop Real-World Web 3.0 Projects",
+    "website": "https://www.amazon.com/Ultimate-Cardano-Smart-Contracts-Development/dp/8197396531/",
+    "teamGithubURL": "https://github.com/lley154",
+    "tags": ["info", "cardano_book"]
+  },
+  {
+    "name": "New to Cardano Guide",
+    "website": "https://docs.cardano.org/about-cardano/new-to-cardano/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "cardano_guide"]
+  },
+  {
+    "name": "CardanoPick",
+    "website": "https://cardanopick.com/",
+    "teamGithubURL": "https://github.com/nilscodes",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "Getting On Chain Guide by SelfDriven",
+    "website": "https://buildingoncardano.dev/getting-on-chain",
+    "teamGithubURL": "https://github.com/selfdriven-foundation",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "Your Cardano Onboarding Guide by Essential Cardano",
+    "website": "https://www.essentialcardano.io/article/your-cardano-onboarding-guide",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "Cardano Nexus",
+    "website": "https://www.cardanonexus.org/",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_guide_additional"]
+  },
+  {
+    "name": "The Essential Cardano Guide to the Ecosystem",
+    "website": "https://services.iohk.io/hubfs/EssentialCardano/PDF/Essential%20Cardano%20Guide%20to%20the%20Ecosystem.pdf?hsLang=en",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["info", "cardano_report"]
+  },
+  {
+    "name": "Messari Cardano Reports",
+    "website": "https://messari.io/project/cardano/research",
+    "teamGithubURL": "https://github.com/messari",
+    "tags": ["info", "cardano_report"]
+  },
+  {
+    "name": "Cardano: A New Generation In Smart Contract Platform Design",
+    "website": "https://blog.kraken.com/crypto-education/kraken-intelligence/cardano-a-new-generation-in-smart-contract-platform-design",
+    "teamGithubURL": "https://github.com/krakenfx",
+    "tags": ["info", "cardano_report"]
+  },
+  {
+    "name": "Digital Defense Open-Source Checklist",
+    "website": "https://digital-defense.io/",
+    "teamGithubURL": "https://github.com/lissy93",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "Cardano Ninja",
+    "website": "https://cardano.ninja/",
+    "teamGithubURL": "https://github.com/selfdriven-foundation",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "Getting Started: Basic Personal Cybersecurity for Everyone",
+    "website": "https://avoidthehack.com/getting-started-cybersecurity",
+    "teamGithubURL": "",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "Secure Your Crypto Life, Avoid Scams & Protect Your Crypto Assets Video",
+    "website": "https://www.youtube.com/watch?v=W2YeB5clm0k",
+    "teamGithubURL": "https://github.com/pbwebdev",
+    "tags": ["info", "security_guide"]
+  },
+  {
+    "name": "Blockchain Education Program",
+    "website": "https://academy.cardanofoundation.org/",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "cardano_full_course"]
+  },
+  {
+    "name": "Kaizen Crypto Cardano 101 Course",
+    "website": "https://www.youtube.com/playlist?list=PLrbMFdXZnzoAwfxIVo-SQ_qEBCqbwuU6o",
+    "teamGithubURL": "",
+    "tags": ["info", "cardano_full_course"]
+  },
+  {
+    "name": "Blockchain & Argentina: Past & present",
+    "website": "https://www.youtube.com/watch?v=SkixwjCzQ9c",
+    "teamGithubURL": "https://github.com/charleshoskinson",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
+    "name": "Getting Started Guide to Cardano ADA",
+    "website": "https://www.youtube.com/watch?v=vOqjHEnoRWU",
+    "teamGithubURL": "https://github.com/pbwebdev",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
+    "name": "Charles Hoskinson 2017 Whiteboard",
+    "website": "https://www.youtube.com/watch?v=Ja9D0kpksxw",
+    "teamGithubURL": "https://github.com/charleshoskinson",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
+    "name": "The Next Evolution of Cardano",
+    "website": "https://www.youtube.com/watch?v=_s4OauGIzNg",
+    "teamGithubURL": "https://github.com/charleshoskinson",
+    "tags": ["info", "cardano_intro_video"]
+  },
+  {
+    "name": "Littlefish Foundation ISPO Guide",
+    "website": "https://vault.littlefish.foundation/F.+Cardano/ISPO+-+What%2C+Why%2C+How%3F",
+    "teamGithubURL": "https://github.com/littlefish-foundation",
+    "tags": ["info", "what_is_an_ispo"]
+  },
+  {
+    "name": "CardanoSpot ISPO Guide",
+    "website": "https://cardanospot.io/news/initial-stake-pool-offering-ispo-on-cardano-ecosystem-0",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["info", "what_is_an_ispo"]
+  },
+  {
+    "name": "Cointelegraph ISPO 101",
+    "website": "https://cointelegraph.com/learn/ispo-101-a-beginners-guide-on-initial-stake-pool-offerings",
+    "teamGithubURL": "",
+    "tags": ["info", "what_is_an_ispo"]
+  },
+  {
+    "name": "Getting started with Prometheus",
+    "website": "https://prometheus.io/docs/prometheus/latest/getting_started/",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_prometheus"]
+  },
+  {
+    "name": "Installing Prometheus for Cardano",
+    "website": "https://cardano-course.gitbook.io/cardano-course/handbook/monitoring-our-nodes",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_prometheus"]
+  },
+  {
+    "name": "Prometheus Grafana Support",
+    "website": "https://prometheus.io/docs/visualization/grafana/",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_prometheus"]
+  },
+  {
+    "name": "Install Grafana Locally",
+    "website": "https://grafana.com/get/?plcmt=top-nav&cta=downloads&tab=self-managed",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_grafana"]
+  },
+  {
+    "name": "Use Grafana from the Cloud",
+    "website": "https://grafana.com/get/?plcmt=top-nav&cta=downloads",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_grafana"]
+  },
+  {
+    "name": "Improve Grafana Security for Cardano",
+    "website": "https://developers.cardano.org/docs/operate-a-stake-pool/improve-grafana-security/",
+    "teamGithubURL": "",
+    "tags": ["info", "get_started_with_grafana"]
+  },
+  {
+    "name": "CoinCashew Installing Prometheus and Grafana",
+    "website": "https://www.coincashew.com/coins/overview-ada/guide-how-to-build-a-haskell-stakepool-node/part-iii-operation/setting-up-dashboards",
+    "teamGithubURL": "",
+    "tags": ["info", "prometheus_grafana_full_setup_guide"]
+  },
+  {
+    "name": "Guild Operators Monitoring Guide",
+    "website": "https://cardano-community.github.io/guild-operators/Appendix/monitoring/",
+    "teamGithubURL": "",
+    "tags": ["info", "prometheus_grafana_full_setup_guide"]
+  },
+  {
+    "name": "Cardano Dev Docs: Grafana Tutorial",
+    "website": "https://developers.cardano.org/docs/operate-a-stake-pool/grafana-dashboard-tutorial/",
+    "teamGithubURL": "",
+    "tags": ["info", "prometheus_grafana_full_setup_guide"]
+  },
+  {
+    "name": "EDEN Prometheus and Grafana Video Tutorial",
+    "website": "https://youtu.be/oImqk-eubfs",
+    "teamGithubURL": "",
+    "tags": ["info", "prometheus_grafana_full_setup_guide"]
+  },
+  {
+    "name": "CodiLime Monitoring Node with Prometheus and Grafana Video",
+    "website": "https://www.youtube.com/watch?v=opSlGGa6lLg",
+    "teamGithubURL": "",
+    "tags": ["info", "prometheus_grafana_full_setup_guide"]
+  },
+  {
+    "name": "Armada Alliance Grafana Dashboards",
+    "website": "https://github.com/armada-alliance/dashboards",
+    "teamGithubURL": "https://github.com/armada-alliance",
+    "tags": ["info", "custom_grafana_dashboard"]
+  },
+  {
+    "name": "Kirael Grafana Dashboard",
+    "website": "https://github.com/Kirael12/Cardano-Grafana-Dashboards",
+    "teamGithubURL": "https://github.com/Kirael12",
+    "tags": ["info", "custom_grafana_dashboard"]
+  },
+  {
+    "name": "Carpool Grafana Dashboard",
+    "website": "https://github.com/CardenPool/Cardano-Stake-Pool-Grafana-Dashboard",
+    "teamGithubURL": "https://github.com/CardenPool",
+    "tags": ["info", "custom_grafana_dashboard"]
+  },
+  {
+    "name": "Cardano Spot Check Guide",
+    "website": "https://blockchainlens.gitbook.io/cardano-spot-check/basic-checks/advanced",
+    "teamGithubURL": "https://github.com/adacapital",
+    "tags": ["info", "pool_monitoring_info"]
+  },
+  {
+    "name": "Cardano Docs: Stake Pool Monitoring",
+    "website": "https://docs.cardano.org/stake-pool-operators/monitoring/",
+    "teamGithubURL": "https://github.com/input-output-hk",
+    "tags": ["info", "pool_monitoring_info"]
+  },
+  {
+    "name": "Cardano Developer Docs: Operator Tools",
+    "website": "https://github.com/cardano-foundation/developer-portal",
+    "teamGithubURL": "https://github.com/cardano-foundation",
+    "tags": ["info", "pool_monitoring_info"]
+  },
+  {
+    "name": "Guild Operators Tools",
+    "website": "https://cardano-community.github.io/guild-operators/build/",
+    "teamGithubURL": "https://github.com/cardano-community",
+    "tags": ["info", "pool_monitoring_info"]
+  },
+  {
+    "name": "Cardano Glossary",
+    "website": "https://cardanobook.com/glossary/",
+    "teamGithubURL": "https://github.com/johnnygreeney",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Web3 Glossary",
+    "website": "https://cardanowomen.io/web3-glossary",
+    "teamGithubURL": "",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "DeFi Glossary",
+    "website": "https://wiki.axo.trade/axo-defi-glossary",
+    "teamGithubURL": "",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Governance Glossary",
+    "website": "https://docs.intersectmbo.org/glossary/general-glossary",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Cardano Vocab",
+    "website": "https://www.adastack.io/intro_to_cardano/cardano_vocab",
+    "teamGithubURL": "https://github.com/adastackio",
+    "tags": ["info", "glossary_top"]
+  },
+  {
+    "name": "Intersect Open Source Glossary",
+    "website": "https://docs.intersectmbo.org/legal/policies-and-conditions/intersect-open-source-glossary",
+    "teamGithubURL": "https://github.com/IntersectMBO",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "Cardano Spot Vocabulary",
+    "website": "https://cardanospot.io/wiki/vocabulary/a",
+    "teamGithubURL": "https://github.com/emurgo",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "NMKR Glossary",
+    "website": "https://www.nmkr.io/glossary",
+    "teamGithubURL": "https://github.com/nftmakerio",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "Wolfram Blockchain Labs Glossary",
+    "website": "https://www.wolframblockchainlabs.com/dashboard/resources/glossary",
+    "teamGithubURL": "https://github.com/WolframBlockchainLabs",
+    "tags": ["info", "glossary_additional"]
+  },
+  {
+    "name": "Essential Cardano Glossary",
+    "website": "https://www.essentialcardano.io/glossary?sort=alphabetical",
+    "teamGithubURL": "https://github.com/cardano-foundation/",
+    "tags": ["info", "glossary_additional"]
+  }
+]
