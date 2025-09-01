@@ -11,7 +11,26 @@ import openSourceBuildersData from "../../data/builders.json";
 export const getStaticProps = async () => {
   try {
     const allRepos = await openSourceBuildersAPI(openSourceBuildersData);
-    const sortedOSBuilderData = allRepos.sort((a, b) => {
+    
+    // Filter out completely failed requests (those with only error data)
+    const validRepos = allRepos.filter(repo => 
+      repo.starCount !== undefined || repo.mostRecentRepo || repo.mostStarredRepo
+    );
+    
+    // If we have some valid data, use it; otherwise fall back to basic data
+    const dataToUse = validRepos.length > 0 ? allRepos : openSourceBuildersData.map((team, index) => ({
+      ...team,
+      key: `fallback-${index}-${team.website}`,
+      starCount: 0,
+      repos: [],
+      repoCount: 0,
+      mostRecentRepo: null,
+      mostStarredRepo: null,
+      reposOnGithub: team.teamGithubURL,
+      error: "GitHub API unavailable",
+    }));
+    
+    const sortedOSBuilderData = dataToUse.sort((a, b) => {
       const dateA = new Date(a.mostRecentRepo?.pushedAt || 0).getTime();
       const dateB = new Date(b.mostRecentRepo?.pushedAt || 0).getTime();
       return dateB - dateA;
@@ -19,14 +38,28 @@ export const getStaticProps = async () => {
 
     return {
       props: { sortedOSBuilderData },
-      revalidate: 600,
+      revalidate: 300, // Reduced to 5 minutes for faster recovery
     };
 
 } catch (error) {
 console.error('Failed to fetch open source builders data:', error);
+
+// Always provide fallback data instead of notFound
+const fallbackData = openSourceBuildersData.map((team, index) => ({
+  ...team,
+  key: `error-fallback-${index}-${team.website}`,
+  starCount: 0,
+  repos: [],
+  repoCount: 0,
+  mostRecentRepo: null,
+  mostStarredRepo: null,
+  reposOnGithub: team.teamGithubURL,
+  error: "Service temporarily unavailable",
+}));
+
 return {
-props: { sortedOSBuilderData: [] },
-notFound: true,
+props: { sortedOSBuilderData: fallbackData },
+revalidate: 60, // Try again sooner when in error state
 };
 }
 };

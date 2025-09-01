@@ -169,8 +169,14 @@ const openSourceBuildersAPI = async (teamData) => {
   // Filter out teams with empty GitHub URLs first
   const validTeams = teamData.filter(team => team.teamGithubURL && team.teamGithubURL.trim() !== "");
   
+  // Add delay between requests to avoid rate limiting
+  const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+  
   // Add timeout wrapper for each team processing
   const processTeamWithTimeout = async (team, index) => {
+    // Add staggered delay based on index to spread out requests
+    await delay(index * 100); // 100ms delay between each team
+    
     return Promise.race([
       new Promise(async (resolve) => {
         const result = await processTeam(team, index);
@@ -189,7 +195,7 @@ const openSourceBuildersAPI = async (teamData) => {
             reposOnGithub: team.teamGithubURL,
             error: "Request timed out",
           });
-        }, 10000); // 10 second timeout per team
+        }, 15000); // Increased timeout to 15 seconds per team
       })
     ]);
   };
@@ -260,9 +266,24 @@ const openSourceBuildersAPI = async (teamData) => {
       }
   };
 
-  return Promise.all(
-    validTeams.map(processTeamWithTimeout)
-  );
+  // Process teams in smaller batches to avoid overwhelming GitHub API
+  const results = [];
+  const batchSize = 5; // Process 5 teams at a time
+  
+  for (let i = 0; i < validTeams.length; i += batchSize) {
+    const batch = validTeams.slice(i, i + batchSize);
+    const batchResults = await Promise.all(
+      batch.map((team, batchIndex) => processTeamWithTimeout(team, i + batchIndex))
+    );
+    results.push(...batchResults);
+    
+    // Add delay between batches to be extra careful with rate limits
+    if (i + batchSize < validTeams.length) {
+      await delay(500); // 500ms delay between batches
+    }
+  }
+  
+  return results;
 };
 
 export default openSourceBuildersAPI;
