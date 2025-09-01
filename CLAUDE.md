@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Rules
+
+- Never try to commit code directly, but do suggest concise commit messages at logical progression points.
+
 ## Development Commands
 
 **Build and Development:**
