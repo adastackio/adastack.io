@@ -46,6 +46,10 @@
     "tailwindcss": "^3.4.16",
     "typescript": "^5.7.2"
   },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
   "pnpm": {
     "overrides": {
       "flexsearch": "0.7.31"
