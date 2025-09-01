@@ -14,7 +14,7 @@ export default {
     display: "hidden",
     theme: {
       breadcrumb: true,
-      sidebar: true,
+      sidebar: false,
       toc: true,
       footer: true,
       pagination: false,
