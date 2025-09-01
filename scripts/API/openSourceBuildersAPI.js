@@ -166,14 +166,43 @@ const calculateRepoStats = (repos) => {
 };
 
 const openSourceBuildersAPI = async (teamData) => {
-  return Promise.all(
-    teamData.map(async (team, index) => {
+  // Filter out teams with empty GitHub URLs first
+  const validTeams = teamData.filter(team => team.teamGithubURL && team.teamGithubURL.trim() !== "");
+  
+  // Add timeout wrapper for each team processing
+  const processTeamWithTimeout = async (team, index) => {
+    return Promise.race([
+      new Promise(async (resolve) => {
+        const result = await processTeam(team, index);
+        resolve(result);
+      }),
+      new Promise((resolve) => {
+        setTimeout(() => {
+          resolve({
+            ...team,
+            key: `key-${index}-${team.website}`,
+            starCount: 0,
+            repos: [],
+            repoCount: 0,
+            mostRecentRepo: null,
+            mostStarredRepo: null,
+            reposOnGithub: team.teamGithubURL,
+            error: "Request timed out",
+          });
+        }, 10000); // 10 second timeout per team
+      })
+    ]);
+  };
+
+  const processTeam = async (team, index) => {
       try {
-        if (!team.teamGithubURL) {
-          throw new Error("Team URL is missing");
+        // Handle URLs with missing protocol
+        let githubURL = team.teamGithubURL;
+        if (!githubURL.startsWith('http')) {
+          githubURL = 'https://' + githubURL;
         }
 
-        const urlParts = new URL(team.teamGithubURL).pathname
+        const urlParts = new URL(githubURL).pathname
           .split("/")
           .filter(Boolean);
 
@@ -188,6 +217,21 @@ const openSourceBuildersAPI = async (teamData) => {
         const reposOnGithub = urlParts[0].startsWith("@")
           ? `https://github.com/orgs/${repoOwner.substring(1)}/repositories`
           : `https://github.com/${repoOwner}?tab=repositories`;
+
+        // Handle case where stats might be null (no repos found)
+        if (!stats) {
+          return {
+            ...team,
+            key: `key-${index}-${team.website}`,
+            starCount: 0,
+            repoCount: 0,
+            repos: [],
+            mostRecentRepo: null,
+            mostStarredRepo: null,
+            reposOnGithub,
+            error: null,
+          };
+        }
 
         return {
           ...team,
@@ -205,16 +249,19 @@ const openSourceBuildersAPI = async (teamData) => {
         return {
           ...team,
           key: `key-${index}-${team.website}`,
-          starCount: null,
-          repos: null,
-          repoCount: null,
+          starCount: 0,
+          repos: [],
+          repoCount: 0,
           mostRecentRepo: null,
           mostStarredRepo: null,
-          reposOnGithub: null,
+          reposOnGithub: team.teamGithubURL, // fallback to original URL
           error: error.message || "An unknown error occurred",
         };
       }
-    })
+  };
+
+  return Promise.all(
+    validTeams.map(processTeamWithTimeout)
   );
 };
 
