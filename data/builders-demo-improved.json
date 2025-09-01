@@ -520,5 +520,119 @@
     "website": "https://www.wagmigame.io/",
     "teamGithubURL": "https://github.com/wagmigame",
     "tags": ["game_studio"]
+  },
+  {
+    "name": "WingRiders",
+    "website": "https://www.wingriders.com/",
+    "teamGithubURL": "https://github.com/WingRiders",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "DripDropz",
+    "website": "https://dripdropz.io",
+    "teamGithubURL": "https://github.com/DripDropz",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Teddyswap",
+    "website": "https://app.teddyswap.org/",
+    "teamGithubURL": "https://github.com/teddy-swap",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Coinecta",
+    "website": "https://coinecta.fi/",
+    "teamGithubURL": "https://github.com/coinecta",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Paribus",
+    "website": "https://paribus.io/",
+    "teamGithubURL": "https://github.com/paribus",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Eternl Wallet",
+    "website": "https://eternl.io/",
+    "teamGithubURL": "https://github.com/Tastenkunst",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Charli3",
+    "website": "https://charli3.io/",
+    "teamGithubURL": "https://github.com/Charli3-Official",
+    "tags": ["tools"]
+  },
+  {
+    "name": "Rosen Bridge",
+    "website": "https://rosen.tech/",
+    "teamGithubURL": "https://github.com/rosen-bridge",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Ray Network",
+    "website": "https://raynetwork.io/",
+    "teamGithubURL": "https://github.com/xray-network",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Kreate Art",
+    "website": "https://kreate.community/",
+    "teamGithubURL": "https://github.com/kreate-art",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Jam on Bread",
+    "website": "https://jamonbread.io/",
+    "teamGithubURL": "https://github.com/JamOnBread",
+    "tags": ["dapp", "nft_marketplace"]
+  },
+  {
+    "name": "Empowa",
+    "website": "https://empowa.io/",
+    "teamGithubURL": "https://github.com/empowa-io",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "IAMX",
+    "website": "https://iamx.id/",
+    "teamGithubURL": "https://github.com/iamxid",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Socious.io",
+    "website": "https://socious.io/",
+    "teamGithubURL": "https://github.com/socious-io",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "ZenGate",
+    "website": "https://www.zengate.global/",
+    "teamGithubURL": "https://github.com/zenGate-Global",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Encoins",
+    "website": "https://encoins.io/",
+    "teamGithubURL": "https://github.com/encryptedcoins",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Cerra.io",
+    "website": "https://cerra.io/",
+    "teamGithubURL": "https://github.com/cerraio",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "TosiDrop",
+    "website": "https://tosidrop.io/",
+    "teamGithubURL": "https://github.com/TosiDrop",
+    "tags": ["dapp"]
+  },
+  {
+    "name": "Trustlevel",
+    "website": "https://www.trustlevel.io/",
+    "teamGithubURL": "https://github.com/TrustLevel",
+    "tags": ["dapp"]
   }
 ]
