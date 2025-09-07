@@ -5926,6 +5926,12 @@
     "teamGithubURL": "https://github.com/JamOnBread",
     "tags": ["info", "nft_guide"]
   },
+    {
+    "name": "jpg.store",
+    "website": "https://www.jpg.store/",
+    "teamGithubURL": "https://github.com/jpg-store",
+    "tags": ["dapp", "nft_marketplace"]
+  },
   {
     "name": "Kreate Art",
     "website": "https://kreate.community/",
