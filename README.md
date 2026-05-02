@@ -1,3 +1,20 @@
+# Archived — no longer maintained
+
+This repository is the previous open-source version of Adastack, the Cardano
+Ecosystem Explorer. It is preserved here for historical reference under its
+original MIT license.
+
+**The current Adastack site lives at [adastack.io](https://adastack.io)** and
+is now developed as a closed-source project. Adastack explored several paths
+to support open-source development, including Catalyst funding proposals,
+and ultimately consolidated into a closed-source codebase to keep the project
+sustainable as a solo project long-term.
+
+Issues and pull requests on this repository are no longer monitored. Thanks
+to everyone who contributed during the open-source phase.
+
+---
+
 <img width="1328" alt="adastack banner" src="https://github.com/user-attachments/assets/df2be1f9-aa00-49f3-a40d-b01629f097a8">
 
 # Adastack Cardano Explorer
